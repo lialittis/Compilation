@@ -38,6 +38,16 @@ let new_pat ({ texpr_type= ty; texpr_loc = loc } as e) =
     et ajoute à [ctx] les équations introduites lors de la normalisation.
 *)
 let rec normalize ctx e =
+(*
+  let substitute_with_id () =
+	let new_id = gen_new_id () in
+	let new_id_ty = e.pexpr_ty in
+	let new_id_ck = e.pexpr_clk in
+	let new_eq = {peq_expr = e; peq_pqtt = {ppatt_desc = TE_ident(new_id); ppatt_loc = Lexing.dummy_pos, Lexing.dummy_pos;};} in
+	let ctx = normalize_eq new_eq ctx in
+	{e with pexpr_desc = TE_ident(new_id)}, {param_id = new_id; param_ty = new_id_ty; param_ck = new_id_ck;}::ctx
+	in
+*)
   match e.texpr_desc with
   | TE_const _ | TE_ident _ -> ctx, e
 
@@ -46,7 +56,10 @@ let rec normalize ctx e =
       ctx, { e with texpr_desc = TE_unop(op,e1') }
 
   | TE_binop(op,e1,e2) ->
-      ctx, e (* TODO *)
+	  let ctx, e1' = normalize ctx e1 in
+	  let ctx, e2' = normalize ctx e2 in
+	  ctx, {e with texpr_desc = TE_binop(op,e1',e2')}
+      (* DONE *)
 
   | TE_app(n,le) ->
       let (new_vars,new_eqs), le' = normalize_list ctx le in
@@ -86,8 +99,10 @@ let rec normalize ctx e =
       ctx, { e with texpr_desc = TE_tuple l'}
 
   | TE_fby(c,e1) ->
+  	  let ctx e1' = normalize ctx e1 in
+  	  ctx, {e with texpr_desc = TE_fby(c,e1')}
       (* c fby e1 => x, { x = c fby y; y = normalize e1; } *)
-      ctx, e (* TODO *)
+      (* DONE *)
 
 and normalize_list ctx l =
   let ctx, l =

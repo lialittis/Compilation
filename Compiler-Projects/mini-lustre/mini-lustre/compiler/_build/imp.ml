@@ -36,7 +36,10 @@ let rec compile_base_expr e =
         let ce2 =  compile_base_expr e2 in
         ME_binop (op, ce1, ce2)
     | TE_if (e1, e2, e3) ->
-        assert false (* TODO *)
+		let ce1 = compile_base_expr e1 in
+        let ce2 = compile_base_expr e2 in
+		let ce3 = compile_base_expr e3 in
+		ME_if (ce1,ce2,ce3) (* DONE *)
     | TE_tuple el -> ME_tuple (List.map compile_base_expr el)
     | TE_print el -> ME_print (List.map compile_base_expr el)
     | TE_fby _ -> assert false (* impossible car en forme normale *)
@@ -72,11 +75,35 @@ let compile_equation
      (update_acc: (string * Imp_ast.atom) list)) =
   let tvars = compile_patt p in
   match e.texpr_desc with
-  | TE_fby(e1,e2) ->
-      mem_acc, init_acc, compute_acc, update_acc (* TODO *)
+  | TE_fby(e1,e2) -> begin 
+	  (* compile the base expression e1 and e2*)
+	  (* note that here e1 is const list and e2 is t_expr *)
+	  (*let ce1 = compile_base_expr e1 (*return type is m_expr*) in*)
+	  let ce2 = compile_base_expr e2 (*return type is m_expr*) in
+	  let new_fby_init = ((List.fold_left (fun e' -> gen_next_id e') e1), e1) in 
+	  let new_fby_mem = ((gen_next_id ce2), ce2.mexpr_type) in 
+	  let new_mem_acc = {fby_mem = new_fby_mem::(mem_acc.fby_mem); node_mem = mem_acc.node_mem} in
+	  let new_init_acc = {fby_init = new_fby_init::(mem_acc.fby_init); node_init = mem_acc.node_init} in
+	  let eq1 = {meq_patt = tvars; meq_expr = ce1} in
+	  let eq2 = {meq_patt = tvars; meq_expr = ce2} in
+	  let ae1 = compile_atoms e1 in
+	  let ae2 = compile_atoms e2 in
+      new_mem_acc, new_init_acc, eq2::eq1::compute_acc, ae2::ae1::update_acc (* DONE *)
+	end
 
-  | TE_app(n,el) ->
-      mem_acc, init_acc, compute_acc, update_acc (* TODO *)
+  | TE_app(n,el) -> begin
+      (* generate a new node mem*)
+	  let new_node_mem = ((gen_mem_id n), n) in
+	  (* adding it to the record of mem_acc *)
+	  let new_mem_acc = {fby_mem = mem_acc.fby_mem ; node_mem = new_node_mem::(mem_acc.node_mem) } in
+	  let new_el = List.map (fun e1 -> compile_base_expr e1) el in
+	  let new_init_acc = 
+		if init_acc = empty_init then {fby_init = mem_acc.fby_init; node_init = new_node_mem} else init_acc in
+	  let new_compute_acc = List.append new_el compute_acc in
+	  let ael = List.map (fun e1 -> compile_atoms e1) el in
+	  let new_update_acc = List.append ael update_acc in
+      new_mem_acc, new_init_acc, new_compute_acc, new_update_acc (* DONE *)
+	end
 
   | _ ->
       let eq = {meq_patt = tvars; meq_expr = compile_base_expr e} in

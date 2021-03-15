@@ -59,7 +59,7 @@ let rec normalize ctx e =
 	  let ctx, e1' = normalize ctx e1 in
 	  let ctx, e2' = normalize ctx e2 in
 	  ctx, {e with texpr_desc = TE_binop(op,e1',e2')}
-      (* TODO *)
+      (* DONE *)
 
   | TE_app(n,le) ->
       let (new_vars,new_eqs), le' = normalize_list ctx le in
@@ -102,7 +102,7 @@ let rec normalize ctx e =
   	  let ctx e1' = normalize ctx e1 in
   	  ctx, {e with texpr_desc = TE_fby(c,e1')}
       (* c fby e1 => x, { x = c fby y; y = normalize e1; } *)
-      (* TODO *)
+      (* DONE *)
 
 and normalize_list ctx l =
   let ctx, l =

@@ -1,92 +1,69 @@
 ### Starting build.
 # Target: minilustre.ml.depends, tags: { annot, debug, extension:ml, file:minilustre.ml, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules minilustre.ml > minilustre.ml.depends
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules minilustre.ml > minilustre.ml.depends # cached
 # Target: ast.mli.depends, tags: { annot, debug, extension:mli, file:ast.mli, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules ast.mli > ast.mli.depends
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules ast.mli > ast.mli.depends # cached
 # Target: asttypes.mli.depends, tags: { annot, debug, extension:mli, file:asttypes.mli, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules asttypes.mli > asttypes.mli.depends
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules asttypes.mli > asttypes.mli.depends # cached
 # Target: asttypes.cmi, tags: { annot, byte, compile, debug, extension:mli, file:asttypes.mli, interf, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o asttypes.cmi asttypes.mli
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o asttypes.cmi asttypes.mli # cached
+# Target: ast.cmi, tags: { annot, byte, compile, debug, extension:mli, file:ast.mli, interf, ocaml, quiet }
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o ast.cmi ast.mli # cached
 # Target: checks.ml.depends, tags: { annot, debug, extension:ml, file:checks.ml, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules checks.ml > checks.ml.depends
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules checks.ml > checks.ml.depends # cached
 # Target: scheduling.ml.depends, tags: { annot, debug, extension:ml, file:scheduling.ml, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules scheduling.ml > scheduling.ml.depends
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules scheduling.ml > scheduling.ml.depends # cached
 # Target: typed_ast.mli.depends, tags: { annot, debug, extension:mli, file:typed_ast.mli, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules typed_ast.mli > typed_ast.mli.depends
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules typed_ast.mli > typed_ast.mli.depends # cached
 # Target: typed_ast.cmi, tags: { annot, byte, compile, debug, extension:mli, file:typed_ast.mli, interf, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o typed_ast.cmi typed_ast.mli
-# Target: typed_ast_utils.ml.depends, tags: { annot, debug, extension:ml, file:typed_ast_utils.ml, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules typed_ast_utils.ml > typed_ast_utils.ml.depends
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o typed_ast.cmi typed_ast.mli # cached
 # Target: scheduling.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:scheduling.cmo, file:scheduling.ml, implem, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o scheduling.cmo scheduling.ml
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o scheduling.cmo scheduling.ml # cached
+# Target: typed_ast_utils.ml.depends, tags: { annot, debug, extension:ml, file:typed_ast_utils.ml, ocaml, ocamldep, quiet }
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules typed_ast_utils.ml > typed_ast_utils.ml.depends # cached
 # Target: typed_ast_utils.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:typed_ast_utils.cmo, file:typed_ast_utils.ml, implem, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o typed_ast_utils.cmo typed_ast_utils.ml
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o typed_ast_utils.cmo typed_ast_utils.ml # cached
+# Target: checks.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:checks.cmo, file:checks.ml, implem, ocaml, quiet }
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o checks.cmo checks.ml # cached
 # Target: imp.ml.depends, tags: { annot, debug, extension:ml, file:imp.ml, ocaml, ocamldep, quiet }
 /home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules imp.ml > imp.ml.depends
 # Target: imp_ast.mli.depends, tags: { annot, debug, extension:mli, file:imp_ast.mli, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules imp_ast.mli > imp_ast.mli.depends
-# Target: typing.ml.depends, tags: { annot, debug, extension:ml, file:typing.ml, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules typing.ml > typing.ml.depends
-# Target: ast.cmi, tags: { annot, byte, compile, debug, extension:mli, file:ast.mli, interf, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o ast.cmi ast.mli
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules imp_ast.mli > imp_ast.mli.depends # cached
 # Target: imp_ast.cmi, tags: { annot, byte, compile, debug, extension:mli, file:imp_ast.mli, interf, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o imp_ast.cmi imp_ast.mli
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o imp_ast.cmi imp_ast.mli # cached
+# Target: typing.ml.depends, tags: { annot, debug, extension:ml, file:typing.ml, ocaml, ocamldep, quiet }
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules typing.ml > typing.ml.depends # cached
 # Target: typing.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:typing.cmo, file:typing.ml, implem, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o typing.cmo typing.ml
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o typing.cmo typing.ml # cached
 # Target: lexer.mll, tags: { annot, debug, extension:mll, file:lexer.mll, lexer, ocaml, ocamllex, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamllex.opt -q lexer.mll
+/home/tianchi/.opam/4.09.0/bin/ocamllex.opt -q lexer.mll # cached
 # Target: lexer.ml.depends, tags: { annot, debug, extension:ml, file:lexer.ml, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules lexer.ml > lexer.ml.depends
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules lexer.ml > lexer.ml.depends # cached
 # Target: parser.mly, tags: { annot, debug, extension:mly, file:parser.mly, infer, ocaml, ocamlyacc, parser, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlyacc parser.mly
+/home/tianchi/.opam/4.09.0/bin/ocamlyacc parser.mly # cached
 # Target: parser.mli.depends, tags: { annot, debug, extension:mli, file:parser.mli, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules parser.mli > parser.mli.depends
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules parser.mli > parser.mli.depends # cached
 # Target: parser.cmi, tags: { annot, byte, compile, debug, extension:mli, file:parser.mli, interf, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o parser.cmi parser.mli
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o parser.cmi parser.mli # cached
+# Target: lexer.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:lexer.cmo, file:lexer.ml, implem, ocaml, quiet }
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o lexer.cmo lexer.ml # cached
 # Target: normalization.ml.depends, tags: { annot, debug, extension:ml, file:normalization.ml, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules normalization.ml > normalization.ml.depends
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules normalization.ml > normalization.ml.depends # cached
 # Target: ocaml_printer.ml.depends, tags: { annot, debug, extension:ml, file:ocaml_printer.ml, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules ocaml_printer.ml > ocaml_printer.ml.depends
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules ocaml_printer.ml > ocaml_printer.ml.depends # cached
+# Target: ocaml_printer.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:ocaml_printer.cmo, file:ocaml_printer.ml, implem, ocaml, quiet }
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o ocaml_printer.cmo ocaml_printer.ml # cached
 # Target: typed_ast_printer.ml.depends, tags: { annot, debug, extension:ml, file:typed_ast_printer.ml, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules typed_ast_printer.ml > typed_ast_printer.ml.depends
-# Target: checks.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:checks.cmo, file:checks.ml, implem, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o checks.cmo checks.ml
+/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules typed_ast_printer.ml > typed_ast_printer.ml.depends # cached
+# Target: typed_ast_printer.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:typed_ast_printer.cmo, file:typed_ast_printer.ml, implem, ocaml, quiet }
+/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o typed_ast_printer.cmo typed_ast_printer.ml # cached
 # Target: imp.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:imp.cmo, file:imp.ml, implem, ocaml, quiet }
 /home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o imp.cmo imp.ml
-# Target: lexer.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:lexer.cmo, file:lexer.ml, implem, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o lexer.cmo lexer.ml
-# Target: normalization.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:normalization.cmo, file:normalization.ml, implem, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o normalization.cmo normalization.ml
-# Target: ocaml_printer.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:ocaml_printer.cmo, file:ocaml_printer.ml, implem, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o ocaml_printer.cmo ocaml_printer.ml
-# Target: typed_ast_printer.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:typed_ast_printer.cmo, file:typed_ast_printer.ml, implem, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o typed_ast_printer.cmo typed_ast_printer.ml
-# Target: minilustre.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:minilustre.cmo, file:minilustre.ml, implem, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o minilustre.cmo minilustre.ml
-# Target: scheduling.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:scheduling.cmx, file:scheduling.ml, implem, native, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -c -g -annot -o scheduling.cmx scheduling.ml
-# Target: typed_ast_utils.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:typed_ast_utils.cmx, file:typed_ast_utils.ml, implem, native, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -c -g -annot -o typed_ast_utils.cmx typed_ast_utils.ml
-# Target: typing.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:typing.cmx, file:typing.ml, implem, native, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -c -g -annot -o typing.cmx typing.ml
-# Target: parser.ml.depends, tags: { annot, debug, extension:ml, file:parser.ml, ocaml, ocamldep, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamldep.opt -modules parser.ml > parser.ml.depends
-# Target: parser.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:parser.cmx, file:parser.ml, implem, native, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -c -g -annot -o parser.cmx parser.ml
-# Target: checks.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:checks.cmx, file:checks.ml, implem, native, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -c -g -annot -o checks.cmx checks.ml
-# Target: imp.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:imp.cmx, file:imp.ml, implem, native, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -c -g -annot -o imp.cmx imp.ml
-# Target: lexer.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:lexer.cmx, file:lexer.ml, implem, native, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -c -g -annot -o lexer.cmx lexer.ml
-# Target: normalization.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:normalization.cmx, file:normalization.ml, implem, native, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -c -g -annot -o normalization.cmx normalization.ml
-# Target: ocaml_printer.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:ocaml_printer.cmx, file:ocaml_printer.ml, implem, native, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -c -g -annot -o ocaml_printer.cmx ocaml_printer.ml
-# Target: typed_ast_printer.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:typed_ast_printer.cmx, file:typed_ast_printer.ml, implem, native, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -c -g -annot -o typed_ast_printer.cmx typed_ast_printer.ml
-# Target: minilustre.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:minilustre.cmx, file:minilustre.ml, implem, native, ocaml, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -c -g -annot -o minilustre.cmx minilustre.ml
-# Target: minilustre.native, tags: { annot, debug, dont_link_with, extension:native, file:minilustre.native, link, native, ocaml, program, quiet }
-/home/tianchi/.opam/4.09.0/bin/ocamlopt.opt -g scheduling.cmx typed_ast_utils.cmx checks.cmx typing.cmx imp.cmx parser.cmx lexer.cmx normalization.cmx ocaml_printer.cmx typed_ast_printer.cmx minilustre.cmx -o minilustre.native
-# Compilation successful.
++ /home/tianchi/.opam/4.09.0/bin/ocamlc.opt -c -g -annot -o imp.cmo imp.ml
+File "imp.ml", line 83, characters 50-64:
+83 | 	  let new_fby_init = ((List.fold_left (fun e' -> gen_next_id e') e1), e1) in 
+                                                       ^^^^^^^^^^^^^^
+Error: This expression has type string but an expression was expected of type
+         'weak4 -> string
+Command exited with code 2.
+# Compilation unsuccessful.
