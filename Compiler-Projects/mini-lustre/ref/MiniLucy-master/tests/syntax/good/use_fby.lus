@@ -1,0 +1,10 @@
+-- True after x has been True once
+node after(x: bool) returns (after: bool);
+let
+   after = x or (False fby after);
+tel
+
+node main(x: bool) returns (res: bool);
+let
+  res = after(x);
+tel

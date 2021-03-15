@@ -1,0 +1,573 @@
+\documentclass[11pt,usenames,dvipsnames]{beamer}
+
+\usetheme[numbering=counter,progressbar=foot,sectionpage=none]{metropolis}
+\usecolortheme[snowy]{owl}
+\setbeamercolor{progress bar}{fg=OwlBlue}
+\setbeamertemplate{itemize item}{\color{OwlBlue!80}$\blacktriangleright$}
+\setbeamertemplate{itemize subitem}{\color{OwlBlue!70}\textbullet}
+\setbeamertemplate{enumerate items}[square]
+\setbeamercolor{itemize items}{bg=OwlBlue}
+
+\definecolor{dolphin_db}{HTML}{4747ba}
+\definecolor{dolphin_lb}{HTML}{aeaee1}
+\definecolor{dolphin_b}{HTML}{8585d1}
+\setbeamercolor{frametitle}{bg=OwlBlue!75}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{tikz}
+\usepackage{appendixnumberbeamer}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{stmaryrd}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+\colorlet{new}{OwlCyan}
+\usetikzlibrary{arrows,shapes,positioning,fit}
+\usepackage{array}
+\usepackage{layouts}
+\usepackage[scaled=0.80]{beramono}  % our monospace font
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+\usepackage[backend=biber,style=alphabetic,citestyle=authortitle,abbreviate=true]{biblatex}
+%%\addbibresource{rustre.bib}
+
+\DeclareCiteCommand{\footpartcite}[\mkbibfootnote]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printnames{labelname}%
+   \setunit{\labelnamepunct}%
+   \printfield[citetitle]{title}%
+   \newunit%
+   \printfield{booktitle}%
+ }
+  {\addsemicolon\space}
+  {\usebibmacro{postnote}}
+
+\DeclareMultiCiteCommand{\footpartcites}[\mkbibfootnote]{\footpartcite}{\addsemicolon\space}
+
+\author{Lucas Baudin \and Martin Pépin \and Raphaël Monat \and Auguste Olivry}
+\institute[]{}
+\title{De Lustre à Rust : Rustre}
+\date{}
+
+\newcommand{\inline}[1]{{\ttfamily #1}}
+\newcommand{\minline}[1]{\text{\ttfamily #1}}
+\newcommand\comment[1]{\hfill \colorbox{blue!70}{#1}}
+
+\usepackage{listings}
+
+
+\lstdefinelanguage{minils}%
+{morekeywords={and,const,else,every,fby,if,in,merge,mod,node,not,or,pre,then,true,type,var,when,with,True,False},%
+  morekeywords=[3]{bool,int,real},%
+  otherkeywords={=,=>,<=,->},%
+  sensitive,%
+  morecomment=[l]//,%
+  morecomment=[n]{/*}{*/},%
+  morestring=[b]",%
+  morestring=[b]',%
+  morestring=[b]""",%
+}[keywords,comments,strings]%
+
+%% From https://github.com/RanaExMachina/beamer-template/blob/483c81e1ac1cabfe4b5f66cc174c5e0dca402944/listing-languages.tex
+\lstdefinelanguage{Rust}
+{
+  alsoletter={=>!&->},
+  morekeywords={
+          as, break, const, continue, crate, else, enum, extern, false, fn, for,
+          if, impl, in, let, loop, match, mod, move, mut, pub, ref, return,
+          Self, self, static, struct, super, trait, true, type, unsafe, use,
+          where, while,
+          abstract, alignof, become, box, do, final, macro, offsetof, override,
+          priv, proc, pure, sizeof, typeof, unsized, virtual, yield,
+          bool, char, i8, i16, i32, i65, u8, u16, u32, u64, isize, usize, f32,
+          f64, str, String
+          =>, &self, enum,
+  },
+  % macros
+  emph={println!,vec!,macro_rules!,assert_eq!},
+  sensitive=true, % keywords are case-sensitive
+  morecomment=[l]{//}, % l is for line comment
+  morecomment=[n]{/*}{*/},%
+  morecomment=[l]{///}, % l is for line comment
+  morecomment=[l]{//!}, % l is for line comment
+  morestring=[b]" % defines that strings are enclosed in double quotes
+}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  %backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle=\ttfamily\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+%  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapechar=!,
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  otherkeywords={*,...},           % if you want to add more keywords to the set
+  numbers=none,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=8pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  %rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+%  stepnumber=5,  % the step between two line-numbers. If it's 1, each line will be numbered
+  firstnumber=1,numberfirstline=true,
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+  %title=\lstname,                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+%  frame=Ltb,
+  language=minils,
+  keywordsprefix=\#,
+  alsoletter=\#,
+%  breaklines=true
+%  literate={\#}{{/}}
+}
+
+\lstdefinelanguage{why3}
+{
+morekeywords=[1]{predicate,constant,function,goal,type,use,%
+import,theory,end,in,%
+mutable,invariant,model,requires,ensures,raises,returns,reads,writes,diverges,%
+variant,let,val,while,for,loop,abstract,private,any,assert,assume,check,%
+rec,clone,if,then,else,result,old,ghost,%
+axiom,lemma,export,forall,exists,match,with,not,inductive,coinductive},%
+%keywordstyle=[1]{\color{red}},%
+morekeywords=[2]{true,false},%
+%keywordstyle=[2]{\color{blue}},%
+otherkeywords={},%
+commentstyle=\itshape,%
+columns=[l]fullflexible,%
+sensitive=true,%
+morecomment=[s]{(*}{*)},%
+escapeinside={*?}{?*},%
+keepspaces=true,
+}
+
+\lstnewenvironment{why3}{\lstset{language=why3}}{}
+
+\newcommand{\whyf}[1]{\lstinline[language=why3]{#1}}
+
+
+
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+\usepackage[absolute,overlay, showboxes]{textpos}
+
+\begin{document}
+
+\maketitle
+
+\section{\null}
+\subsection{Pong}
+
+\begin{frame}{\null}
+  \centering \Large Pong : démo !
+\end{frame}
+
+\subsection{Organisation du compilateur}
+
+\begin{frame}{\null}
+  \begin{tikzpicture}[node distance=1cm, align=center]
+    \node (parsing)         [rectangle, rounded corners, draw=black, fill=blue!50, minimum height = .75cm, minimum width=3cm]                            {Parsing};
+    \node (typing)          [rectangle, rounded corners, draw=black, fill=blue!50, minimum height = .75cm, minimum width=3cm, right = of parsing]        {Typing};
+    \node (clocking)        [rectangle, rounded corners, draw=black, fill=blue!50, minimum height = .75cm, minimum width=3cm, right = of typing]         {Clocking};
+    \node (normalization)   [rectangle, rounded corners, draw=black, fill=blue!50, minimum height = .75cm, minimum width=3cm, below = of clocking]       {Normalization};
+    \node (scheduling)      [rectangle, rounded corners, draw=black, fill=blue!50, minimum height = .75cm, minimum width=3cm, left = of normalization]   {Scheduling};
+    \node (object)          [rectangle, rounded corners, draw=black, fill=blue!50, minimum height = .75cm, minimum width=3cm, left = of scheduling]      {Object generation};
+    \node (extraction)      [rectangle, rounded corners, draw=black, fill=blue!50, minimum height = .75cm, minimum width=3cm, below = of object]         {Code extraction};
+    \node (rust)            [right = of extraction] {\includegraphics[width=0.1\textwidth]{img/rust.png}};
+    \node (why3)            [below = of rust] {Why3};
+
+    \path[draw, ->, line width = .3mm] (parsing) -- (typing);
+    \path[draw, ->, line width = .3mm] (typing) -- (clocking);
+    \path[draw, ->, line width = .3mm] (clocking) -- (normalization);
+    \path[draw, ->, line width = .3mm] (normalization) -- %%node[yshift=.5cm] {\footnotesize Object AST}
+                    (scheduling);
+    \path[draw, ->, line width = .3mm] (scheduling) -- (object);
+    \path[draw, ->, line width = .3mm] (object) -- (extraction);
+    \path[draw, ->, line width = .3mm] (extraction) -- (rust);
+    \path[draw, ->, line width = .3mm] (extraction.south) |- (why3.west);
+  \end{tikzpicture}
+\end{frame}
+
+\subsection{Typage - GADTs}
+\begin{frame}[fragile]{\null}
+  \begin{lstlisting}[language=caml]
+type enum
+
+type 'a num_ty =
+  | TyZ : int num_ty
+  | TyReal : float num_ty
+
+type 'a ty =
+  | TyBool : bool ty
+  | TyNum  : 'a num_ty -> 'a num_ty ty
+  | TyEnum : string * string list -> enum ty
+
+type 'a expr_desc =
+  | EConst : 'a const -> 'a ty expr_desc
+  | EFby   : 'a const * 'a ty expr -> 'a ty expr_desc
+  | EBOp   : ('a, 'b) binop * 'a ty expr * 'a ty expr -> 'b ty expr_desc
+  ...
+  \end{lstlisting}
+\end{frame}
+
+\subsection{Horloges}
+\begin{frame}[fragile]{-- Inférence}
+  \begin{itemize}
+  \item<1-> Algorithme W
+    \begin{lstlisting}[language=minils, escapechar=!]
+node f (x1, x2, !\ldots!) = (y1, y2, !\ldots!)
+with var z1, z2, !\ldots! in
+  body
+    \end{lstlisting}
+    \begin{lstlisting}[language=caml, escapechar=!]
+let f = fun x1 x2 !\ldots! ->
+  let y1, y2, !\ldots!, z1, z2, !\ldots! = body in
+  y1, y2, !\ldots!
+    \end{lstlisting}
+    $\Rightarrow$ Horloges polymorphes
+  \item<2-> Les entrées sont sur \inline{base}
+  \item<3-> Passe de vérification des horloges
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{-- Exemple}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{lstlisting}[language=minils]
+node sum(i: int) = (s: int)
+with
+     s = i -> pre s + i
+
+node main (x:bool) = (t1, t2:int)
+with var t1, t2:int; half:bool in
+     half = true -> not (pre half);
+     t1 = sum(1 when true(half));
+     t2 = sum(1) when true(half)
+   \end{lstlisting}
+ \end{column}
+ \begin{column}{0.5\textwidth}
+   \pause
+   \begin{lstlisting}[escapechar=!]
+node sum
+    i : [!$\alpha$!]
+    s : [!$\alpha$!]
+
+node main
+    x : [base]
+    half : [!$\alpha$!]
+    t1 : [!$\alpha$! on True(half)]
+    t2 : [!$\alpha$! on True(half)]
+  \end{lstlisting}
+ \end{column}
+\end{columns}
+\pause
+\begin{center}
+  \begin{tabular}{|c|ccccccc|}
+    \hline
+    t1    & 1 &  & 2 & & 3 & & 4\\
+    \hline
+%%    sum(1)& 1 & 2 & 3 & 4 & 5 & 6 & 7\\
+%%    \hline
+    t2    & 1 &  & 3 & & 5 & & 7\\
+    \hline
+  \end{tabular}
+\end{center}
+\end{frame}
+
+\subsection{Code objet -- Optimisations}
+\begin{frame}{\null}
+  \begin{itemize}
+  \item<1-> Fusion des merges
+  \item<2-> Simplification des match triviaux
+  \end{itemize}
+\end{frame}
+
+\subsection{Extraction Rust}
+
+\begin{frame}[fragile]{\null}
+  \begin{itemize}
+  \item<1-> Un fichier = des noeuds + \inline{main}
+  \item<2-> Un noeud = un module
+  \item<3-> Variables locales immuables \onslide<4->{(cas des structures de contrôle)}
+  \item<5-> \inline{\#[derive(Default)]}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{\null}
+  \begin{tabular}{c}
+    \begin{lstlisting}[language=minils]
+node sqrt (s:real) = (res:real)
+with var x:bool in
+  res = 0.5*(s+1) -> (0.5 * (pre res + (s / pre res)))
+
+node main (s:real) = (res:real)
+with
+  res = sqrt(s) every (false -> (s <> pre s))
+\end{lstlisting}
+  \end{tabular}
+
+  \begin{center}
+    \begin{tabular}{|c|ccccccc|}
+      \hline
+      Input  & 16   & 16   & 16   & 16   & 2   & 2    & 2   \\
+      \hline
+      Output & 8.5  & 5.19 & 4.14 & 4.00 & 1.5 & 1.42 & 1.41 \\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{frame}
+
+\begin{frame}[fragile]{\null}
+  %% + main = loop { parse, give to step, print result }
+  \begin{lstlisting}[language=Rust]
+mod node_sqrt {
+  pub struct Machine { ... }
+
+  impl Machine {
+    pub fn step(&mut self, ...) -> ... { ... }
+    pub fn reset(&mut self) { ... }
+  }
+}
+
+mod node_main {
+  use node_sqrt;
+
+  pub struct Machine { ... }
+  impl Machine {
+    pub fn step(&mut self, ...) -> ... { ... }
+    pub fn reset(&mut self) { ... }
+  }
+}
+  \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{\null}
+  \begin{lstlisting}[language=Rust]
+mod node_main {
+  use node_sqrt;
+
+  #[derive(Default)]
+  pub struct Machine { var:f64, inst1:node_sqrt::Machine }
+
+  impl Machine {
+    pub fn step(&mut self, s:f64) -> f64 {
+      // ...
+      let res = self.inst1.step(s);
+      // ...
+    }
+
+    pub fn reset(&mut self) {
+      self.inst1.reset(); self.var = Default::default();
+    }
+  }
+}
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{\null}
+  \begin{lstlisting}[language=Rust]
+pub fn main() {
+  let mut mach:node_main::Machine = Default::default();
+  loop {
+    let arg0 = parse_args();
+    println!("{:?}", mach.step(arg0));
+  }
+}
+  \end{lstlisting}
+\end{frame}
+
+
+\subsection{Why3}
+\begin{frame}{-- Extraction}
+  \begin{tikzpicture}[node distance=1cm, align=center]
+    \node (extraction)      [rectangle, rounded corners, draw=black, fill=blue!50, minimum height = .75cm, minimum width=3cm]         {Extraction de code};
+    \node (parsing)         [rectangle, rounded corners, draw=black, fill=blue!50, minimum height = .75cm, minimum width=3cm, below left = 1.45cm and .5cm of extraction]                            {Parsing};
+    \node (why3)            [rectangle, rounded corners, draw=red, fill=red!20, minimum height = .75cm, minimum width=3cm, right = of extraction] {Why3\\ Code séquentiel};
+    \node (spec)            [rectangle, rounded corners, draw=red, fill=red!20, minimum height = .75cm, minimum width=3cm, below = of why3] {Why3\\ Spécification};
+    \node (rust)            [above = of extraction] {\includegraphics[width=0.1\textwidth]{img/rust.png}};
+
+    \path[draw, ->, line width = .3mm] (extraction) -- (rust);
+    \path[draw, ->, line width = .3mm, dashed] (parsing) |- (extraction);
+    \path[draw, ->, line width = .3mm] (parsing) -- (spec);
+    \path[draw, ->, line width = .3mm] (extraction) -- (why3);
+	\path[draw, <->, line width = .3mm] (why3) -- node[right] {abstraction} (spec);
+  \end{tikzpicture}
+\end{frame}
+
+\begin{frame}[fragile]{-- Correspondance sémantique}
+\begin{itemize}
+\item Nœud synchrone
+  \begin{lstlisting}[language=minils]
+node incr (tic:bool) = (cpt:int)
+with var ok: bool in
+  cpt = (0 fby cpt) + 1;
+  ok = 0 <= cpt\end{lstlisting}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{-- Correspondance sémantique}
+\begin{itemize}
+\item Nœud synchrone
+  \begin{lstlisting}[language=minils]
+node incr (tic:bool) = (cpt:int)
+  cpt = (0 fby cpt) + 1; ...\end{lstlisting}
+\item Code séquentiel, analogue à Rust
+  \begin{lstlisting}[language=why3]
+let step (state:state) (tic: bool): (int)
+  ensures { step_fonct tic result (old state) state } =
+  let var1 = state.var1 in
+  let cpt = var1 + 1 in
+  ...
+  state.var1 <- cpt;
+  cpt
+  \end{lstlisting}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{-- Correspondance sémantique}
+\begin{itemize}
+\item Nœud synchrone
+  \begin{lstlisting}[language=minils]
+node incr (tic: bool) = (cpt:int)
+  cpt = (0 fby cpt) + 1; ...\end{lstlisting}
+\item Code séquentiel, analogue à Rust
+  \begin{lstlisting}[language=why3]
+let step (state:state) (tic: bool): (int)
+  ensures { step_fonct tic result (old state) state } ...\end{lstlisting}
+\item Postcondition
+  \begin{lstlisting}[language=why3]
+predicate step_fonct (tic: bool)
+  (cpt: int) (state:state) (state2:state) =
+  let var1 = state.var1 in
+  ...
+  cpt = var1 + 1 &&
+  state2.var1 = cpt\end{lstlisting}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{-- Correspondance sémantique}
+\begin{itemize}
+\item Nœud synchrone
+  \begin{lstlisting}[language=minils]
+node incr (tic: bool) = (cpt:int)
+  cpt = (0 fby cpt) + 1; ...\end{lstlisting}
+\item Code séquentiel, analogue à Rust
+  \begin{lstlisting}[language=why3]
+let step (state:state) (tic: bool): (int)
+  ensures { step_fonct tic result (old state) state } ...\end{lstlisting}
+\item Postcondition
+  \begin{lstlisting}[language=why3]
+predicate step_fonct (tic: bool)
+  (cpt: int) (state:state) (state2:state) =
+  let var1 = state.var1 in
+  ...
+  cpt = var1 + 1 &&
+  state2.var1 = cpt\end{lstlisting}
+\end{itemize}
+
+
+\begin{textblock*}{70mm}(29mm,0.5\textheight)
+\textblockcolour{green!40}
+\begin{exampleblock}{\centering{Flots dans Why3}}
+  \begin{lstlisting}[language=why3]
+  type stream 'a
+  function get (stream 'a) nat: 'a
+\end{lstlisting}
+\end{exampleblock}
+\end{textblock*}
+
+\end{frame}
+
+\begin{frame}[fragile]{-- Correspondance sémantique}
+\begin{itemize}
+\item Nœud synchrone
+  \begin{lstlisting}[language=minils]
+node incr (tic: bool) = (cpt:int)
+  cpt = (0 fby cpt) + 1; ...\end{lstlisting}
+\item Code séquentiel, analogue à Rust
+  \begin{lstlisting}[language=why3]
+let step (state:state) (tic: bool): (int)
+  ensures { step_fonct tic result (old state) state } ...\end{lstlisting}
+\item Postcondition
+  \begin{lstlisting}[language=why3]
+predicate step_fonct (tic: bool) (cpt: int)
+					 (state:state) (state2:state) ...\end{lstlisting}
+\item Spécification
+  \begin{lstlisting}[language=why3]
+predicate spec (tic:stream bool) (cpt:stream int) =
+  exists ok: stream bool.
+    cpt = (splus (sfby 0 cpt) (sconst 1))\end{lstlisting}
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{-- Vérification simple des valeurs non initialisées}
+	\begin{itemize}
+		\item Analyse des nils
+		\item Quantification sur ces valeurs
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile]{-- Preuves inductives sur les programmes Lustre}
+	\begin{itemize}
+		\item Preuve de propriétés inductives
+		\item Utilisation de la variable "ok" pour donner un invariant du nœud
+		\item
+		  \begin{lstlisting}[language=minils]
+node incr (tic: bool) = (cpt:int)
+with var ok: bool in
+  cpt = (0 fby cpt) + 1;
+  ok = 0 <= cpt\end{lstlisting}
+		\item Vérification modulaire
+	\end{itemize}
+\end{frame}
+
+\subsection{Conclusion : Pong, le retour}
+\begin{frame}{\null}
+\centering \Large Démo !
+\end{frame}
+
+
+
+\appendix
+
+\subsection{Correspondance sémantique}
+\begin{frame}[fragile]{\null}
+  \begin{lstlisting}[language=why3]
+lemma valid:
+  forall (* in and out vars *) tic:stream bool,
+  cpt:stream int, ok: stream bool,
+  (* state *) svar1: stream int.
+  (* definition by recurrence *)
+  ({ Nodeincr.var1 = get svar1 O; } = reset_state /\
+  forall n: nat.
+    step_fonct (get tic n)
+      (get cpt n) { Nodeincr.var1 = get svar1 n; } { Nodeincr.var1 = get svar1 (S n); })
+  (* correction *)
+  -> spec tic cpt\end{lstlisting}
+\end{frame}
+
+\end{document}

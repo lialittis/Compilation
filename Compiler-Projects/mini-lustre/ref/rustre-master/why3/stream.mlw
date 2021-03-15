@@ -1,0 +1,41 @@
+theory Stream
+
+  use import int.Int
+  use import bool.Bool
+  type stream 'a
+  type nat = O | S nat
+  function get (stream 'a) nat: 'a
+
+  function snot (stream bool): stream bool
+  function sand (stream bool) (stream bool): stream bool
+  function sor (stream bool) (stream bool): stream bool
+
+  function splus (stream int) (stream int): stream int
+  function sminus (stream int) (stream int): stream int
+  function spre (stream 'a): stream 'a
+  function sconst 'a: stream 'a
+  function sgt (stream int) (stream int): stream bool
+  function sfby 'a (stream 'a): stream 'a
+  function seq (stream 'a) (stream 'a): stream bool
+
+  axiom sext: forall a, b: stream 'a.
+    (forall n: nat. get a n = get b n) -> a = b
+
+  axiom snot_rw: forall a, n. get (snot a) n = not (get a n)
+
+  axiom splus_rw: forall a, b, n. get (splus a b) n = get a n + get b n
+
+  axiom seq_rw_true: forall a, b:stream 'a, n. ((get a n) = (get b n)) -> get (seq a b) n = true
+  axiom seq_rw_false: forall a, b:stream 'a, n. ((get a n) <> (get b n)) -> get (seq a b) n = false
+
+  axiom sfby_rw_s: forall a:'a, b:stream 'a, n. get (sfby a b) (S n) = get b n
+  axiom sfby_rw_o: forall a:'a, b:stream 'a. get (sfby a b) O = a
+
+  axiom sconst_rw: forall c: 'a, n. get (sconst c) n = c
+  axiom sminus_rw: forall a, b, n. get (sminus a b) n = get a n - get b n
+  axiom sgt_rw_true: forall a, b, n. (get a n > get b n) -> get (sgt a b) n = true
+  axiom sgt_rw_false: forall a, b, n. (not (get a n > get b n)) -> get (sgt a b) n = false
+
+  lemma gt_dec: forall a: int, b:int. a > b \/ not (a > b)
+
+end

@@ -1,0 +1,17 @@
+*~
+*.byte
+*.native
+rustre
+_build
+tests/ocaml/_build
+tests/ocaml/*.ml
+*.xml
+*.gz
+.*.sw*
+*.bak
+*.v
+\#*
+*.crashcoqide
+
+# MacOS sucks
+.DS_Store

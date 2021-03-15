@@ -1,0 +1,11 @@
+/* main = ex_reset */
+/* Do not remove the line above */
+
+node ex_reset(v:int) = (o: int)
+with var t : int in
+  reset
+    reset
+      t = 0 fby t + v;
+      o = 0 fby o + t
+    revery False fby (o > 43)
+  revery False fby (o > 42)

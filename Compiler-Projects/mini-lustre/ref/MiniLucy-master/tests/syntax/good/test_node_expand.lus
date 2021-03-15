@@ -1,0 +1,14 @@
+node n(x,y: int) returns(a,b: int);
+var v1,v2: int;
+let
+  v1 = x+y;
+  a = v1*x;
+  v2 = x*y;
+  b = v2*y;
+tel
+
+
+node main(i1, i2: int) returns (o1, o2: int);
+let
+  (o1, o2) = n(i1, i2);
+tel
