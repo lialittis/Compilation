@@ -61,7 +61,7 @@ type(
   'a -> 'a -> int
 )
 ident(
-  int_ref Stdlib.compare "stdlib.mli" 159 6717 6717 "stdlib.mli" 159 6717 6764
+  int_ref Stdlib.compare "stdlib.mli" 162 6792 6792 "stdlib.mli" 162 6792 6839
 )
 "scheduling.ml" 11 177 199 "scheduling.ml" 11 177 201
 type(
@@ -93,7 +93,7 @@ type(
   int -> int -> bool
 )
 ident(
-  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
 )
 "scheduling.ml" 12 208 220 "scheduling.ml" 12 208 221
 type(
@@ -173,7 +173,7 @@ type(
   (S.t -> S.elt -> S.t) -> S.t -> S.elt list -> S.t
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
 "scheduling.ml" 19 408 430 "scheduling.ml" 19 408 431
 type(
@@ -248,14 +248,14 @@ type(
   S.t
 )
 ident(
-  def s "scheduling.ml" 24 577 603 "scheduling.ml" 48 1288 1340
+  def s "scheduling.ml" 24 577 603 "scheduling.ml" 48 1290 1342
 )
 "scheduling.ml" 24 577 615 "scheduling.ml" 24 577 616
 type(
   Typed_ast.t_expr_desc
 )
 ident(
-  def e "scheduling.ml" 25 620 622 "scheduling.ml" 48 1288 1340
+  def e "scheduling.ml" 25 620 622 "scheduling.ml" 48 1290 1342
 )
 "scheduling.ml" 24 577 603 "scheduling.ml" 24 577 617
 type(
@@ -288,1176 +288,1338 @@ type(
   string
 )
 ident(
-  def x "scheduling.ml" 27 655 673 "scheduling.ml" 27 655 680
+  def x "scheduling.ml" 28 685 686 "scheduling.ml" 28 685 720
 )
 "scheduling.ml" 27 655 659 "scheduling.ml" 27 655 669
 type(
   Typed_ast.t_expr_desc
 )
-"scheduling.ml" 27 655 673 "scheduling.ml" 27 655 680
+"scheduling.ml" 28 685 689 "scheduling.ml" 28 685 694
+type(
+  S.elt -> S.t -> bool
+)
+ident(
+  int_ref S.mem "set.mli" 77 2901 2905 "set.mli" 77 2901 2930
+)
+"scheduling.ml" 28 685 695 "scheduling.ml" 28 685 696
+type(
+  S.elt
+)
+ident(
+  int_ref x "scheduling.ml" 27 655 668 "scheduling.ml" 27 655 669
+)
+"scheduling.ml" 28 685 697 "scheduling.ml" 28 685 698
 type(
   S.t
 )
 ident(
-  int_ref S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+  int_ref s "scheduling.ml" 24 577 601 "scheduling.ml" 24 577 602
+)
+"scheduling.ml" 28 685 689 "scheduling.ml" 28 685 698
+type(
+  bool
+)
+"scheduling.ml" 28 685 704 "scheduling.ml" 28 685 705
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 577 601 "scheduling.ml" 24 577 602
+)
+"scheduling.ml" 28 685 711 "scheduling.ml" 28 685 716
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  int_ref S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"scheduling.ml" 28 685 717 "scheduling.ml" 28 685 718
+type(
+  S.elt
+)
+ident(
+  int_ref x "scheduling.ml" 27 655 668 "scheduling.ml" 27 655 669
+)
+"scheduling.ml" 28 685 719 "scheduling.ml" 28 685 720
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 577 601 "scheduling.ml" 24 577 602
+)
+"scheduling.ml" 28 685 711 "scheduling.ml" 28 685 720
+type(
+  S.t
+)
+"scheduling.ml" 28 685 686 "scheduling.ml" 28 685 720
+type(
+  S.t
 )
 "scheduling.ml" 29 732 744 "scheduling.ml" 29 732 746
 type(
   Asttypes.const list
 )
 ident(
-  def e1 "scheduling.ml" 29 732 755 "scheduling.ml" 29 732 762
+  def e1 "scheduling.ml" 31 822 825 "scheduling.ml" 31 822 845
 )
 "scheduling.ml" 29 732 748 "scheduling.ml" 29 732 750
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e2 "scheduling.ml" 29 732 755 "scheduling.ml" 29 732 762
+  def e2 "scheduling.ml" 31 822 825 "scheduling.ml" 31 822 845
 )
 "scheduling.ml" 29 732 736 "scheduling.ml" 29 732 751
 type(
   Typed_ast.t_expr_desc
 )
-"scheduling.ml" 29 732 755 "scheduling.ml" 29 732 762
+"scheduling.ml" 31 822 825 "scheduling.ml" 31 822 840
+type(
+  S.t -> Typed_ast.t_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 577 585 "scheduling.ml" 24 577 600
+)
+"scheduling.ml" 31 822 841 "scheduling.ml" 31 822 842
 type(
   S.t
 )
 ident(
-  int_ref S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+  int_ref s "scheduling.ml" 24 577 601 "scheduling.ml" 24 577 602
 )
-"scheduling.ml" 34 892 905 "scheduling.ml" 34 892 906
+"scheduling.ml" 31 822 843 "scheduling.ml" 31 822 845
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e2 "scheduling.ml" 29 732 748 "scheduling.ml" 29 732 750
+)
+"scheduling.ml" 31 822 825 "scheduling.ml" 31 822 845
+type(
+  S.t
+)
+"scheduling.ml" 34 894 907 "scheduling.ml" 34 894 908
 type(
   Asttypes.unop
 )
-"scheduling.ml" 34 892 907 "scheduling.ml" 34 892 909
+"scheduling.ml" 34 894 909 "scheduling.ml" 34 894 911
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e' "scheduling.ml" 34 892 914 "scheduling.ml" 34 892 934
+  def e' "scheduling.ml" 34 894 916 "scheduling.ml" 34 894 936
 )
-"scheduling.ml" 34 892 896 "scheduling.ml" 34 892 910
+"scheduling.ml" 34 894 898 "scheduling.ml" 34 894 912
 type(
   Typed_ast.t_expr_desc
 )
-"scheduling.ml" 34 892 914 "scheduling.ml" 34 892 929
+"scheduling.ml" 34 894 916 "scheduling.ml" 34 894 931
 type(
   S.t -> Typed_ast.t_expr -> S.t
 )
 ident(
   int_ref add_vars_of_exp "scheduling.ml" 24 577 585 "scheduling.ml" 24 577 600
 )
-"scheduling.ml" 34 892 930 "scheduling.ml" 34 892 931
+"scheduling.ml" 34 894 932 "scheduling.ml" 34 894 933
 type(
   S.t
 )
 ident(
   int_ref s "scheduling.ml" 24 577 601 "scheduling.ml" 24 577 602
 )
-"scheduling.ml" 34 892 932 "scheduling.ml" 34 892 934
+"scheduling.ml" 34 894 934 "scheduling.ml" 34 894 936
 type(
   Typed_ast.t_expr
 )
 ident(
-  int_ref e' "scheduling.ml" 34 892 907 "scheduling.ml" 34 892 909
+  int_ref e' "scheduling.ml" 34 894 909 "scheduling.ml" 34 894 911
 )
-"scheduling.ml" 34 892 914 "scheduling.ml" 34 892 934
+"scheduling.ml" 34 894 916 "scheduling.ml" 34 894 936
 type(
   S.t
 )
-"scheduling.ml" 35 935 949 "scheduling.ml" 35 935 950
+"scheduling.ml" 35 937 951 "scheduling.ml" 35 937 952
 type(
   Asttypes.binop
 )
-"scheduling.ml" 35 935 951 "scheduling.ml" 35 935 953
+"scheduling.ml" 35 937 953 "scheduling.ml" 35 937 955
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e1 "scheduling.ml" 36 961 967 "scheduling.ml" 37 999 1025
+  def e1 "scheduling.ml" 36 963 969 "scheduling.ml" 37 1001 1027
 )
-"scheduling.ml" 35 935 954 "scheduling.ml" 35 935 956
+"scheduling.ml" 35 937 956 "scheduling.ml" 35 937 958
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e2 "scheduling.ml" 36 961 967 "scheduling.ml" 37 999 1025
+  def e2 "scheduling.ml" 36 963 969 "scheduling.ml" 37 1001 1027
 )
-"scheduling.ml" 35 935 939 "scheduling.ml" 35 935 957
+"scheduling.ml" 35 937 941 "scheduling.ml" 35 937 959
 type(
   Typed_ast.t_expr_desc
 )
-"scheduling.ml" 36 961 971 "scheduling.ml" 36 961 972
+"scheduling.ml" 36 963 973 "scheduling.ml" 36 963 974
 type(
   S.t
 )
 ident(
-  def s "scheduling.ml" 37 999 1005 "scheduling.ml" 37 999 1025
+  def s "scheduling.ml" 37 1001 1007 "scheduling.ml" 37 1001 1027
 )
-"scheduling.ml" 36 961 975 "scheduling.ml" 36 961 990
+"scheduling.ml" 36 963 977 "scheduling.ml" 36 963 992
 type(
   S.t -> Typed_ast.t_expr -> S.t
 )
 ident(
   int_ref add_vars_of_exp "scheduling.ml" 24 577 585 "scheduling.ml" 24 577 600
 )
-"scheduling.ml" 36 961 991 "scheduling.ml" 36 961 992
+"scheduling.ml" 36 963 993 "scheduling.ml" 36 963 994
 type(
   S.t
 )
 ident(
   int_ref s "scheduling.ml" 24 577 601 "scheduling.ml" 24 577 602
 )
-"scheduling.ml" 36 961 993 "scheduling.ml" 36 961 995
+"scheduling.ml" 36 963 995 "scheduling.ml" 36 963 997
 type(
   Typed_ast.t_expr
 )
 ident(
-  int_ref e1 "scheduling.ml" 35 935 951 "scheduling.ml" 35 935 953
+  int_ref e1 "scheduling.ml" 35 937 953 "scheduling.ml" 35 937 955
 )
-"scheduling.ml" 36 961 975 "scheduling.ml" 36 961 995
+"scheduling.ml" 36 963 977 "scheduling.ml" 36 963 997
 type(
   S.t
 )
-"scheduling.ml" 37 999 1005 "scheduling.ml" 37 999 1020
+"scheduling.ml" 37 1001 1007 "scheduling.ml" 37 1001 1022
 type(
   S.t -> Typed_ast.t_expr -> S.t
 )
 ident(
   int_ref add_vars_of_exp "scheduling.ml" 24 577 585 "scheduling.ml" 24 577 600
 )
-"scheduling.ml" 37 999 1021 "scheduling.ml" 37 999 1022
+"scheduling.ml" 37 1001 1023 "scheduling.ml" 37 1001 1024
 type(
   S.t
 )
 ident(
-  int_ref s "scheduling.ml" 36 961 971 "scheduling.ml" 36 961 972
+  int_ref s "scheduling.ml" 36 963 973 "scheduling.ml" 36 963 974
 )
-"scheduling.ml" 37 999 1023 "scheduling.ml" 37 999 1025
+"scheduling.ml" 37 1001 1025 "scheduling.ml" 37 1001 1027
 type(
   Typed_ast.t_expr
 )
 ident(
-  int_ref e2 "scheduling.ml" 35 935 954 "scheduling.ml" 35 935 956
+  int_ref e2 "scheduling.ml" 35 937 956 "scheduling.ml" 35 937 958
 )
-"scheduling.ml" 37 999 1005 "scheduling.ml" 37 999 1025
+"scheduling.ml" 37 1001 1007 "scheduling.ml" 37 1001 1027
 type(
   S.t
 )
-"scheduling.ml" 36 961 967 "scheduling.ml" 37 999 1025
+"scheduling.ml" 36 963 969 "scheduling.ml" 37 1001 1027
 type(
   S.t
 )
-"scheduling.ml" 38 1026 1036 "scheduling.ml" 38 1026 1038
+"scheduling.ml" 38 1028 1038 "scheduling.ml" 38 1028 1040
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e1 "scheduling.ml" 38 1026 1049 "scheduling.ml" 38 1026 1056
+  def e1 "scheduling.ml" 41 1088 1091 "scheduling.ml" 43 1159 1181
 )
-"scheduling.ml" 38 1026 1039 "scheduling.ml" 38 1026 1041
+"scheduling.ml" 38 1028 1041 "scheduling.ml" 38 1028 1043
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e2 "scheduling.ml" 38 1026 1049 "scheduling.ml" 38 1026 1056
+  def e2 "scheduling.ml" 41 1088 1091 "scheduling.ml" 43 1159 1181
 )
-"scheduling.ml" 38 1026 1042 "scheduling.ml" 38 1026 1044
+"scheduling.ml" 38 1028 1044 "scheduling.ml" 38 1028 1046
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e3 "scheduling.ml" 38 1026 1049 "scheduling.ml" 38 1026 1056
+  def e3 "scheduling.ml" 41 1088 1091 "scheduling.ml" 43 1159 1181
 )
-"scheduling.ml" 38 1026 1030 "scheduling.ml" 38 1026 1045
+"scheduling.ml" 38 1028 1032 "scheduling.ml" 38 1028 1047
 type(
   Typed_ast.t_expr_desc
 )
-"scheduling.ml" 38 1026 1049 "scheduling.ml" 38 1026 1056
+"scheduling.ml" 41 1088 1095 "scheduling.ml" 41 1088 1096
 type(
   S.t
 )
 ident(
-  int_ref S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+  def s "scheduling.ml" 42 1123 1126 "scheduling.ml" 43 1159 1181
 )
-"scheduling.ml" 46 1198 1210 "scheduling.ml" 46 1198 1211
+"scheduling.ml" 41 1088 1099 "scheduling.ml" 41 1088 1114
+type(
+  S.t -> Typed_ast.t_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 577 585 "scheduling.ml" 24 577 600
+)
+"scheduling.ml" 41 1088 1115 "scheduling.ml" 41 1088 1116
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 577 601 "scheduling.ml" 24 577 602
+)
+"scheduling.ml" 41 1088 1117 "scheduling.ml" 41 1088 1119
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e1 "scheduling.ml" 38 1028 1038 "scheduling.ml" 38 1028 1040
+)
+"scheduling.ml" 41 1088 1099 "scheduling.ml" 41 1088 1119
+type(
+  S.t
+)
+"scheduling.ml" 42 1123 1130 "scheduling.ml" 42 1123 1131
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 43 1159 1161 "scheduling.ml" 43 1159 1181
+)
+"scheduling.ml" 42 1123 1134 "scheduling.ml" 42 1123 1149
+type(
+  S.t -> Typed_ast.t_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 577 585 "scheduling.ml" 24 577 600
+)
+"scheduling.ml" 42 1123 1150 "scheduling.ml" 42 1123 1151
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 41 1088 1095 "scheduling.ml" 41 1088 1096
+)
+"scheduling.ml" 42 1123 1152 "scheduling.ml" 42 1123 1154
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e2 "scheduling.ml" 38 1028 1041 "scheduling.ml" 38 1028 1043
+)
+"scheduling.ml" 42 1123 1134 "scheduling.ml" 42 1123 1154
+type(
+  S.t
+)
+"scheduling.ml" 43 1159 1161 "scheduling.ml" 43 1159 1176
+type(
+  S.t -> Typed_ast.t_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 577 585 "scheduling.ml" 24 577 600
+)
+"scheduling.ml" 43 1159 1177 "scheduling.ml" 43 1159 1178
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 42 1123 1130 "scheduling.ml" 42 1123 1131
+)
+"scheduling.ml" 43 1159 1179 "scheduling.ml" 43 1159 1181
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e3 "scheduling.ml" 38 1028 1044 "scheduling.ml" 38 1028 1046
+)
+"scheduling.ml" 43 1159 1161 "scheduling.ml" 43 1159 1181
+type(
+  S.t
+)
+"scheduling.ml" 42 1123 1126 "scheduling.ml" 43 1159 1181
+type(
+  S.t
+)
+"scheduling.ml" 41 1088 1091 "scheduling.ml" 43 1159 1181
+type(
+  S.t
+)
+"scheduling.ml" 46 1200 1212 "scheduling.ml" 46 1200 1213
 type(
   string
 )
-"scheduling.ml" 46 1198 1212 "scheduling.ml" 46 1198 1213
+"scheduling.ml" 46 1200 1214 "scheduling.ml" 46 1200 1215
 type(
   Typed_ast.t_expr list
 )
 ident(
-  def l "scheduling.ml" 47 1247 1253 "scheduling.ml" 47 1247 1287
+  def l "scheduling.ml" 47 1249 1255 "scheduling.ml" 47 1249 1289
 )
-"scheduling.ml" 46 1198 1202 "scheduling.ml" 46 1198 1214
+"scheduling.ml" 46 1200 1204 "scheduling.ml" 46 1200 1216
 type(
   Typed_ast.t_expr_desc
 )
-"scheduling.ml" 46 1198 1226 "scheduling.ml" 46 1198 1227
+"scheduling.ml" 46 1200 1228 "scheduling.ml" 46 1200 1229
 type(
   string
 )
-"scheduling.ml" 46 1198 1228 "scheduling.ml" 46 1198 1229
+"scheduling.ml" 46 1200 1230 "scheduling.ml" 46 1200 1231
 type(
   Typed_ast.t_expr list
 )
 ident(
-  def l "scheduling.ml" 47 1247 1253 "scheduling.ml" 47 1247 1287
+  def l "scheduling.ml" 47 1249 1255 "scheduling.ml" 47 1249 1289
 )
-"scheduling.ml" 46 1198 1217 "scheduling.ml" 46 1198 1230
+"scheduling.ml" 46 1200 1219 "scheduling.ml" 46 1200 1232
 type(
   Typed_ast.t_expr_desc
 )
-"scheduling.ml" 46 1198 1202 "scheduling.ml" 46 1198 1230
+"scheduling.ml" 46 1200 1204 "scheduling.ml" 46 1200 1232
 type(
   Typed_ast.t_expr_desc
 )
-"scheduling.ml" 46 1198 1242 "scheduling.ml" 46 1198 1243
+"scheduling.ml" 46 1200 1244 "scheduling.ml" 46 1200 1245
 type(
   Typed_ast.t_expr list
 )
 ident(
-  def l "scheduling.ml" 47 1247 1253 "scheduling.ml" 47 1247 1287
+  def l "scheduling.ml" 47 1249 1255 "scheduling.ml" 47 1249 1289
 )
-"scheduling.ml" 46 1198 1233 "scheduling.ml" 46 1198 1243
+"scheduling.ml" 46 1200 1235 "scheduling.ml" 46 1200 1245
 type(
   Typed_ast.t_expr_desc
 )
-"scheduling.ml" 46 1198 1202 "scheduling.ml" 46 1198 1243
+"scheduling.ml" 46 1200 1204 "scheduling.ml" 46 1200 1245
 type(
   Typed_ast.t_expr_desc
 )
-"scheduling.ml" 47 1247 1253 "scheduling.ml" 47 1247 1267
+"scheduling.ml" 47 1249 1255 "scheduling.ml" 47 1249 1269
 type(
   (S.t -> Typed_ast.t_expr -> S.t) -> S.t -> Typed_ast.t_expr list -> S.t
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
-"scheduling.ml" 47 1247 1268 "scheduling.ml" 47 1247 1283
+"scheduling.ml" 47 1249 1270 "scheduling.ml" 47 1249 1285
 type(
   S.t -> Typed_ast.t_expr -> S.t
 )
 ident(
   int_ref add_vars_of_exp "scheduling.ml" 24 577 585 "scheduling.ml" 24 577 600
 )
-"scheduling.ml" 47 1247 1284 "scheduling.ml" 47 1247 1285
+"scheduling.ml" 47 1249 1286 "scheduling.ml" 47 1249 1287
 type(
   S.t
 )
 ident(
   int_ref s "scheduling.ml" 24 577 601 "scheduling.ml" 24 577 602
 )
-"scheduling.ml" 47 1247 1286 "scheduling.ml" 47 1247 1287
+"scheduling.ml" 47 1249 1288 "scheduling.ml" 47 1249 1289
 type(
   Typed_ast.t_expr list
 )
 ident(
-  int_ref l "scheduling.ml" 46 1198 1212 "scheduling.ml" 46 1198 1213
+  int_ref l "scheduling.ml" 46 1200 1214 "scheduling.ml" 46 1200 1215
 )
-"scheduling.ml" 47 1247 1253 "scheduling.ml" 47 1247 1287
+"scheduling.ml" 47 1249 1255 "scheduling.ml" 47 1249 1289
 type(
   S.t
 )
-"scheduling.ml" 48 1288 1301 "scheduling.ml" 48 1288 1302
+"scheduling.ml" 48 1290 1303 "scheduling.ml" 48 1290 1304
 type(
   Typed_ast.t_expr list
 )
 ident(
-  def l "scheduling.ml" 48 1288 1306 "scheduling.ml" 48 1288 1340
+  def l "scheduling.ml" 48 1290 1308 "scheduling.ml" 48 1290 1342
 )
-"scheduling.ml" 48 1288 1292 "scheduling.ml" 48 1288 1302
+"scheduling.ml" 48 1290 1294 "scheduling.ml" 48 1290 1304
 type(
   Typed_ast.t_expr_desc
 )
-"scheduling.ml" 48 1288 1306 "scheduling.ml" 48 1288 1320
+"scheduling.ml" 48 1290 1308 "scheduling.ml" 48 1290 1322
 type(
   (S.t -> Typed_ast.t_expr -> S.t) -> S.t -> Typed_ast.t_expr list -> S.t
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
-"scheduling.ml" 48 1288 1321 "scheduling.ml" 48 1288 1336
+"scheduling.ml" 48 1290 1323 "scheduling.ml" 48 1290 1338
 type(
   S.t -> Typed_ast.t_expr -> S.t
 )
 ident(
   int_ref add_vars_of_exp "scheduling.ml" 24 577 585 "scheduling.ml" 24 577 600
 )
-"scheduling.ml" 48 1288 1337 "scheduling.ml" 48 1288 1338
+"scheduling.ml" 48 1290 1339 "scheduling.ml" 48 1290 1340
 type(
   S.t
 )
 ident(
   int_ref s "scheduling.ml" 24 577 601 "scheduling.ml" 24 577 602
 )
-"scheduling.ml" 48 1288 1339 "scheduling.ml" 48 1288 1340
+"scheduling.ml" 48 1290 1341 "scheduling.ml" 48 1290 1342
 type(
   Typed_ast.t_expr list
 )
 ident(
-  int_ref l "scheduling.ml" 48 1288 1301 "scheduling.ml" 48 1288 1302
+  int_ref l "scheduling.ml" 48 1290 1303 "scheduling.ml" 48 1290 1304
 )
-"scheduling.ml" 48 1288 1306 "scheduling.ml" 48 1288 1340
+"scheduling.ml" 48 1290 1308 "scheduling.ml" 48 1290 1342
 type(
   S.t
 )
-"scheduling.ml" 25 620 622 "scheduling.ml" 48 1288 1340
+"scheduling.ml" 25 620 622 "scheduling.ml" 48 1290 1342
 type(
   S.t
 )
-"scheduling.ml" 51 1343 1347 "scheduling.ml" 51 1343 1360
+"scheduling.ml" 51 1345 1349 "scheduling.ml" 51 1345 1362
 type(
   (S.elt * 'a) list -> Typed_ast.t_equation list -> Typed_ast.t_equation list
 )
 ident(
-  def schedule_equs "scheduling.ml" 94 2542 2542 "scheduling.ml" 0 0 -1
+  def schedule_equs "scheduling.ml" 94 2544 2544 "scheduling.ml" 0 0 -1
 )
-"scheduling.ml" 51 1343 1361 "scheduling.ml" 51 1343 1367
+"scheduling.ml" 51 1345 1363 "scheduling.ml" 51 1345 1369
 type(
   (S.elt * 'a) list
 )
 ident(
-  def inputs "scheduling.ml" 51 1343 1368 "scheduling.ml" 92 2522 2540
+  def inputs "scheduling.ml" 51 1345 1370 "scheduling.ml" 92 2524 2542
 )
-"scheduling.ml" 51 1343 1368 "scheduling.ml" 51 1343 1372
+"scheduling.ml" 51 1345 1370 "scheduling.ml" 51 1345 1374
 type(
   Typed_ast.t_equation list
 )
 ident(
-  def equs "scheduling.ml" 53 1442 1444 "scheduling.ml" 92 2522 2540
+  def equs "scheduling.ml" 53 1444 1446 "scheduling.ml" 92 2524 2542
 )
-"scheduling.ml" 53 1442 1448 "scheduling.ml" 53 1442 1449
+"scheduling.ml" 53 1444 1450 "scheduling.ml" 53 1444 1451
 type(
   Graph.t
 )
 ident(
-  def g "scheduling.ml" 62 1720 1722 "scheduling.ml" 92 2522 2540
+  def g "scheduling.ml" 62 1722 1724 "scheduling.ml" 92 2524 2542
 )
-"scheduling.ml" 54 1452 1456 "scheduling.ml" 54 1452 1470
+"scheduling.ml" 54 1454 1458 "scheduling.ml" 54 1454 1472
 type(
   (Graph.t -> Typed_ast.t_equation -> Graph.t) ->
   Graph.t -> Typed_ast.t_equation list -> Graph.t
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
-"scheduling.ml" 55 1471 1482 "scheduling.ml" 55 1471 1483
+"scheduling.ml" 55 1473 1484 "scheduling.ml" 55 1473 1485
 type(
   Graph.t
 )
 ident(
-  def g "scheduling.ml" 55 1471 1484 "scheduling.ml" 58 1591 1639
+  def g "scheduling.ml" 55 1473 1486 "scheduling.ml" 58 1593 1641
 )
-"scheduling.ml" 55 1471 1484 "scheduling.ml" 55 1471 1486
+"scheduling.ml" 55 1473 1486 "scheduling.ml" 55 1473 1488
 type(
   Typed_ast.t_equation
 )
 ident(
-  def eq "scheduling.ml" 56 1490 1492 "scheduling.ml" 58 1591 1639
+  def eq "scheduling.ml" 56 1492 1494 "scheduling.ml" 58 1593 1641
 )
-"scheduling.ml" 56 1490 1496 "scheduling.ml" 56 1490 1498
+"scheduling.ml" 56 1492 1498 "scheduling.ml" 56 1492 1500
 type(
   S.t
 )
 ident(
-  def vp "scheduling.ml" 57 1541 1543 "scheduling.ml" 58 1591 1639
+  def vp "scheduling.ml" 57 1543 1545 "scheduling.ml" 58 1593 1641
 )
-"scheduling.ml" 56 1490 1501 "scheduling.ml" 56 1490 1517
+"scheduling.ml" 56 1492 1503 "scheduling.ml" 56 1492 1519
 type(
   S.t -> Typed_ast.t_patt -> S.t
 )
 ident(
   int_ref add_vars_of_patt "scheduling.ml" 18 368 372 "scheduling.ml" 18 368 388
 )
-"scheduling.ml" 56 1490 1518 "scheduling.ml" 56 1490 1525
+"scheduling.ml" 56 1492 1520 "scheduling.ml" 56 1492 1527
 type(
   S.t
 )
 ident(
   int_ref S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
 )
-"scheduling.ml" 56 1490 1526 "scheduling.ml" 56 1490 1528
+"scheduling.ml" 56 1492 1528 "scheduling.ml" 56 1492 1530
 type(
   Typed_ast.t_equation
 )
 ident(
-  int_ref eq "scheduling.ml" 55 1471 1484 "scheduling.ml" 55 1471 1486
+  int_ref eq "scheduling.ml" 55 1473 1486 "scheduling.ml" 55 1473 1488
 )
-"scheduling.ml" 56 1490 1526 "scheduling.ml" 56 1490 1537
+"scheduling.ml" 56 1492 1528 "scheduling.ml" 56 1492 1539
 type(
   Typed_ast.t_patt
 )
-"scheduling.ml" 56 1490 1501 "scheduling.ml" 56 1490 1537
+"scheduling.ml" 56 1492 1503 "scheduling.ml" 56 1492 1539
 type(
   S.t
 )
-"scheduling.ml" 57 1541 1547 "scheduling.ml" 57 1541 1549
+"scheduling.ml" 57 1543 1549 "scheduling.ml" 57 1543 1551
 type(
   S.t
 )
 ident(
-  def ve "scheduling.ml" 58 1591 1593 "scheduling.ml" 58 1591 1639
+  def ve "scheduling.ml" 58 1593 1595 "scheduling.ml" 58 1593 1641
 )
-"scheduling.ml" 57 1541 1552 "scheduling.ml" 57 1541 1567
+"scheduling.ml" 57 1543 1554 "scheduling.ml" 57 1543 1569
 type(
   S.t -> Typed_ast.t_expr -> S.t
 )
 ident(
   int_ref add_vars_of_exp "scheduling.ml" 24 577 585 "scheduling.ml" 24 577 600
 )
-"scheduling.ml" 57 1541 1568 "scheduling.ml" 57 1541 1575
+"scheduling.ml" 57 1543 1570 "scheduling.ml" 57 1543 1577
 type(
   S.t
 )
 ident(
   int_ref S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
 )
-"scheduling.ml" 57 1541 1576 "scheduling.ml" 57 1541 1578
+"scheduling.ml" 57 1543 1578 "scheduling.ml" 57 1543 1580
 type(
   Typed_ast.t_equation
 )
 ident(
-  int_ref eq "scheduling.ml" 55 1471 1484 "scheduling.ml" 55 1471 1486
+  int_ref eq "scheduling.ml" 55 1473 1486 "scheduling.ml" 55 1473 1488
 )
-"scheduling.ml" 57 1541 1576 "scheduling.ml" 57 1541 1587
+"scheduling.ml" 57 1543 1578 "scheduling.ml" 57 1543 1589
 type(
   Typed_ast.t_expr
 )
-"scheduling.ml" 57 1541 1552 "scheduling.ml" 57 1541 1587
+"scheduling.ml" 57 1543 1554 "scheduling.ml" 57 1543 1589
 type(
   S.t
 )
-"scheduling.ml" 58 1591 1593 "scheduling.ml" 58 1591 1599
+"scheduling.ml" 58 1593 1595 "scheduling.ml" 58 1593 1601
 type(
   (S.elt -> Graph.t -> Graph.t) -> S.t -> Graph.t -> Graph.t
 )
 ident(
   int_ref S.fold "set.mli" 138 5167 5171 "set.mli" 138 5167 5215
 )
-"scheduling.ml" 58 1591 1605 "scheduling.ml" 58 1591 1606
+"scheduling.ml" 58 1593 1607 "scheduling.ml" 58 1593 1608
 type(
   S.elt
 )
 ident(
-  def x "scheduling.ml" 58 1591 1607 "scheduling.ml" 58 1591 1633
+  def x "scheduling.ml" 58 1593 1609 "scheduling.ml" 58 1593 1635
 )
-"scheduling.ml" 58 1591 1607 "scheduling.ml" 58 1591 1608
+"scheduling.ml" 58 1593 1609 "scheduling.ml" 58 1593 1610
 type(
   Graph.t
 )
 ident(
-  def g "scheduling.ml" 58 1591 1612 "scheduling.ml" 58 1591 1633
+  def g "scheduling.ml" 58 1593 1614 "scheduling.ml" 58 1593 1635
 )
-"scheduling.ml" 58 1591 1612 "scheduling.ml" 58 1591 1621
+"scheduling.ml" 58 1593 1614 "scheduling.ml" 58 1593 1623
 type(
   Graph.elt -> Graph.t -> Graph.t
 )
 ident(
   int_ref Graph.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
 )
-"scheduling.ml" 58 1591 1623 "scheduling.ml" 58 1591 1624
+"scheduling.ml" 58 1593 1625 "scheduling.ml" 58 1593 1626
 type(
   S.elt
 )
 ident(
-  int_ref x "scheduling.ml" 58 1591 1605 "scheduling.ml" 58 1591 1606
+  int_ref x "scheduling.ml" 58 1593 1607 "scheduling.ml" 58 1593 1608
 )
-"scheduling.ml" 58 1591 1625 "scheduling.ml" 58 1591 1627
+"scheduling.ml" 58 1593 1627 "scheduling.ml" 58 1593 1629
 type(
   S.t
 )
 ident(
-  int_ref ve "scheduling.ml" 57 1541 1547 "scheduling.ml" 57 1541 1549
+  int_ref ve "scheduling.ml" 57 1543 1549 "scheduling.ml" 57 1543 1551
 )
-"scheduling.ml" 58 1591 1628 "scheduling.ml" 58 1591 1630
+"scheduling.ml" 58 1593 1630 "scheduling.ml" 58 1593 1632
 type(
   Typed_ast.t_equation
 )
 ident(
-  int_ref eq "scheduling.ml" 55 1471 1484 "scheduling.ml" 55 1471 1486
+  int_ref eq "scheduling.ml" 55 1473 1486 "scheduling.ml" 55 1473 1488
 )
-"scheduling.ml" 58 1591 1622 "scheduling.ml" 58 1591 1631
+"scheduling.ml" 58 1593 1624 "scheduling.ml" 58 1593 1633
 type(
   Graph.elt
 )
-"scheduling.ml" 58 1591 1632 "scheduling.ml" 58 1591 1633
+"scheduling.ml" 58 1593 1634 "scheduling.ml" 58 1593 1635
 type(
   Graph.t
 )
 ident(
-  int_ref g "scheduling.ml" 58 1591 1607 "scheduling.ml" 58 1591 1608
+  int_ref g "scheduling.ml" 58 1593 1609 "scheduling.ml" 58 1593 1610
 )
-"scheduling.ml" 58 1591 1612 "scheduling.ml" 58 1591 1633
+"scheduling.ml" 58 1593 1614 "scheduling.ml" 58 1593 1635
 type(
   Graph.t
 )
-"scheduling.ml" 58 1591 1600 "scheduling.ml" 58 1591 1634
+"scheduling.ml" 58 1593 1602 "scheduling.ml" 58 1593 1636
 type(
   S.elt -> Graph.t -> Graph.t
 )
-"scheduling.ml" 58 1591 1635 "scheduling.ml" 58 1591 1637
+"scheduling.ml" 58 1593 1637 "scheduling.ml" 58 1593 1639
 type(
   S.t
 )
 ident(
-  int_ref vp "scheduling.ml" 56 1490 1496 "scheduling.ml" 56 1490 1498
+  int_ref vp "scheduling.ml" 56 1492 1498 "scheduling.ml" 56 1492 1500
 )
-"scheduling.ml" 58 1591 1638 "scheduling.ml" 58 1591 1639
+"scheduling.ml" 58 1593 1640 "scheduling.ml" 58 1593 1641
 type(
   Graph.t
 )
 ident(
-  int_ref g "scheduling.ml" 55 1471 1482 "scheduling.ml" 55 1471 1483
+  int_ref g "scheduling.ml" 55 1473 1484 "scheduling.ml" 55 1473 1485
 )
-"scheduling.ml" 58 1591 1593 "scheduling.ml" 58 1591 1639
+"scheduling.ml" 58 1593 1595 "scheduling.ml" 58 1593 1641
 type(
   Graph.t
 )
-"scheduling.ml" 57 1541 1543 "scheduling.ml" 58 1591 1639
+"scheduling.ml" 57 1543 1545 "scheduling.ml" 58 1593 1641
 type(
   Graph.t
 )
-"scheduling.ml" 56 1490 1492 "scheduling.ml" 58 1591 1639
+"scheduling.ml" 56 1492 1494 "scheduling.ml" 58 1593 1641
 type(
   Graph.t
 )
-"scheduling.ml" 55 1471 1477 "scheduling.ml" 58 1591 1640
+"scheduling.ml" 55 1473 1479 "scheduling.ml" 58 1593 1642
 type(
   Graph.t -> Typed_ast.t_equation -> Graph.t
 )
-"scheduling.ml" 59 1641 1647 "scheduling.ml" 59 1641 1658
+"scheduling.ml" 59 1643 1649 "scheduling.ml" 59 1643 1660
 type(
   Graph.t
 )
 ident(
   int_ref Graph.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
 )
-"scheduling.ml" 59 1641 1659 "scheduling.ml" 59 1641 1663
+"scheduling.ml" 59 1643 1661 "scheduling.ml" 59 1643 1665
 type(
   Typed_ast.t_equation list
 )
 ident(
-  int_ref equs "scheduling.ml" 51 1343 1368 "scheduling.ml" 51 1343 1372
+  int_ref equs "scheduling.ml" 51 1345 1370 "scheduling.ml" 51 1345 1374
 )
-"scheduling.ml" 54 1452 1456 "scheduling.ml" 59 1641 1663
+"scheduling.ml" 54 1454 1458 "scheduling.ml" 59 1643 1665
 type(
   Graph.t
 )
-"scheduling.ml" 62 1720 1726 "scheduling.ml" 62 1720 1727
+"scheduling.ml" 62 1722 1728 "scheduling.ml" 62 1722 1729
 type(
   Graph.t
 )
 ident(
-  def g "scheduling.ml" 72 1969 1971 "scheduling.ml" 92 2522 2540
+  def g "scheduling.ml" 72 1971 1973 "scheduling.ml" 92 2524 2542
 )
-"scheduling.ml" 63 1730 1738 "scheduling.ml" 63 1730 1746
+"scheduling.ml" 63 1732 1740 "scheduling.ml" 63 1732 1748
 type(
   S.t
 )
 ident(
-  def s_inputs "scheduling.ml" 66 1824 1828 "scheduling.ml" 69 1908 1925
+  def s_inputs "scheduling.ml" 66 1826 1830 "scheduling.ml" 69 1910 1927
 )
-"scheduling.ml" 64 1749 1755 "scheduling.ml" 64 1749 1769
+"scheduling.ml" 64 1751 1757 "scheduling.ml" 64 1751 1771
 type(
   (S.t -> S.elt * 'a -> S.t) -> S.t -> (S.elt * 'a) list -> S.t
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
-"scheduling.ml" 64 1749 1775 "scheduling.ml" 64 1749 1778
+"scheduling.ml" 64 1751 1777 "scheduling.ml" 64 1751 1780
 type(
   S.t
 )
 ident(
-  def acc "scheduling.ml" 64 1749 1779 "scheduling.ml" 64 1749 1800
+  def acc "scheduling.ml" 64 1751 1781 "scheduling.ml" 64 1751 1802
 )
-"scheduling.ml" 64 1749 1780 "scheduling.ml" 64 1749 1781
+"scheduling.ml" 64 1751 1782 "scheduling.ml" 64 1751 1783
 type(
   S.elt
 )
 ident(
-  def x "scheduling.ml" 64 1749 1789 "scheduling.ml" 64 1749 1800
+  def x "scheduling.ml" 64 1751 1791 "scheduling.ml" 64 1751 1802
 )
-"scheduling.ml" 64 1749 1783 "scheduling.ml" 64 1749 1784
+"scheduling.ml" 64 1751 1785 "scheduling.ml" 64 1751 1786
 type(
   'a
 )
-"scheduling.ml" 64 1749 1779 "scheduling.ml" 64 1749 1785
+"scheduling.ml" 64 1751 1781 "scheduling.ml" 64 1751 1787
 type(
   S.elt * 'a
 )
-"scheduling.ml" 64 1749 1789 "scheduling.ml" 64 1749 1794
+"scheduling.ml" 64 1751 1791 "scheduling.ml" 64 1751 1796
 type(
   S.elt -> S.t -> S.t
 )
 ident(
   int_ref S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
 )
-"scheduling.ml" 64 1749 1795 "scheduling.ml" 64 1749 1796
+"scheduling.ml" 64 1751 1797 "scheduling.ml" 64 1751 1798
 type(
   S.elt
 )
 ident(
-  int_ref x "scheduling.ml" 64 1749 1780 "scheduling.ml" 64 1749 1781
+  int_ref x "scheduling.ml" 64 1751 1782 "scheduling.ml" 64 1751 1783
 )
-"scheduling.ml" 64 1749 1797 "scheduling.ml" 64 1749 1800
+"scheduling.ml" 64 1751 1799 "scheduling.ml" 64 1751 1802
 type(
   S.t
 )
 ident(
-  int_ref acc "scheduling.ml" 64 1749 1775 "scheduling.ml" 64 1749 1778
+  int_ref acc "scheduling.ml" 64 1751 1777 "scheduling.ml" 64 1751 1780
 )
-"scheduling.ml" 64 1749 1789 "scheduling.ml" 64 1749 1800
+"scheduling.ml" 64 1751 1791 "scheduling.ml" 64 1751 1802
 type(
   S.t
 )
-"scheduling.ml" 64 1749 1770 "scheduling.ml" 64 1749 1801
+"scheduling.ml" 64 1751 1772 "scheduling.ml" 64 1751 1803
 type(
   S.t -> S.elt * 'a -> S.t
 )
-"scheduling.ml" 64 1749 1802 "scheduling.ml" 64 1749 1809
+"scheduling.ml" 64 1751 1804 "scheduling.ml" 64 1751 1811
 type(
   S.t
 )
 ident(
   int_ref S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
 )
-"scheduling.ml" 64 1749 1810 "scheduling.ml" 64 1749 1816
+"scheduling.ml" 64 1751 1812 "scheduling.ml" 64 1751 1818
 type(
   (S.elt * 'a) list
 )
 ident(
-  int_ref inputs "scheduling.ml" 51 1343 1361 "scheduling.ml" 51 1343 1367
+  int_ref inputs "scheduling.ml" 51 1345 1363 "scheduling.ml" 51 1345 1369
 )
-"scheduling.ml" 64 1749 1755 "scheduling.ml" 64 1749 1816
+"scheduling.ml" 64 1751 1757 "scheduling.ml" 64 1751 1818
 type(
   S.t
 )
-"scheduling.ml" 66 1824 1828 "scheduling.ml" 66 1824 1838
+"scheduling.ml" 66 1826 1830 "scheduling.ml" 66 1826 1840
 type(
   (Graph.elt -> Graph.t -> Graph.t) -> Graph.t -> Graph.t -> Graph.t
 )
 ident(
   int_ref Graph.fold "set.mli" 138 5167 5171 "set.mli" 138 5167 5215
 )
-"scheduling.ml" 67 1839 1851 "scheduling.ml" 67 1839 1852
+"scheduling.ml" 67 1841 1853 "scheduling.ml" 67 1841 1854
 type(
   string
 )
 ident(
-  def y "scheduling.ml" 67 1839 1858 "scheduling.ml" 67 1839 1898
+  def y "scheduling.ml" 67 1841 1860 "scheduling.ml" 67 1841 1900
 )
-"scheduling.ml" 67 1839 1853 "scheduling.ml" 67 1839 1854
+"scheduling.ml" 67 1841 1855 "scheduling.ml" 67 1841 1856
 type(
   S.t
 )
 ident(
-  def s "scheduling.ml" 67 1839 1858 "scheduling.ml" 67 1839 1898
+  def s "scheduling.ml" 67 1841 1860 "scheduling.ml" 67 1841 1900
 )
-"scheduling.ml" 67 1839 1855 "scheduling.ml" 67 1839 1856
+"scheduling.ml" 67 1841 1857 "scheduling.ml" 67 1841 1858
 type(
   Typed_ast.t_equation
 )
 ident(
-  def e "scheduling.ml" 67 1839 1858 "scheduling.ml" 67 1839 1898
+  def e "scheduling.ml" 67 1841 1860 "scheduling.ml" 67 1841 1900
 )
-"scheduling.ml" 67 1839 1850 "scheduling.ml" 67 1839 1857
+"scheduling.ml" 67 1841 1852 "scheduling.ml" 67 1841 1859
 type(
   string * S.t * Typed_ast.t_equation
 )
-"scheduling.ml" 67 1839 1858 "scheduling.ml" 67 1839 1859
+"scheduling.ml" 67 1841 1860 "scheduling.ml" 67 1841 1861
 type(
   Graph.t
 )
 ident(
-  def g "scheduling.ml" 67 1839 1863 "scheduling.ml" 67 1839 1898
+  def g "scheduling.ml" 67 1841 1865 "scheduling.ml" 67 1841 1900
 )
-"scheduling.ml" 67 1839 1863 "scheduling.ml" 67 1839 1872
+"scheduling.ml" 67 1841 1865 "scheduling.ml" 67 1841 1874
 type(
   Graph.elt -> Graph.t -> Graph.t
 )
 ident(
   int_ref Graph.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
 )
-"scheduling.ml" 67 1839 1874 "scheduling.ml" 67 1839 1875
+"scheduling.ml" 67 1841 1876 "scheduling.ml" 67 1841 1877
 type(
   string
 )
 ident(
-  int_ref y "scheduling.ml" 67 1839 1851 "scheduling.ml" 67 1839 1852
+  int_ref y "scheduling.ml" 67 1841 1853 "scheduling.ml" 67 1841 1854
 )
-"scheduling.ml" 67 1839 1876 "scheduling.ml" 67 1839 1882
+"scheduling.ml" 67 1841 1878 "scheduling.ml" 67 1841 1884
 type(
   S.t -> S.t -> S.t
 )
 ident(
   int_ref S.diff "set.mli" 105 3885 3889 "set.mli" 105 3885 3910
 )
-"scheduling.ml" 67 1839 1883 "scheduling.ml" 67 1839 1884
+"scheduling.ml" 67 1841 1885 "scheduling.ml" 67 1841 1886
 type(
   S.t
 )
 ident(
-  int_ref s "scheduling.ml" 67 1839 1853 "scheduling.ml" 67 1839 1854
+  int_ref s "scheduling.ml" 67 1841 1855 "scheduling.ml" 67 1841 1856
 )
-"scheduling.ml" 67 1839 1885 "scheduling.ml" 67 1839 1893
+"scheduling.ml" 67 1841 1887 "scheduling.ml" 67 1841 1895
 type(
   S.t
 )
 ident(
-  int_ref s_inputs "scheduling.ml" 63 1730 1738 "scheduling.ml" 63 1730 1746
+  int_ref s_inputs "scheduling.ml" 63 1732 1740 "scheduling.ml" 63 1732 1748
 )
-"scheduling.ml" 67 1839 1876 "scheduling.ml" 67 1839 1893
+"scheduling.ml" 67 1841 1878 "scheduling.ml" 67 1841 1895
 type(
   S.t
 )
-"scheduling.ml" 67 1839 1894 "scheduling.ml" 67 1839 1895
+"scheduling.ml" 67 1841 1896 "scheduling.ml" 67 1841 1897
 type(
   Typed_ast.t_equation
 )
 ident(
-  int_ref e "scheduling.ml" 67 1839 1855 "scheduling.ml" 67 1839 1856
+  int_ref e "scheduling.ml" 67 1841 1857 "scheduling.ml" 67 1841 1858
 )
-"scheduling.ml" 67 1839 1873 "scheduling.ml" 67 1839 1896
+"scheduling.ml" 67 1841 1875 "scheduling.ml" 67 1841 1898
 type(
   Graph.elt
 )
-"scheduling.ml" 67 1839 1897 "scheduling.ml" 67 1839 1898
+"scheduling.ml" 67 1841 1899 "scheduling.ml" 67 1841 1900
 type(
   Graph.t
 )
 ident(
-  int_ref g "scheduling.ml" 67 1839 1858 "scheduling.ml" 67 1839 1859
+  int_ref g "scheduling.ml" 67 1841 1860 "scheduling.ml" 67 1841 1861
 )
-"scheduling.ml" 67 1839 1863 "scheduling.ml" 67 1839 1898
+"scheduling.ml" 67 1841 1865 "scheduling.ml" 67 1841 1900
 type(
   Graph.t
 )
-"scheduling.ml" 67 1839 1845 "scheduling.ml" 67 1839 1899
+"scheduling.ml" 67 1841 1847 "scheduling.ml" 67 1841 1901
 type(
   Graph.elt -> Graph.t -> Graph.t
 )
-"scheduling.ml" 68 1900 1906 "scheduling.ml" 68 1900 1907
+"scheduling.ml" 68 1902 1908 "scheduling.ml" 68 1902 1909
 type(
   Graph.t
 )
 ident(
-  int_ref g "scheduling.ml" 53 1442 1448 "scheduling.ml" 53 1442 1449
+  int_ref g "scheduling.ml" 53 1444 1450 "scheduling.ml" 53 1444 1451
 )
-"scheduling.ml" 69 1908 1914 "scheduling.ml" 69 1908 1925
+"scheduling.ml" 69 1910 1916 "scheduling.ml" 69 1910 1927
 type(
   Graph.t
 )
 ident(
   int_ref Graph.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
 )
-"scheduling.ml" 66 1824 1828 "scheduling.ml" 69 1908 1925
+"scheduling.ml" 66 1826 1830 "scheduling.ml" 69 1910 1927
 type(
   Graph.t
 )
-"scheduling.ml" 63 1730 1734 "scheduling.ml" 69 1908 1925
+"scheduling.ml" 63 1732 1736 "scheduling.ml" 69 1910 1927
 type(
   Graph.t
 )
-"scheduling.ml" 72 1969 1979 "scheduling.ml" 72 1969 1990
+"scheduling.ml" 72 1971 1981 "scheduling.ml" 72 1971 1992
 type(
   Typed_ast.t_equation list -> Graph.t -> Typed_ast.t_equation list
 )
 ident(
-  def exists_loop "scheduling.ml" 72 1969 1971 "scheduling.ml" 92 2522 2540
+  def exists_loop "scheduling.ml" 72 1971 1973 "scheduling.ml" 92 2524 2542
 )
-"scheduling.ml" 72 1969 1991 "scheduling.ml" 72 1969 1995
+"scheduling.ml" 72 1971 1993 "scheduling.ml" 72 1971 1997
 type(
   Typed_ast.t_equation list
 )
 ident(
-  def topo "scheduling.ml" 72 1969 1996 "scheduling.ml" 90 2492 2516
+  def topo "scheduling.ml" 72 1971 1998 "scheduling.ml" 90 2494 2518
 )
-"scheduling.ml" 72 1969 1996 "scheduling.ml" 72 1969 1997
+"scheduling.ml" 72 1971 1998 "scheduling.ml" 72 1971 1999
 type(
   Graph.t
 )
 ident(
-  def g "scheduling.ml" 73 2000 2004 "scheduling.ml" 90 2492 2516
+  def g "scheduling.ml" 73 2002 2006 "scheduling.ml" 90 2494 2518
 )
-"scheduling.ml" 73 2000 2007 "scheduling.ml" 73 2000 2021
+"scheduling.ml" 73 2002 2009 "scheduling.ml" 73 2002 2023
 type(
   Graph.t -> bool
 )
 ident(
   int_ref Graph.is_empty "set.mli" 74 2825 2829 "set.mli" 74 2825 2852
 )
-"scheduling.ml" 73 2000 2022 "scheduling.ml" 73 2000 2023
+"scheduling.ml" 73 2002 2024 "scheduling.ml" 73 2002 2025
 type(
   Graph.t
 )
 ident(
-  int_ref g "scheduling.ml" 72 1969 1996 "scheduling.ml" 72 1969 1997
+  int_ref g "scheduling.ml" 72 1971 1998 "scheduling.ml" 72 1971 1999
 )
-"scheduling.ml" 73 2000 2007 "scheduling.ml" 73 2000 2023
+"scheduling.ml" 73 2002 2009 "scheduling.ml" 73 2002 2025
 type(
   bool
 )
-"scheduling.ml" 73 2000 2029 "scheduling.ml" 73 2000 2037
+"scheduling.ml" 73 2002 2031 "scheduling.ml" 73 2002 2039
 type(
   Typed_ast.t_equation list -> Typed_ast.t_equation list
 )
 ident(
   int_ref Stdlib.List.rev "list.mli" 76 3214 3214 "list.mli" 76 3214 3242
 )
-"scheduling.ml" 73 2000 2038 "scheduling.ml" 73 2000 2042
+"scheduling.ml" 73 2002 2040 "scheduling.ml" 73 2002 2044
 type(
   Typed_ast.t_equation list
 )
 ident(
-  int_ref topo "scheduling.ml" 72 1969 1991 "scheduling.ml" 72 1969 1995
+  int_ref topo "scheduling.ml" 72 1971 1993 "scheduling.ml" 72 1971 1997
 )
-"scheduling.ml" 73 2000 2029 "scheduling.ml" 73 2000 2042
+"scheduling.ml" 73 2002 2031 "scheduling.ml" 73 2002 2044
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 75 2052 2062 "scheduling.ml" 75 2052 2064
+"scheduling.ml" 75 2054 2064 "scheduling.ml" 75 2054 2066
 type(
   Graph.t
 )
 ident(
-  def g1 "scheduling.ml" 76 2123 2129 "scheduling.ml" 90 2492 2516
+  def g1 "scheduling.ml" 76 2125 2131 "scheduling.ml" 90 2494 2518
 )
-"scheduling.ml" 75 2052 2067 "scheduling.ml" 75 2052 2069
+"scheduling.ml" 75 2054 2069 "scheduling.ml" 75 2054 2071
 type(
   Graph.t
 )
 ident(
-  def g2 "scheduling.ml" 76 2123 2129 "scheduling.ml" 90 2492 2516
+  def g2 "scheduling.ml" 76 2125 2131 "scheduling.ml" 90 2494 2518
 )
-"scheduling.ml" 75 2052 2062 "scheduling.ml" 75 2052 2069
+"scheduling.ml" 75 2054 2064 "scheduling.ml" 75 2054 2071
 type(
   Graph.t * Graph.t
 )
-"scheduling.ml" 75 2052 2072 "scheduling.ml" 75 2052 2087
+"scheduling.ml" 75 2054 2074 "scheduling.ml" 75 2054 2089
 type(
   (Graph.elt -> bool) -> Graph.t -> Graph.t * Graph.t
 )
 ident(
   int_ref Graph.partition "set.mli" 157 5972 5976 "set.mli" 157 5972 6018
 )
-"scheduling.ml" 75 2052 2094 "scheduling.ml" 75 2052 2095
+"scheduling.ml" 75 2054 2096 "scheduling.ml" 75 2054 2097
 type(
   string
 )
-"scheduling.ml" 75 2052 2096 "scheduling.ml" 75 2052 2097
+"scheduling.ml" 75 2054 2098 "scheduling.ml" 75 2054 2099
 type(
   S.t
 )
 ident(
-  def s "scheduling.ml" 75 2052 2104 "scheduling.ml" 75 2052 2116
+  def s "scheduling.ml" 75 2054 2106 "scheduling.ml" 75 2054 2118
 )
-"scheduling.ml" 75 2052 2098 "scheduling.ml" 75 2052 2099
+"scheduling.ml" 75 2054 2100 "scheduling.ml" 75 2054 2101
 type(
   Typed_ast.t_equation
 )
-"scheduling.ml" 75 2052 2093 "scheduling.ml" 75 2052 2100
+"scheduling.ml" 75 2054 2095 "scheduling.ml" 75 2054 2102
 type(
   string * S.t * Typed_ast.t_equation
 )
-"scheduling.ml" 75 2052 2104 "scheduling.ml" 75 2052 2114
+"scheduling.ml" 75 2054 2106 "scheduling.ml" 75 2054 2116
 type(
   S.t -> bool
 )
 ident(
   int_ref S.is_empty "set.mli" 74 2825 2829 "set.mli" 74 2825 2852
 )
-"scheduling.ml" 75 2052 2115 "scheduling.ml" 75 2052 2116
+"scheduling.ml" 75 2054 2117 "scheduling.ml" 75 2054 2118
 type(
   S.t
 )
 ident(
-  int_ref s "scheduling.ml" 75 2052 2096 "scheduling.ml" 75 2052 2097
+  int_ref s "scheduling.ml" 75 2054 2098 "scheduling.ml" 75 2054 2099
 )
-"scheduling.ml" 75 2052 2104 "scheduling.ml" 75 2052 2116
+"scheduling.ml" 75 2054 2106 "scheduling.ml" 75 2054 2118
 type(
   bool
 )
-"scheduling.ml" 75 2052 2088 "scheduling.ml" 75 2052 2117
+"scheduling.ml" 75 2054 2090 "scheduling.ml" 75 2054 2119
 type(
   Graph.elt -> bool
 )
-"scheduling.ml" 75 2052 2118 "scheduling.ml" 75 2052 2119
+"scheduling.ml" 75 2054 2120 "scheduling.ml" 75 2054 2121
 type(
   Graph.t
 )
 ident(
-  int_ref g "scheduling.ml" 72 1969 1996 "scheduling.ml" 72 1969 1997
+  int_ref g "scheduling.ml" 72 1971 1998 "scheduling.ml" 72 1971 1999
 )
-"scheduling.ml" 75 2052 2072 "scheduling.ml" 75 2052 2119
+"scheduling.ml" 75 2054 2074 "scheduling.ml" 75 2054 2121
 type(
   Graph.t * Graph.t
 )
-"scheduling.ml" 76 2123 2132 "scheduling.ml" 76 2123 2146
+"scheduling.ml" 76 2125 2134 "scheduling.ml" 76 2125 2148
 type(
   Graph.t -> bool
 )
 ident(
   int_ref Graph.is_empty "set.mli" 74 2825 2829 "set.mli" 74 2825 2852
 )
-"scheduling.ml" 76 2123 2147 "scheduling.ml" 76 2123 2149
+"scheduling.ml" 76 2125 2149 "scheduling.ml" 76 2125 2151
 type(
   Graph.t
 )
 ident(
-  int_ref g1 "scheduling.ml" 75 2052 2062 "scheduling.ml" 75 2052 2064
+  int_ref g1 "scheduling.ml" 75 2054 2064 "scheduling.ml" 75 2054 2066
 )
-"scheduling.ml" 76 2123 2132 "scheduling.ml" 76 2123 2149
+"scheduling.ml" 76 2125 2134 "scheduling.ml" 76 2125 2151
 type(
   bool
 )
-"scheduling.ml" 76 2123 2155 "scheduling.ml" 76 2123 2160
+"scheduling.ml" 76 2125 2157 "scheduling.ml" 76 2125 2162
 type(
   exn -> unit
 )
 ident(
   int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
 )
-"scheduling.ml" 76 2123 2161 "scheduling.ml" 76 2123 2170
+"scheduling.ml" 76 2125 2163 "scheduling.ml" 76 2125 2172
 type(
   exn
 )
-"scheduling.ml" 76 2123 2155 "scheduling.ml" 76 2123 2170
+"scheduling.ml" 76 2125 2157 "scheduling.ml" 76 2125 2172
 type(
   unit
 )
-"scheduling.ml" 76 2123 2129 "scheduling.ml" 76 2123 2170
+"scheduling.ml" 76 2125 2131 "scheduling.ml" 76 2125 2172
 type(
   unit
 )
-"scheduling.ml" 77 2172 2182 "scheduling.ml" 77 2172 2184
+"scheduling.ml" 77 2174 2184 "scheduling.ml" 77 2174 2186
 type(
   S.t
 )
 ident(
-  def sv "scheduling.ml" 80 2255 2261 "scheduling.ml" 90 2492 2516
+  def sv "scheduling.ml" 80 2257 2263 "scheduling.ml" 90 2494 2518
 )
-"scheduling.ml" 78 2187 2195 "scheduling.ml" 78 2187 2205
+"scheduling.ml" 78 2189 2197 "scheduling.ml" 78 2189 2207
 type(
   (Graph.elt -> S.t -> S.t) -> Graph.t -> S.t -> S.t
 )
 ident(
   int_ref Graph.fold "set.mli" 138 5167 5171 "set.mli" 138 5167 5215
 )
-"scheduling.ml" 78 2187 2212 "scheduling.ml" 78 2187 2213
+"scheduling.ml" 78 2189 2214 "scheduling.ml" 78 2189 2215
 type(
   S.elt
 )
 ident(
-  def x "scheduling.ml" 78 2187 2219 "scheduling.ml" 78 2187 2233
+  def x "scheduling.ml" 78 2189 2221 "scheduling.ml" 78 2189 2235
 )
-"scheduling.ml" 78 2187 2214 "scheduling.ml" 78 2187 2215
+"scheduling.ml" 78 2189 2216 "scheduling.ml" 78 2189 2217
 type(
   S.t
 )
-"scheduling.ml" 78 2187 2216 "scheduling.ml" 78 2187 2217
+"scheduling.ml" 78 2189 2218 "scheduling.ml" 78 2189 2219
 type(
   Typed_ast.t_equation
 )
-"scheduling.ml" 78 2187 2211 "scheduling.ml" 78 2187 2218
+"scheduling.ml" 78 2189 2213 "scheduling.ml" 78 2189 2220
 type(
   S.elt * S.t * Typed_ast.t_equation
 )
-"scheduling.ml" 78 2187 2219 "scheduling.ml" 78 2187 2220
+"scheduling.ml" 78 2189 2221 "scheduling.ml" 78 2189 2222
 type(
   S.t
 )
 ident(
-  def s "scheduling.ml" 78 2187 2224 "scheduling.ml" 78 2187 2233
+  def s "scheduling.ml" 78 2189 2226 "scheduling.ml" 78 2189 2235
 )
-"scheduling.ml" 78 2187 2224 "scheduling.ml" 78 2187 2229
+"scheduling.ml" 78 2189 2226 "scheduling.ml" 78 2189 2231
 type(
   S.elt -> S.t -> S.t
 )
 ident(
   int_ref S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
 )
-"scheduling.ml" 78 2187 2230 "scheduling.ml" 78 2187 2231
+"scheduling.ml" 78 2189 2232 "scheduling.ml" 78 2189 2233
 type(
   S.elt
 )
 ident(
-  int_ref x "scheduling.ml" 78 2187 2212 "scheduling.ml" 78 2187 2213
+  int_ref x "scheduling.ml" 78 2189 2214 "scheduling.ml" 78 2189 2215
 )
-"scheduling.ml" 78 2187 2232 "scheduling.ml" 78 2187 2233
+"scheduling.ml" 78 2189 2234 "scheduling.ml" 78 2189 2235
 type(
   S.t
 )
 ident(
-  int_ref s "scheduling.ml" 78 2187 2219 "scheduling.ml" 78 2187 2220
+  int_ref s "scheduling.ml" 78 2189 2221 "scheduling.ml" 78 2189 2222
 )
-"scheduling.ml" 78 2187 2224 "scheduling.ml" 78 2187 2233
+"scheduling.ml" 78 2189 2226 "scheduling.ml" 78 2189 2235
 type(
   S.t
 )
-"scheduling.ml" 78 2187 2206 "scheduling.ml" 78 2187 2234
+"scheduling.ml" 78 2189 2208 "scheduling.ml" 78 2189 2236
 type(
   Graph.elt -> S.t -> S.t
 )
-"scheduling.ml" 78 2187 2235 "scheduling.ml" 78 2187 2237
+"scheduling.ml" 78 2189 2237 "scheduling.ml" 78 2189 2239
 type(
   Graph.t
 )
 ident(
-  int_ref g1 "scheduling.ml" 75 2052 2062 "scheduling.ml" 75 2052 2064
+  int_ref g1 "scheduling.ml" 75 2054 2064 "scheduling.ml" 75 2054 2066
 )
-"scheduling.ml" 78 2187 2238 "scheduling.ml" 78 2187 2245
+"scheduling.ml" 78 2189 2240 "scheduling.ml" 78 2189 2247
 type(
   S.t
 )
 ident(
   int_ref S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
 )
-"scheduling.ml" 78 2187 2195 "scheduling.ml" 78 2187 2245
+"scheduling.ml" 78 2189 2197 "scheduling.ml" 78 2189 2247
 type(
   S.t
 )
-"scheduling.ml" 80 2255 2265 "scheduling.ml" 80 2255 2266
+"scheduling.ml" 80 2257 2267 "scheduling.ml" 80 2257 2268
 type(
   Graph.t
 )
 ident(
-  def g "scheduling.ml" 85 2374 2380 "scheduling.ml" 90 2492 2516
+  def g "scheduling.ml" 85 2376 2382 "scheduling.ml" 90 2494 2518
 )
-"scheduling.ml" 81 2269 2270 "scheduling.ml" 81 2269 2280
+"scheduling.ml" 81 2271 2272 "scheduling.ml" 81 2271 2282
 type(
   (Graph.elt -> Graph.t -> Graph.t) -> Graph.t -> Graph.t -> Graph.t
 )
 ident(
   int_ref Graph.fold "set.mli" 138 5167 5171 "set.mli" 138 5167 5215
 )
-"scheduling.ml" 82 2281 2297 "scheduling.ml" 82 2281 2298
+"scheduling.ml" 82 2283 2299 "scheduling.ml" 82 2283 2300
 type(
   string
 )
 ident(
-  def y "scheduling.ml" 82 2281 2304 "scheduling.ml" 82 2281 2338
+  def y "scheduling.ml" 82 2283 2306 "scheduling.ml" 82 2283 2340
 )
-"scheduling.ml" 82 2281 2299 "scheduling.ml" 82 2281 2300
+"scheduling.ml" 82 2283 2301 "scheduling.ml" 82 2283 2302
 type(
   S.t
 )
 ident(
-  def s "scheduling.ml" 82 2281 2304 "scheduling.ml" 82 2281 2338
+  def s "scheduling.ml" 82 2283 2306 "scheduling.ml" 82 2283 2340
 )
-"scheduling.ml" 82 2281 2301 "scheduling.ml" 82 2281 2302
+"scheduling.ml" 82 2283 2303 "scheduling.ml" 82 2283 2304
 type(
   Typed_ast.t_equation
 )
 ident(
-  def e "scheduling.ml" 82 2281 2304 "scheduling.ml" 82 2281 2338
+  def e "scheduling.ml" 82 2283 2306 "scheduling.ml" 82 2283 2340
 )
-"scheduling.ml" 82 2281 2296 "scheduling.ml" 82 2281 2303
+"scheduling.ml" 82 2283 2298 "scheduling.ml" 82 2283 2305
 type(
   string * S.t * Typed_ast.t_equation
 )
-"scheduling.ml" 82 2281 2304 "scheduling.ml" 82 2281 2305
+"scheduling.ml" 82 2283 2306 "scheduling.ml" 82 2283 2307
 type(
   Graph.t
 )
 ident(
-  def g "scheduling.ml" 82 2281 2309 "scheduling.ml" 82 2281 2338
+  def g "scheduling.ml" 82 2283 2311 "scheduling.ml" 82 2283 2340
 )
-"scheduling.ml" 82 2281 2309 "scheduling.ml" 82 2281 2318
+"scheduling.ml" 82 2283 2311 "scheduling.ml" 82 2283 2320
 type(
   Graph.elt -> Graph.t -> Graph.t
 )
 ident(
   int_ref Graph.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
 )
-"scheduling.ml" 82 2281 2320 "scheduling.ml" 82 2281 2321
+"scheduling.ml" 82 2283 2322 "scheduling.ml" 82 2283 2323
 type(
   string
 )
 ident(
-  int_ref y "scheduling.ml" 82 2281 2297 "scheduling.ml" 82 2281 2298
+  int_ref y "scheduling.ml" 82 2283 2299 "scheduling.ml" 82 2283 2300
 )
-"scheduling.ml" 82 2281 2322 "scheduling.ml" 82 2281 2328
+"scheduling.ml" 82 2283 2324 "scheduling.ml" 82 2283 2330
 type(
   S.t -> S.t -> S.t
 )
 ident(
   int_ref S.diff "set.mli" 105 3885 3889 "set.mli" 105 3885 3910
 )
-"scheduling.ml" 82 2281 2329 "scheduling.ml" 82 2281 2330
+"scheduling.ml" 82 2283 2331 "scheduling.ml" 82 2283 2332
 type(
   S.t
 )
 ident(
-  int_ref s "scheduling.ml" 82 2281 2299 "scheduling.ml" 82 2281 2300
+  int_ref s "scheduling.ml" 82 2283 2301 "scheduling.ml" 82 2283 2302
 )
-"scheduling.ml" 82 2281 2331 "scheduling.ml" 82 2281 2333
+"scheduling.ml" 82 2283 2333 "scheduling.ml" 82 2283 2335
 type(
   S.t
 )
 ident(
-  int_ref sv "scheduling.ml" 77 2172 2182 "scheduling.ml" 77 2172 2184
+  int_ref sv "scheduling.ml" 77 2174 2184 "scheduling.ml" 77 2174 2186
 )
-"scheduling.ml" 82 2281 2322 "scheduling.ml" 82 2281 2333
+"scheduling.ml" 82 2283 2324 "scheduling.ml" 82 2283 2335
 type(
   S.t
 )
-"scheduling.ml" 82 2281 2334 "scheduling.ml" 82 2281 2335
+"scheduling.ml" 82 2283 2336 "scheduling.ml" 82 2283 2337
 type(
   Typed_ast.t_equation
 )
 ident(
-  int_ref e "scheduling.ml" 82 2281 2301 "scheduling.ml" 82 2281 2302
+  int_ref e "scheduling.ml" 82 2283 2303 "scheduling.ml" 82 2283 2304
 )
-"scheduling.ml" 82 2281 2319 "scheduling.ml" 82 2281 2336
+"scheduling.ml" 82 2283 2321 "scheduling.ml" 82 2283 2338
 type(
   Graph.elt
 )
-"scheduling.ml" 82 2281 2337 "scheduling.ml" 82 2281 2338
+"scheduling.ml" 82 2283 2339 "scheduling.ml" 82 2283 2340
 type(
   Graph.t
 )
 ident(
-  int_ref g "scheduling.ml" 82 2281 2304 "scheduling.ml" 82 2281 2305
+  int_ref g "scheduling.ml" 82 2283 2306 "scheduling.ml" 82 2283 2307
 )
-"scheduling.ml" 82 2281 2309 "scheduling.ml" 82 2281 2338
+"scheduling.ml" 82 2283 2311 "scheduling.ml" 82 2283 2340
 type(
   Graph.t
 )
-"scheduling.ml" 82 2281 2291 "scheduling.ml" 82 2281 2339
+"scheduling.ml" 82 2283 2293 "scheduling.ml" 82 2283 2341
 type(
   Graph.elt -> Graph.t -> Graph.t
 )
-"scheduling.ml" 83 2340 2350 "scheduling.ml" 83 2340 2352
+"scheduling.ml" 83 2342 2352 "scheduling.ml" 83 2342 2354
 type(
   Graph.t
 )
 ident(
-  int_ref g2 "scheduling.ml" 75 2052 2067 "scheduling.ml" 75 2052 2069
+  int_ref g2 "scheduling.ml" 75 2054 2069 "scheduling.ml" 75 2054 2071
 )
-"scheduling.ml" 83 2340 2353 "scheduling.ml" 83 2340 2364
+"scheduling.ml" 83 2342 2355 "scheduling.ml" 83 2342 2366
 type(
   Graph.t
 )
 ident(
   int_ref Graph.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
 )
-"scheduling.ml" 81 2269 2270 "scheduling.ml" 83 2340 2364
+"scheduling.ml" 81 2271 2272 "scheduling.ml" 83 2342 2366
 type(
   Graph.t
 )
-"scheduling.ml" 85 2374 2384 "scheduling.ml" 85 2374 2388
+"scheduling.ml" 85 2376 2386 "scheduling.ml" 85 2376 2390
 type(
   Typed_ast.t_equation list
 )
 ident(
-  def topo "scheduling.ml" 90 2492 2498 "scheduling.ml" 90 2492 2516
+  def topo "scheduling.ml" 90 2494 2500 "scheduling.ml" 90 2494 2518
 )
-"scheduling.ml" 86 2391 2392 "scheduling.ml" 86 2391 2402
+"scheduling.ml" 86 2393 2394 "scheduling.ml" 86 2393 2404
 type(
   (Graph.elt -> Typed_ast.t_equation list -> Typed_ast.t_equation list) ->
   Graph.t -> Typed_ast.t_equation list -> Typed_ast.t_equation list
@@ -1465,276 +1627,276 @@ type(
 ident(
   int_ref Graph.fold "set.mli" 138 5167 5171 "set.mli" 138 5167 5215
 )
-"scheduling.ml" 87 2403 2419 "scheduling.ml" 87 2403 2420
+"scheduling.ml" 87 2405 2421 "scheduling.ml" 87 2405 2422
 type(
   string
 )
-"scheduling.ml" 87 2403 2421 "scheduling.ml" 87 2403 2422
+"scheduling.ml" 87 2405 2423 "scheduling.ml" 87 2405 2424
 type(
   S.t
 )
-"scheduling.ml" 87 2403 2423 "scheduling.ml" 87 2403 2424
+"scheduling.ml" 87 2405 2425 "scheduling.ml" 87 2405 2426
 type(
   Typed_ast.t_equation
 )
 ident(
-  def e "scheduling.ml" 87 2403 2426 "scheduling.ml" 87 2403 2463
+  def e "scheduling.ml" 87 2405 2428 "scheduling.ml" 87 2405 2465
 )
-"scheduling.ml" 87 2403 2418 "scheduling.ml" 87 2403 2425
+"scheduling.ml" 87 2405 2420 "scheduling.ml" 87 2405 2427
 type(
   string * S.t * Typed_ast.t_equation
 )
-"scheduling.ml" 87 2403 2426 "scheduling.ml" 87 2403 2427
+"scheduling.ml" 87 2405 2428 "scheduling.ml" 87 2405 2429
 type(
   Typed_ast.t_equation list
 )
 ident(
-  def l "scheduling.ml" 87 2403 2431 "scheduling.ml" 87 2403 2463
+  def l "scheduling.ml" 87 2405 2433 "scheduling.ml" 87 2405 2465
 )
-"scheduling.ml" 87 2403 2434 "scheduling.ml" 87 2403 2442
+"scheduling.ml" 87 2405 2436 "scheduling.ml" 87 2405 2444
 type(
   Typed_ast.t_equation -> Typed_ast.t_equation list -> bool
 )
 ident(
-  int_ref Stdlib.List.mem "list.mli" 209 8022 8022 "list.mli" 209 8022 8053
+  int_ref Stdlib.List.mem "list.mli" 216 8209 8209 "list.mli" 216 8209 8240
 )
-"scheduling.ml" 87 2403 2443 "scheduling.ml" 87 2403 2444
+"scheduling.ml" 87 2405 2445 "scheduling.ml" 87 2405 2446
 type(
   Typed_ast.t_equation
 )
 ident(
-  int_ref e "scheduling.ml" 87 2403 2423 "scheduling.ml" 87 2403 2424
+  int_ref e "scheduling.ml" 87 2405 2425 "scheduling.ml" 87 2405 2426
 )
-"scheduling.ml" 87 2403 2445 "scheduling.ml" 87 2403 2446
+"scheduling.ml" 87 2405 2447 "scheduling.ml" 87 2405 2448
 type(
   Typed_ast.t_equation list
 )
 ident(
-  int_ref l "scheduling.ml" 87 2403 2426 "scheduling.ml" 87 2403 2427
+  int_ref l "scheduling.ml" 87 2405 2428 "scheduling.ml" 87 2405 2429
 )
-"scheduling.ml" 87 2403 2434 "scheduling.ml" 87 2403 2446
+"scheduling.ml" 87 2405 2436 "scheduling.ml" 87 2405 2448
 type(
   bool
 )
-"scheduling.ml" 87 2403 2452 "scheduling.ml" 87 2403 2453
+"scheduling.ml" 87 2405 2454 "scheduling.ml" 87 2405 2455
 type(
   Typed_ast.t_equation list
 )
 ident(
-  int_ref l "scheduling.ml" 87 2403 2426 "scheduling.ml" 87 2403 2427
+  int_ref l "scheduling.ml" 87 2405 2428 "scheduling.ml" 87 2405 2429
 )
-"scheduling.ml" 87 2403 2459 "scheduling.ml" 87 2403 2460
+"scheduling.ml" 87 2405 2461 "scheduling.ml" 87 2405 2462
 type(
   Typed_ast.t_equation
 )
 ident(
-  int_ref e "scheduling.ml" 87 2403 2423 "scheduling.ml" 87 2403 2424
+  int_ref e "scheduling.ml" 87 2405 2425 "scheduling.ml" 87 2405 2426
 )
-"scheduling.ml" 87 2403 2462 "scheduling.ml" 87 2403 2463
+"scheduling.ml" 87 2405 2464 "scheduling.ml" 87 2405 2465
 type(
   Typed_ast.t_equation list
 )
 ident(
-  int_ref l "scheduling.ml" 87 2403 2426 "scheduling.ml" 87 2403 2427
+  int_ref l "scheduling.ml" 87 2405 2428 "scheduling.ml" 87 2405 2429
 )
-"scheduling.ml" 87 2403 2459 "scheduling.ml" 87 2403 2463
+"scheduling.ml" 87 2405 2461 "scheduling.ml" 87 2405 2465
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 87 2403 2431 "scheduling.ml" 87 2403 2463
+"scheduling.ml" 87 2405 2433 "scheduling.ml" 87 2405 2465
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 87 2403 2413 "scheduling.ml" 87 2403 2464
+"scheduling.ml" 87 2405 2415 "scheduling.ml" 87 2405 2466
 type(
   Graph.elt -> Typed_ast.t_equation list -> Typed_ast.t_equation list
 )
-"scheduling.ml" 88 2465 2475 "scheduling.ml" 88 2465 2477
+"scheduling.ml" 88 2467 2477 "scheduling.ml" 88 2467 2479
 type(
   Graph.t
 )
 ident(
-  int_ref g1 "scheduling.ml" 75 2052 2062 "scheduling.ml" 75 2052 2064
+  int_ref g1 "scheduling.ml" 75 2054 2064 "scheduling.ml" 75 2054 2066
 )
-"scheduling.ml" 88 2465 2478 "scheduling.ml" 88 2465 2482
+"scheduling.ml" 88 2467 2480 "scheduling.ml" 88 2467 2484
 type(
   Typed_ast.t_equation list
 )
 ident(
-  int_ref topo "scheduling.ml" 72 1969 1991 "scheduling.ml" 72 1969 1995
+  int_ref topo "scheduling.ml" 72 1971 1993 "scheduling.ml" 72 1971 1997
 )
-"scheduling.ml" 86 2391 2392 "scheduling.ml" 88 2465 2482
+"scheduling.ml" 86 2393 2394 "scheduling.ml" 88 2467 2484
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 90 2492 2498 "scheduling.ml" 90 2492 2509
+"scheduling.ml" 90 2494 2500 "scheduling.ml" 90 2494 2511
 type(
   Typed_ast.t_equation list -> Graph.t -> Typed_ast.t_equation list
 )
 ident(
-  int_ref exists_loop "scheduling.ml" 72 1969 1979 "scheduling.ml" 72 1969 1990
+  int_ref exists_loop "scheduling.ml" 72 1971 1981 "scheduling.ml" 72 1971 1992
 )
-"scheduling.ml" 90 2492 2510 "scheduling.ml" 90 2492 2514
+"scheduling.ml" 90 2494 2512 "scheduling.ml" 90 2494 2516
 type(
   Typed_ast.t_equation list
 )
 ident(
-  int_ref topo "scheduling.ml" 85 2374 2384 "scheduling.ml" 85 2374 2388
+  int_ref topo "scheduling.ml" 85 2376 2386 "scheduling.ml" 85 2376 2390
 )
-"scheduling.ml" 90 2492 2515 "scheduling.ml" 90 2492 2516
+"scheduling.ml" 90 2494 2517 "scheduling.ml" 90 2494 2518
 type(
   Graph.t
 )
 ident(
-  int_ref g "scheduling.ml" 80 2255 2265 "scheduling.ml" 80 2255 2266
+  int_ref g "scheduling.ml" 80 2257 2267 "scheduling.ml" 80 2257 2268
 )
-"scheduling.ml" 90 2492 2498 "scheduling.ml" 90 2492 2516
+"scheduling.ml" 90 2494 2500 "scheduling.ml" 90 2494 2518
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 85 2374 2380 "scheduling.ml" 90 2492 2516
+"scheduling.ml" 85 2376 2382 "scheduling.ml" 90 2494 2518
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 80 2255 2261 "scheduling.ml" 90 2492 2516
+"scheduling.ml" 80 2257 2263 "scheduling.ml" 90 2494 2518
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 77 2172 2178 "scheduling.ml" 90 2492 2516
+"scheduling.ml" 77 2174 2180 "scheduling.ml" 90 2494 2518
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 76 2123 2129 "scheduling.ml" 90 2492 2516
+"scheduling.ml" 76 2125 2131 "scheduling.ml" 90 2494 2518
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 75 2052 2058 "scheduling.ml" 90 2492 2516
+"scheduling.ml" 75 2054 2060 "scheduling.ml" 90 2494 2518
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 73 2000 2004 "scheduling.ml" 90 2492 2516
+"scheduling.ml" 73 2002 2006 "scheduling.ml" 90 2494 2518
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 92 2522 2524 "scheduling.ml" 92 2522 2535
+"scheduling.ml" 92 2524 2526 "scheduling.ml" 92 2524 2537
 type(
   Typed_ast.t_equation list -> Graph.t -> Typed_ast.t_equation list
 )
 ident(
-  int_ref exists_loop "scheduling.ml" 72 1969 1979 "scheduling.ml" 72 1969 1990
+  int_ref exists_loop "scheduling.ml" 72 1971 1981 "scheduling.ml" 72 1971 1992
 )
-"scheduling.ml" 92 2522 2536 "scheduling.ml" 92 2522 2538
+"scheduling.ml" 92 2524 2538 "scheduling.ml" 92 2524 2540
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 92 2522 2539 "scheduling.ml" 92 2522 2540
+"scheduling.ml" 92 2524 2541 "scheduling.ml" 92 2524 2542
 type(
   Graph.t
 )
 ident(
-  int_ref g "scheduling.ml" 62 1720 1726 "scheduling.ml" 62 1720 1727
+  int_ref g "scheduling.ml" 62 1722 1728 "scheduling.ml" 62 1722 1729
 )
-"scheduling.ml" 92 2522 2524 "scheduling.ml" 92 2522 2540
+"scheduling.ml" 92 2524 2526 "scheduling.ml" 92 2524 2542
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 72 1969 1971 "scheduling.ml" 92 2522 2540
+"scheduling.ml" 72 1971 1973 "scheduling.ml" 92 2524 2542
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 62 1720 1722 "scheduling.ml" 92 2522 2540
+"scheduling.ml" 62 1722 1724 "scheduling.ml" 92 2524 2542
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 53 1442 1444 "scheduling.ml" 92 2522 2540
+"scheduling.ml" 53 1444 1446 "scheduling.ml" 92 2524 2542
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 94 2542 2546 "scheduling.ml" 94 2542 2559
+"scheduling.ml" 94 2544 2548 "scheduling.ml" 94 2544 2561
 type(
   Typed_ast.t_node -> Typed_ast.t_node
 )
 ident(
-  def schedule_node "scheduling.ml" 98 2645 2645 "scheduling.ml" 0 0 -1
+  def schedule_node "scheduling.ml" 98 2647 2647 "scheduling.ml" 0 0 -1
 )
-"scheduling.ml" 94 2542 2560 "scheduling.ml" 94 2542 2561
+"scheduling.ml" 94 2544 2562 "scheduling.ml" 94 2544 2563
 type(
   Typed_ast.t_node
 )
 ident(
-  def n "scheduling.ml" 95 2564 2566 "scheduling.ml" 96 2615 2643
+  def n "scheduling.ml" 95 2566 2568 "scheduling.ml" 96 2617 2645
 )
-"scheduling.ml" 95 2564 2570 "scheduling.ml" 95 2564 2574
+"scheduling.ml" 95 2566 2572 "scheduling.ml" 95 2566 2576
 type(
   Typed_ast.t_equation list
 )
 ident(
-  def equs "scheduling.ml" 96 2615 2617 "scheduling.ml" 96 2615 2643
+  def equs "scheduling.ml" 96 2617 2619 "scheduling.ml" 96 2617 2645
 )
-"scheduling.ml" 95 2564 2577 "scheduling.ml" 95 2564 2590
+"scheduling.ml" 95 2566 2579 "scheduling.ml" 95 2566 2592
 type(
   Typed_ast.typed_var list ->
   Typed_ast.t_equation list -> Typed_ast.t_equation list
 )
 ident(
-  int_ref schedule_equs "scheduling.ml" 51 1343 1347 "scheduling.ml" 51 1343 1360
+  int_ref schedule_equs "scheduling.ml" 51 1345 1349 "scheduling.ml" 51 1345 1362
 )
-"scheduling.ml" 95 2564 2591 "scheduling.ml" 95 2564 2592
+"scheduling.ml" 95 2566 2593 "scheduling.ml" 95 2566 2594
 type(
   Typed_ast.t_node
 )
 ident(
-  int_ref n "scheduling.ml" 94 2542 2560 "scheduling.ml" 94 2542 2561
+  int_ref n "scheduling.ml" 94 2544 2562 "scheduling.ml" 94 2544 2563
 )
-"scheduling.ml" 95 2564 2591 "scheduling.ml" 95 2564 2601
+"scheduling.ml" 95 2566 2593 "scheduling.ml" 95 2566 2603
 type(
   Typed_ast.typed_var list
 )
-"scheduling.ml" 95 2564 2602 "scheduling.ml" 95 2564 2603
+"scheduling.ml" 95 2566 2604 "scheduling.ml" 95 2566 2605
 type(
   Typed_ast.t_node
 )
 ident(
-  int_ref n "scheduling.ml" 94 2542 2560 "scheduling.ml" 94 2542 2561
+  int_ref n "scheduling.ml" 94 2544 2562 "scheduling.ml" 94 2544 2563
 )
-"scheduling.ml" 95 2564 2602 "scheduling.ml" 95 2564 2611
+"scheduling.ml" 95 2566 2604 "scheduling.ml" 95 2566 2613
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 95 2564 2577 "scheduling.ml" 95 2564 2611
+"scheduling.ml" 95 2566 2579 "scheduling.ml" 95 2566 2613
 type(
   Typed_ast.t_equation list
 )
-"scheduling.ml" 96 2615 2619 "scheduling.ml" 96 2615 2620
+"scheduling.ml" 96 2617 2621 "scheduling.ml" 96 2617 2622
 type(
   Typed_ast.t_node
 )
 ident(
-  int_ref n "scheduling.ml" 94 2542 2560 "scheduling.ml" 94 2542 2561
+  int_ref n "scheduling.ml" 94 2544 2562 "scheduling.ml" 94 2544 2563
 )
-"scheduling.ml" 96 2615 2636 "scheduling.ml" 96 2615 2640
+"scheduling.ml" 96 2617 2638 "scheduling.ml" 96 2617 2642
 type(
   Typed_ast.t_equation list
 )
 ident(
-  int_ref equs "scheduling.ml" 95 2564 2570 "scheduling.ml" 95 2564 2574
+  int_ref equs "scheduling.ml" 95 2566 2572 "scheduling.ml" 95 2566 2576
 )
-"scheduling.ml" 96 2615 2617 "scheduling.ml" 96 2615 2643
+"scheduling.ml" 96 2617 2619 "scheduling.ml" 96 2617 2645
 type(
   Typed_ast.t_node
 )
-"scheduling.ml" 95 2564 2566 "scheduling.ml" 96 2615 2643
+"scheduling.ml" 95 2566 2568 "scheduling.ml" 96 2617 2645
 type(
   Typed_ast.t_node
 )
-"scheduling.ml" 98 2645 2649 "scheduling.ml" 98 2645 2657
+"scheduling.ml" 98 2647 2651 "scheduling.ml" 98 2647 2659
 type(
   Typed_ast.t_node list -> Typed_ast.t_node list
 )
 ident(
-  def schedule "scheduling.ml" 99 2660 2684 "scheduling.ml" 0 0 -1
+  def schedule "scheduling.ml" 99 2662 2686 "scheduling.ml" 0 0 -1
 )
-"scheduling.ml" 99 2660 2662 "scheduling.ml" 99 2660 2670
+"scheduling.ml" 99 2662 2664 "scheduling.ml" 99 2662 2672
 type(
   (Typed_ast.t_node -> Typed_ast.t_node) ->
   Typed_ast.t_node list -> Typed_ast.t_node list
@@ -1742,14 +1904,14 @@ type(
 ident(
   int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
 )
-"scheduling.ml" 99 2660 2671 "scheduling.ml" 99 2660 2684
+"scheduling.ml" 99 2662 2673 "scheduling.ml" 99 2662 2686
 type(
   Typed_ast.t_node -> Typed_ast.t_node
 )
 ident(
-  int_ref schedule_node "scheduling.ml" 94 2542 2546 "scheduling.ml" 94 2542 2559
+  int_ref schedule_node "scheduling.ml" 94 2544 2548 "scheduling.ml" 94 2544 2561
 )
-"scheduling.ml" 99 2660 2662 "scheduling.ml" 99 2660 2684
+"scheduling.ml" 99 2662 2664 "scheduling.ml" 99 2662 2686
 type(
   Typed_ast.t_node list -> Typed_ast.t_node list
 )

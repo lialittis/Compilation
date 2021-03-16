@@ -1852,7 +1852,7 @@ type(
   (string * (Asttypes.base_ty list * Asttypes.base_ty list)) list -> bool
 )
 ident(
-  int_ref Stdlib.List.mem_assoc "list.mli" 278 10449 10449 "list.mli" 278 10449 10493
+  int_ref Stdlib.List.mem_assoc "list.mli" 292 10862 10862 "list.mli" 292 10862 10906
 )
 "typing.ml" 108 3363 3401 "typing.ml" 108 3363 3402
 type(
@@ -1898,7 +1898,7 @@ type(
   string -> string -> bool
 )
 ident(
-  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
 )
 "typing.ml" 110 3410 3434 "typing.ml" 110 3410 3441
 type(
@@ -1967,7 +1967,7 @@ type(
   Asttypes.base_ty list * Asttypes.base_ty list
 )
 ident(
-  int_ref Stdlib.List.assoc "list.mli" 252 9463 9463 "list.mli" 252 9463 9501
+  int_ref Stdlib.List.assoc "list.mli" 266 9876 9876 "list.mli" 266 9876 9914
 )
 "typing.ml" 114 3503 3528 "typing.ml" 114 3503 3529
 type(
@@ -2310,7 +2310,7 @@ type(
   ('e * 'd) M.t -> (M.key * 'e) list -> ('e * 'd) M.t
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
 "typing.ml" 133 3876 3900 "typing.ml" 133 3876 3903
 type(
@@ -2543,7 +2543,7 @@ type(
   io -> io -> bool
 )
 ident(
-  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
 )
 "typing.ml" 140 4050 4086 "typing.ml" 140 4050 4091
 type(
@@ -2727,7 +2727,7 @@ type(
   'a -> 'a -> bool
 )
 ident(
-  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
 )
 "typing.ml" 152 4272 4286 "typing.ml" 152 4272 4297
 type(
@@ -2766,7 +2766,7 @@ type(
   (bool -> 'a -> 'a -> bool) -> bool -> 'a list -> 'a list -> bool
 )
 ident(
-  int_ref Stdlib.List.fold_left2 "list.mli" 173 6571 6571 "list.mli" 173 6571 6644
+  int_ref Stdlib.List.fold_left2 "list.mli" 180 6758 6758 "list.mli" 180 6758 6831
 )
 "typing.ml" 157 4364 4375 "typing.ml" 157 4364 4381
 type(
@@ -2833,7 +2833,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
 )
 "typing.ml" 159 4440 4452 "typing.ml" 159 4440 4459
 type(
@@ -3270,7 +3270,7 @@ type(
   (Typed_ast.t_expr -> bool) -> Typed_ast.t_expr list -> bool
 )
 ident(
-  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+  int_ref Stdlib.List.for_all "list.mli" 196 7351 7351 "list.mli" 196 7351 7396
 )
 "typing.ml" 196 5202 5235 "typing.ml" 196 5202 5246
 type(
@@ -3377,7 +3377,7 @@ type(
   Typed_ast.t_expr list -> Asttypes.const list -> Asttypes.const list
 )
 ident(
-  int_ref Stdlib.List.fold_right "list.mli" 148 5663 5663 "list.mli" 148 5663 5719
+  int_ref Stdlib.List.fold_right "list.mli" 155 5850 5850 "list.mli" 155 5850 5906
 )
 "typing.ml" 203 5365 5392 "typing.ml" 203 5365 5393
 type(
@@ -3416,7 +3416,7 @@ type(
   Asttypes.const list -> Asttypes.const list -> Asttypes.const list
 )
 ident(
-  int_ref Stdlib.( @ ) "stdlib.mli" 782 29359 29359 "stdlib.mli" 782 29359 29400
+  int_ref Stdlib.( @ ) "stdlib.mli" 785 29434 29434 "stdlib.mli" 785 29434 29475
 )
 "typing.ml" 203 5365 5419 "typing.ml" 203 5365 5422
 type(
@@ -5294,7 +5294,7 @@ type(
   Asttypes.base_ty -> Asttypes.base_ty -> bool
 )
 ident(
-  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
 )
 "typing.ml" 279 7655 7684 "typing.ml" 279 7655 7686
 type(
@@ -6406,7 +6406,7 @@ type(
   bool -> bool
 )
 ident(
-  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
 )
 "typing.ml" 329 9073 9087 "typing.ml" 329 9073 9098
 type(
@@ -6961,7 +6961,7 @@ type(
   Asttypes.base_ty list -> Typed_ast.t_expr list -> Asttypes.base_ty list
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
 "typing.ml" 350 9762 9770 "typing.ml" 350 9762 9773
 type(
@@ -7218,7 +7218,7 @@ type(
   Asttypes.ty -> Asttypes.ty -> bool
 )
 ident(
-  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
 )
 "typing.ml" 364 10077 10087 "typing.ml" 364 10077 10089
 type(
@@ -8247,7 +8247,7 @@ type(
   (S.t -> S.elt -> S.t) -> S.t -> S.elt list -> S.t
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
 "typing.ml" 415 11344 11366 "typing.ml" 415 11344 11367
 type(
@@ -8355,7 +8355,7 @@ type(
   S.t -> Typed_ast.t_equation list -> S.t
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
 "typing.ml" 418 11421 11447 "typing.ml" 418 11421 11463
 type(
@@ -8441,7 +8441,7 @@ type(
   bool -> bool
 )
 ident(
-  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
 )
 "typing.ml" 420 11540 11550 "typing.ml" 420 11540 11560
 type(
@@ -8551,7 +8551,7 @@ type(
   Typed_ast.t_equation list -> unit
 )
 ident(
-  int_ref Stdlib.ignore "stdlib.mli" 682 25891 25891 "stdlib.mli" 682 25891 25931
+  int_ref Stdlib.ignore "stdlib.mli" 685 25966 25966 "stdlib.mli" 685 25966 26006
 )
 "typing.ml" 424 11676 11696 "typing.ml" 424 11676 11720
 type(
@@ -8559,7 +8559,7 @@ type(
   Typed_ast.t_equation list -> Typed_ast.t_equation list
 )
 ident(
-  int_ref Scheduling.schedule_equs "scheduling.ml" 51 1343 1347 "scheduling.ml" 51 1343 1360
+  int_ref Scheduling.schedule_equs "scheduling.ml" 51 1345 1349 "scheduling.ml" 51 1345 1362
 )
 "typing.ml" 424 11676 11721 "typing.ml" 424 11676 11727
 type(
@@ -8683,7 +8683,7 @@ type(
   (M.key * Asttypes.base_ty) list -> (M.key * Asttypes.base_ty) list
 )
 ident(
-  int_ref Stdlib.( @ ) "stdlib.mli" 782 29359 29359 "stdlib.mli" 782 29359 29400
+  int_ref Stdlib.( @ ) "stdlib.mli" 785 29434 29434 "stdlib.mli" 785 29434 29475
 )
 "typing.ml" 429 11810 11873 "typing.ml" 429 11810 11874
 type(
@@ -9296,7 +9296,7 @@ type(
   (Typed_ast.t_node -> bool) -> Typed_ast.t_node list -> Typed_ast.t_node
 )
 ident(
-  int_ref Stdlib.List.find "list.mli" 221 8311 8311 "list.mli" 221 8311 8351
+  int_ref Stdlib.List.find "list.mli" 228 8498 8498 "list.mli" 228 8498 8538
 )
 "typing.ml" 451 12584 12613 "typing.ml" 451 12584 12614
 type(
@@ -9321,7 +9321,7 @@ type(
   string -> string -> bool
 )
 ident(
-  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
 )
 "typing.ml" 451 12584 12630 "typing.ml" 451 12584 12634
 type(
@@ -9504,7 +9504,7 @@ type(
   string -> string -> bool
 )
 ident(
-  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
 )
 "typing.ml" 457 12832 12845 "typing.ml" 457 12832 12847
 type(

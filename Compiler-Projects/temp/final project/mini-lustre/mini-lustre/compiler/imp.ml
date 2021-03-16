@@ -36,13 +36,13 @@ let rec compile_base_expr e =
         let ce2 =  compile_base_expr e2 in
         ME_binop (op, ce1, ce2)
     | TE_if (e1, e2, e3) ->
-		assert false
-		(*
+		(*assert false*)
+		
 		let ce1 = compile_base_expr e1 in
 		let ce2 = compile_base_expr e2 in
 		let ce3 = compile_base_expr e3 in
 		ME_if (ce1,ce2,ce3)
-		*)
+		
 		(* DONE *)
     | TE_tuple el -> ME_tuple (List.map compile_base_expr el)
     | TE_print el -> ME_print (List.map compile_base_expr el)
@@ -80,7 +80,8 @@ let compile_equation
   let tvars = compile_patt p in
   match e.texpr_desc with
   | TE_fby(e1,e2) ->
-	(*
+	(* mem_acc, init_acc, compute_acc, update_acc*)
+	
 	begin 
 	  (* compile the base expression e1 and e2*)
 	  (* note that here e1 is const list and e2 is t_expr *)
@@ -104,11 +105,11 @@ let compile_equation
 	  *)
 	  new_mem_acc, new_init_acc, eq2::compute_acc, List.append update_ae2 update_acc (* DONE *)
 	end
-	*)
-	mem_acc, init_acc, compute_acc, update_acc
+	
 
   | TE_app(n,el) ->
-	(*
+	(*mem_acc, init_acc, compute_acc, update_acc*)
+	
 	begin
       (* generate a new node mem*)
 	  let new_node_mem = ((gen_mem_id n), n) in
@@ -124,8 +125,7 @@ let compile_equation
 	  let new_update_acc = List.fold_right (fun a b-> List.append a b) update_ael update_acc in
       new_mem_acc, new_init_acc, new_compute_acc, new_update_acc (* DONE *)
 	end
-	*)
-	mem_acc, init_acc, compute_acc, update_acc
+	
 
   | _ ->
       let eq = {meq_patt = tvars; meq_expr = compile_base_expr e} in

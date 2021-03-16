@@ -24,24 +24,24 @@ let add_vars_of_patt s {tpatt_desc=p} =
 let rec add_vars_of_exp s {texpr_desc=e} =
   match e with
   | TE_const _ -> s
-  | TE_ident x -> S.empty
-	(*if S.mem x s then s else S.add x s (* DONE *)*)
-  | TE_fby (e1, e2) -> S.empty 
-	(*let s = List.fold_left add_vars_of_exp s e1 in*)
-	  (*add_vars_of_exp s e2*)
+  | TE_ident x -> (*S.empty*)
+	if S.mem x s then s else S.add x s (* DONE *)
+  | TE_fby (e1, e2) -> (*S.empty*) 
+	  (*let s = List.fold_left add_vars_of_exp s e1 in*)
+	  add_vars_of_exp s e2
 	(*TE_fby of const list * t_expr *)
 	(* DONE *)
   | TE_unop (_,e') -> add_vars_of_exp s e'
   | TE_binop (_,e1,e2) ->
       let s = add_vars_of_exp s e1 in
       add_vars_of_exp s e2
-  | TE_if(e1,e2,e3) -> S.empty 
+  | TE_if(e1,e2,e3) -> (*S.empty*) 
 	  (*e1 is t_expr*)
-	  (*
+	  
 	  let s = add_vars_of_exp s e1 in
 	  let s = add_vars_of_exp s e2 in 
 		add_vars_of_exp s e3
-	  *)
+	  
 	  (* DONE *)
   | TE_app (_,l) | TE_prim (_,l) | TE_print l ->
       List.fold_left add_vars_of_exp s l

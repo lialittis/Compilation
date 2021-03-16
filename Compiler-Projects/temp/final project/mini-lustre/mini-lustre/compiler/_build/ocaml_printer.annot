@@ -81,7 +81,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "ocaml_printer.ml" 9 133 151 "ocaml_printer.ml" 9 133 152
 type(
@@ -142,7 +142,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "ocaml_printer.ml" 10 156 192 "ocaml_printer.ml" 10 156 193
 type(
@@ -167,7 +167,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "ocaml_printer.ml" 10 156 197 "ocaml_printer.ml" 10 156 200
 type(
@@ -864,7 +864,7 @@ type(
   int -> int -> bool
 )
 ident(
-  int_ref Stdlib.( < ) "stdlib.mli" 132 5646 5646 "stdlib.mli" 132 5646 5693
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
 )
 "ocaml_printer.ml" 69 1224 1237 "ocaml_printer.ml" 69 1224 1238
 type(
@@ -883,14 +883,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "ocaml_printer.ml" 70 1244 1250 "ocaml_printer.ml" 70 1244 1263
 type(
   int -> string
 )
 ident(
-  int_ref Stdlib.string_of_int "stdlib.mli" 709 26773 26773 "stdlib.mli" 709 26773 26806
+  int_ref Stdlib.string_of_int "stdlib.mli" 712 26848 26848 "stdlib.mli" 712 26848 26881
 )
 "ocaml_printer.ml" 70 1244 1264 "ocaml_printer.ml" 70 1244 1265
 type(
@@ -908,7 +908,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "ocaml_printer.ml" 70 1244 1267 "ocaml_printer.ml" 70 1244 1270
 type(
@@ -927,7 +927,7 @@ type(
   int -> string
 )
 ident(
-  int_ref Stdlib.string_of_int "stdlib.mli" 709 26773 26773 "stdlib.mli" 709 26773 26806
+  int_ref Stdlib.string_of_int "stdlib.mli" 712 26848 26848 "stdlib.mli" 712 26848 26881
 )
 "ocaml_printer.ml" 71 1271 1296 "ocaml_printer.ml" 71 1271 1297
 type(
@@ -968,7 +968,7 @@ type(
   float -> float -> bool
 )
 ident(
-  int_ref Stdlib.( < ) "stdlib.mli" 132 5646 5646 "stdlib.mli" 132 5646 5693
+  int_ref Stdlib.( < ) "stdlib.mli" 135 5721 5721 "stdlib.mli" 135 5721 5768
 )
 "ocaml_printer.ml" 73 1315 1328 "ocaml_printer.ml" 73 1315 1331
 type(
@@ -987,14 +987,14 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "ocaml_printer.ml" 74 1337 1343 "ocaml_printer.ml" 74 1337 1358
 type(
   float -> string
 )
 ident(
-  int_ref Stdlib.string_of_float "stdlib.mli" 737 27858 27858 "stdlib.mli" 737 27858 27895
+  int_ref Stdlib.string_of_float "stdlib.mli" 740 27933 27933 "stdlib.mli" 740 27933 27970
 )
 "ocaml_printer.ml" 74 1337 1359 "ocaml_printer.ml" 74 1337 1360
 type(
@@ -1012,7 +1012,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "ocaml_printer.ml" 74 1337 1362 "ocaml_printer.ml" 74 1337 1365
 type(
@@ -1031,7 +1031,7 @@ type(
   float -> string
 )
 ident(
-  int_ref Stdlib.string_of_float "stdlib.mli" 737 27858 27858 "stdlib.mli" 737 27858 27895
+  int_ref Stdlib.string_of_float "stdlib.mli" 740 27933 27933 "stdlib.mli" 740 27933 27970
 )
 "ocaml_printer.ml" 75 1366 1393 "ocaml_printer.ml" 75 1366 1394
 type(
@@ -1069,7 +1069,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "ocaml_printer.ml" 76 1395 1418 "ocaml_printer.ml" 76 1395 1419
 type(
@@ -1083,7 +1083,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "ocaml_printer.ml" 76 1395 1420 "ocaml_printer.ml" 76 1395 1424
 type(
@@ -1265,7 +1265,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "ocaml_printer.ml" 87 1625 1649 "ocaml_printer.ml" 87 1625 1650
 type(
@@ -2060,7 +2060,7 @@ type(
   Imp_ast.mem -> Imp_ast.mem -> bool
 )
 ident(
-  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
 )
 "ocaml_printer.ml" 122 2894 2922 "ocaml_printer.ml" 122 2894 2924
 type(
@@ -2383,7 +2383,7 @@ type(
   Imp_ast.mem -> Imp_ast.mem -> bool
 )
 ident(
-  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
 )
 "ocaml_printer.ml" 138 3348 3376 "ocaml_printer.ml" 138 3348 3378
 type(
@@ -4028,7 +4028,7 @@ type(
   int
 )
 ident(
-  int_ref Stdlib.max_int "stdlib.mli" 378 14871 14871 "stdlib.mli" 378 14871 14888
+  int_ref Stdlib.max_int "stdlib.mli" 381 14946 14946 "stdlib.mli" 381 14946 14963
 )
 "ocaml_printer.ml" 223 6042 6050 "ocaml_printer.ml" 223 6042 6071
 type(
@@ -4177,7 +4177,7 @@ type(
   string -> string -> bool
 )
 ident(
-  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+  int_ref Stdlib.( <> ) "stdlib.mli" 130 5559 5559 "stdlib.mli" 130 5559 5607
 )
 "ocaml_printer.ml" 232 6246 6259 "ocaml_printer.ml" 232 6246 6261
 type(

@@ -14,7 +14,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "minilustre.ml" 10 85 107 "minilustre.ml" 10 85 115
 type(
@@ -36,7 +36,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "minilustre.ml" 10 85 120 "minilustre.ml" 10 85 141
 type(
@@ -62,7 +62,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "minilustre.ml" 12 143 164 "minilustre.ml" 12 143 169
 type(
@@ -84,7 +84,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "minilustre.ml" 13 170 190 "minilustre.ml" 13 170 195
 type(
@@ -106,7 +106,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "minilustre.ml" 14 196 216 "minilustre.ml" 14 196 221
 type(
@@ -128,7 +128,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "minilustre.ml" 15 222 243 "minilustre.ml" 15 222 248
 type(
@@ -150,7 +150,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "minilustre.ml" 16 249 272 "minilustre.ml" 16 249 277
 type(
@@ -172,7 +172,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "minilustre.ml" 17 278 302 "minilustre.ml" 17 278 306
 type(
@@ -194,7 +194,7 @@ type(
   string -> string ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "minilustre.ml" 18 307 327 "minilustre.ml" 18 307 329
 type(
@@ -216,7 +216,7 @@ type(
   bool -> bool ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "minilustre.ml" 19 330 348 "minilustre.ml" 19 330 353
 type(
@@ -417,7 +417,7 @@ type(
   string option -> string option ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "minilustre.ml" 32 831 848 "minilustre.ml" 32 831 852
 type(
@@ -446,7 +446,7 @@ type(
   bool -> bool
 )
 ident(
-  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
 )
 "minilustre.ml" 34 875 887 "minilustre.ml" 34 875 908
 type(
@@ -509,7 +509,7 @@ type(
   string option ref -> string option -> unit
 )
 ident(
-  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+  int_ref Stdlib.( := ) "stdlib.mli" 1171 44751 44751 "stdlib.mli" 1171 44751 44804
 )
 "minilustre.ml" 36 967 984 "minilustre.ml" 36 967 985
 type(
@@ -568,7 +568,7 @@ type(
   string option ref -> string option
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "minilustre.ml" 39 1024 1033 "minilustre.ml" 39 1024 1037
 type(
@@ -633,7 +633,7 @@ type(
   int -> string
 )
 ident(
-  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+  int_ref Stdlib.exit "stdlib.mli" 1294 49901 49901 "stdlib.mli" 1294 49901 49921
 )
 "minilustre.ml" 39 1024 1092 "minilustre.ml" 39 1024 1093
 type(
@@ -729,7 +729,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
 )
 "minilustre.ml" 43 1142 1166 "minilustre.ml" 43 1142 1167
 type(
@@ -751,7 +751,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Stdlib.( + ) "stdlib.mli" 338 13360 13360 "stdlib.mli" 338 13360 13406
+  int_ref Stdlib.( + ) "stdlib.mli" 341 13435 13435 "stdlib.mli" 341 13435 13481
 )
 "minilustre.ml" 43 1142 1178 "minilustre.ml" 43 1142 1179
 type(
@@ -784,7 +784,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+  int_ref Stdlib.( - ) "stdlib.mli" 346 13584 13584 "stdlib.mli" 346 13584 13630
 )
 "minilustre.ml" 44 1183 1207 "minilustre.ml" 44 1183 1208
 type(
@@ -806,7 +806,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Stdlib.( + ) "stdlib.mli" 338 13360 13360 "stdlib.mli" 338 13360 13406
+  int_ref Stdlib.( + ) "stdlib.mli" 341 13435 13435 "stdlib.mli" 341 13435 13481
 )
 "minilustre.ml" 44 1183 1219 "minilustre.ml" 44 1183 1220
 type(
@@ -888,7 +888,7 @@ type(
   string -> in_channel
 )
 ident(
-  int_ref Stdlib.open_in "stdlib.mli" 1021 38257 38257 "stdlib.mli" 1021 38257 38291
+  int_ref Stdlib.open_in "stdlib.mli" 1024 38332 38332 "stdlib.mli" 1024 38332 38366
 )
 "minilustre.ml" 48 1301 1319 "minilustre.ml" 48 1301 1323
 type(
@@ -963,7 +963,7 @@ type(
   in_channel -> unit
 )
 ident(
-  int_ref Stdlib.close_in "stdlib.mli" 1115 42633 42633 "stdlib.mli" 1115 42633 42666
+  int_ref Stdlib.close_in "stdlib.mli" 1118 42708 42708 "stdlib.mli" 1118 42708 42741
 )
 "minilustre.ml" 52 1411 1424 "minilustre.ml" 52 1411 1425
 type(
@@ -981,7 +981,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "minilustre.ml" 53 1427 1435 "minilustre.ml" 53 1427 1445
 type(
@@ -999,7 +999,7 @@ type(
   int -> unit
 )
 ident(
-  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+  int_ref Stdlib.exit "stdlib.mli" 1294 49901 49901 "stdlib.mli" 1294 49901 49921
 )
 "minilustre.ml" 53 1427 1456 "minilustre.ml" 53 1427 1457
 type(
@@ -1039,7 +1039,7 @@ type(
   string ref -> string
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "minilustre.ml" 54 1459 1492 "minilustre.ml" 54 1459 1501
 type(
@@ -1061,7 +1061,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "minilustre.ml" 55 1505 1513 "minilustre.ml" 55 1505 1520
 type(
@@ -1158,7 +1158,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "minilustre.ml" 61 1786 1794 "minilustre.ml" 61 1786 1803
 type(
@@ -1176,7 +1176,7 @@ type(
   int -> unit
 )
 ident(
-  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+  int_ref Stdlib.exit "stdlib.mli" 1294 49901 49901 "stdlib.mli" 1294 49901 49921
 )
 "minilustre.ml" 61 1786 1814 "minilustre.ml" 61 1786 1815
 type(
@@ -1220,7 +1220,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "minilustre.ml" 63 1855 1863 "minilustre.ml" 63 1855 1870
 type(
@@ -1335,7 +1335,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "minilustre.ml" 70 2165 2173 "minilustre.ml" 70 2165 2182
 type(
@@ -1353,7 +1353,7 @@ type(
   int -> unit
 )
 ident(
-  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+  int_ref Stdlib.exit "stdlib.mli" 1294 49901 49901 "stdlib.mli" 1294 49901 49921
 )
 "minilustre.ml" 70 2165 2193 "minilustre.ml" 70 2165 2194
 type(
@@ -1379,7 +1379,7 @@ type(
   Typed_ast.t_node list -> Typed_ast.t_node list
 )
 ident(
-  int_ref Scheduling.schedule "scheduling.ml" 98 2645 2649 "scheduling.ml" 98 2645 2657
+  int_ref Scheduling.schedule "scheduling.ml" 98 2647 2651 "scheduling.ml" 98 2647 2659
 )
 "minilustre.ml" 71 2196 2229 "minilustre.ml" 71 2196 2231
 type(
@@ -1397,7 +1397,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "minilustre.ml" 72 2235 2243 "minilustre.ml" 72 2235 2250
 type(
@@ -1512,7 +1512,7 @@ type(
   bool ref -> bool
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "minilustre.ml" 79 2543 2551 "minilustre.ml" 79 2543 2561
 type(
@@ -1530,7 +1530,7 @@ type(
   int -> unit
 )
 ident(
-  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+  int_ref Stdlib.exit "stdlib.mli" 1294 49901 49901 "stdlib.mli" 1294 49901 49921
 )
 "minilustre.ml" 79 2543 2572 "minilustre.ml" 79 2543 2573
 type(
@@ -1556,7 +1556,7 @@ type(
   Typed_ast.t_node list -> Imp_ast.m_node list
 )
 ident(
-  int_ref Imp.compile "imp.ml" 151 5116 5120 "imp.ml" 151 5116 5127
+  int_ref Imp.compile "imp.ml" 151 5117 5121 "imp.ml" 151 5117 5128
 )
 "minilustre.ml" 80 2575 2605 "minilustre.ml" 80 2575 2607
 type(
@@ -1581,7 +1581,7 @@ type(
   Imp_ast.m_node list -> string ref -> Imp_ast.m_node list
 )
 ident(
-  int_ref Imp.rename_nodes "imp.ml" 189 6032 6036 "imp.ml" 189 6032 6048
+  int_ref Imp.rename_nodes "imp.ml" 189 6033 6037 "imp.ml" 189 6033 6049
 )
 "minilustre.ml" 81 2611 2646 "minilustre.ml" 81 2611 2653
 type(
@@ -1635,7 +1635,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "minilustre.ml" 82 2667 2717 "minilustre.ml" 82 2667 2722
 type(
@@ -1657,7 +1657,7 @@ type(
   string -> out_channel
 )
 ident(
-  int_ref Stdlib.open_out "stdlib.mli" 910 33320 33320 "stdlib.mli" 910 33320 33356
+  int_ref Stdlib.open_out "stdlib.mli" 913 33395 33395 "stdlib.mli" 913 33395 33431
 )
 "minilustre.ml" 83 2726 2747 "minilustre.ml" 83 2726 2749
 type(
@@ -1696,7 +1696,7 @@ type(
   string ref -> string
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "minilustre.ml" 84 2753 2795 "minilustre.ml" 84 2753 2804
 type(
@@ -1718,7 +1718,7 @@ type(
   out_channel -> unit
 )
 ident(
-  int_ref Stdlib.close_out "stdlib.mli" 997 37165 37165 "stdlib.mli" 997 37165 37200
+  int_ref Stdlib.close_out "stdlib.mli" 1000 37240 37240 "stdlib.mli" 1000 37240 37275
 )
 "minilustre.ml" 85 2806 2820 "minilustre.ml" 85 2806 2821
 type(
@@ -1736,7 +1736,7 @@ type(
   int -> unit
 )
 ident(
-  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+  int_ref Stdlib.exit "stdlib.mli" 1294 49901 49901 "stdlib.mli" 1294 49901 49921
 )
 "minilustre.ml" 86 2823 2832 "minilustre.ml" 86 2823 2833
 type(
@@ -1915,7 +1915,7 @@ type(
   int -> unit
 )
 ident(
-  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+  int_ref Stdlib.exit "stdlib.mli" 1294 49901 49901 "stdlib.mli" 1294 49901 49921
 )
 "minilustre.ml" 91 2952 2958 "minilustre.ml" 91 2952 2959
 type(
@@ -2008,7 +2008,7 @@ type(
   int -> unit
 )
 ident(
-  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+  int_ref Stdlib.exit "stdlib.mli" 1294 49901 49901 "stdlib.mli" 1294 49901 49921
 )
 "minilustre.ml" 95 3068 3074 "minilustre.ml" 95 3068 3075
 type(
@@ -2101,7 +2101,7 @@ type(
   int -> unit
 )
 ident(
-  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+  int_ref Stdlib.exit "stdlib.mli" 1294 49901 49901 "stdlib.mli" 1294 49901 49921
 )
 "minilustre.ml" 99 3153 3159 "minilustre.ml" 99 3153 3160
 type(
@@ -2164,7 +2164,7 @@ type(
   int -> unit
 )
 ident(
-  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+  int_ref Stdlib.exit "stdlib.mli" 1294 49901 49901 "stdlib.mli" 1294 49901 49921
 )
 "minilustre.ml" 102 3223 3229 "minilustre.ml" 102 3223 3230
 type(

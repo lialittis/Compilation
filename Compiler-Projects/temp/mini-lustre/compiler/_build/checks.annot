@@ -316,7 +316,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
 )
 "checks.ml" 31 552 595 "checks.ml" 31 552 600
 type(
@@ -388,7 +388,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
 )
 "checks.ml" 32 604 642 "checks.ml" 32 604 647
 type(
@@ -413,7 +413,7 @@ type(
   bool -> bool -> bool
 )
 ident(
-  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+  int_ref Stdlib.( && ) "stdlib.mli" 214 8960 8960 "stdlib.mli" 214 8960 9011
 )
 "checks.ml" 32 604 654 "checks.ml" 32 604 659
 type(
@@ -458,7 +458,7 @@ type(
   (Typed_ast.t_expr -> bool) -> Typed_ast.t_expr list -> bool
 )
 ident(
-  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+  int_ref Stdlib.List.for_all "list.mli" 196 7351 7351 "list.mli" 196 7351 7396
 )
 "checks.ml" 33 663 699 "checks.ml" 33 663 704
 type(
@@ -676,7 +676,7 @@ type(
   (Typed_ast.t_expr -> bool) -> Typed_ast.t_expr list -> bool
 )
 ident(
-  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+  int_ref Stdlib.List.for_all "list.mli" 196 7351 7351 "list.mli" 196 7351 7396
 )
 "checks.ml" 46 951 1022 "checks.ml" 46 951 1027
 type(
@@ -727,7 +727,7 @@ type(
   (Typed_ast.t_expr -> bool) -> Typed_ast.t_expr list -> bool
 )
 ident(
-  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+  int_ref Stdlib.List.for_all "list.mli" 196 7351 7351 "list.mli" 196 7351 7396
 )
 "checks.ml" 47 1031 1094 "checks.ml" 47 1031 1098
 type(
@@ -906,7 +906,7 @@ type(
   (Typed_ast.t_equation -> bool) -> Typed_ast.t_equation list -> bool
 )
 ident(
-  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+  int_ref Stdlib.List.for_all "list.mli" 196 7351 7351 "list.mli" 196 7351 7396
 )
 "checks.ml" 58 1300 1320 "checks.ml" 58 1300 1322
 type(
@@ -989,7 +989,7 @@ type(
   bool -> bool
 )
 ident(
-  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+  int_ref Stdlib.not "stdlib.mli" 211 8889 8889 "stdlib.mli" 211 8889 8929
 )
 "checks.ml" 63 1408 1432 "checks.ml" 63 1408 1447
 type(
@@ -1122,7 +1122,7 @@ type(
   Scheduling.S.t -> Scheduling.S.elt list -> Scheduling.S.t
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
 "checks.ml" 74 1691 1713 "checks.ml" 74 1691 1716
 type(
@@ -1480,7 +1480,7 @@ type(
   Typed_ast.t_expr * Scheduling.S.t -> Scheduling.S.t
 )
 ident(
-  int_ref Stdlib.snd "stdlib.mli" 773 29185 29185 "stdlib.mli" 773 29185 29225
+  int_ref Stdlib.snd "stdlib.mli" 776 29260 29260 "stdlib.mli" 776 29260 29300
 )
 "checks.ml" 91 2151 2160 "checks.ml" 91 2151 2172
 type(
@@ -1546,7 +1546,7 @@ type(
   Scheduling.S.t -> Typed_ast.typed_var list -> Scheduling.S.t
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
 "checks.ml" 96 2257 2268 "checks.ml" 96 2257 2271
 type(
@@ -1631,7 +1631,7 @@ type(
   Scheduling.S.t -> Typed_ast.t_equation list -> Scheduling.S.t
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
 "checks.ml" 102 2385 2396 "checks.ml" 102 2385 2400
 type(

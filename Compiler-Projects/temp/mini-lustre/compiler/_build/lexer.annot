@@ -481,7 +481,7 @@ type(
   int -> int -> int
 )
 ident(
-  int_ref Stdlib.( + ) "stdlib.mli" 338 13360 13360 "stdlib.mli" 338 13360 13406
+  int_ref Stdlib.( + ) "stdlib.mli" 341 13435 13435 "stdlib.mli" 341 13435 13481
 )
 "lexer.mll" 42 717 760 "lexer.mll" 42 717 761
 type(
@@ -810,7 +810,7 @@ type(
   string -> int
 )
 ident(
-  int_ref Stdlib.int_of_string "stdlib.mli" 733 27683 27683 "stdlib.mli" 733 27683 27744
+  int_ref Stdlib.int_of_string "stdlib.mli" 736 27758 27758 "stdlib.mli" 736 27758 27819
 )
 "lexer.mll" 65 14839 14873 "lexer.mll" 65 14839 14879
 type(
@@ -847,7 +847,7 @@ type(
   string -> float
 )
 ident(
-  int_ref Stdlib.float_of_string "stdlib.mli" 764 28885 28885 "stdlib.mli" 764 28885 28952
+  int_ref Stdlib.float_of_string "stdlib.mli" 767 28960 28960 "stdlib.mli" 767 28960 29027
 )
 "lexer.mll" 67 14935 14973 "lexer.mll" 67 14935 14979
 type(
@@ -1649,7 +1649,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "lexer.mll" 134 17514 17568 "lexer.mll" 134 17514 17574
 type(

@@ -1387,7 +1387,7 @@ type(
   (Ast.ident * Asttypes.base_ty) list -> (Ast.ident * Asttypes.base_ty) list
 )
 ident(
-  int_ref Stdlib.( @ ) "stdlib.mli" 782 29359 29359 "stdlib.mli" 782 29359 29400
+  int_ref Stdlib.( @ ) "stdlib.mli" 785 29434 29434 "stdlib.mli" 785 29434 29475
 )
 "parser.mly" 120 18716 18727 "parser.mly" 120 18716 18729
 type(
@@ -1579,7 +1579,7 @@ type(
   (Ast.ident * Asttypes.base_ty) list -> (Ast.ident * Asttypes.base_ty) list
 )
 ident(
-  int_ref Stdlib.( @ ) "stdlib.mli" 782 29359 29359 "stdlib.mli" 782 29359 29400
+  int_ref Stdlib.( @ ) "stdlib.mli" 785 29434 29434 "stdlib.mli" 785 29434 29475
 )
 "parser.mly" 127 19176 19187 "parser.mly" 127 19176 19189
 type(

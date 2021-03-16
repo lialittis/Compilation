@@ -18,7 +18,7 @@ type(
   Typed_ast.t_expr list -> Typed_ast.t_expr list -> Typed_ast.t_expr list
 )
 ident(
-  int_ref Stdlib.List.fold_right "list.mli" 148 5663 5663 "list.mli" 148 5663 5719
+  int_ref Stdlib.List.fold_right "list.mli" 155 5850 5850 "list.mli" 155 5850 5906
 )
 "imp.ml" 7 83 92 "imp.ml" 7 83 93
 type(
@@ -79,7 +79,7 @@ type(
   Typed_ast.t_expr list -> Typed_ast.t_expr list -> Typed_ast.t_expr list
 )
 ident(
-  int_ref Stdlib.( @ ) "stdlib.mli" 782 29359 29359 "stdlib.mli" 782 29359 29400
+  int_ref Stdlib.( @ ) "stdlib.mli" 785 29434 29434 "stdlib.mli" 785 29434 29475
 )
 "imp.ml" 9 131 169 "imp.ml" 9 131 172
 type(
@@ -194,7 +194,7 @@ type(
   int -> int ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "imp.ml" 18 327 343 "imp.ml" 18 327 344
 type(
@@ -216,7 +216,7 @@ type(
   int ref -> unit
 )
 ident(
-  int_ref Stdlib.incr "stdlib.mli" 1174 44912 44912 "stdlib.mli" 1174 44912 44953
+  int_ref Stdlib.incr "stdlib.mli" 1177 44987 44987 "stdlib.mli" 1177 44987 45028
 )
 "imp.ml" 19 348 364 "imp.ml" 19 348 367
 type(
@@ -241,7 +241,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "imp.ml" 19 348 371 "imp.ml" 19 348 378
 type(
@@ -252,21 +252,21 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "imp.ml" 19 348 380 "imp.ml" 19 348 393
 type(
   int -> string
 )
 ident(
-  int_ref Stdlib.string_of_int "stdlib.mli" 709 26773 26773 "stdlib.mli" 709 26773 26806
+  int_ref Stdlib.string_of_int "stdlib.mli" 712 26848 26848 "stdlib.mli" 712 26848 26881
 )
 "imp.ml" 19 348 394 "imp.ml" 19 348 395
 type(
   int ref -> int
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "imp.ml" 19 348 395 "imp.ml" 19 348 398
 type(
@@ -322,7 +322,7 @@ type(
   int -> int ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "imp.ml" 22 418 434 "imp.ml" 22 418 435
 type(
@@ -344,7 +344,7 @@ type(
   int ref -> unit
 )
 ident(
-  int_ref Stdlib.incr "stdlib.mli" 1174 44912 44912 "stdlib.mli" 1174 44912 44953
+  int_ref Stdlib.incr "stdlib.mli" 1177 44987 44987 "stdlib.mli" 1177 44987 45028
 )
 "imp.ml" 23 439 455 "imp.ml" 23 439 458
 type(
@@ -369,7 +369,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "imp.ml" 23 439 462 "imp.ml" 23 439 468
 type(
@@ -380,21 +380,21 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "imp.ml" 23 439 470 "imp.ml" 23 439 483
 type(
   int -> string
 )
 ident(
-  int_ref Stdlib.string_of_int "stdlib.mli" 709 26773 26773 "stdlib.mli" 709 26773 26806
+  int_ref Stdlib.string_of_int "stdlib.mli" 712 26848 26848 "stdlib.mli" 712 26848 26881
 )
 "imp.ml" 23 439 484 "imp.ml" 23 439 485
 type(
   int ref -> int
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "imp.ml" 23 439 485 "imp.ml" 23 439 488
 type(
@@ -461,7 +461,7 @@ type(
   string list -> Asttypes.ty -> (string * Asttypes.base_ty) list
 )
 ident(
-  int_ref Stdlib.List.combine "list.mli" 305 11387 11387 "list.mli" 305 11387 11437
+  int_ref Stdlib.List.combine "list.mli" 319 11800 11800 "list.mli" 319 11800 11850
 )
 "imp.ml" 26 544 563 "imp.ml" 26 544 564
 type(
@@ -925,7 +925,7 @@ type(
   Asttypes.base_ty list * Asttypes.base_ty list
 )
 ident(
-  int_ref Stdlib.List.assoc "list.mli" 252 9463 9463 "list.mli" 252 9463 9501
+  int_ref Stdlib.List.assoc "list.mli" 266 9876 9876 "list.mli" 266 9876 9914
 )
 "imp.ml" 46 1320 1345 "imp.ml" 46 1320 1346
 type(
@@ -961,7 +961,7 @@ type(
   out_channel
 )
 ident(
-  int_ref Stdlib.stderr "stdlib.mli" 803 29925 29925 "stdlib.mli" 803 29925 29949
+  int_ref Stdlib.stderr "stdlib.mli" 806 30000 30000 "stdlib.mli" 806 30000 30024
 )
 "imp.ml" 48 1394 1428 "imp.ml" 48 1394 1445
 type(
@@ -1617,7 +1617,7 @@ type(
   (string * Imp_ast.atom) list
 )
 ident(
-  int_ref Stdlib.List.fold_right "list.mli" 148 5663 5663 "list.mli" 148 5663 5719
+  int_ref Stdlib.List.fold_right "list.mli" 155 5850 5850 "list.mli" 155 5850 5906
 )
 "imp.ml" 87 2490 2508 "imp.ml" 87 2490 2524
 type(
@@ -1902,7 +1902,7 @@ type(
   int -> int ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "imp.ml" 105 2980 2996 "imp.ml" 105 2980 2997
 type(
@@ -1924,7 +1924,7 @@ type(
   int ref -> unit
 )
 ident(
-  int_ref Stdlib.incr "stdlib.mli" 1174 44912 44912 "stdlib.mli" 1174 44912 44953
+  int_ref Stdlib.incr "stdlib.mli" 1177 44987 44987 "stdlib.mli" 1177 44987 45028
 )
 "imp.ml" 106 3001 3017 "imp.ml" 106 3001 3020
 type(
@@ -1949,7 +1949,7 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "imp.ml" 106 3001 3025 "imp.ml" 106 3001 3029
 type(
@@ -1960,21 +1960,21 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "imp.ml" 106 3001 3031 "imp.ml" 106 3001 3044
 type(
   int -> string
 )
 ident(
-  int_ref Stdlib.string_of_int "stdlib.mli" 709 26773 26773 "stdlib.mli" 709 26773 26806
+  int_ref Stdlib.string_of_int "stdlib.mli" 712 26848 26848 "stdlib.mli" 712 26848 26881
 )
 "imp.ml" 106 3001 3045 "imp.ml" 106 3001 3046
 type(
   int ref -> int
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "imp.ml" 106 3001 3046 "imp.ml" 106 3001 3049
 type(
@@ -2080,7 +2080,7 @@ type(
   string -> (string * string) list -> string
 )
 ident(
-  int_ref Stdlib.List.assoc "list.mli" 252 9463 9463 "list.mli" 252 9463 9501
+  int_ref Stdlib.List.assoc "list.mli" 266 9876 9876 "list.mli" 266 9876 9914
 )
 "imp.ml" 111 3128 3174 "imp.ml" 111 3128 3175
 type(
@@ -2305,7 +2305,7 @@ type(
   string -> (string * string) list -> string
 )
 ident(
-  int_ref Stdlib.List.assoc "list.mli" 252 9463 9463 "list.mli" 252 9463 9501
+  int_ref Stdlib.List.assoc "list.mli" 266 9876 9876 "list.mli" 266 9876 9914
 )
 "imp.ml" 122 3399 3445 "imp.ml" 122 3399 3446
 type(
@@ -2412,7 +2412,7 @@ type(
   string -> (string * string) list -> string
 )
 ident(
-  int_ref Stdlib.List.assoc "list.mli" 252 9463 9463 "list.mli" 252 9463 9501
+  int_ref Stdlib.List.assoc "list.mli" 266 9876 9876 "list.mli" 266 9876 9914
 )
 "imp.ml" 128 3548 3587 "imp.ml" 128 3548 3588
 type(
@@ -2650,7 +2650,7 @@ type(
   Imp_ast.m_node list -> (string * string) list * Imp_ast.m_node list
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
 "imp.ml" 143 3903 3915 "imp.ml" 143 3903 3918
 type(
@@ -2794,21 +2794,21 @@ type(
   string ref -> string -> unit
 )
 ident(
-  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+  int_ref Stdlib.( := ) "stdlib.mli" 1171 44751 44751 "stdlib.mli" 1171 44751 44804
 )
 "imp.ml" 146 3999 4014 "imp.ml" 146 3999 4024
 type(
   string -> (string * string) list -> string
 )
 ident(
-  int_ref Stdlib.List.assoc "list.mli" 252 9463 9463 "list.mli" 252 9463 9501
+  int_ref Stdlib.List.assoc "list.mli" 266 9876 9876 "list.mli" 266 9876 9914
 )
 "imp.ml" 146 3999 4025 "imp.ml" 146 3999 4026
 type(
   string ref -> string
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "imp.ml" 146 3999 4026 "imp.ml" 146 3999 4030
 type(

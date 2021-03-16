@@ -17,7 +17,7 @@ type(
   int -> int ref
 )
 ident(
-  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+  int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
 "normalization.ml" 4 32 48 "normalization.ml" 4 32 49
 type(
@@ -36,7 +36,7 @@ type(
   int ref -> unit
 )
 ident(
-  int_ref Stdlib.incr "stdlib.mli" 1174 44912 44912 "stdlib.mli" 1174 44912 44953
+  int_ref Stdlib.incr "stdlib.mli" 1177 44987 44987 "stdlib.mli" 1177 44987 45028
 )
 "normalization.ml" 4 32 68 "normalization.ml" 4 32 71
 type(
@@ -58,21 +58,21 @@ type(
   string -> string -> string
 )
 ident(
-  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+  int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
 "normalization.ml" 4 32 81 "normalization.ml" 4 32 94
 type(
   int -> string
 )
 ident(
-  int_ref Stdlib.string_of_int "stdlib.mli" 709 26773 26773 "stdlib.mli" 709 26773 26806
+  int_ref Stdlib.string_of_int "stdlib.mli" 712 26848 26848 "stdlib.mli" 712 26848 26881
 )
 "normalization.ml" 4 32 95 "normalization.ml" 4 32 96
 type(
   int ref -> int
 )
 ident(
-  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+  int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
 "normalization.ml" 4 32 96 "normalization.ml" 4 32 99
 type(
@@ -381,7 +381,7 @@ type(
   string list -> Asttypes.ty -> (string * Asttypes.base_ty) list
 )
 ident(
-  int_ref Stdlib.List.combine "list.mli" 305 11387 11387 "list.mli" 305 11387 11437
+  int_ref Stdlib.List.combine "list.mli" 319 11800 11800 "list.mli" 319 11800 11850
 )
 "normalization.ml" 27 964 994 "normalization.ml" 27 964 996
 type(
@@ -589,14 +589,14 @@ type(
   (string * Asttypes.base_ty) list * Typed_ast.t_equation list
 )
 ident(
-  def ctx "normalization.ml" 40 1426 1448 "normalization.ml" 105 3447 3457
+  def ctx "normalization.ml" 40 1426 1448 "normalization.ml" 108 3504 3549
 )
 "normalization.ml" 40 1426 1448 "normalization.ml" 40 1426 1449
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e "normalization.ml" 51 1861 1863 "normalization.ml" 105 3447 3457
+  def e "normalization.ml" 51 1861 1863 "normalization.ml" 108 3504 3549
 )
 "normalization.ml" 51 1861 1869 "normalization.ml" 51 1861 1870
 type(
@@ -765,41 +765,176 @@ type(
   Asttypes.binop
 )
 ident(
-  def op "normalization.ml" 59 2067 2070 "normalization.ml" 59 2067 2076
+  def op "normalization.ml" 61 2085 2088 "normalization.ml" 63 2161 2211
 )
 "normalization.ml" 58 2041 2057 "normalization.ml" 58 2041 2059
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e1 "normalization.ml" 59 2067 2070 "normalization.ml" 59 2067 2076
+  def e1 "normalization.ml" 61 2085 2088 "normalization.ml" 63 2161 2211
 )
 "normalization.ml" 58 2041 2060 "normalization.ml" 58 2041 2062
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e2 "normalization.ml" 59 2067 2070 "normalization.ml" 59 2067 2076
+  def e2 "normalization.ml" 61 2085 2088 "normalization.ml" 63 2161 2211
 )
 "normalization.ml" 58 2041 2045 "normalization.ml" 58 2041 2063
 type(
   Typed_ast.t_expr_desc
 )
-"normalization.ml" 59 2067 2070 "normalization.ml" 59 2067 2073
+"normalization.ml" 61 2085 2092 "normalization.ml" 61 2085 2095
+type(
+  (string * Asttypes.base_ty) list * Typed_ast.t_equation list
+)
+ident(
+  def ctx "normalization.ml" 62 2123 2126 "normalization.ml" 63 2161 2211
+)
+"normalization.ml" 61 2085 2097 "normalization.ml" 61 2085 2100
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e1' "normalization.ml" 62 2123 2126 "normalization.ml" 63 2161 2211
+)
+"normalization.ml" 61 2085 2092 "normalization.ml" 61 2085 2100
+type(
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+"normalization.ml" 61 2085 2103 "normalization.ml" 61 2085 2112
+type(
+  (string * Asttypes.base_ty) list * Typed_ast.t_equation list ->
+  Typed_ast.t_expr ->
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+ident(
+  int_ref normalize "normalization.ml" 40 1426 1434 "normalization.ml" 40 1426 1443
+)
+"normalization.ml" 61 2085 2113 "normalization.ml" 61 2085 2116
 type(
   (string * Asttypes.base_ty) list * Typed_ast.t_equation list
 )
 ident(
   int_ref ctx "normalization.ml" 40 1426 1444 "normalization.ml" 40 1426 1447
 )
-"normalization.ml" 59 2067 2075 "normalization.ml" 59 2067 2076
+"normalization.ml" 61 2085 2117 "normalization.ml" 61 2085 2119
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e1 "normalization.ml" 58 2041 2057 "normalization.ml" 58 2041 2059
+)
+"normalization.ml" 61 2085 2103 "normalization.ml" 61 2085 2119
+type(
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+"normalization.ml" 62 2123 2130 "normalization.ml" 62 2123 2133
+type(
+  (string * Asttypes.base_ty) list * Typed_ast.t_equation list
+)
+ident(
+  def ctx "normalization.ml" 63 2161 2164 "normalization.ml" 63 2161 2211
+)
+"normalization.ml" 62 2123 2135 "normalization.ml" 62 2123 2138
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e2' "normalization.ml" 63 2161 2164 "normalization.ml" 63 2161 2211
+)
+"normalization.ml" 62 2123 2130 "normalization.ml" 62 2123 2138
+type(
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+"normalization.ml" 62 2123 2141 "normalization.ml" 62 2123 2150
+type(
+  (string * Asttypes.base_ty) list * Typed_ast.t_equation list ->
+  Typed_ast.t_expr ->
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+ident(
+  int_ref normalize "normalization.ml" 40 1426 1434 "normalization.ml" 40 1426 1443
+)
+"normalization.ml" 62 2123 2151 "normalization.ml" 62 2123 2154
+type(
+  (string * Asttypes.base_ty) list * Typed_ast.t_equation list
+)
+ident(
+  int_ref ctx "normalization.ml" 61 2085 2092 "normalization.ml" 61 2085 2095
+)
+"normalization.ml" 62 2123 2155 "normalization.ml" 62 2123 2157
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e2 "normalization.ml" 58 2041 2060 "normalization.ml" 58 2041 2062
+)
+"normalization.ml" 62 2123 2141 "normalization.ml" 62 2123 2157
+type(
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+"normalization.ml" 63 2161 2164 "normalization.ml" 63 2161 2167
+type(
+  (string * Asttypes.base_ty) list * Typed_ast.t_equation list
+)
+ident(
+  int_ref ctx "normalization.ml" 62 2123 2130 "normalization.ml" 62 2123 2133
+)
+"normalization.ml" 63 2161 2170 "normalization.ml" 63 2161 2171
 type(
   Typed_ast.t_expr
 )
 ident(
   int_ref e "normalization.ml" 40 1426 1448 "normalization.ml" 40 1426 1449
 )
-"normalization.ml" 59 2067 2070 "normalization.ml" 59 2067 2076
+"normalization.ml" 63 2161 2199 "normalization.ml" 63 2161 2201
+type(
+  Asttypes.binop
+)
+ident(
+  int_ref op "normalization.ml" 58 2041 2054 "normalization.ml" 58 2041 2056
+)
+"normalization.ml" 63 2161 2202 "normalization.ml" 63 2161 2205
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e1' "normalization.ml" 61 2085 2097 "normalization.ml" 61 2085 2100
+)
+"normalization.ml" 63 2161 2206 "normalization.ml" 63 2161 2209
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e2' "normalization.ml" 62 2123 2135 "normalization.ml" 62 2123 2138
+)
+"normalization.ml" 63 2161 2190 "normalization.ml" 63 2161 2210
+type(
+  Typed_ast.t_expr_desc
+)
+"normalization.ml" 63 2161 2169 "normalization.ml" 63 2161 2211
+type(
+  Typed_ast.t_expr
+)
+"normalization.ml" 63 2161 2164 "normalization.ml" 63 2161 2211
+type(
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+"normalization.ml" 62 2123 2126 "normalization.ml" 63 2161 2211
+type(
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+"normalization.ml" 61 2085 2088 "normalization.ml" 63 2161 2211
 type(
   ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
   Typed_ast.t_expr
@@ -985,7 +1120,7 @@ type(
   (string * Asttypes.base_ty) list -> (string * Asttypes.base_ty) list
 )
 ident(
-  int_ref Stdlib.( @ ) "stdlib.mli" 782 29359 29359 "stdlib.mli" 782 29359 29400
+  int_ref Stdlib.( @ ) "stdlib.mli" 785 29434 29434 "stdlib.mli" 785 29434 29475
 )
 "normalization.ml" 74 2480 2494 "normalization.ml" 74 2480 2502
 type(
@@ -1228,7 +1363,7 @@ type(
   (string * Asttypes.base_ty) list -> (string * Asttypes.base_ty) list
 )
 ident(
-  int_ref Stdlib.( @ ) "stdlib.mli" 782 29359 29359 "stdlib.mli" 782 29359 29400
+  int_ref Stdlib.( @ ) "stdlib.mli" 785 29434 29434 "stdlib.mli" 785 29434 29475
 )
 "normalization.ml" 83 2776 2790 "normalization.ml" 83 2776 2798
 type(
@@ -1458,7 +1593,7 @@ type(
   (string * Asttypes.base_ty) list -> (string * Asttypes.base_ty) list
 )
 ident(
-  int_ref Stdlib.( @ ) "stdlib.mli" 782 29359 29359 "stdlib.mli" 782 29359 29400
+  int_ref Stdlib.( @ ) "stdlib.mli" 785 29434 29434 "stdlib.mli" 785 29434 29475
 )
 "normalization.ml" 92 3069 3083 "normalization.ml" 92 3069 3091
 type(
@@ -1855,39 +1990,114 @@ type(
   Asttypes.const list
 )
 ident(
-  def c "normalization.ml" 105 3447 3452 "normalization.ml" 105 3447 3457
+  def c "normalization.ml" 107 3466 3469 "normalization.ml" 108 3504 3549
 )
 "normalization.ml" 104 3427 3440 "normalization.ml" 104 3427 3442
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e1 "normalization.ml" 105 3447 3452 "normalization.ml" 105 3447 3457
+  def e1 "normalization.ml" 107 3466 3469 "normalization.ml" 108 3504 3549
 )
 "normalization.ml" 104 3427 3431 "normalization.ml" 104 3427 3443
 type(
   Typed_ast.t_expr_desc
 )
-"normalization.ml" 105 3447 3452 "normalization.ml" 105 3447 3455
+"normalization.ml" 107 3466 3473 "normalization.ml" 107 3466 3476
+type(
+  (string * Asttypes.base_ty) list * Typed_ast.t_equation list
+)
+ident(
+  def ctx "normalization.ml" 108 3504 3509 "normalization.ml" 108 3504 3549
+)
+"normalization.ml" 107 3466 3478 "normalization.ml" 107 3466 3481
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e1' "normalization.ml" 108 3504 3509 "normalization.ml" 108 3504 3549
+)
+"normalization.ml" 107 3466 3473 "normalization.ml" 107 3466 3481
+type(
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+"normalization.ml" 107 3466 3484 "normalization.ml" 107 3466 3493
+type(
+  (string * Asttypes.base_ty) list * Typed_ast.t_equation list ->
+  Typed_ast.t_expr ->
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+ident(
+  int_ref normalize "normalization.ml" 40 1426 1434 "normalization.ml" 40 1426 1443
+)
+"normalization.ml" 107 3466 3494 "normalization.ml" 107 3466 3497
 type(
   (string * Asttypes.base_ty) list * Typed_ast.t_equation list
 )
 ident(
   int_ref ctx "normalization.ml" 40 1426 1444 "normalization.ml" 40 1426 1447
 )
-"normalization.ml" 105 3447 3456 "normalization.ml" 105 3447 3457
+"normalization.ml" 107 3466 3498 "normalization.ml" 107 3466 3500
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e1 "normalization.ml" 104 3427 3440 "normalization.ml" 104 3427 3442
+)
+"normalization.ml" 107 3466 3484 "normalization.ml" 107 3466 3500
+type(
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+"normalization.ml" 108 3504 3509 "normalization.ml" 108 3504 3512
+type(
+  (string * Asttypes.base_ty) list * Typed_ast.t_equation list
+)
+ident(
+  int_ref ctx "normalization.ml" 107 3466 3473 "normalization.ml" 107 3466 3476
+)
+"normalization.ml" 108 3504 3515 "normalization.ml" 108 3504 3516
 type(
   Typed_ast.t_expr
 )
 ident(
   int_ref e "normalization.ml" 40 1426 1448 "normalization.ml" 40 1426 1449
 )
-"normalization.ml" 105 3447 3452 "normalization.ml" 105 3447 3457
+"normalization.ml" 108 3504 3542 "normalization.ml" 108 3504 3543
+type(
+  Asttypes.const list
+)
+ident(
+  int_ref c "normalization.ml" 104 3427 3438 "normalization.ml" 104 3427 3439
+)
+"normalization.ml" 108 3504 3544 "normalization.ml" 108 3504 3547
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e1' "normalization.ml" 107 3466 3478 "normalization.ml" 107 3466 3481
+)
+"normalization.ml" 108 3504 3535 "normalization.ml" 108 3504 3548
+type(
+  Typed_ast.t_expr_desc
+)
+"normalization.ml" 108 3504 3514 "normalization.ml" 108 3504 3549
+type(
+  Typed_ast.t_expr
+)
+"normalization.ml" 108 3504 3509 "normalization.ml" 108 3504 3549
 type(
   ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
   Typed_ast.t_expr
 )
-"normalization.ml" 51 1861 1863 "normalization.ml" 105 3447 3457
+"normalization.ml" 107 3466 3469 "normalization.ml" 108 3504 3549
+type(
+  ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
+  Typed_ast.t_expr
+)
+"normalization.ml" 51 1861 1863 "normalization.ml" 108 3504 3549
 type(
   ((string * Asttypes.base_ty) list * Typed_ast.t_equation list) *
   Typed_ast.t_expr
@@ -1949,7 +2159,7 @@ type(
   Typed_ast.t_expr list
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
 "normalization.ml" 116 3695 3707 "normalization.ml" 116 3695 3710
 type(
@@ -2240,7 +2450,7 @@ type(
   Typed_ast.typed_var list -> Typed_ast.typed_var list
 )
 ident(
-  int_ref Stdlib.( @ ) "stdlib.mli" 782 29359 29359 "stdlib.mli" 782 29359 29400
+  int_ref Stdlib.( @ ) "stdlib.mli" 785 29434 29434 "stdlib.mli" 785 29434 29475
 )
 "normalization.ml" 124 3908 3930 "normalization.ml" 124 3908 3934
 type(
@@ -2303,7 +2513,7 @@ type(
   Typed_ast.t_equation list -> Typed_ast.t_equation list
 )
 ident(
-  int_ref Stdlib.( @ ) "stdlib.mli" 782 29359 29359 "stdlib.mli" 782 29359 29400
+  int_ref Stdlib.( @ ) "stdlib.mli" 785 29434 29434 "stdlib.mli" 785 29434 29475
 )
 "normalization.ml" 125 3945 4008 "normalization.ml" 125 3945 4012
 type(
@@ -2363,7 +2573,7 @@ type(
   Typed_ast.t_node -> Typed_ast.t_equation list -> Typed_ast.t_node
 )
 ident(
-  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+  int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
 "normalization.ml" 131 4074 4090 "normalization.ml" 131 4074 4108
 type(
