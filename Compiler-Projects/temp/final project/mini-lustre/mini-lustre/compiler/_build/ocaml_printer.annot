@@ -1,0 +1,4254 @@
+"ocaml_printer.ml" 5 40 44 "ocaml_printer.ml" 5 40 58
+type(
+  ('a -> string) -> string -> 'a list -> string
+)
+ident(
+  def string_of_list "ocaml_printer.ml" 15 265 265 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 6 61 71 "ocaml_printer.ml" 6 61 85
+type(
+  string -> ('b -> string) -> string -> 'b list -> string
+)
+ident(
+  def string_of_list "ocaml_printer.ml" 6 61 63 "ocaml_printer.ml" 13 233 262
+)
+"ocaml_printer.ml" 6 61 86 "ocaml_printer.ml" 6 61 89
+type(
+  string
+)
+ident(
+  def acc "ocaml_printer.ml" 6 61 90 "ocaml_printer.ml" 10 156 210
+)
+"ocaml_printer.ml" 6 61 90 "ocaml_printer.ml" 6 61 91
+type(
+  'b -> string
+)
+ident(
+  def f "ocaml_printer.ml" 6 61 92 "ocaml_printer.ml" 10 156 210
+)
+"ocaml_printer.ml" 6 61 92 "ocaml_printer.ml" 6 61 95
+type(
+  string
+)
+ident(
+  def sep "ocaml_printer.ml" 6 61 96 "ocaml_printer.ml" 10 156 210
+)
+"ocaml_printer.ml" 6 61 96 "ocaml_printer.ml" 6 61 97
+type(
+  'b list
+)
+ident(
+  def l "ocaml_printer.ml" 7 100 104 "ocaml_printer.ml" 10 156 210
+)
+"ocaml_printer.ml" 7 100 110 "ocaml_printer.ml" 7 100 111
+type(
+  'b list
+)
+ident(
+  int_ref l "ocaml_printer.ml" 6 61 96 "ocaml_printer.ml" 6 61 97
+)
+"ocaml_printer.ml" 8 117 123 "ocaml_printer.ml" 8 117 125
+type(
+  'b list
+)
+"ocaml_printer.ml" 8 117 129 "ocaml_printer.ml" 8 117 132
+type(
+  string
+)
+ident(
+  int_ref acc "ocaml_printer.ml" 6 61 86 "ocaml_printer.ml" 6 61 89
+)
+"ocaml_printer.ml" 9 133 140 "ocaml_printer.ml" 9 133 141
+type(
+  'b
+)
+ident(
+  def x "ocaml_printer.ml" 9 133 146 "ocaml_printer.ml" 9 133 155
+)
+"ocaml_printer.ml" 9 133 139 "ocaml_printer.ml" 9 133 142
+type(
+  'b list
+)
+"ocaml_printer.ml" 9 133 146 "ocaml_printer.ml" 9 133 149
+type(
+  string
+)
+ident(
+  int_ref acc "ocaml_printer.ml" 6 61 86 "ocaml_printer.ml" 6 61 89
+)
+"ocaml_printer.ml" 9 133 149 "ocaml_printer.ml" 9 133 150
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"ocaml_printer.ml" 9 133 151 "ocaml_printer.ml" 9 133 152
+type(
+  'b -> string
+)
+ident(
+  int_ref f "ocaml_printer.ml" 6 61 90 "ocaml_printer.ml" 6 61 91
+)
+"ocaml_printer.ml" 9 133 153 "ocaml_printer.ml" 9 133 154
+type(
+  'b
+)
+ident(
+  int_ref x "ocaml_printer.ml" 9 133 140 "ocaml_printer.ml" 9 133 141
+)
+"ocaml_printer.ml" 9 133 150 "ocaml_printer.ml" 9 133 155
+type(
+  string
+)
+"ocaml_printer.ml" 9 133 146 "ocaml_printer.ml" 9 133 155
+type(
+  string
+)
+"ocaml_printer.ml" 10 156 162 "ocaml_printer.ml" 10 156 163
+type(
+  'b
+)
+ident(
+  def x "ocaml_printer.ml" 10 156 171 "ocaml_printer.ml" 10 156 210
+)
+"ocaml_printer.ml" 10 156 165 "ocaml_printer.ml" 10 156 167
+type(
+  'b list
+)
+ident(
+  def xs "ocaml_printer.ml" 10 156 171 "ocaml_printer.ml" 10 156 210
+)
+"ocaml_printer.ml" 10 156 162 "ocaml_printer.ml" 10 156 167
+type(
+  'b list
+)
+"ocaml_printer.ml" 10 156 171 "ocaml_printer.ml" 10 156 185
+type(
+  string -> ('b -> string) -> string -> 'b list -> string
+)
+ident(
+  int_ref string_of_list "ocaml_printer.ml" 6 61 71 "ocaml_printer.ml" 6 61 85
+)
+"ocaml_printer.ml" 10 156 187 "ocaml_printer.ml" 10 156 190
+type(
+  string
+)
+ident(
+  int_ref acc "ocaml_printer.ml" 6 61 86 "ocaml_printer.ml" 6 61 89
+)
+"ocaml_printer.ml" 10 156 190 "ocaml_printer.ml" 10 156 191
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"ocaml_printer.ml" 10 156 192 "ocaml_printer.ml" 10 156 193
+type(
+  'b -> string
+)
+ident(
+  int_ref f "ocaml_printer.ml" 6 61 90 "ocaml_printer.ml" 6 61 91
+)
+"ocaml_printer.ml" 10 156 194 "ocaml_printer.ml" 10 156 195
+type(
+  'b
+)
+ident(
+  int_ref x "ocaml_printer.ml" 10 156 162 "ocaml_printer.ml" 10 156 163
+)
+"ocaml_printer.ml" 10 156 191 "ocaml_printer.ml" 10 156 196
+type(
+  string
+)
+"ocaml_printer.ml" 10 156 196 "ocaml_printer.ml" 10 156 197
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"ocaml_printer.ml" 10 156 197 "ocaml_printer.ml" 10 156 200
+type(
+  string
+)
+ident(
+  int_ref sep "ocaml_printer.ml" 6 61 92 "ocaml_printer.ml" 6 61 95
+)
+"ocaml_printer.ml" 10 156 191 "ocaml_printer.ml" 10 156 200
+type(
+  string
+)
+"ocaml_printer.ml" 10 156 186 "ocaml_printer.ml" 10 156 201
+type(
+  string
+)
+"ocaml_printer.ml" 10 156 202 "ocaml_printer.ml" 10 156 203
+type(
+  'b -> string
+)
+ident(
+  int_ref f "ocaml_printer.ml" 6 61 90 "ocaml_printer.ml" 6 61 91
+)
+"ocaml_printer.ml" 10 156 204 "ocaml_printer.ml" 10 156 207
+type(
+  string
+)
+ident(
+  int_ref sep "ocaml_printer.ml" 6 61 92 "ocaml_printer.ml" 6 61 95
+)
+"ocaml_printer.ml" 10 156 208 "ocaml_printer.ml" 10 156 210
+type(
+  'b list
+)
+ident(
+  int_ref xs "ocaml_printer.ml" 10 156 165 "ocaml_printer.ml" 10 156 167
+)
+"ocaml_printer.ml" 10 156 171 "ocaml_printer.ml" 10 156 210
+type(
+  string
+)
+"ocaml_printer.ml" 7 100 104 "ocaml_printer.ml" 10 156 210
+type(
+  string
+)
+"ocaml_printer.ml" 12 216 222 "ocaml_printer.ml" 12 216 223
+type(
+  'a -> string
+)
+ident(
+  def f "ocaml_printer.ml" 12 216 224 "ocaml_printer.ml" 13 233 262
+)
+"ocaml_printer.ml" 12 216 224 "ocaml_printer.ml" 12 216 227
+type(
+  string
+)
+ident(
+  def sep "ocaml_printer.ml" 12 216 228 "ocaml_printer.ml" 13 233 262
+)
+"ocaml_printer.ml" 12 216 228 "ocaml_printer.ml" 12 216 229
+type(
+  'a list
+)
+ident(
+  def l "ocaml_printer.ml" 13 233 237 "ocaml_printer.ml" 13 233 262
+)
+"ocaml_printer.ml" 13 233 237 "ocaml_printer.ml" 13 233 251
+type(
+  string -> ('a -> string) -> string -> 'a list -> string
+)
+ident(
+  int_ref string_of_list "ocaml_printer.ml" 6 61 71 "ocaml_printer.ml" 6 61 85
+)
+"ocaml_printer.ml" 13 233 252 "ocaml_printer.ml" 13 233 254
+type(
+  string
+)
+"ocaml_printer.ml" 13 233 255 "ocaml_printer.ml" 13 233 256
+type(
+  'a -> string
+)
+ident(
+  int_ref f "ocaml_printer.ml" 12 216 222 "ocaml_printer.ml" 12 216 223
+)
+"ocaml_printer.ml" 13 233 257 "ocaml_printer.ml" 13 233 260
+type(
+  string
+)
+ident(
+  int_ref sep "ocaml_printer.ml" 12 216 224 "ocaml_printer.ml" 12 216 227
+)
+"ocaml_printer.ml" 13 233 261 "ocaml_printer.ml" 13 233 262
+type(
+  'a list
+)
+ident(
+  int_ref l "ocaml_printer.ml" 12 216 228 "ocaml_printer.ml" 12 216 229
+)
+"ocaml_printer.ml" 13 233 237 "ocaml_printer.ml" 13 233 262
+type(
+  string
+)
+"ocaml_printer.ml" 12 216 218 "ocaml_printer.ml" 13 233 262
+type(
+  ('a -> string) -> string -> 'a list -> string
+)
+"ocaml_printer.ml" 6 61 63 "ocaml_printer.ml" 13 233 262
+type(
+  ('a -> string) -> string -> 'a list -> string
+)
+"ocaml_printer.ml" 15 265 269 "ocaml_printer.ml" 15 265 279
+type(
+  ('a -> unit) -> (unit -> 'b) -> 'a list -> unit
+)
+ident(
+  def print_list "ocaml_printer.ml" 30 494 494 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 15 265 280 "ocaml_printer.ml" 15 265 285
+type(
+  'a -> unit
+)
+ident(
+  def print "ocaml_printer.ml" 15 265 286 "ocaml_printer.ml" 28 480 492
+)
+"ocaml_printer.ml" 15 265 286 "ocaml_printer.ml" 15 265 295
+type(
+  unit -> 'b
+)
+ident(
+  def print_sep "ocaml_printer.ml" 15 265 296 "ocaml_printer.ml" 28 480 492
+)
+"ocaml_printer.ml" 15 265 296 "ocaml_printer.ml" 15 265 297
+type(
+  'a list
+)
+ident(
+  def l "ocaml_printer.ml" 16 300 302 "ocaml_printer.ml" 28 480 492
+)
+"ocaml_printer.ml" 16 300 310 "ocaml_printer.ml" 16 300 318
+type(
+  'a list -> unit
+)
+ident(
+  def printrec "ocaml_printer.ml" 16 300 302 "ocaml_printer.ml" 28 480 492
+)
+"ocaml_printer.ml" 16 300 319 "ocaml_printer.ml" 16 300 320
+type(
+  'a list
+)
+ident(
+  def l "ocaml_printer.ml" 17 323 327 "ocaml_printer.ml" 27 463 476
+)
+"ocaml_printer.ml" 17 323 333 "ocaml_printer.ml" 17 323 334
+type(
+  'a list
+)
+ident(
+  int_ref l "ocaml_printer.ml" 16 300 319 "ocaml_printer.ml" 16 300 320
+)
+"ocaml_printer.ml" 18 340 346 "ocaml_printer.ml" 18 340 348
+type(
+  'a list
+)
+"ocaml_printer.ml" 18 340 352 "ocaml_printer.ml" 18 340 354
+type(
+  unit
+)
+"ocaml_printer.ml" 19 355 362 "ocaml_printer.ml" 19 355 363
+type(
+  'a
+)
+ident(
+  def x "ocaml_printer.ml" 20 368 369 "ocaml_printer.ml" 20 368 376
+)
+"ocaml_printer.ml" 19 355 361 "ocaml_printer.ml" 19 355 364
+type(
+  'a list
+)
+"ocaml_printer.ml" 20 368 369 "ocaml_printer.ml" 20 368 374
+type(
+  'a -> unit
+)
+ident(
+  int_ref print "ocaml_printer.ml" 15 265 280 "ocaml_printer.ml" 15 265 285
+)
+"ocaml_printer.ml" 20 368 375 "ocaml_printer.ml" 20 368 376
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_printer.ml" 19 355 362 "ocaml_printer.ml" 19 355 363
+)
+"ocaml_printer.ml" 20 368 369 "ocaml_printer.ml" 20 368 376
+type(
+  unit
+)
+"ocaml_printer.ml" 21 377 383 "ocaml_printer.ml" 21 377 384
+type(
+  'a
+)
+ident(
+  def x "ocaml_printer.ml" 22 391 392 "ocaml_printer.ml" 27 463 476
+)
+"ocaml_printer.ml" 21 377 386 "ocaml_printer.ml" 21 377 387
+type(
+  'a list
+)
+ident(
+  def l "ocaml_printer.ml" 22 391 392 "ocaml_printer.ml" 27 463 476
+)
+"ocaml_printer.ml" 21 377 383 "ocaml_printer.ml" 21 377 387
+type(
+  'a list
+)
+"ocaml_printer.ml" 22 391 392 "ocaml_printer.ml" 22 391 400
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.Format.open_box "format.mli" 139 6542 6542 "format.mli" 139 6542 6568
+)
+"ocaml_printer.ml" 22 391 401 "ocaml_printer.ml" 22 391 402
+type(
+  int
+)
+"ocaml_printer.ml" 22 391 392 "ocaml_printer.ml" 22 391 402
+type(
+  unit
+)
+"ocaml_printer.ml" 23 404 405 "ocaml_printer.ml" 23 404 410
+type(
+  'a -> unit
+)
+ident(
+  int_ref print "ocaml_printer.ml" 15 265 280 "ocaml_printer.ml" 15 265 285
+)
+"ocaml_printer.ml" 23 404 411 "ocaml_printer.ml" 23 404 412
+type(
+  'a
+)
+ident(
+  int_ref x "ocaml_printer.ml" 21 377 383 "ocaml_printer.ml" 21 377 384
+)
+"ocaml_printer.ml" 23 404 405 "ocaml_printer.ml" 23 404 412
+type(
+  unit
+)
+"ocaml_printer.ml" 24 414 415 "ocaml_printer.ml" 24 414 424
+type(
+  unit -> 'b
+)
+ident(
+  int_ref print_sep "ocaml_printer.ml" 15 265 286 "ocaml_printer.ml" 15 265 295
+)
+"ocaml_printer.ml" 24 414 425 "ocaml_printer.ml" 24 414 427
+type(
+  unit
+)
+"ocaml_printer.ml" 24 414 415 "ocaml_printer.ml" 24 414 427
+type(
+  'b
+)
+"ocaml_printer.ml" 26 450 451 "ocaml_printer.ml" 26 450 459
+type(
+  'a list -> unit
+)
+ident(
+  int_ref printrec "ocaml_printer.ml" 16 300 310 "ocaml_printer.ml" 16 300 318
+)
+"ocaml_printer.ml" 26 450 460 "ocaml_printer.ml" 26 450 461
+type(
+  'a list
+)
+ident(
+  int_ref l "ocaml_printer.ml" 21 377 386 "ocaml_printer.ml" 21 377 387
+)
+"ocaml_printer.ml" 26 450 451 "ocaml_printer.ml" 26 450 461
+type(
+  unit
+)
+"ocaml_printer.ml" 27 463 464 "ocaml_printer.ml" 27 463 473
+type(
+  unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.close_box "format.mli" 162 7328 7328 "format.mli" 162 7328 7356
+)
+"ocaml_printer.ml" 27 463 474 "ocaml_printer.ml" 27 463 476
+type(
+  unit
+)
+"ocaml_printer.ml" 27 463 464 "ocaml_printer.ml" 27 463 476
+type(
+  unit
+)
+"ocaml_printer.ml" 26 450 451 "ocaml_printer.ml" 27 463 476
+type(
+  unit
+)
+"ocaml_printer.ml" 24 414 415 "ocaml_printer.ml" 27 463 476
+type(
+  unit
+)
+"ocaml_printer.ml" 23 404 405 "ocaml_printer.ml" 27 463 476
+type(
+  unit
+)
+"ocaml_printer.ml" 22 391 392 "ocaml_printer.ml" 27 463 476
+type(
+  unit
+)
+"ocaml_printer.ml" 17 323 327 "ocaml_printer.ml" 27 463 476
+type(
+  unit
+)
+"ocaml_printer.ml" 28 480 482 "ocaml_printer.ml" 28 480 490
+type(
+  'a list -> unit
+)
+ident(
+  int_ref printrec "ocaml_printer.ml" 16 300 310 "ocaml_printer.ml" 16 300 318
+)
+"ocaml_printer.ml" 28 480 491 "ocaml_printer.ml" 28 480 492
+type(
+  'a list
+)
+ident(
+  int_ref l "ocaml_printer.ml" 15 265 296 "ocaml_printer.ml" 15 265 297
+)
+"ocaml_printer.ml" 28 480 482 "ocaml_printer.ml" 28 480 492
+type(
+  unit
+)
+"ocaml_printer.ml" 16 300 302 "ocaml_printer.ml" 28 480 492
+type(
+  unit
+)
+"ocaml_printer.ml" 30 494 498 "ocaml_printer.ml" 30 494 515
+type(
+  Asttypes.base_ty -> string
+)
+ident(
+  def string_of_base_ty "ocaml_printer.ml" 38 645 645 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 30 494 516 "ocaml_printer.ml" 30 494 518
+type(
+  Asttypes.base_ty
+)
+ident(
+  def ty "ocaml_printer.ml" 31 521 523 "ocaml_printer.ml" 36 619 643
+)
+"ocaml_printer.ml" 31 521 529 "ocaml_printer.ml" 31 521 531
+type(
+  Asttypes.base_ty
+)
+ident(
+  int_ref ty "ocaml_printer.ml" 30 494 516 "ocaml_printer.ml" 30 494 518
+)
+"ocaml_printer.ml" 32 539 543 "ocaml_printer.ml" 32 539 548
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 32 539 552 "ocaml_printer.ml" 32 539 558
+type(
+  string
+)
+"ocaml_printer.ml" 33 559 563 "ocaml_printer.ml" 33 559 568
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 33 559 572 "ocaml_printer.ml" 33 559 578
+type(
+  string
+)
+"ocaml_printer.ml" 34 579 583 "ocaml_printer.ml" 34 579 587
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 34 579 591 "ocaml_printer.ml" 34 579 596
+type(
+  string
+)
+"ocaml_printer.ml" 35 597 601 "ocaml_printer.ml" 35 597 607
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 35 597 611 "ocaml_printer.ml" 35 597 618
+type(
+  string
+)
+"ocaml_printer.ml" 36 619 623 "ocaml_printer.ml" 36 619 630
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 36 619 635 "ocaml_printer.ml" 36 619 643
+type(
+  string
+)
+"ocaml_printer.ml" 31 521 523 "ocaml_printer.ml" 36 619 643
+type(
+  string
+)
+"ocaml_printer.ml" 38 645 649 "ocaml_printer.ml" 38 645 663
+type(
+  Asttypes.unop -> string
+)
+ident(
+  def string_of_unop "ocaml_printer.ml" 44 743 743 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 38 645 664 "ocaml_printer.ml" 38 645 666
+type(
+  Asttypes.unop
+)
+ident(
+  def op "ocaml_printer.ml" 39 669 671 "ocaml_printer.ml" 42 721 741
+)
+"ocaml_printer.ml" 39 669 677 "ocaml_printer.ml" 39 669 679
+type(
+  Asttypes.unop
+)
+ident(
+  int_ref op "ocaml_printer.ml" 38 645 664 "ocaml_printer.ml" 38 645 666
+)
+"ocaml_printer.ml" 40 685 689 "ocaml_printer.ml" 40 685 693
+type(
+  Asttypes.unop
+)
+"ocaml_printer.ml" 40 685 697 "ocaml_printer.ml" 40 685 702
+type(
+  string
+)
+"ocaml_printer.ml" 41 703 707 "ocaml_printer.ml" 41 703 713
+type(
+  Asttypes.unop
+)
+"ocaml_printer.ml" 41 703 717 "ocaml_printer.ml" 41 703 720
+type(
+  string
+)
+"ocaml_printer.ml" 42 721 725 "ocaml_printer.ml" 42 721 733
+type(
+  Asttypes.unop
+)
+"ocaml_printer.ml" 42 721 737 "ocaml_printer.ml" 42 721 741
+type(
+  string
+)
+"ocaml_printer.ml" 39 669 671 "ocaml_printer.ml" 42 721 741
+type(
+  string
+)
+"ocaml_printer.ml" 44 743 747 "ocaml_printer.ml" 44 743 762
+type(
+  Asttypes.binop -> string
+)
+ident(
+  def string_of_binop "ocaml_printer.ml" 64 1104 1104 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 44 743 763 "ocaml_printer.ml" 44 743 765
+type(
+  Asttypes.binop
+)
+ident(
+  def op "ocaml_printer.ml" 45 768 770 "ocaml_printer.ml" 62 1085 1102
+)
+"ocaml_printer.ml" 45 768 776 "ocaml_printer.ml" 45 768 778
+type(
+  Asttypes.binop
+)
+ident(
+  int_ref op "ocaml_printer.ml" 44 743 763 "ocaml_printer.ml" 44 743 765
+)
+"ocaml_printer.ml" 46 784 788 "ocaml_printer.ml" 46 784 791
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 46 784 795 "ocaml_printer.ml" 46 784 800
+type(
+  string
+)
+"ocaml_printer.ml" 47 801 805 "ocaml_printer.ml" 47 801 809
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 47 801 813 "ocaml_printer.ml" 47 801 819
+type(
+  string
+)
+"ocaml_printer.ml" 48 820 824 "ocaml_printer.ml" 48 820 827
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 48 820 831 "ocaml_printer.ml" 48 820 836
+type(
+  string
+)
+"ocaml_printer.ml" 49 837 841 "ocaml_printer.ml" 49 837 844
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 49 837 848 "ocaml_printer.ml" 49 837 854
+type(
+  string
+)
+"ocaml_printer.ml" 50 855 859 "ocaml_printer.ml" 50 855 862
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 50 855 866 "ocaml_printer.ml" 50 855 871
+type(
+  string
+)
+"ocaml_printer.ml" 51 872 876 "ocaml_printer.ml" 51 872 879
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 51 872 883 "ocaml_printer.ml" 51 872 889
+type(
+  string
+)
+"ocaml_printer.ml" 52 890 894 "ocaml_printer.ml" 52 890 898
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 52 890 902 "ocaml_printer.ml" 52 890 907
+type(
+  string
+)
+"ocaml_printer.ml" 53 908 912 "ocaml_printer.ml" 53 908 916
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 53 908 920 "ocaml_printer.ml" 53 908 925
+type(
+  string
+)
+"ocaml_printer.ml" 54 926 930 "ocaml_printer.ml" 54 926 934
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 54 926 938 "ocaml_printer.ml" 54 926 943
+type(
+  string
+)
+"ocaml_printer.ml" 55 944 948 "ocaml_printer.ml" 55 944 952
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 55 944 956 "ocaml_printer.ml" 55 944 961
+type(
+  string
+)
+"ocaml_printer.ml" 56 962 966 "ocaml_printer.ml" 56 962 970
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 56 962 974 "ocaml_printer.ml" 56 962 981
+type(
+  string
+)
+"ocaml_printer.ml" 57 982 986 "ocaml_printer.ml" 57 982 992
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 57 982 996 "ocaml_printer.ml" 57 982 1002
+type(
+  string
+)
+"ocaml_printer.ml" 58 1003 1007 "ocaml_printer.ml" 58 1003 1013
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 58 1003 1017 "ocaml_printer.ml" 58 1003 1023
+type(
+  string
+)
+"ocaml_printer.ml" 59 1024 1028 "ocaml_printer.ml" 59 1024 1034
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 59 1024 1038 "ocaml_printer.ml" 59 1024 1044
+type(
+  string
+)
+"ocaml_printer.ml" 60 1045 1049 "ocaml_printer.ml" 60 1045 1055
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 60 1045 1059 "ocaml_printer.ml" 60 1045 1065
+type(
+  string
+)
+"ocaml_printer.ml" 61 1066 1070 "ocaml_printer.ml" 61 1066 1074
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 61 1066 1078 "ocaml_printer.ml" 61 1066 1084
+type(
+  string
+)
+"ocaml_printer.ml" 62 1085 1089 "ocaml_printer.ml" 62 1085 1092
+type(
+  Asttypes.binop
+)
+"ocaml_printer.ml" 62 1085 1096 "ocaml_printer.ml" 62 1085 1102
+type(
+  string
+)
+"ocaml_printer.ml" 45 768 770 "ocaml_printer.ml" 62 1085 1102
+type(
+  string
+)
+"ocaml_printer.ml" 64 1104 1108 "ocaml_printer.ml" 64 1104 1123
+type(
+  Asttypes.const -> string
+)
+ident(
+  def string_of_const "ocaml_printer.ml" 78 1426 1426 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 64 1104 1124 "ocaml_printer.ml" 64 1104 1125
+type(
+  Asttypes.const
+)
+ident(
+  def c "ocaml_printer.ml" 65 1128 1130 "ocaml_printer.ml" 76 1395 1424
+)
+"ocaml_printer.ml" 65 1128 1136 "ocaml_printer.ml" 65 1128 1137
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "ocaml_printer.ml" 64 1104 1124 "ocaml_printer.ml" 64 1104 1125
+)
+"ocaml_printer.ml" 66 1143 1147 "ocaml_printer.ml" 66 1143 1152
+type(
+  Asttypes.const
+)
+"ocaml_printer.ml" 66 1143 1157 "ocaml_printer.ml" 66 1143 1161
+type(
+  string
+)
+"ocaml_printer.ml" 67 1162 1172 "ocaml_printer.ml" 67 1162 1173
+ident(
+  def b "ocaml_printer.ml" 67 1162 1178 "ocaml_printer.ml" 67 1162 1207
+)
+"ocaml_printer.ml" 67 1162 1171 "ocaml_printer.ml" 67 1162 1174
+type(
+  bool
+)
+"ocaml_printer.ml" 67 1162 1166 "ocaml_printer.ml" 67 1162 1174
+type(
+  Asttypes.const
+)
+"ocaml_printer.ml" 67 1162 1181 "ocaml_printer.ml" 67 1162 1182
+type(
+  bool
+)
+ident(
+  int_ref b "ocaml_printer.ml" 67 1162 1171 "ocaml_printer.ml" 67 1162 1174
+)
+"ocaml_printer.ml" 67 1162 1188 "ocaml_printer.ml" 67 1162 1194
+type(
+  string
+)
+"ocaml_printer.ml" 67 1162 1200 "ocaml_printer.ml" 67 1162 1207
+type(
+  string
+)
+"ocaml_printer.ml" 67 1162 1178 "ocaml_printer.ml" 67 1162 1207
+type(
+  string
+)
+"ocaml_printer.ml" 68 1208 1217 "ocaml_printer.ml" 68 1208 1218
+ident(
+  def i "ocaml_printer.ml" 69 1224 1230 "ocaml_printer.ml" 71 1271 1297
+)
+"ocaml_printer.ml" 68 1208 1216 "ocaml_printer.ml" 68 1208 1219
+type(
+  int
+)
+"ocaml_printer.ml" 68 1208 1212 "ocaml_printer.ml" 68 1208 1219
+type(
+  Asttypes.const
+)
+"ocaml_printer.ml" 69 1224 1233 "ocaml_printer.ml" 69 1224 1234
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_printer.ml" 68 1208 1216 "ocaml_printer.ml" 68 1208 1219
+)
+"ocaml_printer.ml" 69 1224 1235 "ocaml_printer.ml" 69 1224 1236
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 132 5646 5646 "stdlib.mli" 132 5646 5693
+)
+"ocaml_printer.ml" 69 1224 1237 "ocaml_printer.ml" 69 1224 1238
+type(
+  int
+)
+"ocaml_printer.ml" 69 1224 1233 "ocaml_printer.ml" 69 1224 1238
+type(
+  bool
+)
+"ocaml_printer.ml" 70 1244 1245 "ocaml_printer.ml" 70 1244 1248
+type(
+  string
+)
+"ocaml_printer.ml" 70 1244 1248 "ocaml_printer.ml" 70 1244 1249
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"ocaml_printer.ml" 70 1244 1250 "ocaml_printer.ml" 70 1244 1263
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 709 26773 26773 "stdlib.mli" 709 26773 26806
+)
+"ocaml_printer.ml" 70 1244 1264 "ocaml_printer.ml" 70 1244 1265
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_printer.ml" 68 1208 1216 "ocaml_printer.ml" 68 1208 1219
+)
+"ocaml_printer.ml" 70 1244 1249 "ocaml_printer.ml" 70 1244 1266
+type(
+  string
+)
+"ocaml_printer.ml" 70 1244 1266 "ocaml_printer.ml" 70 1244 1267
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"ocaml_printer.ml" 70 1244 1267 "ocaml_printer.ml" 70 1244 1270
+type(
+  string
+)
+"ocaml_printer.ml" 70 1244 1249 "ocaml_printer.ml" 70 1244 1270
+type(
+  string
+)
+"ocaml_printer.ml" 70 1244 1245 "ocaml_printer.ml" 70 1244 1270
+type(
+  string
+)
+"ocaml_printer.ml" 71 1271 1282 "ocaml_printer.ml" 71 1271 1295
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.string_of_int "stdlib.mli" 709 26773 26773 "stdlib.mli" 709 26773 26806
+)
+"ocaml_printer.ml" 71 1271 1296 "ocaml_printer.ml" 71 1271 1297
+type(
+  int
+)
+ident(
+  int_ref i "ocaml_printer.ml" 68 1208 1216 "ocaml_printer.ml" 68 1208 1219
+)
+"ocaml_printer.ml" 71 1271 1282 "ocaml_printer.ml" 71 1271 1297
+type(
+  string
+)
+"ocaml_printer.ml" 69 1224 1230 "ocaml_printer.ml" 71 1271 1297
+type(
+  string
+)
+"ocaml_printer.ml" 72 1298 1309 "ocaml_printer.ml" 72 1298 1310
+ident(
+  def f "ocaml_printer.ml" 73 1315 1321 "ocaml_printer.ml" 75 1366 1394
+)
+"ocaml_printer.ml" 72 1298 1308 "ocaml_printer.ml" 72 1298 1311
+type(
+  float
+)
+"ocaml_printer.ml" 72 1298 1302 "ocaml_printer.ml" 72 1298 1311
+type(
+  Asttypes.const
+)
+"ocaml_printer.ml" 73 1315 1324 "ocaml_printer.ml" 73 1315 1325
+type(
+  float
+)
+ident(
+  int_ref f "ocaml_printer.ml" 72 1298 1308 "ocaml_printer.ml" 72 1298 1311
+)
+"ocaml_printer.ml" 73 1315 1326 "ocaml_printer.ml" 73 1315 1327
+type(
+  float -> float -> bool
+)
+ident(
+  int_ref Stdlib.( < ) "stdlib.mli" 132 5646 5646 "stdlib.mli" 132 5646 5693
+)
+"ocaml_printer.ml" 73 1315 1328 "ocaml_printer.ml" 73 1315 1331
+type(
+  float
+)
+"ocaml_printer.ml" 73 1315 1324 "ocaml_printer.ml" 73 1315 1331
+type(
+  bool
+)
+"ocaml_printer.ml" 74 1337 1338 "ocaml_printer.ml" 74 1337 1341
+type(
+  string
+)
+"ocaml_printer.ml" 74 1337 1341 "ocaml_printer.ml" 74 1337 1342
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"ocaml_printer.ml" 74 1337 1343 "ocaml_printer.ml" 74 1337 1358
+type(
+  float -> string
+)
+ident(
+  int_ref Stdlib.string_of_float "stdlib.mli" 737 27858 27858 "stdlib.mli" 737 27858 27895
+)
+"ocaml_printer.ml" 74 1337 1359 "ocaml_printer.ml" 74 1337 1360
+type(
+  float
+)
+ident(
+  int_ref f "ocaml_printer.ml" 72 1298 1308 "ocaml_printer.ml" 72 1298 1311
+)
+"ocaml_printer.ml" 74 1337 1342 "ocaml_printer.ml" 74 1337 1361
+type(
+  string
+)
+"ocaml_printer.ml" 74 1337 1361 "ocaml_printer.ml" 74 1337 1362
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"ocaml_printer.ml" 74 1337 1362 "ocaml_printer.ml" 74 1337 1365
+type(
+  string
+)
+"ocaml_printer.ml" 74 1337 1342 "ocaml_printer.ml" 74 1337 1365
+type(
+  string
+)
+"ocaml_printer.ml" 74 1337 1338 "ocaml_printer.ml" 74 1337 1365
+type(
+  string
+)
+"ocaml_printer.ml" 75 1366 1377 "ocaml_printer.ml" 75 1366 1392
+type(
+  float -> string
+)
+ident(
+  int_ref Stdlib.string_of_float "stdlib.mli" 737 27858 27858 "stdlib.mli" 737 27858 27895
+)
+"ocaml_printer.ml" 75 1366 1393 "ocaml_printer.ml" 75 1366 1394
+type(
+  float
+)
+ident(
+  int_ref f "ocaml_printer.ml" 72 1298 1308 "ocaml_printer.ml" 72 1298 1311
+)
+"ocaml_printer.ml" 75 1366 1377 "ocaml_printer.ml" 75 1366 1394
+type(
+  string
+)
+"ocaml_printer.ml" 73 1315 1321 "ocaml_printer.ml" 75 1366 1394
+type(
+  string
+)
+"ocaml_printer.ml" 76 1395 1407 "ocaml_printer.ml" 76 1395 1408
+ident(
+  def s "ocaml_printer.ml" 76 1395 1413 "ocaml_printer.ml" 76 1395 1424
+)
+"ocaml_printer.ml" 76 1395 1406 "ocaml_printer.ml" 76 1395 1409
+type(
+  string
+)
+"ocaml_printer.ml" 76 1395 1399 "ocaml_printer.ml" 76 1395 1409
+type(
+  Asttypes.const
+)
+"ocaml_printer.ml" 76 1395 1413 "ocaml_printer.ml" 76 1395 1417
+type(
+  string
+)
+"ocaml_printer.ml" 76 1395 1417 "ocaml_printer.ml" 76 1395 1418
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"ocaml_printer.ml" 76 1395 1418 "ocaml_printer.ml" 76 1395 1419
+type(
+  string
+)
+ident(
+  int_ref s "ocaml_printer.ml" 76 1395 1406 "ocaml_printer.ml" 76 1395 1409
+)
+"ocaml_printer.ml" 76 1395 1419 "ocaml_printer.ml" 76 1395 1420
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"ocaml_printer.ml" 76 1395 1420 "ocaml_printer.ml" 76 1395 1424
+type(
+  string
+)
+"ocaml_printer.ml" 76 1395 1418 "ocaml_printer.ml" 76 1395 1424
+type(
+  string
+)
+"ocaml_printer.ml" 76 1395 1413 "ocaml_printer.ml" 76 1395 1424
+type(
+  string
+)
+"ocaml_printer.ml" 65 1128 1130 "ocaml_printer.ml" 76 1395 1424
+type(
+  string
+)
+"ocaml_printer.ml" 78 1426 1430 "ocaml_printer.ml" 78 1426 1444
+type(
+  Imp_ast.atom -> string
+)
+ident(
+  def string_of_atom "ocaml_printer.ml" 83 1515 1515 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 78 1426 1445 "ocaml_printer.ml" 78 1426 1446
+type(
+  Imp_ast.atom
+)
+ident(
+  def a "ocaml_printer.ml" 79 1449 1451 "ocaml_printer.ml" 81 1497 1513
+)
+"ocaml_printer.ml" 79 1449 1457 "ocaml_printer.ml" 79 1449 1458
+type(
+  Imp_ast.atom
+)
+ident(
+  int_ref a "ocaml_printer.ml" 78 1426 1445 "ocaml_printer.ml" 78 1426 1446
+)
+"ocaml_printer.ml" 80 1464 1474 "ocaml_printer.ml" 80 1464 1475
+type(
+  Asttypes.const
+)
+ident(
+  def c "ocaml_printer.ml" 80 1464 1479 "ocaml_printer.ml" 80 1464 1496
+)
+"ocaml_printer.ml" 80 1464 1468 "ocaml_printer.ml" 80 1464 1475
+type(
+  Imp_ast.atom
+)
+"ocaml_printer.ml" 80 1464 1479 "ocaml_printer.ml" 80 1464 1494
+type(
+  Asttypes.const -> string
+)
+ident(
+  int_ref string_of_const "ocaml_printer.ml" 64 1104 1108 "ocaml_printer.ml" 64 1104 1123
+)
+"ocaml_printer.ml" 80 1464 1495 "ocaml_printer.ml" 80 1464 1496
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "ocaml_printer.ml" 80 1464 1474 "ocaml_printer.ml" 80 1464 1475
+)
+"ocaml_printer.ml" 80 1464 1479 "ocaml_printer.ml" 80 1464 1496
+type(
+  string
+)
+"ocaml_printer.ml" 81 1497 1507 "ocaml_printer.ml" 81 1497 1508
+type(
+  string
+)
+ident(
+  def x "ocaml_printer.ml" 81 1497 1512 "ocaml_printer.ml" 81 1497 1513
+)
+"ocaml_printer.ml" 81 1497 1501 "ocaml_printer.ml" 81 1497 1508
+type(
+  Imp_ast.atom
+)
+"ocaml_printer.ml" 81 1497 1512 "ocaml_printer.ml" 81 1497 1513
+type(
+  string
+)
+ident(
+  int_ref x "ocaml_printer.ml" 81 1497 1507 "ocaml_printer.ml" 81 1497 1508
+)
+"ocaml_printer.ml" 79 1449 1451 "ocaml_printer.ml" 81 1497 1513
+type(
+  string
+)
+"ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  def string_of_expr "ocaml_printer.ml" 83 1515 1515 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 83 1515 1538 "ocaml_printer.ml" 83 1515 1539
+type(
+  Imp_ast.m_expr
+)
+ident(
+  def e "ocaml_printer.ml" 84 1543 1545 "ocaml_printer.ml" 105 2366 2410
+)
+"ocaml_printer.ml" 84 1543 1551 "ocaml_printer.ml" 84 1543 1552
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e "ocaml_printer.ml" 83 1515 1538 "ocaml_printer.ml" 83 1515 1539
+)
+"ocaml_printer.ml" 84 1543 1551 "ocaml_printer.ml" 84 1543 1563
+type(
+  Imp_ast.m_expr_desc
+)
+"ocaml_printer.ml" 85 1569 1582 "ocaml_printer.ml" 85 1569 1583
+type(
+  Asttypes.const
+)
+ident(
+  def c "ocaml_printer.ml" 85 1569 1587 "ocaml_printer.ml" 85 1569 1604
+)
+"ocaml_printer.ml" 85 1569 1573 "ocaml_printer.ml" 85 1569 1583
+type(
+  Imp_ast.m_expr_desc
+)
+"ocaml_printer.ml" 85 1569 1587 "ocaml_printer.ml" 85 1569 1602
+type(
+  Asttypes.const -> string
+)
+ident(
+  int_ref string_of_const "ocaml_printer.ml" 64 1104 1108 "ocaml_printer.ml" 64 1104 1123
+)
+"ocaml_printer.ml" 85 1569 1603 "ocaml_printer.ml" 85 1569 1604
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "ocaml_printer.ml" 85 1569 1582 "ocaml_printer.ml" 85 1569 1583
+)
+"ocaml_printer.ml" 85 1569 1587 "ocaml_printer.ml" 85 1569 1604
+type(
+  string
+)
+"ocaml_printer.ml" 86 1605 1618 "ocaml_printer.ml" 86 1605 1619
+type(
+  string
+)
+ident(
+  def x "ocaml_printer.ml" 86 1605 1623 "ocaml_printer.ml" 86 1605 1624
+)
+"ocaml_printer.ml" 86 1605 1609 "ocaml_printer.ml" 86 1605 1619
+type(
+  Imp_ast.m_expr_desc
+)
+"ocaml_printer.ml" 86 1605 1623 "ocaml_printer.ml" 86 1605 1624
+type(
+  string
+)
+ident(
+  int_ref x "ocaml_printer.ml" 86 1605 1618 "ocaml_printer.ml" 86 1605 1619
+)
+"ocaml_printer.ml" 87 1625 1636 "ocaml_printer.ml" 87 1625 1637
+type(
+  string
+)
+ident(
+  def x "ocaml_printer.ml" 87 1625 1641 "ocaml_printer.ml" 87 1625 1650
+)
+"ocaml_printer.ml" 87 1625 1629 "ocaml_printer.ml" 87 1625 1637
+type(
+  Imp_ast.m_expr_desc
+)
+"ocaml_printer.ml" 87 1625 1641 "ocaml_printer.ml" 87 1625 1648
+type(
+  string
+)
+"ocaml_printer.ml" 87 1625 1648 "ocaml_printer.ml" 87 1625 1649
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"ocaml_printer.ml" 87 1625 1649 "ocaml_printer.ml" 87 1625 1650
+type(
+  string
+)
+ident(
+  int_ref x "ocaml_printer.ml" 87 1625 1636 "ocaml_printer.ml" 87 1625 1637
+)
+"ocaml_printer.ml" 87 1625 1641 "ocaml_printer.ml" 87 1625 1650
+type(
+  string
+)
+"ocaml_printer.ml" 88 1651 1663 "ocaml_printer.ml" 88 1651 1665
+type(
+  Asttypes.unop
+)
+ident(
+  def op "ocaml_printer.ml" 89 1673 1679 "ocaml_printer.ml" 89 1673 1736
+)
+"ocaml_printer.ml" 88 1651 1666 "ocaml_printer.ml" 88 1651 1668
+type(
+  Imp_ast.m_expr
+)
+ident(
+  def e1 "ocaml_printer.ml" 89 1673 1679 "ocaml_printer.ml" 89 1673 1736
+)
+"ocaml_printer.ml" 88 1651 1655 "ocaml_printer.ml" 88 1651 1669
+type(
+  Imp_ast.m_expr_desc
+)
+"ocaml_printer.ml" 89 1673 1679 "ocaml_printer.ml" 89 1673 1686
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1181 46124 46124 "format.mli" 1181 46124 46169
+)
+"ocaml_printer.ml" 89 1673 1687 "ocaml_printer.ml" 89 1673 1696
+type(
+  (string -> string -> string, unit, string) format
+)
+"ocaml_printer.ml" 89 1673 1698 "ocaml_printer.ml" 89 1673 1712
+type(
+  Asttypes.unop -> string
+)
+ident(
+  int_ref string_of_unop "ocaml_printer.ml" 38 645 649 "ocaml_printer.ml" 38 645 663
+)
+"ocaml_printer.ml" 89 1673 1713 "ocaml_printer.ml" 89 1673 1715
+type(
+  Asttypes.unop
+)
+ident(
+  int_ref op "ocaml_printer.ml" 88 1651 1663 "ocaml_printer.ml" 88 1651 1665
+)
+"ocaml_printer.ml" 89 1673 1697 "ocaml_printer.ml" 89 1673 1716
+type(
+  string
+)
+"ocaml_printer.ml" 89 1673 1718 "ocaml_printer.ml" 89 1673 1732
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 89 1673 1733 "ocaml_printer.ml" 89 1673 1735
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e1 "ocaml_printer.ml" 88 1651 1666 "ocaml_printer.ml" 88 1651 1668
+)
+"ocaml_printer.ml" 89 1673 1717 "ocaml_printer.ml" 89 1673 1736
+type(
+  string
+)
+"ocaml_printer.ml" 89 1673 1679 "ocaml_printer.ml" 89 1673 1736
+type(
+  string
+)
+"ocaml_printer.ml" 90 1737 1751 "ocaml_printer.ml" 90 1737 1753
+type(
+  Asttypes.binop
+)
+ident(
+  def op "ocaml_printer.ml" 91 1767 1773 "ocaml_printer.ml" 92 1795 1856
+)
+"ocaml_printer.ml" 90 1737 1755 "ocaml_printer.ml" 90 1737 1757
+type(
+  Imp_ast.m_expr
+)
+ident(
+  def e1 "ocaml_printer.ml" 91 1767 1773 "ocaml_printer.ml" 92 1795 1856
+)
+"ocaml_printer.ml" 90 1737 1759 "ocaml_printer.ml" 90 1737 1761
+type(
+  Imp_ast.m_expr
+)
+ident(
+  def e2 "ocaml_printer.ml" 91 1767 1773 "ocaml_printer.ml" 92 1795 1856
+)
+"ocaml_printer.ml" 90 1737 1741 "ocaml_printer.ml" 90 1737 1762
+type(
+  Imp_ast.m_expr_desc
+)
+"ocaml_printer.ml" 91 1767 1773 "ocaml_printer.ml" 91 1767 1780
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1181 46124 46124 "format.mli" 1181 46124 46169
+)
+"ocaml_printer.ml" 91 1767 1781 "ocaml_printer.ml" 91 1767 1793
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"ocaml_printer.ml" 92 1795 1797 "ocaml_printer.ml" 92 1795 1811
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 92 1795 1812 "ocaml_printer.ml" 92 1795 1814
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e1 "ocaml_printer.ml" 90 1737 1755 "ocaml_printer.ml" 90 1737 1757
+)
+"ocaml_printer.ml" 92 1795 1796 "ocaml_printer.ml" 92 1795 1815
+type(
+  string
+)
+"ocaml_printer.ml" 92 1795 1817 "ocaml_printer.ml" 92 1795 1832
+type(
+  Asttypes.binop -> string
+)
+ident(
+  int_ref string_of_binop "ocaml_printer.ml" 44 743 747 "ocaml_printer.ml" 44 743 762
+)
+"ocaml_printer.ml" 92 1795 1833 "ocaml_printer.ml" 92 1795 1835
+type(
+  Asttypes.binop
+)
+ident(
+  int_ref op "ocaml_printer.ml" 90 1737 1751 "ocaml_printer.ml" 90 1737 1753
+)
+"ocaml_printer.ml" 92 1795 1816 "ocaml_printer.ml" 92 1795 1836
+type(
+  string
+)
+"ocaml_printer.ml" 92 1795 1838 "ocaml_printer.ml" 92 1795 1852
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 92 1795 1853 "ocaml_printer.ml" 92 1795 1855
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e2 "ocaml_printer.ml" 90 1737 1759 "ocaml_printer.ml" 90 1737 1761
+)
+"ocaml_printer.ml" 92 1795 1837 "ocaml_printer.ml" 92 1795 1856
+type(
+  string
+)
+"ocaml_printer.ml" 91 1767 1773 "ocaml_printer.ml" 92 1795 1856
+type(
+  string
+)
+"ocaml_printer.ml" 93 1857 1868 "ocaml_printer.ml" 93 1857 1870
+type(
+  Imp_ast.m_expr
+)
+ident(
+  def e1 "ocaml_printer.ml" 94 1882 1888 "ocaml_printer.ml" 95 1954 2014
+)
+"ocaml_printer.ml" 93 1857 1871 "ocaml_printer.ml" 93 1857 1873
+type(
+  Imp_ast.m_expr
+)
+ident(
+  def e2 "ocaml_printer.ml" 94 1882 1888 "ocaml_printer.ml" 95 1954 2014
+)
+"ocaml_printer.ml" 93 1857 1874 "ocaml_printer.ml" 93 1857 1876
+type(
+  Imp_ast.m_expr
+)
+ident(
+  def e3 "ocaml_printer.ml" 94 1882 1888 "ocaml_printer.ml" 95 1954 2014
+)
+"ocaml_printer.ml" 93 1857 1861 "ocaml_printer.ml" 93 1857 1877
+type(
+  Imp_ast.m_expr_desc
+)
+"ocaml_printer.ml" 94 1882 1888 "ocaml_printer.ml" 94 1882 1895
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1181 46124 46124 "format.mli" 1181 46124 46169
+)
+"ocaml_printer.ml" 94 1882 1896 "ocaml_printer.ml" 94 1882 1953
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"ocaml_printer.ml" 95 1954 1956 "ocaml_printer.ml" 95 1954 1970
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 95 1954 1971 "ocaml_printer.ml" 95 1954 1973
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e1 "ocaml_printer.ml" 93 1857 1868 "ocaml_printer.ml" 93 1857 1870
+)
+"ocaml_printer.ml" 95 1954 1955 "ocaml_printer.ml" 95 1954 1974
+type(
+  string
+)
+"ocaml_printer.ml" 95 1954 1976 "ocaml_printer.ml" 95 1954 1990
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 95 1954 1991 "ocaml_printer.ml" 95 1954 1993
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e2 "ocaml_printer.ml" 93 1857 1871 "ocaml_printer.ml" 93 1857 1873
+)
+"ocaml_printer.ml" 95 1954 1975 "ocaml_printer.ml" 95 1954 1994
+type(
+  string
+)
+"ocaml_printer.ml" 95 1954 1996 "ocaml_printer.ml" 95 1954 2010
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 95 1954 2011 "ocaml_printer.ml" 95 1954 2013
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e3 "ocaml_printer.ml" 93 1857 1874 "ocaml_printer.ml" 93 1857 1876
+)
+"ocaml_printer.ml" 95 1954 1995 "ocaml_printer.ml" 95 1954 2014
+type(
+  string
+)
+"ocaml_printer.ml" 94 1882 1888 "ocaml_printer.ml" 95 1954 2014
+type(
+  string
+)
+"ocaml_printer.ml" 96 2015 2028 "ocaml_printer.ml" 96 2015 2030
+type(
+  Imp_ast.m_expr list
+)
+ident(
+  def el "ocaml_printer.ml" 97 2035 2041 "ocaml_printer.ml" 97 2035 2095
+)
+"ocaml_printer.ml" 96 2015 2019 "ocaml_printer.ml" 96 2015 2030
+type(
+  Imp_ast.m_expr_desc
+)
+"ocaml_printer.ml" 97 2035 2041 "ocaml_printer.ml" 97 2035 2048
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1181 46124 46124 "format.mli" 1181 46124 46169
+)
+"ocaml_printer.ml" 97 2035 2049 "ocaml_printer.ml" 97 2035 2055
+type(
+  (string -> string, unit, string) format
+)
+"ocaml_printer.ml" 97 2035 2057 "ocaml_printer.ml" 97 2035 2071
+type(
+  (Imp_ast.m_expr -> string) -> string -> Imp_ast.m_expr list -> string
+)
+ident(
+  int_ref string_of_list "ocaml_printer.ml" 5 40 44 "ocaml_printer.ml" 5 40 58
+)
+"ocaml_printer.ml" 97 2035 2072 "ocaml_printer.ml" 97 2035 2086
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 97 2035 2087 "ocaml_printer.ml" 97 2035 2091
+type(
+  string
+)
+"ocaml_printer.ml" 97 2035 2092 "ocaml_printer.ml" 97 2035 2094
+type(
+  Imp_ast.m_expr list
+)
+ident(
+  int_ref el "ocaml_printer.ml" 96 2015 2028 "ocaml_printer.ml" 96 2015 2030
+)
+"ocaml_printer.ml" 97 2035 2056 "ocaml_printer.ml" 97 2035 2095
+type(
+  string
+)
+"ocaml_printer.ml" 97 2035 2041 "ocaml_printer.ml" 97 2035 2095
+type(
+  string
+)
+"ocaml_printer.ml" 98 2096 2107 "ocaml_printer.ml" 98 2096 2108
+type(
+  string
+)
+ident(
+  def f "ocaml_printer.ml" 99 2122 2128 "ocaml_printer.ml" 100 2162 2210
+)
+"ocaml_printer.ml" 98 2096 2109 "ocaml_printer.ml" 98 2096 2112
+type(
+  string
+)
+ident(
+  def mem "ocaml_printer.ml" 99 2122 2128 "ocaml_printer.ml" 100 2162 2210
+)
+"ocaml_printer.ml" 98 2096 2113 "ocaml_printer.ml" 98 2096 2117
+type(
+  Imp_ast.m_expr list
+)
+ident(
+  def args "ocaml_printer.ml" 99 2122 2128 "ocaml_printer.ml" 100 2162 2210
+)
+"ocaml_printer.ml" 98 2096 2100 "ocaml_printer.ml" 98 2096 2118
+type(
+  Imp_ast.m_expr_desc
+)
+"ocaml_printer.ml" 99 2122 2128 "ocaml_printer.ml" 99 2122 2135
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1181 46124 46124 "format.mli" 1181 46124 46169
+)
+"ocaml_printer.ml" 99 2122 2136 "ocaml_printer.ml" 99 2122 2160
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"ocaml_printer.ml" 100 2162 2163 "ocaml_printer.ml" 100 2162 2164
+type(
+  string
+)
+ident(
+  int_ref f "ocaml_printer.ml" 98 2096 2107 "ocaml_printer.ml" 98 2096 2108
+)
+"ocaml_printer.ml" 100 2162 2165 "ocaml_printer.ml" 100 2162 2168
+type(
+  string
+)
+ident(
+  int_ref mem "ocaml_printer.ml" 98 2096 2109 "ocaml_printer.ml" 98 2096 2112
+)
+"ocaml_printer.ml" 100 2162 2170 "ocaml_printer.ml" 100 2162 2184
+type(
+  (Imp_ast.m_expr -> string) -> string -> Imp_ast.m_expr list -> string
+)
+ident(
+  int_ref string_of_list "ocaml_printer.ml" 5 40 44 "ocaml_printer.ml" 5 40 58
+)
+"ocaml_printer.ml" 100 2162 2185 "ocaml_printer.ml" 100 2162 2199
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 100 2162 2200 "ocaml_printer.ml" 100 2162 2204
+type(
+  string
+)
+"ocaml_printer.ml" 100 2162 2205 "ocaml_printer.ml" 100 2162 2209
+type(
+  Imp_ast.m_expr list
+)
+ident(
+  int_ref args "ocaml_printer.ml" 98 2096 2113 "ocaml_printer.ml" 98 2096 2117
+)
+"ocaml_printer.ml" 100 2162 2169 "ocaml_printer.ml" 100 2162 2210
+type(
+  string
+)
+"ocaml_printer.ml" 99 2122 2128 "ocaml_printer.ml" 100 2162 2210
+type(
+  string
+)
+"ocaml_printer.ml" 101 2211 2223 "ocaml_printer.ml" 101 2211 2224
+type(
+  string
+)
+ident(
+  def f "ocaml_printer.ml" 102 2236 2242 "ocaml_printer.ml" 102 2236 2305
+)
+"ocaml_printer.ml" 101 2211 2225 "ocaml_printer.ml" 101 2211 2229
+type(
+  Imp_ast.m_expr list
+)
+ident(
+  def args "ocaml_printer.ml" 102 2236 2242 "ocaml_printer.ml" 102 2236 2305
+)
+"ocaml_printer.ml" 101 2211 2230 "ocaml_printer.ml" 101 2211 2231
+type(
+  int
+)
+"ocaml_printer.ml" 101 2211 2215 "ocaml_printer.ml" 101 2211 2232
+type(
+  Imp_ast.m_expr_desc
+)
+"ocaml_printer.ml" 102 2236 2242 "ocaml_printer.ml" 102 2236 2249
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1181 46124 46124 "format.mli" 1181 46124 46169
+)
+"ocaml_printer.ml" 102 2236 2250 "ocaml_printer.ml" 102 2236 2261
+type(
+  (string -> string -> string, unit, string) format
+)
+"ocaml_printer.ml" 102 2236 2262 "ocaml_printer.ml" 102 2236 2263
+type(
+  string
+)
+ident(
+  int_ref f "ocaml_printer.ml" 101 2211 2223 "ocaml_printer.ml" 101 2211 2224
+)
+"ocaml_printer.ml" 102 2236 2265 "ocaml_printer.ml" 102 2236 2279
+type(
+  (Imp_ast.m_expr -> string) -> string -> Imp_ast.m_expr list -> string
+)
+ident(
+  int_ref string_of_list "ocaml_printer.ml" 5 40 44 "ocaml_printer.ml" 5 40 58
+)
+"ocaml_printer.ml" 102 2236 2280 "ocaml_printer.ml" 102 2236 2294
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 102 2236 2295 "ocaml_printer.ml" 102 2236 2299
+type(
+  string
+)
+"ocaml_printer.ml" 102 2236 2300 "ocaml_printer.ml" 102 2236 2304
+type(
+  Imp_ast.m_expr list
+)
+ident(
+  int_ref args "ocaml_printer.ml" 101 2211 2225 "ocaml_printer.ml" 101 2211 2229
+)
+"ocaml_printer.ml" 102 2236 2264 "ocaml_printer.ml" 102 2236 2305
+type(
+  string
+)
+"ocaml_printer.ml" 102 2236 2242 "ocaml_printer.ml" 102 2236 2305
+type(
+  string
+)
+"ocaml_printer.ml" 103 2306 2319 "ocaml_printer.ml" 103 2306 2321
+ident(
+  def el "ocaml_printer.ml" 104 2327 2333 "ocaml_printer.ml" 105 2366 2410
+)
+"ocaml_printer.ml" 103 2306 2318 "ocaml_printer.ml" 103 2306 2322
+type(
+  Imp_ast.m_expr list
+)
+"ocaml_printer.ml" 103 2306 2310 "ocaml_printer.ml" 103 2306 2322
+type(
+  Imp_ast.m_expr_desc
+)
+"ocaml_printer.ml" 104 2327 2333 "ocaml_printer.ml" 104 2327 2340
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1181 46124 46124 "format.mli" 1181 46124 46169
+)
+"ocaml_printer.ml" 104 2327 2341 "ocaml_printer.ml" 104 2327 2365
+type(
+  (string -> string, unit, string) format
+)
+"ocaml_printer.ml" 105 2366 2368 "ocaml_printer.ml" 105 2366 2382
+type(
+  (Imp_ast.m_expr -> string) -> string -> Imp_ast.m_expr list -> string
+)
+ident(
+  int_ref string_of_list "ocaml_printer.ml" 5 40 44 "ocaml_printer.ml" 5 40 58
+)
+"ocaml_printer.ml" 105 2366 2383 "ocaml_printer.ml" 105 2366 2403
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_print_expr "ocaml_printer.ml" 107 2412 2416 "ocaml_printer.ml" 107 2412 2436
+)
+"ocaml_printer.ml" 105 2366 2404 "ocaml_printer.ml" 105 2366 2406
+type(
+  string
+)
+"ocaml_printer.ml" 105 2366 2407 "ocaml_printer.ml" 105 2366 2409
+type(
+  Imp_ast.m_expr list
+)
+ident(
+  int_ref el "ocaml_printer.ml" 103 2306 2318 "ocaml_printer.ml" 103 2306 2322
+)
+"ocaml_printer.ml" 105 2366 2367 "ocaml_printer.ml" 105 2366 2410
+type(
+  string
+)
+"ocaml_printer.ml" 104 2327 2333 "ocaml_printer.ml" 105 2366 2410
+type(
+  string
+)
+"ocaml_printer.ml" 84 1543 1545 "ocaml_printer.ml" 105 2366 2410
+type(
+  string
+)
+"ocaml_printer.ml" 107 2412 2416 "ocaml_printer.ml" 107 2412 2436
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  def string_of_print_expr "ocaml_printer.ml" 83 1515 1515 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 107 2412 2437 "ocaml_printer.ml" 107 2412 2438
+type(
+  Imp_ast.m_expr
+)
+ident(
+  def e "ocaml_printer.ml" 108 2441 2443 "ocaml_printer.ml" 118 2849 2870
+)
+"ocaml_printer.ml" 108 2441 2449 "ocaml_printer.ml" 108 2441 2450
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e "ocaml_printer.ml" 107 2412 2437 "ocaml_printer.ml" 107 2412 2438
+)
+"ocaml_printer.ml" 108 2441 2449 "ocaml_printer.ml" 108 2441 2461
+type(
+  Asttypes.base_ty list
+)
+"ocaml_printer.ml" 109 2467 2472 "ocaml_printer.ml" 109 2467 2473
+type(
+  Asttypes.base_ty
+)
+ident(
+  def t "ocaml_printer.ml" 110 2478 2484 "ocaml_printer.ml" 117 2838 2847
+)
+"ocaml_printer.ml" 109 2467 2471 "ocaml_printer.ml" 109 2467 2474
+type(
+  Asttypes.base_ty list
+)
+"ocaml_printer.ml" 110 2478 2496 "ocaml_printer.ml" 110 2478 2497
+type(
+  Asttypes.base_ty
+)
+ident(
+  int_ref t "ocaml_printer.ml" 109 2467 2472 "ocaml_printer.ml" 109 2467 2473
+)
+"ocaml_printer.ml" 111 2503 2511 "ocaml_printer.ml" 111 2503 2516
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 111 2503 2520 "ocaml_printer.ml" 111 2503 2549
+type(
+  string
+)
+"ocaml_printer.ml" 112 2550 2558 "ocaml_printer.ml" 112 2550 2563
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 113 2568 2571 "ocaml_printer.ml" 113 2568 2578
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1181 46124 46124 "format.mli" 1181 46124 46169
+)
+"ocaml_printer.ml" 113 2568 2579 "ocaml_printer.ml" 113 2568 2604
+type(
+  (string -> string, unit, string) format
+)
+"ocaml_printer.ml" 113 2568 2606 "ocaml_printer.ml" 113 2568 2620
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 113 2568 2621 "ocaml_printer.ml" 113 2568 2622
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e "ocaml_printer.ml" 107 2412 2437 "ocaml_printer.ml" 107 2412 2438
+)
+"ocaml_printer.ml" 113 2568 2605 "ocaml_printer.ml" 113 2568 2623
+type(
+  string
+)
+"ocaml_printer.ml" 113 2568 2571 "ocaml_printer.ml" 113 2568 2623
+type(
+  string
+)
+"ocaml_printer.ml" 114 2624 2632 "ocaml_printer.ml" 114 2624 2636
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 114 2624 2640 "ocaml_printer.ml" 114 2624 2647
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1181 46124 46124 "format.mli" 1181 46124 46169
+)
+"ocaml_printer.ml" 114 2624 2648 "ocaml_printer.ml" 114 2624 2672
+type(
+  (string -> string, unit, string) format
+)
+"ocaml_printer.ml" 114 2624 2674 "ocaml_printer.ml" 114 2624 2688
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 114 2624 2689 "ocaml_printer.ml" 114 2624 2690
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e "ocaml_printer.ml" 107 2412 2437 "ocaml_printer.ml" 107 2412 2438
+)
+"ocaml_printer.ml" 114 2624 2673 "ocaml_printer.ml" 114 2624 2691
+type(
+  string
+)
+"ocaml_printer.ml" 114 2624 2640 "ocaml_printer.ml" 114 2624 2691
+type(
+  string
+)
+"ocaml_printer.ml" 115 2692 2700 "ocaml_printer.ml" 115 2692 2706
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 115 2692 2710 "ocaml_printer.ml" 115 2692 2717
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1181 46124 46124 "format.mli" 1181 46124 46169
+)
+"ocaml_printer.ml" 115 2692 2718 "ocaml_printer.ml" 115 2692 2744
+type(
+  (string -> string, unit, string) format
+)
+"ocaml_printer.ml" 115 2692 2746 "ocaml_printer.ml" 115 2692 2760
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 115 2692 2761 "ocaml_printer.ml" 115 2692 2762
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e "ocaml_printer.ml" 107 2412 2437 "ocaml_printer.ml" 107 2412 2438
+)
+"ocaml_printer.ml" 115 2692 2745 "ocaml_printer.ml" 115 2692 2763
+type(
+  string
+)
+"ocaml_printer.ml" 115 2692 2710 "ocaml_printer.ml" 115 2692 2763
+type(
+  string
+)
+"ocaml_printer.ml" 116 2764 2772 "ocaml_printer.ml" 116 2764 2779
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 116 2764 2783 "ocaml_printer.ml" 116 2764 2790
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Format.sprintf "format.mli" 1181 46124 46124 "format.mli" 1181 46124 46169
+)
+"ocaml_printer.ml" 116 2764 2791 "ocaml_printer.ml" 116 2764 2818
+type(
+  (string -> string, unit, string) format
+)
+"ocaml_printer.ml" 116 2764 2820 "ocaml_printer.ml" 116 2764 2834
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 116 2764 2835 "ocaml_printer.ml" 116 2764 2836
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e "ocaml_printer.ml" 107 2412 2437 "ocaml_printer.ml" 107 2412 2438
+)
+"ocaml_printer.ml" 116 2764 2819 "ocaml_printer.ml" 116 2764 2837
+type(
+  string
+)
+"ocaml_printer.ml" 116 2764 2783 "ocaml_printer.ml" 116 2764 2837
+type(
+  string
+)
+"ocaml_printer.ml" 110 2478 2484 "ocaml_printer.ml" 117 2838 2847
+type(
+  string
+)
+"ocaml_printer.ml" 118 2849 2853 "ocaml_printer.ml" 118 2849 2854
+type(
+  Asttypes.base_ty list
+)
+"ocaml_printer.ml" 118 2849 2865 "ocaml_printer.ml" 118 2849 2870
+type(
+  bool
+)
+"ocaml_printer.ml" 118 2849 2858 "ocaml_printer.ml" 118 2849 2870
+type(
+  string
+)
+"ocaml_printer.ml" 108 2441 2443 "ocaml_printer.ml" 118 2849 2870
+type(
+  string
+)
+"ocaml_printer.ml" 121 2875 2879 "ocaml_printer.ml" 121 2875 2888
+type(
+  Imp_ast.m_node -> unit
+)
+ident(
+  def print_mem "ocaml_printer.ml" 137 3329 3329 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 121 2875 2889 "ocaml_printer.ml" 121 2875 2890
+type(
+  Imp_ast.m_node
+)
+ident(
+  def n "ocaml_printer.ml" 122 2894 2896 "ocaml_printer.ml" 135 3322 3327
+)
+"ocaml_printer.ml" 122 2894 2899 "ocaml_printer.ml" 122 2894 2900
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 121 2875 2889 "ocaml_printer.ml" 121 2875 2890
+)
+"ocaml_printer.ml" 122 2894 2899 "ocaml_printer.ml" 122 2894 2907
+type(
+  Imp_ast.mem
+)
+"ocaml_printer.ml" 122 2894 2908 "ocaml_printer.ml" 122 2894 2909
+type(
+  Imp_ast.mem -> Imp_ast.mem -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"ocaml_printer.ml" 122 2894 2922 "ocaml_printer.ml" 122 2894 2924
+type(
+  Imp_ast.tvar list
+)
+"ocaml_printer.ml" 122 2894 2937 "ocaml_printer.ml" 122 2894 2939
+type(
+  (string * string) list
+)
+"ocaml_printer.ml" 122 2894 2910 "ocaml_printer.ml" 122 2894 2942
+type(
+  Imp_ast.mem
+)
+"ocaml_printer.ml" 122 2894 2899 "ocaml_printer.ml" 122 2894 2942
+type(
+  bool
+)
+"ocaml_printer.ml" 123 2948 2952 "ocaml_printer.ml" 123 2948 2958
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 123 2948 2959 "ocaml_printer.ml" 123 2948 2982
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 123 2948 2983 "ocaml_printer.ml" 123 2948 2984
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 121 2875 2889 "ocaml_printer.ml" 121 2875 2890
+)
+"ocaml_printer.ml" 123 2948 2983 "ocaml_printer.ml" 123 2948 2992
+type(
+  string
+)
+"ocaml_printer.ml" 123 2948 2952 "ocaml_printer.ml" 123 2948 2992
+type(
+  unit
+)
+"ocaml_printer.ml" 125 3006 3010 "ocaml_printer.ml" 125 3006 3016
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 125 3006 3017 "ocaml_printer.ml" 125 3006 3037
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 125 3006 3038 "ocaml_printer.ml" 125 3006 3039
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 121 2875 2889 "ocaml_printer.ml" 121 2875 2890
+)
+"ocaml_printer.ml" 125 3006 3038 "ocaml_printer.ml" 125 3006 3047
+type(
+  string
+)
+"ocaml_printer.ml" 125 3006 3010 "ocaml_printer.ml" 125 3006 3047
+type(
+  unit
+)
+"ocaml_printer.ml" 126 3049 3053 "ocaml_printer.ml" 126 3049 3063
+type(
+  (Imp_ast.tvar -> unit) -> (unit -> unit) -> Imp_ast.tvar list -> unit
+)
+ident(
+  int_ref print_list "ocaml_printer.ml" 15 265 269 "ocaml_printer.ml" 15 265 279
+)
+"ocaml_printer.ml" 127 3065 3077 "ocaml_printer.ml" 127 3065 3078
+type(
+  string
+)
+ident(
+  def x "ocaml_printer.ml" 127 3065 3085 "ocaml_printer.ml" 127 3065 3140
+)
+"ocaml_printer.ml" 127 3065 3079 "ocaml_printer.ml" 127 3065 3080
+type(
+  Asttypes.base_ty
+)
+ident(
+  def t "ocaml_printer.ml" 127 3065 3085 "ocaml_printer.ml" 127 3065 3140
+)
+"ocaml_printer.ml" 127 3065 3076 "ocaml_printer.ml" 127 3065 3081
+type(
+  string * Asttypes.base_ty
+)
+"ocaml_printer.ml" 127 3065 3085 "ocaml_printer.ml" 127 3065 3091
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 127 3065 3092 "ocaml_printer.ml" 127 3065 3116
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 127 3065 3117 "ocaml_printer.ml" 127 3065 3118
+type(
+  string
+)
+ident(
+  int_ref x "ocaml_printer.ml" 127 3065 3077 "ocaml_printer.ml" 127 3065 3078
+)
+"ocaml_printer.ml" 127 3065 3120 "ocaml_printer.ml" 127 3065 3137
+type(
+  Asttypes.base_ty -> string
+)
+ident(
+  int_ref string_of_base_ty "ocaml_printer.ml" 30 494 498 "ocaml_printer.ml" 30 494 515
+)
+"ocaml_printer.ml" 127 3065 3138 "ocaml_printer.ml" 127 3065 3139
+type(
+  Asttypes.base_ty
+)
+ident(
+  int_ref t "ocaml_printer.ml" 127 3065 3079 "ocaml_printer.ml" 127 3065 3080
+)
+"ocaml_printer.ml" 127 3065 3119 "ocaml_printer.ml" 127 3065 3140
+type(
+  string
+)
+"ocaml_printer.ml" 127 3065 3085 "ocaml_printer.ml" 127 3065 3140
+type(
+  unit
+)
+"ocaml_printer.ml" 127 3065 3071 "ocaml_printer.ml" 127 3065 3141
+type(
+  Imp_ast.tvar -> unit
+)
+"ocaml_printer.ml" 128 3142 3153 "ocaml_printer.ml" 128 3142 3155
+type(
+  unit
+)
+"ocaml_printer.ml" 128 3142 3159 "ocaml_printer.ml" 128 3142 3161
+type(
+  unit
+)
+"ocaml_printer.ml" 128 3142 3148 "ocaml_printer.ml" 128 3142 3162
+type(
+  unit -> unit
+)
+"ocaml_printer.ml" 129 3163 3169 "ocaml_printer.ml" 129 3163 3170
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 121 2875 2889 "ocaml_printer.ml" 121 2875 2890
+)
+"ocaml_printer.ml" 129 3163 3169 "ocaml_printer.ml" 129 3163 3177
+type(
+  Imp_ast.mem
+)
+"ocaml_printer.ml" 129 3163 3169 "ocaml_printer.ml" 129 3163 3185
+type(
+  Imp_ast.tvar list
+)
+"ocaml_printer.ml" 126 3049 3053 "ocaml_printer.ml" 129 3163 3185
+type(
+  unit
+)
+"ocaml_printer.ml" 130 3187 3191 "ocaml_printer.ml" 130 3187 3201
+type(
+  (string * string -> unit) ->
+  (unit -> unit) -> (string * string) list -> unit
+)
+ident(
+  int_ref print_list "ocaml_printer.ml" 15 265 269 "ocaml_printer.ml" 15 265 279
+)
+"ocaml_printer.ml" 131 3203 3215 "ocaml_printer.ml" 131 3203 3216
+type(
+  string
+)
+ident(
+  def x "ocaml_printer.ml" 131 3203 3223 "ocaml_printer.ml" 131 3203 3254
+)
+"ocaml_printer.ml" 131 3203 3217 "ocaml_printer.ml" 131 3203 3218
+type(
+  string
+)
+ident(
+  def t "ocaml_printer.ml" 131 3203 3223 "ocaml_printer.ml" 131 3203 3254
+)
+"ocaml_printer.ml" 131 3203 3214 "ocaml_printer.ml" 131 3203 3219
+type(
+  string * string
+)
+"ocaml_printer.ml" 131 3203 3223 "ocaml_printer.ml" 131 3203 3229
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 131 3203 3230 "ocaml_printer.ml" 131 3203 3250
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 131 3203 3251 "ocaml_printer.ml" 131 3203 3252
+type(
+  string
+)
+ident(
+  int_ref x "ocaml_printer.ml" 131 3203 3215 "ocaml_printer.ml" 131 3203 3216
+)
+"ocaml_printer.ml" 131 3203 3253 "ocaml_printer.ml" 131 3203 3254
+type(
+  string
+)
+ident(
+  int_ref t "ocaml_printer.ml" 131 3203 3217 "ocaml_printer.ml" 131 3203 3218
+)
+"ocaml_printer.ml" 131 3203 3223 "ocaml_printer.ml" 131 3203 3254
+type(
+  unit
+)
+"ocaml_printer.ml" 131 3203 3209 "ocaml_printer.ml" 131 3203 3255
+type(
+  string * string -> unit
+)
+"ocaml_printer.ml" 132 3256 3267 "ocaml_printer.ml" 132 3256 3269
+type(
+  unit
+)
+"ocaml_printer.ml" 132 3256 3273 "ocaml_printer.ml" 132 3256 3275
+type(
+  unit
+)
+"ocaml_printer.ml" 132 3256 3262 "ocaml_printer.ml" 132 3256 3276
+type(
+  unit -> unit
+)
+"ocaml_printer.ml" 133 3277 3283 "ocaml_printer.ml" 133 3277 3284
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 121 2875 2889 "ocaml_printer.ml" 121 2875 2890
+)
+"ocaml_printer.ml" 133 3277 3283 "ocaml_printer.ml" 133 3277 3291
+type(
+  Imp_ast.mem
+)
+"ocaml_printer.ml" 133 3277 3283 "ocaml_printer.ml" 133 3277 3300
+type(
+  (string * string) list
+)
+"ocaml_printer.ml" 130 3187 3191 "ocaml_printer.ml" 133 3277 3300
+type(
+  unit
+)
+"ocaml_printer.ml" 134 3302 3306 "ocaml_printer.ml" 134 3302 3312
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 134 3302 3313 "ocaml_printer.ml" 134 3302 3321
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 134 3302 3306 "ocaml_printer.ml" 134 3302 3321
+type(
+  unit
+)
+"ocaml_printer.ml" 130 3187 3191 "ocaml_printer.ml" 134 3302 3321
+type(
+  unit
+)
+"ocaml_printer.ml" 126 3049 3053 "ocaml_printer.ml" 134 3302 3321
+type(
+  unit
+)
+"ocaml_printer.ml" 124 2993 3000 "ocaml_printer.ml" 135 3322 3327
+type(
+  unit
+)
+"ocaml_printer.ml" 122 2894 2896 "ocaml_printer.ml" 135 3322 3327
+type(
+  unit
+)
+"ocaml_printer.ml" 137 3329 3333 "ocaml_printer.ml" 137 3329 3343
+type(
+  Imp_ast.m_node -> unit
+)
+ident(
+  def print_init "ocaml_printer.ml" 153 3788 3788 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 137 3329 3344 "ocaml_printer.ml" 137 3329 3345
+type(
+  Imp_ast.m_node
+)
+ident(
+  def n "ocaml_printer.ml" 138 3348 3350 "ocaml_printer.ml" 151 3781 3786
+)
+"ocaml_printer.ml" 138 3348 3353 "ocaml_printer.ml" 138 3348 3354
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 137 3329 3344 "ocaml_printer.ml" 137 3329 3345
+)
+"ocaml_printer.ml" 138 3348 3353 "ocaml_printer.ml" 138 3348 3361
+type(
+  Imp_ast.mem
+)
+"ocaml_printer.ml" 138 3348 3362 "ocaml_printer.ml" 138 3348 3363
+type(
+  Imp_ast.mem -> Imp_ast.mem -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 118 4976 4976 "stdlib.mli" 118 4976 5020
+)
+"ocaml_printer.ml" 138 3348 3376 "ocaml_printer.ml" 138 3348 3378
+type(
+  Imp_ast.tvar list
+)
+"ocaml_printer.ml" 138 3348 3391 "ocaml_printer.ml" 138 3348 3393
+type(
+  (string * string) list
+)
+"ocaml_printer.ml" 138 3348 3364 "ocaml_printer.ml" 138 3348 3396
+type(
+  Imp_ast.mem
+)
+"ocaml_printer.ml" 138 3348 3353 "ocaml_printer.ml" 138 3348 3396
+type(
+  bool
+)
+"ocaml_printer.ml" 139 3402 3406 "ocaml_printer.ml" 139 3402 3412
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 139 3402 3413 "ocaml_printer.ml" 139 3402 3437
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 139 3402 3438 "ocaml_printer.ml" 139 3402 3439
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 137 3329 3344 "ocaml_printer.ml" 137 3329 3345
+)
+"ocaml_printer.ml" 139 3402 3438 "ocaml_printer.ml" 139 3402 3447
+type(
+  string
+)
+"ocaml_printer.ml" 139 3402 3406 "ocaml_printer.ml" 139 3402 3447
+type(
+  unit
+)
+"ocaml_printer.ml" 141 3462 3466 "ocaml_printer.ml" 141 3462 3472
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 141 3462 3473 "ocaml_printer.ml" 141 3462 3496
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 141 3462 3497 "ocaml_printer.ml" 141 3462 3498
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 137 3329 3344 "ocaml_printer.ml" 137 3329 3345
+)
+"ocaml_printer.ml" 141 3462 3497 "ocaml_printer.ml" 141 3462 3506
+type(
+  string
+)
+"ocaml_printer.ml" 141 3462 3466 "ocaml_printer.ml" 141 3462 3506
+type(
+  unit
+)
+"ocaml_printer.ml" 142 3508 3512 "ocaml_printer.ml" 142 3508 3522
+type(
+  (string * Asttypes.const -> unit) ->
+  (unit -> unit) -> (string * Asttypes.const) list -> unit
+)
+ident(
+  int_ref print_list "ocaml_printer.ml" 15 265 269 "ocaml_printer.ml" 15 265 279
+)
+"ocaml_printer.ml" 143 3524 3536 "ocaml_printer.ml" 143 3524 3537
+type(
+  string
+)
+ident(
+  def x "ocaml_printer.ml" 143 3524 3544 "ocaml_printer.ml" 143 3524 3590
+)
+"ocaml_printer.ml" 143 3524 3538 "ocaml_printer.ml" 143 3524 3539
+type(
+  Asttypes.const
+)
+ident(
+  def c "ocaml_printer.ml" 143 3524 3544 "ocaml_printer.ml" 143 3524 3590
+)
+"ocaml_printer.ml" 143 3524 3535 "ocaml_printer.ml" 143 3524 3540
+type(
+  string * Asttypes.const
+)
+"ocaml_printer.ml" 143 3524 3544 "ocaml_printer.ml" 143 3524 3550
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 143 3524 3551 "ocaml_printer.ml" 143 3524 3568
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 143 3524 3569 "ocaml_printer.ml" 143 3524 3570
+type(
+  string
+)
+ident(
+  int_ref x "ocaml_printer.ml" 143 3524 3536 "ocaml_printer.ml" 143 3524 3537
+)
+"ocaml_printer.ml" 143 3524 3572 "ocaml_printer.ml" 143 3524 3587
+type(
+  Asttypes.const -> string
+)
+ident(
+  int_ref string_of_const "ocaml_printer.ml" 64 1104 1108 "ocaml_printer.ml" 64 1104 1123
+)
+"ocaml_printer.ml" 143 3524 3588 "ocaml_printer.ml" 143 3524 3589
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "ocaml_printer.ml" 143 3524 3538 "ocaml_printer.ml" 143 3524 3539
+)
+"ocaml_printer.ml" 143 3524 3571 "ocaml_printer.ml" 143 3524 3590
+type(
+  string
+)
+"ocaml_printer.ml" 143 3524 3544 "ocaml_printer.ml" 143 3524 3590
+type(
+  unit
+)
+"ocaml_printer.ml" 143 3524 3530 "ocaml_printer.ml" 143 3524 3591
+type(
+  string * Asttypes.const -> unit
+)
+"ocaml_printer.ml" 144 3592 3603 "ocaml_printer.ml" 144 3592 3605
+type(
+  unit
+)
+"ocaml_printer.ml" 144 3592 3609 "ocaml_printer.ml" 144 3592 3611
+type(
+  unit
+)
+"ocaml_printer.ml" 144 3592 3598 "ocaml_printer.ml" 144 3592 3612
+type(
+  unit -> unit
+)
+"ocaml_printer.ml" 145 3613 3619 "ocaml_printer.ml" 145 3613 3620
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 137 3329 3344 "ocaml_printer.ml" 137 3329 3345
+)
+"ocaml_printer.ml" 145 3613 3619 "ocaml_printer.ml" 145 3613 3628
+type(
+  Imp_ast.init
+)
+"ocaml_printer.ml" 145 3613 3619 "ocaml_printer.ml" 145 3613 3637
+type(
+  (string * Asttypes.const) list
+)
+"ocaml_printer.ml" 142 3508 3512 "ocaml_printer.ml" 145 3613 3637
+type(
+  unit
+)
+"ocaml_printer.ml" 146 3639 3643 "ocaml_printer.ml" 146 3639 3653
+type(
+  (string * string -> unit) ->
+  (unit -> unit) -> (string * string) list -> unit
+)
+ident(
+  int_ref print_list "ocaml_printer.ml" 15 265 269 "ocaml_printer.ml" 15 265 279
+)
+"ocaml_printer.ml" 147 3655 3667 "ocaml_printer.ml" 147 3655 3668
+type(
+  string
+)
+ident(
+  def x "ocaml_printer.ml" 147 3655 3675 "ocaml_printer.ml" 147 3655 3711
+)
+"ocaml_printer.ml" 147 3655 3669 "ocaml_printer.ml" 147 3655 3670
+type(
+  string
+)
+ident(
+  def f "ocaml_printer.ml" 147 3655 3675 "ocaml_printer.ml" 147 3655 3711
+)
+"ocaml_printer.ml" 147 3655 3666 "ocaml_printer.ml" 147 3655 3671
+type(
+  string * string
+)
+"ocaml_printer.ml" 147 3655 3675 "ocaml_printer.ml" 147 3655 3681
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 147 3655 3682 "ocaml_printer.ml" 147 3655 3707
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 147 3655 3708 "ocaml_printer.ml" 147 3655 3709
+type(
+  string
+)
+ident(
+  int_ref x "ocaml_printer.ml" 147 3655 3667 "ocaml_printer.ml" 147 3655 3668
+)
+"ocaml_printer.ml" 147 3655 3710 "ocaml_printer.ml" 147 3655 3711
+type(
+  string
+)
+ident(
+  int_ref f "ocaml_printer.ml" 147 3655 3669 "ocaml_printer.ml" 147 3655 3670
+)
+"ocaml_printer.ml" 147 3655 3675 "ocaml_printer.ml" 147 3655 3711
+type(
+  unit
+)
+"ocaml_printer.ml" 147 3655 3661 "ocaml_printer.ml" 147 3655 3712
+type(
+  string * string -> unit
+)
+"ocaml_printer.ml" 148 3713 3724 "ocaml_printer.ml" 148 3713 3726
+type(
+  unit
+)
+"ocaml_printer.ml" 148 3713 3730 "ocaml_printer.ml" 148 3713 3732
+type(
+  unit
+)
+"ocaml_printer.ml" 148 3713 3719 "ocaml_printer.ml" 148 3713 3733
+type(
+  unit -> unit
+)
+"ocaml_printer.ml" 149 3734 3740 "ocaml_printer.ml" 149 3734 3741
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 137 3329 3344 "ocaml_printer.ml" 137 3329 3345
+)
+"ocaml_printer.ml" 149 3734 3740 "ocaml_printer.ml" 149 3734 3749
+type(
+  Imp_ast.init
+)
+"ocaml_printer.ml" 149 3734 3740 "ocaml_printer.ml" 149 3734 3759
+type(
+  (string * string) list
+)
+"ocaml_printer.ml" 146 3639 3643 "ocaml_printer.ml" 149 3734 3759
+type(
+  unit
+)
+"ocaml_printer.ml" 150 3761 3765 "ocaml_printer.ml" 150 3761 3771
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 150 3761 3772 "ocaml_printer.ml" 150 3761 3780
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 150 3761 3765 "ocaml_printer.ml" 150 3761 3780
+type(
+  unit
+)
+"ocaml_printer.ml" 146 3639 3643 "ocaml_printer.ml" 150 3761 3780
+type(
+  unit
+)
+"ocaml_printer.ml" 142 3508 3512 "ocaml_printer.ml" 150 3761 3780
+type(
+  unit
+)
+"ocaml_printer.ml" 140 3449 3456 "ocaml_printer.ml" 151 3781 3786
+type(
+  unit
+)
+"ocaml_printer.ml" 138 3348 3350 "ocaml_printer.ml" 151 3781 3786
+type(
+  unit
+)
+"ocaml_printer.ml" 153 3788 3792 "ocaml_printer.ml" 153 3788 3805
+type(
+  Imp_ast.m_equation -> unit
+)
+ident(
+  def print_compute "ocaml_printer.ml" 158 3943 3943 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 153 3788 3819 "ocaml_printer.ml" 153 3788 3820
+type(
+  Imp_ast.tvar list
+)
+ident(
+  def p "ocaml_printer.ml" 154 3840 3842 "ocaml_printer.ml" 156 3919 3941
+)
+"ocaml_printer.ml" 153 3788 3833 "ocaml_printer.ml" 153 3788 3834
+type(
+  Imp_ast.m_expr
+)
+ident(
+  def e "ocaml_printer.ml" 154 3840 3842 "ocaml_printer.ml" 156 3919 3941
+)
+"ocaml_printer.ml" 153 3788 3806 "ocaml_printer.ml" 153 3788 3836
+type(
+  Imp_ast.m_equation
+)
+"ocaml_printer.ml" 154 3840 3842 "ocaml_printer.ml" 154 3840 3848
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 154 3840 3849 "ocaml_printer.ml" 154 3840 3872
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 155 3874 3879 "ocaml_printer.ml" 155 3874 3893
+type(
+  (Imp_ast.tvar -> string) -> string -> Imp_ast.tvar list -> string
+)
+ident(
+  int_ref string_of_list "ocaml_printer.ml" 5 40 44 "ocaml_printer.ml" 5 40 58
+)
+"ocaml_printer.ml" 155 3874 3900 "ocaml_printer.ml" 155 3874 3901
+type(
+  string
+)
+ident(
+  def x "ocaml_printer.ml" 155 3874 3908 "ocaml_printer.ml" 155 3874 3909
+)
+"ocaml_printer.ml" 155 3874 3902 "ocaml_printer.ml" 155 3874 3903
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 155 3874 3899 "ocaml_printer.ml" 155 3874 3904
+type(
+  string * Asttypes.base_ty
+)
+"ocaml_printer.ml" 155 3874 3908 "ocaml_printer.ml" 155 3874 3909
+type(
+  string
+)
+ident(
+  int_ref x "ocaml_printer.ml" 155 3874 3900 "ocaml_printer.ml" 155 3874 3901
+)
+"ocaml_printer.ml" 155 3874 3894 "ocaml_printer.ml" 155 3874 3910
+type(
+  Imp_ast.tvar -> string
+)
+"ocaml_printer.ml" 155 3874 3911 "ocaml_printer.ml" 155 3874 3915
+type(
+  string
+)
+"ocaml_printer.ml" 155 3874 3916 "ocaml_printer.ml" 155 3874 3917
+type(
+  Imp_ast.tvar list
+)
+ident(
+  int_ref p "ocaml_printer.ml" 153 3788 3819 "ocaml_printer.ml" 153 3788 3820
+)
+"ocaml_printer.ml" 155 3874 3878 "ocaml_printer.ml" 155 3874 3918
+type(
+  string
+)
+"ocaml_printer.ml" 156 3919 3924 "ocaml_printer.ml" 156 3919 3938
+type(
+  Imp_ast.m_expr -> string
+)
+ident(
+  int_ref string_of_expr "ocaml_printer.ml" 83 1515 1523 "ocaml_printer.ml" 83 1515 1537
+)
+"ocaml_printer.ml" 156 3919 3939 "ocaml_printer.ml" 156 3919 3940
+type(
+  Imp_ast.m_expr
+)
+ident(
+  int_ref e "ocaml_printer.ml" 153 3788 3833 "ocaml_printer.ml" 153 3788 3834
+)
+"ocaml_printer.ml" 156 3919 3923 "ocaml_printer.ml" 156 3919 3941
+type(
+  string
+)
+"ocaml_printer.ml" 154 3840 3842 "ocaml_printer.ml" 156 3919 3941
+type(
+  unit
+)
+"ocaml_printer.ml" 158 3943 3947 "ocaml_printer.ml" 158 3943 3959
+type(
+  string * Imp_ast.atom -> unit
+)
+ident(
+  def print_update "ocaml_printer.ml" 161 4022 4022 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 158 3943 3961 "ocaml_printer.ml" 158 3943 3962
+type(
+  string
+)
+ident(
+  def x "ocaml_printer.ml" 159 3968 3970 "ocaml_printer.ml" 159 3968 4019
+)
+"ocaml_printer.ml" 158 3943 3963 "ocaml_printer.ml" 158 3943 3964
+type(
+  Imp_ast.atom
+)
+ident(
+  def a "ocaml_printer.ml" 159 3968 3970 "ocaml_printer.ml" 159 3968 4019
+)
+"ocaml_printer.ml" 158 3943 3960 "ocaml_printer.ml" 158 3943 3965
+type(
+  string * Imp_ast.atom
+)
+"ocaml_printer.ml" 159 3968 3970 "ocaml_printer.ml" 159 3968 3976
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 159 3968 3977 "ocaml_printer.ml" 159 3968 3998
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 159 3968 3999 "ocaml_printer.ml" 159 3968 4000
+type(
+  string
+)
+ident(
+  int_ref x "ocaml_printer.ml" 158 3943 3961 "ocaml_printer.ml" 158 3943 3962
+)
+"ocaml_printer.ml" 159 3968 4002 "ocaml_printer.ml" 159 3968 4016
+type(
+  Imp_ast.atom -> string
+)
+ident(
+  int_ref string_of_atom "ocaml_printer.ml" 78 1426 1430 "ocaml_printer.ml" 78 1426 1444
+)
+"ocaml_printer.ml" 159 3968 4017 "ocaml_printer.ml" 159 3968 4018
+type(
+  Imp_ast.atom
+)
+ident(
+  int_ref a "ocaml_printer.ml" 158 3943 3963 "ocaml_printer.ml" 158 3943 3964
+)
+"ocaml_printer.ml" 159 3968 4001 "ocaml_printer.ml" 159 3968 4019
+type(
+  string
+)
+"ocaml_printer.ml" 159 3968 3970 "ocaml_printer.ml" 159 3968 4019
+type(
+  unit
+)
+"ocaml_printer.ml" 161 4022 4026 "ocaml_printer.ml" 161 4022 4036
+type(
+  Imp_ast.m_node -> unit
+)
+ident(
+  def print_step "ocaml_printer.ml" 169 4312 4312 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 161 4022 4037 "ocaml_printer.ml" 161 4022 4038
+type(
+  Imp_ast.m_node
+)
+ident(
+  def n "ocaml_printer.ml" 162 4041 4043 "ocaml_printer.ml" 167 4234 4310
+)
+"ocaml_printer.ml" 162 4041 4043 "ocaml_printer.ml" 162 4041 4049
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 162 4041 4050 "ocaml_printer.ml" 162 4041 4079
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 163 4081 4085 "ocaml_printer.ml" 163 4081 4086
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 161 4022 4037 "ocaml_printer.ml" 161 4022 4038
+)
+"ocaml_printer.ml" 163 4081 4085 "ocaml_printer.ml" 163 4081 4094
+type(
+  string
+)
+"ocaml_printer.ml" 164 4096 4101 "ocaml_printer.ml" 164 4096 4115
+type(
+  (Imp_ast.tvar -> string) -> string -> Imp_ast.tvar list -> string
+)
+ident(
+  int_ref string_of_list "ocaml_printer.ml" 5 40 44 "ocaml_printer.ml" 5 40 58
+)
+"ocaml_printer.ml" 164 4096 4122 "ocaml_printer.ml" 164 4096 4123
+type(
+  string
+)
+ident(
+  def x "ocaml_printer.ml" 164 4096 4130 "ocaml_printer.ml" 164 4096 4131
+)
+"ocaml_printer.ml" 164 4096 4124 "ocaml_printer.ml" 164 4096 4125
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 164 4096 4121 "ocaml_printer.ml" 164 4096 4126
+type(
+  string * Asttypes.base_ty
+)
+"ocaml_printer.ml" 164 4096 4130 "ocaml_printer.ml" 164 4096 4131
+type(
+  string
+)
+ident(
+  int_ref x "ocaml_printer.ml" 164 4096 4122 "ocaml_printer.ml" 164 4096 4123
+)
+"ocaml_printer.ml" 164 4096 4116 "ocaml_printer.ml" 164 4096 4132
+type(
+  Imp_ast.tvar -> string
+)
+"ocaml_printer.ml" 164 4096 4133 "ocaml_printer.ml" 164 4096 4137
+type(
+  string
+)
+"ocaml_printer.ml" 164 4096 4138 "ocaml_printer.ml" 164 4096 4139
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 161 4022 4037 "ocaml_printer.ml" 161 4022 4038
+)
+"ocaml_printer.ml" 164 4096 4138 "ocaml_printer.ml" 164 4096 4153
+type(
+  Imp_ast.tvar list
+)
+"ocaml_printer.ml" 164 4096 4100 "ocaml_printer.ml" 164 4096 4154
+type(
+  string
+)
+"ocaml_printer.ml" 162 4041 4043 "ocaml_printer.ml" 164 4096 4154
+type(
+  unit
+)
+"ocaml_printer.ml" 165 4156 4158 "ocaml_printer.ml" 165 4156 4167
+type(
+  (Imp_ast.m_equation -> unit) -> Imp_ast.m_equation list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"ocaml_printer.ml" 165 4156 4168 "ocaml_printer.ml" 165 4156 4181
+type(
+  Imp_ast.m_equation -> unit
+)
+ident(
+  int_ref print_compute "ocaml_printer.ml" 153 3788 3792 "ocaml_printer.ml" 153 3788 3805
+)
+"ocaml_printer.ml" 165 4156 4182 "ocaml_printer.ml" 165 4156 4183
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 161 4022 4037 "ocaml_printer.ml" 161 4022 4038
+)
+"ocaml_printer.ml" 165 4156 4182 "ocaml_printer.ml" 165 4156 4194
+type(
+  Imp_ast.m_equation list
+)
+"ocaml_printer.ml" 165 4156 4158 "ocaml_printer.ml" 165 4156 4194
+type(
+  unit
+)
+"ocaml_printer.ml" 166 4196 4198 "ocaml_printer.ml" 166 4196 4207
+type(
+  (string * Imp_ast.atom -> unit) -> (string * Imp_ast.atom) list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"ocaml_printer.ml" 166 4196 4208 "ocaml_printer.ml" 166 4196 4220
+type(
+  string * Imp_ast.atom -> unit
+)
+ident(
+  int_ref print_update "ocaml_printer.ml" 158 3943 3947 "ocaml_printer.ml" 158 3943 3959
+)
+"ocaml_printer.ml" 166 4196 4221 "ocaml_printer.ml" 166 4196 4222
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 161 4022 4037 "ocaml_printer.ml" 161 4022 4038
+)
+"ocaml_printer.ml" 166 4196 4221 "ocaml_printer.ml" 166 4196 4232
+type(
+  (string * Imp_ast.atom) list
+)
+"ocaml_printer.ml" 166 4196 4198 "ocaml_printer.ml" 166 4196 4232
+type(
+  unit
+)
+"ocaml_printer.ml" 167 4234 4236 "ocaml_printer.ml" 167 4234 4242
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 167 4234 4243 "ocaml_printer.ml" 167 4234 4254
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 167 4234 4256 "ocaml_printer.ml" 167 4234 4270
+type(
+  (Imp_ast.tvar -> string) -> string -> Imp_ast.tvar list -> string
+)
+ident(
+  int_ref string_of_list "ocaml_printer.ml" 5 40 44 "ocaml_printer.ml" 5 40 58
+)
+"ocaml_printer.ml" 167 4234 4277 "ocaml_printer.ml" 167 4234 4278
+type(
+  string
+)
+ident(
+  def x "ocaml_printer.ml" 167 4234 4285 "ocaml_printer.ml" 167 4234 4286
+)
+"ocaml_printer.ml" 167 4234 4279 "ocaml_printer.ml" 167 4234 4280
+type(
+  Asttypes.base_ty
+)
+"ocaml_printer.ml" 167 4234 4276 "ocaml_printer.ml" 167 4234 4281
+type(
+  string * Asttypes.base_ty
+)
+"ocaml_printer.ml" 167 4234 4285 "ocaml_printer.ml" 167 4234 4286
+type(
+  string
+)
+ident(
+  int_ref x "ocaml_printer.ml" 167 4234 4277 "ocaml_printer.ml" 167 4234 4278
+)
+"ocaml_printer.ml" 167 4234 4271 "ocaml_printer.ml" 167 4234 4287
+type(
+  Imp_ast.tvar -> string
+)
+"ocaml_printer.ml" 167 4234 4288 "ocaml_printer.ml" 167 4234 4292
+type(
+  string
+)
+"ocaml_printer.ml" 167 4234 4293 "ocaml_printer.ml" 167 4234 4294
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 161 4022 4037 "ocaml_printer.ml" 161 4022 4038
+)
+"ocaml_printer.ml" 167 4234 4293 "ocaml_printer.ml" 167 4234 4309
+type(
+  Imp_ast.tvar list
+)
+"ocaml_printer.ml" 167 4234 4255 "ocaml_printer.ml" 167 4234 4310
+type(
+  string
+)
+"ocaml_printer.ml" 167 4234 4236 "ocaml_printer.ml" 167 4234 4310
+type(
+  unit
+)
+"ocaml_printer.ml" 166 4196 4198 "ocaml_printer.ml" 167 4234 4310
+type(
+  unit
+)
+"ocaml_printer.ml" 165 4156 4158 "ocaml_printer.ml" 167 4234 4310
+type(
+  unit
+)
+"ocaml_printer.ml" 162 4041 4043 "ocaml_printer.ml" 167 4234 4310
+type(
+  unit
+)
+"ocaml_printer.ml" 169 4312 4316 "ocaml_printer.ml" 169 4312 4327
+type(
+  Imp_ast.m_node -> unit
+)
+ident(
+  def output_node "ocaml_printer.ml" 178 4455 4455 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 169 4312 4328 "ocaml_printer.ml" 169 4312 4329
+type(
+  Imp_ast.m_node
+)
+ident(
+  def n "ocaml_printer.ml" 170 4332 4334 "ocaml_printer.ml" 176 4436 4453
+)
+"ocaml_printer.ml" 170 4332 4334 "ocaml_printer.ml" 170 4332 4343
+type(
+  Imp_ast.m_node -> unit
+)
+ident(
+  int_ref print_mem "ocaml_printer.ml" 121 2875 2879 "ocaml_printer.ml" 121 2875 2888
+)
+"ocaml_printer.ml" 170 4332 4344 "ocaml_printer.ml" 170 4332 4345
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 169 4312 4328 "ocaml_printer.ml" 169 4312 4329
+)
+"ocaml_printer.ml" 170 4332 4334 "ocaml_printer.ml" 170 4332 4345
+type(
+  unit
+)
+"ocaml_printer.ml" 171 4347 4349 "ocaml_printer.ml" 171 4347 4362
+type(
+  unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.force_newline "format.mli" 334 13060 13060 "format.mli" 334 13060 13092
+)
+"ocaml_printer.ml" 171 4347 4362 "ocaml_printer.ml" 171 4347 4364
+type(
+  unit
+)
+"ocaml_printer.ml" 171 4347 4349 "ocaml_printer.ml" 171 4347 4364
+type(
+  unit
+)
+"ocaml_printer.ml" 172 4366 4368 "ocaml_printer.ml" 172 4366 4378
+type(
+  Imp_ast.m_node -> unit
+)
+ident(
+  int_ref print_init "ocaml_printer.ml" 137 3329 3333 "ocaml_printer.ml" 137 3329 3343
+)
+"ocaml_printer.ml" 172 4366 4379 "ocaml_printer.ml" 172 4366 4380
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 169 4312 4328 "ocaml_printer.ml" 169 4312 4329
+)
+"ocaml_printer.ml" 172 4366 4368 "ocaml_printer.ml" 172 4366 4380
+type(
+  unit
+)
+"ocaml_printer.ml" 173 4382 4384 "ocaml_printer.ml" 173 4382 4397
+type(
+  unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.force_newline "format.mli" 334 13060 13060 "format.mli" 334 13060 13092
+)
+"ocaml_printer.ml" 173 4382 4397 "ocaml_printer.ml" 173 4382 4399
+type(
+  unit
+)
+"ocaml_printer.ml" 173 4382 4384 "ocaml_printer.ml" 173 4382 4399
+type(
+  unit
+)
+"ocaml_printer.ml" 174 4401 4403 "ocaml_printer.ml" 174 4401 4413
+type(
+  Imp_ast.m_node -> unit
+)
+ident(
+  int_ref print_step "ocaml_printer.ml" 161 4022 4026 "ocaml_printer.ml" 161 4022 4036
+)
+"ocaml_printer.ml" 174 4401 4414 "ocaml_printer.ml" 174 4401 4415
+type(
+  Imp_ast.m_node
+)
+ident(
+  int_ref n "ocaml_printer.ml" 169 4312 4328 "ocaml_printer.ml" 169 4312 4329
+)
+"ocaml_printer.ml" 174 4401 4403 "ocaml_printer.ml" 174 4401 4415
+type(
+  unit
+)
+"ocaml_printer.ml" 175 4417 4419 "ocaml_printer.ml" 175 4417 4432
+type(
+  unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.force_newline "format.mli" 334 13060 13060 "format.mli" 334 13060 13092
+)
+"ocaml_printer.ml" 175 4417 4432 "ocaml_printer.ml" 175 4417 4434
+type(
+  unit
+)
+"ocaml_printer.ml" 175 4417 4419 "ocaml_printer.ml" 175 4417 4434
+type(
+  unit
+)
+"ocaml_printer.ml" 176 4436 4438 "ocaml_printer.ml" 176 4436 4451
+type(
+  unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.force_newline "format.mli" 334 13060 13060 "format.mli" 334 13060 13092
+)
+"ocaml_printer.ml" 176 4436 4451 "ocaml_printer.ml" 176 4436 4453
+type(
+  unit
+)
+"ocaml_printer.ml" 176 4436 4438 "ocaml_printer.ml" 176 4436 4453
+type(
+  unit
+)
+"ocaml_printer.ml" 175 4417 4419 "ocaml_printer.ml" 176 4436 4453
+type(
+  unit
+)
+"ocaml_printer.ml" 174 4401 4403 "ocaml_printer.ml" 176 4436 4453
+type(
+  unit
+)
+"ocaml_printer.ml" 173 4382 4384 "ocaml_printer.ml" 176 4436 4453
+type(
+  unit
+)
+"ocaml_printer.ml" 172 4366 4368 "ocaml_printer.ml" 176 4436 4453
+type(
+  unit
+)
+"ocaml_printer.ml" 171 4347 4349 "ocaml_printer.ml" 176 4436 4453
+type(
+  unit
+)
+"ocaml_printer.ml" 170 4332 4334 "ocaml_printer.ml" 176 4436 4453
+type(
+  unit
+)
+"ocaml_printer.ml" 178 4455 4459 "ocaml_printer.ml" 178 4455 4473
+type(
+  unit -> unit
+)
+ident(
+  def print_preamble "ocaml_printer.ml" 183 4611 4611 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 178 4455 4474 "ocaml_printer.ml" 178 4455 4476
+type(
+  unit
+)
+"ocaml_printer.ml" 179 4479 4481 "ocaml_printer.ml" 179 4479 4487
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 179 4479 4488 "ocaml_printer.ml" 179 4479 4512
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 179 4479 4481 "ocaml_printer.ml" 179 4479 4512
+type(
+  unit
+)
+"ocaml_printer.ml" 180 4514 4516 "ocaml_printer.ml" 180 4514 4522
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 180 4514 4523 "ocaml_printer.ml" 180 4514 4562
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 180 4514 4516 "ocaml_printer.ml" 180 4514 4562
+type(
+  unit
+)
+"ocaml_printer.ml" 181 4564 4566 "ocaml_printer.ml" 181 4564 4572
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 181 4564 4573 "ocaml_printer.ml" 181 4564 4609
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 181 4564 4566 "ocaml_printer.ml" 181 4564 4609
+type(
+  unit
+)
+"ocaml_printer.ml" 180 4514 4516 "ocaml_printer.ml" 181 4564 4609
+type(
+  unit
+)
+"ocaml_printer.ml" 179 4479 4481 "ocaml_printer.ml" 181 4564 4609
+type(
+  unit
+)
+"ocaml_printer.ml" 183 4611 4615 "ocaml_printer.ml" 183 4611 4638
+type(
+  unit -> unit
+)
+ident(
+  def print_graphics_preamble "ocaml_printer.ml" 209 5605 5605 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 183 4611 4639 "ocaml_printer.ml" 183 4611 4641
+type(
+  unit
+)
+"ocaml_printer.ml" 184 4644 4646 "ocaml_printer.ml" 184 4644 4658
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 184 4644 4659 "ocaml_printer.ml" 184 4644 4681
+type(
+  string
+)
+"ocaml_printer.ml" 184 4644 4646 "ocaml_printer.ml" 184 4644 4681
+type(
+  unit
+)
+"ocaml_printer.ml" 185 4683 4685 "ocaml_printer.ml" 185 4683 4697
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 185 4683 4698 "ocaml_printer.ml" 185 4683 4702
+type(
+  string
+)
+"ocaml_printer.ml" 185 4683 4685 "ocaml_printer.ml" 185 4683 4702
+type(
+  unit
+)
+"ocaml_printer.ml" 186 4704 4706 "ocaml_printer.ml" 186 4704 4718
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 186 4704 4719 "ocaml_printer.ml" 186 4704 4748
+type(
+  string
+)
+"ocaml_printer.ml" 186 4704 4706 "ocaml_printer.ml" 186 4704 4748
+type(
+  unit
+)
+"ocaml_printer.ml" 187 4750 4752 "ocaml_printer.ml" 187 4750 4764
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 187 4750 4765 "ocaml_printer.ml" 187 4750 4769
+type(
+  string
+)
+"ocaml_printer.ml" 187 4750 4752 "ocaml_printer.ml" 187 4750 4769
+type(
+  unit
+)
+"ocaml_printer.ml" 188 4771 4773 "ocaml_printer.ml" 188 4771 4785
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 188 4771 4786 "ocaml_printer.ml" 188 4771 4819
+type(
+  string
+)
+"ocaml_printer.ml" 188 4771 4773 "ocaml_printer.ml" 188 4771 4819
+type(
+  unit
+)
+"ocaml_printer.ml" 189 4821 4823 "ocaml_printer.ml" 189 4821 4835
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 189 4821 4836 "ocaml_printer.ml" 189 4821 4840
+type(
+  string
+)
+"ocaml_printer.ml" 189 4821 4823 "ocaml_printer.ml" 189 4821 4840
+type(
+  unit
+)
+"ocaml_printer.ml" 190 4842 4844 "ocaml_printer.ml" 190 4842 4856
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 190 4842 4857 "ocaml_printer.ml" 190 4842 4899
+type(
+  string
+)
+"ocaml_printer.ml" 190 4842 4844 "ocaml_printer.ml" 190 4842 4899
+type(
+  unit
+)
+"ocaml_printer.ml" 191 4901 4903 "ocaml_printer.ml" 191 4901 4915
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 191 4901 4916 "ocaml_printer.ml" 191 4901 4920
+type(
+  string
+)
+"ocaml_printer.ml" 191 4901 4903 "ocaml_printer.ml" 191 4901 4920
+type(
+  unit
+)
+"ocaml_printer.ml" 192 4922 4924 "ocaml_printer.ml" 192 4922 4936
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 192 4922 4937 "ocaml_printer.ml" 192 4922 4968
+type(
+  string
+)
+"ocaml_printer.ml" 192 4922 4924 "ocaml_printer.ml" 192 4922 4968
+type(
+  unit
+)
+"ocaml_printer.ml" 193 4970 4972 "ocaml_printer.ml" 193 4970 4984
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 193 4970 4985 "ocaml_printer.ml" 193 4970 5013
+type(
+  string
+)
+"ocaml_printer.ml" 193 4970 4972 "ocaml_printer.ml" 193 4970 5013
+type(
+  unit
+)
+"ocaml_printer.ml" 194 5015 5017 "ocaml_printer.ml" 194 5015 5029
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 194 5015 5030 "ocaml_printer.ml" 194 5015 5057
+type(
+  string
+)
+"ocaml_printer.ml" 194 5015 5017 "ocaml_printer.ml" 194 5015 5057
+type(
+  unit
+)
+"ocaml_printer.ml" 195 5059 5061 "ocaml_printer.ml" 195 5059 5073
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 195 5059 5074 "ocaml_printer.ml" 195 5059 5078
+type(
+  string
+)
+"ocaml_printer.ml" 195 5059 5061 "ocaml_printer.ml" 195 5059 5078
+type(
+  unit
+)
+"ocaml_printer.ml" 196 5080 5082 "ocaml_printer.ml" 196 5080 5094
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 196 5080 5095 "ocaml_printer.ml" 196 5080 5153
+type(
+  string
+)
+"ocaml_printer.ml" 196 5080 5082 "ocaml_printer.ml" 196 5080 5153
+type(
+  unit
+)
+"ocaml_printer.ml" 197 5155 5157 "ocaml_printer.ml" 197 5155 5169
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 197 5155 5170 "ocaml_printer.ml" 197 5155 5174
+type(
+  string
+)
+"ocaml_printer.ml" 197 5155 5157 "ocaml_printer.ml" 197 5155 5174
+type(
+  unit
+)
+"ocaml_printer.ml" 198 5176 5178 "ocaml_printer.ml" 198 5176 5190
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 198 5176 5191 "ocaml_printer.ml" 198 5176 5249
+type(
+  string
+)
+"ocaml_printer.ml" 198 5176 5178 "ocaml_printer.ml" 198 5176 5249
+type(
+  unit
+)
+"ocaml_printer.ml" 199 5251 5253 "ocaml_printer.ml" 199 5251 5265
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 199 5251 5266 "ocaml_printer.ml" 199 5251 5270
+type(
+  string
+)
+"ocaml_printer.ml" 199 5251 5253 "ocaml_printer.ml" 199 5251 5270
+type(
+  unit
+)
+"ocaml_printer.ml" 200 5272 5274 "ocaml_printer.ml" 200 5272 5286
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 200 5272 5287 "ocaml_printer.ml" 200 5272 5345
+type(
+  string
+)
+"ocaml_printer.ml" 200 5272 5274 "ocaml_printer.ml" 200 5272 5345
+type(
+  unit
+)
+"ocaml_printer.ml" 201 5347 5349 "ocaml_printer.ml" 201 5347 5361
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 201 5347 5362 "ocaml_printer.ml" 201 5347 5366
+type(
+  string
+)
+"ocaml_printer.ml" 201 5347 5349 "ocaml_printer.ml" 201 5347 5366
+type(
+  unit
+)
+"ocaml_printer.ml" 202 5368 5370 "ocaml_printer.ml" 202 5368 5382
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 202 5368 5383 "ocaml_printer.ml" 202 5368 5419
+type(
+  string
+)
+"ocaml_printer.ml" 202 5368 5370 "ocaml_printer.ml" 202 5368 5419
+type(
+  unit
+)
+"ocaml_printer.ml" 203 5421 5423 "ocaml_printer.ml" 203 5421 5435
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 203 5421 5436 "ocaml_printer.ml" 203 5421 5440
+type(
+  string
+)
+"ocaml_printer.ml" 203 5421 5423 "ocaml_printer.ml" 203 5421 5440
+type(
+  unit
+)
+"ocaml_printer.ml" 204 5442 5444 "ocaml_printer.ml" 204 5442 5456
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 204 5442 5457 "ocaml_printer.ml" 204 5442 5497
+type(
+  string
+)
+"ocaml_printer.ml" 204 5442 5444 "ocaml_printer.ml" 204 5442 5497
+type(
+  unit
+)
+"ocaml_printer.ml" 205 5499 5501 "ocaml_printer.ml" 205 5499 5513
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 205 5499 5514 "ocaml_printer.ml" 205 5499 5518
+type(
+  string
+)
+"ocaml_printer.ml" 205 5499 5501 "ocaml_printer.ml" 205 5499 5518
+type(
+  unit
+)
+"ocaml_printer.ml" 206 5520 5522 "ocaml_printer.ml" 206 5520 5534
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 206 5520 5535 "ocaml_printer.ml" 206 5520 5582
+type(
+  string
+)
+"ocaml_printer.ml" 206 5520 5522 "ocaml_printer.ml" 206 5520 5582
+type(
+  unit
+)
+"ocaml_printer.ml" 207 5584 5586 "ocaml_printer.ml" 207 5584 5598
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_string "format.mli" 217 9034 9034 "format.mli" 217 9034 9067
+)
+"ocaml_printer.ml" 207 5584 5599 "ocaml_printer.ml" 207 5584 5603
+type(
+  string
+)
+"ocaml_printer.ml" 207 5584 5586 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 206 5520 5522 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 205 5499 5501 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 204 5442 5444 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 203 5421 5423 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 202 5368 5370 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 201 5347 5349 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 200 5272 5274 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 199 5251 5253 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 198 5176 5178 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 197 5155 5157 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 196 5080 5082 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 195 5059 5061 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 194 5015 5017 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 193 4970 4972 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 192 4922 4924 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 191 4901 4903 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 190 4842 4844 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 189 4821 4823 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 188 4771 4773 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 187 4750 4752 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 186 4704 4706 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 185 4683 4685 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 184 4644 4646 "ocaml_printer.ml" 207 5584 5603
+type(
+  unit
+)
+"ocaml_printer.ml" 209 5605 5609 "ocaml_printer.ml" 209 5605 5618
+type(
+  string -> unit
+)
+ident(
+  def print_run "ocaml_printer.ml" 223 6042 6042 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 209 5605 5619 "ocaml_printer.ml" 209 5605 5623
+type(
+  string
+)
+ident(
+  def main "ocaml_printer.ml" 210 5626 5628 "ocaml_printer.ml" 221 5990 6038
+)
+"ocaml_printer.ml" 210 5626 5628 "ocaml_printer.ml" 210 5626 5634
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 210 5626 5635 "ocaml_printer.ml" 210 5626 5687
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 210 5626 5628 "ocaml_printer.ml" 210 5626 5687
+type(
+  unit
+)
+"ocaml_printer.ml" 211 5689 5691 "ocaml_printer.ml" 211 5689 5697
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 211 5689 5698 "ocaml_printer.ml" 211 5689 5702
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 211 5689 5691 "ocaml_printer.ml" 211 5689 5702
+type(
+  unit
+)
+"ocaml_printer.ml" 212 5704 5706 "ocaml_printer.ml" 212 5704 5712
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 212 5704 5713 "ocaml_printer.ml" 212 5704 5740
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 212 5704 5706 "ocaml_printer.ml" 212 5704 5740
+type(
+  unit
+)
+"ocaml_printer.ml" 213 5742 5744 "ocaml_printer.ml" 213 5742 5750
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 213 5742 5751 "ocaml_printer.ml" 213 5742 5779
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 213 5742 5744 "ocaml_printer.ml" 213 5742 5779
+type(
+  unit
+)
+"ocaml_printer.ml" 214 5781 5783 "ocaml_printer.ml" 214 5781 5789
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 214 5781 5790 "ocaml_printer.ml" 214 5781 5809
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 214 5781 5783 "ocaml_printer.ml" 214 5781 5809
+type(
+  unit
+)
+"ocaml_printer.ml" 215 5811 5813 "ocaml_printer.ml" 215 5811 5819
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 215 5811 5820 "ocaml_printer.ml" 215 5811 5852
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 215 5811 5813 "ocaml_printer.ml" 215 5811 5852
+type(
+  unit
+)
+"ocaml_printer.ml" 216 5854 5856 "ocaml_printer.ml" 216 5854 5862
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 216 5854 5863 "ocaml_printer.ml" 216 5854 5885
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 216 5854 5856 "ocaml_printer.ml" 216 5854 5885
+type(
+  unit
+)
+"ocaml_printer.ml" 217 5887 5889 "ocaml_printer.ml" 217 5887 5895
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 217 5887 5896 "ocaml_printer.ml" 217 5887 5927
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 217 5887 5889 "ocaml_printer.ml" 217 5887 5927
+type(
+  unit
+)
+"ocaml_printer.ml" 218 5929 5931 "ocaml_printer.ml" 218 5929 5937
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 218 5929 5938 "ocaml_printer.ml" 218 5929 5952
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 218 5929 5931 "ocaml_printer.ml" 218 5929 5952
+type(
+  unit
+)
+"ocaml_printer.ml" 219 5954 5956 "ocaml_printer.ml" 219 5954 5962
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 219 5954 5963 "ocaml_printer.ml" 219 5954 5973
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 219 5954 5956 "ocaml_printer.ml" 219 5954 5973
+type(
+  unit
+)
+"ocaml_printer.ml" 220 5975 5977 "ocaml_printer.ml" 220 5975 5983
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 220 5975 5984 "ocaml_printer.ml" 220 5975 5988
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 220 5975 5977 "ocaml_printer.ml" 220 5975 5988
+type(
+  unit
+)
+"ocaml_printer.ml" 221 5990 5992 "ocaml_printer.ml" 221 5990 5998
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 221 5990 5999 "ocaml_printer.ml" 221 5990 6028
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 221 5990 6029 "ocaml_printer.ml" 221 5990 6033
+type(
+  string
+)
+ident(
+  int_ref main "ocaml_printer.ml" 209 5605 5619 "ocaml_printer.ml" 209 5605 5623
+)
+"ocaml_printer.ml" 221 5990 6034 "ocaml_printer.ml" 221 5990 6038
+type(
+  string
+)
+ident(
+  int_ref main "ocaml_printer.ml" 209 5605 5619 "ocaml_printer.ml" 209 5605 5623
+)
+"ocaml_printer.ml" 221 5990 5992 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 220 5975 5977 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 219 5954 5956 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 218 5929 5931 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 217 5887 5889 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 216 5854 5856 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 215 5811 5813 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 214 5781 5783 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 213 5742 5744 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 212 5704 5706 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 211 5689 5691 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 210 5626 5628 "ocaml_printer.ml" 221 5990 6038
+type(
+  unit
+)
+"ocaml_printer.ml" 223 6042 6046 "ocaml_printer.ml" 223 6042 6047
+type(
+  unit
+)
+"ocaml_printer.ml" 223 6042 6050 "ocaml_printer.ml" 223 6042 6063
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.Format.set_max_boxes "format.mli" 510 19412 19412 "format.mli" 510 19412 19443
+)
+"ocaml_printer.ml" 223 6042 6064 "ocaml_printer.ml" 223 6042 6071
+type(
+  int
+)
+ident(
+  int_ref Stdlib.max_int "stdlib.mli" 378 14871 14871 "stdlib.mli" 378 14871 14888
+)
+"ocaml_printer.ml" 223 6042 6050 "ocaml_printer.ml" 223 6042 6071
+type(
+  unit
+)
+"ocaml_printer.ml" 225 6074 6078 "ocaml_printer.ml" 225 6074 6090
+type(
+  out_channel -> Imp_ast.m_node list -> string -> unit
+)
+ident(
+  def output_ocaml "ocaml_printer.ml" 233 6283 6299 "ocaml_printer.ml" 0 0 -1
+)
+"ocaml_printer.ml" 225 6074 6091 "ocaml_printer.ml" 225 6074 6093
+type(
+  out_channel
+)
+ident(
+  def oc "ocaml_printer.ml" 225 6074 6094 "ocaml_printer.ml" 233 6283 6299
+)
+"ocaml_printer.ml" 225 6074 6094 "ocaml_printer.ml" 225 6074 6095
+type(
+  Imp_ast.m_node list
+)
+ident(
+  def f "ocaml_printer.ml" 225 6074 6096 "ocaml_printer.ml" 233 6283 6299
+)
+"ocaml_printer.ml" 225 6074 6096 "ocaml_printer.ml" 225 6074 6100
+type(
+  string
+)
+ident(
+  def main "ocaml_printer.ml" 226 6104 6106 "ocaml_printer.ml" 233 6283 6299
+)
+"ocaml_printer.ml" 226 6104 6106 "ocaml_printer.ml" 226 6104 6131
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.Format.set_formatter_out_channel "format.mli" 738 28814 28814 "format.mli" 738 28814 28872
+)
+"ocaml_printer.ml" 226 6104 6132 "ocaml_printer.ml" 226 6104 6134
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocaml_printer.ml" 225 6074 6091 "ocaml_printer.ml" 225 6074 6093
+)
+"ocaml_printer.ml" 226 6104 6106 "ocaml_printer.ml" 226 6104 6134
+type(
+  unit
+)
+"ocaml_printer.ml" 227 6136 6138 "ocaml_printer.ml" 227 6136 6152
+type(
+  unit -> unit
+)
+ident(
+  int_ref print_preamble "ocaml_printer.ml" 178 4455 4459 "ocaml_printer.ml" 178 4455 4473
+)
+"ocaml_printer.ml" 227 6136 6153 "ocaml_printer.ml" 227 6136 6155
+type(
+  unit
+)
+"ocaml_printer.ml" 227 6136 6138 "ocaml_printer.ml" 227 6136 6155
+type(
+  unit
+)
+"ocaml_printer.ml" 228 6157 6159 "ocaml_printer.ml" 228 6157 6165
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 228 6157 6166 "ocaml_printer.ml" 228 6157 6171
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 228 6157 6159 "ocaml_printer.ml" 228 6157 6171
+type(
+  unit
+)
+"ocaml_printer.ml" 229 6173 6175 "ocaml_printer.ml" 229 6173 6198
+type(
+  unit -> unit
+)
+ident(
+  int_ref print_graphics_preamble "ocaml_printer.ml" 183 4611 4615 "ocaml_printer.ml" 183 4611 4638
+)
+"ocaml_printer.ml" 229 6173 6199 "ocaml_printer.ml" 229 6173 6201
+type(
+  unit
+)
+"ocaml_printer.ml" 229 6173 6175 "ocaml_printer.ml" 229 6173 6201
+type(
+  unit
+)
+"ocaml_printer.ml" 230 6203 6205 "ocaml_printer.ml" 230 6203 6211
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"ocaml_printer.ml" 230 6203 6212 "ocaml_printer.ml" 230 6203 6217
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocaml_printer.ml" 230 6203 6205 "ocaml_printer.ml" 230 6203 6217
+type(
+  unit
+)
+"ocaml_printer.ml" 231 6219 6221 "ocaml_printer.ml" 231 6219 6230
+type(
+  (Imp_ast.m_node -> unit) -> Imp_ast.m_node list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"ocaml_printer.ml" 231 6219 6231 "ocaml_printer.ml" 231 6219 6242
+type(
+  Imp_ast.m_node -> unit
+)
+ident(
+  int_ref output_node "ocaml_printer.ml" 169 4312 4316 "ocaml_printer.ml" 169 4312 4327
+)
+"ocaml_printer.ml" 231 6219 6243 "ocaml_printer.ml" 231 6219 6244
+type(
+  Imp_ast.m_node list
+)
+ident(
+  int_ref f "ocaml_printer.ml" 225 6074 6094 "ocaml_printer.ml" 225 6074 6095
+)
+"ocaml_printer.ml" 231 6219 6221 "ocaml_printer.ml" 231 6219 6244
+type(
+  unit
+)
+"ocaml_printer.ml" 232 6246 6251 "ocaml_printer.ml" 232 6246 6255
+type(
+  string
+)
+ident(
+  int_ref main "ocaml_printer.ml" 225 6074 6096 "ocaml_printer.ml" 225 6074 6100
+)
+"ocaml_printer.ml" 232 6246 6256 "ocaml_printer.ml" 232 6246 6258
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"ocaml_printer.ml" 232 6246 6259 "ocaml_printer.ml" 232 6246 6261
+type(
+  string
+)
+"ocaml_printer.ml" 232 6246 6251 "ocaml_printer.ml" 232 6246 6261
+type(
+  bool
+)
+"ocaml_printer.ml" 232 6246 6267 "ocaml_printer.ml" 232 6246 6276
+type(
+  string -> unit
+)
+ident(
+  int_ref print_run "ocaml_printer.ml" 209 5605 5609 "ocaml_printer.ml" 209 5605 5618
+)
+"ocaml_printer.ml" 232 6246 6277 "ocaml_printer.ml" 232 6246 6281
+type(
+  string
+)
+ident(
+  int_ref main "ocaml_printer.ml" 225 6074 6096 "ocaml_printer.ml" 225 6074 6100
+)
+"ocaml_printer.ml" 232 6246 6267 "ocaml_printer.ml" 232 6246 6281
+type(
+  unit
+)
+"ocaml_printer.ml" 232 6246 6248 "ocaml_printer.ml" 232 6246 6281
+type(
+  unit
+)
+"ocaml_printer.ml" 233 6283 6285 "ocaml_printer.ml" 233 6283 6296
+type(
+  unit -> unit
+)
+ident(
+  int_ref Stdlib.Format.print_flush "format.mli" 355 13747 13747 "format.mli" 355 13747 13777
+)
+"ocaml_printer.ml" 233 6283 6297 "ocaml_printer.ml" 233 6283 6299
+type(
+  unit
+)
+"ocaml_printer.ml" 233 6283 6285 "ocaml_printer.ml" 233 6283 6299
+type(
+  unit
+)
+"ocaml_printer.ml" 232 6246 6248 "ocaml_printer.ml" 233 6283 6299
+type(
+  unit
+)
+"ocaml_printer.ml" 231 6219 6221 "ocaml_printer.ml" 233 6283 6299
+type(
+  unit
+)
+"ocaml_printer.ml" 230 6203 6205 "ocaml_printer.ml" 233 6283 6299
+type(
+  unit
+)
+"ocaml_printer.ml" 229 6173 6175 "ocaml_printer.ml" 233 6283 6299
+type(
+  unit
+)
+"ocaml_printer.ml" 228 6157 6159 "ocaml_printer.ml" 233 6283 6299
+type(
+  unit
+)
+"ocaml_printer.ml" 227 6136 6138 "ocaml_printer.ml" 233 6283 6299
+type(
+  unit
+)
+"ocaml_printer.ml" 226 6104 6106 "ocaml_printer.ml" 233 6283 6299
+type(
+  unit
+)

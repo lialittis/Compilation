@@ -1,0 +1,1880 @@
+"checks.ml" 12 169 173 "checks.ml" 12 169 177
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  def atom "checks.ml" 26 429 429 "checks.ml" 0 0 -1
+)
+"checks.ml" 12 169 178 "checks.ml" 12 169 182
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def expr "checks.ml" 13 185 187 "checks.ml" 24 422 427
+)
+"checks.ml" 13 185 199 "checks.ml" 13 185 203
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref expr "checks.ml" 12 169 178 "checks.ml" 12 169 182
+)
+"checks.ml" 13 185 199 "checks.ml" 13 185 214
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 14 220 233 "checks.ml" 14 220 234
+type(
+  Asttypes.const
+)
+ident(
+  def c "checks.ml" 14 220 238 "checks.ml" 14 220 242
+)
+"checks.ml" 14 220 224 "checks.ml" 14 220 234
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 14 220 238 "checks.ml" 14 220 242
+type(
+  bool
+)
+"checks.ml" 15 243 256 "checks.ml" 15 243 257
+type(
+  string
+)
+ident(
+  def x "checks.ml" 15 243 261 "checks.ml" 15 243 265
+)
+"checks.ml" 15 243 247 "checks.ml" 15 243 257
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 15 243 261 "checks.ml" 15 243 265
+type(
+  bool
+)
+"checks.ml" 16 266 279 "checks.ml" 16 266 280
+type(
+  Asttypes.unop
+)
+"checks.ml" 16 266 282 "checks.ml" 16 266 283
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 16 266 270 "checks.ml" 16 266 284
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 17 285 299 "checks.ml" 17 285 300
+type(
+  Asttypes.binop
+)
+"checks.ml" 17 285 302 "checks.ml" 17 285 303
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 17 285 305 "checks.ml" 17 285 306
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 17 285 289 "checks.ml" 17 285 307
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 16 266 270 "checks.ml" 17 285 307
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 18 308 320 "checks.ml" 18 308 321
+type(
+  string
+)
+"checks.ml" 18 308 323 "checks.ml" 18 308 324
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 18 308 312 "checks.ml" 18 308 325
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 16 266 270 "checks.ml" 18 308 325
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 19 326 339 "checks.ml" 19 326 340
+type(
+  string
+)
+"checks.ml" 19 326 342 "checks.ml" 19 326 343
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 19 326 330 "checks.ml" 19 326 344
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 16 266 270 "checks.ml" 19 326 344
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 20 345 356 "checks.ml" 20 345 357
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 20 345 359 "checks.ml" 20 345 360
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 20 345 362 "checks.ml" 20 345 363
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 20 345 349 "checks.ml" 20 345 364
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 16 266 270 "checks.ml" 20 345 364
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 21 365 377 "checks.ml" 21 365 378
+type(
+  Asttypes.const list
+)
+"checks.ml" 21 365 380 "checks.ml" 21 365 381
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 21 365 369 "checks.ml" 21 365 382
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 16 266 270 "checks.ml" 21 365 382
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 22 383 396 "checks.ml" 22 383 397
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 22 383 387 "checks.ml" 22 383 397
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 16 266 270 "checks.ml" 22 383 397
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 23 398 411 "checks.ml" 23 398 412
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 23 398 402 "checks.ml" 23 398 412
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 16 266 270 "checks.ml" 23 398 412
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 23 398 416 "checks.ml" 23 398 421
+type(
+  bool
+)
+"checks.ml" 13 185 187 "checks.ml" 24 422 427
+type(
+  bool
+)
+"checks.ml" 26 429 437 "checks.ml" 26 429 442
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  def bexpr "checks.ml" 26 429 429 "checks.ml" 0 0 -1
+)
+"checks.ml" 26 429 443 "checks.ml" 26 429 447
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def expr "checks.ml" 27 450 452 "checks.ml" 40 845 852
+)
+"checks.ml" 27 450 455 "checks.ml" 27 450 459
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref atom "checks.ml" 12 169 173 "checks.ml" 12 169 177
+)
+"checks.ml" 27 450 460 "checks.ml" 27 450 464
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref expr "checks.ml" 26 429 443 "checks.ml" 26 429 447
+)
+"checks.ml" 27 450 455 "checks.ml" 27 450 464
+type(
+  bool
+)
+"checks.ml" 27 450 470 "checks.ml" 27 450 474
+type(
+  bool
+)
+"checks.ml" 29 482 498 "checks.ml" 29 482 502
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref expr "checks.ml" 26 429 443 "checks.ml" 26 429 447
+)
+"checks.ml" 29 482 498 "checks.ml" 29 482 513
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 30 519 534 "checks.ml" 30 519 536
+type(
+  Asttypes.unop
+)
+ident(
+  def op "checks.ml" 30 519 544 "checks.ml" 30 519 551
+)
+"checks.ml" 30 519 538 "checks.ml" 30 519 539
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e "checks.ml" 30 519 544 "checks.ml" 30 519 551
+)
+"checks.ml" 30 519 525 "checks.ml" 30 519 540
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 30 519 544 "checks.ml" 30 519 549
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 26 429 437 "checks.ml" 26 429 442
+)
+"checks.ml" 30 519 550 "checks.ml" 30 519 551
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e "checks.ml" 30 519 538 "checks.ml" 30 519 539
+)
+"checks.ml" 30 519 544 "checks.ml" 30 519 551
+type(
+  bool
+)
+"checks.ml" 31 552 568 "checks.ml" 31 552 570
+type(
+  Asttypes.binop
+)
+ident(
+  def op "checks.ml" 31 552 583 "checks.ml" 31 552 603
+)
+"checks.ml" 31 552 572 "checks.ml" 31 552 574
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e1 "checks.ml" 31 552 583 "checks.ml" 31 552 603
+)
+"checks.ml" 31 552 576 "checks.ml" 31 552 578
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e2 "checks.ml" 31 552 583 "checks.ml" 31 552 603
+)
+"checks.ml" 31 552 558 "checks.ml" 31 552 579
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 31 552 583 "checks.ml" 31 552 588
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 26 429 437 "checks.ml" 26 429 442
+)
+"checks.ml" 31 552 589 "checks.ml" 31 552 591
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e1 "checks.ml" 31 552 572 "checks.ml" 31 552 574
+)
+"checks.ml" 31 552 583 "checks.ml" 31 552 591
+type(
+  bool
+)
+"checks.ml" 31 552 592 "checks.ml" 31 552 594
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"checks.ml" 31 552 595 "checks.ml" 31 552 600
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 26 429 437 "checks.ml" 26 429 442
+)
+"checks.ml" 31 552 601 "checks.ml" 31 552 603
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e2 "checks.ml" 31 552 576 "checks.ml" 31 552 578
+)
+"checks.ml" 31 552 595 "checks.ml" 31 552 603
+type(
+  bool
+)
+"checks.ml" 31 552 583 "checks.ml" 31 552 603
+type(
+  bool
+)
+"checks.ml" 32 604 617 "checks.ml" 32 604 618
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e "checks.ml" 32 604 631 "checks.ml" 32 604 662
+)
+"checks.ml" 32 604 620 "checks.ml" 32 604 622
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e1 "checks.ml" 32 604 631 "checks.ml" 32 604 662
+)
+"checks.ml" 32 604 624 "checks.ml" 32 604 626
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e2 "checks.ml" 32 604 631 "checks.ml" 32 604 662
+)
+"checks.ml" 32 604 610 "checks.ml" 32 604 627
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 32 604 631 "checks.ml" 32 604 636
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 26 429 437 "checks.ml" 26 429 442
+)
+"checks.ml" 32 604 637 "checks.ml" 32 604 638
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e "checks.ml" 32 604 617 "checks.ml" 32 604 618
+)
+"checks.ml" 32 604 631 "checks.ml" 32 604 638
+type(
+  bool
+)
+"checks.ml" 32 604 639 "checks.ml" 32 604 641
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"checks.ml" 32 604 642 "checks.ml" 32 604 647
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 26 429 437 "checks.ml" 26 429 442
+)
+"checks.ml" 32 604 648 "checks.ml" 32 604 650
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e1 "checks.ml" 32 604 620 "checks.ml" 32 604 622
+)
+"checks.ml" 32 604 642 "checks.ml" 32 604 650
+type(
+  bool
+)
+"checks.ml" 32 604 651 "checks.ml" 32 604 653
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"checks.ml" 32 604 654 "checks.ml" 32 604 659
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 26 429 437 "checks.ml" 26 429 442
+)
+"checks.ml" 32 604 660 "checks.ml" 32 604 662
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e2 "checks.ml" 32 604 624 "checks.ml" 32 604 626
+)
+"checks.ml" 32 604 654 "checks.ml" 32 604 662
+type(
+  bool
+)
+"checks.ml" 32 604 642 "checks.ml" 32 604 662
+type(
+  bool
+)
+"checks.ml" 32 604 631 "checks.ml" 32 604 662
+type(
+  bool
+)
+"checks.ml" 33 663 679 "checks.ml" 33 663 681
+ident(
+  def el "checks.ml" 33 663 686 "checks.ml" 33 663 707
+)
+"checks.ml" 33 663 678 "checks.ml" 33 663 682
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 33 663 669 "checks.ml" 33 663 682
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 33 663 686 "checks.ml" 33 663 698
+type(
+  (Typed_ast.t_expr -> bool) -> Typed_ast.t_expr list -> bool
+)
+ident(
+  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+)
+"checks.ml" 33 663 699 "checks.ml" 33 663 704
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 26 429 437 "checks.ml" 26 429 442
+)
+"checks.ml" 33 663 705 "checks.ml" 33 663 707
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  int_ref el "checks.ml" 33 663 678 "checks.ml" 33 663 682
+)
+"checks.ml" 33 663 686 "checks.ml" 33 663 707
+type(
+  bool
+)
+"checks.ml" 34 708 722 "checks.ml" 34 708 723
+type(
+  string
+)
+"checks.ml" 34 708 725 "checks.ml" 34 708 726
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 34 708 714 "checks.ml" 34 708 727
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 35 728 743 "checks.ml" 35 728 744
+type(
+  string
+)
+"checks.ml" 35 728 746 "checks.ml" 35 728 747
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 35 728 734 "checks.ml" 35 728 748
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 34 708 714 "checks.ml" 35 728 748
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 36 749 763 "checks.ml" 36 749 764
+type(
+  Asttypes.const list
+)
+"checks.ml" 36 749 766 "checks.ml" 36 749 767
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 36 749 755 "checks.ml" 36 749 768
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 34 708 714 "checks.ml" 36 749 768
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 37 769 784 "checks.ml" 37 769 785
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 37 769 775 "checks.ml" 37 769 785
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 34 708 714 "checks.ml" 37 769 785
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 37 769 789 "checks.ml" 37 769 794
+type(
+  bool
+)
+"checks.ml" 38 795 810 "checks.ml" 38 795 811
+type(
+  Asttypes.const
+)
+"checks.ml" 38 795 801 "checks.ml" 38 795 811
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 39 812 827 "checks.ml" 39 812 828
+type(
+  string
+)
+"checks.ml" 39 812 818 "checks.ml" 39 812 828
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 38 795 801 "checks.ml" 39 812 828
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 39 812 839 "checks.ml" 39 812 844
+type(
+  bool
+)
+"checks.ml" 39 812 832 "checks.ml" 39 812 844
+type(
+  bool
+)
+"checks.ml" 29 482 486 "checks.ml" 40 845 852
+type(
+  bool
+)
+"checks.ml" 27 450 452 "checks.ml" 40 845 852
+type(
+  bool
+)
+"checks.ml" 42 854 858 "checks.ml" 42 854 873
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  def normalized_expr "checks.ml" 57 1276 1276 "checks.ml" 0 0 -1
+)
+"checks.ml" 42 854 874 "checks.ml" 42 854 878
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def expr "checks.ml" 43 881 883 "checks.ml" 55 1267 1274
+)
+"checks.ml" 43 881 886 "checks.ml" 43 881 891
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 26 429 437 "checks.ml" 26 429 442
+)
+"checks.ml" 43 881 892 "checks.ml" 43 881 896
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref expr "checks.ml" 42 854 874 "checks.ml" 42 854 878
+)
+"checks.ml" 43 881 886 "checks.ml" 43 881 896
+type(
+  bool
+)
+"checks.ml" 43 881 902 "checks.ml" 43 881 906
+type(
+  bool
+)
+"checks.ml" 45 914 930 "checks.ml" 45 914 934
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref expr "checks.ml" 42 854 874 "checks.ml" 42 854 878
+)
+"checks.ml" 45 914 930 "checks.ml" 45 914 945
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 46 951 965 "checks.ml" 46 951 966
+type(
+  string
+)
+"checks.ml" 46 951 968 "checks.ml" 46 951 970
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  def el "checks.ml" 46 951 1009 "checks.ml" 46 951 1030
+)
+"checks.ml" 46 951 957 "checks.ml" 46 951 971
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 46 951 983 "checks.ml" 46 951 984
+type(
+  string
+)
+"checks.ml" 46 951 986 "checks.ml" 46 951 988
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  def el "checks.ml" 46 951 1009 "checks.ml" 46 951 1030
+)
+"checks.ml" 46 951 974 "checks.ml" 46 951 989
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 46 951 957 "checks.ml" 46 951 989
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 46 951 1002 "checks.ml" 46 951 1004
+ident(
+  def el "checks.ml" 46 951 1009 "checks.ml" 46 951 1030
+)
+"checks.ml" 46 951 1001 "checks.ml" 46 951 1005
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 46 951 992 "checks.ml" 46 951 1005
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 46 951 957 "checks.ml" 46 951 1005
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 46 951 1009 "checks.ml" 46 951 1021
+type(
+  (Typed_ast.t_expr -> bool) -> Typed_ast.t_expr list -> bool
+)
+ident(
+  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+)
+"checks.ml" 46 951 1022 "checks.ml" 46 951 1027
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 26 429 437 "checks.ml" 26 429 442
+)
+"checks.ml" 46 951 1028 "checks.ml" 46 951 1030
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  int_ref el "checks.ml" 46 951 968 "checks.ml" 46 951 970
+)
+"checks.ml" 46 951 1009 "checks.ml" 46 951 1030
+type(
+  bool
+)
+"checks.ml" 47 1031 1045 "checks.ml" 47 1031 1046
+type(
+  Asttypes.const list
+)
+ident(
+  def c "checks.ml" 47 1031 1081 "checks.ml" 47 1031 1101
+)
+"checks.ml" 47 1031 1072 "checks.ml" 47 1031 1074
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  def el "checks.ml" 47 1031 1081 "checks.ml" 47 1031 1101
+)
+"checks.ml" 47 1031 1063 "checks.ml" 47 1031 1074
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 47 1031 1048 "checks.ml" 47 1031 1075
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 47 1031 1037 "checks.ml" 47 1031 1077
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 47 1031 1081 "checks.ml" 47 1031 1093
+type(
+  (Typed_ast.t_expr -> bool) -> Typed_ast.t_expr list -> bool
+)
+ident(
+  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+)
+"checks.ml" 47 1031 1094 "checks.ml" 47 1031 1098
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref atom "checks.ml" 12 169 173 "checks.ml" 12 169 177
+)
+"checks.ml" 47 1031 1099 "checks.ml" 47 1031 1101
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  int_ref el "checks.ml" 47 1031 1072 "checks.ml" 47 1031 1074
+)
+"checks.ml" 47 1031 1081 "checks.ml" 47 1031 1101
+type(
+  bool
+)
+"checks.ml" 48 1102 1116 "checks.ml" 48 1102 1117
+type(
+  Asttypes.const list
+)
+ident(
+  def c "checks.ml" 48 1102 1125 "checks.ml" 48 1102 1131
+)
+"checks.ml" 48 1102 1119 "checks.ml" 48 1102 1120
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e "checks.ml" 48 1102 1125 "checks.ml" 48 1102 1131
+)
+"checks.ml" 48 1102 1108 "checks.ml" 48 1102 1121
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 48 1102 1125 "checks.ml" 48 1102 1129
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref atom "checks.ml" 12 169 173 "checks.ml" 12 169 177
+)
+"checks.ml" 48 1102 1130 "checks.ml" 48 1102 1131
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e "checks.ml" 48 1102 1119 "checks.ml" 48 1102 1120
+)
+"checks.ml" 48 1102 1125 "checks.ml" 48 1102 1131
+type(
+  bool
+)
+"checks.ml" 49 1132 1147 "checks.ml" 49 1132 1148
+type(
+  Asttypes.const
+)
+"checks.ml" 49 1132 1138 "checks.ml" 49 1132 1148
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 50 1149 1164 "checks.ml" 50 1149 1165
+type(
+  string
+)
+"checks.ml" 50 1149 1155 "checks.ml" 50 1149 1165
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 49 1132 1138 "checks.ml" 50 1149 1165
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 51 1166 1181 "checks.ml" 51 1166 1182
+type(
+  Asttypes.unop
+)
+"checks.ml" 51 1166 1184 "checks.ml" 51 1166 1185
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 51 1166 1172 "checks.ml" 51 1166 1186
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 49 1132 1138 "checks.ml" 51 1166 1186
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 52 1187 1203 "checks.ml" 52 1187 1204
+type(
+  Asttypes.binop
+)
+"checks.ml" 52 1187 1206 "checks.ml" 52 1187 1207
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 52 1187 1209 "checks.ml" 52 1187 1210
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 52 1187 1193 "checks.ml" 52 1187 1211
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 49 1132 1138 "checks.ml" 52 1187 1211
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 53 1212 1225 "checks.ml" 53 1212 1226
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 53 1212 1228 "checks.ml" 53 1212 1229
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 53 1212 1231 "checks.ml" 53 1212 1232
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 53 1212 1218 "checks.ml" 53 1212 1233
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 49 1132 1138 "checks.ml" 53 1212 1233
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 54 1234 1249 "checks.ml" 54 1234 1250
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 54 1234 1240 "checks.ml" 54 1234 1250
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 49 1132 1138 "checks.ml" 54 1234 1250
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 54 1234 1261 "checks.ml" 54 1234 1266
+type(
+  bool
+)
+"checks.ml" 54 1234 1254 "checks.ml" 54 1234 1266
+type(
+  bool
+)
+"checks.ml" 45 914 918 "checks.ml" 55 1267 1274
+type(
+  bool
+)
+"checks.ml" 43 881 883 "checks.ml" 55 1267 1274
+type(
+  bool
+)
+"checks.ml" 57 1276 1280 "checks.ml" 57 1276 1295
+type(
+  Typed_ast.t_node -> bool
+)
+ident(
+  def normalized_node "checks.ml" 60 1366 1366 "checks.ml" 0 0 -1
+)
+"checks.ml" 57 1276 1296 "checks.ml" 57 1276 1297
+type(
+  Typed_ast.t_node
+)
+ident(
+  def n "checks.ml" 58 1300 1302 "checks.ml" 58 1300 1364
+)
+"checks.ml" 58 1300 1302 "checks.ml" 58 1300 1314
+type(
+  (Typed_ast.t_equation -> bool) -> Typed_ast.t_equation list -> bool
+)
+ident(
+  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+)
+"checks.ml" 58 1300 1320 "checks.ml" 58 1300 1322
+type(
+  Typed_ast.t_equation
+)
+ident(
+  def eq "checks.ml" 58 1300 1326 "checks.ml" 58 1300 1353
+)
+"checks.ml" 58 1300 1326 "checks.ml" 58 1300 1341
+type(
+  Typed_ast.t_expr -> bool
+)
+ident(
+  int_ref normalized_expr "checks.ml" 42 854 858 "checks.ml" 42 854 873
+)
+"checks.ml" 58 1300 1342 "checks.ml" 58 1300 1344
+type(
+  Typed_ast.t_equation
+)
+ident(
+  int_ref eq "checks.ml" 58 1300 1320 "checks.ml" 58 1300 1322
+)
+"checks.ml" 58 1300 1342 "checks.ml" 58 1300 1353
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 58 1300 1326 "checks.ml" 58 1300 1353
+type(
+  bool
+)
+"checks.ml" 58 1300 1315 "checks.ml" 58 1300 1354
+type(
+  Typed_ast.t_equation -> bool
+)
+"checks.ml" 58 1300 1355 "checks.ml" 58 1300 1356
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref n "checks.ml" 57 1276 1296 "checks.ml" 57 1276 1297
+)
+"checks.ml" 58 1300 1355 "checks.ml" 58 1300 1364
+type(
+  Typed_ast.t_equation list
+)
+"checks.ml" 58 1300 1302 "checks.ml" 58 1300 1364
+type(
+  bool
+)
+"checks.ml" 60 1366 1370 "checks.ml" 60 1366 1383
+type(
+  Typed_ast.t_node list -> unit
+)
+ident(
+  def normalization "checks.ml" 71 1631 1631 "checks.ml" 0 0 -1
+)
+"checks.ml" 60 1366 1384 "checks.ml" 60 1366 1385
+type(
+  Typed_ast.t_node list
+)
+ident(
+  def f "checks.ml" 61 1388 1390 "checks.ml" 66 1515 1587
+)
+"checks.ml" 62 1394 1398 "checks.ml" 62 1394 1407
+type(
+  (Typed_ast.t_node -> unit) -> Typed_ast.t_node list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"checks.ml" 63 1408 1419 "checks.ml" 63 1408 1420
+type(
+  Typed_ast.t_node
+)
+ident(
+  def n "checks.ml" 63 1408 1424 "checks.ml" 63 1408 1479
+)
+"checks.ml" 63 1408 1427 "checks.ml" 63 1408 1430
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"checks.ml" 63 1408 1432 "checks.ml" 63 1408 1447
+type(
+  Typed_ast.t_node -> bool
+)
+ident(
+  int_ref normalized_node "checks.ml" 57 1276 1280 "checks.ml" 57 1276 1295
+)
+"checks.ml" 63 1408 1448 "checks.ml" 63 1408 1449
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref n "checks.ml" 63 1408 1419 "checks.ml" 63 1408 1420
+)
+"checks.ml" 63 1408 1431 "checks.ml" 63 1408 1450
+type(
+  bool
+)
+"checks.ml" 63 1408 1427 "checks.ml" 63 1408 1450
+type(
+  bool
+)
+"checks.ml" 63 1408 1456 "checks.ml" 63 1408 1461
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"checks.ml" 63 1408 1477 "checks.ml" 63 1408 1478
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref n "checks.ml" 63 1408 1419 "checks.ml" 63 1408 1420
+)
+"checks.ml" 63 1408 1462 "checks.ml" 63 1408 1479
+type(
+  exn
+)
+"checks.ml" 63 1408 1456 "checks.ml" 63 1408 1479
+type(
+  unit
+)
+"checks.ml" 63 1408 1424 "checks.ml" 63 1408 1479
+type(
+  unit
+)
+"checks.ml" 63 1408 1414 "checks.ml" 63 1408 1480
+type(
+  Typed_ast.t_node -> unit
+)
+"checks.ml" 64 1481 1487 "checks.ml" 64 1481 1488
+type(
+  Typed_ast.t_node list
+)
+ident(
+  int_ref f "checks.ml" 60 1366 1384 "checks.ml" 60 1366 1385
+)
+"checks.ml" 62 1394 1398 "checks.ml" 64 1481 1488
+type(
+  unit
+)
+"checks.ml" 65 1489 1510 "checks.ml" 65 1489 1511
+type(
+  Typed_ast.t_node
+)
+ident(
+  def n "checks.ml" 66 1515 1519 "checks.ml" 66 1515 1587
+)
+"checks.ml" 65 1489 1496 "checks.ml" 65 1489 1511
+type(
+  exn
+)
+"checks.ml" 66 1515 1519 "checks.ml" 66 1515 1533
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.eprintf "format.mli" 1178 46011 46011 "format.mli" 1178 46011 46059
+)
+"checks.ml" 66 1515 1534 "checks.ml" 66 1515 1577
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"checks.ml" 66 1515 1578 "checks.ml" 66 1515 1579
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref n "checks.ml" 65 1489 1510 "checks.ml" 65 1489 1511
+)
+"checks.ml" 66 1515 1578 "checks.ml" 66 1515 1587
+type(
+  string
+)
+"checks.ml" 66 1515 1519 "checks.ml" 66 1515 1587
+type(
+  unit
+)
+"checks.ml" 61 1388 1390 "checks.ml" 66 1515 1587
+type(
+  unit
+)
+"checks.ml" 73 1663 1667 "checks.ml" 73 1663 1679
+type(
+  Typed_ast.t_patt -> Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  def defs_of_patt "checks.ml" 76 1767 1767 "checks.ml" 0 0 -1
+)
+"checks.ml" 73 1663 1680 "checks.ml" 73 1663 1684
+type(
+  Typed_ast.t_patt
+)
+ident(
+  def patt "checks.ml" 73 1663 1685 "checks.ml" 74 1691 1765
+)
+"checks.ml" 73 1663 1685 "checks.ml" 73 1663 1688
+type(
+  Scheduling.S.t
+)
+ident(
+  def acc "checks.ml" 74 1691 1693 "checks.ml" 74 1691 1765
+)
+"checks.ml" 74 1691 1693 "checks.ml" 74 1691 1707
+type(
+  (Scheduling.S.t -> Scheduling.S.elt -> Scheduling.S.t) ->
+  Scheduling.S.t -> Scheduling.S.elt list -> Scheduling.S.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"checks.ml" 74 1691 1713 "checks.ml" 74 1691 1716
+type(
+  Scheduling.S.t
+)
+ident(
+  def acc "checks.ml" 74 1691 1717 "checks.ml" 74 1691 1744
+)
+"checks.ml" 74 1691 1717 "checks.ml" 74 1691 1718
+type(
+  Scheduling.S.elt
+)
+ident(
+  def x "checks.ml" 74 1691 1722 "checks.ml" 74 1691 1744
+)
+"checks.ml" 74 1691 1722 "checks.ml" 74 1691 1738
+type(
+  Scheduling.S.elt -> Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  int_ref Scheduling.S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"checks.ml" 74 1691 1739 "checks.ml" 74 1691 1740
+type(
+  Scheduling.S.elt
+)
+ident(
+  int_ref x "checks.ml" 74 1691 1717 "checks.ml" 74 1691 1718
+)
+"checks.ml" 74 1691 1741 "checks.ml" 74 1691 1744
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 74 1691 1713 "checks.ml" 74 1691 1716
+)
+"checks.ml" 74 1691 1722 "checks.ml" 74 1691 1744
+type(
+  Scheduling.S.t
+)
+"checks.ml" 74 1691 1708 "checks.ml" 74 1691 1745
+type(
+  Scheduling.S.t -> Scheduling.S.elt -> Scheduling.S.t
+)
+"checks.ml" 74 1691 1746 "checks.ml" 74 1691 1749
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 73 1663 1685 "checks.ml" 73 1663 1688
+)
+"checks.ml" 74 1691 1750 "checks.ml" 74 1691 1754
+type(
+  Typed_ast.t_patt
+)
+ident(
+  int_ref patt "checks.ml" 73 1663 1680 "checks.ml" 73 1663 1684
+)
+"checks.ml" 74 1691 1750 "checks.ml" 74 1691 1765
+type(
+  Scheduling.S.elt list
+)
+"checks.ml" 74 1691 1693 "checks.ml" 74 1691 1765
+type(
+  Scheduling.S.t
+)
+"checks.ml" 76 1767 1771 "checks.ml" 76 1767 1783
+type(
+  Typed_ast.t_expr -> Scheduling.S.t
+)
+ident(
+  def deps_of_expr "checks.ml" 93 2199 2199 "checks.ml" 0 0 -1
+)
+"checks.ml" 77 1786 1796 "checks.ml" 77 1786 1808
+type(
+  Typed_ast.t_expr -> Scheduling.S.t -> Typed_ast.t_expr * Scheduling.S.t
+)
+ident(
+  def deps_of_expr "checks.ml" 77 1786 1788 "checks.ml" 91 2151 2197
+)
+"checks.ml" 77 1786 1809 "checks.ml" 77 1786 1813
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def expr "checks.ml" 77 1786 1814 "checks.ml" 88 2076 2131
+)
+"checks.ml" 77 1786 1814 "checks.ml" 77 1786 1817
+type(
+  Scheduling.S.t
+)
+ident(
+  def acc "checks.ml" 78 1820 1824 "checks.ml" 88 2076 2131
+)
+"checks.ml" 78 1820 1830 "checks.ml" 78 1820 1834
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref expr "checks.ml" 77 1786 1809 "checks.ml" 77 1786 1813
+)
+"checks.ml" 78 1820 1830 "checks.ml" 78 1820 1845
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 79 1851 1866 "checks.ml" 79 1851 1867
+type(
+  string
+)
+ident(
+  def x "checks.ml" 79 1851 1871 "checks.ml" 79 1851 1899
+)
+"checks.ml" 79 1851 1857 "checks.ml" 79 1851 1867
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 79 1851 1871 "checks.ml" 79 1851 1875
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref expr "checks.ml" 77 1786 1809 "checks.ml" 77 1786 1813
+)
+"checks.ml" 79 1851 1877 "checks.ml" 79 1851 1893
+type(
+  Scheduling.S.elt -> Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  int_ref Scheduling.S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"checks.ml" 79 1851 1894 "checks.ml" 79 1851 1895
+type(
+  Scheduling.S.elt
+)
+ident(
+  int_ref x "checks.ml" 79 1851 1866 "checks.ml" 79 1851 1867
+)
+"checks.ml" 79 1851 1896 "checks.ml" 79 1851 1899
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 77 1786 1814 "checks.ml" 77 1786 1817
+)
+"checks.ml" 79 1851 1877 "checks.ml" 79 1851 1899
+type(
+  Scheduling.S.t
+)
+"checks.ml" 79 1851 1871 "checks.ml" 79 1851 1899
+type(
+  Typed_ast.t_expr * Scheduling.S.t
+)
+"checks.ml" 80 1900 1914 "checks.ml" 80 1900 1915
+type(
+  Asttypes.const list
+)
+ident(
+  def c "checks.ml" 80 1900 1923 "checks.ml" 80 1900 1932
+)
+"checks.ml" 80 1900 1917 "checks.ml" 80 1900 1918
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e "checks.ml" 80 1900 1923 "checks.ml" 80 1900 1932
+)
+"checks.ml" 80 1900 1906 "checks.ml" 80 1900 1919
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 80 1900 1923 "checks.ml" 80 1900 1927
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref expr "checks.ml" 77 1786 1809 "checks.ml" 77 1786 1813
+)
+"checks.ml" 80 1900 1929 "checks.ml" 80 1900 1932
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 77 1786 1814 "checks.ml" 77 1786 1817
+)
+"checks.ml" 80 1900 1923 "checks.ml" 80 1900 1932
+type(
+  Typed_ast.t_expr * Scheduling.S.t
+)
+"checks.ml" 81 1933 1948 "checks.ml" 81 1933 1949
+type(
+  Asttypes.const
+)
+"checks.ml" 81 1933 1939 "checks.ml" 81 1933 1949
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 82 1950 1965 "checks.ml" 82 1950 1966
+type(
+  Asttypes.unop
+)
+"checks.ml" 82 1950 1968 "checks.ml" 82 1950 1969
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 82 1950 1956 "checks.ml" 82 1950 1970
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 81 1933 1939 "checks.ml" 82 1950 1970
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 83 1971 1987 "checks.ml" 83 1971 1988
+type(
+  Asttypes.binop
+)
+"checks.ml" 83 1971 1990 "checks.ml" 83 1971 1991
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 83 1971 1993 "checks.ml" 83 1971 1994
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 83 1971 1977 "checks.ml" 83 1971 1995
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 81 1933 1939 "checks.ml" 83 1971 1995
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 84 1996 2010 "checks.ml" 84 1996 2011
+type(
+  string
+)
+"checks.ml" 84 1996 2013 "checks.ml" 84 1996 2014
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 84 1996 2002 "checks.ml" 84 1996 2015
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 81 1933 1939 "checks.ml" 84 1996 2015
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 85 2016 2031 "checks.ml" 85 2016 2032
+type(
+  string
+)
+"checks.ml" 85 2016 2034 "checks.ml" 85 2016 2035
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 85 2016 2022 "checks.ml" 85 2016 2036
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 81 1933 1939 "checks.ml" 85 2016 2036
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 86 2037 2050 "checks.ml" 86 2037 2051
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 86 2037 2053 "checks.ml" 86 2037 2054
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 86 2037 2056 "checks.ml" 86 2037 2057
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 86 2037 2043 "checks.ml" 86 2037 2058
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 81 1933 1939 "checks.ml" 86 2037 2058
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 87 2059 2074 "checks.ml" 87 2059 2075
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 87 2059 2065 "checks.ml" 87 2059 2075
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 81 1933 1939 "checks.ml" 87 2059 2075
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 88 2076 2091 "checks.ml" 88 2076 2092
+type(
+  Typed_ast.t_expr list
+)
+"checks.ml" 88 2076 2082 "checks.ml" 88 2076 2092
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 81 1933 1939 "checks.ml" 88 2076 2092
+type(
+  Typed_ast.t_expr_desc
+)
+"checks.ml" 88 2076 2096 "checks.ml" 88 2076 2109
+type(
+  (Typed_ast.t_expr -> Scheduling.S.t -> Typed_ast.t_expr * Scheduling.S.t) ->
+  Typed_ast.t_expr -> Scheduling.S.t -> Typed_ast.t_expr * Scheduling.S.t
+)
+ident(
+  int_ref Typed_ast_utils.expr_map_fold "typed_ast_utils.ml" 35 1034 1038 "typed_ast_utils.ml" 35 1034 1051
+)
+"checks.ml" 88 2076 2110 "checks.ml" 88 2076 2122
+type(
+  Typed_ast.t_expr -> Scheduling.S.t -> Typed_ast.t_expr * Scheduling.S.t
+)
+ident(
+  int_ref deps_of_expr "checks.ml" 77 1786 1796 "checks.ml" 77 1786 1808
+)
+"checks.ml" 88 2076 2123 "checks.ml" 88 2076 2127
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref expr "checks.ml" 77 1786 1809 "checks.ml" 77 1786 1813
+)
+"checks.ml" 88 2076 2128 "checks.ml" 88 2076 2131
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 77 1786 1814 "checks.ml" 77 1786 1817
+)
+"checks.ml" 88 2076 2096 "checks.ml" 88 2076 2131
+type(
+  Typed_ast.t_expr * Scheduling.S.t
+)
+"checks.ml" 78 1820 1824 "checks.ml" 88 2076 2131
+type(
+  Typed_ast.t_expr * Scheduling.S.t
+)
+"checks.ml" 90 2137 2143 "checks.ml" 90 2137 2147
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def expr "checks.ml" 91 2151 2155 "checks.ml" 91 2151 2197
+)
+"checks.ml" 91 2151 2155 "checks.ml" 91 2151 2158
+type(
+  Typed_ast.t_expr * Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 773 29185 29185 "stdlib.mli" 773 29185 29225
+)
+"checks.ml" 91 2151 2160 "checks.ml" 91 2151 2172
+type(
+  Typed_ast.t_expr -> Scheduling.S.t -> Typed_ast.t_expr * Scheduling.S.t
+)
+ident(
+  int_ref deps_of_expr "checks.ml" 77 1786 1796 "checks.ml" 77 1786 1808
+)
+"checks.ml" 91 2151 2173 "checks.ml" 91 2151 2177
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref expr "checks.ml" 90 2137 2143 "checks.ml" 90 2137 2147
+)
+"checks.ml" 91 2151 2178 "checks.ml" 91 2151 2196
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref Scheduling.S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"checks.ml" 91 2151 2159 "checks.ml" 91 2151 2197
+type(
+  Typed_ast.t_expr * Scheduling.S.t
+)
+"checks.ml" 91 2151 2155 "checks.ml" 91 2151 2197
+type(
+  Scheduling.S.t
+)
+"checks.ml" 90 2137 2139 "checks.ml" 91 2151 2197
+type(
+  Typed_ast.t_expr -> Scheduling.S.t
+)
+"checks.ml" 77 1786 1788 "checks.ml" 91 2151 2197
+type(
+  Typed_ast.t_expr -> Scheduling.S.t
+)
+"checks.ml" 93 2199 2203 "checks.ml" 93 2199 2217
+type(
+  Typed_ast.t_node -> unit
+)
+ident(
+  def scheduled_node "checks.ml" 113 2629 2629 "checks.ml" 0 0 -1
+)
+"checks.ml" 93 2199 2218 "checks.ml" 93 2199 2222
+type(
+  Typed_ast.t_node
+)
+ident(
+  def node "checks.ml" 94 2225 2227 "checks.ml" 111 2623 2627
+)
+"checks.ml" 94 2225 2231 "checks.ml" 94 2225 2235
+type(
+  Scheduling.S.t
+)
+ident(
+  def defs "checks.ml" 100 2356 2358 "checks.ml" 111 2623 2627
+)
+"checks.ml" 95 2238 2242 "checks.ml" 95 2238 2256
+type(
+  (Scheduling.S.t -> Typed_ast.typed_var -> Scheduling.S.t) ->
+  Scheduling.S.t -> Typed_ast.typed_var list -> Scheduling.S.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"checks.ml" 96 2257 2268 "checks.ml" 96 2257 2271
+type(
+  Scheduling.S.t
+)
+ident(
+  def acc "checks.ml" 96 2257 2272 "checks.ml" 96 2257 2304
+)
+"checks.ml" 96 2257 2273 "checks.ml" 96 2257 2274
+type(
+  Scheduling.S.elt
+)
+ident(
+  def x "checks.ml" 96 2257 2282 "checks.ml" 96 2257 2304
+)
+"checks.ml" 96 2257 2276 "checks.ml" 96 2257 2277
+type(
+  Asttypes.base_ty
+)
+"checks.ml" 96 2257 2272 "checks.ml" 96 2257 2278
+type(
+  Scheduling.S.elt * Asttypes.base_ty
+)
+"checks.ml" 96 2257 2282 "checks.ml" 96 2257 2298
+type(
+  Scheduling.S.elt -> Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  int_ref Scheduling.S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"checks.ml" 96 2257 2299 "checks.ml" 96 2257 2300
+type(
+  Scheduling.S.elt
+)
+ident(
+  int_ref x "checks.ml" 96 2257 2273 "checks.ml" 96 2257 2274
+)
+"checks.ml" 96 2257 2301 "checks.ml" 96 2257 2304
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 96 2257 2268 "checks.ml" 96 2257 2271
+)
+"checks.ml" 96 2257 2282 "checks.ml" 96 2257 2304
+type(
+  Scheduling.S.t
+)
+"checks.ml" 96 2257 2263 "checks.ml" 96 2257 2305
+type(
+  Scheduling.S.t -> Typed_ast.typed_var -> Scheduling.S.t
+)
+"checks.ml" 97 2306 2312 "checks.ml" 97 2306 2330
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref Scheduling.S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"checks.ml" 98 2331 2337 "checks.ml" 98 2331 2341
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref node "checks.ml" 93 2199 2218 "checks.ml" 93 2199 2222
+)
+"checks.ml" 98 2331 2337 "checks.ml" 98 2331 2350
+type(
+  Typed_ast.typed_var list
+)
+"checks.ml" 95 2238 2242 "checks.ml" 98 2331 2350
+type(
+  Scheduling.S.t
+)
+"checks.ml" 100 2356 2362 "checks.ml" 100 2356 2363
+type(
+  Scheduling.S.t
+)
+"checks.ml" 101 2366 2370 "checks.ml" 101 2366 2384
+type(
+  (Scheduling.S.t -> Typed_ast.t_equation -> Scheduling.S.t) ->
+  Scheduling.S.t -> Typed_ast.t_equation list -> Scheduling.S.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"checks.ml" 102 2385 2396 "checks.ml" 102 2385 2400
+type(
+  Scheduling.S.t
+)
+ident(
+  def defs "checks.ml" 102 2385 2401 "checks.ml" 107 2553 2586
+)
+"checks.ml" 102 2385 2401 "checks.ml" 102 2385 2403
+type(
+  Typed_ast.t_equation
+)
+ident(
+  def eq "checks.ml" 103 2407 2415 "checks.ml" 107 2553 2586
+)
+"checks.ml" 103 2407 2419 "checks.ml" 103 2407 2423
+type(
+  Scheduling.S.t
+)
+ident(
+  def deps "checks.ml" 104 2454 2462 "checks.ml" 107 2553 2586
+)
+"checks.ml" 103 2407 2426 "checks.ml" 103 2407 2438
+type(
+  Typed_ast.t_expr -> Scheduling.S.t
+)
+ident(
+  int_ref deps_of_expr "checks.ml" 76 1767 1771 "checks.ml" 76 1767 1783
+)
+"checks.ml" 103 2407 2439 "checks.ml" 103 2407 2441
+type(
+  Typed_ast.t_equation
+)
+ident(
+  int_ref eq "checks.ml" 102 2385 2401 "checks.ml" 102 2385 2403
+)
+"checks.ml" 103 2407 2439 "checks.ml" 103 2407 2450
+type(
+  Typed_ast.t_expr
+)
+"checks.ml" 103 2407 2426 "checks.ml" 103 2407 2450
+type(
+  Scheduling.S.t
+)
+"checks.ml" 104 2454 2465 "checks.ml" 104 2454 2484
+type(
+  Scheduling.S.t -> Scheduling.S.t -> bool
+)
+ident(
+  int_ref Scheduling.S.subset "set.mli" 117 4295 4299 "set.mli" 117 4295 4325
+)
+"checks.ml" 104 2454 2485 "checks.ml" 104 2454 2489
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref deps "checks.ml" 103 2407 2419 "checks.ml" 103 2407 2423
+)
+"checks.ml" 104 2454 2490 "checks.ml" 104 2454 2494
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref defs "checks.ml" 102 2385 2396 "checks.ml" 102 2385 2400
+)
+"checks.ml" 104 2454 2465 "checks.ml" 104 2454 2494
+type(
+  bool
+)
+"checks.ml" 105 2500 2510 "checks.ml" 105 2500 2522
+type(
+  Typed_ast.t_patt -> Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  int_ref defs_of_patt "checks.ml" 73 1663 1667 "checks.ml" 73 1663 1679
+)
+"checks.ml" 105 2500 2523 "checks.ml" 105 2500 2525
+type(
+  Typed_ast.t_equation
+)
+ident(
+  int_ref eq "checks.ml" 102 2385 2401 "checks.ml" 102 2385 2403
+)
+"checks.ml" 105 2500 2523 "checks.ml" 105 2500 2534
+type(
+  Typed_ast.t_patt
+)
+"checks.ml" 105 2500 2535 "checks.ml" 105 2500 2539
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref defs "checks.ml" 102 2385 2396 "checks.ml" 102 2385 2400
+)
+"checks.ml" 105 2500 2510 "checks.ml" 105 2500 2539
+type(
+  Scheduling.S.t
+)
+"checks.ml" 107 2553 2563 "checks.ml" 107 2553 2568
+type(
+  exn -> Scheduling.S.t
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"checks.ml" 107 2553 2581 "checks.ml" 107 2553 2585
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref node "checks.ml" 93 2199 2218 "checks.ml" 93 2199 2222
+)
+"checks.ml" 107 2553 2569 "checks.ml" 107 2553 2586
+type(
+  exn
+)
+"checks.ml" 107 2553 2563 "checks.ml" 107 2553 2586
+type(
+  Scheduling.S.t
+)
+"checks.ml" 104 2454 2462 "checks.ml" 107 2553 2586
+type(
+  Scheduling.S.t
+)
+"checks.ml" 103 2407 2415 "checks.ml" 107 2553 2586
+type(
+  Scheduling.S.t
+)
+"checks.ml" 102 2385 2391 "checks.ml" 107 2553 2587
+type(
+  Scheduling.S.t -> Typed_ast.t_equation -> Scheduling.S.t
+)
+"checks.ml" 108 2588 2594 "checks.ml" 108 2588 2598
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref defs "checks.ml" 94 2225 2231 "checks.ml" 94 2225 2235
+)
+"checks.ml" 109 2599 2605 "checks.ml" 109 2599 2609
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref node "checks.ml" 93 2199 2218 "checks.ml" 93 2199 2222
+)
+"checks.ml" 109 2599 2605 "checks.ml" 109 2599 2617
+type(
+  Typed_ast.t_equation list
+)
+"checks.ml" 101 2366 2370 "checks.ml" 109 2599 2617
+type(
+  Scheduling.S.t
+)
+"checks.ml" 111 2623 2625 "checks.ml" 111 2623 2627
+type(
+  unit
+)
+"checks.ml" 100 2356 2358 "checks.ml" 111 2623 2627
+type(
+  unit
+)
+"checks.ml" 94 2225 2227 "checks.ml" 111 2623 2627
+type(
+  unit
+)
+"checks.ml" 113 2629 2633 "checks.ml" 113 2629 2643
+type(
+  Typed_ast.t_node list -> unit
+)
+ident(
+  def scheduling "checks.ml" 117 2708 2775 "checks.ml" 0 0 -1
+)
+"checks.ml" 113 2629 2644 "checks.ml" 113 2629 2645
+type(
+  Typed_ast.t_node list
+)
+ident(
+  def f "checks.ml" 114 2648 2650 "checks.ml" 117 2708 2775
+)
+"checks.ml" 115 2654 2658 "checks.ml" 115 2654 2667
+type(
+  (Typed_ast.t_node -> unit) -> Typed_ast.t_node list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"checks.ml" 115 2654 2668 "checks.ml" 115 2654 2682
+type(
+  Typed_ast.t_node -> unit
+)
+ident(
+  int_ref scheduled_node "checks.ml" 93 2199 2203 "checks.ml" 93 2199 2217
+)
+"checks.ml" 115 2654 2683 "checks.ml" 115 2654 2684
+type(
+  Typed_ast.t_node list
+)
+ident(
+  int_ref f "checks.ml" 113 2629 2644 "checks.ml" 113 2629 2645
+)
+"checks.ml" 115 2654 2658 "checks.ml" 115 2654 2684
+type(
+  unit
+)
+"checks.ml" 116 2685 2703 "checks.ml" 116 2685 2704
+type(
+  Typed_ast.t_node
+)
+ident(
+  def n "checks.ml" 117 2708 2712 "checks.ml" 117 2708 2775
+)
+"checks.ml" 116 2685 2692 "checks.ml" 116 2685 2704
+type(
+  exn
+)
+"checks.ml" 117 2708 2712 "checks.ml" 117 2708 2726
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.eprintf "format.mli" 1178 46011 46011 "format.mli" 1178 46011 46059
+)
+"checks.ml" 117 2708 2727 "checks.ml" 117 2708 2765
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"checks.ml" 117 2708 2766 "checks.ml" 117 2708 2767
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref n "checks.ml" 116 2685 2703 "checks.ml" 116 2685 2704
+)
+"checks.ml" 117 2708 2766 "checks.ml" 117 2708 2775
+type(
+  string
+)
+"checks.ml" 117 2708 2712 "checks.ml" 117 2708 2775
+type(
+  unit
+)
+"checks.ml" 114 2648 2650 "checks.ml" 117 2708 2775
+type(
+  unit
+)

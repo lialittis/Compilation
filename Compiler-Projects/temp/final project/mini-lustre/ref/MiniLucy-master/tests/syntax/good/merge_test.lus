@@ -1,0 +1,8 @@
+node main(clk : bool ; i1 : int ; i2 : int) returns (y: int);
+var i1_when_true : int when True(clk);
+    i2_when_false : int when False(clk);
+let
+  i1_when_true = i1 when True(clk);
+  i2_when_false = i2 when False(clk);
+  y = merge clk (True -> i1_when_true) (False -> i2_when_false);
+tel
