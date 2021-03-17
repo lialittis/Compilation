@@ -1,4 +1,7 @@
 node n (i: unit) returns (o: unit);
-let 
+var x0, x: float;
+let
+  x0 = 1.0;
+  x = 0.0 fby x0;
   o = print("coucou\n");
 tel

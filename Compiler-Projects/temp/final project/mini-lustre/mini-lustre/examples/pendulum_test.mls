@@ -1,0 +1,14 @@
+node integr (t, dx: float) returns (y: float);
+let 
+  y =  0.0 fby t;
+tel
+
+node play(u:unit) returns (u2: unit);
+var x0, y0, x : float;
+let
+  x0 = 1.0;
+  y0 = 2.0;
+  x = integr(x0, y0);
+  u2 = print("coucou\n");
+tel
+

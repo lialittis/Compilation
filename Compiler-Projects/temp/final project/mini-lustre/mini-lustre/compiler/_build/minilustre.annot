@@ -1556,7 +1556,7 @@ type(
   Typed_ast.t_node list -> Imp_ast.m_node list
 )
 ident(
-  int_ref Imp.compile "imp.ml" 151 5117 5121 "imp.ml" 151 5117 5128
+  int_ref Imp.compile "imp.ml" 161 5311 5315 "imp.ml" 161 5311 5322
 )
 "minilustre.ml" 80 2575 2605 "minilustre.ml" 80 2575 2607
 type(
@@ -1581,7 +1581,7 @@ type(
   Imp_ast.m_node list -> string ref -> Imp_ast.m_node list
 )
 ident(
-  int_ref Imp.rename_nodes "imp.ml" 189 6033 6037 "imp.ml" 189 6033 6049
+  int_ref Imp.rename_nodes "imp.ml" 199 6227 6231 "imp.ml" 199 6227 6243
 )
 "minilustre.ml" 81 2611 2646 "minilustre.ml" 81 2611 2653
 type(

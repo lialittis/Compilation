@@ -2,8 +2,8 @@
 #MINILUSTRE=~/mini-lustre/compiler/minilustre
 MINILUSTRE=../compiler/minilustre
 
-FILE=simple.mls
-NODE=n
+FILE=pendulum_test.mls
+NODE=play
 FILE_ML=`basename $(FILE) .mls`.ml
 
 compile:

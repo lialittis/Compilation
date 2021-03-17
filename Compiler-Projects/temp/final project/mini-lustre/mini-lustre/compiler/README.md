@@ -43,6 +43,17 @@ So we know that, the expression for TE_fby is a list of const and a t_expr type.
 
 
 
+compile_equation
+
+TE_fby e1 e2, where e1 is const list and e2 is t_expr, 
+
+how to add them into the memory and how to do the initialization ?
+
+First, generate ce2 as m_expr : translate the typed abstract syntax into the abstract syntax of ocaml language, m_expr has description and type elements, 
+
+fby mem: (gen_next_id "x", base_ty) list 
+
+fby init: (gen_next_id "x", const) list
 
 
 ### Schedule.ml
@@ -80,7 +91,31 @@ Question: why the node_init is (string * string) list but not only (string * str
 
 
 
+#### Log
 
+
+../compiler/minilustre -main play pendulum_test.mls
+Warning: node integr is not in normal form.
+Anomaly: File "imp.ml", line 72, characters 9-15: Assertion failed
+
+make: *** [Makefile:10 : compile] Erreur 2
+
+
+./compiler/minilustre -main play minmax.mls
+File "minmax.mls", line 1, characters 1-322:
+problem of causality
+
+make: *** [Makefile:10 : compile] Erreur 1
+
+
+change the pendulum_test.mls
+../compiler/minilustre -main play pendulum_test.mls
+ocamlc -o play -thread unix.cma threads.cma graphics.cma `basename pendulum_test.mls .mls`.ml
+File "pendulum_test.ml", line 57, characters 7-13:
+57 |   mem'.integr <- x0;
+            ^^^^^^
+Error: Unbound record field integr
+make: *** [Makefile:11 : compile] Erreur 2
 
 
 ## Compilation

@@ -86,33 +86,42 @@ let compile_equation
 	  (* compile the base expression e1 and e2*)
 	  (* note that here e1 is const list and e2 is t_expr *)
 	  (* let ce1 = List.map compile_base_expr e1 (*return type is m_expr*) in*)
-	  let ce2 = compile_base_expr e2 (*return type is m_expr*) in
-	  let new_fby_init = (List.map (fun m_const -> (gen_next_id "x", m_const)) e1) in(*(List.fold_left (fun a b -> (a,b)) (gen_next_id "x") e1) in*)
+	 
+      (*init only need the initial value which means e1*)
+      let ce2 = compile_base_expr e2 (*return type is m_expr*) in
+      let init_names = List.map (fun m_const -> gen_next_id "x") e1 in
+	  let add_fby_init = List.combine init_names e1 in
 
-	  (* Queston: the difference between fold_left and map*)
-	  (* Question: how to ues emacs open a self defined module*)
-	  let new_fby_mem = (List.map (fun m_type -> (gen_next_id "x", m_type)) ce2.mexpr_type) in 
-	  let new_mem_acc = {fby_mem = List.append new_fby_mem mem_acc.fby_mem; node_mem = mem_acc.node_mem} in
-	  let new_init_acc = {fby_init = List.append new_fby_init init_acc.fby_init; node_init = init_acc.node_init} in
+(*
+      let add_fby_mem1 = List.combine init_names e.texpr_type in
+      let add_fby_mem = List.append (List.map (fun m_type -> (gen_next_id "x", m_type)) ce2.mexpr_type) add_fby_mem1 in 
+
+*)
+      let add_fby_mem = List.combine init_names e.texpr_type in
+      
+	  let new_mem_acc = {fby_mem = List.append add_fby_mem mem_acc.fby_mem; node_mem = mem_acc.node_mem} in
+	  let new_init_acc = {fby_init = List.append add_fby_init init_acc.fby_init; node_init = init_acc.node_init} in
 	  let eq2 = {meq_patt = tvars; meq_expr = ce2} in
 	  
 	  let ae2 = compile_atoms e2 in
-	  let update_ae2 = List.map (fun atom -> ("string", atom)) ae2 in
+	  let update_ae2 = List.combine init_names ae2 in
+      let new_update_acc = List.append update_ae2 update_acc in
       
 	  (*
 	  let ae2 = compile_atom e2 in
 	  let update_ae2 = ("fby", ae2) in
 	  *)
-	  new_mem_acc, new_init_acc, eq2::compute_acc, List.append update_ae2 update_acc (* DONE *)
+
+	  new_mem_acc, new_init_acc, eq2::compute_acc, new_update_acc (* DONE *)
 	end
 	
-
   | TE_app(n,el) ->
 	(*mem_acc, init_acc, compute_acc, update_acc*)
 	
 	begin
       (* generate a new node mem*)
-	  let new_node_mem = ((gen_mem_id n), n) in
+      let mem_name = gen_mem_id n in
+	  let new_node_mem = (mem_name, n) in
 	  (* adding it to the record of mem_acc *)
 	  let new_mem_acc = {fby_mem = mem_acc.fby_mem ; node_mem = new_node_mem::(mem_acc.node_mem) } in
 	  let new_el = List.map (fun e1 -> compile_base_expr e1) el in
@@ -120,9 +129,12 @@ let compile_equation
 	  let new_init_acc = 
 		if init_acc = empty_init then {fby_init = init_acc.fby_init; node_init = new_node_mem::init_acc.node_init} else init_acc in
 	  let new_compute_acc = List.append new_eq_l compute_acc in
-	  let ael = List.map (fun e1 -> compile_atoms e1) el in
-	  let update_ael = List.map (fun ae -> List.map (fun atom -> (n, atom)) ae ) ael in
-	  let new_update_acc = List.fold_right (fun a b-> List.append a b) update_ael update_acc in
+
+      let ael = List.map (fun e1 -> compile_atoms e1) el in
+	  (*let update_ael = List.map (fun ae -> List.map (fun atom -> (n, atom)) ae ) ael in*)
+
+      (*(*not used*)let new_update_acc = List.map (fun ae -> (mem_name,ae)) update_ael in*)
+      let new_update_acc = List.fold_right (fun a b-> List.append a b) update_ael update_acc in
       new_mem_acc, new_init_acc, new_compute_acc, new_update_acc (* DONE *)
 	end
 	

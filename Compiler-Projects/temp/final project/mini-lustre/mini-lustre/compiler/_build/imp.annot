@@ -1401,21 +1401,21 @@ type(
   (string * Imp_ast.atom) list
 )
 ident(
-  def compile_equation "imp.ml" 135 4656 4656 "imp.ml" 0 0 -1
+  def compile_equation "imp.ml" 145 4850 4850 "imp.ml" 0 0 -1
 )
 "imp.ml" 75 2057 2073 "imp.ml" 75 2057 2074
 type(
   Typed_ast.t_patt
 )
 ident(
-  def p "imp.ml" 76 2090 2094 "imp.ml" 132 4601 4653
+  def p "imp.ml" 76 2090 2094 "imp.ml" 142 4795 4847
 )
 "imp.ml" 75 2057 2087 "imp.ml" 75 2057 2088
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e "imp.ml" 76 2090 2094 "imp.ml" 132 4601 4653
+  def e "imp.ml" 76 2090 2094 "imp.ml" 142 4795 4847
 )
 "imp.ml" 75 2057 2061 "imp.ml" 75 2057 2089
 type(
@@ -1426,28 +1426,28 @@ type(
   Imp_ast.mem
 )
 ident(
-  def mem_acc "imp.ml" 80 2246 2248 "imp.ml" 132 4601 4653
+  def mem_acc "imp.ml" 80 2246 2248 "imp.ml" 142 4795 4847
 )
 "imp.ml" 77 2119 2125 "imp.ml" 77 2119 2133
 type(
   Imp_ast.init
 )
 ident(
-  def init_acc "imp.ml" 80 2246 2248 "imp.ml" 132 4601 4653
+  def init_acc "imp.ml" 80 2246 2248 "imp.ml" 142 4795 4847
 )
 "imp.ml" 78 2150 2156 "imp.ml" 78 2150 2167
 type(
   Imp_ast.m_equation list
 )
 ident(
-  def compute_acc "imp.ml" 80 2246 2248 "imp.ml" 132 4601 4653
+  def compute_acc "imp.ml" 80 2246 2248 "imp.ml" 142 4795 4847
 )
 "imp.ml" 79 2195 2201 "imp.ml" 79 2195 2211
 type(
   (string * Imp_ast.atom) list
 )
 ident(
-  def update_acc "imp.ml" 80 2246 2248 "imp.ml" 132 4601 4653
+  def update_acc "imp.ml" 80 2246 2248 "imp.ml" 142 4795 4847
 )
 "imp.ml" 76 2090 2094 "imp.ml" 79 2195 2243
 type(
@@ -1459,7 +1459,7 @@ type(
   (string * Asttypes.base_ty) list
 )
 ident(
-  def tvars "imp.ml" 81 2278 2280 "imp.ml" 132 4601 4653
+  def tvars "imp.ml" 81 2278 2280 "imp.ml" 142 4795 4847
 )
 "imp.ml" 80 2246 2260 "imp.ml" 80 2246 2272
 type(
@@ -1495,233 +1495,222 @@ type(
   Asttypes.const list
 )
 ident(
-  def e1 "imp.ml" 85 2376 2377 "imp.ml" 107 3541 3545
+  def e1 "imp.ml" 85 2376 2377 "imp.ml" 114 3617 3621
 )
 "imp.ml" 82 2304 2318 "imp.ml" 82 2304 2320
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e2 "imp.ml" 85 2376 2377 "imp.ml" 107 3541 3545
+  def e2 "imp.ml" 85 2376 2377 "imp.ml" 114 3617 3621
 )
 "imp.ml" 82 2304 2308 "imp.ml" 82 2304 2321
 type(
   Typed_ast.t_expr_desc
 )
-"imp.ml" 89 2565 2572 "imp.ml" 89 2565 2575
+"imp.ml" 91 2626 2636 "imp.ml" 91 2626 2639
 type(
   Imp_ast.m_expr
 )
 ident(
-  def ce2 "imp.ml" 90 2628 2631 "imp.ml" 106 3448 3529
+  def ce2 "imp.ml" 92 2692 2698 "imp.ml" 113 3524 3605
 )
-"imp.ml" 89 2565 2578 "imp.ml" 89 2565 2595
+"imp.ml" 91 2626 2642 "imp.ml" 91 2626 2659
 type(
   Typed_ast.t_expr -> Imp_ast.m_expr
 )
 ident(
   int_ref compile_base_expr "imp.ml" 28 608 616 "imp.ml" 28 608 633
 )
-"imp.ml" 89 2565 2596 "imp.ml" 89 2565 2598
+"imp.ml" 91 2626 2660 "imp.ml" 91 2626 2662
 type(
   Typed_ast.t_expr
 )
 ident(
   int_ref e2 "imp.ml" 82 2304 2318 "imp.ml" 82 2304 2320
 )
-"imp.ml" 89 2565 2578 "imp.ml" 89 2565 2598
+"imp.ml" 91 2626 2642 "imp.ml" 91 2626 2662
 type(
   Imp_ast.m_expr
 )
-"imp.ml" 90 2628 2635 "imp.ml" 90 2628 2647
+"imp.ml" 92 2692 2702 "imp.ml" 92 2692 2712
 type(
-  (string * Asttypes.const) list
+  string list
 )
 ident(
-  def new_fby_init "imp.ml" 94 2895 2898 "imp.ml" 106 3448 3529
+  def init_names "imp.ml" 93 2763 2766 "imp.ml" 113 3524 3605
 )
-"imp.ml" 90 2628 2651 "imp.ml" 90 2628 2659
+"imp.ml" 92 2692 2715 "imp.ml" 92 2692 2723
 type(
-  (Asttypes.const -> string * Asttypes.const) ->
-  Asttypes.const list -> (string * Asttypes.const) list
+  (Asttypes.const -> string) -> Asttypes.const list -> string list
 )
 ident(
   int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
 )
-"imp.ml" 90 2628 2665 "imp.ml" 90 2628 2672
+"imp.ml" 92 2692 2729 "imp.ml" 92 2692 2736
 type(
   Asttypes.const
 )
 ident(
-  def m_const "imp.ml" 90 2628 2676 "imp.ml" 90 2628 2702
+  def m_const "imp.ml" 92 2692 2740 "imp.ml" 92 2692 2755
 )
-"imp.ml" 90 2628 2677 "imp.ml" 90 2628 2688
+"imp.ml" 92 2692 2740 "imp.ml" 92 2692 2751
 type(
   string -> string
 )
 ident(
   int_ref gen_next_id "imp.ml" 17 309 313 "imp.ml" 17 309 324
 )
-"imp.ml" 90 2628 2689 "imp.ml" 90 2628 2692
+"imp.ml" 92 2692 2752 "imp.ml" 92 2692 2755
 type(
   string
 )
-"imp.ml" 90 2628 2677 "imp.ml" 90 2628 2692
+"imp.ml" 92 2692 2740 "imp.ml" 92 2692 2755
 type(
   string
 )
-"imp.ml" 90 2628 2694 "imp.ml" 90 2628 2701
+"imp.ml" 92 2692 2724 "imp.ml" 92 2692 2756
 type(
-  Asttypes.const
+  Asttypes.const -> string
 )
-ident(
-  int_ref m_const "imp.ml" 90 2628 2665 "imp.ml" 90 2628 2672
-)
-"imp.ml" 90 2628 2676 "imp.ml" 90 2628 2702
-type(
-  string * Asttypes.const
-)
-"imp.ml" 90 2628 2660 "imp.ml" 90 2628 2703
-type(
-  Asttypes.const -> string * Asttypes.const
-)
-"imp.ml" 90 2628 2704 "imp.ml" 90 2628 2706
+"imp.ml" 92 2692 2757 "imp.ml" 92 2692 2759
 type(
   Asttypes.const list
 )
 ident(
   int_ref e1 "imp.ml" 82 2304 2315 "imp.ml" 82 2304 2317
 )
-"imp.ml" 90 2628 2650 "imp.ml" 90 2628 2707
+"imp.ml" 92 2692 2715 "imp.ml" 92 2692 2759
+type(
+  string list
+)
+"imp.ml" 93 2763 2770 "imp.ml" 93 2763 2782
 type(
   (string * Asttypes.const) list
 )
-"imp.ml" 94 2895 2902 "imp.ml" 94 2895 2913
+ident(
+  def add_fby_init "imp.ml" 100 3009 3015 "imp.ml" 113 3524 3605
+)
+"imp.ml" 93 2763 2785 "imp.ml" 93 2763 2797
+type(
+  string list -> Asttypes.const list -> (string * Asttypes.const) list
+)
+ident(
+  int_ref Stdlib.List.combine "list.mli" 319 11800 11800 "list.mli" 319 11800 11850
+)
+"imp.ml" 93 2763 2798 "imp.ml" 93 2763 2808
+type(
+  string list
+)
+ident(
+  int_ref init_names "imp.ml" 92 2692 2702 "imp.ml" 92 2692 2712
+)
+"imp.ml" 93 2763 2809 "imp.ml" 93 2763 2811
+type(
+  Asttypes.const list
+)
+ident(
+  int_ref e1 "imp.ml" 82 2304 2315 "imp.ml" 82 2304 2317
+)
+"imp.ml" 93 2763 2785 "imp.ml" 93 2763 2811
+type(
+  (string * Asttypes.const) list
+)
+"imp.ml" 100 3009 3019 "imp.ml" 100 3009 3030
 type(
   (string * Asttypes.base_ty) list
 )
 ident(
-  def new_fby_mem "imp.ml" 95 2988 2991 "imp.ml" 106 3448 3529
+  def add_fby_mem "imp.ml" 102 3080 3083 "imp.ml" 113 3524 3605
 )
-"imp.ml" 94 2895 2917 "imp.ml" 94 2895 2925
+"imp.ml" 100 3009 3033 "imp.ml" 100 3009 3045
 type(
-  (Asttypes.base_ty -> string * Asttypes.base_ty) ->
-  Asttypes.base_ty list -> (string * Asttypes.base_ty) list
+  string list -> Asttypes.ty -> (string * Asttypes.base_ty) list
 )
 ident(
-  int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
+  int_ref Stdlib.List.combine "list.mli" 319 11800 11800 "list.mli" 319 11800 11850
 )
-"imp.ml" 94 2895 2931 "imp.ml" 94 2895 2937
+"imp.ml" 100 3009 3046 "imp.ml" 100 3009 3056
 type(
-  Asttypes.base_ty
+  string list
 )
 ident(
-  def m_type "imp.ml" 94 2895 2941 "imp.ml" 94 2895 2966
+  int_ref init_names "imp.ml" 92 2692 2702 "imp.ml" 92 2692 2712
 )
-"imp.ml" 94 2895 2942 "imp.ml" 94 2895 2953
+"imp.ml" 100 3009 3057 "imp.ml" 100 3009 3058
 type(
-  string -> string
+  Typed_ast.t_expr
 )
 ident(
-  int_ref gen_next_id "imp.ml" 17 309 313 "imp.ml" 17 309 324
+  int_ref e "imp.ml" 75 2057 2087 "imp.ml" 75 2057 2088
 )
-"imp.ml" 94 2895 2954 "imp.ml" 94 2895 2957
+"imp.ml" 100 3009 3057 "imp.ml" 100 3009 3069
 type(
-  string
+  Asttypes.ty
 )
-"imp.ml" 94 2895 2942 "imp.ml" 94 2895 2957
-type(
-  string
-)
-"imp.ml" 94 2895 2959 "imp.ml" 94 2895 2965
-type(
-  Asttypes.base_ty
-)
-ident(
-  int_ref m_type "imp.ml" 94 2895 2931 "imp.ml" 94 2895 2937
-)
-"imp.ml" 94 2895 2941 "imp.ml" 94 2895 2966
-type(
-  string * Asttypes.base_ty
-)
-"imp.ml" 94 2895 2926 "imp.ml" 94 2895 2967
-type(
-  Asttypes.base_ty -> string * Asttypes.base_ty
-)
-"imp.ml" 94 2895 2968 "imp.ml" 94 2895 2971
-type(
-  Imp_ast.m_expr
-)
-ident(
-  int_ref ce2 "imp.ml" 89 2565 2572 "imp.ml" 89 2565 2575
-)
-"imp.ml" 94 2895 2968 "imp.ml" 94 2895 2982
-type(
-  Asttypes.base_ty list
-)
-"imp.ml" 94 2895 2916 "imp.ml" 94 2895 2983
+"imp.ml" 100 3009 3033 "imp.ml" 100 3009 3069
 type(
   (string * Asttypes.base_ty) list
 )
-"imp.ml" 95 2988 2995 "imp.ml" 95 2988 3006
+"imp.ml" 102 3080 3087 "imp.ml" 102 3080 3098
 type(
   Imp_ast.mem
 )
 ident(
-  def new_mem_acc "imp.ml" 96 3093 3096 "imp.ml" 106 3448 3529
+  def new_mem_acc "imp.ml" 103 3185 3188 "imp.ml" 113 3524 3605
 )
-"imp.ml" 95 2988 3020 "imp.ml" 95 2988 3031
+"imp.ml" 102 3080 3112 "imp.ml" 102 3080 3123
 type(
   Imp_ast.tvar list -> Imp_ast.tvar list -> Imp_ast.tvar list
 )
 ident(
   int_ref Stdlib.List.append "list.mli" 86 3450 3450 "list.mli" 86 3450 3492
 )
-"imp.ml" 95 2988 3032 "imp.ml" 95 2988 3043
+"imp.ml" 102 3080 3124 "imp.ml" 102 3080 3135
 type(
   Imp_ast.tvar list
 )
 ident(
-  int_ref new_fby_mem "imp.ml" 94 2895 2902 "imp.ml" 94 2895 2913
+  int_ref add_fby_mem "imp.ml" 100 3009 3019 "imp.ml" 100 3009 3030
 )
-"imp.ml" 95 2988 3044 "imp.ml" 95 2988 3051
+"imp.ml" 102 3080 3136 "imp.ml" 102 3080 3143
 type(
   Imp_ast.mem
 )
 ident(
   int_ref mem_acc "imp.ml" 76 2090 2096 "imp.ml" 76 2090 2103
 )
-"imp.ml" 95 2988 3044 "imp.ml" 95 2988 3059
+"imp.ml" 102 3080 3136 "imp.ml" 102 3080 3151
 type(
   Imp_ast.tvar list
 )
-"imp.ml" 95 2988 3020 "imp.ml" 95 2988 3059
+"imp.ml" 102 3080 3112 "imp.ml" 102 3080 3151
 type(
   Imp_ast.tvar list
 )
-"imp.ml" 95 2988 3072 "imp.ml" 95 2988 3079
+"imp.ml" 102 3080 3164 "imp.ml" 102 3080 3171
 type(
   Imp_ast.mem
 )
 ident(
   int_ref mem_acc "imp.ml" 76 2090 2096 "imp.ml" 76 2090 2103
 )
-"imp.ml" 95 2988 3072 "imp.ml" 95 2988 3088
+"imp.ml" 102 3080 3164 "imp.ml" 102 3080 3180
 type(
   (string * string) list
 )
-"imp.ml" 95 2988 3009 "imp.ml" 95 2988 3089
+"imp.ml" 102 3080 3101 "imp.ml" 102 3080 3181
 type(
   Imp_ast.mem
 )
-"imp.ml" 96 3093 3100 "imp.ml" 96 3093 3112
+"imp.ml" 103 3185 3192 "imp.ml" 103 3185 3204
 type(
   Imp_ast.init
 )
 ident(
-  def new_init_acc "imp.ml" 97 3206 3209 "imp.ml" 106 3448 3529
+  def new_init_acc "imp.ml" 104 3298 3301 "imp.ml" 113 3524 3605
 )
-"imp.ml" 96 3093 3127 "imp.ml" 96 3093 3138
+"imp.ml" 103 3185 3219 "imp.ml" 103 3185 3230
 type(
   (string * Asttypes.const) list ->
   (string * Asttypes.const) list -> (string * Asttypes.const) list
@@ -1729,178 +1718,158 @@ type(
 ident(
   int_ref Stdlib.List.append "list.mli" 86 3450 3450 "list.mli" 86 3450 3492
 )
-"imp.ml" 96 3093 3139 "imp.ml" 96 3093 3151
+"imp.ml" 103 3185 3231 "imp.ml" 103 3185 3243
 type(
   (string * Asttypes.const) list
 )
 ident(
-  int_ref new_fby_init "imp.ml" 90 2628 2635 "imp.ml" 90 2628 2647
+  int_ref add_fby_init "imp.ml" 93 2763 2770 "imp.ml" 93 2763 2782
 )
-"imp.ml" 96 3093 3152 "imp.ml" 96 3093 3160
+"imp.ml" 103 3185 3244 "imp.ml" 103 3185 3252
 type(
   Imp_ast.init
 )
 ident(
   int_ref init_acc "imp.ml" 77 2119 2125 "imp.ml" 77 2119 2133
 )
-"imp.ml" 96 3093 3152 "imp.ml" 96 3093 3169
+"imp.ml" 103 3185 3244 "imp.ml" 103 3185 3261
 type(
   (string * Asttypes.const) list
 )
-"imp.ml" 96 3093 3127 "imp.ml" 96 3093 3169
+"imp.ml" 103 3185 3219 "imp.ml" 103 3185 3261
 type(
   (string * Asttypes.const) list
 )
-"imp.ml" 96 3093 3183 "imp.ml" 96 3093 3191
+"imp.ml" 103 3185 3275 "imp.ml" 103 3185 3283
 type(
   Imp_ast.init
 )
 ident(
   int_ref init_acc "imp.ml" 77 2119 2125 "imp.ml" 77 2119 2133
 )
-"imp.ml" 96 3093 3183 "imp.ml" 96 3093 3201
+"imp.ml" 103 3185 3275 "imp.ml" 103 3185 3293
 type(
   (string * string) list
 )
-"imp.ml" 96 3093 3115 "imp.ml" 96 3093 3202
+"imp.ml" 103 3185 3207 "imp.ml" 103 3185 3294
 type(
   Imp_ast.init
 )
-"imp.ml" 97 3206 3213 "imp.ml" 97 3206 3216
+"imp.ml" 104 3298 3305 "imp.ml" 104 3298 3308
 type(
   Imp_ast.m_equation
 )
 ident(
-  def eq2 "imp.ml" 99 3261 3264 "imp.ml" 106 3448 3529
+  def eq2 "imp.ml" 106 3353 3356 "imp.ml" 113 3524 3605
 )
-"imp.ml" 97 3206 3231 "imp.ml" 97 3206 3236
+"imp.ml" 104 3298 3323 "imp.ml" 104 3298 3328
 type(
   Imp_ast.tvar list
 )
 ident(
   int_ref tvars "imp.ml" 80 2246 2252 "imp.ml" 80 2246 2257
 )
-"imp.ml" 97 3206 3249 "imp.ml" 97 3206 3252
+"imp.ml" 104 3298 3341 "imp.ml" 104 3298 3344
 type(
   Imp_ast.m_expr
 )
 ident(
-  int_ref ce2 "imp.ml" 89 2565 2572 "imp.ml" 89 2565 2575
+  int_ref ce2 "imp.ml" 91 2626 2636 "imp.ml" 91 2626 2639
 )
-"imp.ml" 97 3206 3219 "imp.ml" 97 3206 3253
+"imp.ml" 104 3298 3311 "imp.ml" 104 3298 3345
 type(
   Imp_ast.m_equation
 )
-"imp.ml" 99 3261 3268 "imp.ml" 99 3261 3271
+"imp.ml" 106 3353 3360 "imp.ml" 106 3353 3363
 type(
   Imp_ast.atom list
 )
 ident(
-  def ae2 "imp.ml" 100 3294 3297 "imp.ml" 106 3448 3529
+  def ae2 "imp.ml" 107 3386 3389 "imp.ml" 113 3524 3605
 )
-"imp.ml" 99 3261 3274 "imp.ml" 99 3261 3287
+"imp.ml" 106 3353 3366 "imp.ml" 106 3353 3379
 type(
   Typed_ast.t_expr -> Imp_ast.atom list
 )
 ident(
   int_ref compile_atoms "imp.ml" 68 1873 1877 "imp.ml" 68 1873 1890
 )
-"imp.ml" 99 3261 3288 "imp.ml" 99 3261 3290
+"imp.ml" 106 3353 3380 "imp.ml" 106 3353 3382
 type(
   Typed_ast.t_expr
 )
 ident(
   int_ref e2 "imp.ml" 82 2304 2318 "imp.ml" 82 2304 2320
 )
-"imp.ml" 99 3261 3274 "imp.ml" 99 3261 3290
+"imp.ml" 106 3353 3366 "imp.ml" 106 3353 3382
 type(
   Imp_ast.atom list
 )
-"imp.ml" 100 3294 3301 "imp.ml" 100 3294 3311
+"imp.ml" 107 3386 3393 "imp.ml" 107 3386 3403
 type(
   (string * Imp_ast.atom) list
 )
 ident(
-  def update_ae2 "imp.ml" 106 3448 3451 "imp.ml" 106 3448 3529
+  def update_ae2 "imp.ml" 113 3524 3527 "imp.ml" 113 3524 3605
 )
-"imp.ml" 100 3294 3314 "imp.ml" 100 3294 3322
+"imp.ml" 107 3386 3406 "imp.ml" 107 3386 3418
 type(
-  (Imp_ast.atom -> string * Imp_ast.atom) ->
-  Imp_ast.atom list -> (string * Imp_ast.atom) list
+  string list -> Imp_ast.atom list -> (string * Imp_ast.atom) list
 )
 ident(
-  int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
+  int_ref Stdlib.List.combine "list.mli" 319 11800 11800 "list.mli" 319 11800 11850
 )
-"imp.ml" 100 3294 3328 "imp.ml" 100 3294 3332
+"imp.ml" 107 3386 3419 "imp.ml" 107 3386 3429
 type(
-  Imp_ast.atom
+  string list
 )
 ident(
-  def atom "imp.ml" 100 3294 3336 "imp.ml" 100 3294 3352
+  int_ref init_names "imp.ml" 92 2692 2702 "imp.ml" 92 2692 2712
 )
-"imp.ml" 100 3294 3337 "imp.ml" 100 3294 3345
-type(
-  string
-)
-"imp.ml" 100 3294 3347 "imp.ml" 100 3294 3351
-type(
-  Imp_ast.atom
-)
-ident(
-  int_ref atom "imp.ml" 100 3294 3328 "imp.ml" 100 3294 3332
-)
-"imp.ml" 100 3294 3336 "imp.ml" 100 3294 3352
-type(
-  string * Imp_ast.atom
-)
-"imp.ml" 100 3294 3323 "imp.ml" 100 3294 3353
-type(
-  Imp_ast.atom -> string * Imp_ast.atom
-)
-"imp.ml" 100 3294 3354 "imp.ml" 100 3294 3357
+"imp.ml" 107 3386 3430 "imp.ml" 107 3386 3433
 type(
   Imp_ast.atom list
 )
 ident(
-  int_ref ae2 "imp.ml" 99 3261 3268 "imp.ml" 99 3261 3271
+  int_ref ae2 "imp.ml" 106 3353 3360 "imp.ml" 106 3353 3363
 )
-"imp.ml" 100 3294 3314 "imp.ml" 100 3294 3357
+"imp.ml" 107 3386 3406 "imp.ml" 107 3386 3433
 type(
   (string * Imp_ast.atom) list
 )
-"imp.ml" 106 3448 3451 "imp.ml" 106 3448 3462
+"imp.ml" 113 3524 3527 "imp.ml" 113 3524 3538
 type(
   Imp_ast.mem
 )
 ident(
-  int_ref new_mem_acc "imp.ml" 95 2988 2995 "imp.ml" 95 2988 3006
+  int_ref new_mem_acc "imp.ml" 102 3080 3087 "imp.ml" 102 3080 3098
 )
-"imp.ml" 106 3448 3464 "imp.ml" 106 3448 3476
+"imp.ml" 113 3524 3540 "imp.ml" 113 3524 3552
 type(
   Imp_ast.init
 )
 ident(
-  int_ref new_init_acc "imp.ml" 96 3093 3100 "imp.ml" 96 3093 3112
+  int_ref new_init_acc "imp.ml" 103 3185 3192 "imp.ml" 103 3185 3204
 )
-"imp.ml" 106 3448 3478 "imp.ml" 106 3448 3481
+"imp.ml" 113 3524 3554 "imp.ml" 113 3524 3557
 type(
   Imp_ast.m_equation
 )
 ident(
-  int_ref eq2 "imp.ml" 97 3206 3213 "imp.ml" 97 3206 3216
+  int_ref eq2 "imp.ml" 104 3298 3305 "imp.ml" 104 3298 3308
 )
-"imp.ml" 106 3448 3483 "imp.ml" 106 3448 3494
+"imp.ml" 113 3524 3559 "imp.ml" 113 3524 3570
 type(
   Imp_ast.m_equation list
 )
 ident(
   int_ref compute_acc "imp.ml" 78 2150 2156 "imp.ml" 78 2150 2167
 )
-"imp.ml" 106 3448 3478 "imp.ml" 106 3448 3494
+"imp.ml" 113 3524 3554 "imp.ml" 113 3524 3570
 type(
   Imp_ast.m_equation list
 )
-"imp.ml" 106 3448 3496 "imp.ml" 106 3448 3507
+"imp.ml" 113 3524 3572 "imp.ml" 113 3524 3583
 type(
   (string * Imp_ast.atom) list ->
   (string * Imp_ast.atom) list -> (string * Imp_ast.atom) list
@@ -1908,175 +1877,194 @@ type(
 ident(
   int_ref Stdlib.List.append "list.mli" 86 3450 3450 "list.mli" 86 3450 3492
 )
-"imp.ml" 106 3448 3508 "imp.ml" 106 3448 3518
+"imp.ml" 113 3524 3584 "imp.ml" 113 3524 3594
 type(
   (string * Imp_ast.atom) list
 )
 ident(
-  int_ref update_ae2 "imp.ml" 100 3294 3301 "imp.ml" 100 3294 3311
+  int_ref update_ae2 "imp.ml" 107 3386 3393 "imp.ml" 107 3386 3403
 )
-"imp.ml" 106 3448 3519 "imp.ml" 106 3448 3529
+"imp.ml" 113 3524 3595 "imp.ml" 113 3524 3605
 type(
   (string * Imp_ast.atom) list
 )
 ident(
   int_ref update_acc "imp.ml" 79 2195 2201 "imp.ml" 79 2195 2211
 )
-"imp.ml" 106 3448 3496 "imp.ml" 106 3448 3529
+"imp.ml" 113 3524 3572 "imp.ml" 113 3524 3605
 type(
   (string * Imp_ast.atom) list
 )
-"imp.ml" 106 3448 3451 "imp.ml" 106 3448 3529
-type(
-  Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
-  (string * Imp_ast.atom) list
-)
-"imp.ml" 100 3294 3297 "imp.ml" 106 3448 3529
+"imp.ml" 113 3524 3527 "imp.ml" 113 3524 3605
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 99 3261 3264 "imp.ml" 106 3448 3529
+"imp.ml" 107 3386 3389 "imp.ml" 113 3524 3605
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 97 3206 3209 "imp.ml" 106 3448 3529
+"imp.ml" 106 3353 3356 "imp.ml" 113 3524 3605
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 96 3093 3096 "imp.ml" 106 3448 3529
+"imp.ml" 104 3298 3301 "imp.ml" 113 3524 3605
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 95 2988 2991 "imp.ml" 106 3448 3529
+"imp.ml" 103 3185 3188 "imp.ml" 113 3524 3605
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 94 2895 2898 "imp.ml" 106 3448 3529
+"imp.ml" 102 3080 3083 "imp.ml" 113 3524 3605
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 90 2628 2631 "imp.ml" 106 3448 3529
+"imp.ml" 100 3009 3015 "imp.ml" 113 3524 3605
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 85 2376 2377 "imp.ml" 107 3541 3545
+"imp.ml" 93 2763 2766 "imp.ml" 113 3524 3605
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 110 3549 3560 "imp.ml" 110 3549 3561
+"imp.ml" 92 2692 2698 "imp.ml" 113 3524 3605
+type(
+  Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
+  (string * Imp_ast.atom) list
+)
+"imp.ml" 85 2376 2377 "imp.ml" 114 3617 3621
+type(
+  Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
+  (string * Imp_ast.atom) list
+)
+"imp.ml" 117 3625 3636 "imp.ml" 117 3625 3637
 type(
   string
 )
 ident(
-  def n "imp.ml" 113 3619 3620 "imp.ml" 127 4515 4519
+  def n "imp.ml" 120 3695 3696 "imp.ml" 137 4709 4713
 )
-"imp.ml" 110 3549 3562 "imp.ml" 110 3549 3564
+"imp.ml" 117 3625 3638 "imp.ml" 117 3625 3640
 type(
   Typed_ast.t_expr list
 )
 ident(
-  def el "imp.ml" 113 3619 3620 "imp.ml" 127 4515 4519
+  def el "imp.ml" 120 3695 3696 "imp.ml" 137 4709 4713
 )
-"imp.ml" 110 3549 3553 "imp.ml" 110 3549 3565
+"imp.ml" 117 3625 3629 "imp.ml" 117 3625 3641
 type(
   Typed_ast.t_expr_desc
 )
-"imp.ml" 115 3661 3668 "imp.ml" 115 3661 3680
+"imp.ml" 122 3737 3747 "imp.ml" 122 3737 3755
 type(
-  string * string
+  string
 )
 ident(
-  def new_node_mem "imp.ml" 117 3750 3753 "imp.ml" 126 4439 4503
+  def mem_name "imp.ml" 123 3774 3777 "imp.ml" 136 4633 4697
 )
-"imp.ml" 115 3661 3685 "imp.ml" 115 3661 3695
+"imp.ml" 122 3737 3758 "imp.ml" 122 3737 3768
 type(
   string -> string
 )
 ident(
   int_ref gen_mem_id "imp.ml" 21 401 405 "imp.ml" 21 401 415
 )
-"imp.ml" 115 3661 3696 "imp.ml" 115 3661 3697
+"imp.ml" 122 3737 3769 "imp.ml" 122 3737 3770
 type(
   string
 )
 ident(
-  int_ref n "imp.ml" 110 3549 3560 "imp.ml" 110 3549 3561
+  int_ref n "imp.ml" 117 3625 3636 "imp.ml" 117 3625 3637
 )
-"imp.ml" 115 3661 3684 "imp.ml" 115 3661 3698
+"imp.ml" 122 3737 3758 "imp.ml" 122 3737 3770
 type(
   string
 )
-"imp.ml" 115 3661 3700 "imp.ml" 115 3661 3701
-type(
-  string
-)
-ident(
-  int_ref n "imp.ml" 110 3549 3560 "imp.ml" 110 3549 3561
-)
-"imp.ml" 115 3661 3683 "imp.ml" 115 3661 3702
+"imp.ml" 123 3774 3781 "imp.ml" 123 3774 3793
 type(
   string * string
 )
-"imp.ml" 117 3750 3757 "imp.ml" 117 3750 3768
+ident(
+  def new_node_mem "imp.ml" 125 3857 3860 "imp.ml" 136 4633 4697
+)
+"imp.ml" 123 3774 3797 "imp.ml" 123 3774 3805
+type(
+  string
+)
+ident(
+  int_ref mem_name "imp.ml" 122 3737 3747 "imp.ml" 122 3737 3755
+)
+"imp.ml" 123 3774 3807 "imp.ml" 123 3774 3808
+type(
+  string
+)
+ident(
+  int_ref n "imp.ml" 117 3625 3636 "imp.ml" 117 3625 3637
+)
+"imp.ml" 123 3774 3796 "imp.ml" 123 3774 3809
+type(
+  string * string
+)
+"imp.ml" 125 3857 3864 "imp.ml" 125 3857 3875
 type(
   Imp_ast.mem
 )
 ident(
-  def new_mem_acc "imp.ml" 118 3849 3852 "imp.ml" 126 4439 4503
+  def new_mem_acc "imp.ml" 126 3956 3959 "imp.ml" 136 4633 4697
 )
-"imp.ml" 117 3750 3782 "imp.ml" 117 3750 3789
+"imp.ml" 125 3857 3889 "imp.ml" 125 3857 3896
 type(
   Imp_ast.mem
 )
 ident(
   int_ref mem_acc "imp.ml" 76 2090 2096 "imp.ml" 76 2090 2103
 )
-"imp.ml" 117 3750 3782 "imp.ml" 117 3750 3797
+"imp.ml" 125 3857 3889 "imp.ml" 125 3857 3904
 type(
   Imp_ast.tvar list
 )
-"imp.ml" 117 3750 3811 "imp.ml" 117 3750 3823
+"imp.ml" 125 3857 3918 "imp.ml" 125 3857 3930
 type(
   string * string
 )
 ident(
-  int_ref new_node_mem "imp.ml" 115 3661 3668 "imp.ml" 115 3661 3680
+  int_ref new_node_mem "imp.ml" 123 3774 3781 "imp.ml" 123 3774 3793
 )
-"imp.ml" 117 3750 3826 "imp.ml" 117 3750 3833
+"imp.ml" 125 3857 3933 "imp.ml" 125 3857 3940
 type(
   Imp_ast.mem
 )
 ident(
   int_ref mem_acc "imp.ml" 76 2090 2096 "imp.ml" 76 2090 2103
 )
-"imp.ml" 117 3750 3825 "imp.ml" 117 3750 3843
+"imp.ml" 125 3857 3932 "imp.ml" 125 3857 3950
 type(
   (string * string) list
 )
-"imp.ml" 117 3750 3811 "imp.ml" 117 3750 3843
+"imp.ml" 125 3857 3918 "imp.ml" 125 3857 3950
 type(
   (string * string) list
 )
-"imp.ml" 117 3750 3771 "imp.ml" 117 3750 3845
+"imp.ml" 125 3857 3878 "imp.ml" 125 3857 3952
 type(
   Imp_ast.mem
 )
-"imp.ml" 118 3849 3856 "imp.ml" 118 3849 3862
+"imp.ml" 126 3956 3963 "imp.ml" 126 3956 3969
 type(
   Imp_ast.m_expr list
 )
 ident(
-  def new_el "imp.ml" 119 3913 3916 "imp.ml" 126 4439 4503
+  def new_el "imp.ml" 127 4020 4023 "imp.ml" 136 4633 4697
 )
-"imp.ml" 118 3849 3865 "imp.ml" 118 3849 3873
+"imp.ml" 126 3956 3972 "imp.ml" 126 3956 3980
 type(
   (Typed_ast.t_expr -> Imp_ast.m_expr) ->
   Typed_ast.t_expr list -> Imp_ast.m_expr list
@@ -2084,54 +2072,54 @@ type(
 ident(
   int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
 )
-"imp.ml" 118 3849 3879 "imp.ml" 118 3849 3881
+"imp.ml" 126 3956 3986 "imp.ml" 126 3956 3988
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e1 "imp.ml" 118 3849 3885 "imp.ml" 118 3849 3905
+  def e1 "imp.ml" 126 3956 3992 "imp.ml" 126 3956 4012
 )
-"imp.ml" 118 3849 3885 "imp.ml" 118 3849 3902
+"imp.ml" 126 3956 3992 "imp.ml" 126 3956 4009
 type(
   Typed_ast.t_expr -> Imp_ast.m_expr
 )
 ident(
   int_ref compile_base_expr "imp.ml" 28 608 616 "imp.ml" 28 608 633
 )
-"imp.ml" 118 3849 3903 "imp.ml" 118 3849 3905
+"imp.ml" 126 3956 4010 "imp.ml" 126 3956 4012
 type(
   Typed_ast.t_expr
 )
 ident(
-  int_ref e1 "imp.ml" 118 3849 3879 "imp.ml" 118 3849 3881
+  int_ref e1 "imp.ml" 126 3956 3986 "imp.ml" 126 3956 3988
 )
-"imp.ml" 118 3849 3885 "imp.ml" 118 3849 3905
+"imp.ml" 126 3956 3992 "imp.ml" 126 3956 4012
 type(
   Imp_ast.m_expr
 )
-"imp.ml" 118 3849 3874 "imp.ml" 118 3849 3906
+"imp.ml" 126 3956 3981 "imp.ml" 126 3956 4013
 type(
   Typed_ast.t_expr -> Imp_ast.m_expr
 )
-"imp.ml" 118 3849 3907 "imp.ml" 118 3849 3909
+"imp.ml" 126 3956 4014 "imp.ml" 126 3956 4016
 type(
   Typed_ast.t_expr list
 )
 ident(
-  int_ref el "imp.ml" 110 3549 3562 "imp.ml" 110 3549 3564
+  int_ref el "imp.ml" 117 3625 3638 "imp.ml" 117 3625 3640
 )
-"imp.ml" 118 3849 3865 "imp.ml" 118 3849 3909
+"imp.ml" 126 3956 3972 "imp.ml" 126 3956 4016
 type(
   Imp_ast.m_expr list
 )
-"imp.ml" 119 3913 3920 "imp.ml" 119 3913 3928
+"imp.ml" 127 4020 4027 "imp.ml" 127 4020 4035
 type(
   Imp_ast.m_equation list
 )
 ident(
-  def new_eq_l "imp.ml" 120 3994 3997 "imp.ml" 126 4439 4503
+  def new_eq_l "imp.ml" 128 4101 4104 "imp.ml" 136 4633 4697
 )
-"imp.ml" 119 3913 3931 "imp.ml" 119 3913 3939
+"imp.ml" 127 4020 4038 "imp.ml" 127 4020 4046
 type(
   (Imp_ast.m_expr -> Imp_ast.m_equation) ->
   Imp_ast.m_expr list -> Imp_ast.m_equation list
@@ -2139,134 +2127,134 @@ type(
 ident(
   int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
 )
-"imp.ml" 119 3913 3945 "imp.ml" 119 3913 3946
+"imp.ml" 127 4020 4052 "imp.ml" 127 4020 4053
 type(
   Imp_ast.m_expr
 )
 ident(
-  def e "imp.ml" 119 3913 3950 "imp.ml" 119 3913 3982
+  def e "imp.ml" 127 4020 4057 "imp.ml" 127 4020 4089
 )
-"imp.ml" 119 3913 3962 "imp.ml" 119 3913 3967
+"imp.ml" 127 4020 4069 "imp.ml" 127 4020 4074
 type(
   Imp_ast.tvar list
 )
 ident(
   int_ref tvars "imp.ml" 80 2246 2252 "imp.ml" 80 2246 2257
 )
-"imp.ml" 119 3913 3980 "imp.ml" 119 3913 3981
+"imp.ml" 127 4020 4087 "imp.ml" 127 4020 4088
 type(
   Imp_ast.m_expr
 )
 ident(
-  int_ref e "imp.ml" 119 3913 3945 "imp.ml" 119 3913 3946
+  int_ref e "imp.ml" 127 4020 4052 "imp.ml" 127 4020 4053
 )
-"imp.ml" 119 3913 3950 "imp.ml" 119 3913 3982
+"imp.ml" 127 4020 4057 "imp.ml" 127 4020 4089
 type(
   Imp_ast.m_equation
 )
-"imp.ml" 119 3913 3940 "imp.ml" 119 3913 3983
+"imp.ml" 127 4020 4047 "imp.ml" 127 4020 4090
 type(
   Imp_ast.m_expr -> Imp_ast.m_equation
 )
-"imp.ml" 119 3913 3984 "imp.ml" 119 3913 3990
+"imp.ml" 127 4020 4091 "imp.ml" 127 4020 4097
 type(
   Imp_ast.m_expr list
 )
 ident(
-  int_ref new_el "imp.ml" 118 3849 3856 "imp.ml" 118 3849 3862
+  int_ref new_el "imp.ml" 126 3956 3963 "imp.ml" 126 3956 3969
 )
-"imp.ml" 119 3913 3931 "imp.ml" 119 3913 3990
+"imp.ml" 127 4020 4038 "imp.ml" 127 4020 4097
 type(
   Imp_ast.m_equation list
 )
-"imp.ml" 120 3994 4001 "imp.ml" 120 3994 4013
+"imp.ml" 128 4101 4108 "imp.ml" 128 4101 4120
 type(
   Imp_ast.init
 )
 ident(
-  def new_init_acc "imp.ml" 122 4143 4146 "imp.ml" 126 4439 4503
+  def new_init_acc "imp.ml" 130 4250 4253 "imp.ml" 136 4633 4697
 )
-"imp.ml" 121 4017 4022 "imp.ml" 121 4017 4030
+"imp.ml" 129 4124 4129 "imp.ml" 129 4124 4137
 type(
   Imp_ast.init
 )
 ident(
   int_ref init_acc "imp.ml" 77 2119 2125 "imp.ml" 77 2119 2133
 )
-"imp.ml" 121 4017 4031 "imp.ml" 121 4017 4032
+"imp.ml" 129 4124 4138 "imp.ml" 129 4124 4139
 type(
   Imp_ast.init -> Imp_ast.init -> bool
 )
 ident(
   int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
 )
-"imp.ml" 121 4017 4033 "imp.ml" 121 4017 4043
+"imp.ml" 129 4124 4140 "imp.ml" 129 4124 4150
 type(
   Imp_ast.init
 )
 ident(
   int_ref empty_init "imp.ml" 15 257 261 "imp.ml" 15 257 271
 )
-"imp.ml" 121 4017 4022 "imp.ml" 121 4017 4043
+"imp.ml" 129 4124 4129 "imp.ml" 129 4124 4150
 type(
   bool
 )
-"imp.ml" 121 4017 4061 "imp.ml" 121 4017 4069
+"imp.ml" 129 4124 4168 "imp.ml" 129 4124 4176
 type(
   Imp_ast.init
 )
 ident(
   int_ref init_acc "imp.ml" 77 2119 2125 "imp.ml" 77 2119 2133
 )
-"imp.ml" 121 4017 4061 "imp.ml" 121 4017 4078
+"imp.ml" 129 4124 4168 "imp.ml" 129 4124 4185
 type(
   (string * Asttypes.const) list
 )
-"imp.ml" 121 4017 4092 "imp.ml" 121 4017 4104
+"imp.ml" 129 4124 4199 "imp.ml" 129 4124 4211
 type(
   string * string
 )
 ident(
-  int_ref new_node_mem "imp.ml" 115 3661 3668 "imp.ml" 115 3661 3680
+  int_ref new_node_mem "imp.ml" 123 3774 3781 "imp.ml" 123 3774 3793
 )
-"imp.ml" 121 4017 4106 "imp.ml" 121 4017 4114
+"imp.ml" 129 4124 4213 "imp.ml" 129 4124 4221
 type(
   Imp_ast.init
 )
 ident(
   int_ref init_acc "imp.ml" 77 2119 2125 "imp.ml" 77 2119 2133
 )
-"imp.ml" 121 4017 4106 "imp.ml" 121 4017 4124
+"imp.ml" 129 4124 4213 "imp.ml" 129 4124 4231
 type(
   (string * string) list
 )
-"imp.ml" 121 4017 4092 "imp.ml" 121 4017 4124
+"imp.ml" 129 4124 4199 "imp.ml" 129 4124 4231
 type(
   (string * string) list
 )
-"imp.ml" 121 4017 4049 "imp.ml" 121 4017 4125
+"imp.ml" 129 4124 4156 "imp.ml" 129 4124 4232
 type(
   Imp_ast.init
 )
-"imp.ml" 121 4017 4131 "imp.ml" 121 4017 4139
+"imp.ml" 129 4124 4238 "imp.ml" 129 4124 4246
 type(
   Imp_ast.init
 )
 ident(
   int_ref init_acc "imp.ml" 77 2119 2125 "imp.ml" 77 2119 2133
 )
-"imp.ml" 121 4017 4019 "imp.ml" 121 4017 4139
+"imp.ml" 129 4124 4126 "imp.ml" 129 4124 4246
 type(
   Imp_ast.init
 )
-"imp.ml" 122 4143 4150 "imp.ml" 122 4143 4165
+"imp.ml" 130 4250 4257 "imp.ml" 130 4250 4272
 type(
   Imp_ast.m_equation list
 )
 ident(
-  def new_compute_acc "imp.ml" 123 4204 4207 "imp.ml" 126 4439 4503
+  def new_compute_acc "imp.ml" 132 4312 4318 "imp.ml" 136 4633 4697
 )
-"imp.ml" 122 4143 4168 "imp.ml" 122 4143 4179
+"imp.ml" 130 4250 4275 "imp.ml" 130 4250 4286
 type(
   Imp_ast.m_equation list ->
   Imp_ast.m_equation list -> Imp_ast.m_equation list
@@ -2274,32 +2262,32 @@ type(
 ident(
   int_ref Stdlib.List.append "list.mli" 86 3450 3450 "list.mli" 86 3450 3492
 )
-"imp.ml" 122 4143 4180 "imp.ml" 122 4143 4188
+"imp.ml" 130 4250 4287 "imp.ml" 130 4250 4295
 type(
   Imp_ast.m_equation list
 )
 ident(
-  int_ref new_eq_l "imp.ml" 119 3913 3920 "imp.ml" 119 3913 3928
+  int_ref new_eq_l "imp.ml" 127 4020 4027 "imp.ml" 127 4020 4035
 )
-"imp.ml" 122 4143 4189 "imp.ml" 122 4143 4200
+"imp.ml" 130 4250 4296 "imp.ml" 130 4250 4307
 type(
   Imp_ast.m_equation list
 )
 ident(
   int_ref compute_acc "imp.ml" 78 2150 2156 "imp.ml" 78 2150 2167
 )
-"imp.ml" 122 4143 4168 "imp.ml" 122 4143 4200
+"imp.ml" 130 4250 4275 "imp.ml" 130 4250 4307
 type(
   Imp_ast.m_equation list
 )
-"imp.ml" 123 4204 4211 "imp.ml" 123 4204 4214
+"imp.ml" 132 4312 4322 "imp.ml" 132 4312 4325
 type(
   Imp_ast.atom list list
 )
 ident(
-  def ael "imp.ml" 124 4261 4264 "imp.ml" 126 4439 4503
+  def ael "imp.ml" 133 4372 4375 "imp.ml" 136 4633 4697
 )
-"imp.ml" 123 4204 4217 "imp.ml" 123 4204 4225
+"imp.ml" 132 4312 4328 "imp.ml" 132 4312 4336
 type(
   (Typed_ast.t_expr -> Imp_ast.atom list) ->
   Typed_ast.t_expr list -> Imp_ast.atom list list
@@ -2307,54 +2295,54 @@ type(
 ident(
   int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
 )
-"imp.ml" 123 4204 4231 "imp.ml" 123 4204 4233
+"imp.ml" 132 4312 4342 "imp.ml" 132 4312 4344
 type(
   Typed_ast.t_expr
 )
 ident(
-  def e1 "imp.ml" 123 4204 4237 "imp.ml" 123 4204 4253
+  def e1 "imp.ml" 132 4312 4348 "imp.ml" 132 4312 4364
 )
-"imp.ml" 123 4204 4237 "imp.ml" 123 4204 4250
+"imp.ml" 132 4312 4348 "imp.ml" 132 4312 4361
 type(
   Typed_ast.t_expr -> Imp_ast.atom list
 )
 ident(
   int_ref compile_atoms "imp.ml" 68 1873 1877 "imp.ml" 68 1873 1890
 )
-"imp.ml" 123 4204 4251 "imp.ml" 123 4204 4253
+"imp.ml" 132 4312 4362 "imp.ml" 132 4312 4364
 type(
   Typed_ast.t_expr
 )
 ident(
-  int_ref e1 "imp.ml" 123 4204 4231 "imp.ml" 123 4204 4233
+  int_ref e1 "imp.ml" 132 4312 4342 "imp.ml" 132 4312 4344
 )
-"imp.ml" 123 4204 4237 "imp.ml" 123 4204 4253
+"imp.ml" 132 4312 4348 "imp.ml" 132 4312 4364
 type(
   Imp_ast.atom list
 )
-"imp.ml" 123 4204 4226 "imp.ml" 123 4204 4254
+"imp.ml" 132 4312 4337 "imp.ml" 132 4312 4365
 type(
   Typed_ast.t_expr -> Imp_ast.atom list
 )
-"imp.ml" 123 4204 4255 "imp.ml" 123 4204 4257
+"imp.ml" 132 4312 4366 "imp.ml" 132 4312 4368
 type(
   Typed_ast.t_expr list
 )
 ident(
-  int_ref el "imp.ml" 110 3549 3562 "imp.ml" 110 3549 3564
+  int_ref el "imp.ml" 117 3625 3638 "imp.ml" 117 3625 3640
 )
-"imp.ml" 123 4204 4217 "imp.ml" 123 4204 4257
+"imp.ml" 132 4312 4328 "imp.ml" 132 4312 4368
 type(
   Imp_ast.atom list list
 )
-"imp.ml" 124 4261 4268 "imp.ml" 124 4261 4278
+"imp.ml" 133 4372 4379 "imp.ml" 133 4372 4389
 type(
   (string * Imp_ast.atom) list list
 )
 ident(
-  def update_ael "imp.ml" 125 4346 4349 "imp.ml" 126 4439 4503
+  def update_ael "imp.ml" 135 4537 4543 "imp.ml" 136 4633 4697
 )
-"imp.ml" 124 4261 4281 "imp.ml" 124 4261 4289
+"imp.ml" 133 4372 4392 "imp.ml" 133 4372 4400
 type(
   (Imp_ast.atom list -> (string * Imp_ast.atom) list) ->
   Imp_ast.atom list list -> (string * Imp_ast.atom) list list
@@ -2362,14 +2350,14 @@ type(
 ident(
   int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
 )
-"imp.ml" 124 4261 4295 "imp.ml" 124 4261 4297
+"imp.ml" 133 4372 4406 "imp.ml" 133 4372 4408
 type(
   Imp_ast.atom list
 )
 ident(
-  def ae "imp.ml" 124 4261 4301 "imp.ml" 124 4261 4336
+  def ae "imp.ml" 133 4372 4412 "imp.ml" 133 4372 4447
 )
-"imp.ml" 124 4261 4301 "imp.ml" 124 4261 4309
+"imp.ml" 133 4372 4412 "imp.ml" 133 4372 4420
 type(
   (Imp_ast.atom -> string * Imp_ast.atom) ->
   Imp_ast.atom list -> (string * Imp_ast.atom) list
@@ -2377,69 +2365,69 @@ type(
 ident(
   int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
 )
-"imp.ml" 124 4261 4315 "imp.ml" 124 4261 4319
+"imp.ml" 133 4372 4426 "imp.ml" 133 4372 4430
 type(
   Imp_ast.atom
 )
 ident(
-  def atom "imp.ml" 124 4261 4323 "imp.ml" 124 4261 4332
+  def atom "imp.ml" 133 4372 4434 "imp.ml" 133 4372 4443
 )
-"imp.ml" 124 4261 4324 "imp.ml" 124 4261 4325
+"imp.ml" 133 4372 4435 "imp.ml" 133 4372 4436
 type(
   string
 )
 ident(
-  int_ref n "imp.ml" 110 3549 3560 "imp.ml" 110 3549 3561
+  int_ref n "imp.ml" 117 3625 3636 "imp.ml" 117 3625 3637
 )
-"imp.ml" 124 4261 4327 "imp.ml" 124 4261 4331
+"imp.ml" 133 4372 4438 "imp.ml" 133 4372 4442
 type(
   Imp_ast.atom
 )
 ident(
-  int_ref atom "imp.ml" 124 4261 4315 "imp.ml" 124 4261 4319
+  int_ref atom "imp.ml" 133 4372 4426 "imp.ml" 133 4372 4430
 )
-"imp.ml" 124 4261 4323 "imp.ml" 124 4261 4332
+"imp.ml" 133 4372 4434 "imp.ml" 133 4372 4443
 type(
   string * Imp_ast.atom
 )
-"imp.ml" 124 4261 4310 "imp.ml" 124 4261 4333
+"imp.ml" 133 4372 4421 "imp.ml" 133 4372 4444
 type(
   Imp_ast.atom -> string * Imp_ast.atom
 )
-"imp.ml" 124 4261 4334 "imp.ml" 124 4261 4336
+"imp.ml" 133 4372 4445 "imp.ml" 133 4372 4447
 type(
   Imp_ast.atom list
 )
 ident(
-  int_ref ae "imp.ml" 124 4261 4295 "imp.ml" 124 4261 4297
+  int_ref ae "imp.ml" 133 4372 4406 "imp.ml" 133 4372 4408
 )
-"imp.ml" 124 4261 4301 "imp.ml" 124 4261 4336
+"imp.ml" 133 4372 4412 "imp.ml" 133 4372 4447
 type(
   (string * Imp_ast.atom) list
 )
-"imp.ml" 124 4261 4290 "imp.ml" 124 4261 4338
+"imp.ml" 133 4372 4401 "imp.ml" 133 4372 4449
 type(
   Imp_ast.atom list -> (string * Imp_ast.atom) list
 )
-"imp.ml" 124 4261 4339 "imp.ml" 124 4261 4342
+"imp.ml" 133 4372 4450 "imp.ml" 133 4372 4453
 type(
   Imp_ast.atom list list
 )
 ident(
-  int_ref ael "imp.ml" 123 4204 4211 "imp.ml" 123 4204 4214
+  int_ref ael "imp.ml" 132 4312 4322 "imp.ml" 132 4312 4325
 )
-"imp.ml" 124 4261 4281 "imp.ml" 124 4261 4342
+"imp.ml" 133 4372 4392 "imp.ml" 133 4372 4453
 type(
   (string * Imp_ast.atom) list list
 )
-"imp.ml" 125 4346 4353 "imp.ml" 125 4346 4367
+"imp.ml" 135 4537 4547 "imp.ml" 135 4537 4561
 type(
   (string * Imp_ast.atom) list
 )
 ident(
-  def new_update_acc "imp.ml" 126 4439 4445 "imp.ml" 126 4439 4503
+  def new_update_acc "imp.ml" 136 4633 4639 "imp.ml" 136 4633 4697
 )
-"imp.ml" 125 4346 4370 "imp.ml" 125 4346 4385
+"imp.ml" 135 4537 4564 "imp.ml" 135 4537 4579
 type(
   ((string * Imp_ast.atom) list ->
    (string * Imp_ast.atom) list -> (string * Imp_ast.atom) list) ->
@@ -2449,21 +2437,21 @@ type(
 ident(
   int_ref Stdlib.List.fold_right "list.mli" 155 5850 5850 "list.mli" 155 5850 5906
 )
-"imp.ml" 125 4346 4391 "imp.ml" 125 4346 4392
+"imp.ml" 135 4537 4585 "imp.ml" 135 4537 4586
 type(
   (string * Imp_ast.atom) list
 )
 ident(
-  def a "imp.ml" 125 4346 4393 "imp.ml" 125 4346 4412
+  def a "imp.ml" 135 4537 4587 "imp.ml" 135 4537 4606
 )
-"imp.ml" 125 4346 4393 "imp.ml" 125 4346 4394
+"imp.ml" 135 4537 4587 "imp.ml" 135 4537 4588
 type(
   (string * Imp_ast.atom) list
 )
 ident(
-  def b "imp.ml" 125 4346 4397 "imp.ml" 125 4346 4412
+  def b "imp.ml" 135 4537 4591 "imp.ml" 135 4537 4606
 )
-"imp.ml" 125 4346 4397 "imp.ml" 125 4346 4408
+"imp.ml" 135 4537 4591 "imp.ml" 135 4537 4602
 type(
   (string * Imp_ast.atom) list ->
   (string * Imp_ast.atom) list -> (string * Imp_ast.atom) list
@@ -2471,241 +2459,246 @@ type(
 ident(
   int_ref Stdlib.List.append "list.mli" 86 3450 3450 "list.mli" 86 3450 3492
 )
-"imp.ml" 125 4346 4409 "imp.ml" 125 4346 4410
+"imp.ml" 135 4537 4603 "imp.ml" 135 4537 4604
 type(
   (string * Imp_ast.atom) list
 )
 ident(
-  int_ref a "imp.ml" 125 4346 4391 "imp.ml" 125 4346 4392
+  int_ref a "imp.ml" 135 4537 4585 "imp.ml" 135 4537 4586
 )
-"imp.ml" 125 4346 4411 "imp.ml" 125 4346 4412
+"imp.ml" 135 4537 4605 "imp.ml" 135 4537 4606
 type(
   (string * Imp_ast.atom) list
 )
 ident(
-  int_ref b "imp.ml" 125 4346 4393 "imp.ml" 125 4346 4394
+  int_ref b "imp.ml" 135 4537 4587 "imp.ml" 135 4537 4588
 )
-"imp.ml" 125 4346 4397 "imp.ml" 125 4346 4412
+"imp.ml" 135 4537 4591 "imp.ml" 135 4537 4606
 type(
   (string * Imp_ast.atom) list
 )
-"imp.ml" 125 4346 4386 "imp.ml" 125 4346 4413
+"imp.ml" 135 4537 4580 "imp.ml" 135 4537 4607
 type(
   (string * Imp_ast.atom) list ->
   (string * Imp_ast.atom) list -> (string * Imp_ast.atom) list
 )
-"imp.ml" 125 4346 4414 "imp.ml" 125 4346 4424
+"imp.ml" 135 4537 4608 "imp.ml" 135 4537 4618
 type(
   (string * Imp_ast.atom) list list
 )
 ident(
-  int_ref update_ael "imp.ml" 124 4261 4268 "imp.ml" 124 4261 4278
+  int_ref update_ael "imp.ml" 133 4372 4379 "imp.ml" 133 4372 4389
 )
-"imp.ml" 125 4346 4425 "imp.ml" 125 4346 4435
+"imp.ml" 135 4537 4619 "imp.ml" 135 4537 4629
 type(
   (string * Imp_ast.atom) list
 )
 ident(
   int_ref update_acc "imp.ml" 79 2195 2201 "imp.ml" 79 2195 2211
 )
-"imp.ml" 125 4346 4370 "imp.ml" 125 4346 4435
+"imp.ml" 135 4537 4564 "imp.ml" 135 4537 4629
 type(
   (string * Imp_ast.atom) list
 )
-"imp.ml" 126 4439 4445 "imp.ml" 126 4439 4456
+"imp.ml" 136 4633 4639 "imp.ml" 136 4633 4650
 type(
   Imp_ast.mem
 )
 ident(
-  int_ref new_mem_acc "imp.ml" 117 3750 3757 "imp.ml" 117 3750 3768
+  int_ref new_mem_acc "imp.ml" 125 3857 3864 "imp.ml" 125 3857 3875
 )
-"imp.ml" 126 4439 4458 "imp.ml" 126 4439 4470
+"imp.ml" 136 4633 4652 "imp.ml" 136 4633 4664
 type(
   Imp_ast.init
 )
 ident(
-  int_ref new_init_acc "imp.ml" 120 3994 4001 "imp.ml" 120 3994 4013
+  int_ref new_init_acc "imp.ml" 128 4101 4108 "imp.ml" 128 4101 4120
 )
-"imp.ml" 126 4439 4472 "imp.ml" 126 4439 4487
+"imp.ml" 136 4633 4666 "imp.ml" 136 4633 4681
 type(
   Imp_ast.m_equation list
 )
 ident(
-  int_ref new_compute_acc "imp.ml" 122 4143 4150 "imp.ml" 122 4143 4165
+  int_ref new_compute_acc "imp.ml" 130 4250 4257 "imp.ml" 130 4250 4272
 )
-"imp.ml" 126 4439 4489 "imp.ml" 126 4439 4503
+"imp.ml" 136 4633 4683 "imp.ml" 136 4633 4697
 type(
   (string * Imp_ast.atom) list
 )
 ident(
-  int_ref new_update_acc "imp.ml" 125 4346 4353 "imp.ml" 125 4346 4367
+  int_ref new_update_acc "imp.ml" 135 4537 4547 "imp.ml" 135 4537 4561
 )
-"imp.ml" 126 4439 4445 "imp.ml" 126 4439 4503
+"imp.ml" 136 4633 4639 "imp.ml" 136 4633 4697
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 125 4346 4349 "imp.ml" 126 4439 4503
+"imp.ml" 135 4537 4543 "imp.ml" 136 4633 4697
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 124 4261 4264 "imp.ml" 126 4439 4503
+"imp.ml" 133 4372 4375 "imp.ml" 136 4633 4697
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 123 4204 4207 "imp.ml" 126 4439 4503
+"imp.ml" 132 4312 4318 "imp.ml" 136 4633 4697
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 122 4143 4146 "imp.ml" 126 4439 4503
+"imp.ml" 130 4250 4253 "imp.ml" 136 4633 4697
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 120 3994 3997 "imp.ml" 126 4439 4503
+"imp.ml" 128 4101 4104 "imp.ml" 136 4633 4697
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 119 3913 3916 "imp.ml" 126 4439 4503
+"imp.ml" 127 4020 4023 "imp.ml" 136 4633 4697
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 118 3849 3852 "imp.ml" 126 4439 4503
+"imp.ml" 126 3956 3959 "imp.ml" 136 4633 4697
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 117 3750 3753 "imp.ml" 126 4439 4503
+"imp.ml" 125 3857 3860 "imp.ml" 136 4633 4697
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 113 3619 3620 "imp.ml" 127 4515 4519
+"imp.ml" 123 3774 3777 "imp.ml" 136 4633 4697
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 130 4523 4527 "imp.ml" 130 4523 4528
+"imp.ml" 120 3695 3696 "imp.ml" 137 4709 4713
+type(
+  Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
+  (string * Imp_ast.atom) list
+)
+"imp.ml" 140 4717 4721 "imp.ml" 140 4717 4722
 type(
   Typed_ast.t_expr_desc
 )
-"imp.ml" 131 4532 4542 "imp.ml" 131 4532 4544
+"imp.ml" 141 4726 4736 "imp.ml" 141 4726 4738
 type(
   Imp_ast.m_equation
 )
 ident(
-  def eq "imp.ml" 132 4601 4607 "imp.ml" 132 4601 4653
+  def eq "imp.ml" 142 4795 4801 "imp.ml" 142 4795 4847
 )
-"imp.ml" 131 4532 4559 "imp.ml" 131 4532 4564
+"imp.ml" 141 4726 4753 "imp.ml" 141 4726 4758
 type(
   Imp_ast.tvar list
 )
 ident(
   int_ref tvars "imp.ml" 80 2246 2252 "imp.ml" 80 2246 2257
 )
-"imp.ml" 131 4532 4577 "imp.ml" 131 4532 4594
+"imp.ml" 141 4726 4771 "imp.ml" 141 4726 4788
 type(
   Typed_ast.t_expr -> Imp_ast.m_expr
 )
 ident(
   int_ref compile_base_expr "imp.ml" 28 608 616 "imp.ml" 28 608 633
 )
-"imp.ml" 131 4532 4595 "imp.ml" 131 4532 4596
+"imp.ml" 141 4726 4789 "imp.ml" 141 4726 4790
 type(
   Typed_ast.t_expr
 )
 ident(
   int_ref e "imp.ml" 75 2057 2087 "imp.ml" 75 2057 2088
 )
-"imp.ml" 131 4532 4577 "imp.ml" 131 4532 4596
+"imp.ml" 141 4726 4771 "imp.ml" 141 4726 4790
 type(
   Imp_ast.m_expr
 )
-"imp.ml" 131 4532 4547 "imp.ml" 131 4532 4597
+"imp.ml" 141 4726 4741 "imp.ml" 141 4726 4791
 type(
   Imp_ast.m_equation
 )
-"imp.ml" 132 4601 4607 "imp.ml" 132 4601 4614
+"imp.ml" 142 4795 4801 "imp.ml" 142 4795 4808
 type(
   Imp_ast.mem
 )
 ident(
   int_ref mem_acc "imp.ml" 76 2090 2096 "imp.ml" 76 2090 2103
 )
-"imp.ml" 132 4601 4616 "imp.ml" 132 4601 4624
+"imp.ml" 142 4795 4810 "imp.ml" 142 4795 4818
 type(
   Imp_ast.init
 )
 ident(
   int_ref init_acc "imp.ml" 77 2119 2125 "imp.ml" 77 2119 2133
 )
-"imp.ml" 132 4601 4626 "imp.ml" 132 4601 4628
+"imp.ml" 142 4795 4820 "imp.ml" 142 4795 4822
 type(
   Imp_ast.m_equation
 )
 ident(
-  int_ref eq "imp.ml" 131 4532 4542 "imp.ml" 131 4532 4544
+  int_ref eq "imp.ml" 141 4726 4736 "imp.ml" 141 4726 4738
 )
-"imp.ml" 132 4601 4630 "imp.ml" 132 4601 4641
+"imp.ml" 142 4795 4824 "imp.ml" 142 4795 4835
 type(
   Imp_ast.m_equation list
 )
 ident(
   int_ref compute_acc "imp.ml" 78 2150 2156 "imp.ml" 78 2150 2167
 )
-"imp.ml" 132 4601 4626 "imp.ml" 132 4601 4641
+"imp.ml" 142 4795 4820 "imp.ml" 142 4795 4835
 type(
   Imp_ast.m_equation list
 )
-"imp.ml" 132 4601 4643 "imp.ml" 132 4601 4653
+"imp.ml" 142 4795 4837 "imp.ml" 142 4795 4847
 type(
   (string * Imp_ast.atom) list
 )
 ident(
   int_ref update_acc "imp.ml" 79 2195 2201 "imp.ml" 79 2195 2211
 )
-"imp.ml" 132 4601 4607 "imp.ml" 132 4601 4653
+"imp.ml" 142 4795 4801 "imp.ml" 142 4795 4847
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 131 4532 4538 "imp.ml" 132 4601 4653
+"imp.ml" 141 4726 4732 "imp.ml" 142 4795 4847
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 81 2278 2280 "imp.ml" 132 4601 4653
+"imp.ml" 81 2278 2280 "imp.ml" 142 4795 4847
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 80 2246 2248 "imp.ml" 132 4601 4653
+"imp.ml" 80 2246 2248 "imp.ml" 142 4795 4847
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 135 4656 4660 "imp.ml" 135 4656 4677
+"imp.ml" 145 4850 4854 "imp.ml" 145 4850 4871
 type(
   Typed_ast.t_equation list ->
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
 ident(
-  def compile_equations "imp.ml" 138 4749 4749 "imp.ml" 0 0 -1
+  def compile_equations "imp.ml" 148 4943 4943 "imp.ml" 0 0 -1
 )
-"imp.ml" 135 4656 4678 "imp.ml" 135 4656 4679
+"imp.ml" 145 4850 4872 "imp.ml" 145 4850 4873
 type(
   Typed_ast.t_equation list
 )
 ident(
-  def l "imp.ml" 136 4682 4684 "imp.ml" 136 4682 4747
+  def l "imp.ml" 146 4876 4878 "imp.ml" 146 4876 4941
 )
-"imp.ml" 136 4682 4684 "imp.ml" 136 4682 4699
+"imp.ml" 146 4876 4878 "imp.ml" 146 4876 4893
 type(
   (Typed_ast.t_equation ->
    Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
@@ -2721,7 +2714,7 @@ type(
 ident(
   int_ref Stdlib.List.fold_right "list.mli" 155 5850 5850 "list.mli" 155 5850 5906
 )
-"imp.ml" 136 4682 4700 "imp.ml" 136 4682 4716
+"imp.ml" 146 4876 4894 "imp.ml" 146 4876 4910
 type(
   Typed_ast.t_equation ->
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
@@ -2732,241 +2725,241 @@ type(
 ident(
   int_ref compile_equation "imp.ml" 74 2036 2040 "imp.ml" 74 2036 2056
 )
-"imp.ml" 136 4682 4717 "imp.ml" 136 4682 4718
+"imp.ml" 146 4876 4911 "imp.ml" 146 4876 4912
 type(
   Typed_ast.t_equation list
 )
 ident(
-  int_ref l "imp.ml" 135 4656 4678 "imp.ml" 135 4656 4679
+  int_ref l "imp.ml" 145 4850 4872 "imp.ml" 145 4850 4873
 )
-"imp.ml" 136 4682 4720 "imp.ml" 136 4682 4729
+"imp.ml" 146 4876 4914 "imp.ml" 146 4876 4923
 type(
   Imp_ast.mem
 )
 ident(
   int_ref empty_mem "imp.ml" 13 208 212 "imp.ml" 13 208 221
 )
-"imp.ml" 136 4682 4730 "imp.ml" 136 4682 4740
+"imp.ml" 146 4876 4924 "imp.ml" 146 4876 4934
 type(
   Imp_ast.init
 )
 ident(
   int_ref empty_init "imp.ml" 15 257 261 "imp.ml" 15 257 271
 )
-"imp.ml" 136 4682 4741 "imp.ml" 136 4682 4743
+"imp.ml" 146 4876 4935 "imp.ml" 146 4876 4937
 type(
   Imp_ast.m_equation list
 )
-"imp.ml" 136 4682 4744 "imp.ml" 136 4682 4746
+"imp.ml" 146 4876 4938 "imp.ml" 146 4876 4940
 type(
   (string * Imp_ast.atom) list
 )
-"imp.ml" 136 4682 4719 "imp.ml" 136 4682 4747
-type(
-  Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
-  (string * Imp_ast.atom) list
-)
-"imp.ml" 136 4682 4684 "imp.ml" 136 4682 4747
+"imp.ml" 146 4876 4913 "imp.ml" 146 4876 4941
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 138 4749 4753 "imp.ml" 138 4749 4765
+"imp.ml" 146 4876 4878 "imp.ml" 146 4876 4941
+type(
+  Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
+  (string * Imp_ast.atom) list
+)
+"imp.ml" 148 4943 4947 "imp.ml" 148 4943 4959
 type(
   Typed_ast.t_node -> Imp_ast.m_node
 )
 ident(
-  def compile_node "imp.ml" 151 5117 5117 "imp.ml" 0 0 -1
+  def compile_node "imp.ml" 161 5311 5311 "imp.ml" 0 0 -1
 )
-"imp.ml" 138 4749 4766 "imp.ml" 138 4749 4767
+"imp.ml" 148 4943 4960 "imp.ml" 148 4943 4961
 type(
   Typed_ast.t_node
 )
 ident(
-  def n "imp.ml" 139 4770 4772 "imp.ml" 149 5091 5115
+  def n "imp.ml" 149 4964 4966 "imp.ml" 159 5285 5309
 )
-"imp.ml" 139 4770 4776 "imp.ml" 139 4770 4786
+"imp.ml" 149 4964 4970 "imp.ml" 149 4964 4980
 type(
   Typed_ast.typed_var list
 )
 ident(
-  def input_step "imp.ml" 140 4803 4805 "imp.ml" 149 5091 5115
+  def input_step "imp.ml" 150 4997 4999 "imp.ml" 159 5285 5309
 )
-"imp.ml" 139 4770 4789 "imp.ml" 139 4770 4790
+"imp.ml" 149 4964 4983 "imp.ml" 149 4964 4984
 type(
   Typed_ast.t_node
 )
 ident(
-  int_ref n "imp.ml" 138 4749 4766 "imp.ml" 138 4749 4767
+  int_ref n "imp.ml" 148 4943 4960 "imp.ml" 148 4943 4961
 )
-"imp.ml" 139 4770 4789 "imp.ml" 139 4770 4799
+"imp.ml" 149 4964 4983 "imp.ml" 149 4964 4993
 type(
   Typed_ast.typed_var list
 )
-"imp.ml" 140 4803 4809 "imp.ml" 140 4803 4820
+"imp.ml" 150 4997 5003 "imp.ml" 150 4997 5014
 type(
   Typed_ast.typed_var list
 )
 ident(
-  def output_step "imp.ml" 141 4838 4840 "imp.ml" 149 5091 5115
+  def output_step "imp.ml" 151 5032 5034 "imp.ml" 159 5285 5309
 )
-"imp.ml" 140 4803 4823 "imp.ml" 140 4803 4824
+"imp.ml" 150 4997 5017 "imp.ml" 150 4997 5018
 type(
   Typed_ast.t_node
 )
 ident(
-  int_ref n "imp.ml" 138 4749 4766 "imp.ml" 138 4749 4767
+  int_ref n "imp.ml" 148 4943 4960 "imp.ml" 148 4943 4961
 )
-"imp.ml" 140 4803 4823 "imp.ml" 140 4803 4834
+"imp.ml" 150 4997 5017 "imp.ml" 150 4997 5028
 type(
   Typed_ast.typed_var list
 )
-"imp.ml" 141 4838 4845 "imp.ml" 141 4838 4848
+"imp.ml" 151 5032 5039 "imp.ml" 151 5032 5042
 type(
   Imp_ast.mem
 )
 ident(
-  def mem "imp.ml" 142 4909 4911 "imp.ml" 149 5091 5115
+  def mem "imp.ml" 152 5103 5105 "imp.ml" 159 5285 5309
 )
-"imp.ml" 141 4838 4851 "imp.ml" 141 4838 4855
+"imp.ml" 151 5032 5045 "imp.ml" 151 5032 5049
 type(
   Imp_ast.init
 )
 ident(
-  def init "imp.ml" 142 4909 4911 "imp.ml" 149 5091 5115
+  def init "imp.ml" 152 5103 5105 "imp.ml" 159 5285 5309
 )
-"imp.ml" 141 4838 4858 "imp.ml" 141 4838 4865
+"imp.ml" 151 5032 5052 "imp.ml" 151 5032 5059
 type(
   Imp_ast.m_equation list
 )
 ident(
-  def compute "imp.ml" 142 4909 4911 "imp.ml" 149 5091 5115
+  def compute "imp.ml" 152 5103 5105 "imp.ml" 159 5285 5309
 )
-"imp.ml" 141 4838 4868 "imp.ml" 141 4838 4874
+"imp.ml" 151 5032 5062 "imp.ml" 151 5032 5068
 type(
   (string * Imp_ast.atom) list
 )
 ident(
-  def update "imp.ml" 142 4909 4911 "imp.ml" 149 5091 5115
+  def update "imp.ml" 152 5103 5105 "imp.ml" 159 5285 5309
 )
-"imp.ml" 141 4838 4844 "imp.ml" 141 4838 4875
+"imp.ml" 151 5032 5038 "imp.ml" 151 5032 5069
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 141 4838 4878 "imp.ml" 141 4838 4895
+"imp.ml" 151 5032 5072 "imp.ml" 151 5032 5089
 type(
   Typed_ast.t_equation list ->
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
 ident(
-  int_ref compile_equations "imp.ml" 135 4656 4660 "imp.ml" 135 4656 4677
+  int_ref compile_equations "imp.ml" 145 4850 4854 "imp.ml" 145 4850 4871
 )
-"imp.ml" 141 4838 4896 "imp.ml" 141 4838 4897
+"imp.ml" 151 5032 5090 "imp.ml" 151 5032 5091
 type(
   Typed_ast.t_node
 )
 ident(
-  int_ref n "imp.ml" 138 4749 4766 "imp.ml" 138 4749 4767
+  int_ref n "imp.ml" 148 4943 4960 "imp.ml" 148 4943 4961
 )
-"imp.ml" 141 4838 4896 "imp.ml" 141 4838 4905
+"imp.ml" 151 5032 5090 "imp.ml" 151 5032 5099
 type(
   Typed_ast.t_equation list
 )
-"imp.ml" 141 4838 4878 "imp.ml" 141 4838 4905
+"imp.ml" 151 5032 5072 "imp.ml" 151 5032 5099
 type(
   Imp_ast.mem * Imp_ast.init * Imp_ast.m_equation list *
   (string * Imp_ast.atom) list
 )
-"imp.ml" 142 4909 4923 "imp.ml" 142 4909 4924
+"imp.ml" 152 5103 5117 "imp.ml" 152 5103 5118
 type(
   Typed_ast.t_node
 )
 ident(
-  int_ref n "imp.ml" 138 4749 4766 "imp.ml" 138 4749 4767
+  int_ref n "imp.ml" 148 4943 4960 "imp.ml" 148 4943 4961
 )
-"imp.ml" 142 4909 4923 "imp.ml" 142 4909 4932
+"imp.ml" 152 5103 5117 "imp.ml" 152 5103 5126
 type(
   string
 )
-"imp.ml" 143 4934 4954 "imp.ml" 143 4934 4964
+"imp.ml" 153 5128 5148 "imp.ml" 153 5128 5158
 type(
   Imp_ast.tvar list
 )
 ident(
-  int_ref input_step "imp.ml" 139 4770 4776 "imp.ml" 139 4770 4786
+  int_ref input_step "imp.ml" 149 4964 4970 "imp.ml" 149 4964 4980
 )
-"imp.ml" 144 4966 4987 "imp.ml" 144 4966 4998
+"imp.ml" 154 5160 5181 "imp.ml" 154 5160 5192
 type(
   Imp_ast.tvar list
 )
 ident(
-  int_ref output_step "imp.ml" 140 4803 4809 "imp.ml" 140 4803 4820
+  int_ref output_step "imp.ml" 150 4997 5003 "imp.ml" 150 4997 5014
 )
-"imp.ml" 145 5000 5015 "imp.ml" 145 5000 5016
+"imp.ml" 155 5194 5209 "imp.ml" 155 5194 5210
 type(
   Typed_ast.t_node
 )
 ident(
-  int_ref n "imp.ml" 138 4749 4766 "imp.ml" 138 4749 4767
+  int_ref n "imp.ml" 148 4943 4960 "imp.ml" 148 4943 4961
 )
-"imp.ml" 145 5000 5015 "imp.ml" 145 5000 5025
+"imp.ml" 155 5194 5209 "imp.ml" 155 5194 5219
 type(
   Imp_ast.tvar list
 )
-"imp.ml" 146 5027 5040 "imp.ml" 146 5027 5043
+"imp.ml" 156 5221 5234 "imp.ml" 156 5221 5237
 type(
   Imp_ast.mem
 )
 ident(
-  int_ref mem "imp.ml" 141 4838 4845 "imp.ml" 141 4838 4848
+  int_ref mem "imp.ml" 151 5032 5039 "imp.ml" 151 5032 5042
 )
-"imp.ml" 147 5045 5059 "imp.ml" 147 5045 5063
+"imp.ml" 157 5239 5253 "imp.ml" 157 5239 5257
 type(
   Imp_ast.init
 )
 ident(
-  int_ref init "imp.ml" 141 4838 4851 "imp.ml" 141 4838 4855
+  int_ref init "imp.ml" 151 5032 5045 "imp.ml" 151 5032 5049
 )
-"imp.ml" 148 5065 5082 "imp.ml" 148 5065 5089
+"imp.ml" 158 5259 5276 "imp.ml" 158 5259 5283
 type(
   Imp_ast.m_equation list
 )
 ident(
-  int_ref compute "imp.ml" 141 4838 4858 "imp.ml" 141 4838 4865
+  int_ref compute "imp.ml" 151 5032 5052 "imp.ml" 151 5032 5059
 )
-"imp.ml" 149 5091 5107 "imp.ml" 149 5091 5113
+"imp.ml" 159 5285 5301 "imp.ml" 159 5285 5307
 type(
   (string * Imp_ast.atom) list
 )
 ident(
-  int_ref update "imp.ml" 141 4838 4868 "imp.ml" 141 4838 4874
+  int_ref update "imp.ml" 151 5032 5062 "imp.ml" 151 5032 5068
 )
-"imp.ml" 142 4909 4911 "imp.ml" 149 5091 5115
+"imp.ml" 152 5103 5105 "imp.ml" 159 5285 5309
 type(
   Imp_ast.m_node
 )
-"imp.ml" 141 4838 4840 "imp.ml" 149 5091 5115
+"imp.ml" 151 5032 5034 "imp.ml" 159 5285 5309
 type(
   Imp_ast.m_node
 )
-"imp.ml" 140 4803 4805 "imp.ml" 149 5091 5115
+"imp.ml" 150 4997 4999 "imp.ml" 159 5285 5309
 type(
   Imp_ast.m_node
 )
-"imp.ml" 139 4770 4772 "imp.ml" 149 5091 5115
+"imp.ml" 149 4964 4966 "imp.ml" 159 5285 5309
 type(
   Imp_ast.m_node
 )
-"imp.ml" 151 5117 5121 "imp.ml" 151 5117 5128
+"imp.ml" 161 5311 5315 "imp.ml" 161 5311 5322
 type(
   Typed_ast.t_node list -> Imp_ast.m_node list
 )
 ident(
-  def compile "imp.ml" 153 5154 5154 "imp.ml" 0 0 -1
+  def compile "imp.ml" 163 5348 5348 "imp.ml" 0 0 -1
 )
-"imp.ml" 151 5117 5131 "imp.ml" 151 5117 5139
+"imp.ml" 161 5311 5325 "imp.ml" 161 5311 5333
 type(
   (Typed_ast.t_node -> Imp_ast.m_node) ->
   Typed_ast.t_node list -> Imp_ast.m_node list
@@ -2974,402 +2967,402 @@ type(
 ident(
   int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
 )
-"imp.ml" 151 5117 5140 "imp.ml" 151 5117 5152
+"imp.ml" 161 5311 5334 "imp.ml" 161 5311 5346
 type(
   Typed_ast.t_node -> Imp_ast.m_node
 )
 ident(
-  int_ref compile_node "imp.ml" 138 4749 4753 "imp.ml" 138 4749 4765
+  int_ref compile_node "imp.ml" 148 4943 4947 "imp.ml" 148 4943 4959
 )
-"imp.ml" 151 5117 5131 "imp.ml" 151 5117 5152
+"imp.ml" 161 5311 5325 "imp.ml" 161 5311 5346
 type(
   Typed_ast.t_node list -> Imp_ast.m_node list
 )
-"imp.ml" 153 5154 5158 "imp.ml" 153 5154 5169
+"imp.ml" 163 5348 5352 "imp.ml" 163 5348 5363
 type(
   string -> string
 )
 ident(
-  def gen_node_id "imp.ml" 157 5244 5244 "imp.ml" 0 0 -1
+  def gen_node_id "imp.ml" 167 5438 5438 "imp.ml" 0 0 -1
 )
-"imp.ml" 154 5172 5178 "imp.ml" 154 5172 5181
+"imp.ml" 164 5366 5372 "imp.ml" 164 5366 5375
 type(
   int ref
 )
 ident(
-  def cpt "imp.ml" 155 5193 5195 "imp.ml" 155 5193 5242
+  def cpt "imp.ml" 165 5387 5389 "imp.ml" 165 5387 5436
 )
-"imp.ml" 154 5172 5184 "imp.ml" 154 5172 5187
+"imp.ml" 164 5366 5378 "imp.ml" 164 5366 5381
 type(
   int -> int ref
 )
 ident(
   int_ref Stdlib.ref "stdlib.mli" 1162 44439 44439 "stdlib.mli" 1162 44439 44483
 )
-"imp.ml" 154 5172 5188 "imp.ml" 154 5172 5189
+"imp.ml" 164 5366 5382 "imp.ml" 164 5366 5383
 type(
   int
 )
-"imp.ml" 154 5172 5184 "imp.ml" 154 5172 5189
+"imp.ml" 164 5366 5378 "imp.ml" 164 5366 5383
 type(
   int ref
 )
-"imp.ml" 155 5193 5199 "imp.ml" 155 5193 5200
+"imp.ml" 165 5387 5393 "imp.ml" 165 5387 5394
 type(
   string
 )
 ident(
-  def s "imp.ml" 155 5193 5204 "imp.ml" 155 5193 5242
+  def s "imp.ml" 165 5387 5398 "imp.ml" 165 5387 5436
 )
-"imp.ml" 155 5193 5204 "imp.ml" 155 5193 5208
+"imp.ml" 165 5387 5398 "imp.ml" 165 5387 5402
 type(
   int ref -> unit
 )
 ident(
   int_ref Stdlib.incr "stdlib.mli" 1177 44987 44987 "stdlib.mli" 1177 44987 45028
 )
-"imp.ml" 155 5193 5209 "imp.ml" 155 5193 5212
+"imp.ml" 165 5387 5403 "imp.ml" 165 5387 5406
 type(
   int ref
 )
 ident(
-  int_ref cpt "imp.ml" 154 5172 5178 "imp.ml" 154 5172 5181
+  int_ref cpt "imp.ml" 164 5366 5372 "imp.ml" 164 5366 5375
 )
-"imp.ml" 155 5193 5204 "imp.ml" 155 5193 5212
+"imp.ml" 165 5387 5398 "imp.ml" 165 5387 5406
 type(
   unit
 )
-"imp.ml" 155 5193 5215 "imp.ml" 155 5193 5216
+"imp.ml" 165 5387 5409 "imp.ml" 165 5387 5410
 type(
   string
 )
 ident(
-  int_ref s "imp.ml" 155 5193 5199 "imp.ml" 155 5193 5200
+  int_ref s "imp.ml" 165 5387 5393 "imp.ml" 165 5387 5394
 )
-"imp.ml" 155 5193 5216 "imp.ml" 155 5193 5217
+"imp.ml" 165 5387 5410 "imp.ml" 165 5387 5411
 type(
   string -> string -> string
 )
 ident(
   int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
-"imp.ml" 155 5193 5217 "imp.ml" 155 5193 5221
+"imp.ml" 165 5387 5411 "imp.ml" 165 5387 5415
 type(
   string
 )
-"imp.ml" 155 5193 5221 "imp.ml" 155 5193 5222
+"imp.ml" 165 5387 5415 "imp.ml" 165 5387 5416
 type(
   string -> string -> string
 )
 ident(
   int_ref Stdlib.( ^ ) "stdlib.mli" 664 25424 25424 "stdlib.mli" 664 25424 25462
 )
-"imp.ml" 155 5193 5223 "imp.ml" 155 5193 5236
+"imp.ml" 165 5387 5417 "imp.ml" 165 5387 5430
 type(
   int -> string
 )
 ident(
   int_ref Stdlib.string_of_int "stdlib.mli" 712 26848 26848 "stdlib.mli" 712 26848 26881
 )
-"imp.ml" 155 5193 5237 "imp.ml" 155 5193 5238
+"imp.ml" 165 5387 5431 "imp.ml" 165 5387 5432
 type(
   int ref -> int
 )
 ident(
   int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
-"imp.ml" 155 5193 5238 "imp.ml" 155 5193 5241
+"imp.ml" 165 5387 5432 "imp.ml" 165 5387 5435
 type(
   int ref
 )
 ident(
-  int_ref cpt "imp.ml" 154 5172 5178 "imp.ml" 154 5172 5181
+  int_ref cpt "imp.ml" 164 5366 5372 "imp.ml" 164 5366 5375
 )
-"imp.ml" 155 5193 5237 "imp.ml" 155 5193 5241
+"imp.ml" 165 5387 5431 "imp.ml" 165 5387 5435
 type(
   int
 )
-"imp.ml" 155 5193 5222 "imp.ml" 155 5193 5242
+"imp.ml" 165 5387 5416 "imp.ml" 165 5387 5436
 type(
   string
 )
-"imp.ml" 155 5193 5217 "imp.ml" 155 5193 5242
+"imp.ml" 165 5387 5411 "imp.ml" 165 5387 5436
 type(
   string
 )
-"imp.ml" 155 5193 5215 "imp.ml" 155 5193 5242
+"imp.ml" 165 5387 5409 "imp.ml" 165 5387 5436
 type(
   string
 )
-"imp.ml" 155 5193 5204 "imp.ml" 155 5193 5242
+"imp.ml" 165 5387 5398 "imp.ml" 165 5387 5436
 type(
   string
 )
-"imp.ml" 155 5193 5195 "imp.ml" 155 5193 5242
+"imp.ml" 165 5387 5389 "imp.ml" 165 5387 5436
 type(
   string -> string
 )
-"imp.ml" 154 5172 5174 "imp.ml" 155 5193 5242
+"imp.ml" 164 5366 5368 "imp.ml" 165 5387 5436
 type(
   string -> string
 )
-"imp.ml" 157 5244 5248 "imp.ml" 157 5244 5259
+"imp.ml" 167 5438 5442 "imp.ml" 167 5438 5453
 type(
   (string * string) list -> Imp_ast.m_expr -> Imp_ast.m_expr
 )
 ident(
-  def rename_expr "imp.ml" 163 5398 5398 "imp.ml" 0 0 -1
+  def rename_expr "imp.ml" 173 5592 5592 "imp.ml" 0 0 -1
 )
-"imp.ml" 157 5244 5260 "imp.ml" 157 5244 5263
+"imp.ml" 167 5438 5454 "imp.ml" 167 5438 5457
 type(
   (string * string) list
 )
 ident(
-  def env "imp.ml" 157 5244 5264 "imp.ml" 161 5386 5396
+  def env "imp.ml" 167 5438 5458 "imp.ml" 171 5580 5590
 )
-"imp.ml" 157 5244 5264 "imp.ml" 157 5244 5265
+"imp.ml" 167 5438 5458 "imp.ml" 167 5438 5459
 type(
   Imp_ast.m_expr
 )
 ident(
-  def e "imp.ml" 158 5268 5270 "imp.ml" 161 5386 5396
+  def e "imp.ml" 168 5462 5464 "imp.ml" 171 5580 5590
 )
-"imp.ml" 158 5268 5276 "imp.ml" 158 5268 5277
+"imp.ml" 168 5462 5470 "imp.ml" 168 5462 5471
 type(
   Imp_ast.m_expr
 )
 ident(
-  int_ref e "imp.ml" 157 5244 5264 "imp.ml" 157 5244 5265
+  int_ref e "imp.ml" 167 5438 5458 "imp.ml" 167 5438 5459
 )
-"imp.ml" 158 5268 5276 "imp.ml" 158 5268 5288
+"imp.ml" 168 5462 5470 "imp.ml" 168 5462 5482
 type(
   Imp_ast.m_expr_desc
 )
-"imp.ml" 159 5294 5305 "imp.ml" 159 5294 5306
+"imp.ml" 169 5488 5499 "imp.ml" 169 5488 5500
 type(
   string
 )
 ident(
-  def f "imp.ml" 160 5320 5326 "imp.ml" 160 5320 5385
+  def f "imp.ml" 170 5514 5520 "imp.ml" 170 5514 5579
 )
-"imp.ml" 159 5294 5307 "imp.ml" 159 5294 5310
+"imp.ml" 169 5488 5501 "imp.ml" 169 5488 5504
 type(
   string
 )
 ident(
-  def mem "imp.ml" 160 5320 5326 "imp.ml" 160 5320 5385
+  def mem "imp.ml" 170 5514 5520 "imp.ml" 170 5514 5579
 )
-"imp.ml" 159 5294 5311 "imp.ml" 159 5294 5315
+"imp.ml" 169 5488 5505 "imp.ml" 169 5488 5509
 type(
   Imp_ast.m_expr list
 )
 ident(
-  def args "imp.ml" 160 5320 5326 "imp.ml" 160 5320 5385
+  def args "imp.ml" 170 5514 5520 "imp.ml" 170 5514 5579
 )
-"imp.ml" 159 5294 5298 "imp.ml" 159 5294 5316
+"imp.ml" 169 5488 5492 "imp.ml" 169 5488 5510
 type(
   Imp_ast.m_expr_desc
 )
-"imp.ml" 160 5320 5328 "imp.ml" 160 5320 5329
+"imp.ml" 170 5514 5522 "imp.ml" 170 5514 5523
 type(
   Imp_ast.m_expr
 )
 ident(
-  int_ref e "imp.ml" 157 5244 5264 "imp.ml" 157 5244 5265
+  int_ref e "imp.ml" 167 5438 5458 "imp.ml" 167 5438 5459
 )
-"imp.ml" 160 5320 5355 "imp.ml" 160 5320 5365
+"imp.ml" 170 5514 5549 "imp.ml" 170 5514 5559
 type(
   string -> (string * string) list -> string
 )
 ident(
   int_ref Stdlib.List.assoc "list.mli" 266 9876 9876 "list.mli" 266 9876 9914
 )
-"imp.ml" 160 5320 5366 "imp.ml" 160 5320 5367
+"imp.ml" 170 5514 5560 "imp.ml" 170 5514 5561
 type(
   string
 )
 ident(
-  int_ref f "imp.ml" 159 5294 5305 "imp.ml" 159 5294 5306
+  int_ref f "imp.ml" 169 5488 5499 "imp.ml" 169 5488 5500
 )
-"imp.ml" 160 5320 5368 "imp.ml" 160 5320 5371
+"imp.ml" 170 5514 5562 "imp.ml" 170 5514 5565
 type(
   (string * string) list
 )
 ident(
-  int_ref env "imp.ml" 157 5244 5260 "imp.ml" 157 5244 5263
+  int_ref env "imp.ml" 167 5438 5454 "imp.ml" 167 5438 5457
 )
-"imp.ml" 160 5320 5355 "imp.ml" 160 5320 5371
+"imp.ml" 170 5514 5549 "imp.ml" 170 5514 5565
 type(
   string
 )
-"imp.ml" 160 5320 5373 "imp.ml" 160 5320 5376
+"imp.ml" 170 5514 5567 "imp.ml" 170 5514 5570
 type(
   string
 )
 ident(
-  int_ref mem "imp.ml" 159 5294 5307 "imp.ml" 159 5294 5310
+  int_ref mem "imp.ml" 169 5488 5501 "imp.ml" 169 5488 5504
 )
-"imp.ml" 160 5320 5378 "imp.ml" 160 5320 5382
+"imp.ml" 170 5514 5572 "imp.ml" 170 5514 5576
 type(
   Imp_ast.m_expr list
 )
 ident(
-  int_ref args "imp.ml" 159 5294 5311 "imp.ml" 159 5294 5315
+  int_ref args "imp.ml" 169 5488 5505 "imp.ml" 169 5488 5509
 )
-"imp.ml" 160 5320 5348 "imp.ml" 160 5320 5383
+"imp.ml" 170 5514 5542 "imp.ml" 170 5514 5577
 type(
   Imp_ast.m_expr_desc
 )
-"imp.ml" 160 5320 5326 "imp.ml" 160 5320 5385
+"imp.ml" 170 5514 5520 "imp.ml" 170 5514 5579
 type(
   Imp_ast.m_expr
 )
-"imp.ml" 161 5386 5390 "imp.ml" 161 5386 5391
+"imp.ml" 171 5580 5584 "imp.ml" 171 5580 5585
 type(
   Imp_ast.m_expr_desc
 )
-"imp.ml" 161 5386 5395 "imp.ml" 161 5386 5396
+"imp.ml" 171 5580 5589 "imp.ml" 171 5580 5590
 type(
   Imp_ast.m_expr
 )
 ident(
-  int_ref e "imp.ml" 157 5244 5264 "imp.ml" 157 5244 5265
+  int_ref e "imp.ml" 167 5438 5458 "imp.ml" 167 5438 5459
 )
-"imp.ml" 158 5268 5270 "imp.ml" 161 5386 5396
+"imp.ml" 168 5462 5464 "imp.ml" 171 5580 5590
 type(
   Imp_ast.m_expr
 )
-"imp.ml" 163 5398 5402 "imp.ml" 163 5398 5417
+"imp.ml" 173 5592 5596 "imp.ml" 173 5592 5611
 type(
   (string * string) list -> Imp_ast.m_equation -> Imp_ast.m_equation
 )
 ident(
-  def rename_equation "imp.ml" 166 5482 5482 "imp.ml" 0 0 -1
+  def rename_equation "imp.ml" 176 5676 5676 "imp.ml" 0 0 -1
 )
-"imp.ml" 163 5398 5418 "imp.ml" 163 5398 5421
+"imp.ml" 173 5592 5612 "imp.ml" 173 5592 5615
 type(
   (string * string) list
 )
 ident(
-  def env "imp.ml" 163 5398 5422 "imp.ml" 164 5427 5480
+  def env "imp.ml" 173 5592 5616 "imp.ml" 174 5621 5674
 )
-"imp.ml" 163 5398 5422 "imp.ml" 163 5398 5424
+"imp.ml" 173 5592 5616 "imp.ml" 173 5592 5618
 type(
   Imp_ast.m_equation
 )
 ident(
-  def eq "imp.ml" 164 5427 5429 "imp.ml" 164 5427 5480
+  def eq "imp.ml" 174 5621 5623 "imp.ml" 174 5621 5674
 )
-"imp.ml" 164 5427 5431 "imp.ml" 164 5427 5433
+"imp.ml" 174 5621 5625 "imp.ml" 174 5621 5627
 type(
   Imp_ast.m_equation
 )
 ident(
-  int_ref eq "imp.ml" 163 5398 5422 "imp.ml" 163 5398 5424
+  int_ref eq "imp.ml" 173 5592 5616 "imp.ml" 173 5592 5618
 )
-"imp.ml" 164 5427 5450 "imp.ml" 164 5427 5461
+"imp.ml" 174 5621 5644 "imp.ml" 174 5621 5655
 type(
   (string * string) list -> Imp_ast.m_expr -> Imp_ast.m_expr
 )
 ident(
-  int_ref rename_expr "imp.ml" 157 5244 5248 "imp.ml" 157 5244 5259
+  int_ref rename_expr "imp.ml" 167 5438 5442 "imp.ml" 167 5438 5453
 )
-"imp.ml" 164 5427 5462 "imp.ml" 164 5427 5465
+"imp.ml" 174 5621 5656 "imp.ml" 174 5621 5659
 type(
   (string * string) list
 )
 ident(
-  int_ref env "imp.ml" 163 5398 5418 "imp.ml" 163 5398 5421
+  int_ref env "imp.ml" 173 5592 5612 "imp.ml" 173 5592 5615
 )
-"imp.ml" 164 5427 5466 "imp.ml" 164 5427 5468
+"imp.ml" 174 5621 5660 "imp.ml" 174 5621 5662
 type(
   Imp_ast.m_equation
 )
 ident(
-  int_ref eq "imp.ml" 163 5398 5422 "imp.ml" 163 5398 5424
+  int_ref eq "imp.ml" 173 5592 5616 "imp.ml" 173 5592 5618
 )
-"imp.ml" 164 5427 5466 "imp.ml" 164 5427 5477
+"imp.ml" 174 5621 5660 "imp.ml" 174 5621 5671
 type(
   Imp_ast.m_expr
 )
-"imp.ml" 164 5427 5450 "imp.ml" 164 5427 5477
+"imp.ml" 174 5621 5644 "imp.ml" 174 5621 5671
 type(
   Imp_ast.m_expr
 )
-"imp.ml" 164 5427 5429 "imp.ml" 164 5427 5480
+"imp.ml" 174 5621 5623 "imp.ml" 174 5621 5674
 type(
   Imp_ast.m_equation
 )
-"imp.ml" 166 5482 5486 "imp.ml" 166 5482 5497
+"imp.ml" 176 5676 5680 "imp.ml" 176 5676 5691
 type(
   (string * string) list ->
   Imp_ast.m_node -> (string * string) list * Imp_ast.m_node
 )
 ident(
-  def rename_node "imp.ml" 189 6033 6033 "imp.ml" 0 0 -1
+  def rename_node "imp.ml" 199 6227 6227 "imp.ml" 0 0 -1
 )
-"imp.ml" 166 5482 5498 "imp.ml" 166 5482 5501
+"imp.ml" 176 5676 5692 "imp.ml" 176 5676 5695
 type(
   (string * string) list
 )
 ident(
-  def env "imp.ml" 166 5482 5502 "imp.ml" 187 5997 6031
+  def env "imp.ml" 176 5676 5696 "imp.ml" 197 6191 6225
 )
-"imp.ml" 166 5482 5502 "imp.ml" 166 5482 5503
+"imp.ml" 176 5676 5696 "imp.ml" 176 5676 5697
 type(
   Imp_ast.m_node
 )
 ident(
-  def n "imp.ml" 167 5506 5508 "imp.ml" 187 5997 6031
+  def n "imp.ml" 177 5700 5702 "imp.ml" 197 6191 6225
 )
-"imp.ml" 167 5506 5512 "imp.ml" 167 5506 5514
+"imp.ml" 177 5700 5706 "imp.ml" 177 5700 5708
 type(
   string
 )
 ident(
-  def id "imp.ml" 168 5542 5544 "imp.ml" 187 5997 6031
+  def id "imp.ml" 178 5736 5738 "imp.ml" 197 6191 6225
 )
-"imp.ml" 167 5506 5517 "imp.ml" 167 5506 5528
+"imp.ml" 177 5700 5711 "imp.ml" 177 5700 5722
 type(
   string -> string
 )
 ident(
-  int_ref gen_node_id "imp.ml" 153 5154 5158 "imp.ml" 153 5154 5169
+  int_ref gen_node_id "imp.ml" 163 5348 5352 "imp.ml" 163 5348 5363
 )
-"imp.ml" 167 5506 5529 "imp.ml" 167 5506 5530
+"imp.ml" 177 5700 5723 "imp.ml" 177 5700 5724
 type(
   Imp_ast.m_node
 )
 ident(
-  int_ref n "imp.ml" 166 5482 5502 "imp.ml" 166 5482 5503
+  int_ref n "imp.ml" 176 5676 5696 "imp.ml" 176 5676 5697
 )
-"imp.ml" 167 5506 5529 "imp.ml" 167 5506 5538
+"imp.ml" 177 5700 5723 "imp.ml" 177 5700 5732
 type(
   string
 )
-"imp.ml" 167 5506 5517 "imp.ml" 167 5506 5538
+"imp.ml" 177 5700 5711 "imp.ml" 177 5700 5732
 type(
   string
 )
-"imp.ml" 168 5542 5548 "imp.ml" 168 5542 5551
+"imp.ml" 178 5736 5742 "imp.ml" 178 5736 5745
 type(
   Imp_ast.mem
 )
 ident(
-  def mem "imp.ml" 173 5671 5673 "imp.ml" 187 5997 6031
+  def mem "imp.ml" 183 5865 5867 "imp.ml" 197 6191 6225
 )
-"imp.ml" 169 5554 5560 "imp.ml" 169 5554 5561
+"imp.ml" 179 5748 5754 "imp.ml" 179 5748 5755
 type(
   Imp_ast.m_node
 )
 ident(
-  int_ref n "imp.ml" 166 5482 5502 "imp.ml" 166 5482 5503
+  int_ref n "imp.ml" 176 5676 5696 "imp.ml" 176 5676 5697
 )
-"imp.ml" 169 5554 5560 "imp.ml" 169 5554 5568
+"imp.ml" 179 5748 5754 "imp.ml" 179 5748 5762
 type(
   Imp_ast.mem
 )
-"imp.ml" 171 5591 5599 "imp.ml" 171 5591 5607
+"imp.ml" 181 5785 5793 "imp.ml" 181 5785 5801
 type(
   (string * string -> string * string) ->
   (string * string) list -> (string * string) list
@@ -3377,106 +3370,106 @@ type(
 ident(
   int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
 )
-"imp.ml" 171 5591 5614 "imp.ml" 171 5591 5615
+"imp.ml" 181 5785 5808 "imp.ml" 181 5785 5809
 type(
   string
 )
 ident(
-  def x "imp.ml" 171 5591 5622 "imp.ml" 171 5591 5643
+  def x "imp.ml" 181 5785 5816 "imp.ml" 181 5785 5837
 )
-"imp.ml" 171 5591 5616 "imp.ml" 171 5591 5617
+"imp.ml" 181 5785 5810 "imp.ml" 181 5785 5811
 type(
   string
 )
 ident(
-  def t "imp.ml" 171 5591 5622 "imp.ml" 171 5591 5643
+  def t "imp.ml" 181 5785 5816 "imp.ml" 181 5785 5837
 )
-"imp.ml" 171 5591 5613 "imp.ml" 171 5591 5618
+"imp.ml" 181 5785 5807 "imp.ml" 181 5785 5812
 type(
   string * string
 )
-"imp.ml" 171 5591 5623 "imp.ml" 171 5591 5624
+"imp.ml" 181 5785 5817 "imp.ml" 181 5785 5818
 type(
   string
 )
 ident(
-  int_ref x "imp.ml" 171 5591 5614 "imp.ml" 171 5591 5615
+  int_ref x "imp.ml" 181 5785 5808 "imp.ml" 181 5785 5809
 )
-"imp.ml" 171 5591 5626 "imp.ml" 171 5591 5636
+"imp.ml" 181 5785 5820 "imp.ml" 181 5785 5830
 type(
   string -> (string * string) list -> string
 )
 ident(
   int_ref Stdlib.List.assoc "list.mli" 266 9876 9876 "list.mli" 266 9876 9914
 )
-"imp.ml" 171 5591 5637 "imp.ml" 171 5591 5638
+"imp.ml" 181 5785 5831 "imp.ml" 181 5785 5832
 type(
   string
 )
 ident(
-  int_ref t "imp.ml" 171 5591 5616 "imp.ml" 171 5591 5617
+  int_ref t "imp.ml" 181 5785 5810 "imp.ml" 181 5785 5811
 )
-"imp.ml" 171 5591 5639 "imp.ml" 171 5591 5642
+"imp.ml" 181 5785 5833 "imp.ml" 181 5785 5836
 type(
   (string * string) list
 )
 ident(
-  int_ref env "imp.ml" 166 5482 5498 "imp.ml" 166 5482 5501
+  int_ref env "imp.ml" 176 5676 5692 "imp.ml" 176 5676 5695
 )
-"imp.ml" 171 5591 5626 "imp.ml" 171 5591 5642
+"imp.ml" 181 5785 5820 "imp.ml" 181 5785 5836
 type(
   string
 )
-"imp.ml" 171 5591 5622 "imp.ml" 171 5591 5643
+"imp.ml" 181 5785 5816 "imp.ml" 181 5785 5837
 type(
   string * string
 )
-"imp.ml" 171 5591 5608 "imp.ml" 171 5591 5644
+"imp.ml" 181 5785 5802 "imp.ml" 181 5785 5838
 type(
   string * string -> string * string
 )
-"imp.ml" 171 5591 5645 "imp.ml" 171 5591 5646
+"imp.ml" 181 5785 5839 "imp.ml" 181 5785 5840
 type(
   Imp_ast.m_node
 )
 ident(
-  int_ref n "imp.ml" 166 5482 5502 "imp.ml" 166 5482 5503
+  int_ref n "imp.ml" 176 5676 5696 "imp.ml" 176 5676 5697
 )
-"imp.ml" 171 5591 5645 "imp.ml" 171 5591 5653
+"imp.ml" 181 5785 5839 "imp.ml" 181 5785 5847
 type(
   Imp_ast.mem
 )
-"imp.ml" 171 5591 5645 "imp.ml" 171 5591 5662
+"imp.ml" 181 5785 5839 "imp.ml" 181 5785 5856
 type(
   (string * string) list
 )
-"imp.ml" 171 5591 5599 "imp.ml" 171 5591 5662
+"imp.ml" 181 5785 5793 "imp.ml" 181 5785 5856
 type(
   (string * string) list
 )
-"imp.ml" 169 5554 5558 "imp.ml" 171 5591 5665
+"imp.ml" 179 5748 5752 "imp.ml" 181 5785 5859
 type(
   Imp_ast.mem
 )
-"imp.ml" 173 5671 5677 "imp.ml" 173 5671 5681
+"imp.ml" 183 5865 5871 "imp.ml" 183 5865 5875
 type(
   Imp_ast.init
 )
 ident(
-  def init "imp.ml" 180 5825 5827 "imp.ml" 187 5997 6031
+  def init "imp.ml" 190 6019 6021 "imp.ml" 197 6191 6225
 )
-"imp.ml" 174 5684 5690 "imp.ml" 174 5684 5691
+"imp.ml" 184 5878 5884 "imp.ml" 184 5878 5885
 type(
   Imp_ast.m_node
 )
 ident(
-  int_ref n "imp.ml" 166 5482 5502 "imp.ml" 166 5482 5503
+  int_ref n "imp.ml" 176 5676 5696 "imp.ml" 176 5676 5697
 )
-"imp.ml" 174 5684 5690 "imp.ml" 174 5684 5699
+"imp.ml" 184 5878 5884 "imp.ml" 184 5878 5893
 type(
   Imp_ast.init
 )
-"imp.ml" 176 5723 5731 "imp.ml" 176 5723 5739
+"imp.ml" 186 5917 5925 "imp.ml" 186 5917 5933
 type(
   (string * string -> string * string) ->
   (string * string) list -> (string * string) list
@@ -3484,95 +3477,95 @@ type(
 ident(
   int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
 )
-"imp.ml" 177 5740 5756 "imp.ml" 177 5740 5757
+"imp.ml" 187 5934 5950 "imp.ml" 187 5934 5951
 type(
   string
 )
 ident(
-  def x "imp.ml" 177 5740 5764 "imp.ml" 177 5740 5785
+  def x "imp.ml" 187 5934 5958 "imp.ml" 187 5934 5979
 )
-"imp.ml" 177 5740 5758 "imp.ml" 177 5740 5759
+"imp.ml" 187 5934 5952 "imp.ml" 187 5934 5953
 type(
   string
 )
 ident(
-  def f "imp.ml" 177 5740 5764 "imp.ml" 177 5740 5785
+  def f "imp.ml" 187 5934 5958 "imp.ml" 187 5934 5979
 )
-"imp.ml" 177 5740 5755 "imp.ml" 177 5740 5760
+"imp.ml" 187 5934 5949 "imp.ml" 187 5934 5954
 type(
   string * string
 )
-"imp.ml" 177 5740 5765 "imp.ml" 177 5740 5766
+"imp.ml" 187 5934 5959 "imp.ml" 187 5934 5960
 type(
   string
 )
 ident(
-  int_ref x "imp.ml" 177 5740 5756 "imp.ml" 177 5740 5757
+  int_ref x "imp.ml" 187 5934 5950 "imp.ml" 187 5934 5951
 )
-"imp.ml" 177 5740 5768 "imp.ml" 177 5740 5778
+"imp.ml" 187 5934 5962 "imp.ml" 187 5934 5972
 type(
   string -> (string * string) list -> string
 )
 ident(
   int_ref Stdlib.List.assoc "list.mli" 266 9876 9876 "list.mli" 266 9876 9914
 )
-"imp.ml" 177 5740 5779 "imp.ml" 177 5740 5780
+"imp.ml" 187 5934 5973 "imp.ml" 187 5934 5974
 type(
   string
 )
 ident(
-  int_ref f "imp.ml" 177 5740 5758 "imp.ml" 177 5740 5759
+  int_ref f "imp.ml" 187 5934 5952 "imp.ml" 187 5934 5953
 )
-"imp.ml" 177 5740 5781 "imp.ml" 177 5740 5784
+"imp.ml" 187 5934 5975 "imp.ml" 187 5934 5978
 type(
   (string * string) list
 )
 ident(
-  int_ref env "imp.ml" 166 5482 5498 "imp.ml" 166 5482 5501
+  int_ref env "imp.ml" 176 5676 5692 "imp.ml" 176 5676 5695
 )
-"imp.ml" 177 5740 5768 "imp.ml" 177 5740 5784
+"imp.ml" 187 5934 5962 "imp.ml" 187 5934 5978
 type(
   string
 )
-"imp.ml" 177 5740 5764 "imp.ml" 177 5740 5785
+"imp.ml" 187 5934 5958 "imp.ml" 187 5934 5979
 type(
   string * string
 )
-"imp.ml" 177 5740 5750 "imp.ml" 177 5740 5786
+"imp.ml" 187 5934 5944 "imp.ml" 187 5934 5980
 type(
   string * string -> string * string
 )
-"imp.ml" 178 5787 5797 "imp.ml" 178 5787 5798
+"imp.ml" 188 5981 5991 "imp.ml" 188 5981 5992
 type(
   Imp_ast.m_node
 )
 ident(
-  int_ref n "imp.ml" 166 5482 5502 "imp.ml" 166 5482 5503
+  int_ref n "imp.ml" 176 5676 5696 "imp.ml" 176 5676 5697
 )
-"imp.ml" 178 5787 5797 "imp.ml" 178 5787 5806
+"imp.ml" 188 5981 5991 "imp.ml" 188 5981 6000
 type(
   Imp_ast.init
 )
-"imp.ml" 178 5787 5797 "imp.ml" 178 5787 5816
+"imp.ml" 188 5981 5991 "imp.ml" 188 5981 6010
 type(
   (string * string) list
 )
-"imp.ml" 176 5723 5731 "imp.ml" 178 5787 5816
+"imp.ml" 186 5917 5925 "imp.ml" 188 5981 6010
 type(
   (string * string) list
 )
-"imp.ml" 174 5684 5688 "imp.ml" 178 5787 5819
+"imp.ml" 184 5878 5882 "imp.ml" 188 5981 6013
 type(
   Imp_ast.init
 )
-"imp.ml" 180 5825 5831 "imp.ml" 180 5825 5838
+"imp.ml" 190 6019 6025 "imp.ml" 190 6019 6032
 type(
   Imp_ast.m_equation list
 )
 ident(
-  def compute "imp.ml" 183 5894 5896 "imp.ml" 187 5997 6031
+  def compute "imp.ml" 193 6088 6090 "imp.ml" 197 6191 6225
 )
-"imp.ml" 181 5841 5845 "imp.ml" 181 5841 5853
+"imp.ml" 191 6035 6039 "imp.ml" 191 6035 6047
 type(
   (Imp_ast.m_equation -> Imp_ast.m_equation) ->
   Imp_ast.m_equation list -> Imp_ast.m_equation list
@@ -3580,171 +3573,171 @@ type(
 ident(
   int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
 )
-"imp.ml" 181 5841 5855 "imp.ml" 181 5841 5870
+"imp.ml" 191 6035 6049 "imp.ml" 191 6035 6064
 type(
   (string * string) list -> Imp_ast.m_equation -> Imp_ast.m_equation
 )
 ident(
-  int_ref rename_equation "imp.ml" 163 5398 5402 "imp.ml" 163 5398 5417
+  int_ref rename_equation "imp.ml" 173 5592 5596 "imp.ml" 173 5592 5611
 )
-"imp.ml" 181 5841 5871 "imp.ml" 181 5841 5874
+"imp.ml" 191 6035 6065 "imp.ml" 191 6035 6068
 type(
   (string * string) list
 )
 ident(
-  int_ref env "imp.ml" 166 5482 5498 "imp.ml" 166 5482 5501
+  int_ref env "imp.ml" 176 5676 5692 "imp.ml" 176 5676 5695
 )
-"imp.ml" 181 5841 5854 "imp.ml" 181 5841 5875
+"imp.ml" 191 6035 6048 "imp.ml" 191 6035 6069
 type(
   Imp_ast.m_equation -> Imp_ast.m_equation
 )
-"imp.ml" 181 5841 5876 "imp.ml" 181 5841 5877
+"imp.ml" 191 6035 6070 "imp.ml" 191 6035 6071
 type(
   Imp_ast.m_node
 )
 ident(
-  int_ref n "imp.ml" 166 5482 5502 "imp.ml" 166 5482 5503
+  int_ref n "imp.ml" 176 5676 5696 "imp.ml" 176 5676 5697
 )
-"imp.ml" 181 5841 5876 "imp.ml" 181 5841 5888
+"imp.ml" 191 6035 6070 "imp.ml" 191 6035 6082
 type(
   Imp_ast.m_equation list
 )
-"imp.ml" 181 5841 5845 "imp.ml" 181 5841 5888
+"imp.ml" 191 6035 6039 "imp.ml" 191 6035 6082
 type(
   Imp_ast.m_equation list
 )
-"imp.ml" 183 5894 5898 "imp.ml" 183 5894 5899
+"imp.ml" 193 6088 6092 "imp.ml" 193 6088 6093
 type(
   Imp_ast.m_node
 )
 ident(
-  int_ref n "imp.ml" 166 5482 5502 "imp.ml" 166 5482 5503
+  int_ref n "imp.ml" 176 5676 5696 "imp.ml" 176 5676 5697
 )
-"imp.ml" 183 5894 5898 "imp.ml" 183 5894 5907
+"imp.ml" 193 6088 6092 "imp.ml" 193 6088 6101
 type(
   string
 )
-"imp.ml" 183 5894 5909 "imp.ml" 183 5894 5911
+"imp.ml" 193 6088 6103 "imp.ml" 193 6088 6105
 type(
   string
 )
 ident(
-  int_ref id "imp.ml" 167 5506 5512 "imp.ml" 167 5506 5514
+  int_ref id "imp.ml" 177 5700 5706 "imp.ml" 177 5700 5708
 )
-"imp.ml" 183 5894 5897 "imp.ml" 183 5894 5912
+"imp.ml" 193 6088 6091 "imp.ml" 193 6088 6106
 type(
   string * string
 )
-"imp.ml" 183 5894 5914 "imp.ml" 183 5894 5917
+"imp.ml" 193 6088 6108 "imp.ml" 193 6088 6111
 type(
   (string * string) list
 )
 ident(
-  int_ref env "imp.ml" 166 5482 5498 "imp.ml" 166 5482 5501
+  int_ref env "imp.ml" 176 5676 5692 "imp.ml" 176 5676 5695
 )
-"imp.ml" 183 5894 5896 "imp.ml" 183 5894 5918
+"imp.ml" 193 6088 6090 "imp.ml" 193 6088 6112
 type(
   (string * string) list
 )
-"imp.ml" 184 5920 5924 "imp.ml" 184 5920 5925
+"imp.ml" 194 6114 6118 "imp.ml" 194 6114 6119
 type(
   Imp_ast.m_node
 )
 ident(
-  int_ref n "imp.ml" 166 5482 5502 "imp.ml" 166 5482 5503
+  int_ref n "imp.ml" 176 5676 5696 "imp.ml" 176 5676 5697
 )
-"imp.ml" 184 5920 5941 "imp.ml" 184 5920 5943
+"imp.ml" 194 6114 6135 "imp.ml" 194 6114 6137
 type(
   string
 )
 ident(
-  int_ref id "imp.ml" 167 5506 5512 "imp.ml" 167 5506 5514
+  int_ref id "imp.ml" 177 5700 5706 "imp.ml" 177 5700 5708
 )
-"imp.ml" 185 5945 5965 "imp.ml" 185 5945 5968
+"imp.ml" 195 6139 6159 "imp.ml" 195 6139 6162
 type(
   Imp_ast.mem
 )
 ident(
-  int_ref mem "imp.ml" 168 5542 5548 "imp.ml" 168 5542 5551
+  int_ref mem "imp.ml" 178 5736 5742 "imp.ml" 178 5736 5745
 )
-"imp.ml" 186 5970 5991 "imp.ml" 186 5970 5995
+"imp.ml" 196 6164 6185 "imp.ml" 196 6164 6189
 type(
   Imp_ast.init
 )
 ident(
-  int_ref init "imp.ml" 173 5671 5677 "imp.ml" 173 5671 5681
+  int_ref init "imp.ml" 183 5865 5871 "imp.ml" 183 5865 5875
 )
-"imp.ml" 187 5997 6021 "imp.ml" 187 5997 6028
+"imp.ml" 197 6191 6215 "imp.ml" 197 6191 6222
 type(
   Imp_ast.m_equation list
 )
 ident(
-  int_ref compute "imp.ml" 180 5825 5831 "imp.ml" 180 5825 5838
+  int_ref compute "imp.ml" 190 6019 6025 "imp.ml" 190 6019 6032
 )
-"imp.ml" 184 5920 5922 "imp.ml" 187 5997 6031
+"imp.ml" 194 6114 6116 "imp.ml" 197 6191 6225
 type(
   Imp_ast.m_node
 )
-"imp.ml" 183 5894 5896 "imp.ml" 187 5997 6031
+"imp.ml" 193 6088 6090 "imp.ml" 197 6191 6225
 type(
   (string * string) list * Imp_ast.m_node
 )
-"imp.ml" 180 5825 5827 "imp.ml" 187 5997 6031
+"imp.ml" 190 6019 6021 "imp.ml" 197 6191 6225
 type(
   (string * string) list * Imp_ast.m_node
 )
-"imp.ml" 173 5671 5673 "imp.ml" 187 5997 6031
+"imp.ml" 183 5865 5867 "imp.ml" 197 6191 6225
 type(
   (string * string) list * Imp_ast.m_node
 )
-"imp.ml" 168 5542 5544 "imp.ml" 187 5997 6031
+"imp.ml" 178 5736 5738 "imp.ml" 197 6191 6225
 type(
   (string * string) list * Imp_ast.m_node
 )
-"imp.ml" 167 5506 5508 "imp.ml" 187 5997 6031
+"imp.ml" 177 5700 5702 "imp.ml" 197 6191 6225
 type(
   (string * string) list * Imp_ast.m_node
 )
-"imp.ml" 189 6033 6037 "imp.ml" 189 6033 6049
+"imp.ml" 199 6227 6231 "imp.ml" 199 6227 6243
 type(
   Imp_ast.m_node list -> string ref -> Imp_ast.m_node list
 )
 ident(
-  def rename_nodes "imp.ml" 196 6250 6263 "imp.ml" 0 0 -1
+  def rename_nodes "imp.ml" 206 6444 6457 "imp.ml" 0 0 -1
 )
-"imp.ml" 189 6033 6050 "imp.ml" 189 6033 6051
+"imp.ml" 199 6227 6244 "imp.ml" 199 6227 6245
 type(
   Imp_ast.m_node list
 )
 ident(
-  def f "imp.ml" 189 6033 6052 "imp.ml" 196 6250 6263
+  def f "imp.ml" 199 6227 6246 "imp.ml" 206 6444 6457
 )
-"imp.ml" 189 6033 6052 "imp.ml" 189 6033 6056
+"imp.ml" 199 6227 6246 "imp.ml" 199 6227 6250
 type(
   string ref
 )
 ident(
-  def main "imp.ml" 190 6059 6061 "imp.ml" 196 6250 6263
+  def main "imp.ml" 200 6253 6255 "imp.ml" 206 6444 6457
 )
-"imp.ml" 190 6059 6065 "imp.ml" 190 6059 6068
+"imp.ml" 200 6253 6259 "imp.ml" 200 6253 6262
 type(
   (string * string) list
 )
 ident(
-  def env "imp.ml" 195 6191 6193 "imp.ml" 196 6250 6263
+  def env "imp.ml" 205 6385 6387 "imp.ml" 206 6444 6457
 )
-"imp.ml" 190 6059 6071 "imp.ml" 190 6059 6073
+"imp.ml" 200 6253 6265 "imp.ml" 200 6253 6267
 type(
   Imp_ast.m_node list
 )
 ident(
-  def f' "imp.ml" 195 6191 6193 "imp.ml" 196 6250 6263
+  def f' "imp.ml" 205 6385 6387 "imp.ml" 206 6444 6457
 )
-"imp.ml" 190 6059 6065 "imp.ml" 190 6059 6073
+"imp.ml" 200 6253 6259 "imp.ml" 200 6253 6267
 type(
   (string * string) list * Imp_ast.m_node list
 )
-"imp.ml" 191 6076 6080 "imp.ml" 191 6076 6094
+"imp.ml" 201 6270 6274 "imp.ml" 201 6270 6288
 type(
   ((string * string) list * Imp_ast.m_node list ->
    Imp_ast.m_node -> (string * string) list * Imp_ast.m_node list) ->
@@ -3754,225 +3747,225 @@ type(
 ident(
   int_ref Stdlib.List.fold_left "list.mli" 151 5711 5711 "list.mli" 151 5711 5766
 )
-"imp.ml" 192 6095 6107 "imp.ml" 192 6095 6110
+"imp.ml" 202 6289 6301 "imp.ml" 202 6289 6304
 type(
   (string * string) list
 )
 ident(
-  def env "imp.ml" 192 6095 6114 "imp.ml" 192 6095 6168
+  def env "imp.ml" 202 6289 6308 "imp.ml" 202 6289 6362
 )
-"imp.ml" 192 6095 6111 "imp.ml" 192 6095 6112
+"imp.ml" 202 6289 6305 "imp.ml" 202 6289 6306
 type(
   Imp_ast.m_node list
 )
 ident(
-  def f "imp.ml" 192 6095 6114 "imp.ml" 192 6095 6168
+  def f "imp.ml" 202 6289 6308 "imp.ml" 202 6289 6362
 )
-"imp.ml" 192 6095 6106 "imp.ml" 192 6095 6113
+"imp.ml" 202 6289 6300 "imp.ml" 202 6289 6307
 type(
   (string * string) list * Imp_ast.m_node list
 )
-"imp.ml" 192 6095 6114 "imp.ml" 192 6095 6115
+"imp.ml" 202 6289 6308 "imp.ml" 202 6289 6309
 type(
   Imp_ast.m_node
 )
 ident(
-  def n "imp.ml" 192 6095 6119 "imp.ml" 192 6095 6168
+  def n "imp.ml" 202 6289 6313 "imp.ml" 202 6289 6362
 )
-"imp.ml" 192 6095 6123 "imp.ml" 192 6095 6127
+"imp.ml" 202 6289 6317 "imp.ml" 202 6289 6321
 type(
   (string * string) list
 )
 ident(
-  def env' "imp.ml" 192 6095 6155 "imp.ml" 192 6095 6168
+  def env' "imp.ml" 202 6289 6349 "imp.ml" 202 6289 6362
 )
-"imp.ml" 192 6095 6129 "imp.ml" 192 6095 6131
+"imp.ml" 202 6289 6323 "imp.ml" 202 6289 6325
 type(
   Imp_ast.m_node
 )
 ident(
-  def n' "imp.ml" 192 6095 6155 "imp.ml" 192 6095 6168
+  def n' "imp.ml" 202 6289 6349 "imp.ml" 202 6289 6362
 )
-"imp.ml" 192 6095 6123 "imp.ml" 192 6095 6131
+"imp.ml" 202 6289 6317 "imp.ml" 202 6289 6325
 type(
   (string * string) list * Imp_ast.m_node
 )
-"imp.ml" 192 6095 6134 "imp.ml" 192 6095 6145
+"imp.ml" 202 6289 6328 "imp.ml" 202 6289 6339
 type(
   (string * string) list ->
   Imp_ast.m_node -> (string * string) list * Imp_ast.m_node
 )
 ident(
-  int_ref rename_node "imp.ml" 166 5482 5486 "imp.ml" 166 5482 5497
+  int_ref rename_node "imp.ml" 176 5676 5680 "imp.ml" 176 5676 5691
 )
-"imp.ml" 192 6095 6146 "imp.ml" 192 6095 6149
+"imp.ml" 202 6289 6340 "imp.ml" 202 6289 6343
 type(
   (string * string) list
 )
 ident(
-  int_ref env "imp.ml" 192 6095 6107 "imp.ml" 192 6095 6110
+  int_ref env "imp.ml" 202 6289 6301 "imp.ml" 202 6289 6304
 )
-"imp.ml" 192 6095 6150 "imp.ml" 192 6095 6151
+"imp.ml" 202 6289 6344 "imp.ml" 202 6289 6345
 type(
   Imp_ast.m_node
 )
 ident(
-  int_ref n "imp.ml" 192 6095 6114 "imp.ml" 192 6095 6115
+  int_ref n "imp.ml" 202 6289 6308 "imp.ml" 202 6289 6309
 )
-"imp.ml" 192 6095 6134 "imp.ml" 192 6095 6151
+"imp.ml" 202 6289 6328 "imp.ml" 202 6289 6345
 type(
   (string * string) list * Imp_ast.m_node
 )
-"imp.ml" 192 6095 6156 "imp.ml" 192 6095 6160
+"imp.ml" 202 6289 6350 "imp.ml" 202 6289 6354
 type(
   (string * string) list
 )
 ident(
-  int_ref env' "imp.ml" 192 6095 6123 "imp.ml" 192 6095 6127
+  int_ref env' "imp.ml" 202 6289 6317 "imp.ml" 202 6289 6321
 )
-"imp.ml" 192 6095 6162 "imp.ml" 192 6095 6164
+"imp.ml" 202 6289 6356 "imp.ml" 202 6289 6358
 type(
   Imp_ast.m_node
 )
 ident(
-  int_ref n' "imp.ml" 192 6095 6129 "imp.ml" 192 6095 6131
+  int_ref n' "imp.ml" 202 6289 6323 "imp.ml" 202 6289 6325
 )
-"imp.ml" 192 6095 6166 "imp.ml" 192 6095 6167
+"imp.ml" 202 6289 6360 "imp.ml" 202 6289 6361
 type(
   Imp_ast.m_node list
 )
 ident(
-  int_ref f "imp.ml" 192 6095 6111 "imp.ml" 192 6095 6112
+  int_ref f "imp.ml" 202 6289 6305 "imp.ml" 202 6289 6306
 )
-"imp.ml" 192 6095 6162 "imp.ml" 192 6095 6167
+"imp.ml" 202 6289 6356 "imp.ml" 202 6289 6361
 type(
   Imp_ast.m_node list
 )
-"imp.ml" 192 6095 6155 "imp.ml" 192 6095 6168
+"imp.ml" 202 6289 6349 "imp.ml" 202 6289 6362
 type(
   (string * string) list * Imp_ast.m_node list
 )
-"imp.ml" 192 6095 6119 "imp.ml" 192 6095 6168
+"imp.ml" 202 6289 6313 "imp.ml" 202 6289 6362
 type(
   (string * string) list * Imp_ast.m_node list
 )
-"imp.ml" 192 6095 6101 "imp.ml" 192 6095 6169
+"imp.ml" 202 6289 6295 "imp.ml" 202 6289 6363
 type(
   (string * string) list * Imp_ast.m_node list ->
   Imp_ast.m_node -> (string * string) list * Imp_ast.m_node list
 )
-"imp.ml" 193 6170 6177 "imp.ml" 193 6170 6179
+"imp.ml" 203 6364 6371 "imp.ml" 203 6364 6373
 type(
   (string * string) list
 )
-"imp.ml" 193 6170 6180 "imp.ml" 193 6170 6182
+"imp.ml" 203 6364 6374 "imp.ml" 203 6364 6376
 type(
   Imp_ast.m_node list
 )
-"imp.ml" 193 6170 6176 "imp.ml" 193 6170 6183
+"imp.ml" 203 6364 6370 "imp.ml" 203 6364 6377
 type(
   (string * string) list * Imp_ast.m_node list
 )
-"imp.ml" 193 6170 6184 "imp.ml" 193 6170 6185
+"imp.ml" 203 6364 6378 "imp.ml" 203 6364 6379
 type(
   Imp_ast.m_node list
 )
 ident(
-  int_ref f "imp.ml" 189 6033 6050 "imp.ml" 189 6033 6051
+  int_ref f "imp.ml" 199 6227 6244 "imp.ml" 199 6227 6245
 )
-"imp.ml" 191 6076 6080 "imp.ml" 193 6170 6185
+"imp.ml" 201 6270 6274 "imp.ml" 203 6364 6379
 type(
   (string * string) list * Imp_ast.m_node list
 )
-"imp.ml" 195 6191 6193 "imp.ml" 195 6191 6197
+"imp.ml" 205 6385 6387 "imp.ml" 205 6385 6391
 type(
   string ref
 )
 ident(
-  int_ref main "imp.ml" 189 6033 6052 "imp.ml" 189 6033 6056
+  int_ref main "imp.ml" 199 6227 6246 "imp.ml" 199 6227 6250
 )
-"imp.ml" 195 6191 6198 "imp.ml" 195 6191 6200
+"imp.ml" 205 6385 6392 "imp.ml" 205 6385 6394
 type(
   string ref -> string -> unit
 )
 ident(
   int_ref Stdlib.( := ) "stdlib.mli" 1171 44751 44751 "stdlib.mli" 1171 44751 44804
 )
-"imp.ml" 195 6191 6206 "imp.ml" 195 6191 6216
+"imp.ml" 205 6385 6400 "imp.ml" 205 6385 6410
 type(
   string -> (string * string) list -> string
 )
 ident(
   int_ref Stdlib.List.assoc "list.mli" 266 9876 9876 "list.mli" 266 9876 9914
 )
-"imp.ml" 195 6191 6217 "imp.ml" 195 6191 6218
+"imp.ml" 205 6385 6411 "imp.ml" 205 6385 6412
 type(
   string ref -> string
 )
 ident(
   int_ref Stdlib.( ! ) "stdlib.mli" 1165 44545 44545 "stdlib.mli" 1165 44545 44586
 )
-"imp.ml" 195 6191 6218 "imp.ml" 195 6191 6222
+"imp.ml" 205 6385 6412 "imp.ml" 205 6385 6416
 type(
   string ref
 )
 ident(
-  int_ref main "imp.ml" 189 6033 6052 "imp.ml" 189 6033 6056
+  int_ref main "imp.ml" 199 6227 6246 "imp.ml" 199 6227 6250
 )
-"imp.ml" 195 6191 6217 "imp.ml" 195 6191 6222
+"imp.ml" 205 6385 6411 "imp.ml" 205 6385 6416
 type(
   string
 )
-"imp.ml" 195 6191 6223 "imp.ml" 195 6191 6226
+"imp.ml" 205 6385 6417 "imp.ml" 205 6385 6420
 type(
   (string * string) list
 )
 ident(
-  int_ref env "imp.ml" 190 6059 6065 "imp.ml" 190 6059 6068
+  int_ref env "imp.ml" 200 6253 6259 "imp.ml" 200 6253 6262
 )
-"imp.ml" 195 6191 6206 "imp.ml" 195 6191 6226
+"imp.ml" 205 6385 6400 "imp.ml" 205 6385 6420
 type(
   string
 )
-"imp.ml" 195 6191 6232 "imp.ml" 195 6191 6241
+"imp.ml" 205 6385 6426 "imp.ml" 205 6385 6435
 type(
   exn
 )
-"imp.ml" 195 6191 6245 "imp.ml" 195 6191 6247
+"imp.ml" 205 6385 6439 "imp.ml" 205 6385 6441
 type(
   string
 )
-"imp.ml" 195 6191 6201 "imp.ml" 195 6191 6248
+"imp.ml" 205 6385 6395 "imp.ml" 205 6385 6442
 type(
   string
 )
-"imp.ml" 195 6191 6193 "imp.ml" 195 6191 6248
+"imp.ml" 205 6385 6387 "imp.ml" 205 6385 6442
 type(
   unit
 )
-"imp.ml" 196 6250 6252 "imp.ml" 196 6250 6260
+"imp.ml" 206 6444 6446 "imp.ml" 206 6444 6454
 type(
   Imp_ast.m_node list -> Imp_ast.m_node list
 )
 ident(
   int_ref Stdlib.List.rev "list.mli" 76 3214 3214 "list.mli" 76 3214 3242
 )
-"imp.ml" 196 6250 6261 "imp.ml" 196 6250 6263
+"imp.ml" 206 6444 6455 "imp.ml" 206 6444 6457
 type(
   Imp_ast.m_node list
 )
 ident(
-  int_ref f' "imp.ml" 190 6059 6071 "imp.ml" 190 6059 6073
+  int_ref f' "imp.ml" 200 6253 6265 "imp.ml" 200 6253 6267
 )
-"imp.ml" 196 6250 6252 "imp.ml" 196 6250 6263
+"imp.ml" 206 6444 6446 "imp.ml" 206 6444 6457
 type(
   Imp_ast.m_node list
 )
-"imp.ml" 195 6191 6193 "imp.ml" 196 6250 6263
+"imp.ml" 205 6385 6387 "imp.ml" 206 6444 6457
 type(
   Imp_ast.m_node list
 )
-"imp.ml" 190 6059 6061 "imp.ml" 196 6250 6263
+"imp.ml" 200 6253 6255 "imp.ml" 206 6444 6457
 type(
   Imp_ast.m_node list
 )

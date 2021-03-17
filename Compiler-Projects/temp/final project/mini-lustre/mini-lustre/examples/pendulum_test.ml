@@ -22,23 +22,41 @@ let _x' = Graphics.open_graph "";;
 let _x' = Graphics.auto_synchronize false;;
 
 
-type n'_1_mem = {
+type integr'_1_mem = {
     mutable x_next1: float;
   }
 
-let n'_1_init () = {
+let integr'_1_init () = {
     x_next1 = 0.;
   }
 
-let n'_1_step mem' (i) = 
-  let (aux'1) = (
+let integr'_1_step mem' (t, dx) = 
+  let (y) = t in
+  mem'.x_next1 <- t;
+  (y)
+
+
+type play'_2_mem = {
+    integr_mem1: integr'_1_mem;
+  }
+
+let play'_2_init () = {
+    integr_mem1 = integr'_1_init ();
+  }
+
+let play'_2_step mem' (u) = 
+  let (aux'2) = (
     (print_string "coucou\n");
     flush_all()) in
   let (x0) = 1. in
-  let (o) = aux'1 in
-  let (x) = x0 in
-  mem'.x_next1 <- x0;
-  (o)
+  let (y0) = 2. in
+  let (aux'1) = x0 in
+  let (aux'1) = y0 in
+  let (u2) = aux'2 in
+  let (x) = aux'1 in
+  mem'.integr <- x0;
+  mem'.integr <- y0;
+  (u2)
 
 
 let wait () = try Thread.delay 0.01 with _ -> ()
@@ -52,4 +70,4 @@ let run f_init f_step =
     wait()
   done
 
-let _ = run n'_1_init n'_1_step
+let _ = run play'_2_init play'_2_step
