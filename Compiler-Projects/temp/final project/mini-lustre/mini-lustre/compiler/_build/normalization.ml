@@ -57,7 +57,6 @@ let rec normalize ctx e =
 
   | TE_binop(op,e1,e2) ->
 	  (*ctx, e*)
-	  
 	  let ctx, e1' = normalize ctx e1 in
 	  let ctx, e2' = normalize ctx e2 in
 	  ctx, {e with texpr_desc = TE_binop(op,e1',e2')}
@@ -102,14 +101,16 @@ let rec normalize ctx e =
       ctx, { e with texpr_desc = TE_tuple l'}
 
   | TE_fby(c,e1) ->
-  	  (*ctx,e*)
-	  
+  	  (*ctx,e*) 
 	  let ctx, e1' = normalize ctx e1 in
   	  ctx, {e with texpr_desc = TE_fby(c,e1')}
       
 	  (* c fby e1 => x, { x = c fby y; y = normalize e1; } *)
       (* DONE *)
-
+(*  | TE_when(e1,enum_id,id) ->
+    let ctx, e1' = normalize ctx e1 in
+    ctx, {e with texpr_desc = TE_when(e1', enum_id,id)}
+*)
 and normalize_list ctx l =
   let ctx, l =
     List.fold_left

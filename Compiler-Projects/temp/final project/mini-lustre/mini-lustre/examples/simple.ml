@@ -22,22 +22,41 @@ let _x' = Graphics.open_graph "";;
 let _x' = Graphics.auto_synchronize false;;
 
 
-type n'_1_mem = {
-    mutable x_next1: float;
+type integr'_1_mem = {
+    mutable fby_next1: float;
   }
 
-let n'_1_init () = {
-    x_next1 = 0.;
+let integr'_1_init () = {
+    fby_next1 = 0.;
   }
 
-let n'_1_step mem' (i) = 
-  let (aux'1) = (
+let integr'_1_step mem' (t) = 
+  let (y) = (fby_next1) in
+  mem'.fby_next1 <- t;
+  (y)
+
+
+type n'_2_mem = {
+    mutable fby_next2: float;
+    integr_mem1: integr'_1_mem;
+  }
+
+let n'_2_init () = {
+    fby_next2 = 0.;
+    integr_mem1 = integr'_1_init ();
+  }
+
+let n'_2_step mem' (i) = 
+  let (aux'2) = (
     (print_string "coucou\n");
     flush_all()) in
   let (x0) = 1. in
-  let (o) = aux'1 in
-  let (x) = x0 in
-  mem'.x_next1 <- x0;
+  let (x1) = (fby_next2) in
+  let (aux'1) = x1 in
+  let (o) = aux'2 in
+  let (x2) = aux'1 in
+  mem'.fby_next2 <- x0;
+  mem'.integr_mem1 <- x1;
   (o)
 
 
@@ -52,4 +71,4 @@ let run f_init f_step =
     wait()
   done
 
-let _ = run n'_1_init n'_1_step
+let _ = run n'_2_init n'_2_step
