@@ -1,0 +1,17 @@
+node filter(x1, x2:int; c:bool) returns (y:int);
+var a, b: int;
+  let
+    a = x1 when true(c);
+    b = x2 when false(c);
+    y = if c then a else b;
+  tel
+
+node main_when(u:unit) returns (c2:unit);
+var c:bool ;x1, x2, y:int;
+let
+  x1 = 1;
+  x2 = 2;
+  c = true fby false fby c;
+  y = filter(x1, x2,c);
+  c2 = print_endline(string_of_int(y));
+tel

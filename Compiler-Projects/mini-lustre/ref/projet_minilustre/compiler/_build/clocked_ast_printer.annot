@@ -1,0 +1,4465 @@
+"clocked_ast_printer.ml" 7 72 80 "clocked_ast_printer.ml" 7 72 90
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  def print_list "clocked_ast_printer.ml" 7 72 72 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 7 72 91 "clocked_ast_printer.ml" 7 72 92
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def f "clocked_ast_printer.ml" 7 72 93 "clocked_ast_printer.ml" 10 150 215
+)
+"clocked_ast_printer.ml" 7 72 93 "clocked_ast_printer.ml" 7 72 96
+type(
+  string
+)
+ident(
+  def sep "clocked_ast_printer.ml" 7 72 97 "clocked_ast_printer.ml" 10 150 215
+)
+"clocked_ast_printer.ml" 7 72 97 "clocked_ast_printer.ml" 7 72 100
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 7 72 101 "clocked_ast_printer.ml" 10 150 215
+)
+"clocked_ast_printer.ml" 7 72 101 "clocked_ast_printer.ml" 7 72 102
+type(
+  'a list
+)
+ident(
+  def l "clocked_ast_printer.ml" 7 72 105 "clocked_ast_printer.ml" 10 150 215
+)
+"clocked_ast_printer.ml" 7 72 111 "clocked_ast_printer.ml" 7 72 112
+type(
+  'a list
+)
+ident(
+  int_ref l "clocked_ast_printer.ml" 7 72 101 "clocked_ast_printer.ml" 7 72 102
+)
+"clocked_ast_printer.ml" 8 118 122 "clocked_ast_printer.ml" 8 118 124
+type(
+  'a list
+)
+"clocked_ast_printer.ml" 8 118 128 "clocked_ast_printer.ml" 8 118 130
+type(
+  unit
+)
+"clocked_ast_printer.ml" 9 131 136 "clocked_ast_printer.ml" 9 131 137
+type(
+  'a
+)
+ident(
+  def x "clocked_ast_printer.ml" 9 131 142 "clocked_ast_printer.ml" 9 131 149
+)
+"clocked_ast_printer.ml" 9 131 135 "clocked_ast_printer.ml" 9 131 138
+type(
+  'a list
+)
+"clocked_ast_printer.ml" 9 131 142 "clocked_ast_printer.ml" 9 131 143
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "clocked_ast_printer.ml" 7 72 91 "clocked_ast_printer.ml" 7 72 92
+)
+"clocked_ast_printer.ml" 9 131 144 "clocked_ast_printer.ml" 9 131 147
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 7 72 97 "clocked_ast_printer.ml" 7 72 100
+)
+"clocked_ast_printer.ml" 9 131 148 "clocked_ast_printer.ml" 9 131 149
+type(
+  'a
+)
+ident(
+  int_ref x "clocked_ast_printer.ml" 9 131 136 "clocked_ast_printer.ml" 9 131 137
+)
+"clocked_ast_printer.ml" 9 131 142 "clocked_ast_printer.ml" 9 131 149
+type(
+  unit
+)
+"clocked_ast_printer.ml" 10 150 154 "clocked_ast_printer.ml" 10 150 155
+type(
+  'a
+)
+ident(
+  def h "clocked_ast_printer.ml" 10 150 164 "clocked_ast_printer.ml" 10 150 215
+)
+"clocked_ast_printer.ml" 10 150 159 "clocked_ast_printer.ml" 10 150 160
+type(
+  'a list
+)
+ident(
+  def t "clocked_ast_printer.ml" 10 150 164 "clocked_ast_printer.ml" 10 150 215
+)
+"clocked_ast_printer.ml" 10 150 154 "clocked_ast_printer.ml" 10 150 160
+type(
+  'a list
+)
+"clocked_ast_printer.ml" 10 150 164 "clocked_ast_printer.ml" 10 150 171
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> 'a -> unit) ->
+  'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 10 150 172 "clocked_ast_printer.ml" 10 150 175
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 7 72 97 "clocked_ast_printer.ml" 7 72 100
+)
+"clocked_ast_printer.ml" 10 150 176 "clocked_ast_printer.ml" 10 150 186
+type(
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 10 150 187 "clocked_ast_printer.ml" 10 150 188
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "clocked_ast_printer.ml" 7 72 91 "clocked_ast_printer.ml" 7 72 92
+)
+"clocked_ast_printer.ml" 10 150 189 "clocked_ast_printer.ml" 10 150 190
+type(
+  'a
+)
+ident(
+  int_ref h "clocked_ast_printer.ml" 10 150 154 "clocked_ast_printer.ml" 10 150 155
+)
+"clocked_ast_printer.ml" 10 150 191 "clocked_ast_printer.ml" 10 150 194
+type(
+  string
+)
+ident(
+  int_ref sep "clocked_ast_printer.ml" 7 72 93 "clocked_ast_printer.ml" 7 72 96
+)
+"clocked_ast_printer.ml" 10 150 196 "clocked_ast_printer.ml" 10 150 206
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  int_ref print_list "clocked_ast_printer.ml" 7 72 80 "clocked_ast_printer.ml" 7 72 90
+)
+"clocked_ast_printer.ml" 10 150 207 "clocked_ast_printer.ml" 10 150 208
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "clocked_ast_printer.ml" 7 72 91 "clocked_ast_printer.ml" 7 72 92
+)
+"clocked_ast_printer.ml" 10 150 209 "clocked_ast_printer.ml" 10 150 212
+type(
+  string
+)
+ident(
+  int_ref sep "clocked_ast_printer.ml" 7 72 93 "clocked_ast_printer.ml" 7 72 96
+)
+"clocked_ast_printer.ml" 10 150 195 "clocked_ast_printer.ml" 10 150 213
+type(
+  Format.formatter -> 'a list -> unit
+)
+"clocked_ast_printer.ml" 10 150 214 "clocked_ast_printer.ml" 10 150 215
+type(
+  'a list
+)
+ident(
+  int_ref t "clocked_ast_printer.ml" 10 150 159 "clocked_ast_printer.ml" 10 150 160
+)
+"clocked_ast_printer.ml" 10 150 164 "clocked_ast_printer.ml" 10 150 215
+type(
+  unit
+)
+"clocked_ast_printer.ml" 7 72 105 "clocked_ast_printer.ml" 10 150 215
+type(
+  unit
+)
+"clocked_ast_printer.ml" 12 217 225 "clocked_ast_printer.ml" 12 217 239
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  def print_list_eol "clocked_ast_printer.ml" 12 217 217 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 12 217 240 "clocked_ast_printer.ml" 12 217 241
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def f "clocked_ast_printer.ml" 12 217 242 "clocked_ast_printer.ml" 15 318 388
+)
+"clocked_ast_printer.ml" 12 217 242 "clocked_ast_printer.ml" 12 217 245
+type(
+  string
+)
+ident(
+  def sep "clocked_ast_printer.ml" 12 217 246 "clocked_ast_printer.ml" 15 318 388
+)
+"clocked_ast_printer.ml" 12 217 246 "clocked_ast_printer.ml" 12 217 249
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 12 217 250 "clocked_ast_printer.ml" 15 318 388
+)
+"clocked_ast_printer.ml" 12 217 250 "clocked_ast_printer.ml" 12 217 251
+type(
+  'a list
+)
+ident(
+  def l "clocked_ast_printer.ml" 12 217 254 "clocked_ast_printer.ml" 15 318 388
+)
+"clocked_ast_printer.ml" 12 217 260 "clocked_ast_printer.ml" 12 217 261
+type(
+  'a list
+)
+ident(
+  int_ref l "clocked_ast_printer.ml" 12 217 250 "clocked_ast_printer.ml" 12 217 251
+)
+"clocked_ast_printer.ml" 13 267 271 "clocked_ast_printer.ml" 13 267 273
+type(
+  'a list
+)
+"clocked_ast_printer.ml" 13 267 277 "clocked_ast_printer.ml" 13 267 279
+type(
+  unit
+)
+"clocked_ast_printer.ml" 14 280 285 "clocked_ast_printer.ml" 14 280 286
+type(
+  'a
+)
+ident(
+  def x "clocked_ast_printer.ml" 14 280 291 "clocked_ast_printer.ml" 14 280 317
+)
+"clocked_ast_printer.ml" 14 280 284 "clocked_ast_printer.ml" 14 280 287
+type(
+  'a list
+)
+"clocked_ast_printer.ml" 14 280 291 "clocked_ast_printer.ml" 14 280 298
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) -> 'a -> string -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> 'a -> unit) -> 'a -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 14 280 299 "clocked_ast_printer.ml" 14 280 302
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 12 217 246 "clocked_ast_printer.ml" 12 217 249
+)
+"clocked_ast_printer.ml" 14 280 303 "clocked_ast_printer.ml" 14 280 309
+type(
+  ((Format.formatter -> 'a -> unit) -> 'a -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 14 280 310 "clocked_ast_printer.ml" 14 280 311
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "clocked_ast_printer.ml" 12 217 240 "clocked_ast_printer.ml" 12 217 241
+)
+"clocked_ast_printer.ml" 14 280 312 "clocked_ast_printer.ml" 14 280 313
+type(
+  'a
+)
+ident(
+  int_ref x "clocked_ast_printer.ml" 14 280 285 "clocked_ast_printer.ml" 14 280 286
+)
+"clocked_ast_printer.ml" 14 280 314 "clocked_ast_printer.ml" 14 280 317
+type(
+  string
+)
+ident(
+  int_ref sep "clocked_ast_printer.ml" 12 217 242 "clocked_ast_printer.ml" 12 217 245
+)
+"clocked_ast_printer.ml" 14 280 291 "clocked_ast_printer.ml" 14 280 317
+type(
+  unit
+)
+"clocked_ast_printer.ml" 15 318 322 "clocked_ast_printer.ml" 15 318 323
+type(
+  'a
+)
+ident(
+  def h "clocked_ast_printer.ml" 15 318 332 "clocked_ast_printer.ml" 15 318 388
+)
+"clocked_ast_printer.ml" 15 318 327 "clocked_ast_printer.ml" 15 318 328
+type(
+  'a list
+)
+ident(
+  def t "clocked_ast_printer.ml" 15 318 332 "clocked_ast_printer.ml" 15 318 388
+)
+"clocked_ast_printer.ml" 15 318 322 "clocked_ast_printer.ml" 15 318 328
+type(
+  'a list
+)
+"clocked_ast_printer.ml" 15 318 332 "clocked_ast_printer.ml" 15 318 339
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> 'a -> unit) ->
+  'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 15 318 340 "clocked_ast_printer.ml" 15 318 343
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 12 217 246 "clocked_ast_printer.ml" 12 217 249
+)
+"clocked_ast_printer.ml" 15 318 344 "clocked_ast_printer.ml" 15 318 355
+type(
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 15 318 356 "clocked_ast_printer.ml" 15 318 357
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "clocked_ast_printer.ml" 12 217 240 "clocked_ast_printer.ml" 12 217 241
+)
+"clocked_ast_printer.ml" 15 318 358 "clocked_ast_printer.ml" 15 318 359
+type(
+  'a
+)
+ident(
+  int_ref h "clocked_ast_printer.ml" 15 318 322 "clocked_ast_printer.ml" 15 318 323
+)
+"clocked_ast_printer.ml" 15 318 360 "clocked_ast_printer.ml" 15 318 363
+type(
+  string
+)
+ident(
+  int_ref sep "clocked_ast_printer.ml" 12 217 242 "clocked_ast_printer.ml" 12 217 245
+)
+"clocked_ast_printer.ml" 15 318 365 "clocked_ast_printer.ml" 15 318 379
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  int_ref print_list_eol "clocked_ast_printer.ml" 12 217 225 "clocked_ast_printer.ml" 12 217 239
+)
+"clocked_ast_printer.ml" 15 318 380 "clocked_ast_printer.ml" 15 318 381
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "clocked_ast_printer.ml" 12 217 240 "clocked_ast_printer.ml" 12 217 241
+)
+"clocked_ast_printer.ml" 15 318 382 "clocked_ast_printer.ml" 15 318 385
+type(
+  string
+)
+ident(
+  int_ref sep "clocked_ast_printer.ml" 12 217 242 "clocked_ast_printer.ml" 12 217 245
+)
+"clocked_ast_printer.ml" 15 318 364 "clocked_ast_printer.ml" 15 318 386
+type(
+  Format.formatter -> 'a list -> unit
+)
+"clocked_ast_printer.ml" 15 318 387 "clocked_ast_printer.ml" 15 318 388
+type(
+  'a list
+)
+ident(
+  int_ref t "clocked_ast_printer.ml" 15 318 327 "clocked_ast_printer.ml" 15 318 328
+)
+"clocked_ast_printer.ml" 15 318 332 "clocked_ast_printer.ml" 15 318 388
+type(
+  unit
+)
+"clocked_ast_printer.ml" 12 217 254 "clocked_ast_printer.ml" 15 318 388
+type(
+  unit
+)
+"clocked_ast_printer.ml" 17 390 394 "clocked_ast_printer.ml" 17 390 405
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  def print_const "clocked_ast_printer.ml" 24 600 600 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 17 390 406 "clocked_ast_printer.ml" 17 390 409
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 17 390 410 "clocked_ast_printer.ml" 22 559 598
+)
+"clocked_ast_printer.ml" 17 390 410 "clocked_ast_printer.ml" 17 390 411
+type(
+  Asttypes.const
+)
+ident(
+  def c "clocked_ast_printer.ml" 17 390 414 "clocked_ast_printer.ml" 22 559 598
+)
+"clocked_ast_printer.ml" 17 390 420 "clocked_ast_printer.ml" 17 390 421
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "clocked_ast_printer.ml" 17 390 410 "clocked_ast_printer.ml" 17 390 411
+)
+"clocked_ast_printer.ml" 18 427 431 "clocked_ast_printer.ml" 18 427 436
+type(
+  Asttypes.const
+)
+"clocked_ast_printer.ml" 18 427 440 "clocked_ast_printer.ml" 18 427 447
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 18 427 448 "clocked_ast_printer.ml" 18 427 451
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 17 390 406 "clocked_ast_printer.ml" 17 390 409
+)
+"clocked_ast_printer.ml" 18 427 452 "clocked_ast_printer.ml" 18 427 456
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 18 427 440 "clocked_ast_printer.ml" 18 427 456
+type(
+  unit
+)
+"clocked_ast_printer.ml" 19 457 467 "clocked_ast_printer.ml" 19 457 468
+type(
+  bool
+)
+ident(
+  def b "clocked_ast_printer.ml" 19 457 472 "clocked_ast_printer.ml" 19 457 490
+)
+"clocked_ast_printer.ml" 19 457 461 "clocked_ast_printer.ml" 19 457 468
+type(
+  Asttypes.const
+)
+"clocked_ast_printer.ml" 19 457 472 "clocked_ast_printer.ml" 19 457 479
+type(
+  Format.formatter ->
+  (bool -> unit, Format.formatter, unit) format -> bool -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 19 457 480 "clocked_ast_printer.ml" 19 457 483
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 17 390 406 "clocked_ast_printer.ml" 17 390 409
+)
+"clocked_ast_printer.ml" 19 457 484 "clocked_ast_printer.ml" 19 457 488
+type(
+  (bool -> unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 19 457 489 "clocked_ast_printer.ml" 19 457 490
+type(
+  bool
+)
+ident(
+  int_ref b "clocked_ast_printer.ml" 19 457 467 "clocked_ast_printer.ml" 19 457 468
+)
+"clocked_ast_printer.ml" 19 457 472 "clocked_ast_printer.ml" 19 457 490
+type(
+  unit
+)
+"clocked_ast_printer.ml" 20 491 500 "clocked_ast_printer.ml" 20 491 501
+type(
+  int
+)
+ident(
+  def i "clocked_ast_printer.ml" 20 491 505 "clocked_ast_printer.ml" 20 491 523
+)
+"clocked_ast_printer.ml" 20 491 495 "clocked_ast_printer.ml" 20 491 501
+type(
+  Asttypes.const
+)
+"clocked_ast_printer.ml" 20 491 505 "clocked_ast_printer.ml" 20 491 512
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 20 491 513 "clocked_ast_printer.ml" 20 491 516
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 17 390 406 "clocked_ast_printer.ml" 17 390 409
+)
+"clocked_ast_printer.ml" 20 491 517 "clocked_ast_printer.ml" 20 491 521
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 20 491 522 "clocked_ast_printer.ml" 20 491 523
+type(
+  int
+)
+ident(
+  int_ref i "clocked_ast_printer.ml" 20 491 500 "clocked_ast_printer.ml" 20 491 501
+)
+"clocked_ast_printer.ml" 20 491 505 "clocked_ast_printer.ml" 20 491 523
+type(
+  unit
+)
+"clocked_ast_printer.ml" 21 524 535 "clocked_ast_printer.ml" 21 524 536
+type(
+  float
+)
+ident(
+  def f "clocked_ast_printer.ml" 21 524 540 "clocked_ast_printer.ml" 21 524 558
+)
+"clocked_ast_printer.ml" 21 524 528 "clocked_ast_printer.ml" 21 524 536
+type(
+  Asttypes.const
+)
+"clocked_ast_printer.ml" 21 524 540 "clocked_ast_printer.ml" 21 524 547
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 21 524 548 "clocked_ast_printer.ml" 21 524 551
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 17 390 406 "clocked_ast_printer.ml" 17 390 409
+)
+"clocked_ast_printer.ml" 21 524 552 "clocked_ast_printer.ml" 21 524 556
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 21 524 557 "clocked_ast_printer.ml" 21 524 558
+type(
+  float
+)
+ident(
+  int_ref f "clocked_ast_printer.ml" 21 524 535 "clocked_ast_printer.ml" 21 524 536
+)
+"clocked_ast_printer.ml" 21 524 540 "clocked_ast_printer.ml" 21 524 558
+type(
+  unit
+)
+"clocked_ast_printer.ml" 22 559 571 "clocked_ast_printer.ml" 22 559 572
+type(
+  string
+)
+ident(
+  def s "clocked_ast_printer.ml" 22 559 576 "clocked_ast_printer.ml" 22 559 598
+)
+"clocked_ast_printer.ml" 22 559 563 "clocked_ast_printer.ml" 22 559 572
+type(
+  Asttypes.const
+)
+"clocked_ast_printer.ml" 22 559 576 "clocked_ast_printer.ml" 22 559 583
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 22 559 584 "clocked_ast_printer.ml" 22 559 587
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 17 390 406 "clocked_ast_printer.ml" 17 390 409
+)
+"clocked_ast_printer.ml" 22 559 588 "clocked_ast_printer.ml" 22 559 596
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 22 559 597 "clocked_ast_printer.ml" 22 559 598
+type(
+  string
+)
+ident(
+  int_ref s "clocked_ast_printer.ml" 22 559 571 "clocked_ast_printer.ml" 22 559 572
+)
+"clocked_ast_printer.ml" 22 559 576 "clocked_ast_printer.ml" 22 559 598
+type(
+  unit
+)
+"clocked_ast_printer.ml" 17 390 414 "clocked_ast_printer.ml" 22 559 598
+type(
+  unit
+)
+"clocked_ast_printer.ml" 24 600 604 "clocked_ast_printer.ml" 24 600 614
+type(
+  Format.formatter -> Asttypes.unop -> unit
+)
+ident(
+  def print_unop "clocked_ast_printer.ml" 29 730 730 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 24 600 615 "clocked_ast_printer.ml" 24 600 618
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 24 600 619 "clocked_ast_printer.ml" 27 696 728
+)
+"clocked_ast_printer.ml" 24 600 619 "clocked_ast_printer.ml" 24 600 621
+type(
+  Asttypes.unop
+)
+ident(
+  def op "clocked_ast_printer.ml" 24 600 624 "clocked_ast_printer.ml" 27 696 728
+)
+"clocked_ast_printer.ml" 24 600 630 "clocked_ast_printer.ml" 24 600 632
+type(
+  Asttypes.unop
+)
+ident(
+  int_ref op "clocked_ast_printer.ml" 24 600 619 "clocked_ast_printer.ml" 24 600 621
+)
+"clocked_ast_printer.ml" 25 638 642 "clocked_ast_printer.ml" 25 638 646
+type(
+  Asttypes.unop
+)
+"clocked_ast_printer.ml" 25 638 650 "clocked_ast_printer.ml" 25 638 657
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 25 638 658 "clocked_ast_printer.ml" 25 638 661
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 24 600 615 "clocked_ast_printer.ml" 24 600 618
+)
+"clocked_ast_printer.ml" 25 638 662 "clocked_ast_printer.ml" 25 638 665
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 25 638 650 "clocked_ast_printer.ml" 25 638 665
+type(
+  unit
+)
+"clocked_ast_printer.ml" 26 666 670 "clocked_ast_printer.ml" 26 666 676
+type(
+  Asttypes.unop
+)
+"clocked_ast_printer.ml" 26 666 680 "clocked_ast_printer.ml" 26 666 687
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 26 666 688 "clocked_ast_printer.ml" 26 666 691
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 24 600 615 "clocked_ast_printer.ml" 24 600 618
+)
+"clocked_ast_printer.ml" 26 666 692 "clocked_ast_printer.ml" 26 666 695
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 26 666 680 "clocked_ast_printer.ml" 26 666 695
+type(
+  unit
+)
+"clocked_ast_printer.ml" 27 696 700 "clocked_ast_printer.ml" 27 696 708
+type(
+  Asttypes.unop
+)
+"clocked_ast_printer.ml" 27 696 712 "clocked_ast_printer.ml" 27 696 719
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 27 696 720 "clocked_ast_printer.ml" 27 696 723
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 24 600 615 "clocked_ast_printer.ml" 24 600 618
+)
+"clocked_ast_printer.ml" 27 696 724 "clocked_ast_printer.ml" 27 696 728
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 27 696 712 "clocked_ast_printer.ml" 27 696 728
+type(
+  unit
+)
+"clocked_ast_printer.ml" 24 600 624 "clocked_ast_printer.ml" 27 696 728
+type(
+  unit
+)
+"clocked_ast_printer.ml" 29 730 734 "clocked_ast_printer.ml" 29 730 745
+type(
+  Format.formatter -> Asttypes.binop -> unit
+)
+ident(
+  def print_binop "clocked_ast_printer.ml" 48 1284 1284 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 29 730 750 "clocked_ast_printer.ml" 46 1255 1282
+)
+"clocked_ast_printer.ml" 29 730 750 "clocked_ast_printer.ml" 29 730 752
+type(
+  Asttypes.binop
+)
+ident(
+  def op "clocked_ast_printer.ml" 29 730 755 "clocked_ast_printer.ml" 46 1255 1282
+)
+"clocked_ast_printer.ml" 29 730 761 "clocked_ast_printer.ml" 29 730 763
+type(
+  Asttypes.binop
+)
+ident(
+  int_ref op "clocked_ast_printer.ml" 29 730 750 "clocked_ast_printer.ml" 29 730 752
+)
+"clocked_ast_printer.ml" 30 769 773 "clocked_ast_printer.ml" 30 769 776
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 30 769 780 "clocked_ast_printer.ml" 30 769 787
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 30 769 788 "clocked_ast_printer.ml" 30 769 791
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 30 769 792 "clocked_ast_printer.ml" 30 769 796
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 30 769 780 "clocked_ast_printer.ml" 30 769 796
+type(
+  unit
+)
+"clocked_ast_printer.ml" 31 797 801 "clocked_ast_printer.ml" 31 797 805
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 31 797 809 "clocked_ast_printer.ml" 31 797 816
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 31 797 817 "clocked_ast_printer.ml" 31 797 820
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 31 797 821 "clocked_ast_printer.ml" 31 797 826
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 31 797 809 "clocked_ast_printer.ml" 31 797 826
+type(
+  unit
+)
+"clocked_ast_printer.ml" 32 827 831 "clocked_ast_printer.ml" 32 827 834
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 32 827 838 "clocked_ast_printer.ml" 32 827 845
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 32 827 846 "clocked_ast_printer.ml" 32 827 849
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 32 827 850 "clocked_ast_printer.ml" 32 827 854
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 32 827 838 "clocked_ast_printer.ml" 32 827 854
+type(
+  unit
+)
+"clocked_ast_printer.ml" 33 855 859 "clocked_ast_printer.ml" 33 855 862
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 33 855 866 "clocked_ast_printer.ml" 33 855 873
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 33 855 874 "clocked_ast_printer.ml" 33 855 877
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 33 855 878 "clocked_ast_printer.ml" 33 855 882
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 33 855 866 "clocked_ast_printer.ml" 33 855 882
+type(
+  unit
+)
+"clocked_ast_printer.ml" 34 883 887 "clocked_ast_printer.ml" 34 883 890
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 34 883 894 "clocked_ast_printer.ml" 34 883 901
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 34 883 902 "clocked_ast_printer.ml" 34 883 905
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 34 883 906 "clocked_ast_printer.ml" 34 883 910
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 34 883 894 "clocked_ast_printer.ml" 34 883 910
+type(
+  unit
+)
+"clocked_ast_printer.ml" 35 911 915 "clocked_ast_printer.ml" 35 911 918
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 35 911 922 "clocked_ast_printer.ml" 35 911 929
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 35 911 930 "clocked_ast_printer.ml" 35 911 933
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 35 911 934 "clocked_ast_printer.ml" 35 911 938
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 35 911 922 "clocked_ast_printer.ml" 35 911 938
+type(
+  unit
+)
+"clocked_ast_printer.ml" 36 939 943 "clocked_ast_printer.ml" 36 939 947
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 36 939 951 "clocked_ast_printer.ml" 36 939 958
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 36 939 959 "clocked_ast_printer.ml" 36 939 962
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 36 939 963 "clocked_ast_printer.ml" 36 939 968
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 36 939 951 "clocked_ast_printer.ml" 36 939 968
+type(
+  unit
+)
+"clocked_ast_printer.ml" 37 969 973 "clocked_ast_printer.ml" 37 969 977
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 37 969 981 "clocked_ast_printer.ml" 37 969 988
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 37 969 989 "clocked_ast_printer.ml" 37 969 992
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 37 969 993 "clocked_ast_printer.ml" 37 969 998
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 37 969 981 "clocked_ast_printer.ml" 37 969 998
+type(
+  unit
+)
+"clocked_ast_printer.ml" 38 999 1003 "clocked_ast_printer.ml" 38 999 1007
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 38 999 1011 "clocked_ast_printer.ml" 38 999 1018
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 38 999 1019 "clocked_ast_printer.ml" 38 999 1022
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 38 999 1023 "clocked_ast_printer.ml" 38 999 1028
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 38 999 1011 "clocked_ast_printer.ml" 38 999 1028
+type(
+  unit
+)
+"clocked_ast_printer.ml" 39 1029 1033 "clocked_ast_printer.ml" 39 1029 1037
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 39 1029 1041 "clocked_ast_printer.ml" 39 1029 1048
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 39 1029 1049 "clocked_ast_printer.ml" 39 1029 1052
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 39 1029 1053 "clocked_ast_printer.ml" 39 1029 1058
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 39 1029 1041 "clocked_ast_printer.ml" 39 1029 1058
+type(
+  unit
+)
+"clocked_ast_printer.ml" 40 1059 1063 "clocked_ast_printer.ml" 40 1059 1067
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 40 1059 1071 "clocked_ast_printer.ml" 40 1059 1078
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 40 1059 1079 "clocked_ast_printer.ml" 40 1059 1082
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 40 1059 1083 "clocked_ast_printer.ml" 40 1059 1088
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 40 1059 1071 "clocked_ast_printer.ml" 40 1059 1088
+type(
+  unit
+)
+"clocked_ast_printer.ml" 41 1089 1093 "clocked_ast_printer.ml" 41 1089 1099
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 41 1089 1103 "clocked_ast_printer.ml" 41 1089 1110
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 41 1089 1111 "clocked_ast_printer.ml" 41 1089 1114
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 41 1089 1115 "clocked_ast_printer.ml" 41 1089 1122
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 41 1089 1103 "clocked_ast_printer.ml" 41 1089 1122
+type(
+  unit
+)
+"clocked_ast_printer.ml" 42 1123 1127 "clocked_ast_printer.ml" 42 1123 1133
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 42 1123 1137 "clocked_ast_printer.ml" 42 1123 1144
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 42 1123 1145 "clocked_ast_printer.ml" 42 1123 1148
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 42 1123 1149 "clocked_ast_printer.ml" 42 1123 1156
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 42 1123 1137 "clocked_ast_printer.ml" 42 1123 1156
+type(
+  unit
+)
+"clocked_ast_printer.ml" 43 1157 1161 "clocked_ast_printer.ml" 43 1157 1167
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 43 1157 1171 "clocked_ast_printer.ml" 43 1157 1178
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 43 1157 1179 "clocked_ast_printer.ml" 43 1157 1182
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 43 1157 1183 "clocked_ast_printer.ml" 43 1157 1190
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 43 1157 1171 "clocked_ast_printer.ml" 43 1157 1190
+type(
+  unit
+)
+"clocked_ast_printer.ml" 44 1191 1195 "clocked_ast_printer.ml" 44 1191 1201
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 44 1191 1205 "clocked_ast_printer.ml" 44 1191 1212
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 44 1191 1213 "clocked_ast_printer.ml" 44 1191 1216
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 44 1191 1217 "clocked_ast_printer.ml" 44 1191 1224
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 44 1191 1205 "clocked_ast_printer.ml" 44 1191 1224
+type(
+  unit
+)
+"clocked_ast_printer.ml" 45 1225 1229 "clocked_ast_printer.ml" 45 1225 1233
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 45 1225 1237 "clocked_ast_printer.ml" 45 1225 1244
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 45 1225 1245 "clocked_ast_printer.ml" 45 1225 1248
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 45 1225 1249 "clocked_ast_printer.ml" 45 1225 1254
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 45 1225 1237 "clocked_ast_printer.ml" 45 1225 1254
+type(
+  unit
+)
+"clocked_ast_printer.ml" 46 1255 1259 "clocked_ast_printer.ml" 46 1255 1262
+type(
+  Asttypes.binop
+)
+"clocked_ast_printer.ml" 46 1255 1266 "clocked_ast_printer.ml" 46 1255 1273
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 46 1255 1274 "clocked_ast_printer.ml" 46 1255 1277
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 29 730 746 "clocked_ast_printer.ml" 29 730 749
+)
+"clocked_ast_printer.ml" 46 1255 1278 "clocked_ast_printer.ml" 46 1255 1282
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 46 1255 1266 "clocked_ast_printer.ml" 46 1255 1282
+type(
+  unit
+)
+"clocked_ast_printer.ml" 29 730 755 "clocked_ast_printer.ml" 46 1255 1282
+type(
+  unit
+)
+"clocked_ast_printer.ml" 48 1284 1288 "clocked_ast_printer.ml" 48 1284 1298
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  def print_name "clocked_ast_printer.ml" 50 1333 1333 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 48 1284 1299 "clocked_ast_printer.ml" 48 1284 1302
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 48 1284 1303 "clocked_ast_printer.ml" 48 1284 1331
+)
+"clocked_ast_printer.ml" 48 1284 1303 "clocked_ast_printer.ml" 48 1284 1307
+type(
+  string
+)
+ident(
+  def name "clocked_ast_printer.ml" 48 1284 1310 "clocked_ast_printer.ml" 48 1284 1331
+)
+"clocked_ast_printer.ml" 48 1284 1310 "clocked_ast_printer.ml" 48 1284 1317
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 48 1284 1318 "clocked_ast_printer.ml" 48 1284 1321
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 48 1284 1299 "clocked_ast_printer.ml" 48 1284 1302
+)
+"clocked_ast_printer.ml" 48 1284 1322 "clocked_ast_printer.ml" 48 1284 1326
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 48 1284 1327 "clocked_ast_printer.ml" 48 1284 1331
+type(
+  string
+)
+ident(
+  int_ref name "clocked_ast_printer.ml" 48 1284 1303 "clocked_ast_printer.ml" 48 1284 1307
+)
+"clocked_ast_printer.ml" 48 1284 1310 "clocked_ast_printer.ml" 48 1284 1331
+type(
+  unit
+)
+"clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  def print_exp "clocked_ast_printer.ml" 50 1333 1333 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 50 1333 1355 "clocked_ast_printer.ml" 77 2360 2416
+)
+"clocked_ast_printer.ml" 50 1333 1355 "clocked_ast_printer.ml" 50 1333 1356
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_printer.ml" 50 1333 1359 "clocked_ast_printer.ml" 77 2360 2416
+)
+"clocked_ast_printer.ml" 50 1333 1365 "clocked_ast_printer.ml" 50 1333 1366
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_printer.ml" 50 1333 1355 "clocked_ast_printer.ml" 50 1333 1356
+)
+"clocked_ast_printer.ml" 50 1333 1365 "clocked_ast_printer.ml" 50 1333 1377
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 51 1383 1396 "clocked_ast_printer.ml" 51 1383 1397
+type(
+  Asttypes.const
+)
+ident(
+  def c "clocked_ast_printer.ml" 51 1383 1401 "clocked_ast_printer.ml" 51 1383 1418
+)
+"clocked_ast_printer.ml" 51 1383 1387 "clocked_ast_printer.ml" 51 1383 1397
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 51 1383 1401 "clocked_ast_printer.ml" 51 1383 1412
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  int_ref print_const "clocked_ast_printer.ml" 17 390 394 "clocked_ast_printer.ml" 17 390 405
+)
+"clocked_ast_printer.ml" 51 1383 1413 "clocked_ast_printer.ml" 51 1383 1416
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+)
+"clocked_ast_printer.ml" 51 1383 1417 "clocked_ast_printer.ml" 51 1383 1418
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "clocked_ast_printer.ml" 51 1383 1396 "clocked_ast_printer.ml" 51 1383 1397
+)
+"clocked_ast_printer.ml" 51 1383 1401 "clocked_ast_printer.ml" 51 1383 1418
+type(
+  unit
+)
+"clocked_ast_printer.ml" 52 1419 1432 "clocked_ast_printer.ml" 52 1419 1433
+type(
+  string
+)
+ident(
+  def s "clocked_ast_printer.ml" 52 1419 1437 "clocked_ast_printer.ml" 52 1419 1455
+)
+"clocked_ast_printer.ml" 52 1419 1423 "clocked_ast_printer.ml" 52 1419 1433
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 52 1419 1437 "clocked_ast_printer.ml" 52 1419 1444
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 52 1419 1445 "clocked_ast_printer.ml" 52 1419 1448
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+)
+"clocked_ast_printer.ml" 52 1419 1449 "clocked_ast_printer.ml" 52 1419 1453
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 52 1419 1454 "clocked_ast_printer.ml" 52 1419 1455
+type(
+  string
+)
+ident(
+  int_ref s "clocked_ast_printer.ml" 52 1419 1432 "clocked_ast_printer.ml" 52 1419 1433
+)
+"clocked_ast_printer.ml" 52 1419 1437 "clocked_ast_printer.ml" 52 1419 1455
+type(
+  unit
+)
+"clocked_ast_printer.ml" 53 1456 1469 "clocked_ast_printer.ml" 53 1456 1471
+type(
+  Asttypes.unop
+)
+ident(
+  def op "clocked_ast_printer.ml" 53 1456 1479 "clocked_ast_printer.ml" 53 1456 1525
+)
+"clocked_ast_printer.ml" 53 1456 1473 "clocked_ast_printer.ml" 53 1456 1474
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_printer.ml" 53 1456 1479 "clocked_ast_printer.ml" 53 1456 1525
+)
+"clocked_ast_printer.ml" 53 1456 1460 "clocked_ast_printer.ml" 53 1456 1475
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 53 1456 1479 "clocked_ast_printer.ml" 53 1456 1486
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.unop -> unit) ->
+   Asttypes.unop ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.unop -> unit) ->
+  Asttypes.unop ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 53 1456 1487 "clocked_ast_printer.ml" 53 1456 1490
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+)
+"clocked_ast_printer.ml" 53 1456 1491 "clocked_ast_printer.ml" 53 1456 1499
+type(
+  ((Format.formatter -> Asttypes.unop -> unit) ->
+   Asttypes.unop ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 53 1456 1500 "clocked_ast_printer.ml" 53 1456 1510
+type(
+  Format.formatter -> Asttypes.unop -> unit
+)
+ident(
+  int_ref print_unop "clocked_ast_printer.ml" 24 600 604 "clocked_ast_printer.ml" 24 600 614
+)
+"clocked_ast_printer.ml" 53 1456 1511 "clocked_ast_printer.ml" 53 1456 1513
+type(
+  Asttypes.unop
+)
+ident(
+  int_ref op "clocked_ast_printer.ml" 53 1456 1469 "clocked_ast_printer.ml" 53 1456 1471
+)
+"clocked_ast_printer.ml" 53 1456 1514 "clocked_ast_printer.ml" 53 1456 1523
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 53 1456 1524 "clocked_ast_printer.ml" 53 1456 1525
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_printer.ml" 53 1456 1473 "clocked_ast_printer.ml" 53 1456 1474
+)
+"clocked_ast_printer.ml" 53 1456 1479 "clocked_ast_printer.ml" 53 1456 1525
+type(
+  unit
+)
+"clocked_ast_printer.ml" 54 1526 1540 "clocked_ast_printer.ml" 54 1526 1542
+type(
+  Asttypes.binop
+)
+ident(
+  def op "clocked_ast_printer.ml" 55 1553 1559 "clocked_ast_printer.ml" 55 1553 1627
+)
+"clocked_ast_printer.ml" 54 1526 1544 "clocked_ast_printer.ml" 54 1526 1545
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def l "clocked_ast_printer.ml" 55 1553 1559 "clocked_ast_printer.ml" 55 1553 1627
+)
+"clocked_ast_printer.ml" 54 1526 1547 "clocked_ast_printer.ml" 54 1526 1548
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def r "clocked_ast_printer.ml" 55 1553 1559 "clocked_ast_printer.ml" 55 1553 1627
+)
+"clocked_ast_printer.ml" 54 1526 1530 "clocked_ast_printer.ml" 54 1526 1549
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 55 1553 1559 "clocked_ast_printer.ml" 55 1553 1566
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.binop -> unit) ->
+   Asttypes.binop ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.binop -> unit) ->
+  Asttypes.binop ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 55 1553 1567 "clocked_ast_printer.ml" 55 1553 1570
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+)
+"clocked_ast_printer.ml" 55 1553 1571 "clocked_ast_printer.ml" 55 1553 1588
+type(
+  ((Format.formatter -> Asttypes.binop -> unit) ->
+   Asttypes.binop ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 55 1553 1589 "clocked_ast_printer.ml" 55 1553 1600
+type(
+  Format.formatter -> Asttypes.binop -> unit
+)
+ident(
+  int_ref print_binop "clocked_ast_printer.ml" 29 730 734 "clocked_ast_printer.ml" 29 730 745
+)
+"clocked_ast_printer.ml" 55 1553 1601 "clocked_ast_printer.ml" 55 1553 1603
+type(
+  Asttypes.binop
+)
+ident(
+  int_ref op "clocked_ast_printer.ml" 54 1526 1540 "clocked_ast_printer.ml" 54 1526 1542
+)
+"clocked_ast_printer.ml" 55 1553 1604 "clocked_ast_printer.ml" 55 1553 1613
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 55 1553 1614 "clocked_ast_printer.ml" 55 1553 1615
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref l "clocked_ast_printer.ml" 54 1526 1544 "clocked_ast_printer.ml" 54 1526 1545
+)
+"clocked_ast_printer.ml" 55 1553 1616 "clocked_ast_printer.ml" 55 1553 1625
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 55 1553 1626 "clocked_ast_printer.ml" 55 1553 1627
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref r "clocked_ast_printer.ml" 54 1526 1547 "clocked_ast_printer.ml" 54 1526 1548
+)
+"clocked_ast_printer.ml" 55 1553 1559 "clocked_ast_printer.ml" 55 1553 1627
+type(
+  unit
+)
+"clocked_ast_printer.ml" 56 1628 1640 "clocked_ast_printer.ml" 56 1628 1644
+type(
+  string
+)
+ident(
+  def name "clocked_ast_printer.ml" 57 1682 1688 "clocked_ast_printer.ml" 57 1682 1750
+)
+"clocked_ast_printer.ml" 56 1628 1646 "clocked_ast_printer.ml" 56 1628 1652
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def e_list "clocked_ast_printer.ml" 57 1682 1688 "clocked_ast_printer.ml" 57 1682 1750
+)
+"clocked_ast_printer.ml" 56 1628 1632 "clocked_ast_printer.ml" 56 1628 1653
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 56 1628 1665 "clocked_ast_printer.ml" 56 1628 1669
+type(
+  string
+)
+ident(
+  def name "clocked_ast_printer.ml" 57 1682 1688 "clocked_ast_printer.ml" 57 1682 1750
+)
+"clocked_ast_printer.ml" 56 1628 1671 "clocked_ast_printer.ml" 56 1628 1677
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def e_list "clocked_ast_printer.ml" 57 1682 1688 "clocked_ast_printer.ml" 57 1682 1750
+)
+"clocked_ast_printer.ml" 56 1628 1656 "clocked_ast_printer.ml" 56 1628 1678
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 56 1628 1632 "clocked_ast_printer.ml" 56 1628 1678
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 57 1682 1688 "clocked_ast_printer.ml" 57 1682 1695
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+   Clocked_ast.c_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+  Clocked_ast.c_expr list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 57 1682 1696 "clocked_ast_printer.ml" 57 1682 1699
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+)
+"clocked_ast_printer.ml" 57 1682 1700 "clocked_ast_printer.ml" 57 1682 1712
+type(
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+   Clocked_ast.c_expr list -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 57 1682 1713 "clocked_ast_printer.ml" 57 1682 1723
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref print_name "clocked_ast_printer.ml" 48 1284 1288 "clocked_ast_printer.ml" 48 1284 1298
+)
+"clocked_ast_printer.ml" 57 1682 1724 "clocked_ast_printer.ml" 57 1682 1728
+type(
+  string
+)
+ident(
+  int_ref name "clocked_ast_printer.ml" 56 1628 1640 "clocked_ast_printer.ml" 56 1628 1644
+)
+"clocked_ast_printer.ml" 57 1682 1729 "clocked_ast_printer.ml" 57 1682 1743
+type(
+  Format.formatter -> Clocked_ast.c_expr list -> unit
+)
+ident(
+  int_ref print_arg_list "clocked_ast_printer.ml" 79 2418 2422 "clocked_ast_printer.ml" 79 2418 2436
+)
+"clocked_ast_printer.ml" 57 1682 1744 "clocked_ast_printer.ml" 57 1682 1750
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref e_list "clocked_ast_printer.ml" 56 1628 1646 "clocked_ast_printer.ml" 56 1628 1652
+)
+"clocked_ast_printer.ml" 57 1682 1688 "clocked_ast_printer.ml" 57 1682 1750
+type(
+  unit
+)
+"clocked_ast_printer.ml" 58 1751 1762 "clocked_ast_printer.ml" 58 1751 1766
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def cond "clocked_ast_printer.ml" 59 1783 1789 "clocked_ast_printer.ml" 62 1877 1899
+)
+"clocked_ast_printer.ml" 58 1751 1768 "clocked_ast_printer.ml" 58 1751 1772
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def cons "clocked_ast_printer.ml" 59 1783 1789 "clocked_ast_printer.ml" 62 1877 1899
+)
+"clocked_ast_printer.ml" 58 1751 1774 "clocked_ast_printer.ml" 58 1751 1778
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def altr "clocked_ast_printer.ml" 59 1783 1789 "clocked_ast_printer.ml" 62 1877 1899
+)
+"clocked_ast_printer.ml" 58 1751 1755 "clocked_ast_printer.ml" 58 1751 1779
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 59 1783 1789 "clocked_ast_printer.ml" 59 1783 1796
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 59 1783 1797 "clocked_ast_printer.ml" 59 1783 1800
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+)
+"clocked_ast_printer.ml" 59 1783 1801 "clocked_ast_printer.ml" 59 1783 1830
+type(
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 60 1831 1839 "clocked_ast_printer.ml" 60 1831 1848
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 60 1831 1849 "clocked_ast_printer.ml" 60 1831 1853
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref cond "clocked_ast_printer.ml" 58 1751 1762 "clocked_ast_printer.ml" 58 1751 1766
+)
+"clocked_ast_printer.ml" 61 1854 1862 "clocked_ast_printer.ml" 61 1854 1871
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 61 1854 1872 "clocked_ast_printer.ml" 61 1854 1876
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref cons "clocked_ast_printer.ml" 58 1751 1768 "clocked_ast_printer.ml" 58 1751 1772
+)
+"clocked_ast_printer.ml" 62 1877 1885 "clocked_ast_printer.ml" 62 1877 1894
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 62 1877 1895 "clocked_ast_printer.ml" 62 1877 1899
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref altr "clocked_ast_printer.ml" 58 1751 1774 "clocked_ast_printer.ml" 58 1751 1778
+)
+"clocked_ast_printer.ml" 59 1783 1789 "clocked_ast_printer.ml" 62 1877 1899
+type(
+  unit
+)
+"clocked_ast_printer.ml" 63 1900 1913 "clocked_ast_printer.ml" 63 1900 1915
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_printer.ml" 64 1930 1936 "clocked_ast_printer.ml" 67 2023 2043
+)
+"clocked_ast_printer.ml" 63 1900 1917 "clocked_ast_printer.ml" 63 1900 1921
+type(
+  Asttypes.const
+)
+ident(
+  def cons "clocked_ast_printer.ml" 64 1930 1936 "clocked_ast_printer.ml" 67 2023 2043
+)
+"clocked_ast_printer.ml" 63 1900 1923 "clocked_ast_printer.ml" 63 1900 1925
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_printer.ml" 64 1930 1936 "clocked_ast_printer.ml" 67 2023 2043
+)
+"clocked_ast_printer.ml" 63 1900 1904 "clocked_ast_printer.ml" 63 1900 1926
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 64 1930 1936 "clocked_ast_printer.ml" 64 1930 1943
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr ->
+  (Format.formatter -> Asttypes.const list -> unit) ->
+  Asttypes.const list ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 64 1930 1944 "clocked_ast_printer.ml" 64 1930 1947
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+)
+"clocked_ast_printer.ml" 64 1930 1948 "clocked_ast_printer.ml" 64 1930 1970
+type(
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 65 1971 1979 "clocked_ast_printer.ml" 65 1971 1988
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 65 1971 1989 "clocked_ast_printer.ml" 65 1971 1991
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_printer.ml" 63 1900 1913 "clocked_ast_printer.ml" 63 1900 1915
+)
+"clocked_ast_printer.ml" 66 1992 2000 "clocked_ast_printer.ml" 66 1992 2015
+type(
+  Format.formatter -> Asttypes.const list -> unit
+)
+ident(
+  int_ref print_const_exp "clocked_ast_printer.ml" 89 2772 2776 "clocked_ast_printer.ml" 89 2772 2791
+)
+"clocked_ast_printer.ml" 66 1992 2017 "clocked_ast_printer.ml" 66 1992 2021
+type(
+  Asttypes.const
+)
+ident(
+  int_ref cons "clocked_ast_printer.ml" 63 1900 1917 "clocked_ast_printer.ml" 63 1900 1921
+)
+"clocked_ast_printer.ml" 66 1992 2016 "clocked_ast_printer.ml" 66 1992 2022
+type(
+  Asttypes.const list
+)
+"clocked_ast_printer.ml" 67 2023 2031 "clocked_ast_printer.ml" 67 2023 2040
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 67 2023 2041 "clocked_ast_printer.ml" 67 2023 2043
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_printer.ml" 63 1900 1923 "clocked_ast_printer.ml" 63 1900 1925
+)
+"clocked_ast_printer.ml" 64 1930 1936 "clocked_ast_printer.ml" 67 2023 2043
+type(
+  unit
+)
+"clocked_ast_printer.ml" 68 2044 2058 "clocked_ast_printer.ml" 68 2044 2059
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_printer.ml" 69 2074 2080 "clocked_ast_printer.ml" 71 2129 2165
+)
+"clocked_ast_printer.ml" 68 2044 2061 "clocked_ast_printer.ml" 68 2044 2069
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  def c_e_list "clocked_ast_printer.ml" 69 2074 2080 "clocked_ast_printer.ml" 71 2129 2165
+)
+"clocked_ast_printer.ml" 68 2044 2048 "clocked_ast_printer.ml" 68 2044 2070
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 69 2074 2080 "clocked_ast_printer.ml" 69 2074 2087
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> (Asttypes.const * Clocked_ast.c_expr) list -> unit) ->
+   (Asttypes.const * Clocked_ast.c_expr) list -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr ->
+  (Format.formatter -> (Asttypes.const * Clocked_ast.c_expr) list -> unit) ->
+  (Asttypes.const * Clocked_ast.c_expr) list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 69 2074 2088 "clocked_ast_printer.ml" 69 2074 2091
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+)
+"clocked_ast_printer.ml" 69 2074 2092 "clocked_ast_printer.ml" 69 2074 2109
+type(
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> (Asttypes.const * Clocked_ast.c_expr) list -> unit) ->
+   (Asttypes.const * Clocked_ast.c_expr) list -> unit, Format.formatter,
+   unit)
+  format
+)
+"clocked_ast_printer.ml" 70 2111 2117 "clocked_ast_printer.ml" 70 2111 2126
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 70 2111 2127 "clocked_ast_printer.ml" 70 2111 2128
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_printer.ml" 68 2044 2058 "clocked_ast_printer.ml" 68 2044 2059
+)
+"clocked_ast_printer.ml" 71 2129 2135 "clocked_ast_printer.ml" 71 2129 2156
+type(
+  Format.formatter -> (Asttypes.const * Clocked_ast.c_expr) list -> unit
+)
+ident(
+  int_ref print_const_expr_list "clocked_ast_printer.ml" 94 2959 2963 "clocked_ast_printer.ml" 94 2959 2984
+)
+"clocked_ast_printer.ml" 71 2129 2157 "clocked_ast_printer.ml" 71 2129 2165
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  int_ref c_e_list "clocked_ast_printer.ml" 68 2044 2061 "clocked_ast_printer.ml" 68 2044 2069
+)
+"clocked_ast_printer.ml" 69 2074 2080 "clocked_ast_printer.ml" 71 2129 2165
+type(
+  unit
+)
+"clocked_ast_printer.ml" 72 2166 2178 "clocked_ast_printer.ml" 72 2166 2179
+type(
+  Asttypes.const list
+)
+ident(
+  def l "clocked_ast_printer.ml" 73 2187 2193 "clocked_ast_printer.ml" 73 2187 2256
+)
+"clocked_ast_printer.ml" 72 2166 2181 "clocked_ast_printer.ml" 72 2166 2182
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def r "clocked_ast_printer.ml" 73 2187 2193 "clocked_ast_printer.ml" 73 2187 2256
+)
+"clocked_ast_printer.ml" 72 2166 2170 "clocked_ast_printer.ml" 72 2166 2183
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 73 2187 2193 "clocked_ast_printer.ml" 73 2187 2200
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.const list -> unit) ->
+  Asttypes.const list ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 73 2187 2201 "clocked_ast_printer.ml" 73 2187 2204
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+)
+"clocked_ast_printer.ml" 73 2187 2205 "clocked_ast_printer.ml" 73 2187 2226
+type(
+  ((Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 73 2187 2227 "clocked_ast_printer.ml" 73 2187 2242
+type(
+  Format.formatter -> Asttypes.const list -> unit
+)
+ident(
+  int_ref print_const_exp "clocked_ast_printer.ml" 89 2772 2776 "clocked_ast_printer.ml" 89 2772 2791
+)
+"clocked_ast_printer.ml" 73 2187 2243 "clocked_ast_printer.ml" 73 2187 2244
+type(
+  Asttypes.const list
+)
+ident(
+  int_ref l "clocked_ast_printer.ml" 72 2166 2178 "clocked_ast_printer.ml" 72 2166 2179
+)
+"clocked_ast_printer.ml" 73 2187 2245 "clocked_ast_printer.ml" 73 2187 2254
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 73 2187 2255 "clocked_ast_printer.ml" 73 2187 2256
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref r "clocked_ast_printer.ml" 72 2166 2181 "clocked_ast_printer.ml" 72 2166 2182
+)
+"clocked_ast_printer.ml" 73 2187 2193 "clocked_ast_printer.ml" 73 2187 2256
+type(
+  unit
+)
+"clocked_ast_printer.ml" 74 2257 2270 "clocked_ast_printer.ml" 74 2257 2276
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def e_list "clocked_ast_printer.ml" 75 2280 2286 "clocked_ast_printer.ml" 75 2280 2336
+)
+"clocked_ast_printer.ml" 74 2257 2261 "clocked_ast_printer.ml" 74 2257 2276
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 75 2280 2286 "clocked_ast_printer.ml" 75 2280 2293
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+   Clocked_ast.c_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+  Clocked_ast.c_expr list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 75 2280 2294 "clocked_ast_printer.ml" 75 2280 2297
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+)
+"clocked_ast_printer.ml" 75 2280 2298 "clocked_ast_printer.ml" 75 2280 2308
+type(
+  ((Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+   Clocked_ast.c_expr list -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 75 2280 2309 "clocked_ast_printer.ml" 75 2280 2329
+type(
+  Format.formatter -> Clocked_ast.c_expr list -> unit
+)
+ident(
+  int_ref print_tuple_arg_list "clocked_ast_printer.ml" 84 2587 2591 "clocked_ast_printer.ml" 84 2587 2611
+)
+"clocked_ast_printer.ml" 75 2280 2330 "clocked_ast_printer.ml" 75 2280 2336
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref e_list "clocked_ast_printer.ml" 74 2257 2270 "clocked_ast_printer.ml" 74 2257 2276
+)
+"clocked_ast_printer.ml" 75 2280 2286 "clocked_ast_printer.ml" 75 2280 2336
+type(
+  unit
+)
+"clocked_ast_printer.ml" 76 2337 2350 "clocked_ast_printer.ml" 76 2337 2356
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def e_list "clocked_ast_printer.ml" 77 2360 2366 "clocked_ast_printer.ml" 77 2360 2416
+)
+"clocked_ast_printer.ml" 76 2337 2341 "clocked_ast_printer.ml" 76 2337 2356
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_printer.ml" 77 2360 2366 "clocked_ast_printer.ml" 77 2360 2373
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+   Clocked_ast.c_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+  Clocked_ast.c_expr list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 77 2360 2374 "clocked_ast_printer.ml" 77 2360 2377
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 50 1333 1351 "clocked_ast_printer.ml" 50 1333 1354
+)
+"clocked_ast_printer.ml" 77 2360 2378 "clocked_ast_printer.ml" 77 2360 2394
+type(
+  ((Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+   Clocked_ast.c_expr list -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 77 2360 2395 "clocked_ast_printer.ml" 77 2360 2409
+type(
+  Format.formatter -> Clocked_ast.c_expr list -> unit
+)
+ident(
+  int_ref print_arg_list "clocked_ast_printer.ml" 79 2418 2422 "clocked_ast_printer.ml" 79 2418 2436
+)
+"clocked_ast_printer.ml" 77 2360 2410 "clocked_ast_printer.ml" 77 2360 2416
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref e_list "clocked_ast_printer.ml" 76 2337 2350 "clocked_ast_printer.ml" 76 2337 2356
+)
+"clocked_ast_printer.ml" 77 2360 2366 "clocked_ast_printer.ml" 77 2360 2416
+type(
+  unit
+)
+"clocked_ast_printer.ml" 50 1333 1359 "clocked_ast_printer.ml" 77 2360 2416
+type(
+  unit
+)
+"clocked_ast_printer.ml" 79 2418 2422 "clocked_ast_printer.ml" 79 2418 2436
+type(
+  Format.formatter -> Clocked_ast.c_expr list -> unit
+)
+ident(
+  def print_arg_list "clocked_ast_printer.ml" 50 1333 1333 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 79 2418 2437 "clocked_ast_printer.ml" 79 2418 2440
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 79 2418 2441 "clocked_ast_printer.ml" 82 2521 2585
+)
+"clocked_ast_printer.ml" 79 2418 2441 "clocked_ast_printer.ml" 79 2418 2447
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def e_list "clocked_ast_printer.ml" 79 2418 2450 "clocked_ast_printer.ml" 82 2521 2585
+)
+"clocked_ast_printer.ml" 79 2418 2456 "clocked_ast_printer.ml" 79 2418 2462
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref e_list "clocked_ast_printer.ml" 79 2418 2441 "clocked_ast_printer.ml" 79 2418 2447
+)
+"clocked_ast_printer.ml" 80 2468 2472 "clocked_ast_printer.ml" 80 2468 2474
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_printer.ml" 80 2468 2478 "clocked_ast_printer.ml" 80 2468 2480
+type(
+  unit
+)
+"clocked_ast_printer.ml" 81 2481 2486 "clocked_ast_printer.ml" 81 2481 2487
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def x "clocked_ast_printer.ml" 81 2481 2492 "clocked_ast_printer.ml" 81 2481 2520
+)
+"clocked_ast_printer.ml" 81 2481 2485 "clocked_ast_printer.ml" 81 2481 2488
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_printer.ml" 81 2481 2492 "clocked_ast_printer.ml" 81 2481 2499
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 81 2481 2500 "clocked_ast_printer.ml" 81 2481 2503
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 79 2418 2437 "clocked_ast_printer.ml" 79 2418 2440
+)
+"clocked_ast_printer.ml" 81 2481 2504 "clocked_ast_printer.ml" 81 2481 2508
+type(
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 81 2481 2509 "clocked_ast_printer.ml" 81 2481 2518
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 81 2481 2519 "clocked_ast_printer.ml" 81 2481 2520
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref x "clocked_ast_printer.ml" 81 2481 2486 "clocked_ast_printer.ml" 81 2481 2487
+)
+"clocked_ast_printer.ml" 81 2481 2492 "clocked_ast_printer.ml" 81 2481 2520
+type(
+  unit
+)
+"clocked_ast_printer.ml" 82 2521 2525 "clocked_ast_printer.ml" 82 2521 2526
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def h "clocked_ast_printer.ml" 82 2521 2535 "clocked_ast_printer.ml" 82 2521 2585
+)
+"clocked_ast_printer.ml" 82 2521 2530 "clocked_ast_printer.ml" 82 2521 2531
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def t "clocked_ast_printer.ml" 82 2521 2535 "clocked_ast_printer.ml" 82 2521 2585
+)
+"clocked_ast_printer.ml" 82 2521 2525 "clocked_ast_printer.ml" 82 2521 2531
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_printer.ml" 82 2521 2535 "clocked_ast_printer.ml" 82 2521 2542
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+   Clocked_ast.c_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr ->
+  (Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+  Clocked_ast.c_expr list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 82 2521 2543 "clocked_ast_printer.ml" 82 2521 2546
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 79 2418 2437 "clocked_ast_printer.ml" 79 2418 2440
+)
+"clocked_ast_printer.ml" 82 2521 2547 "clocked_ast_printer.ml" 82 2521 2556
+type(
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+   Clocked_ast.c_expr list -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 82 2521 2557 "clocked_ast_printer.ml" 82 2521 2566
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 82 2521 2567 "clocked_ast_printer.ml" 82 2521 2568
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref h "clocked_ast_printer.ml" 82 2521 2525 "clocked_ast_printer.ml" 82 2521 2526
+)
+"clocked_ast_printer.ml" 82 2521 2569 "clocked_ast_printer.ml" 82 2521 2583
+type(
+  Format.formatter -> Clocked_ast.c_expr list -> unit
+)
+ident(
+  int_ref print_arg_list "clocked_ast_printer.ml" 79 2418 2422 "clocked_ast_printer.ml" 79 2418 2436
+)
+"clocked_ast_printer.ml" 82 2521 2584 "clocked_ast_printer.ml" 82 2521 2585
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref t "clocked_ast_printer.ml" 82 2521 2530 "clocked_ast_printer.ml" 82 2521 2531
+)
+"clocked_ast_printer.ml" 82 2521 2535 "clocked_ast_printer.ml" 82 2521 2585
+type(
+  unit
+)
+"clocked_ast_printer.ml" 79 2418 2450 "clocked_ast_printer.ml" 82 2521 2585
+type(
+  unit
+)
+"clocked_ast_printer.ml" 84 2587 2591 "clocked_ast_printer.ml" 84 2587 2611
+type(
+  Format.formatter -> Clocked_ast.c_expr list -> unit
+)
+ident(
+  def print_tuple_arg_list "clocked_ast_printer.ml" 50 1333 1333 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 84 2587 2612 "clocked_ast_printer.ml" 84 2587 2615
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 84 2587 2616 "clocked_ast_printer.ml" 87 2706 2770
+)
+"clocked_ast_printer.ml" 84 2587 2616 "clocked_ast_printer.ml" 84 2587 2622
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def e_list "clocked_ast_printer.ml" 84 2587 2625 "clocked_ast_printer.ml" 87 2706 2770
+)
+"clocked_ast_printer.ml" 84 2587 2631 "clocked_ast_printer.ml" 84 2587 2637
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref e_list "clocked_ast_printer.ml" 84 2587 2616 "clocked_ast_printer.ml" 84 2587 2622
+)
+"clocked_ast_printer.ml" 85 2643 2647 "clocked_ast_printer.ml" 85 2643 2649
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_printer.ml" 85 2643 2660 "clocked_ast_printer.ml" 85 2643 2665
+type(
+  bool
+)
+"clocked_ast_printer.ml" 85 2643 2653 "clocked_ast_printer.ml" 85 2643 2665
+type(
+  unit
+)
+"clocked_ast_printer.ml" 86 2666 2671 "clocked_ast_printer.ml" 86 2666 2672
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def x "clocked_ast_printer.ml" 86 2666 2677 "clocked_ast_printer.ml" 86 2666 2705
+)
+"clocked_ast_printer.ml" 86 2666 2670 "clocked_ast_printer.ml" 86 2666 2673
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_printer.ml" 86 2666 2677 "clocked_ast_printer.ml" 86 2666 2684
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 86 2666 2685 "clocked_ast_printer.ml" 86 2666 2688
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 84 2587 2612 "clocked_ast_printer.ml" 84 2587 2615
+)
+"clocked_ast_printer.ml" 86 2666 2689 "clocked_ast_printer.ml" 86 2666 2693
+type(
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 86 2666 2694 "clocked_ast_printer.ml" 86 2666 2703
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 86 2666 2704 "clocked_ast_printer.ml" 86 2666 2705
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref x "clocked_ast_printer.ml" 86 2666 2671 "clocked_ast_printer.ml" 86 2666 2672
+)
+"clocked_ast_printer.ml" 86 2666 2677 "clocked_ast_printer.ml" 86 2666 2705
+type(
+  unit
+)
+"clocked_ast_printer.ml" 87 2706 2710 "clocked_ast_printer.ml" 87 2706 2711
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def h "clocked_ast_printer.ml" 87 2706 2720 "clocked_ast_printer.ml" 87 2706 2770
+)
+"clocked_ast_printer.ml" 87 2706 2715 "clocked_ast_printer.ml" 87 2706 2716
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def t "clocked_ast_printer.ml" 87 2706 2720 "clocked_ast_printer.ml" 87 2706 2770
+)
+"clocked_ast_printer.ml" 87 2706 2710 "clocked_ast_printer.ml" 87 2706 2716
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_printer.ml" 87 2706 2720 "clocked_ast_printer.ml" 87 2706 2727
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+   Clocked_ast.c_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr ->
+  (Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+  Clocked_ast.c_expr list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 87 2706 2728 "clocked_ast_printer.ml" 87 2706 2731
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 84 2587 2612 "clocked_ast_printer.ml" 84 2587 2615
+)
+"clocked_ast_printer.ml" 87 2706 2732 "clocked_ast_printer.ml" 87 2706 2741
+type(
+  ((Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> Clocked_ast.c_expr list -> unit) ->
+   Clocked_ast.c_expr list -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 87 2706 2742 "clocked_ast_printer.ml" 87 2706 2751
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 87 2706 2752 "clocked_ast_printer.ml" 87 2706 2753
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref h "clocked_ast_printer.ml" 87 2706 2710 "clocked_ast_printer.ml" 87 2706 2711
+)
+"clocked_ast_printer.ml" 87 2706 2754 "clocked_ast_printer.ml" 87 2706 2768
+type(
+  Format.formatter -> Clocked_ast.c_expr list -> unit
+)
+ident(
+  int_ref print_arg_list "clocked_ast_printer.ml" 79 2418 2422 "clocked_ast_printer.ml" 79 2418 2436
+)
+"clocked_ast_printer.ml" 87 2706 2769 "clocked_ast_printer.ml" 87 2706 2770
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref t "clocked_ast_printer.ml" 87 2706 2715 "clocked_ast_printer.ml" 87 2706 2716
+)
+"clocked_ast_printer.ml" 87 2706 2720 "clocked_ast_printer.ml" 87 2706 2770
+type(
+  unit
+)
+"clocked_ast_printer.ml" 84 2587 2625 "clocked_ast_printer.ml" 87 2706 2770
+type(
+  unit
+)
+"clocked_ast_printer.ml" 89 2772 2776 "clocked_ast_printer.ml" 89 2772 2791
+type(
+  Format.formatter -> Asttypes.const list -> unit
+)
+ident(
+  def print_const_exp "clocked_ast_printer.ml" 50 1333 1333 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 89 2772 2792 "clocked_ast_printer.ml" 89 2772 2795
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 89 2772 2796 "clocked_ast_printer.ml" 92 2890 2957
+)
+"clocked_ast_printer.ml" 89 2772 2796 "clocked_ast_printer.ml" 89 2772 2803
+type(
+  Asttypes.const list
+)
+ident(
+  def ce_list "clocked_ast_printer.ml" 89 2772 2806 "clocked_ast_printer.ml" 92 2890 2957
+)
+"clocked_ast_printer.ml" 89 2772 2812 "clocked_ast_printer.ml" 89 2772 2819
+type(
+  Asttypes.const list
+)
+ident(
+  int_ref ce_list "clocked_ast_printer.ml" 89 2772 2796 "clocked_ast_printer.ml" 89 2772 2803
+)
+"clocked_ast_printer.ml" 90 2825 2829 "clocked_ast_printer.ml" 90 2825 2831
+type(
+  Asttypes.const list
+)
+"clocked_ast_printer.ml" 90 2825 2842 "clocked_ast_printer.ml" 90 2825 2847
+type(
+  bool
+)
+"clocked_ast_printer.ml" 90 2825 2835 "clocked_ast_printer.ml" 90 2825 2847
+type(
+  unit
+)
+"clocked_ast_printer.ml" 91 2848 2853 "clocked_ast_printer.ml" 91 2848 2854
+type(
+  Asttypes.const
+)
+ident(
+  def c "clocked_ast_printer.ml" 91 2848 2859 "clocked_ast_printer.ml" 91 2848 2889
+)
+"clocked_ast_printer.ml" 91 2848 2852 "clocked_ast_printer.ml" 91 2848 2855
+type(
+  Asttypes.const list
+)
+"clocked_ast_printer.ml" 91 2848 2859 "clocked_ast_printer.ml" 91 2848 2866
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.const -> unit) -> Asttypes.const -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.const -> unit) -> Asttypes.const -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 91 2848 2867 "clocked_ast_printer.ml" 91 2848 2870
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 89 2772 2792 "clocked_ast_printer.ml" 89 2772 2795
+)
+"clocked_ast_printer.ml" 91 2848 2871 "clocked_ast_printer.ml" 91 2848 2875
+type(
+  ((Format.formatter -> Asttypes.const -> unit) -> Asttypes.const -> unit,
+   Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 91 2848 2876 "clocked_ast_printer.ml" 91 2848 2887
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  int_ref print_const "clocked_ast_printer.ml" 17 390 394 "clocked_ast_printer.ml" 17 390 405
+)
+"clocked_ast_printer.ml" 91 2848 2888 "clocked_ast_printer.ml" 91 2848 2889
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "clocked_ast_printer.ml" 91 2848 2853 "clocked_ast_printer.ml" 91 2848 2854
+)
+"clocked_ast_printer.ml" 91 2848 2859 "clocked_ast_printer.ml" 91 2848 2889
+type(
+  unit
+)
+"clocked_ast_printer.ml" 92 2890 2894 "clocked_ast_printer.ml" 92 2890 2895
+type(
+  Asttypes.const
+)
+ident(
+  def h "clocked_ast_printer.ml" 92 2890 2904 "clocked_ast_printer.ml" 92 2890 2957
+)
+"clocked_ast_printer.ml" 92 2890 2899 "clocked_ast_printer.ml" 92 2890 2900
+type(
+  Asttypes.const list
+)
+ident(
+  def t "clocked_ast_printer.ml" 92 2890 2904 "clocked_ast_printer.ml" 92 2890 2957
+)
+"clocked_ast_printer.ml" 92 2890 2894 "clocked_ast_printer.ml" 92 2890 2900
+type(
+  Asttypes.const list
+)
+"clocked_ast_printer.ml" 92 2890 2904 "clocked_ast_printer.ml" 92 2890 2911
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.const -> unit) ->
+  Asttypes.const ->
+  (Format.formatter -> Asttypes.const list -> unit) ->
+  Asttypes.const list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 92 2890 2912 "clocked_ast_printer.ml" 92 2890 2915
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 89 2772 2792 "clocked_ast_printer.ml" 89 2772 2795
+)
+"clocked_ast_printer.ml" 92 2890 2916 "clocked_ast_printer.ml" 92 2890 2925
+type(
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 92 2890 2926 "clocked_ast_printer.ml" 92 2890 2937
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  int_ref print_const "clocked_ast_printer.ml" 17 390 394 "clocked_ast_printer.ml" 17 390 405
+)
+"clocked_ast_printer.ml" 92 2890 2938 "clocked_ast_printer.ml" 92 2890 2939
+type(
+  Asttypes.const
+)
+ident(
+  int_ref h "clocked_ast_printer.ml" 92 2890 2894 "clocked_ast_printer.ml" 92 2890 2895
+)
+"clocked_ast_printer.ml" 92 2890 2940 "clocked_ast_printer.ml" 92 2890 2955
+type(
+  Format.formatter -> Asttypes.const list -> unit
+)
+ident(
+  int_ref print_const_exp "clocked_ast_printer.ml" 89 2772 2776 "clocked_ast_printer.ml" 89 2772 2791
+)
+"clocked_ast_printer.ml" 92 2890 2956 "clocked_ast_printer.ml" 92 2890 2957
+type(
+  Asttypes.const list
+)
+ident(
+  int_ref t "clocked_ast_printer.ml" 92 2890 2899 "clocked_ast_printer.ml" 92 2890 2900
+)
+"clocked_ast_printer.ml" 92 2890 2904 "clocked_ast_printer.ml" 92 2890 2957
+type(
+  unit
+)
+"clocked_ast_printer.ml" 89 2772 2806 "clocked_ast_printer.ml" 92 2890 2957
+type(
+  unit
+)
+"clocked_ast_printer.ml" 94 2959 2963 "clocked_ast_printer.ml" 94 2959 2984
+type(
+  Format.formatter -> (Asttypes.const * Clocked_ast.c_expr) list -> unit
+)
+ident(
+  def print_const_expr_list "clocked_ast_printer.ml" 50 1333 1333 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 94 2959 2985 "clocked_ast_printer.ml" 94 2959 2988
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 94 2959 2989 "clocked_ast_printer.ml" 97 3107 3213
+)
+"clocked_ast_printer.ml" 94 2959 2989 "clocked_ast_printer.ml" 94 2959 2996
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  def ce_list "clocked_ast_printer.ml" 94 2959 2999 "clocked_ast_printer.ml" 97 3107 3213
+)
+"clocked_ast_printer.ml" 94 2959 3005 "clocked_ast_printer.ml" 94 2959 3012
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  int_ref ce_list "clocked_ast_printer.ml" 94 2959 2989 "clocked_ast_printer.ml" 94 2959 2996
+)
+"clocked_ast_printer.ml" 95 3018 3022 "clocked_ast_printer.ml" 95 3018 3024
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+"clocked_ast_printer.ml" 95 3018 3035 "clocked_ast_printer.ml" 95 3018 3040
+type(
+  bool
+)
+"clocked_ast_printer.ml" 95 3018 3028 "clocked_ast_printer.ml" 95 3018 3040
+type(
+  unit
+)
+"clocked_ast_printer.ml" 96 3041 3046 "clocked_ast_printer.ml" 96 3041 3047
+type(
+  Asttypes.const
+)
+ident(
+  def c "clocked_ast_printer.ml" 96 3041 3055 "clocked_ast_printer.ml" 96 3041 3106
+)
+"clocked_ast_printer.ml" 96 3041 3049 "clocked_ast_printer.ml" 96 3041 3050
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_printer.ml" 96 3041 3055 "clocked_ast_printer.ml" 96 3041 3106
+)
+"clocked_ast_printer.ml" 96 3041 3046 "clocked_ast_printer.ml" 96 3041 3050
+type(
+  Asttypes.const * Clocked_ast.c_expr
+)
+"clocked_ast_printer.ml" 96 3041 3045 "clocked_ast_printer.ml" 96 3041 3051
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+"clocked_ast_printer.ml" 96 3041 3055 "clocked_ast_printer.ml" 96 3041 3062
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.const -> unit) ->
+  Asttypes.const ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 96 3041 3063 "clocked_ast_printer.ml" 96 3041 3066
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 94 2959 2985 "clocked_ast_printer.ml" 94 2959 2988
+)
+"clocked_ast_printer.ml" 96 3041 3067 "clocked_ast_printer.ml" 96 3041 3080
+type(
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 96 3041 3081 "clocked_ast_printer.ml" 96 3041 3092
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  int_ref print_const "clocked_ast_printer.ml" 17 390 394 "clocked_ast_printer.ml" 17 390 405
+)
+"clocked_ast_printer.ml" 96 3041 3093 "clocked_ast_printer.ml" 96 3041 3094
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "clocked_ast_printer.ml" 96 3041 3046 "clocked_ast_printer.ml" 96 3041 3047
+)
+"clocked_ast_printer.ml" 96 3041 3095 "clocked_ast_printer.ml" 96 3041 3104
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 96 3041 3105 "clocked_ast_printer.ml" 96 3041 3106
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_printer.ml" 96 3041 3049 "clocked_ast_printer.ml" 96 3041 3050
+)
+"clocked_ast_printer.ml" 96 3041 3055 "clocked_ast_printer.ml" 96 3041 3106
+type(
+  unit
+)
+"clocked_ast_printer.ml" 97 3107 3112 "clocked_ast_printer.ml" 97 3107 3115
+type(
+  Asttypes.const
+)
+ident(
+  def c_h "clocked_ast_printer.ml" 97 3107 3130 "clocked_ast_printer.ml" 97 3107 3213
+)
+"clocked_ast_printer.ml" 97 3107 3117 "clocked_ast_printer.ml" 97 3107 3120
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e_h "clocked_ast_printer.ml" 97 3107 3130 "clocked_ast_printer.ml" 97 3107 3213
+)
+"clocked_ast_printer.ml" 97 3107 3111 "clocked_ast_printer.ml" 97 3107 3121
+type(
+  Asttypes.const * Clocked_ast.c_expr
+)
+"clocked_ast_printer.ml" 97 3107 3125 "clocked_ast_printer.ml" 97 3107 3126
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  def t "clocked_ast_printer.ml" 97 3107 3130 "clocked_ast_printer.ml" 97 3107 3213
+)
+"clocked_ast_printer.ml" 97 3107 3111 "clocked_ast_printer.ml" 97 3107 3126
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+"clocked_ast_printer.ml" 97 3107 3130 "clocked_ast_printer.ml" 97 3107 3137
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> (Asttypes.const * Clocked_ast.c_expr) list -> unit) ->
+   (Asttypes.const * Clocked_ast.c_expr) list -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> Asttypes.const -> unit) ->
+  Asttypes.const ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr ->
+  (Format.formatter -> (Asttypes.const * Clocked_ast.c_expr) list -> unit) ->
+  (Asttypes.const * Clocked_ast.c_expr) list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 97 3107 3138 "clocked_ast_printer.ml" 97 3107 3141
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 94 2959 2985 "clocked_ast_printer.ml" 94 2959 2988
+)
+"clocked_ast_printer.ml" 97 3107 3142 "clocked_ast_printer.ml" 97 3107 3159
+type(
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr ->
+   (Format.formatter -> (Asttypes.const * Clocked_ast.c_expr) list -> unit) ->
+   (Asttypes.const * Clocked_ast.c_expr) list -> unit, Format.formatter,
+   unit)
+  format
+)
+"clocked_ast_printer.ml" 97 3107 3160 "clocked_ast_printer.ml" 97 3107 3171
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  int_ref print_const "clocked_ast_printer.ml" 17 390 394 "clocked_ast_printer.ml" 17 390 405
+)
+"clocked_ast_printer.ml" 97 3107 3172 "clocked_ast_printer.ml" 97 3107 3175
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c_h "clocked_ast_printer.ml" 97 3107 3112 "clocked_ast_printer.ml" 97 3107 3115
+)
+"clocked_ast_printer.ml" 97 3107 3176 "clocked_ast_printer.ml" 97 3107 3185
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 97 3107 3186 "clocked_ast_printer.ml" 97 3107 3189
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e_h "clocked_ast_printer.ml" 97 3107 3117 "clocked_ast_printer.ml" 97 3107 3120
+)
+"clocked_ast_printer.ml" 97 3107 3190 "clocked_ast_printer.ml" 97 3107 3211
+type(
+  Format.formatter -> (Asttypes.const * Clocked_ast.c_expr) list -> unit
+)
+ident(
+  int_ref print_const_expr_list "clocked_ast_printer.ml" 94 2959 2963 "clocked_ast_printer.ml" 94 2959 2984
+)
+"clocked_ast_printer.ml" 97 3107 3212 "clocked_ast_printer.ml" 97 3107 3213
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  int_ref t "clocked_ast_printer.ml" 97 3107 3125 "clocked_ast_printer.ml" 97 3107 3126
+)
+"clocked_ast_printer.ml" 97 3107 3130 "clocked_ast_printer.ml" 97 3107 3213
+type(
+  unit
+)
+"clocked_ast_printer.ml" 94 2959 2999 "clocked_ast_printer.ml" 97 3107 3213
+type(
+  unit
+)
+"clocked_ast_printer.ml" 99 3215 3219 "clocked_ast_printer.ml" 99 3215 3227
+type(
+  Format.formatter -> Clocked_ast.c_equation -> unit
+)
+ident(
+  def print_eq "clocked_ast_printer.ml" 104 3353 3353 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 99 3215 3228 "clocked_ast_printer.ml" 99 3215 3231
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 99 3215 3232 "clocked_ast_printer.ml" 102 3326 3351
+)
+"clocked_ast_printer.ml" 99 3215 3232 "clocked_ast_printer.ml" 99 3215 3234
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  def eq "clocked_ast_printer.ml" 100 3237 3239 "clocked_ast_printer.ml" 102 3326 3351
+)
+"clocked_ast_printer.ml" 100 3237 3239 "clocked_ast_printer.ml" 100 3237 3246
+type(
+  Format.formatter ->
+  ((Format.formatter -> string list -> unit) ->
+   string list ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> string list -> unit) ->
+  string list ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 100 3237 3247 "clocked_ast_printer.ml" 100 3237 3250
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 99 3215 3228 "clocked_ast_printer.ml" 99 3215 3231
+)
+"clocked_ast_printer.ml" 100 3237 3251 "clocked_ast_printer.ml" 100 3237 3270
+type(
+  ((Format.formatter -> string list -> unit) ->
+   string list ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 101 3271 3276 "clocked_ast_printer.ml" 101 3271 3286
+type(
+  (Format.formatter -> string -> unit) ->
+  string -> Format.formatter -> string list -> unit
+)
+ident(
+  int_ref print_list "clocked_ast_printer.ml" 7 72 80 "clocked_ast_printer.ml" 7 72 90
+)
+"clocked_ast_printer.ml" 101 3271 3287 "clocked_ast_printer.ml" 101 3271 3297
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref print_name "clocked_ast_printer.ml" 48 1284 1288 "clocked_ast_printer.ml" 48 1284 1298
+)
+"clocked_ast_printer.ml" 101 3271 3298 "clocked_ast_printer.ml" 101 3271 3301
+type(
+  string
+)
+"clocked_ast_printer.ml" 101 3271 3275 "clocked_ast_printer.ml" 101 3271 3302
+type(
+  Format.formatter -> string list -> unit
+)
+"clocked_ast_printer.ml" 101 3271 3303 "clocked_ast_printer.ml" 101 3271 3305
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref eq "clocked_ast_printer.ml" 99 3215 3232 "clocked_ast_printer.ml" 99 3215 3234
+)
+"clocked_ast_printer.ml" 101 3271 3303 "clocked_ast_printer.ml" 101 3271 3314
+type(
+  Clocked_ast.c_patt
+)
+"clocked_ast_printer.ml" 101 3271 3303 "clocked_ast_printer.ml" 101 3271 3325
+type(
+  string list
+)
+"clocked_ast_printer.ml" 102 3326 3330 "clocked_ast_printer.ml" 102 3326 3339
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 102 3326 3340 "clocked_ast_printer.ml" 102 3326 3342
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref eq "clocked_ast_printer.ml" 99 3215 3232 "clocked_ast_printer.ml" 99 3215 3234
+)
+"clocked_ast_printer.ml" 102 3326 3340 "clocked_ast_printer.ml" 102 3326 3351
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_printer.ml" 100 3237 3239 "clocked_ast_printer.ml" 102 3326 3351
+type(
+  unit
+)
+"clocked_ast_printer.ml" 104 3353 3357 "clocked_ast_printer.ml" 104 3353 3372
+type(
+  Format.formatter -> Asttypes.base_ty -> unit
+)
+ident(
+  def print_base_type "clocked_ast_printer.ml" 113 3619 3619 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 104 3353 3373 "clocked_ast_printer.ml" 104 3353 3376
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 104 3353 3377 "clocked_ast_printer.ml" 109 3526 3561
+)
+"clocked_ast_printer.ml" 104 3353 3377 "clocked_ast_printer.ml" 104 3353 3380
+type(
+  Asttypes.base_ty
+)
+ident(
+  def bty "clocked_ast_printer.ml" 104 3353 3383 "clocked_ast_printer.ml" 109 3526 3561
+)
+"clocked_ast_printer.ml" 104 3353 3389 "clocked_ast_printer.ml" 104 3353 3392
+type(
+  Asttypes.base_ty
+)
+ident(
+  int_ref bty "clocked_ast_printer.ml" 104 3353 3377 "clocked_ast_printer.ml" 104 3353 3380
+)
+"clocked_ast_printer.ml" 105 3398 3402 "clocked_ast_printer.ml" 105 3398 3407
+type(
+  Asttypes.base_ty
+)
+"clocked_ast_printer.ml" 105 3398 3411 "clocked_ast_printer.ml" 105 3398 3418
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 105 3398 3419 "clocked_ast_printer.ml" 105 3398 3422
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 104 3353 3373 "clocked_ast_printer.ml" 104 3353 3376
+)
+"clocked_ast_printer.ml" 105 3398 3423 "clocked_ast_printer.ml" 105 3398 3429
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 105 3398 3411 "clocked_ast_printer.ml" 105 3398 3429
+type(
+  unit
+)
+"clocked_ast_printer.ml" 106 3430 3434 "clocked_ast_printer.ml" 106 3430 3439
+type(
+  Asttypes.base_ty
+)
+"clocked_ast_printer.ml" 106 3430 3443 "clocked_ast_printer.ml" 106 3430 3450
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 106 3430 3451 "clocked_ast_printer.ml" 106 3430 3454
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 104 3353 3373 "clocked_ast_printer.ml" 104 3353 3376
+)
+"clocked_ast_printer.ml" 106 3430 3455 "clocked_ast_printer.ml" 106 3430 3461
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 106 3430 3443 "clocked_ast_printer.ml" 106 3430 3461
+type(
+  unit
+)
+"clocked_ast_printer.ml" 107 3462 3466 "clocked_ast_printer.ml" 107 3462 3470
+type(
+  Asttypes.base_ty
+)
+"clocked_ast_printer.ml" 107 3462 3474 "clocked_ast_printer.ml" 107 3462 3481
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 107 3462 3482 "clocked_ast_printer.ml" 107 3462 3485
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 104 3353 3373 "clocked_ast_printer.ml" 104 3353 3376
+)
+"clocked_ast_printer.ml" 107 3462 3486 "clocked_ast_printer.ml" 107 3462 3491
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 107 3462 3474 "clocked_ast_printer.ml" 107 3462 3491
+type(
+  unit
+)
+"clocked_ast_printer.ml" 108 3492 3496 "clocked_ast_printer.ml" 108 3492 3502
+type(
+  Asttypes.base_ty
+)
+"clocked_ast_printer.ml" 108 3492 3506 "clocked_ast_printer.ml" 108 3492 3513
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 108 3492 3514 "clocked_ast_printer.ml" 108 3492 3517
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 104 3353 3373 "clocked_ast_printer.ml" 104 3353 3376
+)
+"clocked_ast_printer.ml" 108 3492 3518 "clocked_ast_printer.ml" 108 3492 3525
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 108 3492 3506 "clocked_ast_printer.ml" 108 3492 3525
+type(
+  unit
+)
+"clocked_ast_printer.ml" 109 3526 3530 "clocked_ast_printer.ml" 109 3526 3537
+type(
+  Asttypes.base_ty
+)
+"clocked_ast_printer.ml" 109 3526 3541 "clocked_ast_printer.ml" 109 3526 3548
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 109 3526 3549 "clocked_ast_printer.ml" 109 3526 3552
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 104 3353 3373 "clocked_ast_printer.ml" 104 3353 3376
+)
+"clocked_ast_printer.ml" 109 3526 3553 "clocked_ast_printer.ml" 109 3526 3561
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 109 3526 3541 "clocked_ast_printer.ml" 109 3526 3561
+type(
+  unit
+)
+"clocked_ast_printer.ml" 104 3353 3383 "clocked_ast_printer.ml" 109 3526 3561
+type(
+  unit
+)
+"clocked_ast_printer.ml" 113 3619 3627 "clocked_ast_printer.ml" 113 3619 3643
+type(
+  Format.formatter -> Clocked_ast.base_clock -> unit
+)
+ident(
+  def print_base_clock "clocked_ast_printer.ml" 113 3619 3619 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 113 3619 3644 "clocked_ast_printer.ml" 113 3619 3647
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 113 3619 3650 "clocked_ast_printer.ml" 122 4035 4073
+)
+"clocked_ast_printer.ml" 114 3659 3663 "clocked_ast_printer.ml" 114 3659 3667
+type(
+  Clocked_ast.base_clock
+)
+"clocked_ast_printer.ml" 114 3659 3671 "clocked_ast_printer.ml" 114 3659 3678
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 114 3659 3679 "clocked_ast_printer.ml" 114 3659 3682
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 113 3619 3644 "clocked_ast_printer.ml" 113 3619 3647
+)
+"clocked_ast_printer.ml" 114 3659 3683 "clocked_ast_printer.ml" 114 3659 3689
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 114 3659 3671 "clocked_ast_printer.ml" 114 3659 3689
+type(
+  unit
+)
+"clocked_ast_printer.ml" 115 3690 3703 "clocked_ast_printer.ml" 115 3690 3705
+type(
+  Clocked_ast.base_clock
+)
+ident(
+  def ck "clocked_ast_printer.ml" 115 3690 3717 "clocked_ast_printer.ml" 115 3690 3796
+)
+"clocked_ast_printer.ml" 115 3690 3707 "clocked_ast_printer.ml" 115 3690 3708
+type(
+  Asttypes.const
+)
+ident(
+  def c "clocked_ast_printer.ml" 115 3690 3717 "clocked_ast_printer.ml" 115 3690 3796
+)
+"clocked_ast_printer.ml" 115 3690 3710 "clocked_ast_printer.ml" 115 3690 3712
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def ce "clocked_ast_printer.ml" 115 3690 3717 "clocked_ast_printer.ml" 115 3690 3796
+)
+"clocked_ast_printer.ml" 115 3690 3694 "clocked_ast_printer.ml" 115 3690 3713
+type(
+  Clocked_ast.base_clock
+)
+"clocked_ast_printer.ml" 115 3690 3717 "clocked_ast_printer.ml" 115 3690 3724
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocked_ast.base_clock -> unit) ->
+   Clocked_ast.base_clock ->
+   (Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocked_ast.base_clock -> unit) ->
+  Clocked_ast.base_clock ->
+  (Format.formatter -> Asttypes.const list -> unit) ->
+  Asttypes.const list ->
+  (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+  Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 115 3690 3725 "clocked_ast_printer.ml" 115 3690 3728
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 113 3619 3644 "clocked_ast_printer.ml" 113 3619 3647
+)
+"clocked_ast_printer.ml" 115 3690 3729 "clocked_ast_printer.ml" 115 3690 3743
+type(
+  ((Format.formatter -> Clocked_ast.base_clock -> unit) ->
+   Clocked_ast.base_clock ->
+   (Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list ->
+   (Format.formatter -> Clocked_ast.c_expr -> unit) ->
+   Clocked_ast.c_expr -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 115 3690 3744 "clocked_ast_printer.ml" 115 3690 3760
+type(
+  Format.formatter -> Clocked_ast.base_clock -> unit
+)
+ident(
+  int_ref print_base_clock "clocked_ast_printer.ml" 113 3619 3627 "clocked_ast_printer.ml" 113 3619 3643
+)
+"clocked_ast_printer.ml" 115 3690 3761 "clocked_ast_printer.ml" 115 3690 3763
+type(
+  Clocked_ast.base_clock
+)
+ident(
+  int_ref ck "clocked_ast_printer.ml" 115 3690 3703 "clocked_ast_printer.ml" 115 3690 3705
+)
+"clocked_ast_printer.ml" 115 3690 3764 "clocked_ast_printer.ml" 115 3690 3779
+type(
+  Format.formatter -> Asttypes.const list -> unit
+)
+ident(
+  int_ref print_const_exp "clocked_ast_printer.ml" 89 2772 2776 "clocked_ast_printer.ml" 89 2772 2791
+)
+"clocked_ast_printer.ml" 115 3690 3781 "clocked_ast_printer.ml" 115 3690 3782
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "clocked_ast_printer.ml" 115 3690 3707 "clocked_ast_printer.ml" 115 3690 3708
+)
+"clocked_ast_printer.ml" 115 3690 3780 "clocked_ast_printer.ml" 115 3690 3783
+type(
+  Asttypes.const list
+)
+"clocked_ast_printer.ml" 115 3690 3784 "clocked_ast_printer.ml" 115 3690 3793
+type(
+  Format.formatter -> Clocked_ast.c_expr -> unit
+)
+ident(
+  int_ref print_exp "clocked_ast_printer.ml" 50 1333 1341 "clocked_ast_printer.ml" 50 1333 1350
+)
+"clocked_ast_printer.ml" 115 3690 3794 "clocked_ast_printer.ml" 115 3690 3796
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref ce "clocked_ast_printer.ml" 115 3690 3710 "clocked_ast_printer.ml" 115 3690 3712
+)
+"clocked_ast_printer.ml" 115 3690 3717 "clocked_ast_printer.ml" 115 3690 3796
+type(
+  unit
+)
+"clocked_ast_printer.ml" 116 3797 3811 "clocked_ast_printer.ml" 116 3797 3812
+type(
+  Clocked_ast.clock list -> Clocked_ast.base_clock
+)
+ident(
+  def f "clocked_ast_printer.ml" 117 3821 3827 "clocked_ast_printer.ml" 121 4003 4034
+)
+"clocked_ast_printer.ml" 116 3797 3814 "clocked_ast_printer.ml" 116 3797 3815
+type(
+  int
+)
+ident(
+  def i "clocked_ast_printer.ml" 117 3821 3827 "clocked_ast_printer.ml" 121 4003 4034
+)
+"clocked_ast_printer.ml" 116 3797 3801 "clocked_ast_printer.ml" 116 3797 3816
+type(
+  Clocked_ast.base_clock
+)
+"clocked_ast_printer.ml" 117 3821 3831 "clocked_ast_printer.ml" 117 3821 3837
+type(
+  Clocked_ast.clock list
+)
+ident(
+  def inputs "clocked_ast_printer.ml" 118 3877 3883 "clocked_ast_printer.ml" 121 4003 4034
+)
+"clocked_ast_printer.ml" 117 3821 3840 "clocked_ast_printer.ml" 117 3821 3849
+type(
+  int -> (int -> Clocked_ast.clock) -> Clocked_ast.clock list
+)
+ident(
+  int_ref Stdlib.List.init "list.mli" 79 3266 3266 "list.mli" 79 3266 3306
+)
+"clocked_ast_printer.ml" 117 3821 3850 "clocked_ast_printer.ml" 117 3821 3851
+type(
+  int
+)
+ident(
+  int_ref i "clocked_ast_printer.ml" 116 3797 3814 "clocked_ast_printer.ml" 116 3797 3815
+)
+"clocked_ast_printer.ml" 117 3821 3857 "clocked_ast_printer.ml" 117 3821 3858
+type(
+  int
+)
+"clocked_ast_printer.ml" 117 3821 3862 "clocked_ast_printer.ml" 117 3821 3872
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 117 3821 3852 "clocked_ast_printer.ml" 117 3821 3873
+type(
+  int -> Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 117 3821 3840 "clocked_ast_printer.ml" 117 3821 3873
+type(
+  Clocked_ast.clock list
+)
+"clocked_ast_printer.ml" 118 3877 3887 "clocked_ast_printer.ml" 118 3877 3890
+type(
+  Clocked_ast.base_clock
+)
+ident(
+  def bck "clocked_ast_printer.ml" 119 3905 3911 "clocked_ast_printer.ml" 121 4003 4034
+)
+"clocked_ast_printer.ml" 118 3877 3893 "clocked_ast_printer.ml" 118 3877 3894
+type(
+  Clocked_ast.clock list -> Clocked_ast.base_clock
+)
+ident(
+  int_ref f "clocked_ast_printer.ml" 116 3797 3811 "clocked_ast_printer.ml" 116 3797 3812
+)
+"clocked_ast_printer.ml" 118 3877 3895 "clocked_ast_printer.ml" 118 3877 3901
+type(
+  Clocked_ast.clock list
+)
+ident(
+  int_ref inputs "clocked_ast_printer.ml" 117 3821 3831 "clocked_ast_printer.ml" 117 3821 3837
+)
+"clocked_ast_printer.ml" 118 3877 3893 "clocked_ast_printer.ml" 118 3877 3901
+type(
+  Clocked_ast.base_clock
+)
+"clocked_ast_printer.ml" 119 3905 3911 "clocked_ast_printer.ml" 119 3905 3922
+type(
+  Format.formatter -> Clocked_ast.clock -> unit
+)
+ident(
+  int_ref print_clock "clocked_ast_printer.ml" 124 4075 4079 "clocked_ast_printer.ml" 124 4075 4090
+)
+"clocked_ast_printer.ml" 119 3905 3923 "clocked_ast_printer.ml" 119 3905 3926
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 113 3619 3644 "clocked_ast_printer.ml" 113 3619 3647
+)
+"clocked_ast_printer.ml" 119 3905 3940 "clocked_ast_printer.ml" 119 3905 3949
+type(
+  int -> (int -> Clocked_ast.clock) -> Clocked_ast.clock list
+)
+ident(
+  int_ref Stdlib.List.init "list.mli" 79 3266 3266 "list.mli" 79 3266 3306
+)
+"clocked_ast_printer.ml" 119 3905 3950 "clocked_ast_printer.ml" 119 3905 3951
+type(
+  int
+)
+ident(
+  int_ref i "clocked_ast_printer.ml" 116 3797 3814 "clocked_ast_printer.ml" 116 3797 3815
+)
+"clocked_ast_printer.ml" 119 3905 3957 "clocked_ast_printer.ml" 119 3905 3958
+type(
+  int
+)
+"clocked_ast_printer.ml" 119 3905 3962 "clocked_ast_printer.ml" 119 3905 3972
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 119 3905 3952 "clocked_ast_printer.ml" 119 3905 3973
+type(
+  int -> Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 119 3905 3939 "clocked_ast_printer.ml" 119 3905 3974
+type(
+  Clocked_ast.clock list
+)
+"clocked_ast_printer.ml" 119 3905 3927 "clocked_ast_printer.ml" 119 3905 3975
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 119 3905 3911 "clocked_ast_printer.ml" 119 3905 3975
+type(
+  unit
+)
+"clocked_ast_printer.ml" 120 3977 3983 "clocked_ast_printer.ml" 120 3977 3990
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 120 3977 3991 "clocked_ast_printer.ml" 120 3977 3994
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 113 3619 3644 "clocked_ast_printer.ml" 113 3619 3647
+)
+"clocked_ast_printer.ml" 120 3977 3995 "clocked_ast_printer.ml" 120 3977 4001
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 120 3977 3983 "clocked_ast_printer.ml" 120 3977 4001
+type(
+  unit
+)
+"clocked_ast_printer.ml" 121 4003 4009 "clocked_ast_printer.ml" 121 4003 4025
+type(
+  Format.formatter -> Clocked_ast.base_clock -> unit
+)
+ident(
+  int_ref print_base_clock "clocked_ast_printer.ml" 113 3619 3627 "clocked_ast_printer.ml" 113 3619 3643
+)
+"clocked_ast_printer.ml" 121 4003 4026 "clocked_ast_printer.ml" 121 4003 4029
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 113 3619 3644 "clocked_ast_printer.ml" 113 3619 3647
+)
+"clocked_ast_printer.ml" 121 4003 4030 "clocked_ast_printer.ml" 121 4003 4033
+type(
+  Clocked_ast.base_clock
+)
+ident(
+  int_ref bck "clocked_ast_printer.ml" 118 3877 3887 "clocked_ast_printer.ml" 118 3877 3890
+)
+"clocked_ast_printer.ml" 121 4003 4009 "clocked_ast_printer.ml" 121 4003 4033
+type(
+  unit
+)
+"clocked_ast_printer.ml" 120 3977 3983 "clocked_ast_printer.ml" 121 4003 4034
+type(
+  unit
+)
+"clocked_ast_printer.ml" 119 3905 3911 "clocked_ast_printer.ml" 121 4003 4034
+type(
+  unit
+)
+"clocked_ast_printer.ml" 118 3877 3883 "clocked_ast_printer.ml" 121 4003 4034
+type(
+  unit
+)
+"clocked_ast_printer.ml" 117 3821 3827 "clocked_ast_printer.ml" 121 4003 4034
+type(
+  unit
+)
+"clocked_ast_printer.ml" 122 4035 4039 "clocked_ast_printer.ml" 122 4035 4053
+type(
+  Clocked_ast.base_clock
+)
+"clocked_ast_printer.ml" 122 4035 4057 "clocked_ast_printer.ml" 122 4035 4064
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 122 4035 4065 "clocked_ast_printer.ml" 122 4035 4068
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 113 3619 3644 "clocked_ast_printer.ml" 113 3619 3647
+)
+"clocked_ast_printer.ml" 122 4035 4069 "clocked_ast_printer.ml" 122 4035 4073
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 122 4035 4057 "clocked_ast_printer.ml" 122 4035 4073
+type(
+  unit
+)
+"clocked_ast_printer.ml" 113 3619 3650 "clocked_ast_printer.ml" 122 4035 4073
+type(
+  Clocked_ast.base_clock -> unit
+)
+"clocked_ast_printer.ml" 124 4075 4079 "clocked_ast_printer.ml" 124 4075 4090
+type(
+  Format.formatter -> Clocked_ast.clock -> unit
+)
+ident(
+  def print_clock "clocked_ast_printer.ml" 113 3619 3619 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 124 4075 4091 "clocked_ast_printer.ml" 124 4075 4094
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 124 4075 4097 "clocked_ast_printer.ml" 138 4602 4636
+)
+"clocked_ast_printer.ml" 125 4106 4120 "clocked_ast_printer.ml" 125 4106 4121
+type(
+  Clocked_ast.clock list -> Clocked_ast.clock
+)
+ident(
+  def f "clocked_ast_printer.ml" 126 4130 4136 "clocked_ast_printer.ml" 130 4313 4341
+)
+"clocked_ast_printer.ml" 125 4106 4123 "clocked_ast_printer.ml" 125 4106 4124
+type(
+  int
+)
+ident(
+  def i "clocked_ast_printer.ml" 126 4130 4136 "clocked_ast_printer.ml" 130 4313 4341
+)
+"clocked_ast_printer.ml" 125 4106 4110 "clocked_ast_printer.ml" 125 4106 4125
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 126 4130 4140 "clocked_ast_printer.ml" 126 4130 4145
+type(
+  Clocked_ast.clock list
+)
+ident(
+  def ck_in "clocked_ast_printer.ml" 127 4185 4191 "clocked_ast_printer.ml" 130 4313 4341
+)
+"clocked_ast_printer.ml" 126 4130 4148 "clocked_ast_printer.ml" 126 4130 4157
+type(
+  int -> (int -> Clocked_ast.clock) -> Clocked_ast.clock list
+)
+ident(
+  int_ref Stdlib.List.init "list.mli" 79 3266 3266 "list.mli" 79 3266 3306
+)
+"clocked_ast_printer.ml" 126 4130 4158 "clocked_ast_printer.ml" 126 4130 4159
+type(
+  int
+)
+ident(
+  int_ref i "clocked_ast_printer.ml" 125 4106 4123 "clocked_ast_printer.ml" 125 4106 4124
+)
+"clocked_ast_printer.ml" 126 4130 4165 "clocked_ast_printer.ml" 126 4130 4166
+type(
+  int
+)
+"clocked_ast_printer.ml" 126 4130 4170 "clocked_ast_printer.ml" 126 4130 4180
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 126 4130 4160 "clocked_ast_printer.ml" 126 4130 4181
+type(
+  int -> Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 126 4130 4148 "clocked_ast_printer.ml" 126 4130 4181
+type(
+  Clocked_ast.clock list
+)
+"clocked_ast_printer.ml" 127 4185 4195 "clocked_ast_printer.ml" 127 4185 4201
+type(
+  Clocked_ast.clock
+)
+ident(
+  def ck_out "clocked_ast_printer.ml" 128 4215 4221 "clocked_ast_printer.ml" 130 4313 4341
+)
+"clocked_ast_printer.ml" 127 4185 4204 "clocked_ast_printer.ml" 127 4185 4205
+type(
+  Clocked_ast.clock list -> Clocked_ast.clock
+)
+ident(
+  int_ref f "clocked_ast_printer.ml" 125 4106 4120 "clocked_ast_printer.ml" 125 4106 4121
+)
+"clocked_ast_printer.ml" 127 4185 4206 "clocked_ast_printer.ml" 127 4185 4211
+type(
+  Clocked_ast.clock list
+)
+ident(
+  int_ref ck_in "clocked_ast_printer.ml" 126 4130 4140 "clocked_ast_printer.ml" 126 4130 4145
+)
+"clocked_ast_printer.ml" 127 4185 4204 "clocked_ast_printer.ml" 127 4185 4211
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 128 4215 4221 "clocked_ast_printer.ml" 128 4215 4232
+type(
+  Format.formatter -> Clocked_ast.clock -> unit
+)
+ident(
+  int_ref print_clock "clocked_ast_printer.ml" 124 4075 4079 "clocked_ast_printer.ml" 124 4075 4090
+)
+"clocked_ast_printer.ml" 128 4215 4233 "clocked_ast_printer.ml" 128 4215 4236
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 124 4075 4091 "clocked_ast_printer.ml" 124 4075 4094
+)
+"clocked_ast_printer.ml" 128 4215 4250 "clocked_ast_printer.ml" 128 4215 4259
+type(
+  int -> (int -> Clocked_ast.clock) -> Clocked_ast.clock list
+)
+ident(
+  int_ref Stdlib.List.init "list.mli" 79 3266 3266 "list.mli" 79 3266 3306
+)
+"clocked_ast_printer.ml" 128 4215 4260 "clocked_ast_printer.ml" 128 4215 4261
+type(
+  int
+)
+ident(
+  int_ref i "clocked_ast_printer.ml" 125 4106 4123 "clocked_ast_printer.ml" 125 4106 4124
+)
+"clocked_ast_printer.ml" 128 4215 4267 "clocked_ast_printer.ml" 128 4215 4268
+type(
+  int
+)
+"clocked_ast_printer.ml" 128 4215 4272 "clocked_ast_printer.ml" 128 4215 4282
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 128 4215 4262 "clocked_ast_printer.ml" 128 4215 4283
+type(
+  int -> Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 128 4215 4249 "clocked_ast_printer.ml" 128 4215 4284
+type(
+  Clocked_ast.clock list
+)
+"clocked_ast_printer.ml" 128 4215 4237 "clocked_ast_printer.ml" 128 4215 4285
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 128 4215 4221 "clocked_ast_printer.ml" 128 4215 4285
+type(
+  unit
+)
+"clocked_ast_printer.ml" 129 4287 4293 "clocked_ast_printer.ml" 129 4287 4300
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 129 4287 4301 "clocked_ast_printer.ml" 129 4287 4304
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 124 4075 4091 "clocked_ast_printer.ml" 124 4075 4094
+)
+"clocked_ast_printer.ml" 129 4287 4305 "clocked_ast_printer.ml" 129 4287 4311
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 129 4287 4293 "clocked_ast_printer.ml" 129 4287 4311
+type(
+  unit
+)
+"clocked_ast_printer.ml" 130 4313 4319 "clocked_ast_printer.ml" 130 4313 4330
+type(
+  Format.formatter -> Clocked_ast.clock -> unit
+)
+ident(
+  int_ref print_clock "clocked_ast_printer.ml" 124 4075 4079 "clocked_ast_printer.ml" 124 4075 4090
+)
+"clocked_ast_printer.ml" 130 4313 4331 "clocked_ast_printer.ml" 130 4313 4334
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 124 4075 4091 "clocked_ast_printer.ml" 124 4075 4094
+)
+"clocked_ast_printer.ml" 130 4313 4335 "clocked_ast_printer.ml" 130 4313 4341
+type(
+  Clocked_ast.clock
+)
+ident(
+  int_ref ck_out "clocked_ast_printer.ml" 127 4185 4195 "clocked_ast_printer.ml" 127 4185 4201
+)
+"clocked_ast_printer.ml" 130 4313 4319 "clocked_ast_printer.ml" 130 4313 4341
+type(
+  unit
+)
+"clocked_ast_printer.ml" 129 4287 4293 "clocked_ast_printer.ml" 130 4313 4341
+type(
+  unit
+)
+"clocked_ast_printer.ml" 128 4215 4221 "clocked_ast_printer.ml" 130 4313 4341
+type(
+  unit
+)
+"clocked_ast_printer.ml" 127 4185 4191 "clocked_ast_printer.ml" 130 4313 4341
+type(
+  unit
+)
+"clocked_ast_printer.ml" 126 4130 4136 "clocked_ast_printer.ml" 130 4313 4341
+type(
+  unit
+)
+"clocked_ast_printer.ml" 131 4342 4357 "clocked_ast_printer.ml" 131 4342 4359
+type(
+  Clocked_ast.clock list
+)
+"clocked_ast_printer.ml" 131 4342 4346 "clocked_ast_printer.ml" 131 4342 4359
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 131 4342 4363 "clocked_ast_printer.ml" 131 4342 4370
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 131 4342 4371 "clocked_ast_printer.ml" 131 4342 4374
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 124 4075 4091 "clocked_ast_printer.ml" 124 4075 4094
+)
+"clocked_ast_printer.ml" 131 4342 4375 "clocked_ast_printer.ml" 131 4342 4388
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 131 4342 4363 "clocked_ast_printer.ml" 131 4342 4388
+type(
+  unit
+)
+"clocked_ast_printer.ml" 132 4389 4405 "clocked_ast_printer.ml" 132 4389 4407
+type(
+  Clocked_ast.clock
+)
+ident(
+  def ck "clocked_ast_printer.ml" 133 4418 4424 "clocked_ast_printer.ml" 136 4535 4556
+)
+"clocked_ast_printer.ml" 132 4389 4409 "clocked_ast_printer.ml" 132 4389 4412
+type(
+  Clocked_ast.clock list
+)
+ident(
+  def ckl "clocked_ast_printer.ml" 133 4418 4424 "clocked_ast_printer.ml" 136 4535 4556
+)
+"clocked_ast_printer.ml" 132 4389 4404 "clocked_ast_printer.ml" 132 4389 4413
+type(
+  Clocked_ast.clock list
+)
+"clocked_ast_printer.ml" 132 4389 4393 "clocked_ast_printer.ml" 132 4389 4413
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 133 4418 4424 "clocked_ast_printer.ml" 133 4418 4431
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 133 4418 4432 "clocked_ast_printer.ml" 133 4418 4435
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 124 4075 4091 "clocked_ast_printer.ml" 124 4075 4094
+)
+"clocked_ast_printer.ml" 133 4418 4436 "clocked_ast_printer.ml" 133 4418 4439
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 133 4418 4424 "clocked_ast_printer.ml" 133 4418 4439
+type(
+  unit
+)
+"clocked_ast_printer.ml" 134 4441 4447 "clocked_ast_printer.ml" 134 4441 4458
+type(
+  Format.formatter -> Clocked_ast.clock -> unit
+)
+ident(
+  int_ref print_clock "clocked_ast_printer.ml" 124 4075 4079 "clocked_ast_printer.ml" 124 4075 4090
+)
+"clocked_ast_printer.ml" 134 4441 4459 "clocked_ast_printer.ml" 134 4441 4462
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 124 4075 4091 "clocked_ast_printer.ml" 124 4075 4094
+)
+"clocked_ast_printer.ml" 134 4441 4463 "clocked_ast_printer.ml" 134 4441 4465
+type(
+  Clocked_ast.clock
+)
+ident(
+  int_ref ck "clocked_ast_printer.ml" 132 4389 4405 "clocked_ast_printer.ml" 132 4389 4407
+)
+"clocked_ast_printer.ml" 134 4441 4447 "clocked_ast_printer.ml" 134 4441 4465
+type(
+  unit
+)
+"clocked_ast_printer.ml" 135 4467 4473 "clocked_ast_printer.ml" 135 4467 4482
+type(
+  (Clocked_ast.clock -> unit) -> Clocked_ast.clock list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"clocked_ast_printer.ml" 135 4467 4488 "clocked_ast_printer.ml" 135 4467 4490
+type(
+  Clocked_ast.clock
+)
+ident(
+  def ck "clocked_ast_printer.ml" 135 4467 4494 "clocked_ast_printer.ml" 135 4467 4528
+)
+"clocked_ast_printer.ml" 135 4467 4494 "clocked_ast_printer.ml" 135 4467 4501
+type(
+  Format.formatter ->
+  ((Format.formatter -> Clocked_ast.clock -> unit) ->
+   Clocked_ast.clock -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocked_ast.clock -> unit) ->
+  Clocked_ast.clock -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 135 4467 4502 "clocked_ast_printer.ml" 135 4467 4505
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 124 4075 4091 "clocked_ast_printer.ml" 124 4075 4094
+)
+"clocked_ast_printer.ml" 135 4467 4506 "clocked_ast_printer.ml" 135 4467 4513
+type(
+  ((Format.formatter -> Clocked_ast.clock -> unit) ->
+   Clocked_ast.clock -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 135 4467 4514 "clocked_ast_printer.ml" 135 4467 4525
+type(
+  Format.formatter -> Clocked_ast.clock -> unit
+)
+ident(
+  int_ref print_clock "clocked_ast_printer.ml" 124 4075 4079 "clocked_ast_printer.ml" 124 4075 4090
+)
+"clocked_ast_printer.ml" 135 4467 4526 "clocked_ast_printer.ml" 135 4467 4528
+type(
+  Clocked_ast.clock
+)
+ident(
+  int_ref ck "clocked_ast_printer.ml" 135 4467 4488 "clocked_ast_printer.ml" 135 4467 4490
+)
+"clocked_ast_printer.ml" 135 4467 4494 "clocked_ast_printer.ml" 135 4467 4528
+type(
+  unit
+)
+"clocked_ast_printer.ml" 135 4467 4483 "clocked_ast_printer.ml" 135 4467 4529
+type(
+  Clocked_ast.clock -> unit
+)
+"clocked_ast_printer.ml" 135 4467 4530 "clocked_ast_printer.ml" 135 4467 4533
+type(
+  Clocked_ast.clock list
+)
+ident(
+  int_ref ckl "clocked_ast_printer.ml" 132 4389 4409 "clocked_ast_printer.ml" 132 4389 4412
+)
+"clocked_ast_printer.ml" 135 4467 4473 "clocked_ast_printer.ml" 135 4467 4533
+type(
+  unit
+)
+"clocked_ast_printer.ml" 136 4535 4541 "clocked_ast_printer.ml" 136 4535 4548
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 136 4535 4549 "clocked_ast_printer.ml" 136 4535 4552
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 124 4075 4091 "clocked_ast_printer.ml" 124 4075 4094
+)
+"clocked_ast_printer.ml" 136 4535 4553 "clocked_ast_printer.ml" 136 4535 4556
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 136 4535 4541 "clocked_ast_printer.ml" 136 4535 4556
+type(
+  unit
+)
+"clocked_ast_printer.ml" 135 4467 4473 "clocked_ast_printer.ml" 136 4535 4556
+type(
+  unit
+)
+"clocked_ast_printer.ml" 134 4441 4447 "clocked_ast_printer.ml" 136 4535 4556
+type(
+  unit
+)
+"clocked_ast_printer.ml" 133 4418 4424 "clocked_ast_printer.ml" 136 4535 4556
+type(
+  unit
+)
+"clocked_ast_printer.ml" 137 4558 4572 "clocked_ast_printer.ml" 137 4558 4574
+type(
+  Clocked_ast.base_clock
+)
+ident(
+  def ck "clocked_ast_printer.ml" 137 4558 4578 "clocked_ast_printer.ml" 137 4558 4601
+)
+"clocked_ast_printer.ml" 137 4558 4562 "clocked_ast_printer.ml" 137 4558 4574
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 137 4558 4578 "clocked_ast_printer.ml" 137 4558 4594
+type(
+  Format.formatter -> Clocked_ast.base_clock -> unit
+)
+ident(
+  int_ref print_base_clock "clocked_ast_printer.ml" 113 3619 3627 "clocked_ast_printer.ml" 113 3619 3643
+)
+"clocked_ast_printer.ml" 137 4558 4595 "clocked_ast_printer.ml" 137 4558 4598
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 124 4075 4091 "clocked_ast_printer.ml" 124 4075 4094
+)
+"clocked_ast_printer.ml" 137 4558 4599 "clocked_ast_printer.ml" 137 4558 4601
+type(
+  Clocked_ast.base_clock
+)
+ident(
+  int_ref ck "clocked_ast_printer.ml" 137 4558 4572 "clocked_ast_printer.ml" 137 4558 4574
+)
+"clocked_ast_printer.ml" 137 4558 4578 "clocked_ast_printer.ml" 137 4558 4601
+type(
+  unit
+)
+"clocked_ast_printer.ml" 138 4602 4606 "clocked_ast_printer.ml" 138 4602 4616
+type(
+  Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 138 4602 4620 "clocked_ast_printer.ml" 138 4602 4627
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 138 4602 4628 "clocked_ast_printer.ml" 138 4602 4631
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 124 4075 4091 "clocked_ast_printer.ml" 124 4075 4094
+)
+"clocked_ast_printer.ml" 138 4602 4632 "clocked_ast_printer.ml" 138 4602 4636
+type(
+  (unit, Format.formatter, unit) format
+)
+"clocked_ast_printer.ml" 138 4602 4620 "clocked_ast_printer.ml" 138 4602 4636
+type(
+  unit
+)
+"clocked_ast_printer.ml" 124 4075 4097 "clocked_ast_printer.ml" 138 4602 4636
+type(
+  Clocked_ast.clock -> unit
+)
+"clocked_ast_printer.ml" 140 4638 4642 "clocked_ast_printer.ml" 140 4638 4655
+type(
+  Format.formatter -> string * Asttypes.base_ty * Clocked_ast.clock -> unit
+)
+ident(
+  def print_var_dec "clocked_ast_printer.ml" 143 4746 4746 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 140 4638 4656 "clocked_ast_printer.ml" 140 4638 4659
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 140 4638 4660 "clocked_ast_printer.ml" 141 4677 4744
+)
+"clocked_ast_printer.ml" 140 4638 4661 "clocked_ast_printer.ml" 140 4638 4665
+type(
+  string
+)
+ident(
+  def name "clocked_ast_printer.ml" 141 4677 4679 "clocked_ast_printer.ml" 141 4677 4744
+)
+"clocked_ast_printer.ml" 140 4638 4667 "clocked_ast_printer.ml" 140 4638 4669
+type(
+  Asttypes.base_ty
+)
+ident(
+  def ty "clocked_ast_printer.ml" 141 4677 4679 "clocked_ast_printer.ml" 141 4677 4744
+)
+"clocked_ast_printer.ml" 140 4638 4671 "clocked_ast_printer.ml" 140 4638 4673
+type(
+  Clocked_ast.clock
+)
+ident(
+  def ck "clocked_ast_printer.ml" 141 4677 4679 "clocked_ast_printer.ml" 141 4677 4744
+)
+"clocked_ast_printer.ml" 140 4638 4660 "clocked_ast_printer.ml" 140 4638 4674
+type(
+  string * Asttypes.base_ty * Clocked_ast.clock
+)
+"clocked_ast_printer.ml" 141 4677 4679 "clocked_ast_printer.ml" 141 4677 4686
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Asttypes.base_ty -> unit) ->
+   Asttypes.base_ty ->
+   (Format.formatter -> Clocked_ast.clock -> unit) ->
+   Clocked_ast.clock -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Asttypes.base_ty -> unit) ->
+  Asttypes.base_ty ->
+  (Format.formatter -> Clocked_ast.clock -> unit) ->
+  Clocked_ast.clock -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 141 4677 4687 "clocked_ast_printer.ml" 141 4677 4690
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 140 4638 4656 "clocked_ast_printer.ml" 140 4638 4659
+)
+"clocked_ast_printer.ml" 141 4677 4691 "clocked_ast_printer.ml" 141 4677 4705
+type(
+  (string ->
+   (Format.formatter -> Asttypes.base_ty -> unit) ->
+   Asttypes.base_ty ->
+   (Format.formatter -> Clocked_ast.clock -> unit) ->
+   Clocked_ast.clock -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 141 4677 4706 "clocked_ast_printer.ml" 141 4677 4710
+type(
+  string
+)
+ident(
+  int_ref name "clocked_ast_printer.ml" 140 4638 4661 "clocked_ast_printer.ml" 140 4638 4665
+)
+"clocked_ast_printer.ml" 141 4677 4711 "clocked_ast_printer.ml" 141 4677 4726
+type(
+  Format.formatter -> Asttypes.base_ty -> unit
+)
+ident(
+  int_ref print_base_type "clocked_ast_printer.ml" 104 3353 3357 "clocked_ast_printer.ml" 104 3353 3372
+)
+"clocked_ast_printer.ml" 141 4677 4727 "clocked_ast_printer.ml" 141 4677 4729
+type(
+  Asttypes.base_ty
+)
+ident(
+  int_ref ty "clocked_ast_printer.ml" 140 4638 4667 "clocked_ast_printer.ml" 140 4638 4669
+)
+"clocked_ast_printer.ml" 141 4677 4730 "clocked_ast_printer.ml" 141 4677 4741
+type(
+  Format.formatter -> Clocked_ast.clock -> unit
+)
+ident(
+  int_ref print_clock "clocked_ast_printer.ml" 124 4075 4079 "clocked_ast_printer.ml" 124 4075 4090
+)
+"clocked_ast_printer.ml" 141 4677 4742 "clocked_ast_printer.ml" 141 4677 4744
+type(
+  Clocked_ast.clock
+)
+ident(
+  int_ref ck "clocked_ast_printer.ml" 140 4638 4671 "clocked_ast_printer.ml" 140 4638 4673
+)
+"clocked_ast_printer.ml" 141 4677 4679 "clocked_ast_printer.ml" 141 4677 4744
+type(
+  unit
+)
+"clocked_ast_printer.ml" 143 4746 4754 "clocked_ast_printer.ml" 143 4746 4772
+type(
+  Format.formatter ->
+  (string * Asttypes.base_ty * Clocked_ast.clock) list -> unit
+)
+ident(
+  def print_var_dec_list "clocked_ast_printer.ml" 143 4746 4746 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 143 4746 4775 "clocked_ast_printer.ml" 143 4746 4785
+type(
+  (Format.formatter -> string * Asttypes.base_ty * Clocked_ast.clock -> unit) ->
+  string ->
+  Format.formatter ->
+  (string * Asttypes.base_ty * Clocked_ast.clock) list -> unit
+)
+ident(
+  int_ref print_list "clocked_ast_printer.ml" 7 72 80 "clocked_ast_printer.ml" 7 72 90
+)
+"clocked_ast_printer.ml" 143 4746 4786 "clocked_ast_printer.ml" 143 4746 4799
+type(
+  Format.formatter -> string * Asttypes.base_ty * Clocked_ast.clock -> unit
+)
+ident(
+  int_ref print_var_dec "clocked_ast_printer.ml" 140 4638 4642 "clocked_ast_printer.ml" 140 4638 4655
+)
+"clocked_ast_printer.ml" 143 4746 4800 "clocked_ast_printer.ml" 143 4746 4803
+type(
+  string
+)
+"clocked_ast_printer.ml" 143 4746 4775 "clocked_ast_printer.ml" 143 4746 4803
+type(
+  Format.formatter ->
+  (string * Asttypes.base_ty * Clocked_ast.clock) list -> unit
+)
+"clocked_ast_printer.ml" 145 4805 4809 "clocked_ast_printer.ml" 145 4805 4819
+type(
+  Format.formatter -> Clocked_ast.c_node -> unit
+)
+ident(
+  def print_node "clocked_ast_printer.ml" 154 5096 5096 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 145 4805 4820 "clocked_ast_printer.ml" 145 4805 4823
+type(
+  Format.formatter
+)
+ident(
+  def fmt "clocked_ast_printer.ml" 145 4805 4824 "clocked_ast_printer.ml" 152 5050 5094
+)
+"clocked_ast_printer.ml" 145 4805 4824 "clocked_ast_printer.ml" 145 4805 4826
+type(
+  Clocked_ast.c_node
+)
+ident(
+  def nd "clocked_ast_printer.ml" 146 4829 4831 "clocked_ast_printer.ml" 152 5050 5094
+)
+"clocked_ast_printer.ml" 146 4829 4831 "clocked_ast_printer.ml" 146 4829 4838
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Clocked_ast.typed_clocked_var list -> unit) ->
+   Clocked_ast.typed_clocked_var list ->
+   (Format.formatter -> Clocked_ast.typed_clocked_var list -> unit) ->
+   Clocked_ast.typed_clocked_var list ->
+   (Format.formatter -> Clocked_ast.typed_clocked_var list -> unit) ->
+   Clocked_ast.typed_clocked_var list ->
+   (Format.formatter -> Clocked_ast.c_equation list -> unit) ->
+   Clocked_ast.c_equation list -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Clocked_ast.typed_clocked_var list -> unit) ->
+  Clocked_ast.typed_clocked_var list ->
+  (Format.formatter -> Clocked_ast.typed_clocked_var list -> unit) ->
+  Clocked_ast.typed_clocked_var list ->
+  (Format.formatter -> Clocked_ast.typed_clocked_var list -> unit) ->
+  Clocked_ast.typed_clocked_var list ->
+  (Format.formatter -> Clocked_ast.c_equation list -> unit) ->
+  Clocked_ast.c_equation list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"clocked_ast_printer.ml" 146 4829 4839 "clocked_ast_printer.ml" 146 4829 4842
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "clocked_ast_printer.ml" 145 4805 4820 "clocked_ast_printer.ml" 145 4805 4823
+)
+"clocked_ast_printer.ml" 147 4843 4847 "clocked_ast_printer.ml" 147 4843 4928
+type(
+  (string ->
+   (Format.formatter -> Clocked_ast.typed_clocked_var list -> unit) ->
+   Clocked_ast.typed_clocked_var list ->
+   (Format.formatter -> Clocked_ast.typed_clocked_var list -> unit) ->
+   Clocked_ast.typed_clocked_var list ->
+   (Format.formatter -> Clocked_ast.typed_clocked_var list -> unit) ->
+   Clocked_ast.typed_clocked_var list ->
+   (Format.formatter -> Clocked_ast.c_equation list -> unit) ->
+   Clocked_ast.c_equation list -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 148 4929 4933 "clocked_ast_printer.ml" 148 4929 4935
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref nd "clocked_ast_printer.ml" 145 4805 4824 "clocked_ast_printer.ml" 145 4805 4826
+)
+"clocked_ast_printer.ml" 148 4929 4933 "clocked_ast_printer.ml" 148 4929 4943
+type(
+  string
+)
+"clocked_ast_printer.ml" 149 4944 4948 "clocked_ast_printer.ml" 149 4944 4966
+type(
+  Format.formatter -> Clocked_ast.typed_clocked_var list -> unit
+)
+ident(
+  int_ref print_var_dec_list "clocked_ast_printer.ml" 143 4746 4754 "clocked_ast_printer.ml" 143 4746 4772
+)
+"clocked_ast_printer.ml" 149 4944 4967 "clocked_ast_printer.ml" 149 4944 4969
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref nd "clocked_ast_printer.ml" 145 4805 4824 "clocked_ast_printer.ml" 145 4805 4826
+)
+"clocked_ast_printer.ml" 149 4944 4967 "clocked_ast_printer.ml" 149 4944 4978
+type(
+  Clocked_ast.typed_clocked_var list
+)
+"clocked_ast_printer.ml" 150 4979 4983 "clocked_ast_printer.ml" 150 4979 5001
+type(
+  Format.formatter -> Clocked_ast.typed_clocked_var list -> unit
+)
+ident(
+  int_ref print_var_dec_list "clocked_ast_printer.ml" 143 4746 4754 "clocked_ast_printer.ml" 143 4746 4772
+)
+"clocked_ast_printer.ml" 150 4979 5002 "clocked_ast_printer.ml" 150 4979 5004
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref nd "clocked_ast_printer.ml" 145 4805 4824 "clocked_ast_printer.ml" 145 4805 4826
+)
+"clocked_ast_printer.ml" 150 4979 5002 "clocked_ast_printer.ml" 150 4979 5014
+type(
+  Clocked_ast.typed_clocked_var list
+)
+"clocked_ast_printer.ml" 151 5015 5019 "clocked_ast_printer.ml" 151 5015 5037
+type(
+  Format.formatter -> Clocked_ast.typed_clocked_var list -> unit
+)
+ident(
+  int_ref print_var_dec_list "clocked_ast_printer.ml" 143 4746 4754 "clocked_ast_printer.ml" 143 4746 4772
+)
+"clocked_ast_printer.ml" 151 5015 5038 "clocked_ast_printer.ml" 151 5015 5040
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref nd "clocked_ast_printer.ml" 145 4805 4824 "clocked_ast_printer.ml" 145 4805 4826
+)
+"clocked_ast_printer.ml" 151 5015 5038 "clocked_ast_printer.ml" 151 5015 5049
+type(
+  Clocked_ast.typed_clocked_var list
+)
+"clocked_ast_printer.ml" 152 5050 5055 "clocked_ast_printer.ml" 152 5050 5069
+type(
+  (Format.formatter -> Clocked_ast.c_equation -> unit) ->
+  string -> Format.formatter -> Clocked_ast.c_equation list -> unit
+)
+ident(
+  int_ref print_list_eol "clocked_ast_printer.ml" 12 217 225 "clocked_ast_printer.ml" 12 217 239
+)
+"clocked_ast_printer.ml" 152 5050 5070 "clocked_ast_printer.ml" 152 5050 5078
+type(
+  Format.formatter -> Clocked_ast.c_equation -> unit
+)
+ident(
+  int_ref print_eq "clocked_ast_printer.ml" 99 3215 3219 "clocked_ast_printer.ml" 99 3215 3227
+)
+"clocked_ast_printer.ml" 152 5050 5079 "clocked_ast_printer.ml" 152 5050 5082
+type(
+  string
+)
+"clocked_ast_printer.ml" 152 5050 5054 "clocked_ast_printer.ml" 152 5050 5083
+type(
+  Format.formatter -> Clocked_ast.c_equation list -> unit
+)
+"clocked_ast_printer.ml" 152 5050 5084 "clocked_ast_printer.ml" 152 5050 5086
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref nd "clocked_ast_printer.ml" 145 4805 4824 "clocked_ast_printer.ml" 145 4805 4826
+)
+"clocked_ast_printer.ml" 152 5050 5084 "clocked_ast_printer.ml" 152 5050 5094
+type(
+  Clocked_ast.c_equation list
+)
+"clocked_ast_printer.ml" 146 4829 4831 "clocked_ast_printer.ml" 152 5050 5094
+type(
+  unit
+)
+"clocked_ast_printer.ml" 154 5096 5100 "clocked_ast_printer.ml" 154 5096 5119
+type(
+  Clocked_ast.c_node list -> unit
+)
+ident(
+  def print_node_list_std "clocked_ast_printer.ml" 155 5126 5191 "clocked_ast_printer.ml" 0 0 -1
+)
+"clocked_ast_printer.ml" 154 5096 5120 "clocked_ast_printer.ml" 154 5096 5123
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  def ndl "clocked_ast_printer.ml" 155 5126 5128 "clocked_ast_printer.ml" 155 5126 5191
+)
+"clocked_ast_printer.ml" 155 5126 5128 "clocked_ast_printer.ml" 155 5126 5137
+type(
+  (Clocked_ast.c_node -> unit) -> Clocked_ast.c_node list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"clocked_ast_printer.ml" 155 5126 5143 "clocked_ast_printer.ml" 155 5126 5145
+type(
+  Clocked_ast.c_node
+)
+ident(
+  def nd "clocked_ast_printer.ml" 155 5126 5149 "clocked_ast_printer.ml" 155 5126 5186
+)
+"clocked_ast_printer.ml" 155 5126 5149 "clocked_ast_printer.ml" 155 5126 5162
+type(
+  ((Format.formatter -> Clocked_ast.c_node -> unit) ->
+   Clocked_ast.c_node -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocked_ast.c_node -> unit) ->
+  Clocked_ast.c_node -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"clocked_ast_printer.ml" 155 5126 5163 "clocked_ast_printer.ml" 155 5126 5172
+type(
+  ((Format.formatter -> Clocked_ast.c_node -> unit) ->
+   Clocked_ast.c_node -> unit, Format.formatter, unit)
+  format
+)
+"clocked_ast_printer.ml" 155 5126 5173 "clocked_ast_printer.ml" 155 5126 5183
+type(
+  Format.formatter -> Clocked_ast.c_node -> unit
+)
+ident(
+  int_ref print_node "clocked_ast_printer.ml" 145 4805 4809 "clocked_ast_printer.ml" 145 4805 4819
+)
+"clocked_ast_printer.ml" 155 5126 5184 "clocked_ast_printer.ml" 155 5126 5186
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref nd "clocked_ast_printer.ml" 155 5126 5143 "clocked_ast_printer.ml" 155 5126 5145
+)
+"clocked_ast_printer.ml" 155 5126 5149 "clocked_ast_printer.ml" 155 5126 5186
+type(
+  unit
+)
+"clocked_ast_printer.ml" 155 5126 5138 "clocked_ast_printer.ml" 155 5126 5187
+type(
+  Clocked_ast.c_node -> unit
+)
+"clocked_ast_printer.ml" 155 5126 5188 "clocked_ast_printer.ml" 155 5126 5191
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  int_ref ndl "clocked_ast_printer.ml" 154 5096 5120 "clocked_ast_printer.ml" 154 5096 5123
+)
+"clocked_ast_printer.ml" 155 5126 5128 "clocked_ast_printer.ml" 155 5126 5191
+type(
+  unit
+)

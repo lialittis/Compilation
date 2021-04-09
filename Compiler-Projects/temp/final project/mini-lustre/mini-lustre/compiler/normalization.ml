@@ -102,8 +102,23 @@ let rec normalize ctx e =
 
   | TE_fby(c,e1) ->
   	  (*ctx,e*) 
-	  let ctx, e1' = normalize ctx e1 in
-  	  ctx, {e with texpr_desc = TE_fby(c,e1')}
+	  let (new_vars,new_eqs), e1' = normalize ctx e1 in
+      let x_decl, x_patt, x_expr = new_pat e1' in
+      let eq = 
+        { ceq_patt = x_patt;
+          ceq_expr = e1'; }
+      in
+      let expr = match expr.cexpr_desc with
+        | TE_tuple _ -> x_expr
+        | _ -> { x_expr with cexpr_desc = TE_tuple [x_expr]}
+      in
+    
+      let x_decl, x_patt, x_expr = new_pat e in
+      let x_eq = 
+        { ceq_patt = x_patt;
+          ceq_expr = {e with cexpr_desc = TE_tuple [x_expr] }; }
+      in
+      { x_decl@y_decl@new_vars, x_eq:: }
       
 	  (* c fby e1 => x, { x = c fby y; y = normalize e1; } *)
       (* DONE *)

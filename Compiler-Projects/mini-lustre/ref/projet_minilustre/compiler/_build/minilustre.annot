@@ -1,0 +1,2519 @@
+"minilustre.ml" 10 85 89 "minilustre.ml" 10 85 94
+type(
+  string
+)
+ident(
+  def usage "minilustre.ml" 12 143 143 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 10 85 97 "minilustre.ml" 10 85 106
+type(
+  string
+)
+"minilustre.ml" 10 85 106 "minilustre.ml" 10 85 107
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"minilustre.ml" 10 85 107 "minilustre.ml" 10 85 115
+type(
+  string array
+)
+ident(
+  int_ref Stdlib.Sys.argv "sys.mli" 23 1238 1238 "sys.mli" 23 1238 1261
+)
+"minilustre.ml" 10 85 117 "minilustre.ml" 10 85 118
+type(
+  int
+)
+"minilustre.ml" 10 85 107 "minilustre.ml" 10 85 119
+type(
+  string
+)
+"minilustre.ml" 10 85 119 "minilustre.ml" 10 85 120
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"minilustre.ml" 10 85 120 "minilustre.ml" 10 85 141
+type(
+  string
+)
+"minilustre.ml" 10 85 107 "minilustre.ml" 10 85 141
+type(
+  string
+)
+"minilustre.ml" 10 85 97 "minilustre.ml" 10 85 141
+type(
+  string
+)
+"minilustre.ml" 12 143 147 "minilustre.ml" 12 143 157
+type(
+  bool ref
+)
+ident(
+  def parse_only "minilustre.ml" 13 170 170 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 12 143 160 "minilustre.ml" 12 143 163
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"minilustre.ml" 12 143 164 "minilustre.ml" 12 143 169
+type(
+  bool
+)
+"minilustre.ml" 12 143 160 "minilustre.ml" 12 143 169
+type(
+  bool ref
+)
+"minilustre.ml" 13 170 174 "minilustre.ml" 13 170 183
+type(
+  bool ref
+)
+ident(
+  def type_only "minilustre.ml" 14 196 196 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 13 170 186 "minilustre.ml" 13 170 189
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"minilustre.ml" 13 170 190 "minilustre.ml" 13 170 195
+type(
+  bool
+)
+"minilustre.ml" 13 170 186 "minilustre.ml" 13 170 195
+type(
+  bool ref
+)
+"minilustre.ml" 14 196 200 "minilustre.ml" 14 196 210
+type(
+  bool ref
+)
+ident(
+  def clock_only "minilustre.ml" 15 223 223 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 14 196 213 "minilustre.ml" 14 196 216
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"minilustre.ml" 14 196 217 "minilustre.ml" 14 196 222
+type(
+  bool
+)
+"minilustre.ml" 14 196 213 "minilustre.ml" 14 196 222
+type(
+  bool ref
+)
+"minilustre.ml" 15 223 227 "minilustre.ml" 15 223 236
+type(
+  bool ref
+)
+ident(
+  def norm_only "minilustre.ml" 16 249 249 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 15 223 239 "minilustre.ml" 15 223 242
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"minilustre.ml" 15 223 243 "minilustre.ml" 15 223 248
+type(
+  bool
+)
+"minilustre.ml" 15 223 239 "minilustre.ml" 15 223 248
+type(
+  bool ref
+)
+"minilustre.ml" 16 249 253 "minilustre.ml" 16 249 263
+type(
+  bool ref
+)
+ident(
+  def sched_only "minilustre.ml" 17 276 276 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 16 249 266 "minilustre.ml" 16 249 269
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"minilustre.ml" 16 249 270 "minilustre.ml" 16 249 275
+type(
+  bool
+)
+"minilustre.ml" 16 249 266 "minilustre.ml" 16 249 275
+type(
+  bool ref
+)
+"minilustre.ml" 17 276 280 "minilustre.ml" 17 276 292
+type(
+  bool ref
+)
+ident(
+  def lucy_printer "minilustre.ml" 18 305 305 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 17 276 295 "minilustre.ml" 17 276 298
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"minilustre.ml" 17 276 299 "minilustre.ml" 17 276 304
+type(
+  bool
+)
+"minilustre.ml" 17 276 295 "minilustre.ml" 17 276 304
+type(
+  bool ref
+)
+"minilustre.ml" 18 305 309 "minilustre.ml" 18 305 322
+type(
+  bool ref
+)
+ident(
+  def ocaml_printer "minilustre.ml" 19 334 334 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 18 305 325 "minilustre.ml" 18 305 328
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"minilustre.ml" 18 305 329 "minilustre.ml" 18 305 333
+type(
+  bool
+)
+"minilustre.ml" 18 305 325 "minilustre.ml" 18 305 333
+type(
+  bool ref
+)
+"minilustre.ml" 19 334 338 "minilustre.ml" 19 334 347
+type(
+  string ref
+)
+ident(
+  def main_node "minilustre.ml" 20 357 357 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 19 334 350 "minilustre.ml" 19 334 353
+type(
+  string -> string ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"minilustre.ml" 19 334 354 "minilustre.ml" 19 334 356
+type(
+  string
+)
+"minilustre.ml" 19 334 350 "minilustre.ml" 19 334 356
+type(
+  string ref
+)
+"minilustre.ml" 20 357 361 "minilustre.ml" 20 357 368
+type(
+  bool ref
+)
+ident(
+  def verbose "minilustre.ml" 22 382 382 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 20 357 371 "minilustre.ml" 20 357 374
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"minilustre.ml" 20 357 375 "minilustre.ml" 20 357 380
+type(
+  bool
+)
+"minilustre.ml" 20 357 371 "minilustre.ml" 20 357 380
+type(
+  bool ref
+)
+"minilustre.ml" 22 382 386 "minilustre.ml" 22 382 390
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def spec "minilustre.ml" 33 911 911 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 23 393 396 "minilustre.ml" 23 393 409
+type(
+  string
+)
+"minilustre.ml" 23 393 419 "minilustre.ml" 23 393 429
+type(
+  bool ref
+)
+ident(
+  int_ref parse_only "minilustre.ml" 12 143 147 "minilustre.ml" 12 143 157
+)
+"minilustre.ml" 23 393 411 "minilustre.ml" 23 393 429
+type(
+  Arg.spec
+)
+"minilustre.ml" 23 393 431 "minilustre.ml" 23 393 454
+type(
+  string
+)
+"minilustre.ml" 23 393 396 "minilustre.ml" 23 393 454
+type(
+  string * Arg.spec * string
+)
+"minilustre.ml" 24 456 459 "minilustre.ml" 24 456 471
+type(
+  string
+)
+"minilustre.ml" 24 456 481 "minilustre.ml" 24 456 490
+type(
+  bool ref
+)
+ident(
+  int_ref type_only "minilustre.ml" 13 170 174 "minilustre.ml" 13 170 183
+)
+"minilustre.ml" 24 456 473 "minilustre.ml" 24 456 490
+type(
+  Arg.spec
+)
+"minilustre.ml" 24 456 492 "minilustre.ml" 24 456 514
+type(
+  string
+)
+"minilustre.ml" 24 456 459 "minilustre.ml" 24 456 514
+type(
+  string * Arg.spec * string
+)
+"minilustre.ml" 25 516 519 "minilustre.ml" 25 516 532
+type(
+  string
+)
+"minilustre.ml" 25 516 542 "minilustre.ml" 25 516 552
+type(
+  bool ref
+)
+ident(
+  int_ref clock_only "minilustre.ml" 14 196 200 "minilustre.ml" 14 196 210
+)
+"minilustre.ml" 25 516 534 "minilustre.ml" 25 516 552
+type(
+  Arg.spec
+)
+"minilustre.ml" 25 516 554 "minilustre.ml" 25 516 578
+type(
+  string
+)
+"minilustre.ml" 25 516 519 "minilustre.ml" 25 516 578
+type(
+  string * Arg.spec * string
+)
+"minilustre.ml" 26 580 583 "minilustre.ml" 26 580 595
+type(
+  string
+)
+"minilustre.ml" 26 580 605 "minilustre.ml" 26 580 614
+type(
+  bool ref
+)
+ident(
+  int_ref norm_only "minilustre.ml" 15 223 227 "minilustre.ml" 15 223 236
+)
+"minilustre.ml" 26 580 597 "minilustre.ml" 26 580 614
+type(
+  Arg.spec
+)
+"minilustre.ml" 26 580 616 "minilustre.ml" 26 580 645
+type(
+  string
+)
+"minilustre.ml" 26 580 583 "minilustre.ml" 26 580 645
+type(
+  string * Arg.spec * string
+)
+"minilustre.ml" 27 647 650 "minilustre.ml" 27 647 663
+type(
+  string
+)
+"minilustre.ml" 27 647 673 "minilustre.ml" 27 647 683
+type(
+  bool ref
+)
+ident(
+  int_ref sched_only "minilustre.ml" 16 249 253 "minilustre.ml" 16 249 263
+)
+"minilustre.ml" 27 647 665 "minilustre.ml" 27 647 683
+type(
+  Arg.spec
+)
+"minilustre.ml" 27 647 685 "minilustre.ml" 27 647 711
+type(
+  string
+)
+"minilustre.ml" 27 647 650 "minilustre.ml" 27 647 711
+type(
+  string * Arg.spec * string
+)
+"minilustre.ml" 28 713 716 "minilustre.ml" 28 713 723
+type(
+  string
+)
+"minilustre.ml" 28 713 740 "minilustre.ml" 28 713 749
+type(
+  string ref
+)
+ident(
+  int_ref main_node "minilustre.ml" 19 334 338 "minilustre.ml" 19 334 347
+)
+"minilustre.ml" 28 713 725 "minilustre.ml" 28 713 749
+type(
+  Arg.spec
+)
+"minilustre.ml" 28 713 751 "minilustre.ml" 28 713 770
+type(
+  string
+)
+"minilustre.ml" 28 713 716 "minilustre.ml" 28 713 770
+type(
+  string * Arg.spec * string
+)
+"minilustre.ml" 29 772 775 "minilustre.ml" 29 772 785
+type(
+  string
+)
+"minilustre.ml" 29 772 795 "minilustre.ml" 29 772 802
+type(
+  bool ref
+)
+ident(
+  int_ref verbose "minilustre.ml" 20 357 361 "minilustre.ml" 20 357 368
+)
+"minilustre.ml" 29 772 787 "minilustre.ml" 29 772 802
+type(
+  Arg.spec
+)
+"minilustre.ml" 29 772 804 "minilustre.ml" 29 772 840
+type(
+  string
+)
+"minilustre.ml" 29 772 775 "minilustre.ml" 29 772 840
+type(
+  string * Arg.spec * string
+)
+"minilustre.ml" 30 842 845 "minilustre.ml" 30 842 849
+type(
+  string
+)
+"minilustre.ml" 30 842 859 "minilustre.ml" 30 842 866
+type(
+  bool ref
+)
+ident(
+  int_ref verbose "minilustre.ml" 20 357 361 "minilustre.ml" 20 357 368
+)
+"minilustre.ml" 30 842 851 "minilustre.ml" 30 842 866
+type(
+  Arg.spec
+)
+"minilustre.ml" 30 842 868 "minilustre.ml" 30 842 904
+type(
+  string
+)
+"minilustre.ml" 30 842 845 "minilustre.ml" 30 842 904
+type(
+  string * Arg.spec * string
+)
+"minilustre.ml" 23 393 395 "minilustre.ml" 31 906 909
+type(
+  (string * Arg.spec * string) list
+)
+"minilustre.ml" 33 911 915 "minilustre.ml" 33 911 919
+type(
+  string
+)
+ident(
+  def file "minilustre.ml" 43 1186 1186 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 34 922 928 "minilustre.ml" 34 922 932
+type(
+  string option ref
+)
+ident(
+  def file "minilustre.ml" 35 947 949 "minilustre.ml" 41 1115 1184
+)
+"minilustre.ml" 34 922 935 "minilustre.ml" 34 922 938
+type(
+  string option -> string option ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1159 44364 44364 "stdlib.mli" 1159 44364 44408
+)
+"minilustre.ml" 34 922 939 "minilustre.ml" 34 922 943
+type(
+  string option
+)
+"minilustre.ml" 34 922 935 "minilustre.ml" 34 922 943
+type(
+  string option ref
+)
+"minilustre.ml" 35 947 953 "minilustre.ml" 35 947 961
+type(
+  string -> unit
+)
+ident(
+  def set_file "minilustre.ml" 40 1082 1084 "minilustre.ml" 41 1115 1184
+)
+"minilustre.ml" 35 947 962 "minilustre.ml" 35 947 963
+type(
+  string
+)
+ident(
+  def s "minilustre.ml" 36 966 970 "minilustre.ml" 38 1058 1076
+)
+"minilustre.ml" 36 966 973 "minilustre.ml" 36 966 976
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"minilustre.ml" 36 966 978 "minilustre.ml" 36 966 999
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.Filename.check_suffix "filename.mli" 43 2026 2026 "filename.mli" 43 2026 2069
+)
+"minilustre.ml" 36 966 1000 "minilustre.ml" 36 966 1001
+type(
+  string
+)
+ident(
+  int_ref s "minilustre.ml" 35 947 962 "minilustre.ml" 35 947 963
+)
+"minilustre.ml" 36 966 1002 "minilustre.ml" 36 966 1008
+type(
+  string
+)
+"minilustre.ml" 36 966 977 "minilustre.ml" 36 966 1009
+type(
+  bool
+)
+"minilustre.ml" 36 966 973 "minilustre.ml" 36 966 1009
+type(
+  bool
+)
+"minilustre.ml" 37 1015 1021 "minilustre.ml" 37 1015 1026
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"minilustre.ml" 37 1015 1036 "minilustre.ml" 37 1015 1055
+type(
+  string
+)
+"minilustre.ml" 37 1015 1027 "minilustre.ml" 37 1015 1056
+type(
+  exn
+)
+"minilustre.ml" 37 1015 1021 "minilustre.ml" 37 1015 1056
+type(
+  unit
+)
+"minilustre.ml" 36 966 970 "minilustre.ml" 37 1015 1056
+type(
+  unit
+)
+"minilustre.ml" 38 1058 1062 "minilustre.ml" 38 1058 1066
+type(
+  string option ref
+)
+ident(
+  int_ref file "minilustre.ml" 34 922 928 "minilustre.ml" 34 922 932
+)
+"minilustre.ml" 38 1058 1067 "minilustre.ml" 38 1058 1069
+type(
+  string option ref -> string option -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1168 44676 44676 "stdlib.mli" 1168 44676 44729
+)
+"minilustre.ml" 38 1058 1075 "minilustre.ml" 38 1058 1076
+type(
+  string
+)
+ident(
+  int_ref s "minilustre.ml" 35 947 962 "minilustre.ml" 35 947 963
+)
+"minilustre.ml" 38 1058 1070 "minilustre.ml" 38 1058 1076
+type(
+  string option
+)
+"minilustre.ml" 38 1058 1062 "minilustre.ml" 38 1058 1076
+type(
+  unit
+)
+"minilustre.ml" 36 966 970 "minilustre.ml" 38 1058 1076
+type(
+  unit
+)
+"minilustre.ml" 40 1082 1084 "minilustre.ml" 40 1082 1093
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref Stdlib.Arg.parse "arg.mli" 77 4335 4335 "arg.mli" 78 4347 4405
+)
+"minilustre.ml" 40 1082 1094 "minilustre.ml" 40 1082 1098
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref spec "minilustre.ml" 22 382 386 "minilustre.ml" 22 382 390
+)
+"minilustre.ml" 40 1082 1099 "minilustre.ml" 40 1082 1107
+type(
+  Arg.anon_fun
+)
+ident(
+  int_ref set_file "minilustre.ml" 35 947 953 "minilustre.ml" 35 947 961
+)
+"minilustre.ml" 40 1082 1108 "minilustre.ml" 40 1082 1113
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "minilustre.ml" 10 85 89 "minilustre.ml" 10 85 94
+)
+"minilustre.ml" 40 1082 1084 "minilustre.ml" 40 1082 1113
+type(
+  unit
+)
+"minilustre.ml" 41 1115 1123 "minilustre.ml" 41 1115 1124
+type(
+  string option ref -> string option
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 41 1115 1124 "minilustre.ml" 41 1115 1128
+type(
+  string option ref
+)
+ident(
+  int_ref file "minilustre.ml" 34 922 928 "minilustre.ml" 34 922 932
+)
+"minilustre.ml" 41 1115 1123 "minilustre.ml" 41 1115 1128
+type(
+  string option
+)
+"minilustre.ml" 41 1115 1139 "minilustre.ml" 41 1115 1140
+type(
+  string
+)
+ident(
+  def f "minilustre.ml" 41 1115 1144 "minilustre.ml" 41 1115 1145
+)
+"minilustre.ml" 41 1115 1134 "minilustre.ml" 41 1115 1140
+type(
+  string option
+)
+"minilustre.ml" 41 1115 1144 "minilustre.ml" 41 1115 1145
+type(
+  string
+)
+ident(
+  int_ref f "minilustre.ml" 41 1115 1139 "minilustre.ml" 41 1115 1140
+)
+"minilustre.ml" 41 1115 1148 "minilustre.ml" 41 1115 1152
+type(
+  string option
+)
+"minilustre.ml" 41 1115 1156 "minilustre.ml" 41 1115 1165
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref Stdlib.Arg.usage "arg.mli" 160 7991 7991 "arg.mli" 160 7991 8047
+)
+"minilustre.ml" 41 1115 1166 "minilustre.ml" 41 1115 1170
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref spec "minilustre.ml" 22 382 386 "minilustre.ml" 22 382 390
+)
+"minilustre.ml" 41 1115 1171 "minilustre.ml" 41 1115 1176
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage "minilustre.ml" 10 85 89 "minilustre.ml" 10 85 94
+)
+"minilustre.ml" 41 1115 1156 "minilustre.ml" 41 1115 1176
+type(
+  unit
+)
+"minilustre.ml" 41 1115 1178 "minilustre.ml" 41 1115 1182
+type(
+  int -> string
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 41 1115 1183 "minilustre.ml" 41 1115 1184
+type(
+  int
+)
+"minilustre.ml" 41 1115 1178 "minilustre.ml" 41 1115 1184
+type(
+  string
+)
+"minilustre.ml" 41 1115 1156 "minilustre.ml" 41 1115 1184
+type(
+  string
+)
+"minilustre.ml" 41 1115 1117 "minilustre.ml" 41 1115 1184
+type(
+  string
+)
+"minilustre.ml" 40 1082 1084 "minilustre.ml" 41 1115 1184
+type(
+  string
+)
+"minilustre.ml" 35 947 949 "minilustre.ml" 41 1115 1184
+type(
+  string
+)
+"minilustre.ml" 34 922 924 "minilustre.ml" 41 1115 1184
+type(
+  string
+)
+"minilustre.ml" 43 1186 1190 "minilustre.ml" 43 1186 1200
+type(
+  Lexing.position * Lexing.position -> unit
+)
+ident(
+  def report_loc "minilustre.ml" 49 1383 1383 "minilustre.ml" 0 0 -1
+)
+"minilustre.ml" 43 1186 1202 "minilustre.ml" 43 1186 1203
+type(
+  Lexing.position
+)
+ident(
+  def b "minilustre.ml" 44 1209 1211 "minilustre.ml" 47 1315 1381
+)
+"minilustre.ml" 43 1186 1204 "minilustre.ml" 43 1186 1205
+type(
+  Lexing.position
+)
+ident(
+  def e "minilustre.ml" 44 1209 1211 "minilustre.ml" 47 1315 1381
+)
+"minilustre.ml" 43 1186 1201 "minilustre.ml" 43 1186 1206
+type(
+  Lexing.position * Lexing.position
+)
+"minilustre.ml" 44 1209 1215 "minilustre.ml" 44 1209 1216
+type(
+  int
+)
+ident(
+  def l "minilustre.ml" 45 1233 1235 "minilustre.ml" 47 1315 1381
+)
+"minilustre.ml" 44 1209 1219 "minilustre.ml" 44 1209 1220
+type(
+  Lexing.position
+)
+ident(
+  int_ref b "minilustre.ml" 43 1186 1202 "minilustre.ml" 43 1186 1203
+)
+"minilustre.ml" 44 1209 1219 "minilustre.ml" 44 1209 1229
+type(
+  int
+)
+"minilustre.ml" 45 1233 1239 "minilustre.ml" 45 1233 1241
+type(
+  int
+)
+ident(
+  def fc "minilustre.ml" 46 1274 1276 "minilustre.ml" 47 1315 1381
+)
+"minilustre.ml" 45 1233 1244 "minilustre.ml" 45 1233 1245
+type(
+  Lexing.position
+)
+ident(
+  int_ref b "minilustre.ml" 43 1186 1202 "minilustre.ml" 43 1186 1203
+)
+"minilustre.ml" 45 1233 1244 "minilustre.ml" 45 1233 1254
+type(
+  int
+)
+"minilustre.ml" 45 1233 1255 "minilustre.ml" 45 1233 1256
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"minilustre.ml" 45 1233 1257 "minilustre.ml" 45 1233 1258
+type(
+  Lexing.position
+)
+ident(
+  int_ref b "minilustre.ml" 43 1186 1202 "minilustre.ml" 43 1186 1203
+)
+"minilustre.ml" 45 1233 1257 "minilustre.ml" 45 1233 1266
+type(
+  int
+)
+"minilustre.ml" 45 1233 1244 "minilustre.ml" 45 1233 1266
+type(
+  int
+)
+"minilustre.ml" 45 1233 1267 "minilustre.ml" 45 1233 1268
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 338 13360 13360 "stdlib.mli" 338 13360 13406
+)
+"minilustre.ml" 45 1233 1269 "minilustre.ml" 45 1233 1270
+type(
+  int
+)
+"minilustre.ml" 45 1233 1244 "minilustre.ml" 45 1233 1270
+type(
+  int
+)
+"minilustre.ml" 46 1274 1280 "minilustre.ml" 46 1274 1282
+type(
+  int
+)
+ident(
+  def lc "minilustre.ml" 47 1315 1317 "minilustre.ml" 47 1315 1381
+)
+"minilustre.ml" 46 1274 1285 "minilustre.ml" 46 1274 1286
+type(
+  Lexing.position
+)
+ident(
+  int_ref e "minilustre.ml" 43 1186 1204 "minilustre.ml" 43 1186 1205
+)
+"minilustre.ml" 46 1274 1285 "minilustre.ml" 46 1274 1295
+type(
+  int
+)
+"minilustre.ml" 46 1274 1296 "minilustre.ml" 46 1274 1297
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( - ) "stdlib.mli" 343 13509 13509 "stdlib.mli" 343 13509 13555
+)
+"minilustre.ml" 46 1274 1298 "minilustre.ml" 46 1274 1299
+type(
+  Lexing.position
+)
+ident(
+  int_ref b "minilustre.ml" 43 1186 1202 "minilustre.ml" 43 1186 1203
+)
+"minilustre.ml" 46 1274 1298 "minilustre.ml" 46 1274 1307
+type(
+  int
+)
+"minilustre.ml" 46 1274 1285 "minilustre.ml" 46 1274 1307
+type(
+  int
+)
+"minilustre.ml" 46 1274 1308 "minilustre.ml" 46 1274 1309
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 338 13360 13360 "stdlib.mli" 338 13360 13406
+)
+"minilustre.ml" 46 1274 1310 "minilustre.ml" 46 1274 1311
+type(
+  int
+)
+"minilustre.ml" 46 1274 1285 "minilustre.ml" 46 1274 1311
+type(
+  int
+)
+"minilustre.ml" 47 1315 1317 "minilustre.ml" 47 1315 1324
+type(
+  (string -> int -> int -> int -> unit, Format.formatter, unit) format ->
+  string -> int -> int -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.eprintf "format.mli" 1178 46011 46011 "format.mli" 1178 46011 46059
+)
+"minilustre.ml" 47 1315 1325 "minilustre.ml" 47 1315 1368
+type(
+  (string -> int -> int -> int -> unit, Format.formatter, unit) format
+)
+"minilustre.ml" 47 1315 1369 "minilustre.ml" 47 1315 1373
+type(
+  string
+)
+ident(
+  int_ref file "minilustre.ml" 33 911 915 "minilustre.ml" 33 911 919
+)
+"minilustre.ml" 47 1315 1374 "minilustre.ml" 47 1315 1375
+type(
+  int
+)
+ident(
+  int_ref l "minilustre.ml" 44 1209 1215 "minilustre.ml" 44 1209 1216
+)
+"minilustre.ml" 47 1315 1376 "minilustre.ml" 47 1315 1378
+type(
+  int
+)
+ident(
+  int_ref fc "minilustre.ml" 45 1233 1239 "minilustre.ml" 45 1233 1241
+)
+"minilustre.ml" 47 1315 1379 "minilustre.ml" 47 1315 1381
+type(
+  int
+)
+ident(
+  int_ref lc "minilustre.ml" 46 1274 1280 "minilustre.ml" 46 1274 1282
+)
+"minilustre.ml" 47 1315 1317 "minilustre.ml" 47 1315 1381
+type(
+  unit
+)
+"minilustre.ml" 46 1274 1276 "minilustre.ml" 47 1315 1381
+type(
+  unit
+)
+"minilustre.ml" 45 1233 1235 "minilustre.ml" 47 1315 1381
+type(
+  unit
+)
+"minilustre.ml" 44 1209 1211 "minilustre.ml" 47 1315 1381
+type(
+  unit
+)
+"minilustre.ml" 49 1383 1387 "minilustre.ml" 49 1383 1389
+type(
+  unit
+)
+"minilustre.ml" 50 1392 1398 "minilustre.ml" 50 1392 1399
+type(
+  in_channel
+)
+ident(
+  def c "minilustre.ml" 51 1418 1420 "minilustre.ml" 116 3780 3787
+)
+"minilustre.ml" 50 1392 1402 "minilustre.ml" 50 1392 1409
+type(
+  string -> in_channel
+)
+ident(
+  int_ref Stdlib.open_in "stdlib.mli" 1021 38257 38257 "stdlib.mli" 1021 38257 38291
+)
+"minilustre.ml" 50 1392 1410 "minilustre.ml" 50 1392 1414
+type(
+  string
+)
+ident(
+  int_ref file "minilustre.ml" 33 911 915 "minilustre.ml" 33 911 919
+)
+"minilustre.ml" 50 1392 1402 "minilustre.ml" 50 1392 1414
+type(
+  in_channel
+)
+"minilustre.ml" 51 1418 1424 "minilustre.ml" 51 1418 1426
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "minilustre.ml" 52 1454 1456 "minilustre.ml" 116 3780 3787
+)
+"minilustre.ml" 51 1418 1429 "minilustre.ml" 51 1418 1448
+type(
+  ?with_positions:bool -> in_channel -> Lexing.lexbuf
+)
+ident(
+  int_ref Stdlib.Lexing.from_channel "lexing.mli" 92 4163 4163 "lexing.mli" 92 4163 4226
+)
+"minilustre.ml" 51 1418 1449 "minilustre.ml" 51 1418 1450
+type(
+  in_channel
+)
+ident(
+  int_ref c "minilustre.ml" 50 1392 1398 "minilustre.ml" 50 1392 1399
+)
+"minilustre.ml" 51 1418 1429 "minilustre.ml" 51 1418 1450
+type(
+  Lexing.lexbuf
+)
+"minilustre.ml" 53 1460 1468 "minilustre.ml" 53 1460 1469
+type(
+  Ast.p_file
+)
+ident(
+  def f "minilustre.ml" 54 1502 1506 "minilustre.ml" 96 3285 3295
+)
+"minilustre.ml" 53 1460 1472 "minilustre.ml" 53 1460 1483
+type(
+  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Ast.p_file
+)
+ident(
+  int_ref Parser.file "parser.mli" 47 536 536 "parser.mli" 48 547 605
+)
+"minilustre.ml" 53 1460 1484 "minilustre.ml" 53 1460 1495
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  int_ref Lexer.token "lexer.ml" 260 14402 14410 "lexer.ml" 260 14402 14415
+)
+"minilustre.ml" 53 1460 1496 "minilustre.ml" 53 1460 1498
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "minilustre.ml" 51 1418 1424 "minilustre.ml" 51 1418 1426
+)
+"minilustre.ml" 53 1460 1472 "minilustre.ml" 53 1460 1498
+type(
+  Ast.p_file
+)
+"minilustre.ml" 54 1502 1506 "minilustre.ml" 54 1502 1514
+type(
+  in_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_in "stdlib.mli" 1115 42633 42633 "stdlib.mli" 1115 42633 42666
+)
+"minilustre.ml" 54 1502 1515 "minilustre.ml" 54 1502 1516
+type(
+  in_channel
+)
+ident(
+  int_ref c "minilustre.ml" 50 1392 1398 "minilustre.ml" 50 1392 1399
+)
+"minilustre.ml" 54 1502 1506 "minilustre.ml" 54 1502 1516
+type(
+  unit
+)
+"minilustre.ml" 55 1518 1525 "minilustre.ml" 55 1518 1526
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 55 1518 1526 "minilustre.ml" 55 1518 1536
+type(
+  bool ref
+)
+ident(
+  int_ref parse_only "minilustre.ml" 12 143 147 "minilustre.ml" 12 143 157
+)
+"minilustre.ml" 55 1518 1525 "minilustre.ml" 55 1518 1536
+type(
+  bool
+)
+"minilustre.ml" 55 1518 1542 "minilustre.ml" 55 1518 1546
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 55 1518 1547 "minilustre.ml" 55 1518 1548
+type(
+  int
+)
+"minilustre.ml" 55 1518 1542 "minilustre.ml" 55 1518 1548
+type(
+  unit
+)
+"minilustre.ml" 55 1518 1522 "minilustre.ml" 55 1518 1548
+type(
+  unit
+)
+"minilustre.ml" 56 1550 1558 "minilustre.ml" 56 1550 1560
+type(
+  Typed_ast.t_node list
+)
+ident(
+  def ft "minilustre.ml" 57 1596 1600 "minilustre.ml" 96 3285 3295
+)
+"minilustre.ml" 56 1550 1563 "minilustre.ml" 56 1550 1579
+type(
+  Ast.p_file -> string -> Typed_ast.t_node list
+)
+ident(
+  int_ref Typing.type_file "typing.ml" 480 13627 13631 "typing.ml" 480 13627 13640
+)
+"minilustre.ml" 56 1550 1580 "minilustre.ml" 56 1550 1581
+type(
+  Ast.p_file
+)
+ident(
+  int_ref f "minilustre.ml" 53 1460 1468 "minilustre.ml" 53 1460 1469
+)
+"minilustre.ml" 56 1550 1582 "minilustre.ml" 56 1550 1583
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 56 1550 1583 "minilustre.ml" 56 1550 1592
+type(
+  string ref
+)
+ident(
+  int_ref main_node "minilustre.ml" 19 334 338 "minilustre.ml" 19 334 347
+)
+"minilustre.ml" 56 1550 1582 "minilustre.ml" 56 1550 1592
+type(
+  string
+)
+"minilustre.ml" 56 1550 1563 "minilustre.ml" 56 1550 1592
+type(
+  Typed_ast.t_node list
+)
+"minilustre.ml" 57 1596 1603 "minilustre.ml" 57 1596 1604
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 57 1596 1604 "minilustre.ml" 57 1596 1611
+type(
+  bool ref
+)
+ident(
+  int_ref verbose "minilustre.ml" 20 357 361 "minilustre.ml" 20 357 368
+)
+"minilustre.ml" 57 1596 1603 "minilustre.ml" 57 1596 1611
+type(
+  bool
+)
+"minilustre.ml" 58 1623 1629 "minilustre.ml" 58 1623 1642
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 58 1623 1643 "minilustre.ml" 58 1623 1687
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 58 1623 1629 "minilustre.ml" 58 1623 1687
+type(
+  unit
+)
+"minilustre.ml" 59 1689 1695 "minilustre.ml" 59 1689 1708
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 59 1689 1709 "minilustre.ml" 59 1689 1753
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 59 1689 1695 "minilustre.ml" 59 1689 1753
+type(
+  unit
+)
+"minilustre.ml" 60 1755 1761 "minilustre.ml" 60 1755 1774
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 60 1755 1775 "minilustre.ml" 60 1755 1819
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 60 1755 1761 "minilustre.ml" 60 1755 1819
+type(
+  unit
+)
+"minilustre.ml" 61 1821 1827 "minilustre.ml" 61 1821 1864
+type(
+  Typed_ast.t_node list -> unit
+)
+ident(
+  int_ref Typed_ast_printer.print_node_list_std "typed_ast_printer.ml" 128 4045 4049 "typed_ast_printer.ml" 128 4045 4068
+)
+"minilustre.ml" 61 1821 1865 "minilustre.ml" 61 1821 1867
+type(
+  Typed_ast.t_node list
+)
+ident(
+  int_ref ft "minilustre.ml" 56 1550 1558 "minilustre.ml" 56 1550 1560
+)
+"minilustre.ml" 61 1821 1827 "minilustre.ml" 61 1821 1867
+type(
+  unit
+)
+"minilustre.ml" 60 1755 1761 "minilustre.ml" 61 1821 1867
+type(
+  unit
+)
+"minilustre.ml" 59 1689 1695 "minilustre.ml" 61 1821 1867
+type(
+  unit
+)
+"minilustre.ml" 57 1596 1617 "minilustre.ml" 62 1868 1875
+type(
+  unit
+)
+"minilustre.ml" 57 1596 1600 "minilustre.ml" 62 1868 1875
+type(
+  unit
+)
+"minilustre.ml" 63 1877 1884 "minilustre.ml" 63 1877 1885
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 63 1877 1885 "minilustre.ml" 63 1877 1894
+type(
+  bool ref
+)
+ident(
+  int_ref type_only "minilustre.ml" 13 170 174 "minilustre.ml" 13 170 183
+)
+"minilustre.ml" 63 1877 1884 "minilustre.ml" 63 1877 1894
+type(
+  bool
+)
+"minilustre.ml" 63 1877 1900 "minilustre.ml" 63 1877 1904
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 63 1877 1905 "minilustre.ml" 63 1877 1906
+type(
+  int
+)
+"minilustre.ml" 63 1877 1900 "minilustre.ml" 63 1877 1906
+type(
+  unit
+)
+"minilustre.ml" 63 1877 1881 "minilustre.ml" 63 1877 1906
+type(
+  unit
+)
+"minilustre.ml" 64 1908 1916 "minilustre.ml" 64 1908 1918
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  def fc "minilustre.ml" 65 1958 1962 "minilustre.ml" 96 3285 3295
+)
+"minilustre.ml" 64 1908 1921 "minilustre.ml" 64 1908 1940
+type(
+  Typed_ast.t_node list -> Clocking.M.key -> Clocked_ast.c_node list
+)
+ident(
+  int_ref Clocking.clock_file "clocking.ml" 638 22512 22516 "clocking.ml" 638 22512 22526
+)
+"minilustre.ml" 64 1908 1941 "minilustre.ml" 64 1908 1943
+type(
+  Typed_ast.t_node list
+)
+ident(
+  int_ref ft "minilustre.ml" 56 1550 1558 "minilustre.ml" 56 1550 1560
+)
+"minilustre.ml" 64 1908 1944 "minilustre.ml" 64 1908 1945
+type(
+  Clocking.M.key ref -> Clocking.M.key
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 64 1908 1945 "minilustre.ml" 64 1908 1954
+type(
+  Clocking.M.key ref
+)
+ident(
+  int_ref main_node "minilustre.ml" 19 334 338 "minilustre.ml" 19 334 347
+)
+"minilustre.ml" 64 1908 1944 "minilustre.ml" 64 1908 1954
+type(
+  Clocking.M.key
+)
+"minilustre.ml" 64 1908 1921 "minilustre.ml" 64 1908 1954
+type(
+  Clocked_ast.c_node list
+)
+"minilustre.ml" 65 1958 1965 "minilustre.ml" 65 1958 1966
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 65 1958 1966 "minilustre.ml" 65 1958 1973
+type(
+  bool ref
+)
+ident(
+  int_ref verbose "minilustre.ml" 20 357 361 "minilustre.ml" 20 357 368
+)
+"minilustre.ml" 65 1958 1965 "minilustre.ml" 65 1958 1973
+type(
+  bool
+)
+"minilustre.ml" 66 1985 1991 "minilustre.ml" 66 1985 2004
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 66 1985 2005 "minilustre.ml" 66 1985 2049
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 66 1985 1991 "minilustre.ml" 66 1985 2049
+type(
+  unit
+)
+"minilustre.ml" 67 2051 2057 "minilustre.ml" 67 2051 2070
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 67 2051 2071 "minilustre.ml" 67 2051 2117
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 67 2051 2057 "minilustre.ml" 67 2051 2117
+type(
+  unit
+)
+"minilustre.ml" 68 2119 2125 "minilustre.ml" 68 2119 2138
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 68 2119 2139 "minilustre.ml" 68 2119 2183
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 68 2119 2125 "minilustre.ml" 68 2119 2183
+type(
+  unit
+)
+"minilustre.ml" 69 2185 2191 "minilustre.ml" 69 2185 2230
+type(
+  Clocked_ast.c_node list -> unit
+)
+ident(
+  int_ref Clocked_ast_printer.print_node_list_std "clocked_ast_printer.ml" 154 5096 5100 "clocked_ast_printer.ml" 154 5096 5119
+)
+"minilustre.ml" 69 2185 2231 "minilustre.ml" 69 2185 2233
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  int_ref fc "minilustre.ml" 64 1908 1916 "minilustre.ml" 64 1908 1918
+)
+"minilustre.ml" 69 2185 2191 "minilustre.ml" 69 2185 2233
+type(
+  unit
+)
+"minilustre.ml" 68 2119 2125 "minilustre.ml" 69 2185 2233
+type(
+  unit
+)
+"minilustre.ml" 67 2051 2057 "minilustre.ml" 69 2185 2233
+type(
+  unit
+)
+"minilustre.ml" 65 1958 1979 "minilustre.ml" 70 2234 2241
+type(
+  unit
+)
+"minilustre.ml" 65 1958 1962 "minilustre.ml" 70 2234 2241
+type(
+  unit
+)
+"minilustre.ml" 71 2243 2250 "minilustre.ml" 71 2243 2251
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 71 2243 2251 "minilustre.ml" 71 2243 2261
+type(
+  bool ref
+)
+ident(
+  int_ref clock_only "minilustre.ml" 14 196 200 "minilustre.ml" 14 196 210
+)
+"minilustre.ml" 71 2243 2250 "minilustre.ml" 71 2243 2261
+type(
+  bool
+)
+"minilustre.ml" 71 2243 2267 "minilustre.ml" 71 2243 2271
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 71 2243 2272 "minilustre.ml" 71 2243 2273
+type(
+  int
+)
+"minilustre.ml" 71 2243 2267 "minilustre.ml" 71 2243 2273
+type(
+  unit
+)
+"minilustre.ml" 71 2243 2247 "minilustre.ml" 71 2243 2273
+type(
+  unit
+)
+"minilustre.ml" 72 2275 2283 "minilustre.ml" 72 2275 2285
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  def fc "minilustre.ml" 73 2313 2317 "minilustre.ml" 96 3285 3295
+)
+"minilustre.ml" 72 2275 2288 "minilustre.ml" 72 2275 2306
+type(
+  Clocked_ast.c_node list -> Clocked_ast.c_node list
+)
+ident(
+  int_ref Normalization.file "normalization.ml" 209 6687 6691 "normalization.ml" 209 6687 6695
+)
+"minilustre.ml" 72 2275 2307 "minilustre.ml" 72 2275 2309
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  int_ref fc "minilustre.ml" 64 1908 1916 "minilustre.ml" 64 1908 1918
+)
+"minilustre.ml" 72 2275 2288 "minilustre.ml" 72 2275 2309
+type(
+  Clocked_ast.c_node list
+)
+"minilustre.ml" 73 2313 2320 "minilustre.ml" 73 2313 2321
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 73 2313 2321 "minilustre.ml" 73 2313 2328
+type(
+  bool ref
+)
+ident(
+  int_ref verbose "minilustre.ml" 20 357 361 "minilustre.ml" 20 357 368
+)
+"minilustre.ml" 73 2313 2320 "minilustre.ml" 73 2313 2328
+type(
+  bool
+)
+"minilustre.ml" 74 2340 2346 "minilustre.ml" 74 2340 2359
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 74 2340 2360 "minilustre.ml" 74 2340 2404
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 74 2340 2346 "minilustre.ml" 74 2340 2404
+type(
+  unit
+)
+"minilustre.ml" 75 2406 2412 "minilustre.ml" 75 2406 2425
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 75 2406 2426 "minilustre.ml" 75 2406 2470
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 75 2406 2412 "minilustre.ml" 75 2406 2470
+type(
+  unit
+)
+"minilustre.ml" 76 2472 2478 "minilustre.ml" 76 2472 2491
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 76 2472 2492 "minilustre.ml" 76 2472 2536
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 76 2472 2478 "minilustre.ml" 76 2472 2536
+type(
+  unit
+)
+"minilustre.ml" 77 2538 2544 "minilustre.ml" 77 2538 2583
+type(
+  Clocked_ast.c_node list -> unit
+)
+ident(
+  int_ref Clocked_ast_printer.print_node_list_std "clocked_ast_printer.ml" 154 5096 5100 "clocked_ast_printer.ml" 154 5096 5119
+)
+"minilustre.ml" 77 2538 2584 "minilustre.ml" 77 2538 2586
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  int_ref fc "minilustre.ml" 72 2275 2283 "minilustre.ml" 72 2275 2285
+)
+"minilustre.ml" 77 2538 2544 "minilustre.ml" 77 2538 2586
+type(
+  unit
+)
+"minilustre.ml" 76 2472 2478 "minilustre.ml" 77 2538 2586
+type(
+  unit
+)
+"minilustre.ml" 75 2406 2412 "minilustre.ml" 77 2538 2586
+type(
+  unit
+)
+"minilustre.ml" 73 2313 2334 "minilustre.ml" 78 2587 2594
+type(
+  unit
+)
+"minilustre.ml" 73 2313 2317 "minilustre.ml" 78 2587 2594
+type(
+  unit
+)
+"minilustre.ml" 79 2596 2600 "minilustre.ml" 79 2596 2620
+type(
+  Clocked_ast.c_node list -> unit
+)
+ident(
+  int_ref Checks.normalization "checks.ml" 66 1603 1607 "checks.ml" 66 1603 1620
+)
+"minilustre.ml" 79 2596 2621 "minilustre.ml" 79 2596 2623
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  int_ref fc "minilustre.ml" 72 2275 2283 "minilustre.ml" 72 2275 2285
+)
+"minilustre.ml" 79 2596 2600 "minilustre.ml" 79 2596 2623
+type(
+  unit
+)
+"minilustre.ml" 80 2625 2632 "minilustre.ml" 80 2625 2633
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 80 2625 2633 "minilustre.ml" 80 2625 2642
+type(
+  bool ref
+)
+ident(
+  int_ref norm_only "minilustre.ml" 15 223 227 "minilustre.ml" 15 223 236
+)
+"minilustre.ml" 80 2625 2632 "minilustre.ml" 80 2625 2642
+type(
+  bool
+)
+"minilustre.ml" 80 2625 2648 "minilustre.ml" 80 2625 2652
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 80 2625 2653 "minilustre.ml" 80 2625 2654
+type(
+  int
+)
+"minilustre.ml" 80 2625 2648 "minilustre.ml" 80 2625 2654
+type(
+  unit
+)
+"minilustre.ml" 80 2625 2629 "minilustre.ml" 80 2625 2654
+type(
+  unit
+)
+"minilustre.ml" 81 2656 2664 "minilustre.ml" 81 2656 2666
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  def fc "minilustre.ml" 82 2695 2699 "minilustre.ml" 96 3285 3295
+)
+"minilustre.ml" 81 2656 2669 "minilustre.ml" 81 2656 2688
+type(
+  Clocked_ast.c_node list -> Clocked_ast.c_node list
+)
+ident(
+  int_ref Scheduling.schedule "scheduling.ml" 95 2683 2687 "scheduling.ml" 95 2683 2695
+)
+"minilustre.ml" 81 2656 2689 "minilustre.ml" 81 2656 2691
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  int_ref fc "minilustre.ml" 72 2275 2283 "minilustre.ml" 72 2275 2285
+)
+"minilustre.ml" 81 2656 2669 "minilustre.ml" 81 2656 2691
+type(
+  Clocked_ast.c_node list
+)
+"minilustre.ml" 82 2695 2702 "minilustre.ml" 82 2695 2703
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 82 2695 2703 "minilustre.ml" 82 2695 2710
+type(
+  bool ref
+)
+ident(
+  int_ref verbose "minilustre.ml" 20 357 361 "minilustre.ml" 20 357 368
+)
+"minilustre.ml" 82 2695 2702 "minilustre.ml" 82 2695 2710
+type(
+  bool
+)
+"minilustre.ml" 83 2722 2728 "minilustre.ml" 83 2722 2741
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 83 2722 2742 "minilustre.ml" 83 2722 2786
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 83 2722 2728 "minilustre.ml" 83 2722 2786
+type(
+  unit
+)
+"minilustre.ml" 84 2788 2794 "minilustre.ml" 84 2788 2807
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 84 2788 2808 "minilustre.ml" 84 2788 2852
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 84 2788 2794 "minilustre.ml" 84 2788 2852
+type(
+  unit
+)
+"minilustre.ml" 85 2854 2860 "minilustre.ml" 85 2854 2873
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"minilustre.ml" 85 2854 2874 "minilustre.ml" 85 2854 2918
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 85 2854 2860 "minilustre.ml" 85 2854 2918
+type(
+  unit
+)
+"minilustre.ml" 86 2920 2926 "minilustre.ml" 86 2920 2965
+type(
+  Clocked_ast.c_node list -> unit
+)
+ident(
+  int_ref Clocked_ast_printer.print_node_list_std "clocked_ast_printer.ml" 154 5096 5100 "clocked_ast_printer.ml" 154 5096 5119
+)
+"minilustre.ml" 86 2920 2966 "minilustre.ml" 86 2920 2968
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  int_ref fc "minilustre.ml" 81 2656 2664 "minilustre.ml" 81 2656 2666
+)
+"minilustre.ml" 86 2920 2926 "minilustre.ml" 86 2920 2968
+type(
+  unit
+)
+"minilustre.ml" 85 2854 2860 "minilustre.ml" 86 2920 2969
+type(
+  unit
+)
+"minilustre.ml" 84 2788 2794 "minilustre.ml" 86 2920 2969
+type(
+  unit
+)
+"minilustre.ml" 82 2695 2716 "minilustre.ml" 87 2970 2977
+type(
+  unit
+)
+"minilustre.ml" 82 2695 2699 "minilustre.ml" 87 2970 2977
+type(
+  unit
+)
+"minilustre.ml" 88 2979 2983 "minilustre.ml" 88 2979 3000
+type(
+  Clocked_ast.c_node list -> unit
+)
+ident(
+  int_ref Checks.scheduling "checks.ml" 121 2915 2919 "checks.ml" 121 2915 2929
+)
+"minilustre.ml" 88 2979 3001 "minilustre.ml" 88 2979 3003
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  int_ref fc "minilustre.ml" 81 2656 2664 "minilustre.ml" 81 2656 2666
+)
+"minilustre.ml" 88 2979 2983 "minilustre.ml" 88 2979 3003
+type(
+  unit
+)
+"minilustre.ml" 89 3005 3012 "minilustre.ml" 89 3005 3013
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 89 3005 3013 "minilustre.ml" 89 3005 3023
+type(
+  bool ref
+)
+ident(
+  int_ref sched_only "minilustre.ml" 16 249 253 "minilustre.ml" 16 249 263
+)
+"minilustre.ml" 89 3005 3012 "minilustre.ml" 89 3005 3023
+type(
+  bool
+)
+"minilustre.ml" 89 3005 3029 "minilustre.ml" 89 3005 3033
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 89 3005 3034 "minilustre.ml" 89 3005 3035
+type(
+  int
+)
+"minilustre.ml" 89 3005 3029 "minilustre.ml" 89 3005 3035
+type(
+  unit
+)
+"minilustre.ml" 89 3005 3009 "minilustre.ml" 89 3005 3035
+type(
+  unit
+)
+"minilustre.ml" 90 3037 3045 "minilustre.ml" 90 3037 3052
+type(
+  Imp_ast.m_node list
+)
+ident(
+  def imp_prg "minilustre.ml" 91 3073 3077 "minilustre.ml" 96 3285 3295
+)
+"minilustre.ml" 90 3037 3055 "minilustre.ml" 90 3037 3066
+type(
+  Clocked_ast.c_node list -> Imp_ast.m_node list
+)
+ident(
+  int_ref Imp.compile "imp.ml" 186 6445 6449 "imp.ml" 186 6445 6456
+)
+"minilustre.ml" 90 3037 3067 "minilustre.ml" 90 3037 3069
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  int_ref fc "minilustre.ml" 81 2656 2664 "minilustre.ml" 81 2656 2666
+)
+"minilustre.ml" 90 3037 3055 "minilustre.ml" 90 3037 3069
+type(
+  Imp_ast.m_node list
+)
+"minilustre.ml" 91 3073 3081 "minilustre.ml" 91 3073 3088
+type(
+  Imp_ast.m_node list
+)
+ident(
+  def imp_prg "minilustre.ml" 92 3129 3133 "minilustre.ml" 96 3285 3295
+)
+"minilustre.ml" 91 3073 3091 "minilustre.ml" 91 3073 3107
+type(
+  Imp_ast.m_node list -> string ref -> Imp_ast.m_node list
+)
+ident(
+  int_ref Imp.rename_nodes "imp.ml" 224 7388 7392 "imp.ml" 224 7388 7404
+)
+"minilustre.ml" 91 3073 3108 "minilustre.ml" 91 3073 3115
+type(
+  Imp_ast.m_node list
+)
+ident(
+  int_ref imp_prg "minilustre.ml" 90 3037 3045 "minilustre.ml" 90 3037 3052
+)
+"minilustre.ml" 91 3073 3116 "minilustre.ml" 91 3073 3125
+type(
+  string ref
+)
+ident(
+  int_ref main_node "minilustre.ml" 19 334 338 "minilustre.ml" 19 334 347
+)
+"minilustre.ml" 91 3073 3091 "minilustre.ml" 91 3073 3125
+type(
+  Imp_ast.m_node list
+)
+"minilustre.ml" 92 3129 3137 "minilustre.ml" 92 3129 3139
+type(
+  string
+)
+ident(
+  def ml "minilustre.ml" 93 3188 3192 "minilustre.ml" 96 3285 3295
+)
+"minilustre.ml" 92 3129 3143 "minilustre.ml" 92 3129 3163
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Filename.chop_suffix "filename.mli" 52 2414 2414 "filename.mli" 52 2414 2458
+)
+"minilustre.ml" 92 3129 3164 "minilustre.ml" 92 3129 3168
+type(
+  string
+)
+ident(
+  int_ref file "minilustre.ml" 33 911 915 "minilustre.ml" 33 911 919
+)
+"minilustre.ml" 92 3129 3169 "minilustre.ml" 92 3129 3175
+type(
+  string
+)
+"minilustre.ml" 92 3129 3142 "minilustre.ml" 92 3129 3176
+type(
+  string
+)
+"minilustre.ml" 92 3129 3177 "minilustre.ml" 92 3129 3178
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 661 25349 25349 "stdlib.mli" 661 25349 25387
+)
+"minilustre.ml" 92 3129 3179 "minilustre.ml" 92 3129 3184
+type(
+  string
+)
+"minilustre.ml" 92 3129 3142 "minilustre.ml" 92 3129 3184
+type(
+  string
+)
+"minilustre.ml" 93 3188 3196 "minilustre.ml" 93 3188 3197
+type(
+  out_channel
+)
+ident(
+  def c "minilustre.ml" 94 3215 3219 "minilustre.ml" 96 3285 3295
+)
+"minilustre.ml" 93 3188 3200 "minilustre.ml" 93 3188 3208
+type(
+  string -> out_channel
+)
+ident(
+  int_ref Stdlib.open_out "stdlib.mli" 910 33320 33320 "stdlib.mli" 910 33320 33356
+)
+"minilustre.ml" 93 3188 3209 "minilustre.ml" 93 3188 3211
+type(
+  string
+)
+ident(
+  int_ref ml "minilustre.ml" 92 3129 3137 "minilustre.ml" 92 3129 3139
+)
+"minilustre.ml" 93 3188 3200 "minilustre.ml" 93 3188 3211
+type(
+  out_channel
+)
+"minilustre.ml" 94 3215 3219 "minilustre.ml" 94 3215 3245
+type(
+  out_channel -> Imp_ast.m_node list -> string -> unit
+)
+ident(
+  int_ref Ocaml_printer.output_ocaml "ocaml_printer.ml" 252 7425 7429 "ocaml_printer.ml" 252 7425 7441
+)
+"minilustre.ml" 94 3215 3246 "minilustre.ml" 94 3215 3247
+type(
+  out_channel
+)
+ident(
+  int_ref c "minilustre.ml" 93 3188 3196 "minilustre.ml" 93 3188 3197
+)
+"minilustre.ml" 94 3215 3248 "minilustre.ml" 94 3215 3255
+type(
+  Imp_ast.m_node list
+)
+ident(
+  int_ref imp_prg "minilustre.ml" 91 3073 3081 "minilustre.ml" 91 3073 3088
+)
+"minilustre.ml" 94 3215 3256 "minilustre.ml" 94 3215 3257
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1162 44470 44470 "stdlib.mli" 1162 44470 44511
+)
+"minilustre.ml" 94 3215 3257 "minilustre.ml" 94 3215 3266
+type(
+  string ref
+)
+ident(
+  int_ref main_node "minilustre.ml" 19 334 338 "minilustre.ml" 19 334 347
+)
+"minilustre.ml" 94 3215 3256 "minilustre.ml" 94 3215 3266
+type(
+  string
+)
+"minilustre.ml" 94 3215 3219 "minilustre.ml" 94 3215 3266
+type(
+  unit
+)
+"minilustre.ml" 95 3268 3272 "minilustre.ml" 95 3268 3281
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref Stdlib.close_out "stdlib.mli" 997 37165 37165 "stdlib.mli" 997 37165 37200
+)
+"minilustre.ml" 95 3268 3282 "minilustre.ml" 95 3268 3283
+type(
+  out_channel
+)
+ident(
+  int_ref c "minilustre.ml" 93 3188 3196 "minilustre.ml" 93 3188 3197
+)
+"minilustre.ml" 95 3268 3272 "minilustre.ml" 95 3268 3283
+type(
+  unit
+)
+"minilustre.ml" 96 3285 3289 "minilustre.ml" 96 3285 3293
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 96 3285 3294 "minilustre.ml" 96 3285 3295
+type(
+  int
+)
+"minilustre.ml" 96 3285 3289 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 95 3268 3272 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 94 3215 3219 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 93 3188 3192 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 92 3129 3133 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 91 3073 3077 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 90 3037 3041 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 89 3005 3009 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 88 2979 2983 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 82 2695 2699 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 81 2656 2660 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 80 2625 2629 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 79 2596 2600 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 73 2313 2317 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 72 2275 2279 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 71 2243 2247 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 65 1958 1962 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 64 1908 1912 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 63 1877 1881 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 57 1596 1600 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 56 1550 1554 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 55 1518 1522 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 54 1502 1506 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 53 1460 1464 "minilustre.ml" 96 3285 3295
+type(
+  unit
+)
+"minilustre.ml" 98 3303 3323 "minilustre.ml" 98 3303 3324
+type(
+  string
+)
+ident(
+  def s "minilustre.ml" 99 3328 3329 "minilustre.ml" 101 3414 3421
+)
+"minilustre.ml" 98 3303 3309 "minilustre.ml" 98 3303 3324
+type(
+  exn
+)
+"minilustre.ml" 99 3328 3329 "minilustre.ml" 99 3328 3339
+type(
+  Lexing.position * Lexing.position -> unit
+)
+ident(
+  int_ref report_loc "minilustre.ml" 43 1186 1190 "minilustre.ml" 43 1186 1200
+)
+"minilustre.ml" 99 3328 3341 "minilustre.ml" 99 3328 3355
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  int_ref Stdlib.Lexing.lexeme_start_p "lexing.mli" 153 6815 6815 "lexing.mli" 153 6815 6854
+)
+"minilustre.ml" 99 3328 3356 "minilustre.ml" 99 3328 3358
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "minilustre.ml" 51 1418 1424 "minilustre.ml" 51 1418 1426
+)
+"minilustre.ml" 99 3328 3341 "minilustre.ml" 99 3328 3358
+type(
+  Lexing.position
+)
+"minilustre.ml" 99 3328 3360 "minilustre.ml" 99 3328 3372
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  int_ref Stdlib.Lexing.lexeme_end_p "lexing.mli" 158 7018 7018 "lexing.mli" 158 7018 7055
+)
+"minilustre.ml" 99 3328 3373 "minilustre.ml" 99 3328 3375
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "minilustre.ml" 51 1418 1424 "minilustre.ml" 51 1418 1426
+)
+"minilustre.ml" 99 3328 3360 "minilustre.ml" 99 3328 3375
+type(
+  Lexing.position
+)
+"minilustre.ml" 99 3328 3340 "minilustre.ml" 99 3328 3376
+type(
+  Lexing.position * Lexing.position
+)
+"minilustre.ml" 99 3328 3329 "minilustre.ml" 99 3328 3376
+type(
+  unit
+)
+"minilustre.ml" 100 3378 3379 "minilustre.ml" 100 3378 3386
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.eprintf "format.mli" 1178 46011 46011 "format.mli" 1178 46011 46059
+)
+"minilustre.ml" 100 3378 3387 "minilustre.ml" 100 3378 3410
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"minilustre.ml" 100 3378 3411 "minilustre.ml" 100 3378 3412
+type(
+  string
+)
+ident(
+  int_ref s "minilustre.ml" 98 3303 3323 "minilustre.ml" 98 3303 3324
+)
+"minilustre.ml" 100 3378 3379 "minilustre.ml" 100 3378 3412
+type(
+  unit
+)
+"minilustre.ml" 101 3414 3415 "minilustre.ml" 101 3414 3419
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 101 3414 3420 "minilustre.ml" 101 3414 3421
+type(
+  int
+)
+"minilustre.ml" 101 3414 3415 "minilustre.ml" 101 3414 3421
+type(
+  unit
+)
+"minilustre.ml" 100 3378 3379 "minilustre.ml" 101 3414 3421
+type(
+  unit
+)
+"minilustre.ml" 99 3328 3329 "minilustre.ml" 101 3414 3421
+type(
+  unit
+)
+"minilustre.ml" 102 3422 3428 "minilustre.ml" 102 3422 3447
+type(
+  exn
+)
+"minilustre.ml" 103 3451 3452 "minilustre.ml" 103 3451 3462
+type(
+  Lexing.position * Lexing.position -> unit
+)
+ident(
+  int_ref report_loc "minilustre.ml" 43 1186 1190 "minilustre.ml" 43 1186 1200
+)
+"minilustre.ml" 103 3451 3464 "minilustre.ml" 103 3451 3478
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  int_ref Stdlib.Lexing.lexeme_start_p "lexing.mli" 153 6815 6815 "lexing.mli" 153 6815 6854
+)
+"minilustre.ml" 103 3451 3479 "minilustre.ml" 103 3451 3481
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "minilustre.ml" 51 1418 1424 "minilustre.ml" 51 1418 1426
+)
+"minilustre.ml" 103 3451 3464 "minilustre.ml" 103 3451 3481
+type(
+  Lexing.position
+)
+"minilustre.ml" 103 3451 3483 "minilustre.ml" 103 3451 3495
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  int_ref Stdlib.Lexing.lexeme_end_p "lexing.mli" 158 7018 7018 "lexing.mli" 158 7018 7055
+)
+"minilustre.ml" 103 3451 3496 "minilustre.ml" 103 3451 3498
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "minilustre.ml" 51 1418 1424 "minilustre.ml" 51 1418 1426
+)
+"minilustre.ml" 103 3451 3483 "minilustre.ml" 103 3451 3498
+type(
+  Lexing.position
+)
+"minilustre.ml" 103 3451 3463 "minilustre.ml" 103 3451 3499
+type(
+  Lexing.position * Lexing.position
+)
+"minilustre.ml" 103 3451 3452 "minilustre.ml" 103 3451 3499
+type(
+  unit
+)
+"minilustre.ml" 104 3501 3502 "minilustre.ml" 104 3501 3509
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.eprintf "format.mli" 1178 46011 46011 "format.mli" 1178 46011 46059
+)
+"minilustre.ml" 104 3501 3510 "minilustre.ml" 104 3501 3528
+type(
+  (unit, Format.formatter, unit) format
+)
+"minilustre.ml" 104 3501 3502 "minilustre.ml" 104 3501 3528
+type(
+  unit
+)
+"minilustre.ml" 105 3530 3531 "minilustre.ml" 105 3530 3535
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 105 3530 3536 "minilustre.ml" 105 3530 3537
+type(
+  int
+)
+"minilustre.ml" 105 3530 3531 "minilustre.ml" 105 3530 3537
+type(
+  unit
+)
+"minilustre.ml" 104 3501 3502 "minilustre.ml" 105 3530 3537
+type(
+  unit
+)
+"minilustre.ml" 103 3451 3452 "minilustre.ml" 105 3530 3537
+type(
+  unit
+)
+"minilustre.ml" 106 3538 3557 "minilustre.ml" 106 3538 3558
+type(
+  Asttypes.location
+)
+ident(
+  def l "minilustre.ml" 107 3565 3567 "minilustre.ml" 109 3617 3625
+)
+"minilustre.ml" 106 3538 3559 "minilustre.ml" 106 3538 3560
+type(
+  Typing.error
+)
+ident(
+  def e "minilustre.ml" 107 3565 3567 "minilustre.ml" 109 3617 3625
+)
+"minilustre.ml" 106 3538 3544 "minilustre.ml" 106 3538 3561
+type(
+  exn
+)
+"minilustre.ml" 107 3565 3567 "minilustre.ml" 107 3565 3577
+type(
+  Asttypes.location -> unit
+)
+ident(
+  int_ref report_loc "minilustre.ml" 43 1186 1190 "minilustre.ml" 43 1186 1200
+)
+"minilustre.ml" 107 3565 3578 "minilustre.ml" 107 3565 3579
+type(
+  Asttypes.location
+)
+ident(
+  int_ref l "minilustre.ml" 106 3538 3557 "minilustre.ml" 106 3538 3558
+)
+"minilustre.ml" 107 3565 3567 "minilustre.ml" 107 3565 3579
+type(
+  unit
+)
+"minilustre.ml" 108 3581 3583 "minilustre.ml" 108 3581 3590
+type(
+  ((Format.formatter -> Typing.error -> unit) -> Typing.error -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Typing.error -> unit) -> Typing.error -> unit
+)
+ident(
+  int_ref Stdlib.Format.eprintf "format.mli" 1178 46011 46011 "format.mli" 1178 46011 46059
+)
+"minilustre.ml" 108 3581 3591 "minilustre.ml" 108 3581 3599
+type(
+  ((Format.formatter -> Typing.error -> unit) -> Typing.error -> unit,
+   Format.formatter, unit)
+  format
+)
+"minilustre.ml" 108 3581 3600 "minilustre.ml" 108 3581 3613
+type(
+  Format.formatter -> Typing.error -> unit
+)
+ident(
+  int_ref Typing.report "typing.ml" 50 1115 1119 "typing.ml" 50 1115 1125
+)
+"minilustre.ml" 108 3581 3614 "minilustre.ml" 108 3581 3615
+type(
+  Typing.error
+)
+ident(
+  int_ref e "minilustre.ml" 106 3538 3559 "minilustre.ml" 106 3538 3560
+)
+"minilustre.ml" 108 3581 3583 "minilustre.ml" 108 3581 3615
+type(
+  unit
+)
+"minilustre.ml" 109 3617 3619 "minilustre.ml" 109 3617 3623
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 109 3617 3624 "minilustre.ml" 109 3617 3625
+type(
+  int
+)
+"minilustre.ml" 109 3617 3619 "minilustre.ml" 109 3617 3625
+type(
+  unit
+)
+"minilustre.ml" 108 3581 3583 "minilustre.ml" 109 3617 3625
+type(
+  unit
+)
+"minilustre.ml" 107 3565 3567 "minilustre.ml" 109 3617 3625
+type(
+  unit
+)
+"minilustre.ml" 110 3626 3647 "minilustre.ml" 110 3626 3648
+type(
+  Asttypes.location
+)
+ident(
+  def l "minilustre.ml" 111 3655 3657 "minilustre.ml" 113 3709 3717
+)
+"minilustre.ml" 110 3626 3649 "minilustre.ml" 110 3626 3650
+type(
+  Clocking.error
+)
+ident(
+  def e "minilustre.ml" 111 3655 3657 "minilustre.ml" 113 3709 3717
+)
+"minilustre.ml" 110 3626 3632 "minilustre.ml" 110 3626 3651
+type(
+  exn
+)
+"minilustre.ml" 111 3655 3657 "minilustre.ml" 111 3655 3667
+type(
+  Asttypes.location -> unit
+)
+ident(
+  int_ref report_loc "minilustre.ml" 43 1186 1190 "minilustre.ml" 43 1186 1200
+)
+"minilustre.ml" 111 3655 3668 "minilustre.ml" 111 3655 3669
+type(
+  Asttypes.location
+)
+ident(
+  int_ref l "minilustre.ml" 110 3626 3647 "minilustre.ml" 110 3626 3648
+)
+"minilustre.ml" 111 3655 3657 "minilustre.ml" 111 3655 3669
+type(
+  unit
+)
+"minilustre.ml" 112 3671 3673 "minilustre.ml" 112 3671 3680
+type(
+  ((Format.formatter -> Clocking.error -> unit) -> Clocking.error -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Clocking.error -> unit) -> Clocking.error -> unit
+)
+ident(
+  int_ref Stdlib.Format.eprintf "format.mli" 1178 46011 46011 "format.mli" 1178 46011 46059
+)
+"minilustre.ml" 112 3671 3681 "minilustre.ml" 112 3671 3689
+type(
+  ((Format.formatter -> Clocking.error -> unit) -> Clocking.error -> unit,
+   Format.formatter, unit)
+  format
+)
+"minilustre.ml" 112 3671 3690 "minilustre.ml" 112 3671 3705
+type(
+  Format.formatter -> Clocking.error -> unit
+)
+ident(
+  int_ref Clocking.report "clocking.ml" 38 816 820 "clocking.ml" 38 816 826
+)
+"minilustre.ml" 112 3671 3706 "minilustre.ml" 112 3671 3707
+type(
+  Clocking.error
+)
+ident(
+  int_ref e "minilustre.ml" 110 3626 3649 "minilustre.ml" 110 3626 3650
+)
+"minilustre.ml" 112 3671 3673 "minilustre.ml" 112 3671 3707
+type(
+  unit
+)
+"minilustre.ml" 113 3709 3711 "minilustre.ml" 113 3709 3715
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 113 3709 3716 "minilustre.ml" 113 3709 3717
+type(
+  int
+)
+"minilustre.ml" 113 3709 3711 "minilustre.ml" 113 3709 3717
+type(
+  unit
+)
+"minilustre.ml" 112 3671 3673 "minilustre.ml" 113 3709 3717
+type(
+  unit
+)
+"minilustre.ml" 111 3655 3657 "minilustre.ml" 113 3709 3717
+type(
+  unit
+)
+"minilustre.ml" 114 3718 3724 "minilustre.ml" 114 3718 3725
+type(
+  exn
+)
+ident(
+  def e "minilustre.ml" 115 3729 3730 "minilustre.ml" 116 3780 3787
+)
+"minilustre.ml" 115 3729 3730 "minilustre.ml" 115 3729 3737
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.eprintf "format.mli" 1178 46011 46011 "format.mli" 1178 46011 46059
+)
+"minilustre.ml" 115 3729 3738 "minilustre.ml" 115 3729 3755
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"minilustre.ml" 115 3729 3757 "minilustre.ml" 115 3729 3775
+type(
+  exn -> string
+)
+ident(
+  int_ref Stdlib.Printexc.to_string "printexc.mli" 21 1213 1213 "printexc.mli" 21 1213 1241
+)
+"minilustre.ml" 115 3729 3776 "minilustre.ml" 115 3729 3777
+type(
+  exn
+)
+ident(
+  int_ref e "minilustre.ml" 114 3718 3724 "minilustre.ml" 114 3718 3725
+)
+"minilustre.ml" 115 3729 3756 "minilustre.ml" 115 3729 3778
+type(
+  string
+)
+"minilustre.ml" 115 3729 3730 "minilustre.ml" 115 3729 3778
+type(
+  unit
+)
+"minilustre.ml" 116 3780 3781 "minilustre.ml" 116 3780 3785
+type(
+  int -> unit
+)
+ident(
+  int_ref Stdlib.exit "stdlib.mli" 1291 49826 49826 "stdlib.mli" 1291 49826 49846
+)
+"minilustre.ml" 116 3780 3786 "minilustre.ml" 116 3780 3787
+type(
+  int
+)
+"minilustre.ml" 116 3780 3781 "minilustre.ml" 116 3780 3787
+type(
+  unit
+)
+"minilustre.ml" 115 3729 3730 "minilustre.ml" 116 3780 3787
+type(
+  unit
+)
+"minilustre.ml" 52 1454 1456 "minilustre.ml" 116 3780 3787
+type(
+  unit
+)
+"minilustre.ml" 51 1418 1420 "minilustre.ml" 116 3780 3787
+type(
+  unit
+)
+"minilustre.ml" 50 1392 1394 "minilustre.ml" 116 3780 3787
+type(
+  unit
+)

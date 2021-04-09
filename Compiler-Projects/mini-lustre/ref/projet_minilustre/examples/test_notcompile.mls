@@ -1,0 +1,8 @@
+node main_notcompile(u:unit) returns (c3:unit);
+var c:bool;x,y:int;
+let
+  c = true; 
+  x = 1 fby if x > 10 then 1 else x + 2;
+  y = x when false(c);
+  c3 = print_endline(string_of_int(y));
+tel

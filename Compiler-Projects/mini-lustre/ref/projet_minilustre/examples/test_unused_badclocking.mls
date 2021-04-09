@@ -1,0 +1,11 @@
+node f (i:int; c:bool) returns (x:int);
+var t:int;
+let
+  t = 0 fby t when true(c);
+  x = i;
+tel
+
+node main (u1:unit) returns (u2:unit);
+let
+	u2 = print_endline(string_of_int (f(1, false)));
+tel

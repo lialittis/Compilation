@@ -1,0 +1,12 @@
+node cross(x,x2:int; c:bool) returns (y:int; c2:bool);
+let
+  c2 = c;
+  y = x + (x2 when false(c2)) ;
+tel
+
+node main(u1:unit) returns (u2:unit);
+var y:int ; c:bool;
+let 
+	(y, c) = cross(1,2,false);
+	u2 = print_endline(string_of_int(y));
+tel

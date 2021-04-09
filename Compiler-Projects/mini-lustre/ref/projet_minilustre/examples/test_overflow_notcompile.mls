@@ -1,0 +1,14 @@
+node cross(l,x:int) returns (y:int; c:bool);
+let
+  c = (0 fby y) = l;
+  y = merge (c) (true -> x) (false -> 0);
+tel
+
+node main_overflow(u1:unit) returns (u2:unit);
+var y,t,z : int; c : bool;
+let
+  y = 0 fby (y+1);
+  (t,c) = cross(4,y);
+  z = merge (c) (true -> y + t) (false -> 0);
+  u2 = print_endline(string_of_int(z));
+tel

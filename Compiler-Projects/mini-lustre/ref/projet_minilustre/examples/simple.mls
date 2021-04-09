@@ -1,0 +1,11 @@
+node n (i: unit) returns (o: unit);
+let 
+  o = print("coucou\n");
+tel
+
+node m (i: unit) returns (o: unit);
+var x:int;
+let 
+  x = 3 fby 0;
+  o = print("coucou\n");
+tel

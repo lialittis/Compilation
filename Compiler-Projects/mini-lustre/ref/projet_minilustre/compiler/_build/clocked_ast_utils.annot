@@ -1,0 +1,2876 @@
+"clocked_ast_utils.ml" 7 171 179 "clocked_ast_utils.ml" 7 171 187
+type(
+  (Clocked_ast.c_expr -> Clocked_ast.c_expr) ->
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  def expr_map "clocked_ast_utils.ml" 7 171 171 "clocked_ast_utils.ml" 0 0 -1
+)
+"clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  def f "clocked_ast_utils.ml" 7 171 190 "clocked_ast_utils.ml" 33 1008 1041
+)
+"clocked_ast_utils.ml" 7 171 190 "clocked_ast_utils.ml" 7 171 194
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def expr "clocked_ast_utils.ml" 8 197 199 "clocked_ast_utils.ml" 33 1008 1041
+)
+"clocked_ast_utils.ml" 8 197 203 "clocked_ast_utils.ml" 8 197 207
+type(
+  Clocked_ast.c_expr_desc
+)
+ident(
+  def desc "clocked_ast_utils.ml" 33 1008 1010 "clocked_ast_utils.ml" 33 1008 1041
+)
+"clocked_ast_utils.ml" 9 210 220 "clocked_ast_utils.ml" 9 210 224
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "clocked_ast_utils.ml" 7 171 190 "clocked_ast_utils.ml" 7 171 194
+)
+"clocked_ast_utils.ml" 9 210 220 "clocked_ast_utils.ml" 9 210 235
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 10 241 256 "clocked_ast_utils.ml" 10 241 257
+type(
+  Asttypes.const
+)
+ident(
+  def c "clocked_ast_utils.ml" 10 241 261 "clocked_ast_utils.ml" 10 241 271
+)
+"clocked_ast_utils.ml" 10 241 247 "clocked_ast_utils.ml" 10 241 257
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 10 241 270 "clocked_ast_utils.ml" 10 241 271
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "clocked_ast_utils.ml" 10 241 256 "clocked_ast_utils.ml" 10 241 257
+)
+"clocked_ast_utils.ml" 10 241 261 "clocked_ast_utils.ml" 10 241 271
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 11 272 287 "clocked_ast_utils.ml" 11 272 288
+type(
+  string
+)
+ident(
+  def x "clocked_ast_utils.ml" 11 272 292 "clocked_ast_utils.ml" 11 272 302
+)
+"clocked_ast_utils.ml" 11 272 278 "clocked_ast_utils.ml" 11 272 288
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 11 272 301 "clocked_ast_utils.ml" 11 272 302
+type(
+  string
+)
+ident(
+  int_ref x "clocked_ast_utils.ml" 11 272 287 "clocked_ast_utils.ml" 11 272 288
+)
+"clocked_ast_utils.ml" 11 272 292 "clocked_ast_utils.ml" 11 272 302
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 12 303 318 "clocked_ast_utils.ml" 12 303 320
+type(
+  Asttypes.unop
+)
+ident(
+  def op "clocked_ast_utils.ml" 12 303 328 "clocked_ast_utils.ml" 12 303 345
+)
+"clocked_ast_utils.ml" 12 303 322 "clocked_ast_utils.ml" 12 303 323
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 12 303 328 "clocked_ast_utils.ml" 12 303 345
+)
+"clocked_ast_utils.ml" 12 303 309 "clocked_ast_utils.ml" 12 303 324
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 12 303 337 "clocked_ast_utils.ml" 12 303 339
+type(
+  Asttypes.unop
+)
+ident(
+  int_ref op "clocked_ast_utils.ml" 12 303 318 "clocked_ast_utils.ml" 12 303 320
+)
+"clocked_ast_utils.ml" 12 303 341 "clocked_ast_utils.ml" 12 303 342
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 12 303 343 "clocked_ast_utils.ml" 12 303 344
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 12 303 322 "clocked_ast_utils.ml" 12 303 323
+)
+"clocked_ast_utils.ml" 12 303 341 "clocked_ast_utils.ml" 12 303 344
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 12 303 328 "clocked_ast_utils.ml" 12 303 345
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 13 346 362 "clocked_ast_utils.ml" 13 346 364
+type(
+  Asttypes.binop
+)
+ident(
+  def op "clocked_ast_utils.ml" 14 377 385 "clocked_ast_utils.ml" 16 427 456
+)
+"clocked_ast_utils.ml" 13 346 366 "clocked_ast_utils.ml" 13 346 368
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 14 377 385 "clocked_ast_utils.ml" 16 427 456
+)
+"clocked_ast_utils.ml" 13 346 370 "clocked_ast_utils.ml" 13 346 372
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 14 377 385 "clocked_ast_utils.ml" 16 427 456
+)
+"clocked_ast_utils.ml" 13 346 352 "clocked_ast_utils.ml" 13 346 373
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 14 377 389 "clocked_ast_utils.ml" 14 377 391
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 15 402 410 "clocked_ast_utils.ml" 16 427 456
+)
+"clocked_ast_utils.ml" 14 377 394 "clocked_ast_utils.ml" 14 377 395
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 14 377 396 "clocked_ast_utils.ml" 14 377 398
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 13 346 366 "clocked_ast_utils.ml" 13 346 368
+)
+"clocked_ast_utils.ml" 14 377 394 "clocked_ast_utils.ml" 14 377 398
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 15 402 414 "clocked_ast_utils.ml" 15 402 416
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 16 427 435 "clocked_ast_utils.ml" 16 427 456
+)
+"clocked_ast_utils.ml" 15 402 419 "clocked_ast_utils.ml" 15 402 420
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 15 402 421 "clocked_ast_utils.ml" 15 402 423
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 13 346 370 "clocked_ast_utils.ml" 13 346 372
+)
+"clocked_ast_utils.ml" 15 402 419 "clocked_ast_utils.ml" 15 402 423
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 16 427 445 "clocked_ast_utils.ml" 16 427 447
+type(
+  Asttypes.binop
+)
+ident(
+  int_ref op "clocked_ast_utils.ml" 13 346 362 "clocked_ast_utils.ml" 13 346 364
+)
+"clocked_ast_utils.ml" 16 427 449 "clocked_ast_utils.ml" 16 427 451
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 14 377 389 "clocked_ast_utils.ml" 14 377 391
+)
+"clocked_ast_utils.ml" 16 427 453 "clocked_ast_utils.ml" 16 427 455
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 15 402 414 "clocked_ast_utils.ml" 15 402 416
+)
+"clocked_ast_utils.ml" 16 427 435 "clocked_ast_utils.ml" 16 427 456
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 15 402 410 "clocked_ast_utils.ml" 16 427 456
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 14 377 385 "clocked_ast_utils.ml" 16 427 456
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 17 457 471 "clocked_ast_utils.ml" 17 457 472
+type(
+  string
+)
+ident(
+  def n "clocked_ast_utils.ml" 17 457 481 "clocked_ast_utils.ml" 17 457 506
+)
+"clocked_ast_utils.ml" 17 457 474 "clocked_ast_utils.ml" 17 457 476
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def el "clocked_ast_utils.ml" 17 457 481 "clocked_ast_utils.ml" 17 457 506
+)
+"clocked_ast_utils.ml" 17 457 463 "clocked_ast_utils.ml" 17 457 477
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 17 457 489 "clocked_ast_utils.ml" 17 457 490
+type(
+  string
+)
+ident(
+  int_ref n "clocked_ast_utils.ml" 17 457 471 "clocked_ast_utils.ml" 17 457 472
+)
+"clocked_ast_utils.ml" 17 457 492 "clocked_ast_utils.ml" 17 457 500
+type(
+  (Clocked_ast.c_expr -> Clocked_ast.c_expr) ->
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
+)
+"clocked_ast_utils.ml" 17 457 501 "clocked_ast_utils.ml" 17 457 502
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 17 457 503 "clocked_ast_utils.ml" 17 457 505
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref el "clocked_ast_utils.ml" 17 457 474 "clocked_ast_utils.ml" 17 457 476
+)
+"clocked_ast_utils.ml" 17 457 492 "clocked_ast_utils.ml" 17 457 505
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 17 457 481 "clocked_ast_utils.ml" 17 457 506
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 18 507 522 "clocked_ast_utils.ml" 18 507 523
+type(
+  string
+)
+ident(
+  def n "clocked_ast_utils.ml" 18 507 532 "clocked_ast_utils.ml" 18 507 558
+)
+"clocked_ast_utils.ml" 18 507 525 "clocked_ast_utils.ml" 18 507 527
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def el "clocked_ast_utils.ml" 18 507 532 "clocked_ast_utils.ml" 18 507 558
+)
+"clocked_ast_utils.ml" 18 507 513 "clocked_ast_utils.ml" 18 507 528
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 18 507 541 "clocked_ast_utils.ml" 18 507 542
+type(
+  string
+)
+ident(
+  int_ref n "clocked_ast_utils.ml" 18 507 522 "clocked_ast_utils.ml" 18 507 523
+)
+"clocked_ast_utils.ml" 18 507 544 "clocked_ast_utils.ml" 18 507 552
+type(
+  (Clocked_ast.c_expr -> Clocked_ast.c_expr) ->
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
+)
+"clocked_ast_utils.ml" 18 507 553 "clocked_ast_utils.ml" 18 507 554
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 18 507 555 "clocked_ast_utils.ml" 18 507 557
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref el "clocked_ast_utils.ml" 18 507 525 "clocked_ast_utils.ml" 18 507 527
+)
+"clocked_ast_utils.ml" 18 507 544 "clocked_ast_utils.ml" 18 507 557
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 18 507 532 "clocked_ast_utils.ml" 18 507 558
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 19 559 572 "clocked_ast_utils.ml" 19 559 573
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 20 586 594 "clocked_ast_utils.ml" 23 659 684
+)
+"clocked_ast_utils.ml" 19 559 575 "clocked_ast_utils.ml" 19 559 577
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 20 586 594 "clocked_ast_utils.ml" 23 659 684
+)
+"clocked_ast_utils.ml" 19 559 579 "clocked_ast_utils.ml" 19 559 581
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 20 586 594 "clocked_ast_utils.ml" 23 659 684
+)
+"clocked_ast_utils.ml" 19 559 565 "clocked_ast_utils.ml" 19 559 582
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 20 586 598 "clocked_ast_utils.ml" 20 586 599
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 21 609 617 "clocked_ast_utils.ml" 23 659 684
+)
+"clocked_ast_utils.ml" 20 586 602 "clocked_ast_utils.ml" 20 586 603
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 20 586 604 "clocked_ast_utils.ml" 20 586 605
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 19 559 572 "clocked_ast_utils.ml" 19 559 573
+)
+"clocked_ast_utils.ml" 20 586 602 "clocked_ast_utils.ml" 20 586 605
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 21 609 621 "clocked_ast_utils.ml" 21 609 623
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 22 634 642 "clocked_ast_utils.ml" 23 659 684
+)
+"clocked_ast_utils.ml" 21 609 626 "clocked_ast_utils.ml" 21 609 627
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 21 609 628 "clocked_ast_utils.ml" 21 609 630
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 19 559 575 "clocked_ast_utils.ml" 19 559 577
+)
+"clocked_ast_utils.ml" 21 609 626 "clocked_ast_utils.ml" 21 609 630
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 22 634 646 "clocked_ast_utils.ml" 22 634 648
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 23 659 667 "clocked_ast_utils.ml" 23 659 684
+)
+"clocked_ast_utils.ml" 22 634 651 "clocked_ast_utils.ml" 22 634 652
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 22 634 653 "clocked_ast_utils.ml" 22 634 655
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 19 559 579 "clocked_ast_utils.ml" 19 559 581
+)
+"clocked_ast_utils.ml" 22 634 651 "clocked_ast_utils.ml" 22 634 655
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 23 659 674 "clocked_ast_utils.ml" 23 659 675
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 20 586 598 "clocked_ast_utils.ml" 20 586 599
+)
+"clocked_ast_utils.ml" 23 659 677 "clocked_ast_utils.ml" 23 659 679
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 21 609 621 "clocked_ast_utils.ml" 21 609 623
+)
+"clocked_ast_utils.ml" 23 659 681 "clocked_ast_utils.ml" 23 659 683
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 22 634 646 "clocked_ast_utils.ml" 22 634 648
+)
+"clocked_ast_utils.ml" 23 659 667 "clocked_ast_utils.ml" 23 659 684
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 22 634 642 "clocked_ast_utils.ml" 23 659 684
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 21 609 617 "clocked_ast_utils.ml" 23 659 684
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 20 586 594 "clocked_ast_utils.ml" 23 659 684
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 24 685 700 "clocked_ast_utils.ml" 24 685 702
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 25 714 722 "clocked_ast_utils.ml" 27 764 791
+)
+"clocked_ast_utils.ml" 24 685 704 "clocked_ast_utils.ml" 24 685 705
+type(
+  Asttypes.const
+)
+ident(
+  def c "clocked_ast_utils.ml" 25 714 722 "clocked_ast_utils.ml" 27 764 791
+)
+"clocked_ast_utils.ml" 24 685 707 "clocked_ast_utils.ml" 24 685 709
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 25 714 722 "clocked_ast_utils.ml" 27 764 791
+)
+"clocked_ast_utils.ml" 24 685 691 "clocked_ast_utils.ml" 24 685 710
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 25 714 726 "clocked_ast_utils.ml" 25 714 728
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 26 739 747 "clocked_ast_utils.ml" 27 764 791
+)
+"clocked_ast_utils.ml" 25 714 731 "clocked_ast_utils.ml" 25 714 732
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 25 714 733 "clocked_ast_utils.ml" 25 714 735
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 24 685 700 "clocked_ast_utils.ml" 24 685 702
+)
+"clocked_ast_utils.ml" 25 714 731 "clocked_ast_utils.ml" 25 714 735
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 26 739 751 "clocked_ast_utils.ml" 26 739 753
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 27 764 772 "clocked_ast_utils.ml" 27 764 791
+)
+"clocked_ast_utils.ml" 26 739 756 "clocked_ast_utils.ml" 26 739 757
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 26 739 758 "clocked_ast_utils.ml" 26 739 760
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 24 685 707 "clocked_ast_utils.ml" 24 685 709
+)
+"clocked_ast_utils.ml" 26 739 756 "clocked_ast_utils.ml" 26 739 760
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 27 764 781 "clocked_ast_utils.ml" 27 764 783
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 25 714 726 "clocked_ast_utils.ml" 25 714 728
+)
+"clocked_ast_utils.ml" 27 764 785 "clocked_ast_utils.ml" 27 764 786
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "clocked_ast_utils.ml" 24 685 704 "clocked_ast_utils.ml" 24 685 705
+)
+"clocked_ast_utils.ml" 27 764 788 "clocked_ast_utils.ml" 27 764 790
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 26 739 751 "clocked_ast_utils.ml" 26 739 753
+)
+"clocked_ast_utils.ml" 27 764 772 "clocked_ast_utils.ml" 27 764 791
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 26 739 747 "clocked_ast_utils.ml" 27 764 791
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 25 714 722 "clocked_ast_utils.ml" 27 764 791
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 28 792 806 "clocked_ast_utils.ml" 28 792 807
+type(
+  Asttypes.const list
+)
+ident(
+  def c "clocked_ast_utils.ml" 28 792 815 "clocked_ast_utils.ml" 28 792 830
+)
+"clocked_ast_utils.ml" 28 792 809 "clocked_ast_utils.ml" 28 792 810
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 28 792 815 "clocked_ast_utils.ml" 28 792 830
+)
+"clocked_ast_utils.ml" 28 792 798 "clocked_ast_utils.ml" 28 792 811
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 28 792 823 "clocked_ast_utils.ml" 28 792 824
+type(
+  Asttypes.const list
+)
+ident(
+  int_ref c "clocked_ast_utils.ml" 28 792 806 "clocked_ast_utils.ml" 28 792 807
+)
+"clocked_ast_utils.ml" 28 792 826 "clocked_ast_utils.ml" 28 792 827
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 28 792 828 "clocked_ast_utils.ml" 28 792 829
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 28 792 809 "clocked_ast_utils.ml" 28 792 810
+)
+"clocked_ast_utils.ml" 28 792 826 "clocked_ast_utils.ml" 28 792 829
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 28 792 815 "clocked_ast_utils.ml" 28 792 830
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 29 831 846 "clocked_ast_utils.ml" 29 831 848
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def el "clocked_ast_utils.ml" 29 831 852 "clocked_ast_utils.ml" 29 831 876
+)
+"clocked_ast_utils.ml" 29 831 837 "clocked_ast_utils.ml" 29 831 848
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 29 831 862 "clocked_ast_utils.ml" 29 831 870
+type(
+  (Clocked_ast.c_expr -> Clocked_ast.c_expr) ->
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
+)
+"clocked_ast_utils.ml" 29 831 871 "clocked_ast_utils.ml" 29 831 872
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 29 831 873 "clocked_ast_utils.ml" 29 831 875
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref el "clocked_ast_utils.ml" 29 831 846 "clocked_ast_utils.ml" 29 831 848
+)
+"clocked_ast_utils.ml" 29 831 861 "clocked_ast_utils.ml" 29 831 876
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 29 831 852 "clocked_ast_utils.ml" 29 831 876
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 30 877 892 "clocked_ast_utils.ml" 30 877 894
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def el "clocked_ast_utils.ml" 30 877 898 "clocked_ast_utils.ml" 30 877 922
+)
+"clocked_ast_utils.ml" 30 877 883 "clocked_ast_utils.ml" 30 877 894
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 30 877 908 "clocked_ast_utils.ml" 30 877 916
+type(
+  (Clocked_ast.c_expr -> Clocked_ast.c_expr) ->
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
+)
+"clocked_ast_utils.ml" 30 877 917 "clocked_ast_utils.ml" 30 877 918
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 30 877 919 "clocked_ast_utils.ml" 30 877 921
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref el "clocked_ast_utils.ml" 30 877 892 "clocked_ast_utils.ml" 30 877 894
+)
+"clocked_ast_utils.ml" 30 877 907 "clocked_ast_utils.ml" 30 877 922
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 30 877 898 "clocked_ast_utils.ml" 30 877 922
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 31 923 939 "clocked_ast_utils.ml" 31 923 940
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 31 923 950 "clocked_ast_utils.ml" 31 923 1002
+)
+"clocked_ast_utils.ml" 31 923 942 "clocked_ast_utils.ml" 31 923 945
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  def cel "clocked_ast_utils.ml" 31 923 950 "clocked_ast_utils.ml" 31 923 1002
+)
+"clocked_ast_utils.ml" 31 923 929 "clocked_ast_utils.ml" 31 923 946
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 31 923 960 "clocked_ast_utils.ml" 31 923 961
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 31 923 962 "clocked_ast_utils.ml" 31 923 963
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 31 923 939 "clocked_ast_utils.ml" 31 923 940
+)
+"clocked_ast_utils.ml" 31 923 960 "clocked_ast_utils.ml" 31 923 963
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 31 923 965 "clocked_ast_utils.ml" 31 923 973
+type(
+  (Asttypes.const * Clocked_ast.c_expr -> Asttypes.const * Clocked_ast.c_expr) ->
+  (Asttypes.const * Clocked_ast.c_expr) list ->
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
+)
+"clocked_ast_utils.ml" 31 923 980 "clocked_ast_utils.ml" 31 923 981
+type(
+  Asttypes.const
+)
+ident(
+  def c "clocked_ast_utils.ml" 31 923 988 "clocked_ast_utils.ml" 31 923 996
+)
+"clocked_ast_utils.ml" 31 923 982 "clocked_ast_utils.ml" 31 923 983
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 31 923 988 "clocked_ast_utils.ml" 31 923 996
+)
+"clocked_ast_utils.ml" 31 923 979 "clocked_ast_utils.ml" 31 923 984
+type(
+  Asttypes.const * Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 31 923 989 "clocked_ast_utils.ml" 31 923 990
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "clocked_ast_utils.ml" 31 923 980 "clocked_ast_utils.ml" 31 923 981
+)
+"clocked_ast_utils.ml" 31 923 992 "clocked_ast_utils.ml" 31 923 993
+type(
+  Clocked_ast.c_expr -> Clocked_ast.c_expr
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 7 171 188 "clocked_ast_utils.ml" 7 171 189
+)
+"clocked_ast_utils.ml" 31 923 994 "clocked_ast_utils.ml" 31 923 995
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 31 923 982 "clocked_ast_utils.ml" 31 923 983
+)
+"clocked_ast_utils.ml" 31 923 992 "clocked_ast_utils.ml" 31 923 995
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 31 923 988 "clocked_ast_utils.ml" 31 923 996
+type(
+  Asttypes.const * Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 31 923 974 "clocked_ast_utils.ml" 31 923 997
+type(
+  Asttypes.const * Clocked_ast.c_expr -> Asttypes.const * Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 31 923 998 "clocked_ast_utils.ml" 31 923 1001
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  int_ref cel "clocked_ast_utils.ml" 31 923 942 "clocked_ast_utils.ml" 31 923 945
+)
+"clocked_ast_utils.ml" 31 923 965 "clocked_ast_utils.ml" 31 923 1001
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+"clocked_ast_utils.ml" 31 923 950 "clocked_ast_utils.ml" 31 923 1002
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 9 210 214 "clocked_ast_utils.ml" 31 923 1002
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 33 1008 1012 "clocked_ast_utils.ml" 33 1008 1016
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "clocked_ast_utils.ml" 7 171 190 "clocked_ast_utils.ml" 7 171 194
+)
+"clocked_ast_utils.ml" 33 1008 1035 "clocked_ast_utils.ml" 33 1008 1039
+type(
+  Clocked_ast.c_expr_desc
+)
+ident(
+  int_ref desc "clocked_ast_utils.ml" 8 197 203 "clocked_ast_utils.ml" 8 197 207
+)
+"clocked_ast_utils.ml" 33 1008 1010 "clocked_ast_utils.ml" 33 1008 1041
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 8 197 199 "clocked_ast_utils.ml" 33 1008 1041
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 40 1223 1227 "clocked_ast_utils.ml" 40 1223 1240
+type(
+  (Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a) ->
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  def expr_map_fold "clocked_ast_utils.ml" 101 3138 3176 "clocked_ast_utils.ml" 0 0 -1
+)
+"clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  def f "clocked_ast_utils.ml" 40 1223 1243 "clocked_ast_utils.ml" 101 3138 3176
+)
+"clocked_ast_utils.ml" 40 1223 1243 "clocked_ast_utils.ml" 40 1223 1247
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def expr "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 101 3138 3176
+)
+"clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 41 1254 1256 "clocked_ast_utils.ml" 101 3138 3176
+)
+"clocked_ast_utils.ml" 41 1254 1260 "clocked_ast_utils.ml" 41 1254 1264
+type(
+  Clocked_ast.c_expr_desc
+)
+ident(
+  def desc "clocked_ast_utils.ml" 101 3138 3140 "clocked_ast_utils.ml" 101 3138 3176
+)
+"clocked_ast_utils.ml" 41 1254 1266 "clocked_ast_utils.ml" 41 1254 1269
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 101 3138 3140 "clocked_ast_utils.ml" 101 3138 3176
+)
+"clocked_ast_utils.ml" 41 1254 1260 "clocked_ast_utils.ml" 41 1254 1269
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 42 1272 1282 "clocked_ast_utils.ml" 42 1272 1286
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "clocked_ast_utils.ml" 40 1223 1243 "clocked_ast_utils.ml" 40 1223 1247
+)
+"clocked_ast_utils.ml" 42 1272 1282 "clocked_ast_utils.ml" 42 1272 1297
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 43 1303 1318 "clocked_ast_utils.ml" 43 1303 1319
+type(
+  Asttypes.const
+)
+ident(
+  def c "clocked_ast_utils.ml" 43 1303 1323 "clocked_ast_utils.ml" 43 1303 1338
+)
+"clocked_ast_utils.ml" 43 1303 1309 "clocked_ast_utils.ml" 43 1303 1319
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 43 1303 1332 "clocked_ast_utils.ml" 43 1303 1333
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "clocked_ast_utils.ml" 43 1303 1318 "clocked_ast_utils.ml" 43 1303 1319
+)
+"clocked_ast_utils.ml" 43 1303 1323 "clocked_ast_utils.ml" 43 1303 1333
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 43 1303 1335 "clocked_ast_utils.ml" 43 1303 1338
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 43 1303 1323 "clocked_ast_utils.ml" 43 1303 1338
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 44 1339 1354 "clocked_ast_utils.ml" 44 1339 1355
+type(
+  string
+)
+ident(
+  def x "clocked_ast_utils.ml" 44 1339 1359 "clocked_ast_utils.ml" 44 1339 1374
+)
+"clocked_ast_utils.ml" 44 1339 1345 "clocked_ast_utils.ml" 44 1339 1355
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 44 1339 1368 "clocked_ast_utils.ml" 44 1339 1369
+type(
+  string
+)
+ident(
+  int_ref x "clocked_ast_utils.ml" 44 1339 1354 "clocked_ast_utils.ml" 44 1339 1355
+)
+"clocked_ast_utils.ml" 44 1339 1359 "clocked_ast_utils.ml" 44 1339 1369
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 44 1339 1371 "clocked_ast_utils.ml" 44 1339 1374
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 44 1339 1359 "clocked_ast_utils.ml" 44 1339 1374
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 45 1375 1390 "clocked_ast_utils.ml" 45 1375 1392
+type(
+  Asttypes.unop
+)
+ident(
+  def op "clocked_ast_utils.ml" 46 1400 1408 "clocked_ast_utils.ml" 47 1432 1460
+)
+"clocked_ast_utils.ml" 45 1375 1394 "clocked_ast_utils.ml" 45 1375 1395
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 46 1400 1408 "clocked_ast_utils.ml" 47 1432 1460
+)
+"clocked_ast_utils.ml" 45 1375 1381 "clocked_ast_utils.ml" 45 1375 1396
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 46 1400 1412 "clocked_ast_utils.ml" 46 1400 1413
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 47 1432 1440 "clocked_ast_utils.ml" 47 1432 1460
+)
+"clocked_ast_utils.ml" 46 1400 1415 "clocked_ast_utils.ml" 46 1400 1418
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 47 1432 1440 "clocked_ast_utils.ml" 47 1432 1460
+)
+"clocked_ast_utils.ml" 46 1400 1412 "clocked_ast_utils.ml" 46 1400 1418
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 46 1400 1421 "clocked_ast_utils.ml" 46 1400 1422
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 46 1400 1423 "clocked_ast_utils.ml" 46 1400 1424
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 45 1375 1394 "clocked_ast_utils.ml" 45 1375 1395
+)
+"clocked_ast_utils.ml" 46 1400 1425 "clocked_ast_utils.ml" 46 1400 1428
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 46 1400 1421 "clocked_ast_utils.ml" 46 1400 1428
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 47 1432 1449 "clocked_ast_utils.ml" 47 1432 1451
+type(
+  Asttypes.unop
+)
+ident(
+  int_ref op "clocked_ast_utils.ml" 45 1375 1390 "clocked_ast_utils.ml" 45 1375 1392
+)
+"clocked_ast_utils.ml" 47 1432 1453 "clocked_ast_utils.ml" 47 1432 1454
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 46 1400 1412 "clocked_ast_utils.ml" 46 1400 1413
+)
+"clocked_ast_utils.ml" 47 1432 1440 "clocked_ast_utils.ml" 47 1432 1455
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 47 1432 1457 "clocked_ast_utils.ml" 47 1432 1460
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 46 1400 1415 "clocked_ast_utils.ml" 46 1400 1418
+)
+"clocked_ast_utils.ml" 47 1432 1440 "clocked_ast_utils.ml" 47 1432 1460
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 46 1400 1408 "clocked_ast_utils.ml" 47 1432 1460
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 48 1461 1477 "clocked_ast_utils.ml" 48 1461 1479
+type(
+  Asttypes.binop
+)
+ident(
+  def op "clocked_ast_utils.ml" 49 1492 1500 "clocked_ast_utils.ml" 51 1560 1594
+)
+"clocked_ast_utils.ml" 48 1461 1481 "clocked_ast_utils.ml" 48 1461 1483
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 49 1492 1500 "clocked_ast_utils.ml" 51 1560 1594
+)
+"clocked_ast_utils.ml" 48 1461 1485 "clocked_ast_utils.ml" 48 1461 1487
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 49 1492 1500 "clocked_ast_utils.ml" 51 1560 1594
+)
+"clocked_ast_utils.ml" 48 1461 1467 "clocked_ast_utils.ml" 48 1461 1488
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 49 1492 1504 "clocked_ast_utils.ml" 49 1492 1506
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 50 1526 1534 "clocked_ast_utils.ml" 51 1560 1594
+)
+"clocked_ast_utils.ml" 49 1492 1508 "clocked_ast_utils.ml" 49 1492 1511
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 50 1526 1534 "clocked_ast_utils.ml" 51 1560 1594
+)
+"clocked_ast_utils.ml" 49 1492 1504 "clocked_ast_utils.ml" 49 1492 1511
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 49 1492 1514 "clocked_ast_utils.ml" 49 1492 1515
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 49 1492 1516 "clocked_ast_utils.ml" 49 1492 1518
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 48 1461 1481 "clocked_ast_utils.ml" 48 1461 1483
+)
+"clocked_ast_utils.ml" 49 1492 1519 "clocked_ast_utils.ml" 49 1492 1522
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 49 1492 1514 "clocked_ast_utils.ml" 49 1492 1522
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 50 1526 1538 "clocked_ast_utils.ml" 50 1526 1540
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 51 1560 1568 "clocked_ast_utils.ml" 51 1560 1594
+)
+"clocked_ast_utils.ml" 50 1526 1542 "clocked_ast_utils.ml" 50 1526 1545
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 51 1560 1568 "clocked_ast_utils.ml" 51 1560 1594
+)
+"clocked_ast_utils.ml" 50 1526 1538 "clocked_ast_utils.ml" 50 1526 1545
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 50 1526 1548 "clocked_ast_utils.ml" 50 1526 1549
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 50 1526 1550 "clocked_ast_utils.ml" 50 1526 1552
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 48 1461 1485 "clocked_ast_utils.ml" 48 1461 1487
+)
+"clocked_ast_utils.ml" 50 1526 1553 "clocked_ast_utils.ml" 50 1526 1556
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 49 1492 1508 "clocked_ast_utils.ml" 49 1492 1511
+)
+"clocked_ast_utils.ml" 50 1526 1548 "clocked_ast_utils.ml" 50 1526 1556
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 51 1560 1578 "clocked_ast_utils.ml" 51 1560 1580
+type(
+  Asttypes.binop
+)
+ident(
+  int_ref op "clocked_ast_utils.ml" 48 1461 1477 "clocked_ast_utils.ml" 48 1461 1479
+)
+"clocked_ast_utils.ml" 51 1560 1582 "clocked_ast_utils.ml" 51 1560 1584
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 49 1492 1504 "clocked_ast_utils.ml" 49 1492 1506
+)
+"clocked_ast_utils.ml" 51 1560 1586 "clocked_ast_utils.ml" 51 1560 1588
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 50 1526 1538 "clocked_ast_utils.ml" 50 1526 1540
+)
+"clocked_ast_utils.ml" 51 1560 1568 "clocked_ast_utils.ml" 51 1560 1589
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 51 1560 1591 "clocked_ast_utils.ml" 51 1560 1594
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 50 1526 1542 "clocked_ast_utils.ml" 50 1526 1545
+)
+"clocked_ast_utils.ml" 51 1560 1568 "clocked_ast_utils.ml" 51 1560 1594
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 50 1526 1534 "clocked_ast_utils.ml" 51 1560 1594
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 49 1492 1500 "clocked_ast_utils.ml" 51 1560 1594
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 52 1595 1609 "clocked_ast_utils.ml" 52 1595 1610
+type(
+  string
+)
+ident(
+  def n "clocked_ast_utils.ml" 53 1619 1627 "clocked_ast_utils.ml" 58 1784 1824
+)
+"clocked_ast_utils.ml" 52 1595 1612 "clocked_ast_utils.ml" 52 1595 1614
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def el "clocked_ast_utils.ml" 53 1619 1627 "clocked_ast_utils.ml" 58 1784 1824
+)
+"clocked_ast_utils.ml" 52 1595 1601 "clocked_ast_utils.ml" 52 1595 1615
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 53 1619 1631 "clocked_ast_utils.ml" 53 1619 1637
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def rev_el "clocked_ast_utils.ml" 58 1784 1792 "clocked_ast_utils.ml" 58 1784 1824
+)
+"clocked_ast_utils.ml" 53 1619 1639 "clocked_ast_utils.ml" 53 1619 1642
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 58 1784 1792 "clocked_ast_utils.ml" 58 1784 1824
+)
+"clocked_ast_utils.ml" 53 1619 1631 "clocked_ast_utils.ml" 53 1619 1642
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 54 1645 1655 "clocked_ast_utils.ml" 54 1645 1669
+type(
+  (Clocked_ast.c_expr list * 'a ->
+   Clocked_ast.c_expr -> Clocked_ast.c_expr list * 'a) ->
+  Clocked_ast.c_expr list * 'a ->
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list * 'a
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"clocked_ast_utils.ml" 55 1670 1688 "clocked_ast_utils.ml" 55 1670 1694
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def rev_el "clocked_ast_utils.ml" 55 1670 1701 "clocked_ast_utils.ml" 55 1670 1746
+)
+"clocked_ast_utils.ml" 55 1670 1696 "clocked_ast_utils.ml" 55 1670 1699
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 55 1670 1701 "clocked_ast_utils.ml" 55 1670 1746
+)
+"clocked_ast_utils.ml" 55 1670 1687 "clocked_ast_utils.ml" 55 1670 1700
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 55 1670 1701 "clocked_ast_utils.ml" 55 1670 1702
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 55 1670 1706 "clocked_ast_utils.ml" 55 1670 1746
+)
+"clocked_ast_utils.ml" 55 1670 1710 "clocked_ast_utils.ml" 55 1670 1711
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 55 1670 1730 "clocked_ast_utils.ml" 55 1670 1746
+)
+"clocked_ast_utils.ml" 55 1670 1713 "clocked_ast_utils.ml" 55 1670 1716
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 55 1670 1730 "clocked_ast_utils.ml" 55 1670 1746
+)
+"clocked_ast_utils.ml" 55 1670 1710 "clocked_ast_utils.ml" 55 1670 1716
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 55 1670 1719 "clocked_ast_utils.ml" 55 1670 1720
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 55 1670 1721 "clocked_ast_utils.ml" 55 1670 1722
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 55 1670 1701 "clocked_ast_utils.ml" 55 1670 1702
+)
+"clocked_ast_utils.ml" 55 1670 1723 "clocked_ast_utils.ml" 55 1670 1726
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 55 1670 1696 "clocked_ast_utils.ml" 55 1670 1699
+)
+"clocked_ast_utils.ml" 55 1670 1719 "clocked_ast_utils.ml" 55 1670 1726
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 55 1670 1730 "clocked_ast_utils.ml" 55 1670 1731
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 55 1670 1710 "clocked_ast_utils.ml" 55 1670 1711
+)
+"clocked_ast_utils.ml" 55 1670 1735 "clocked_ast_utils.ml" 55 1670 1741
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref rev_el "clocked_ast_utils.ml" 55 1670 1688 "clocked_ast_utils.ml" 55 1670 1694
+)
+"clocked_ast_utils.ml" 55 1670 1730 "clocked_ast_utils.ml" 55 1670 1741
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 55 1670 1743 "clocked_ast_utils.ml" 55 1670 1746
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 55 1670 1713 "clocked_ast_utils.ml" 55 1670 1716
+)
+"clocked_ast_utils.ml" 55 1670 1730 "clocked_ast_utils.ml" 55 1670 1746
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 55 1670 1706 "clocked_ast_utils.ml" 55 1670 1746
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 55 1670 1682 "clocked_ast_utils.ml" 55 1670 1747
+type(
+  Clocked_ast.c_expr list * 'a ->
+  Clocked_ast.c_expr -> Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 56 1748 1761 "clocked_ast_utils.ml" 56 1748 1763
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 56 1748 1765 "clocked_ast_utils.ml" 56 1748 1768
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 56 1748 1760 "clocked_ast_utils.ml" 56 1748 1769
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 56 1748 1770 "clocked_ast_utils.ml" 56 1748 1772
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref el "clocked_ast_utils.ml" 52 1595 1612 "clocked_ast_utils.ml" 52 1595 1614
+)
+"clocked_ast_utils.ml" 54 1645 1655 "clocked_ast_utils.ml" 56 1748 1772
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 58 1784 1800 "clocked_ast_utils.ml" 58 1784 1801
+type(
+  string
+)
+ident(
+  int_ref n "clocked_ast_utils.ml" 52 1595 1609 "clocked_ast_utils.ml" 52 1595 1610
+)
+"clocked_ast_utils.ml" 58 1784 1803 "clocked_ast_utils.ml" 58 1784 1811
+type(
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 76 3214 3214 "list.mli" 76 3214 3242
+)
+"clocked_ast_utils.ml" 58 1784 1812 "clocked_ast_utils.ml" 58 1784 1818
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref rev_el "clocked_ast_utils.ml" 53 1619 1631 "clocked_ast_utils.ml" 53 1619 1637
+)
+"clocked_ast_utils.ml" 58 1784 1803 "clocked_ast_utils.ml" 58 1784 1818
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 58 1784 1792 "clocked_ast_utils.ml" 58 1784 1819
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 58 1784 1821 "clocked_ast_utils.ml" 58 1784 1824
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 53 1619 1639 "clocked_ast_utils.ml" 53 1619 1642
+)
+"clocked_ast_utils.ml" 58 1784 1792 "clocked_ast_utils.ml" 58 1784 1824
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 53 1619 1627 "clocked_ast_utils.ml" 58 1784 1824
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 59 1825 1840 "clocked_ast_utils.ml" 59 1825 1841
+type(
+  string
+)
+ident(
+  def n "clocked_ast_utils.ml" 60 1850 1858 "clocked_ast_utils.ml" 65 2015 2056
+)
+"clocked_ast_utils.ml" 59 1825 1843 "clocked_ast_utils.ml" 59 1825 1845
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def el "clocked_ast_utils.ml" 60 1850 1858 "clocked_ast_utils.ml" 65 2015 2056
+)
+"clocked_ast_utils.ml" 59 1825 1831 "clocked_ast_utils.ml" 59 1825 1846
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 60 1850 1862 "clocked_ast_utils.ml" 60 1850 1868
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def rev_el "clocked_ast_utils.ml" 65 2015 2023 "clocked_ast_utils.ml" 65 2015 2056
+)
+"clocked_ast_utils.ml" 60 1850 1870 "clocked_ast_utils.ml" 60 1850 1873
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 65 2015 2023 "clocked_ast_utils.ml" 65 2015 2056
+)
+"clocked_ast_utils.ml" 60 1850 1862 "clocked_ast_utils.ml" 60 1850 1873
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 61 1876 1886 "clocked_ast_utils.ml" 61 1876 1900
+type(
+  (Clocked_ast.c_expr list * 'a ->
+   Clocked_ast.c_expr -> Clocked_ast.c_expr list * 'a) ->
+  Clocked_ast.c_expr list * 'a ->
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list * 'a
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"clocked_ast_utils.ml" 62 1901 1919 "clocked_ast_utils.ml" 62 1901 1925
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def rev_el "clocked_ast_utils.ml" 62 1901 1932 "clocked_ast_utils.ml" 62 1901 1977
+)
+"clocked_ast_utils.ml" 62 1901 1927 "clocked_ast_utils.ml" 62 1901 1930
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 62 1901 1932 "clocked_ast_utils.ml" 62 1901 1977
+)
+"clocked_ast_utils.ml" 62 1901 1918 "clocked_ast_utils.ml" 62 1901 1931
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 62 1901 1932 "clocked_ast_utils.ml" 62 1901 1933
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 62 1901 1937 "clocked_ast_utils.ml" 62 1901 1977
+)
+"clocked_ast_utils.ml" 62 1901 1941 "clocked_ast_utils.ml" 62 1901 1942
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 62 1901 1961 "clocked_ast_utils.ml" 62 1901 1977
+)
+"clocked_ast_utils.ml" 62 1901 1944 "clocked_ast_utils.ml" 62 1901 1947
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 62 1901 1961 "clocked_ast_utils.ml" 62 1901 1977
+)
+"clocked_ast_utils.ml" 62 1901 1941 "clocked_ast_utils.ml" 62 1901 1947
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 62 1901 1950 "clocked_ast_utils.ml" 62 1901 1951
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 62 1901 1952 "clocked_ast_utils.ml" 62 1901 1953
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 62 1901 1932 "clocked_ast_utils.ml" 62 1901 1933
+)
+"clocked_ast_utils.ml" 62 1901 1954 "clocked_ast_utils.ml" 62 1901 1957
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 62 1901 1927 "clocked_ast_utils.ml" 62 1901 1930
+)
+"clocked_ast_utils.ml" 62 1901 1950 "clocked_ast_utils.ml" 62 1901 1957
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 62 1901 1961 "clocked_ast_utils.ml" 62 1901 1962
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 62 1901 1941 "clocked_ast_utils.ml" 62 1901 1942
+)
+"clocked_ast_utils.ml" 62 1901 1966 "clocked_ast_utils.ml" 62 1901 1972
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref rev_el "clocked_ast_utils.ml" 62 1901 1919 "clocked_ast_utils.ml" 62 1901 1925
+)
+"clocked_ast_utils.ml" 62 1901 1961 "clocked_ast_utils.ml" 62 1901 1972
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 62 1901 1974 "clocked_ast_utils.ml" 62 1901 1977
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 62 1901 1944 "clocked_ast_utils.ml" 62 1901 1947
+)
+"clocked_ast_utils.ml" 62 1901 1961 "clocked_ast_utils.ml" 62 1901 1977
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 62 1901 1937 "clocked_ast_utils.ml" 62 1901 1977
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 62 1901 1913 "clocked_ast_utils.ml" 62 1901 1978
+type(
+  Clocked_ast.c_expr list * 'a ->
+  Clocked_ast.c_expr -> Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 63 1979 1992 "clocked_ast_utils.ml" 63 1979 1994
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 63 1979 1996 "clocked_ast_utils.ml" 63 1979 1999
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 63 1979 1991 "clocked_ast_utils.ml" 63 1979 2000
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 63 1979 2001 "clocked_ast_utils.ml" 63 1979 2003
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref el "clocked_ast_utils.ml" 59 1825 1843 "clocked_ast_utils.ml" 59 1825 1845
+)
+"clocked_ast_utils.ml" 61 1876 1886 "clocked_ast_utils.ml" 63 1979 2003
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 65 2015 2032 "clocked_ast_utils.ml" 65 2015 2033
+type(
+  string
+)
+ident(
+  int_ref n "clocked_ast_utils.ml" 59 1825 1840 "clocked_ast_utils.ml" 59 1825 1841
+)
+"clocked_ast_utils.ml" 65 2015 2035 "clocked_ast_utils.ml" 65 2015 2043
+type(
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 76 3214 3214 "list.mli" 76 3214 3242
+)
+"clocked_ast_utils.ml" 65 2015 2044 "clocked_ast_utils.ml" 65 2015 2050
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref rev_el "clocked_ast_utils.ml" 60 1850 1862 "clocked_ast_utils.ml" 60 1850 1868
+)
+"clocked_ast_utils.ml" 65 2015 2035 "clocked_ast_utils.ml" 65 2015 2050
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 65 2015 2023 "clocked_ast_utils.ml" 65 2015 2051
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 65 2015 2053 "clocked_ast_utils.ml" 65 2015 2056
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 60 1850 1870 "clocked_ast_utils.ml" 60 1850 1873
+)
+"clocked_ast_utils.ml" 65 2015 2023 "clocked_ast_utils.ml" 65 2015 2056
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 60 1850 1858 "clocked_ast_utils.ml" 65 2015 2056
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 66 2057 2070 "clocked_ast_utils.ml" 66 2057 2071
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 67 2084 2092 "clocked_ast_utils.ml" 70 2184 2214
+)
+"clocked_ast_utils.ml" 66 2057 2073 "clocked_ast_utils.ml" 66 2057 2075
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 67 2084 2092 "clocked_ast_utils.ml" 70 2184 2214
+)
+"clocked_ast_utils.ml" 66 2057 2077 "clocked_ast_utils.ml" 66 2057 2079
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 67 2084 2092 "clocked_ast_utils.ml" 70 2184 2214
+)
+"clocked_ast_utils.ml" 66 2057 2063 "clocked_ast_utils.ml" 66 2057 2080
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 67 2084 2096 "clocked_ast_utils.ml" 67 2084 2097
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 68 2116 2124 "clocked_ast_utils.ml" 70 2184 2214
+)
+"clocked_ast_utils.ml" 67 2084 2099 "clocked_ast_utils.ml" 67 2084 2102
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 68 2116 2124 "clocked_ast_utils.ml" 70 2184 2214
+)
+"clocked_ast_utils.ml" 67 2084 2096 "clocked_ast_utils.ml" 67 2084 2102
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 67 2084 2105 "clocked_ast_utils.ml" 67 2084 2106
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 67 2084 2107 "clocked_ast_utils.ml" 67 2084 2108
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 66 2057 2070 "clocked_ast_utils.ml" 66 2057 2071
+)
+"clocked_ast_utils.ml" 67 2084 2109 "clocked_ast_utils.ml" 67 2084 2112
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 67 2084 2105 "clocked_ast_utils.ml" 67 2084 2112
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 68 2116 2128 "clocked_ast_utils.ml" 68 2116 2130
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 69 2150 2158 "clocked_ast_utils.ml" 70 2184 2214
+)
+"clocked_ast_utils.ml" 68 2116 2132 "clocked_ast_utils.ml" 68 2116 2135
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 69 2150 2158 "clocked_ast_utils.ml" 70 2184 2214
+)
+"clocked_ast_utils.ml" 68 2116 2128 "clocked_ast_utils.ml" 68 2116 2135
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 68 2116 2138 "clocked_ast_utils.ml" 68 2116 2139
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 68 2116 2140 "clocked_ast_utils.ml" 68 2116 2142
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 66 2057 2073 "clocked_ast_utils.ml" 66 2057 2075
+)
+"clocked_ast_utils.ml" 68 2116 2143 "clocked_ast_utils.ml" 68 2116 2146
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 67 2084 2099 "clocked_ast_utils.ml" 67 2084 2102
+)
+"clocked_ast_utils.ml" 68 2116 2138 "clocked_ast_utils.ml" 68 2116 2146
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 69 2150 2162 "clocked_ast_utils.ml" 69 2150 2164
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 70 2184 2192 "clocked_ast_utils.ml" 70 2184 2214
+)
+"clocked_ast_utils.ml" 69 2150 2166 "clocked_ast_utils.ml" 69 2150 2169
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 70 2184 2192 "clocked_ast_utils.ml" 70 2184 2214
+)
+"clocked_ast_utils.ml" 69 2150 2162 "clocked_ast_utils.ml" 69 2150 2169
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 69 2150 2172 "clocked_ast_utils.ml" 69 2150 2173
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 69 2150 2174 "clocked_ast_utils.ml" 69 2150 2176
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 66 2057 2077 "clocked_ast_utils.ml" 66 2057 2079
+)
+"clocked_ast_utils.ml" 69 2150 2177 "clocked_ast_utils.ml" 69 2150 2180
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 68 2116 2132 "clocked_ast_utils.ml" 68 2116 2135
+)
+"clocked_ast_utils.ml" 69 2150 2172 "clocked_ast_utils.ml" 69 2150 2180
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 70 2184 2199 "clocked_ast_utils.ml" 70 2184 2200
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 67 2084 2096 "clocked_ast_utils.ml" 67 2084 2097
+)
+"clocked_ast_utils.ml" 70 2184 2202 "clocked_ast_utils.ml" 70 2184 2204
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 68 2116 2128 "clocked_ast_utils.ml" 68 2116 2130
+)
+"clocked_ast_utils.ml" 70 2184 2206 "clocked_ast_utils.ml" 70 2184 2208
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 69 2150 2162 "clocked_ast_utils.ml" 69 2150 2164
+)
+"clocked_ast_utils.ml" 70 2184 2192 "clocked_ast_utils.ml" 70 2184 2209
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 70 2184 2211 "clocked_ast_utils.ml" 70 2184 2214
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 69 2150 2166 "clocked_ast_utils.ml" 69 2150 2169
+)
+"clocked_ast_utils.ml" 70 2184 2192 "clocked_ast_utils.ml" 70 2184 2214
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 69 2150 2158 "clocked_ast_utils.ml" 70 2184 2214
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 68 2116 2124 "clocked_ast_utils.ml" 70 2184 2214
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 67 2084 2092 "clocked_ast_utils.ml" 70 2184 2214
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 71 2215 2230 "clocked_ast_utils.ml" 71 2215 2232
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 72 2244 2252 "clocked_ast_utils.ml" 74 2312 2344
+)
+"clocked_ast_utils.ml" 71 2215 2234 "clocked_ast_utils.ml" 71 2215 2235
+type(
+  Asttypes.const
+)
+ident(
+  def c "clocked_ast_utils.ml" 72 2244 2252 "clocked_ast_utils.ml" 74 2312 2344
+)
+"clocked_ast_utils.ml" 71 2215 2237 "clocked_ast_utils.ml" 71 2215 2239
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 72 2244 2252 "clocked_ast_utils.ml" 74 2312 2344
+)
+"clocked_ast_utils.ml" 71 2215 2221 "clocked_ast_utils.ml" 71 2215 2240
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 72 2244 2256 "clocked_ast_utils.ml" 72 2244 2258
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "clocked_ast_utils.ml" 73 2278 2286 "clocked_ast_utils.ml" 74 2312 2344
+)
+"clocked_ast_utils.ml" 72 2244 2260 "clocked_ast_utils.ml" 72 2244 2263
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 73 2278 2286 "clocked_ast_utils.ml" 74 2312 2344
+)
+"clocked_ast_utils.ml" 72 2244 2256 "clocked_ast_utils.ml" 72 2244 2263
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 72 2244 2266 "clocked_ast_utils.ml" 72 2244 2267
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 72 2244 2268 "clocked_ast_utils.ml" 72 2244 2270
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 71 2215 2230 "clocked_ast_utils.ml" 71 2215 2232
+)
+"clocked_ast_utils.ml" 72 2244 2271 "clocked_ast_utils.ml" 72 2244 2274
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 72 2244 2266 "clocked_ast_utils.ml" 72 2244 2274
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 73 2278 2290 "clocked_ast_utils.ml" 73 2278 2292
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "clocked_ast_utils.ml" 74 2312 2320 "clocked_ast_utils.ml" 74 2312 2344
+)
+"clocked_ast_utils.ml" 73 2278 2294 "clocked_ast_utils.ml" 73 2278 2297
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 74 2312 2320 "clocked_ast_utils.ml" 74 2312 2344
+)
+"clocked_ast_utils.ml" 73 2278 2290 "clocked_ast_utils.ml" 73 2278 2297
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 73 2278 2300 "clocked_ast_utils.ml" 73 2278 2301
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 73 2278 2302 "clocked_ast_utils.ml" 73 2278 2304
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 71 2215 2237 "clocked_ast_utils.ml" 71 2215 2239
+)
+"clocked_ast_utils.ml" 73 2278 2305 "clocked_ast_utils.ml" 73 2278 2308
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 72 2244 2260 "clocked_ast_utils.ml" 72 2244 2263
+)
+"clocked_ast_utils.ml" 73 2278 2300 "clocked_ast_utils.ml" 73 2278 2308
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 74 2312 2329 "clocked_ast_utils.ml" 74 2312 2331
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "clocked_ast_utils.ml" 72 2244 2256 "clocked_ast_utils.ml" 72 2244 2258
+)
+"clocked_ast_utils.ml" 74 2312 2333 "clocked_ast_utils.ml" 74 2312 2334
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "clocked_ast_utils.ml" 71 2215 2234 "clocked_ast_utils.ml" 71 2215 2235
+)
+"clocked_ast_utils.ml" 74 2312 2336 "clocked_ast_utils.ml" 74 2312 2338
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "clocked_ast_utils.ml" 73 2278 2290 "clocked_ast_utils.ml" 73 2278 2292
+)
+"clocked_ast_utils.ml" 74 2312 2320 "clocked_ast_utils.ml" 74 2312 2339
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 74 2312 2341 "clocked_ast_utils.ml" 74 2312 2344
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 73 2278 2294 "clocked_ast_utils.ml" 73 2278 2297
+)
+"clocked_ast_utils.ml" 74 2312 2320 "clocked_ast_utils.ml" 74 2312 2344
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 73 2278 2286 "clocked_ast_utils.ml" 74 2312 2344
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 72 2244 2252 "clocked_ast_utils.ml" 74 2312 2344
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 75 2345 2359 "clocked_ast_utils.ml" 75 2345 2360
+type(
+  Asttypes.const list
+)
+ident(
+  def c "clocked_ast_utils.ml" 76 2368 2376 "clocked_ast_utils.ml" 77 2400 2426
+)
+"clocked_ast_utils.ml" 75 2345 2362 "clocked_ast_utils.ml" 75 2345 2363
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 76 2368 2376 "clocked_ast_utils.ml" 77 2400 2426
+)
+"clocked_ast_utils.ml" 75 2345 2351 "clocked_ast_utils.ml" 75 2345 2364
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 76 2368 2380 "clocked_ast_utils.ml" 76 2368 2381
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 77 2400 2408 "clocked_ast_utils.ml" 77 2400 2426
+)
+"clocked_ast_utils.ml" 76 2368 2383 "clocked_ast_utils.ml" 76 2368 2386
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 77 2400 2408 "clocked_ast_utils.ml" 77 2400 2426
+)
+"clocked_ast_utils.ml" 76 2368 2380 "clocked_ast_utils.ml" 76 2368 2386
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 76 2368 2389 "clocked_ast_utils.ml" 76 2368 2390
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 76 2368 2391 "clocked_ast_utils.ml" 76 2368 2392
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 75 2345 2362 "clocked_ast_utils.ml" 75 2345 2363
+)
+"clocked_ast_utils.ml" 76 2368 2393 "clocked_ast_utils.ml" 76 2368 2396
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 76 2368 2389 "clocked_ast_utils.ml" 76 2368 2396
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 77 2400 2416 "clocked_ast_utils.ml" 77 2400 2417
+type(
+  Asttypes.const list
+)
+ident(
+  int_ref c "clocked_ast_utils.ml" 75 2345 2359 "clocked_ast_utils.ml" 75 2345 2360
+)
+"clocked_ast_utils.ml" 77 2400 2419 "clocked_ast_utils.ml" 77 2400 2420
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 76 2368 2380 "clocked_ast_utils.ml" 76 2368 2381
+)
+"clocked_ast_utils.ml" 77 2400 2408 "clocked_ast_utils.ml" 77 2400 2421
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 77 2400 2423 "clocked_ast_utils.ml" 77 2400 2426
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 76 2368 2383 "clocked_ast_utils.ml" 76 2368 2386
+)
+"clocked_ast_utils.ml" 77 2400 2408 "clocked_ast_utils.ml" 77 2400 2426
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 76 2368 2376 "clocked_ast_utils.ml" 77 2400 2426
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 78 2427 2442 "clocked_ast_utils.ml" 78 2427 2444
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def el "clocked_ast_utils.ml" 79 2448 2456 "clocked_ast_utils.ml" 84 2613 2652
+)
+"clocked_ast_utils.ml" 78 2427 2433 "clocked_ast_utils.ml" 78 2427 2444
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 79 2448 2460 "clocked_ast_utils.ml" 79 2448 2466
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def rev_el "clocked_ast_utils.ml" 84 2613 2621 "clocked_ast_utils.ml" 84 2613 2652
+)
+"clocked_ast_utils.ml" 79 2448 2468 "clocked_ast_utils.ml" 79 2448 2471
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 84 2613 2621 "clocked_ast_utils.ml" 84 2613 2652
+)
+"clocked_ast_utils.ml" 79 2448 2460 "clocked_ast_utils.ml" 79 2448 2471
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 80 2474 2484 "clocked_ast_utils.ml" 80 2474 2498
+type(
+  (Clocked_ast.c_expr list * 'a ->
+   Clocked_ast.c_expr -> Clocked_ast.c_expr list * 'a) ->
+  Clocked_ast.c_expr list * 'a ->
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list * 'a
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"clocked_ast_utils.ml" 81 2499 2517 "clocked_ast_utils.ml" 81 2499 2523
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def rev_el "clocked_ast_utils.ml" 81 2499 2530 "clocked_ast_utils.ml" 81 2499 2575
+)
+"clocked_ast_utils.ml" 81 2499 2525 "clocked_ast_utils.ml" 81 2499 2528
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 81 2499 2530 "clocked_ast_utils.ml" 81 2499 2575
+)
+"clocked_ast_utils.ml" 81 2499 2516 "clocked_ast_utils.ml" 81 2499 2529
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 81 2499 2530 "clocked_ast_utils.ml" 81 2499 2531
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 81 2499 2535 "clocked_ast_utils.ml" 81 2499 2575
+)
+"clocked_ast_utils.ml" 81 2499 2539 "clocked_ast_utils.ml" 81 2499 2540
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 81 2499 2559 "clocked_ast_utils.ml" 81 2499 2575
+)
+"clocked_ast_utils.ml" 81 2499 2542 "clocked_ast_utils.ml" 81 2499 2545
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 81 2499 2559 "clocked_ast_utils.ml" 81 2499 2575
+)
+"clocked_ast_utils.ml" 81 2499 2539 "clocked_ast_utils.ml" 81 2499 2545
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 81 2499 2548 "clocked_ast_utils.ml" 81 2499 2549
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 81 2499 2550 "clocked_ast_utils.ml" 81 2499 2551
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 81 2499 2530 "clocked_ast_utils.ml" 81 2499 2531
+)
+"clocked_ast_utils.ml" 81 2499 2552 "clocked_ast_utils.ml" 81 2499 2555
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 81 2499 2525 "clocked_ast_utils.ml" 81 2499 2528
+)
+"clocked_ast_utils.ml" 81 2499 2548 "clocked_ast_utils.ml" 81 2499 2555
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 81 2499 2559 "clocked_ast_utils.ml" 81 2499 2560
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 81 2499 2539 "clocked_ast_utils.ml" 81 2499 2540
+)
+"clocked_ast_utils.ml" 81 2499 2564 "clocked_ast_utils.ml" 81 2499 2570
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref rev_el "clocked_ast_utils.ml" 81 2499 2517 "clocked_ast_utils.ml" 81 2499 2523
+)
+"clocked_ast_utils.ml" 81 2499 2559 "clocked_ast_utils.ml" 81 2499 2570
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 81 2499 2572 "clocked_ast_utils.ml" 81 2499 2575
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 81 2499 2542 "clocked_ast_utils.ml" 81 2499 2545
+)
+"clocked_ast_utils.ml" 81 2499 2559 "clocked_ast_utils.ml" 81 2499 2575
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 81 2499 2535 "clocked_ast_utils.ml" 81 2499 2575
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 81 2499 2511 "clocked_ast_utils.ml" 81 2499 2576
+type(
+  Clocked_ast.c_expr list * 'a ->
+  Clocked_ast.c_expr -> Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 82 2577 2590 "clocked_ast_utils.ml" 82 2577 2592
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 82 2577 2594 "clocked_ast_utils.ml" 82 2577 2597
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 82 2577 2589 "clocked_ast_utils.ml" 82 2577 2598
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 82 2577 2599 "clocked_ast_utils.ml" 82 2577 2601
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref el "clocked_ast_utils.ml" 78 2427 2442 "clocked_ast_utils.ml" 78 2427 2444
+)
+"clocked_ast_utils.ml" 80 2474 2484 "clocked_ast_utils.ml" 82 2577 2601
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 84 2613 2631 "clocked_ast_utils.ml" 84 2613 2639
+type(
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 76 3214 3214 "list.mli" 76 3214 3242
+)
+"clocked_ast_utils.ml" 84 2613 2640 "clocked_ast_utils.ml" 84 2613 2646
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref rev_el "clocked_ast_utils.ml" 79 2448 2460 "clocked_ast_utils.ml" 79 2448 2466
+)
+"clocked_ast_utils.ml" 84 2613 2630 "clocked_ast_utils.ml" 84 2613 2647
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 84 2613 2621 "clocked_ast_utils.ml" 84 2613 2647
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 84 2613 2649 "clocked_ast_utils.ml" 84 2613 2652
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 79 2448 2468 "clocked_ast_utils.ml" 79 2448 2471
+)
+"clocked_ast_utils.ml" 84 2613 2621 "clocked_ast_utils.ml" 84 2613 2652
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 79 2448 2456 "clocked_ast_utils.ml" 84 2613 2652
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 85 2653 2668 "clocked_ast_utils.ml" 85 2653 2670
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def el "clocked_ast_utils.ml" 86 2674 2682 "clocked_ast_utils.ml" 91 2839 2878
+)
+"clocked_ast_utils.ml" 85 2653 2659 "clocked_ast_utils.ml" 85 2653 2670
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 86 2674 2686 "clocked_ast_utils.ml" 86 2674 2692
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def rev_el "clocked_ast_utils.ml" 91 2839 2847 "clocked_ast_utils.ml" 91 2839 2878
+)
+"clocked_ast_utils.ml" 86 2674 2694 "clocked_ast_utils.ml" 86 2674 2697
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 91 2839 2847 "clocked_ast_utils.ml" 91 2839 2878
+)
+"clocked_ast_utils.ml" 86 2674 2686 "clocked_ast_utils.ml" 86 2674 2697
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 87 2700 2710 "clocked_ast_utils.ml" 87 2700 2724
+type(
+  (Clocked_ast.c_expr list * 'a ->
+   Clocked_ast.c_expr -> Clocked_ast.c_expr list * 'a) ->
+  Clocked_ast.c_expr list * 'a ->
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list * 'a
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"clocked_ast_utils.ml" 88 2725 2743 "clocked_ast_utils.ml" 88 2725 2749
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def rev_el "clocked_ast_utils.ml" 88 2725 2756 "clocked_ast_utils.ml" 88 2725 2801
+)
+"clocked_ast_utils.ml" 88 2725 2751 "clocked_ast_utils.ml" 88 2725 2754
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 88 2725 2756 "clocked_ast_utils.ml" 88 2725 2801
+)
+"clocked_ast_utils.ml" 88 2725 2742 "clocked_ast_utils.ml" 88 2725 2755
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 88 2725 2756 "clocked_ast_utils.ml" 88 2725 2757
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 88 2725 2761 "clocked_ast_utils.ml" 88 2725 2801
+)
+"clocked_ast_utils.ml" 88 2725 2765 "clocked_ast_utils.ml" 88 2725 2766
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 88 2725 2785 "clocked_ast_utils.ml" 88 2725 2801
+)
+"clocked_ast_utils.ml" 88 2725 2768 "clocked_ast_utils.ml" 88 2725 2771
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 88 2725 2785 "clocked_ast_utils.ml" 88 2725 2801
+)
+"clocked_ast_utils.ml" 88 2725 2765 "clocked_ast_utils.ml" 88 2725 2771
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 88 2725 2774 "clocked_ast_utils.ml" 88 2725 2775
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 88 2725 2776 "clocked_ast_utils.ml" 88 2725 2777
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 88 2725 2756 "clocked_ast_utils.ml" 88 2725 2757
+)
+"clocked_ast_utils.ml" 88 2725 2778 "clocked_ast_utils.ml" 88 2725 2781
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 88 2725 2751 "clocked_ast_utils.ml" 88 2725 2754
+)
+"clocked_ast_utils.ml" 88 2725 2774 "clocked_ast_utils.ml" 88 2725 2781
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 88 2725 2785 "clocked_ast_utils.ml" 88 2725 2786
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 88 2725 2765 "clocked_ast_utils.ml" 88 2725 2766
+)
+"clocked_ast_utils.ml" 88 2725 2790 "clocked_ast_utils.ml" 88 2725 2796
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref rev_el "clocked_ast_utils.ml" 88 2725 2743 "clocked_ast_utils.ml" 88 2725 2749
+)
+"clocked_ast_utils.ml" 88 2725 2785 "clocked_ast_utils.ml" 88 2725 2796
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 88 2725 2798 "clocked_ast_utils.ml" 88 2725 2801
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 88 2725 2768 "clocked_ast_utils.ml" 88 2725 2771
+)
+"clocked_ast_utils.ml" 88 2725 2785 "clocked_ast_utils.ml" 88 2725 2801
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 88 2725 2761 "clocked_ast_utils.ml" 88 2725 2801
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 88 2725 2737 "clocked_ast_utils.ml" 88 2725 2802
+type(
+  Clocked_ast.c_expr list * 'a ->
+  Clocked_ast.c_expr -> Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 89 2803 2816 "clocked_ast_utils.ml" 89 2803 2818
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 89 2803 2820 "clocked_ast_utils.ml" 89 2803 2823
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 89 2803 2815 "clocked_ast_utils.ml" 89 2803 2824
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 89 2803 2825 "clocked_ast_utils.ml" 89 2803 2827
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref el "clocked_ast_utils.ml" 85 2653 2668 "clocked_ast_utils.ml" 85 2653 2670
+)
+"clocked_ast_utils.ml" 87 2700 2710 "clocked_ast_utils.ml" 89 2803 2827
+type(
+  Clocked_ast.c_expr list * 'a
+)
+"clocked_ast_utils.ml" 91 2839 2857 "clocked_ast_utils.ml" 91 2839 2865
+type(
+  Clocked_ast.c_expr list -> Clocked_ast.c_expr list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 76 3214 3214 "list.mli" 76 3214 3242
+)
+"clocked_ast_utils.ml" 91 2839 2866 "clocked_ast_utils.ml" 91 2839 2872
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref rev_el "clocked_ast_utils.ml" 86 2674 2686 "clocked_ast_utils.ml" 86 2674 2692
+)
+"clocked_ast_utils.ml" 91 2839 2856 "clocked_ast_utils.ml" 91 2839 2873
+type(
+  Clocked_ast.c_expr list
+)
+"clocked_ast_utils.ml" 91 2839 2847 "clocked_ast_utils.ml" 91 2839 2873
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 91 2839 2875 "clocked_ast_utils.ml" 91 2839 2878
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 86 2674 2694 "clocked_ast_utils.ml" 86 2674 2697
+)
+"clocked_ast_utils.ml" 91 2839 2847 "clocked_ast_utils.ml" 91 2839 2878
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 86 2674 2682 "clocked_ast_utils.ml" 91 2839 2878
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 92 2879 2895 "clocked_ast_utils.ml" 92 2879 2896
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 93 2906 2910 "clocked_ast_utils.ml" 99 3093 3132
+)
+"clocked_ast_utils.ml" 92 2879 2898 "clocked_ast_utils.ml" 92 2879 2901
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  def cel "clocked_ast_utils.ml" 93 2906 2910 "clocked_ast_utils.ml" 99 3093 3132
+)
+"clocked_ast_utils.ml" 92 2879 2885 "clocked_ast_utils.ml" 92 2879 2902
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 93 2906 2914 "clocked_ast_utils.ml" 93 2906 2915
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 94 2934 2938 "clocked_ast_utils.ml" 99 3093 3132
+)
+"clocked_ast_utils.ml" 93 2906 2917 "clocked_ast_utils.ml" 93 2906 2920
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 94 2934 2938 "clocked_ast_utils.ml" 99 3093 3132
+)
+"clocked_ast_utils.ml" 93 2906 2914 "clocked_ast_utils.ml" 93 2906 2920
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 93 2906 2923 "clocked_ast_utils.ml" 93 2906 2924
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 93 2906 2925 "clocked_ast_utils.ml" 93 2906 2926
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 92 2879 2895 "clocked_ast_utils.ml" 92 2879 2896
+)
+"clocked_ast_utils.ml" 93 2906 2927 "clocked_ast_utils.ml" 93 2906 2930
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 40 1223 1248 "clocked_ast_utils.ml" 40 1223 1251
+)
+"clocked_ast_utils.ml" 93 2906 2923 "clocked_ast_utils.ml" 93 2906 2930
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 94 2934 2942 "clocked_ast_utils.ml" 94 2934 2949
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  def rev_cel "clocked_ast_utils.ml" 99 3093 3097 "clocked_ast_utils.ml" 99 3093 3132
+)
+"clocked_ast_utils.ml" 94 2934 2951 "clocked_ast_utils.ml" 94 2934 2954
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 99 3093 3097 "clocked_ast_utils.ml" 99 3093 3132
+)
+"clocked_ast_utils.ml" 94 2934 2942 "clocked_ast_utils.ml" 94 2934 2954
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list * 'a
+)
+"clocked_ast_utils.ml" 95 2957 2963 "clocked_ast_utils.ml" 95 2957 2977
+type(
+  ((Asttypes.const * Clocked_ast.c_expr) list * 'a ->
+   Asttypes.const * Clocked_ast.c_expr ->
+   (Asttypes.const * Clocked_ast.c_expr) list * 'a) ->
+  (Asttypes.const * Clocked_ast.c_expr) list * 'a ->
+  (Asttypes.const * Clocked_ast.c_expr) list ->
+  (Asttypes.const * Clocked_ast.c_expr) list * 'a
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"clocked_ast_utils.ml" 96 2978 2992 "clocked_ast_utils.ml" 96 2978 2999
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  def rev_cel "clocked_ast_utils.ml" 96 2978 3006 "clocked_ast_utils.ml" 96 2978 3062
+)
+"clocked_ast_utils.ml" 96 2978 3001 "clocked_ast_utils.ml" 96 2978 3004
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 96 2978 3006 "clocked_ast_utils.ml" 96 2978 3062
+)
+"clocked_ast_utils.ml" 96 2978 2991 "clocked_ast_utils.ml" 96 2978 3005
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list * 'a
+)
+"clocked_ast_utils.ml" 96 2978 3007 "clocked_ast_utils.ml" 96 2978 3008
+type(
+  Asttypes.const
+)
+ident(
+  def c "clocked_ast_utils.ml" 96 2978 3016 "clocked_ast_utils.ml" 96 2978 3062
+)
+"clocked_ast_utils.ml" 96 2978 3010 "clocked_ast_utils.ml" 96 2978 3011
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 96 2978 3016 "clocked_ast_utils.ml" 96 2978 3062
+)
+"clocked_ast_utils.ml" 96 2978 3006 "clocked_ast_utils.ml" 96 2978 3012
+type(
+  Asttypes.const * Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 96 2978 3020 "clocked_ast_utils.ml" 96 2978 3021
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "clocked_ast_utils.ml" 96 2978 3040 "clocked_ast_utils.ml" 96 2978 3062
+)
+"clocked_ast_utils.ml" 96 2978 3023 "clocked_ast_utils.ml" 96 2978 3026
+type(
+  'a
+)
+ident(
+  def acc "clocked_ast_utils.ml" 96 2978 3040 "clocked_ast_utils.ml" 96 2978 3062
+)
+"clocked_ast_utils.ml" 96 2978 3020 "clocked_ast_utils.ml" 96 2978 3026
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 96 2978 3029 "clocked_ast_utils.ml" 96 2978 3030
+type(
+  Clocked_ast.c_expr -> 'a -> Clocked_ast.c_expr * 'a
+)
+ident(
+  int_ref f "clocked_ast_utils.ml" 40 1223 1241 "clocked_ast_utils.ml" 40 1223 1242
+)
+"clocked_ast_utils.ml" 96 2978 3031 "clocked_ast_utils.ml" 96 2978 3032
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 96 2978 3010 "clocked_ast_utils.ml" 96 2978 3011
+)
+"clocked_ast_utils.ml" 96 2978 3033 "clocked_ast_utils.ml" 96 2978 3036
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 96 2978 3001 "clocked_ast_utils.ml" 96 2978 3004
+)
+"clocked_ast_utils.ml" 96 2978 3029 "clocked_ast_utils.ml" 96 2978 3036
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 96 2978 3041 "clocked_ast_utils.ml" 96 2978 3042
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "clocked_ast_utils.ml" 96 2978 3007 "clocked_ast_utils.ml" 96 2978 3008
+)
+"clocked_ast_utils.ml" 96 2978 3044 "clocked_ast_utils.ml" 96 2978 3045
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 96 2978 3020 "clocked_ast_utils.ml" 96 2978 3021
+)
+"clocked_ast_utils.ml" 96 2978 3040 "clocked_ast_utils.ml" 96 2978 3046
+type(
+  Asttypes.const * Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 96 2978 3050 "clocked_ast_utils.ml" 96 2978 3057
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  int_ref rev_cel "clocked_ast_utils.ml" 96 2978 2992 "clocked_ast_utils.ml" 96 2978 2999
+)
+"clocked_ast_utils.ml" 96 2978 3040 "clocked_ast_utils.ml" 96 2978 3057
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+"clocked_ast_utils.ml" 96 2978 3059 "clocked_ast_utils.ml" 96 2978 3062
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 96 2978 3023 "clocked_ast_utils.ml" 96 2978 3026
+)
+"clocked_ast_utils.ml" 96 2978 3040 "clocked_ast_utils.ml" 96 2978 3062
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list * 'a
+)
+"clocked_ast_utils.ml" 96 2978 3016 "clocked_ast_utils.ml" 96 2978 3062
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list * 'a
+)
+"clocked_ast_utils.ml" 96 2978 2986 "clocked_ast_utils.ml" 96 2978 3063
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list * 'a ->
+  Asttypes.const * Clocked_ast.c_expr ->
+  (Asttypes.const * Clocked_ast.c_expr) list * 'a
+)
+"clocked_ast_utils.ml" 97 3064 3073 "clocked_ast_utils.ml" 97 3064 3075
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+"clocked_ast_utils.ml" 97 3064 3077 "clocked_ast_utils.ml" 97 3064 3080
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 93 2906 2917 "clocked_ast_utils.ml" 93 2906 2920
+)
+"clocked_ast_utils.ml" 97 3064 3072 "clocked_ast_utils.ml" 97 3064 3081
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list * 'a
+)
+"clocked_ast_utils.ml" 97 3064 3082 "clocked_ast_utils.ml" 97 3064 3085
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  int_ref cel "clocked_ast_utils.ml" 92 2879 2898 "clocked_ast_utils.ml" 92 2879 2901
+)
+"clocked_ast_utils.ml" 95 2957 2963 "clocked_ast_utils.ml" 97 3064 3085
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list * 'a
+)
+"clocked_ast_utils.ml" 99 3093 3107 "clocked_ast_utils.ml" 99 3093 3108
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "clocked_ast_utils.ml" 93 2906 2914 "clocked_ast_utils.ml" 93 2906 2915
+)
+"clocked_ast_utils.ml" 99 3093 3110 "clocked_ast_utils.ml" 99 3093 3118
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list ->
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 76 3214 3214 "list.mli" 76 3214 3242
+)
+"clocked_ast_utils.ml" 99 3093 3119 "clocked_ast_utils.ml" 99 3093 3126
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  int_ref rev_cel "clocked_ast_utils.ml" 94 2934 2942 "clocked_ast_utils.ml" 94 2934 2949
+)
+"clocked_ast_utils.ml" 99 3093 3110 "clocked_ast_utils.ml" 99 3093 3126
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+"clocked_ast_utils.ml" 99 3093 3097 "clocked_ast_utils.ml" 99 3093 3127
+type(
+  Clocked_ast.c_expr_desc
+)
+"clocked_ast_utils.ml" 99 3093 3129 "clocked_ast_utils.ml" 99 3093 3132
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 94 2934 2951 "clocked_ast_utils.ml" 94 2934 2954
+)
+"clocked_ast_utils.ml" 99 3093 3097 "clocked_ast_utils.ml" 99 3093 3132
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 94 2934 2938 "clocked_ast_utils.ml" 99 3093 3132
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 93 2906 2910 "clocked_ast_utils.ml" 99 3093 3132
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 42 1272 1276 "clocked_ast_utils.ml" 99 3093 3132
+type(
+  Clocked_ast.c_expr_desc * 'a
+)
+"clocked_ast_utils.ml" 101 3138 3142 "clocked_ast_utils.ml" 101 3138 3146
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "clocked_ast_utils.ml" 40 1223 1243 "clocked_ast_utils.ml" 40 1223 1247
+)
+"clocked_ast_utils.ml" 101 3138 3165 "clocked_ast_utils.ml" 101 3138 3169
+type(
+  Clocked_ast.c_expr_desc
+)
+ident(
+  int_ref desc "clocked_ast_utils.ml" 41 1254 1260 "clocked_ast_utils.ml" 41 1254 1264
+)
+"clocked_ast_utils.ml" 101 3138 3140 "clocked_ast_utils.ml" 101 3138 3171
+type(
+  Clocked_ast.c_expr
+)
+"clocked_ast_utils.ml" 101 3138 3173 "clocked_ast_utils.ml" 101 3138 3176
+type(
+  'a
+)
+ident(
+  int_ref acc "clocked_ast_utils.ml" 41 1254 1266 "clocked_ast_utils.ml" 41 1254 1269
+)
+"clocked_ast_utils.ml" 101 3138 3140 "clocked_ast_utils.ml" 101 3138 3176
+type(
+  Clocked_ast.c_expr * 'a
+)
+"clocked_ast_utils.ml" 41 1254 1256 "clocked_ast_utils.ml" 101 3138 3176
+type(
+  Clocked_ast.c_expr * 'a
+)

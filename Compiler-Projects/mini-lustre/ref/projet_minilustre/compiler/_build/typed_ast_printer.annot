@@ -1,0 +1,3562 @@
+"typed_ast_printer.ml" 7 70 78 "typed_ast_printer.ml" 7 70 88
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  def print_list "typed_ast_printer.ml" 7 70 70 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 7 70 89 "typed_ast_printer.ml" 7 70 90
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def f "typed_ast_printer.ml" 7 70 91 "typed_ast_printer.ml" 10 148 213
+)
+"typed_ast_printer.ml" 7 70 91 "typed_ast_printer.ml" 7 70 94
+type(
+  string
+)
+ident(
+  def sep "typed_ast_printer.ml" 7 70 95 "typed_ast_printer.ml" 10 148 213
+)
+"typed_ast_printer.ml" 7 70 95 "typed_ast_printer.ml" 7 70 98
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 7 70 99 "typed_ast_printer.ml" 10 148 213
+)
+"typed_ast_printer.ml" 7 70 99 "typed_ast_printer.ml" 7 70 100
+type(
+  'a list
+)
+ident(
+  def l "typed_ast_printer.ml" 7 70 103 "typed_ast_printer.ml" 10 148 213
+)
+"typed_ast_printer.ml" 7 70 109 "typed_ast_printer.ml" 7 70 110
+type(
+  'a list
+)
+ident(
+  int_ref l "typed_ast_printer.ml" 7 70 99 "typed_ast_printer.ml" 7 70 100
+)
+"typed_ast_printer.ml" 8 116 120 "typed_ast_printer.ml" 8 116 122
+type(
+  'a list
+)
+"typed_ast_printer.ml" 8 116 126 "typed_ast_printer.ml" 8 116 128
+type(
+  unit
+)
+"typed_ast_printer.ml" 9 129 134 "typed_ast_printer.ml" 9 129 135
+type(
+  'a
+)
+ident(
+  def x "typed_ast_printer.ml" 9 129 140 "typed_ast_printer.ml" 9 129 147
+)
+"typed_ast_printer.ml" 9 129 133 "typed_ast_printer.ml" 9 129 136
+type(
+  'a list
+)
+"typed_ast_printer.ml" 9 129 140 "typed_ast_printer.ml" 9 129 141
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "typed_ast_printer.ml" 7 70 89 "typed_ast_printer.ml" 7 70 90
+)
+"typed_ast_printer.ml" 9 129 142 "typed_ast_printer.ml" 9 129 145
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 7 70 95 "typed_ast_printer.ml" 7 70 98
+)
+"typed_ast_printer.ml" 9 129 146 "typed_ast_printer.ml" 9 129 147
+type(
+  'a
+)
+ident(
+  int_ref x "typed_ast_printer.ml" 9 129 134 "typed_ast_printer.ml" 9 129 135
+)
+"typed_ast_printer.ml" 9 129 140 "typed_ast_printer.ml" 9 129 147
+type(
+  unit
+)
+"typed_ast_printer.ml" 10 148 152 "typed_ast_printer.ml" 10 148 153
+type(
+  'a
+)
+ident(
+  def h "typed_ast_printer.ml" 10 148 162 "typed_ast_printer.ml" 10 148 213
+)
+"typed_ast_printer.ml" 10 148 157 "typed_ast_printer.ml" 10 148 158
+type(
+  'a list
+)
+ident(
+  def t "typed_ast_printer.ml" 10 148 162 "typed_ast_printer.ml" 10 148 213
+)
+"typed_ast_printer.ml" 10 148 152 "typed_ast_printer.ml" 10 148 158
+type(
+  'a list
+)
+"typed_ast_printer.ml" 10 148 162 "typed_ast_printer.ml" 10 148 169
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> 'a -> unit) ->
+  'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 10 148 170 "typed_ast_printer.ml" 10 148 173
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 7 70 95 "typed_ast_printer.ml" 7 70 98
+)
+"typed_ast_printer.ml" 10 148 174 "typed_ast_printer.ml" 10 148 184
+type(
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 10 148 185 "typed_ast_printer.ml" 10 148 186
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "typed_ast_printer.ml" 7 70 89 "typed_ast_printer.ml" 7 70 90
+)
+"typed_ast_printer.ml" 10 148 187 "typed_ast_printer.ml" 10 148 188
+type(
+  'a
+)
+ident(
+  int_ref h "typed_ast_printer.ml" 10 148 152 "typed_ast_printer.ml" 10 148 153
+)
+"typed_ast_printer.ml" 10 148 189 "typed_ast_printer.ml" 10 148 192
+type(
+  string
+)
+ident(
+  int_ref sep "typed_ast_printer.ml" 7 70 91 "typed_ast_printer.ml" 7 70 94
+)
+"typed_ast_printer.ml" 10 148 194 "typed_ast_printer.ml" 10 148 204
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  int_ref print_list "typed_ast_printer.ml" 7 70 78 "typed_ast_printer.ml" 7 70 88
+)
+"typed_ast_printer.ml" 10 148 205 "typed_ast_printer.ml" 10 148 206
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "typed_ast_printer.ml" 7 70 89 "typed_ast_printer.ml" 7 70 90
+)
+"typed_ast_printer.ml" 10 148 207 "typed_ast_printer.ml" 10 148 210
+type(
+  string
+)
+ident(
+  int_ref sep "typed_ast_printer.ml" 7 70 91 "typed_ast_printer.ml" 7 70 94
+)
+"typed_ast_printer.ml" 10 148 193 "typed_ast_printer.ml" 10 148 211
+type(
+  Format.formatter -> 'a list -> unit
+)
+"typed_ast_printer.ml" 10 148 212 "typed_ast_printer.ml" 10 148 213
+type(
+  'a list
+)
+ident(
+  int_ref t "typed_ast_printer.ml" 10 148 157 "typed_ast_printer.ml" 10 148 158
+)
+"typed_ast_printer.ml" 10 148 162 "typed_ast_printer.ml" 10 148 213
+type(
+  unit
+)
+"typed_ast_printer.ml" 7 70 103 "typed_ast_printer.ml" 10 148 213
+type(
+  unit
+)
+"typed_ast_printer.ml" 12 215 223 "typed_ast_printer.ml" 12 215 237
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  def print_list_eol "typed_ast_printer.ml" 12 215 215 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 12 215 238 "typed_ast_printer.ml" 12 215 239
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def f "typed_ast_printer.ml" 12 215 240 "typed_ast_printer.ml" 15 316 386
+)
+"typed_ast_printer.ml" 12 215 240 "typed_ast_printer.ml" 12 215 243
+type(
+  string
+)
+ident(
+  def sep "typed_ast_printer.ml" 12 215 244 "typed_ast_printer.ml" 15 316 386
+)
+"typed_ast_printer.ml" 12 215 244 "typed_ast_printer.ml" 12 215 247
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 12 215 248 "typed_ast_printer.ml" 15 316 386
+)
+"typed_ast_printer.ml" 12 215 248 "typed_ast_printer.ml" 12 215 249
+type(
+  'a list
+)
+ident(
+  def l "typed_ast_printer.ml" 12 215 252 "typed_ast_printer.ml" 15 316 386
+)
+"typed_ast_printer.ml" 12 215 258 "typed_ast_printer.ml" 12 215 259
+type(
+  'a list
+)
+ident(
+  int_ref l "typed_ast_printer.ml" 12 215 248 "typed_ast_printer.ml" 12 215 249
+)
+"typed_ast_printer.ml" 13 265 269 "typed_ast_printer.ml" 13 265 271
+type(
+  'a list
+)
+"typed_ast_printer.ml" 13 265 275 "typed_ast_printer.ml" 13 265 277
+type(
+  unit
+)
+"typed_ast_printer.ml" 14 278 283 "typed_ast_printer.ml" 14 278 284
+type(
+  'a
+)
+ident(
+  def x "typed_ast_printer.ml" 14 278 289 "typed_ast_printer.ml" 14 278 315
+)
+"typed_ast_printer.ml" 14 278 282 "typed_ast_printer.ml" 14 278 285
+type(
+  'a list
+)
+"typed_ast_printer.ml" 14 278 289 "typed_ast_printer.ml" 14 278 296
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) -> 'a -> string -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> 'a -> unit) -> 'a -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 14 278 297 "typed_ast_printer.ml" 14 278 300
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 12 215 244 "typed_ast_printer.ml" 12 215 247
+)
+"typed_ast_printer.ml" 14 278 301 "typed_ast_printer.ml" 14 278 307
+type(
+  ((Format.formatter -> 'a -> unit) -> 'a -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 14 278 308 "typed_ast_printer.ml" 14 278 309
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "typed_ast_printer.ml" 12 215 238 "typed_ast_printer.ml" 12 215 239
+)
+"typed_ast_printer.ml" 14 278 310 "typed_ast_printer.ml" 14 278 311
+type(
+  'a
+)
+ident(
+  int_ref x "typed_ast_printer.ml" 14 278 283 "typed_ast_printer.ml" 14 278 284
+)
+"typed_ast_printer.ml" 14 278 312 "typed_ast_printer.ml" 14 278 315
+type(
+  string
+)
+ident(
+  int_ref sep "typed_ast_printer.ml" 12 215 240 "typed_ast_printer.ml" 12 215 243
+)
+"typed_ast_printer.ml" 14 278 289 "typed_ast_printer.ml" 14 278 315
+type(
+  unit
+)
+"typed_ast_printer.ml" 15 316 320 "typed_ast_printer.ml" 15 316 321
+type(
+  'a
+)
+ident(
+  def h "typed_ast_printer.ml" 15 316 330 "typed_ast_printer.ml" 15 316 386
+)
+"typed_ast_printer.ml" 15 316 325 "typed_ast_printer.ml" 15 316 326
+type(
+  'a list
+)
+ident(
+  def t "typed_ast_printer.ml" 15 316 330 "typed_ast_printer.ml" 15 316 386
+)
+"typed_ast_printer.ml" 15 316 320 "typed_ast_printer.ml" 15 316 326
+type(
+  'a list
+)
+"typed_ast_printer.ml" 15 316 330 "typed_ast_printer.ml" 15 316 337
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> 'a -> unit) ->
+  'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 15 316 338 "typed_ast_printer.ml" 15 316 341
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 12 215 244 "typed_ast_printer.ml" 12 215 247
+)
+"typed_ast_printer.ml" 15 316 342 "typed_ast_printer.ml" 15 316 353
+type(
+  ((Format.formatter -> 'a -> unit) ->
+   'a -> string -> (Format.formatter -> 'a list -> unit) -> 'a list -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 15 316 354 "typed_ast_printer.ml" 15 316 355
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "typed_ast_printer.ml" 12 215 238 "typed_ast_printer.ml" 12 215 239
+)
+"typed_ast_printer.ml" 15 316 356 "typed_ast_printer.ml" 15 316 357
+type(
+  'a
+)
+ident(
+  int_ref h "typed_ast_printer.ml" 15 316 320 "typed_ast_printer.ml" 15 316 321
+)
+"typed_ast_printer.ml" 15 316 358 "typed_ast_printer.ml" 15 316 361
+type(
+  string
+)
+ident(
+  int_ref sep "typed_ast_printer.ml" 12 215 240 "typed_ast_printer.ml" 12 215 243
+)
+"typed_ast_printer.ml" 15 316 363 "typed_ast_printer.ml" 15 316 377
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  int_ref print_list_eol "typed_ast_printer.ml" 12 215 223 "typed_ast_printer.ml" 12 215 237
+)
+"typed_ast_printer.ml" 15 316 378 "typed_ast_printer.ml" 15 316 379
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "typed_ast_printer.ml" 12 215 238 "typed_ast_printer.ml" 12 215 239
+)
+"typed_ast_printer.ml" 15 316 380 "typed_ast_printer.ml" 15 316 383
+type(
+  string
+)
+ident(
+  int_ref sep "typed_ast_printer.ml" 12 215 240 "typed_ast_printer.ml" 12 215 243
+)
+"typed_ast_printer.ml" 15 316 362 "typed_ast_printer.ml" 15 316 384
+type(
+  Format.formatter -> 'a list -> unit
+)
+"typed_ast_printer.ml" 15 316 385 "typed_ast_printer.ml" 15 316 386
+type(
+  'a list
+)
+ident(
+  int_ref t "typed_ast_printer.ml" 15 316 325 "typed_ast_printer.ml" 15 316 326
+)
+"typed_ast_printer.ml" 15 316 330 "typed_ast_printer.ml" 15 316 386
+type(
+  unit
+)
+"typed_ast_printer.ml" 12 215 252 "typed_ast_printer.ml" 15 316 386
+type(
+  unit
+)
+"typed_ast_printer.ml" 17 388 392 "typed_ast_printer.ml" 17 388 403
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  def print_const "typed_ast_printer.ml" 24 598 598 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 17 388 404 "typed_ast_printer.ml" 17 388 407
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 17 388 408 "typed_ast_printer.ml" 22 557 596
+)
+"typed_ast_printer.ml" 17 388 408 "typed_ast_printer.ml" 17 388 409
+type(
+  Asttypes.const
+)
+ident(
+  def c "typed_ast_printer.ml" 17 388 412 "typed_ast_printer.ml" 22 557 596
+)
+"typed_ast_printer.ml" 17 388 418 "typed_ast_printer.ml" 17 388 419
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "typed_ast_printer.ml" 17 388 408 "typed_ast_printer.ml" 17 388 409
+)
+"typed_ast_printer.ml" 18 425 429 "typed_ast_printer.ml" 18 425 434
+type(
+  Asttypes.const
+)
+"typed_ast_printer.ml" 18 425 438 "typed_ast_printer.ml" 18 425 445
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 18 425 446 "typed_ast_printer.ml" 18 425 449
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 17 388 404 "typed_ast_printer.ml" 17 388 407
+)
+"typed_ast_printer.ml" 18 425 450 "typed_ast_printer.ml" 18 425 454
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 18 425 438 "typed_ast_printer.ml" 18 425 454
+type(
+  unit
+)
+"typed_ast_printer.ml" 19 455 465 "typed_ast_printer.ml" 19 455 466
+type(
+  bool
+)
+ident(
+  def b "typed_ast_printer.ml" 19 455 470 "typed_ast_printer.ml" 19 455 488
+)
+"typed_ast_printer.ml" 19 455 459 "typed_ast_printer.ml" 19 455 466
+type(
+  Asttypes.const
+)
+"typed_ast_printer.ml" 19 455 470 "typed_ast_printer.ml" 19 455 477
+type(
+  Format.formatter ->
+  (bool -> unit, Format.formatter, unit) format -> bool -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 19 455 478 "typed_ast_printer.ml" 19 455 481
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 17 388 404 "typed_ast_printer.ml" 17 388 407
+)
+"typed_ast_printer.ml" 19 455 482 "typed_ast_printer.ml" 19 455 486
+type(
+  (bool -> unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 19 455 487 "typed_ast_printer.ml" 19 455 488
+type(
+  bool
+)
+ident(
+  int_ref b "typed_ast_printer.ml" 19 455 465 "typed_ast_printer.ml" 19 455 466
+)
+"typed_ast_printer.ml" 19 455 470 "typed_ast_printer.ml" 19 455 488
+type(
+  unit
+)
+"typed_ast_printer.ml" 20 489 498 "typed_ast_printer.ml" 20 489 499
+type(
+  int
+)
+ident(
+  def i "typed_ast_printer.ml" 20 489 503 "typed_ast_printer.ml" 20 489 521
+)
+"typed_ast_printer.ml" 20 489 493 "typed_ast_printer.ml" 20 489 499
+type(
+  Asttypes.const
+)
+"typed_ast_printer.ml" 20 489 503 "typed_ast_printer.ml" 20 489 510
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 20 489 511 "typed_ast_printer.ml" 20 489 514
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 17 388 404 "typed_ast_printer.ml" 17 388 407
+)
+"typed_ast_printer.ml" 20 489 515 "typed_ast_printer.ml" 20 489 519
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 20 489 520 "typed_ast_printer.ml" 20 489 521
+type(
+  int
+)
+ident(
+  int_ref i "typed_ast_printer.ml" 20 489 498 "typed_ast_printer.ml" 20 489 499
+)
+"typed_ast_printer.ml" 20 489 503 "typed_ast_printer.ml" 20 489 521
+type(
+  unit
+)
+"typed_ast_printer.ml" 21 522 533 "typed_ast_printer.ml" 21 522 534
+type(
+  float
+)
+ident(
+  def f "typed_ast_printer.ml" 21 522 538 "typed_ast_printer.ml" 21 522 556
+)
+"typed_ast_printer.ml" 21 522 526 "typed_ast_printer.ml" 21 522 534
+type(
+  Asttypes.const
+)
+"typed_ast_printer.ml" 21 522 538 "typed_ast_printer.ml" 21 522 545
+type(
+  Format.formatter ->
+  (float -> unit, Format.formatter, unit) format -> float -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 21 522 546 "typed_ast_printer.ml" 21 522 549
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 17 388 404 "typed_ast_printer.ml" 17 388 407
+)
+"typed_ast_printer.ml" 21 522 550 "typed_ast_printer.ml" 21 522 554
+type(
+  (float -> unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 21 522 555 "typed_ast_printer.ml" 21 522 556
+type(
+  float
+)
+ident(
+  int_ref f "typed_ast_printer.ml" 21 522 533 "typed_ast_printer.ml" 21 522 534
+)
+"typed_ast_printer.ml" 21 522 538 "typed_ast_printer.ml" 21 522 556
+type(
+  unit
+)
+"typed_ast_printer.ml" 22 557 569 "typed_ast_printer.ml" 22 557 570
+type(
+  string
+)
+ident(
+  def s "typed_ast_printer.ml" 22 557 574 "typed_ast_printer.ml" 22 557 596
+)
+"typed_ast_printer.ml" 22 557 561 "typed_ast_printer.ml" 22 557 570
+type(
+  Asttypes.const
+)
+"typed_ast_printer.ml" 22 557 574 "typed_ast_printer.ml" 22 557 581
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 22 557 582 "typed_ast_printer.ml" 22 557 585
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 17 388 404 "typed_ast_printer.ml" 17 388 407
+)
+"typed_ast_printer.ml" 22 557 586 "typed_ast_printer.ml" 22 557 594
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 22 557 595 "typed_ast_printer.ml" 22 557 596
+type(
+  string
+)
+ident(
+  int_ref s "typed_ast_printer.ml" 22 557 569 "typed_ast_printer.ml" 22 557 570
+)
+"typed_ast_printer.ml" 22 557 574 "typed_ast_printer.ml" 22 557 596
+type(
+  unit
+)
+"typed_ast_printer.ml" 17 388 412 "typed_ast_printer.ml" 22 557 596
+type(
+  unit
+)
+"typed_ast_printer.ml" 24 598 602 "typed_ast_printer.ml" 24 598 612
+type(
+  Format.formatter -> Asttypes.unop -> unit
+)
+ident(
+  def print_unop "typed_ast_printer.ml" 29 728 728 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 24 598 613 "typed_ast_printer.ml" 24 598 616
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 24 598 617 "typed_ast_printer.ml" 27 694 726
+)
+"typed_ast_printer.ml" 24 598 617 "typed_ast_printer.ml" 24 598 619
+type(
+  Asttypes.unop
+)
+ident(
+  def op "typed_ast_printer.ml" 24 598 622 "typed_ast_printer.ml" 27 694 726
+)
+"typed_ast_printer.ml" 24 598 628 "typed_ast_printer.ml" 24 598 630
+type(
+  Asttypes.unop
+)
+ident(
+  int_ref op "typed_ast_printer.ml" 24 598 617 "typed_ast_printer.ml" 24 598 619
+)
+"typed_ast_printer.ml" 25 636 640 "typed_ast_printer.ml" 25 636 644
+type(
+  Asttypes.unop
+)
+"typed_ast_printer.ml" 25 636 648 "typed_ast_printer.ml" 25 636 655
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 25 636 656 "typed_ast_printer.ml" 25 636 659
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 24 598 613 "typed_ast_printer.ml" 24 598 616
+)
+"typed_ast_printer.ml" 25 636 660 "typed_ast_printer.ml" 25 636 663
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 25 636 648 "typed_ast_printer.ml" 25 636 663
+type(
+  unit
+)
+"typed_ast_printer.ml" 26 664 668 "typed_ast_printer.ml" 26 664 674
+type(
+  Asttypes.unop
+)
+"typed_ast_printer.ml" 26 664 678 "typed_ast_printer.ml" 26 664 685
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 26 664 686 "typed_ast_printer.ml" 26 664 689
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 24 598 613 "typed_ast_printer.ml" 24 598 616
+)
+"typed_ast_printer.ml" 26 664 690 "typed_ast_printer.ml" 26 664 693
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 26 664 678 "typed_ast_printer.ml" 26 664 693
+type(
+  unit
+)
+"typed_ast_printer.ml" 27 694 698 "typed_ast_printer.ml" 27 694 706
+type(
+  Asttypes.unop
+)
+"typed_ast_printer.ml" 27 694 710 "typed_ast_printer.ml" 27 694 717
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 27 694 718 "typed_ast_printer.ml" 27 694 721
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 24 598 613 "typed_ast_printer.ml" 24 598 616
+)
+"typed_ast_printer.ml" 27 694 722 "typed_ast_printer.ml" 27 694 726
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 27 694 710 "typed_ast_printer.ml" 27 694 726
+type(
+  unit
+)
+"typed_ast_printer.ml" 24 598 622 "typed_ast_printer.ml" 27 694 726
+type(
+  unit
+)
+"typed_ast_printer.ml" 29 728 732 "typed_ast_printer.ml" 29 728 743
+type(
+  Format.formatter -> Asttypes.binop -> unit
+)
+ident(
+  def print_binop "typed_ast_printer.ml" 48 1282 1282 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 29 728 748 "typed_ast_printer.ml" 46 1253 1280
+)
+"typed_ast_printer.ml" 29 728 748 "typed_ast_printer.ml" 29 728 750
+type(
+  Asttypes.binop
+)
+ident(
+  def op "typed_ast_printer.ml" 29 728 753 "typed_ast_printer.ml" 46 1253 1280
+)
+"typed_ast_printer.ml" 29 728 759 "typed_ast_printer.ml" 29 728 761
+type(
+  Asttypes.binop
+)
+ident(
+  int_ref op "typed_ast_printer.ml" 29 728 748 "typed_ast_printer.ml" 29 728 750
+)
+"typed_ast_printer.ml" 30 767 771 "typed_ast_printer.ml" 30 767 774
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 30 767 778 "typed_ast_printer.ml" 30 767 785
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 30 767 786 "typed_ast_printer.ml" 30 767 789
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 30 767 790 "typed_ast_printer.ml" 30 767 794
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 30 767 778 "typed_ast_printer.ml" 30 767 794
+type(
+  unit
+)
+"typed_ast_printer.ml" 31 795 799 "typed_ast_printer.ml" 31 795 803
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 31 795 807 "typed_ast_printer.ml" 31 795 814
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 31 795 815 "typed_ast_printer.ml" 31 795 818
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 31 795 819 "typed_ast_printer.ml" 31 795 824
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 31 795 807 "typed_ast_printer.ml" 31 795 824
+type(
+  unit
+)
+"typed_ast_printer.ml" 32 825 829 "typed_ast_printer.ml" 32 825 832
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 32 825 836 "typed_ast_printer.ml" 32 825 843
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 32 825 844 "typed_ast_printer.ml" 32 825 847
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 32 825 848 "typed_ast_printer.ml" 32 825 852
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 32 825 836 "typed_ast_printer.ml" 32 825 852
+type(
+  unit
+)
+"typed_ast_printer.ml" 33 853 857 "typed_ast_printer.ml" 33 853 860
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 33 853 864 "typed_ast_printer.ml" 33 853 871
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 33 853 872 "typed_ast_printer.ml" 33 853 875
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 33 853 876 "typed_ast_printer.ml" 33 853 880
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 33 853 864 "typed_ast_printer.ml" 33 853 880
+type(
+  unit
+)
+"typed_ast_printer.ml" 34 881 885 "typed_ast_printer.ml" 34 881 888
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 34 881 892 "typed_ast_printer.ml" 34 881 899
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 34 881 900 "typed_ast_printer.ml" 34 881 903
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 34 881 904 "typed_ast_printer.ml" 34 881 908
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 34 881 892 "typed_ast_printer.ml" 34 881 908
+type(
+  unit
+)
+"typed_ast_printer.ml" 35 909 913 "typed_ast_printer.ml" 35 909 916
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 35 909 920 "typed_ast_printer.ml" 35 909 927
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 35 909 928 "typed_ast_printer.ml" 35 909 931
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 35 909 932 "typed_ast_printer.ml" 35 909 936
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 35 909 920 "typed_ast_printer.ml" 35 909 936
+type(
+  unit
+)
+"typed_ast_printer.ml" 36 937 941 "typed_ast_printer.ml" 36 937 945
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 36 937 949 "typed_ast_printer.ml" 36 937 956
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 36 937 957 "typed_ast_printer.ml" 36 937 960
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 36 937 961 "typed_ast_printer.ml" 36 937 966
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 36 937 949 "typed_ast_printer.ml" 36 937 966
+type(
+  unit
+)
+"typed_ast_printer.ml" 37 967 971 "typed_ast_printer.ml" 37 967 975
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 37 967 979 "typed_ast_printer.ml" 37 967 986
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 37 967 987 "typed_ast_printer.ml" 37 967 990
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 37 967 991 "typed_ast_printer.ml" 37 967 996
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 37 967 979 "typed_ast_printer.ml" 37 967 996
+type(
+  unit
+)
+"typed_ast_printer.ml" 38 997 1001 "typed_ast_printer.ml" 38 997 1005
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 38 997 1009 "typed_ast_printer.ml" 38 997 1016
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 38 997 1017 "typed_ast_printer.ml" 38 997 1020
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 38 997 1021 "typed_ast_printer.ml" 38 997 1026
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 38 997 1009 "typed_ast_printer.ml" 38 997 1026
+type(
+  unit
+)
+"typed_ast_printer.ml" 39 1027 1031 "typed_ast_printer.ml" 39 1027 1035
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 39 1027 1039 "typed_ast_printer.ml" 39 1027 1046
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 39 1027 1047 "typed_ast_printer.ml" 39 1027 1050
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 39 1027 1051 "typed_ast_printer.ml" 39 1027 1056
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 39 1027 1039 "typed_ast_printer.ml" 39 1027 1056
+type(
+  unit
+)
+"typed_ast_printer.ml" 40 1057 1061 "typed_ast_printer.ml" 40 1057 1065
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 40 1057 1069 "typed_ast_printer.ml" 40 1057 1076
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 40 1057 1077 "typed_ast_printer.ml" 40 1057 1080
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 40 1057 1081 "typed_ast_printer.ml" 40 1057 1086
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 40 1057 1069 "typed_ast_printer.ml" 40 1057 1086
+type(
+  unit
+)
+"typed_ast_printer.ml" 41 1087 1091 "typed_ast_printer.ml" 41 1087 1097
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 41 1087 1101 "typed_ast_printer.ml" 41 1087 1108
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 41 1087 1109 "typed_ast_printer.ml" 41 1087 1112
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 41 1087 1113 "typed_ast_printer.ml" 41 1087 1120
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 41 1087 1101 "typed_ast_printer.ml" 41 1087 1120
+type(
+  unit
+)
+"typed_ast_printer.ml" 42 1121 1125 "typed_ast_printer.ml" 42 1121 1131
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 42 1121 1135 "typed_ast_printer.ml" 42 1121 1142
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 42 1121 1143 "typed_ast_printer.ml" 42 1121 1146
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 42 1121 1147 "typed_ast_printer.ml" 42 1121 1154
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 42 1121 1135 "typed_ast_printer.ml" 42 1121 1154
+type(
+  unit
+)
+"typed_ast_printer.ml" 43 1155 1159 "typed_ast_printer.ml" 43 1155 1165
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 43 1155 1169 "typed_ast_printer.ml" 43 1155 1176
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 43 1155 1177 "typed_ast_printer.ml" 43 1155 1180
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 43 1155 1181 "typed_ast_printer.ml" 43 1155 1188
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 43 1155 1169 "typed_ast_printer.ml" 43 1155 1188
+type(
+  unit
+)
+"typed_ast_printer.ml" 44 1189 1193 "typed_ast_printer.ml" 44 1189 1199
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 44 1189 1203 "typed_ast_printer.ml" 44 1189 1210
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 44 1189 1211 "typed_ast_printer.ml" 44 1189 1214
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 44 1189 1215 "typed_ast_printer.ml" 44 1189 1222
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 44 1189 1203 "typed_ast_printer.ml" 44 1189 1222
+type(
+  unit
+)
+"typed_ast_printer.ml" 45 1223 1227 "typed_ast_printer.ml" 45 1223 1231
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 45 1223 1235 "typed_ast_printer.ml" 45 1223 1242
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 45 1223 1243 "typed_ast_printer.ml" 45 1223 1246
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 45 1223 1247 "typed_ast_printer.ml" 45 1223 1252
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 45 1223 1235 "typed_ast_printer.ml" 45 1223 1252
+type(
+  unit
+)
+"typed_ast_printer.ml" 46 1253 1257 "typed_ast_printer.ml" 46 1253 1260
+type(
+  Asttypes.binop
+)
+"typed_ast_printer.ml" 46 1253 1264 "typed_ast_printer.ml" 46 1253 1271
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 46 1253 1272 "typed_ast_printer.ml" 46 1253 1275
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 29 728 744 "typed_ast_printer.ml" 29 728 747
+)
+"typed_ast_printer.ml" 46 1253 1276 "typed_ast_printer.ml" 46 1253 1280
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 46 1253 1264 "typed_ast_printer.ml" 46 1253 1280
+type(
+  unit
+)
+"typed_ast_printer.ml" 29 728 753 "typed_ast_printer.ml" 46 1253 1280
+type(
+  unit
+)
+"typed_ast_printer.ml" 48 1282 1286 "typed_ast_printer.ml" 48 1282 1296
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  def print_name "typed_ast_printer.ml" 50 1331 1331 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 48 1282 1297 "typed_ast_printer.ml" 48 1282 1300
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 48 1282 1301 "typed_ast_printer.ml" 48 1282 1329
+)
+"typed_ast_printer.ml" 48 1282 1301 "typed_ast_printer.ml" 48 1282 1305
+type(
+  string
+)
+ident(
+  def name "typed_ast_printer.ml" 48 1282 1308 "typed_ast_printer.ml" 48 1282 1329
+)
+"typed_ast_printer.ml" 48 1282 1308 "typed_ast_printer.ml" 48 1282 1315
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 48 1282 1316 "typed_ast_printer.ml" 48 1282 1319
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 48 1282 1297 "typed_ast_printer.ml" 48 1282 1300
+)
+"typed_ast_printer.ml" 48 1282 1320 "typed_ast_printer.ml" 48 1282 1324
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 48 1282 1325 "typed_ast_printer.ml" 48 1282 1329
+type(
+  string
+)
+ident(
+  int_ref name "typed_ast_printer.ml" 48 1282 1301 "typed_ast_printer.ml" 48 1282 1305
+)
+"typed_ast_printer.ml" 48 1282 1308 "typed_ast_printer.ml" 48 1282 1329
+type(
+  unit
+)
+"typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  def print_exp "typed_ast_printer.ml" 50 1331 1331 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 50 1331 1353 "typed_ast_printer.ml" 77 2351 2407
+)
+"typed_ast_printer.ml" 50 1331 1353 "typed_ast_printer.ml" 50 1331 1354
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e "typed_ast_printer.ml" 50 1331 1357 "typed_ast_printer.ml" 77 2351 2407
+)
+"typed_ast_printer.ml" 50 1331 1363 "typed_ast_printer.ml" 50 1331 1364
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e "typed_ast_printer.ml" 50 1331 1353 "typed_ast_printer.ml" 50 1331 1354
+)
+"typed_ast_printer.ml" 50 1331 1363 "typed_ast_printer.ml" 50 1331 1375
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 51 1381 1394 "typed_ast_printer.ml" 51 1381 1395
+type(
+  Asttypes.const
+)
+ident(
+  def c "typed_ast_printer.ml" 51 1381 1399 "typed_ast_printer.ml" 51 1381 1416
+)
+"typed_ast_printer.ml" 51 1381 1385 "typed_ast_printer.ml" 51 1381 1395
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 51 1381 1399 "typed_ast_printer.ml" 51 1381 1410
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  int_ref print_const "typed_ast_printer.ml" 17 388 392 "typed_ast_printer.ml" 17 388 403
+)
+"typed_ast_printer.ml" 51 1381 1411 "typed_ast_printer.ml" 51 1381 1414
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+)
+"typed_ast_printer.ml" 51 1381 1415 "typed_ast_printer.ml" 51 1381 1416
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "typed_ast_printer.ml" 51 1381 1394 "typed_ast_printer.ml" 51 1381 1395
+)
+"typed_ast_printer.ml" 51 1381 1399 "typed_ast_printer.ml" 51 1381 1416
+type(
+  unit
+)
+"typed_ast_printer.ml" 52 1417 1430 "typed_ast_printer.ml" 52 1417 1431
+type(
+  string
+)
+ident(
+  def s "typed_ast_printer.ml" 52 1417 1435 "typed_ast_printer.ml" 52 1417 1453
+)
+"typed_ast_printer.ml" 52 1417 1421 "typed_ast_printer.ml" 52 1417 1431
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 52 1417 1435 "typed_ast_printer.ml" 52 1417 1442
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 52 1417 1443 "typed_ast_printer.ml" 52 1417 1446
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+)
+"typed_ast_printer.ml" 52 1417 1447 "typed_ast_printer.ml" 52 1417 1451
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 52 1417 1452 "typed_ast_printer.ml" 52 1417 1453
+type(
+  string
+)
+ident(
+  int_ref s "typed_ast_printer.ml" 52 1417 1430 "typed_ast_printer.ml" 52 1417 1431
+)
+"typed_ast_printer.ml" 52 1417 1435 "typed_ast_printer.ml" 52 1417 1453
+type(
+  unit
+)
+"typed_ast_printer.ml" 53 1454 1467 "typed_ast_printer.ml" 53 1454 1469
+type(
+  Asttypes.unop
+)
+ident(
+  def op "typed_ast_printer.ml" 53 1454 1477 "typed_ast_printer.ml" 53 1454 1523
+)
+"typed_ast_printer.ml" 53 1454 1471 "typed_ast_printer.ml" 53 1454 1472
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e "typed_ast_printer.ml" 53 1454 1477 "typed_ast_printer.ml" 53 1454 1523
+)
+"typed_ast_printer.ml" 53 1454 1458 "typed_ast_printer.ml" 53 1454 1473
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 53 1454 1477 "typed_ast_printer.ml" 53 1454 1484
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.unop -> unit) ->
+   Asttypes.unop ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.unop -> unit) ->
+  Asttypes.unop ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 53 1454 1485 "typed_ast_printer.ml" 53 1454 1488
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+)
+"typed_ast_printer.ml" 53 1454 1489 "typed_ast_printer.ml" 53 1454 1497
+type(
+  ((Format.formatter -> Asttypes.unop -> unit) ->
+   Asttypes.unop ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 53 1454 1498 "typed_ast_printer.ml" 53 1454 1508
+type(
+  Format.formatter -> Asttypes.unop -> unit
+)
+ident(
+  int_ref print_unop "typed_ast_printer.ml" 24 598 602 "typed_ast_printer.ml" 24 598 612
+)
+"typed_ast_printer.ml" 53 1454 1509 "typed_ast_printer.ml" 53 1454 1511
+type(
+  Asttypes.unop
+)
+ident(
+  int_ref op "typed_ast_printer.ml" 53 1454 1467 "typed_ast_printer.ml" 53 1454 1469
+)
+"typed_ast_printer.ml" 53 1454 1512 "typed_ast_printer.ml" 53 1454 1521
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 53 1454 1522 "typed_ast_printer.ml" 53 1454 1523
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e "typed_ast_printer.ml" 53 1454 1471 "typed_ast_printer.ml" 53 1454 1472
+)
+"typed_ast_printer.ml" 53 1454 1477 "typed_ast_printer.ml" 53 1454 1523
+type(
+  unit
+)
+"typed_ast_printer.ml" 54 1524 1538 "typed_ast_printer.ml" 54 1524 1540
+type(
+  Asttypes.binop
+)
+ident(
+  def op "typed_ast_printer.ml" 55 1551 1557 "typed_ast_printer.ml" 55 1551 1625
+)
+"typed_ast_printer.ml" 54 1524 1542 "typed_ast_printer.ml" 54 1524 1543
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def l "typed_ast_printer.ml" 55 1551 1557 "typed_ast_printer.ml" 55 1551 1625
+)
+"typed_ast_printer.ml" 54 1524 1545 "typed_ast_printer.ml" 54 1524 1546
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def r "typed_ast_printer.ml" 55 1551 1557 "typed_ast_printer.ml" 55 1551 1625
+)
+"typed_ast_printer.ml" 54 1524 1528 "typed_ast_printer.ml" 54 1524 1547
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 55 1551 1557 "typed_ast_printer.ml" 55 1551 1564
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.binop -> unit) ->
+   Asttypes.binop ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.binop -> unit) ->
+  Asttypes.binop ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) ->
+  Typed_ast.t_expr ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 55 1551 1565 "typed_ast_printer.ml" 55 1551 1568
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+)
+"typed_ast_printer.ml" 55 1551 1569 "typed_ast_printer.ml" 55 1551 1586
+type(
+  ((Format.formatter -> Asttypes.binop -> unit) ->
+   Asttypes.binop ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 55 1551 1587 "typed_ast_printer.ml" 55 1551 1598
+type(
+  Format.formatter -> Asttypes.binop -> unit
+)
+ident(
+  int_ref print_binop "typed_ast_printer.ml" 29 728 732 "typed_ast_printer.ml" 29 728 743
+)
+"typed_ast_printer.ml" 55 1551 1599 "typed_ast_printer.ml" 55 1551 1601
+type(
+  Asttypes.binop
+)
+ident(
+  int_ref op "typed_ast_printer.ml" 54 1524 1538 "typed_ast_printer.ml" 54 1524 1540
+)
+"typed_ast_printer.ml" 55 1551 1602 "typed_ast_printer.ml" 55 1551 1611
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 55 1551 1612 "typed_ast_printer.ml" 55 1551 1613
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref l "typed_ast_printer.ml" 54 1524 1542 "typed_ast_printer.ml" 54 1524 1543
+)
+"typed_ast_printer.ml" 55 1551 1614 "typed_ast_printer.ml" 55 1551 1623
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 55 1551 1624 "typed_ast_printer.ml" 55 1551 1625
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref r "typed_ast_printer.ml" 54 1524 1545 "typed_ast_printer.ml" 54 1524 1546
+)
+"typed_ast_printer.ml" 55 1551 1557 "typed_ast_printer.ml" 55 1551 1625
+type(
+  unit
+)
+"typed_ast_printer.ml" 56 1626 1638 "typed_ast_printer.ml" 56 1626 1642
+type(
+  string
+)
+ident(
+  def name "typed_ast_printer.ml" 57 1680 1686 "typed_ast_printer.ml" 57 1680 1748
+)
+"typed_ast_printer.ml" 56 1626 1644 "typed_ast_printer.ml" 56 1626 1650
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  def e_list "typed_ast_printer.ml" 57 1680 1686 "typed_ast_printer.ml" 57 1680 1748
+)
+"typed_ast_printer.ml" 56 1626 1630 "typed_ast_printer.ml" 56 1626 1651
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 56 1626 1663 "typed_ast_printer.ml" 56 1626 1667
+type(
+  string
+)
+ident(
+  def name "typed_ast_printer.ml" 57 1680 1686 "typed_ast_printer.ml" 57 1680 1748
+)
+"typed_ast_printer.ml" 56 1626 1669 "typed_ast_printer.ml" 56 1626 1675
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  def e_list "typed_ast_printer.ml" 57 1680 1686 "typed_ast_printer.ml" 57 1680 1748
+)
+"typed_ast_printer.ml" 56 1626 1654 "typed_ast_printer.ml" 56 1626 1676
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 56 1626 1630 "typed_ast_printer.ml" 56 1626 1676
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 57 1680 1686 "typed_ast_printer.ml" 57 1680 1693
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Typed_ast.t_expr list -> unit) ->
+   Typed_ast.t_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> Typed_ast.t_expr list -> unit) ->
+  Typed_ast.t_expr list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 57 1680 1694 "typed_ast_printer.ml" 57 1680 1697
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+)
+"typed_ast_printer.ml" 57 1680 1698 "typed_ast_printer.ml" 57 1680 1710
+type(
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Typed_ast.t_expr list -> unit) ->
+   Typed_ast.t_expr list -> unit, Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 57 1680 1711 "typed_ast_printer.ml" 57 1680 1721
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref print_name "typed_ast_printer.ml" 48 1282 1286 "typed_ast_printer.ml" 48 1282 1296
+)
+"typed_ast_printer.ml" 57 1680 1722 "typed_ast_printer.ml" 57 1680 1726
+type(
+  string
+)
+ident(
+  int_ref name "typed_ast_printer.ml" 56 1626 1638 "typed_ast_printer.ml" 56 1626 1642
+)
+"typed_ast_printer.ml" 57 1680 1727 "typed_ast_printer.ml" 57 1680 1741
+type(
+  Format.formatter -> Typed_ast.t_expr list -> unit
+)
+ident(
+  int_ref print_arg_list "typed_ast_printer.ml" 79 2409 2413 "typed_ast_printer.ml" 79 2409 2427
+)
+"typed_ast_printer.ml" 57 1680 1742 "typed_ast_printer.ml" 57 1680 1748
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  int_ref e_list "typed_ast_printer.ml" 56 1626 1644 "typed_ast_printer.ml" 56 1626 1650
+)
+"typed_ast_printer.ml" 57 1680 1686 "typed_ast_printer.ml" 57 1680 1748
+type(
+  unit
+)
+"typed_ast_printer.ml" 58 1749 1760 "typed_ast_printer.ml" 58 1749 1764
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def cond "typed_ast_printer.ml" 59 1781 1787 "typed_ast_printer.ml" 62 1875 1897
+)
+"typed_ast_printer.ml" 58 1749 1766 "typed_ast_printer.ml" 58 1749 1770
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def cons "typed_ast_printer.ml" 59 1781 1787 "typed_ast_printer.ml" 62 1875 1897
+)
+"typed_ast_printer.ml" 58 1749 1772 "typed_ast_printer.ml" 58 1749 1776
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def altr "typed_ast_printer.ml" 59 1781 1787 "typed_ast_printer.ml" 62 1875 1897
+)
+"typed_ast_printer.ml" 58 1749 1753 "typed_ast_printer.ml" 58 1749 1777
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 59 1781 1787 "typed_ast_printer.ml" 59 1781 1794
+type(
+  Format.formatter ->
+  ((Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) ->
+  Typed_ast.t_expr ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) ->
+  Typed_ast.t_expr ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 59 1781 1795 "typed_ast_printer.ml" 59 1781 1798
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+)
+"typed_ast_printer.ml" 59 1781 1799 "typed_ast_printer.ml" 59 1781 1828
+type(
+  ((Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 60 1829 1837 "typed_ast_printer.ml" 60 1829 1846
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 60 1829 1847 "typed_ast_printer.ml" 60 1829 1851
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref cond "typed_ast_printer.ml" 58 1749 1760 "typed_ast_printer.ml" 58 1749 1764
+)
+"typed_ast_printer.ml" 61 1852 1860 "typed_ast_printer.ml" 61 1852 1869
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 61 1852 1870 "typed_ast_printer.ml" 61 1852 1874
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref cons "typed_ast_printer.ml" 58 1749 1766 "typed_ast_printer.ml" 58 1749 1770
+)
+"typed_ast_printer.ml" 62 1875 1883 "typed_ast_printer.ml" 62 1875 1892
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 62 1875 1893 "typed_ast_printer.ml" 62 1875 1897
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref altr "typed_ast_printer.ml" 58 1749 1772 "typed_ast_printer.ml" 58 1749 1776
+)
+"typed_ast_printer.ml" 59 1781 1787 "typed_ast_printer.ml" 62 1875 1897
+type(
+  unit
+)
+"typed_ast_printer.ml" 63 1898 1911 "typed_ast_printer.ml" 63 1898 1913
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e1 "typed_ast_printer.ml" 64 1928 1934 "typed_ast_printer.ml" 67 2014 2034
+)
+"typed_ast_printer.ml" 63 1898 1915 "typed_ast_printer.ml" 63 1898 1919
+type(
+  Asttypes.const
+)
+ident(
+  def cons "typed_ast_printer.ml" 64 1928 1934 "typed_ast_printer.ml" 67 2014 2034
+)
+"typed_ast_printer.ml" 63 1898 1921 "typed_ast_printer.ml" 63 1898 1923
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e2 "typed_ast_printer.ml" 64 1928 1934 "typed_ast_printer.ml" 67 2014 2034
+)
+"typed_ast_printer.ml" 63 1898 1902 "typed_ast_printer.ml" 63 1898 1924
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 64 1928 1934 "typed_ast_printer.ml" 64 1928 1941
+type(
+  Format.formatter ->
+  ((Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) ->
+  Typed_ast.t_expr ->
+  (Format.formatter -> Asttypes.const -> unit) ->
+  Asttypes.const ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 64 1928 1942 "typed_ast_printer.ml" 64 1928 1945
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+)
+"typed_ast_printer.ml" 64 1928 1946 "typed_ast_printer.ml" 64 1928 1967
+type(
+  ((Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 65 1968 1976 "typed_ast_printer.ml" 65 1968 1985
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 65 1968 1986 "typed_ast_printer.ml" 65 1968 1988
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e1 "typed_ast_printer.ml" 63 1898 1911 "typed_ast_printer.ml" 63 1898 1913
+)
+"typed_ast_printer.ml" 66 1989 1997 "typed_ast_printer.ml" 66 1989 2008
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  int_ref print_const "typed_ast_printer.ml" 17 388 392 "typed_ast_printer.ml" 17 388 403
+)
+"typed_ast_printer.ml" 66 1989 2009 "typed_ast_printer.ml" 66 1989 2013
+type(
+  Asttypes.const
+)
+ident(
+  int_ref cons "typed_ast_printer.ml" 63 1898 1915 "typed_ast_printer.ml" 63 1898 1919
+)
+"typed_ast_printer.ml" 67 2014 2022 "typed_ast_printer.ml" 67 2014 2031
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 67 2014 2032 "typed_ast_printer.ml" 67 2014 2034
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e2 "typed_ast_printer.ml" 63 1898 1921 "typed_ast_printer.ml" 63 1898 1923
+)
+"typed_ast_printer.ml" 64 1928 1934 "typed_ast_printer.ml" 67 2014 2034
+type(
+  unit
+)
+"typed_ast_printer.ml" 68 2035 2049 "typed_ast_printer.ml" 68 2035 2050
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e "typed_ast_printer.ml" 69 2065 2071 "typed_ast_printer.ml" 71 2120 2156
+)
+"typed_ast_printer.ml" 68 2035 2052 "typed_ast_printer.ml" 68 2035 2060
+type(
+  (Asttypes.const * Typed_ast.t_expr) list
+)
+ident(
+  def c_e_list "typed_ast_printer.ml" 69 2065 2071 "typed_ast_printer.ml" 71 2120 2156
+)
+"typed_ast_printer.ml" 68 2035 2039 "typed_ast_printer.ml" 68 2035 2061
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 69 2065 2071 "typed_ast_printer.ml" 69 2065 2078
+type(
+  Format.formatter ->
+  ((Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> (Asttypes.const * Typed_ast.t_expr) list -> unit) ->
+   (Asttypes.const * Typed_ast.t_expr) list -> unit, Format.formatter, 
+   unit)
+  format ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) ->
+  Typed_ast.t_expr ->
+  (Format.formatter -> (Asttypes.const * Typed_ast.t_expr) list -> unit) ->
+  (Asttypes.const * Typed_ast.t_expr) list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 69 2065 2079 "typed_ast_printer.ml" 69 2065 2082
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+)
+"typed_ast_printer.ml" 69 2065 2083 "typed_ast_printer.ml" 69 2065 2100
+type(
+  ((Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> (Asttypes.const * Typed_ast.t_expr) list -> unit) ->
+   (Asttypes.const * Typed_ast.t_expr) list -> unit, Format.formatter, 
+   unit)
+  format
+)
+"typed_ast_printer.ml" 70 2102 2108 "typed_ast_printer.ml" 70 2102 2117
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 70 2102 2118 "typed_ast_printer.ml" 70 2102 2119
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e "typed_ast_printer.ml" 68 2035 2049 "typed_ast_printer.ml" 68 2035 2050
+)
+"typed_ast_printer.ml" 71 2120 2126 "typed_ast_printer.ml" 71 2120 2147
+type(
+  Format.formatter -> (Asttypes.const * Typed_ast.t_expr) list -> unit
+)
+ident(
+  int_ref print_const_expr_list "typed_ast_printer.ml" 94 2950 2954 "typed_ast_printer.ml" 94 2950 2975
+)
+"typed_ast_printer.ml" 71 2120 2148 "typed_ast_printer.ml" 71 2120 2156
+type(
+  (Asttypes.const * Typed_ast.t_expr) list
+)
+ident(
+  int_ref c_e_list "typed_ast_printer.ml" 68 2035 2052 "typed_ast_printer.ml" 68 2035 2060
+)
+"typed_ast_printer.ml" 69 2065 2071 "typed_ast_printer.ml" 71 2120 2156
+type(
+  unit
+)
+"typed_ast_printer.ml" 72 2157 2169 "typed_ast_printer.ml" 72 2157 2170
+type(
+  Asttypes.const list
+)
+ident(
+  def l "typed_ast_printer.ml" 73 2178 2184 "typed_ast_printer.ml" 73 2178 2247
+)
+"typed_ast_printer.ml" 72 2157 2172 "typed_ast_printer.ml" 72 2157 2173
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def r "typed_ast_printer.ml" 73 2178 2184 "typed_ast_printer.ml" 73 2178 2247
+)
+"typed_ast_printer.ml" 72 2157 2161 "typed_ast_printer.ml" 72 2157 2174
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 73 2178 2184 "typed_ast_printer.ml" 73 2178 2191
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.const list -> unit) ->
+  Asttypes.const list ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 73 2178 2192 "typed_ast_printer.ml" 73 2178 2195
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+)
+"typed_ast_printer.ml" 73 2178 2196 "typed_ast_printer.ml" 73 2178 2217
+type(
+  ((Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 73 2178 2218 "typed_ast_printer.ml" 73 2178 2233
+type(
+  Format.formatter -> Asttypes.const list -> unit
+)
+ident(
+  int_ref print_const_exp "typed_ast_printer.ml" 89 2763 2767 "typed_ast_printer.ml" 89 2763 2782
+)
+"typed_ast_printer.ml" 73 2178 2234 "typed_ast_printer.ml" 73 2178 2235
+type(
+  Asttypes.const list
+)
+ident(
+  int_ref l "typed_ast_printer.ml" 72 2157 2169 "typed_ast_printer.ml" 72 2157 2170
+)
+"typed_ast_printer.ml" 73 2178 2236 "typed_ast_printer.ml" 73 2178 2245
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 73 2178 2246 "typed_ast_printer.ml" 73 2178 2247
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref r "typed_ast_printer.ml" 72 2157 2172 "typed_ast_printer.ml" 72 2157 2173
+)
+"typed_ast_printer.ml" 73 2178 2184 "typed_ast_printer.ml" 73 2178 2247
+type(
+  unit
+)
+"typed_ast_printer.ml" 74 2248 2261 "typed_ast_printer.ml" 74 2248 2267
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  def e_list "typed_ast_printer.ml" 75 2271 2277 "typed_ast_printer.ml" 75 2271 2327
+)
+"typed_ast_printer.ml" 74 2248 2252 "typed_ast_printer.ml" 74 2248 2267
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 75 2271 2277 "typed_ast_printer.ml" 75 2271 2284
+type(
+  Format.formatter ->
+  ((Format.formatter -> Typed_ast.t_expr list -> unit) ->
+   Typed_ast.t_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Typed_ast.t_expr list -> unit) ->
+  Typed_ast.t_expr list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 75 2271 2285 "typed_ast_printer.ml" 75 2271 2288
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+)
+"typed_ast_printer.ml" 75 2271 2289 "typed_ast_printer.ml" 75 2271 2299
+type(
+  ((Format.formatter -> Typed_ast.t_expr list -> unit) ->
+   Typed_ast.t_expr list -> unit, Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 75 2271 2300 "typed_ast_printer.ml" 75 2271 2320
+type(
+  Format.formatter -> Typed_ast.t_expr list -> unit
+)
+ident(
+  int_ref print_tuple_arg_list "typed_ast_printer.ml" 84 2578 2582 "typed_ast_printer.ml" 84 2578 2602
+)
+"typed_ast_printer.ml" 75 2271 2321 "typed_ast_printer.ml" 75 2271 2327
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  int_ref e_list "typed_ast_printer.ml" 74 2248 2261 "typed_ast_printer.ml" 74 2248 2267
+)
+"typed_ast_printer.ml" 75 2271 2277 "typed_ast_printer.ml" 75 2271 2327
+type(
+  unit
+)
+"typed_ast_printer.ml" 76 2328 2341 "typed_ast_printer.ml" 76 2328 2347
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  def e_list "typed_ast_printer.ml" 77 2351 2357 "typed_ast_printer.ml" 77 2351 2407
+)
+"typed_ast_printer.ml" 76 2328 2332 "typed_ast_printer.ml" 76 2328 2347
+type(
+  Typed_ast.t_expr_desc
+)
+"typed_ast_printer.ml" 77 2351 2357 "typed_ast_printer.ml" 77 2351 2364
+type(
+  Format.formatter ->
+  ((Format.formatter -> Typed_ast.t_expr list -> unit) ->
+   Typed_ast.t_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Typed_ast.t_expr list -> unit) ->
+  Typed_ast.t_expr list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 77 2351 2365 "typed_ast_printer.ml" 77 2351 2368
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 50 1331 1349 "typed_ast_printer.ml" 50 1331 1352
+)
+"typed_ast_printer.ml" 77 2351 2369 "typed_ast_printer.ml" 77 2351 2385
+type(
+  ((Format.formatter -> Typed_ast.t_expr list -> unit) ->
+   Typed_ast.t_expr list -> unit, Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 77 2351 2386 "typed_ast_printer.ml" 77 2351 2400
+type(
+  Format.formatter -> Typed_ast.t_expr list -> unit
+)
+ident(
+  int_ref print_arg_list "typed_ast_printer.ml" 79 2409 2413 "typed_ast_printer.ml" 79 2409 2427
+)
+"typed_ast_printer.ml" 77 2351 2401 "typed_ast_printer.ml" 77 2351 2407
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  int_ref e_list "typed_ast_printer.ml" 76 2328 2341 "typed_ast_printer.ml" 76 2328 2347
+)
+"typed_ast_printer.ml" 77 2351 2357 "typed_ast_printer.ml" 77 2351 2407
+type(
+  unit
+)
+"typed_ast_printer.ml" 50 1331 1357 "typed_ast_printer.ml" 77 2351 2407
+type(
+  unit
+)
+"typed_ast_printer.ml" 79 2409 2413 "typed_ast_printer.ml" 79 2409 2427
+type(
+  Format.formatter -> Typed_ast.t_expr list -> unit
+)
+ident(
+  def print_arg_list "typed_ast_printer.ml" 50 1331 1331 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 79 2409 2428 "typed_ast_printer.ml" 79 2409 2431
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 79 2409 2432 "typed_ast_printer.ml" 82 2512 2576
+)
+"typed_ast_printer.ml" 79 2409 2432 "typed_ast_printer.ml" 79 2409 2438
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  def e_list "typed_ast_printer.ml" 79 2409 2441 "typed_ast_printer.ml" 82 2512 2576
+)
+"typed_ast_printer.ml" 79 2409 2447 "typed_ast_printer.ml" 79 2409 2453
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  int_ref e_list "typed_ast_printer.ml" 79 2409 2432 "typed_ast_printer.ml" 79 2409 2438
+)
+"typed_ast_printer.ml" 80 2459 2463 "typed_ast_printer.ml" 80 2459 2465
+type(
+  Typed_ast.t_expr list
+)
+"typed_ast_printer.ml" 80 2459 2469 "typed_ast_printer.ml" 80 2459 2471
+type(
+  unit
+)
+"typed_ast_printer.ml" 81 2472 2477 "typed_ast_printer.ml" 81 2472 2478
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def x "typed_ast_printer.ml" 81 2472 2483 "typed_ast_printer.ml" 81 2472 2511
+)
+"typed_ast_printer.ml" 81 2472 2476 "typed_ast_printer.ml" 81 2472 2479
+type(
+  Typed_ast.t_expr list
+)
+"typed_ast_printer.ml" 81 2472 2483 "typed_ast_printer.ml" 81 2472 2490
+type(
+  Format.formatter ->
+  ((Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 81 2472 2491 "typed_ast_printer.ml" 81 2472 2494
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 79 2409 2428 "typed_ast_printer.ml" 79 2409 2431
+)
+"typed_ast_printer.ml" 81 2472 2495 "typed_ast_printer.ml" 81 2472 2499
+type(
+  ((Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 81 2472 2500 "typed_ast_printer.ml" 81 2472 2509
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 81 2472 2510 "typed_ast_printer.ml" 81 2472 2511
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref x "typed_ast_printer.ml" 81 2472 2477 "typed_ast_printer.ml" 81 2472 2478
+)
+"typed_ast_printer.ml" 81 2472 2483 "typed_ast_printer.ml" 81 2472 2511
+type(
+  unit
+)
+"typed_ast_printer.ml" 82 2512 2516 "typed_ast_printer.ml" 82 2512 2517
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def h "typed_ast_printer.ml" 82 2512 2526 "typed_ast_printer.ml" 82 2512 2576
+)
+"typed_ast_printer.ml" 82 2512 2521 "typed_ast_printer.ml" 82 2512 2522
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  def t "typed_ast_printer.ml" 82 2512 2526 "typed_ast_printer.ml" 82 2512 2576
+)
+"typed_ast_printer.ml" 82 2512 2516 "typed_ast_printer.ml" 82 2512 2522
+type(
+  Typed_ast.t_expr list
+)
+"typed_ast_printer.ml" 82 2512 2526 "typed_ast_printer.ml" 82 2512 2533
+type(
+  Format.formatter ->
+  ((Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Typed_ast.t_expr list -> unit) ->
+   Typed_ast.t_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) ->
+  Typed_ast.t_expr ->
+  (Format.formatter -> Typed_ast.t_expr list -> unit) ->
+  Typed_ast.t_expr list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 82 2512 2534 "typed_ast_printer.ml" 82 2512 2537
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 79 2409 2428 "typed_ast_printer.ml" 79 2409 2431
+)
+"typed_ast_printer.ml" 82 2512 2538 "typed_ast_printer.ml" 82 2512 2547
+type(
+  ((Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Typed_ast.t_expr list -> unit) ->
+   Typed_ast.t_expr list -> unit, Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 82 2512 2548 "typed_ast_printer.ml" 82 2512 2557
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 82 2512 2558 "typed_ast_printer.ml" 82 2512 2559
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref h "typed_ast_printer.ml" 82 2512 2516 "typed_ast_printer.ml" 82 2512 2517
+)
+"typed_ast_printer.ml" 82 2512 2560 "typed_ast_printer.ml" 82 2512 2574
+type(
+  Format.formatter -> Typed_ast.t_expr list -> unit
+)
+ident(
+  int_ref print_arg_list "typed_ast_printer.ml" 79 2409 2413 "typed_ast_printer.ml" 79 2409 2427
+)
+"typed_ast_printer.ml" 82 2512 2575 "typed_ast_printer.ml" 82 2512 2576
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  int_ref t "typed_ast_printer.ml" 82 2512 2521 "typed_ast_printer.ml" 82 2512 2522
+)
+"typed_ast_printer.ml" 82 2512 2526 "typed_ast_printer.ml" 82 2512 2576
+type(
+  unit
+)
+"typed_ast_printer.ml" 79 2409 2441 "typed_ast_printer.ml" 82 2512 2576
+type(
+  unit
+)
+"typed_ast_printer.ml" 84 2578 2582 "typed_ast_printer.ml" 84 2578 2602
+type(
+  Format.formatter -> Typed_ast.t_expr list -> unit
+)
+ident(
+  def print_tuple_arg_list "typed_ast_printer.ml" 50 1331 1331 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 84 2578 2603 "typed_ast_printer.ml" 84 2578 2606
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 84 2578 2607 "typed_ast_printer.ml" 87 2697 2761
+)
+"typed_ast_printer.ml" 84 2578 2607 "typed_ast_printer.ml" 84 2578 2613
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  def e_list "typed_ast_printer.ml" 84 2578 2616 "typed_ast_printer.ml" 87 2697 2761
+)
+"typed_ast_printer.ml" 84 2578 2622 "typed_ast_printer.ml" 84 2578 2628
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  int_ref e_list "typed_ast_printer.ml" 84 2578 2607 "typed_ast_printer.ml" 84 2578 2613
+)
+"typed_ast_printer.ml" 85 2634 2638 "typed_ast_printer.ml" 85 2634 2640
+type(
+  Typed_ast.t_expr list
+)
+"typed_ast_printer.ml" 85 2634 2651 "typed_ast_printer.ml" 85 2634 2656
+type(
+  bool
+)
+"typed_ast_printer.ml" 85 2634 2644 "typed_ast_printer.ml" 85 2634 2656
+type(
+  unit
+)
+"typed_ast_printer.ml" 86 2657 2662 "typed_ast_printer.ml" 86 2657 2663
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def x "typed_ast_printer.ml" 86 2657 2668 "typed_ast_printer.ml" 86 2657 2696
+)
+"typed_ast_printer.ml" 86 2657 2661 "typed_ast_printer.ml" 86 2657 2664
+type(
+  Typed_ast.t_expr list
+)
+"typed_ast_printer.ml" 86 2657 2668 "typed_ast_printer.ml" 86 2657 2675
+type(
+  Format.formatter ->
+  ((Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 86 2657 2676 "typed_ast_printer.ml" 86 2657 2679
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 84 2578 2603 "typed_ast_printer.ml" 84 2578 2606
+)
+"typed_ast_printer.ml" 86 2657 2680 "typed_ast_printer.ml" 86 2657 2684
+type(
+  ((Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 86 2657 2685 "typed_ast_printer.ml" 86 2657 2694
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 86 2657 2695 "typed_ast_printer.ml" 86 2657 2696
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref x "typed_ast_printer.ml" 86 2657 2662 "typed_ast_printer.ml" 86 2657 2663
+)
+"typed_ast_printer.ml" 86 2657 2668 "typed_ast_printer.ml" 86 2657 2696
+type(
+  unit
+)
+"typed_ast_printer.ml" 87 2697 2701 "typed_ast_printer.ml" 87 2697 2702
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def h "typed_ast_printer.ml" 87 2697 2711 "typed_ast_printer.ml" 87 2697 2761
+)
+"typed_ast_printer.ml" 87 2697 2706 "typed_ast_printer.ml" 87 2697 2707
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  def t "typed_ast_printer.ml" 87 2697 2711 "typed_ast_printer.ml" 87 2697 2761
+)
+"typed_ast_printer.ml" 87 2697 2701 "typed_ast_printer.ml" 87 2697 2707
+type(
+  Typed_ast.t_expr list
+)
+"typed_ast_printer.ml" 87 2697 2711 "typed_ast_printer.ml" 87 2697 2718
+type(
+  Format.formatter ->
+  ((Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Typed_ast.t_expr list -> unit) ->
+   Typed_ast.t_expr list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) ->
+  Typed_ast.t_expr ->
+  (Format.formatter -> Typed_ast.t_expr list -> unit) ->
+  Typed_ast.t_expr list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 87 2697 2719 "typed_ast_printer.ml" 87 2697 2722
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 84 2578 2603 "typed_ast_printer.ml" 84 2578 2606
+)
+"typed_ast_printer.ml" 87 2697 2723 "typed_ast_printer.ml" 87 2697 2732
+type(
+  ((Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> Typed_ast.t_expr list -> unit) ->
+   Typed_ast.t_expr list -> unit, Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 87 2697 2733 "typed_ast_printer.ml" 87 2697 2742
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 87 2697 2743 "typed_ast_printer.ml" 87 2697 2744
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref h "typed_ast_printer.ml" 87 2697 2701 "typed_ast_printer.ml" 87 2697 2702
+)
+"typed_ast_printer.ml" 87 2697 2745 "typed_ast_printer.ml" 87 2697 2759
+type(
+  Format.formatter -> Typed_ast.t_expr list -> unit
+)
+ident(
+  int_ref print_arg_list "typed_ast_printer.ml" 79 2409 2413 "typed_ast_printer.ml" 79 2409 2427
+)
+"typed_ast_printer.ml" 87 2697 2760 "typed_ast_printer.ml" 87 2697 2761
+type(
+  Typed_ast.t_expr list
+)
+ident(
+  int_ref t "typed_ast_printer.ml" 87 2697 2706 "typed_ast_printer.ml" 87 2697 2707
+)
+"typed_ast_printer.ml" 87 2697 2711 "typed_ast_printer.ml" 87 2697 2761
+type(
+  unit
+)
+"typed_ast_printer.ml" 84 2578 2616 "typed_ast_printer.ml" 87 2697 2761
+type(
+  unit
+)
+"typed_ast_printer.ml" 89 2763 2767 "typed_ast_printer.ml" 89 2763 2782
+type(
+  Format.formatter -> Asttypes.const list -> unit
+)
+ident(
+  def print_const_exp "typed_ast_printer.ml" 50 1331 1331 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 89 2763 2783 "typed_ast_printer.ml" 89 2763 2786
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 89 2763 2787 "typed_ast_printer.ml" 92 2881 2948
+)
+"typed_ast_printer.ml" 89 2763 2787 "typed_ast_printer.ml" 89 2763 2794
+type(
+  Asttypes.const list
+)
+ident(
+  def ce_list "typed_ast_printer.ml" 89 2763 2797 "typed_ast_printer.ml" 92 2881 2948
+)
+"typed_ast_printer.ml" 89 2763 2803 "typed_ast_printer.ml" 89 2763 2810
+type(
+  Asttypes.const list
+)
+ident(
+  int_ref ce_list "typed_ast_printer.ml" 89 2763 2787 "typed_ast_printer.ml" 89 2763 2794
+)
+"typed_ast_printer.ml" 90 2816 2820 "typed_ast_printer.ml" 90 2816 2822
+type(
+  Asttypes.const list
+)
+"typed_ast_printer.ml" 90 2816 2833 "typed_ast_printer.ml" 90 2816 2838
+type(
+  bool
+)
+"typed_ast_printer.ml" 90 2816 2826 "typed_ast_printer.ml" 90 2816 2838
+type(
+  unit
+)
+"typed_ast_printer.ml" 91 2839 2844 "typed_ast_printer.ml" 91 2839 2845
+type(
+  Asttypes.const
+)
+ident(
+  def c "typed_ast_printer.ml" 91 2839 2850 "typed_ast_printer.ml" 91 2839 2880
+)
+"typed_ast_printer.ml" 91 2839 2843 "typed_ast_printer.ml" 91 2839 2846
+type(
+  Asttypes.const list
+)
+"typed_ast_printer.ml" 91 2839 2850 "typed_ast_printer.ml" 91 2839 2857
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.const -> unit) -> Asttypes.const -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.const -> unit) -> Asttypes.const -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 91 2839 2858 "typed_ast_printer.ml" 91 2839 2861
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 89 2763 2783 "typed_ast_printer.ml" 89 2763 2786
+)
+"typed_ast_printer.ml" 91 2839 2862 "typed_ast_printer.ml" 91 2839 2866
+type(
+  ((Format.formatter -> Asttypes.const -> unit) -> Asttypes.const -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 91 2839 2867 "typed_ast_printer.ml" 91 2839 2878
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  int_ref print_const "typed_ast_printer.ml" 17 388 392 "typed_ast_printer.ml" 17 388 403
+)
+"typed_ast_printer.ml" 91 2839 2879 "typed_ast_printer.ml" 91 2839 2880
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "typed_ast_printer.ml" 91 2839 2844 "typed_ast_printer.ml" 91 2839 2845
+)
+"typed_ast_printer.ml" 91 2839 2850 "typed_ast_printer.ml" 91 2839 2880
+type(
+  unit
+)
+"typed_ast_printer.ml" 92 2881 2885 "typed_ast_printer.ml" 92 2881 2886
+type(
+  Asttypes.const
+)
+ident(
+  def h "typed_ast_printer.ml" 92 2881 2895 "typed_ast_printer.ml" 92 2881 2948
+)
+"typed_ast_printer.ml" 92 2881 2890 "typed_ast_printer.ml" 92 2881 2891
+type(
+  Asttypes.const list
+)
+ident(
+  def t "typed_ast_printer.ml" 92 2881 2895 "typed_ast_printer.ml" 92 2881 2948
+)
+"typed_ast_printer.ml" 92 2881 2885 "typed_ast_printer.ml" 92 2881 2891
+type(
+  Asttypes.const list
+)
+"typed_ast_printer.ml" 92 2881 2895 "typed_ast_printer.ml" 92 2881 2902
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.const -> unit) ->
+  Asttypes.const ->
+  (Format.formatter -> Asttypes.const list -> unit) ->
+  Asttypes.const list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 92 2881 2903 "typed_ast_printer.ml" 92 2881 2906
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 89 2763 2783 "typed_ast_printer.ml" 89 2763 2786
+)
+"typed_ast_printer.ml" 92 2881 2907 "typed_ast_printer.ml" 92 2881 2916
+type(
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Asttypes.const list -> unit) ->
+   Asttypes.const list -> unit, Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 92 2881 2917 "typed_ast_printer.ml" 92 2881 2928
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  int_ref print_const "typed_ast_printer.ml" 17 388 392 "typed_ast_printer.ml" 17 388 403
+)
+"typed_ast_printer.ml" 92 2881 2929 "typed_ast_printer.ml" 92 2881 2930
+type(
+  Asttypes.const
+)
+ident(
+  int_ref h "typed_ast_printer.ml" 92 2881 2885 "typed_ast_printer.ml" 92 2881 2886
+)
+"typed_ast_printer.ml" 92 2881 2931 "typed_ast_printer.ml" 92 2881 2946
+type(
+  Format.formatter -> Asttypes.const list -> unit
+)
+ident(
+  int_ref print_const_exp "typed_ast_printer.ml" 89 2763 2767 "typed_ast_printer.ml" 89 2763 2782
+)
+"typed_ast_printer.ml" 92 2881 2947 "typed_ast_printer.ml" 92 2881 2948
+type(
+  Asttypes.const list
+)
+ident(
+  int_ref t "typed_ast_printer.ml" 92 2881 2890 "typed_ast_printer.ml" 92 2881 2891
+)
+"typed_ast_printer.ml" 92 2881 2895 "typed_ast_printer.ml" 92 2881 2948
+type(
+  unit
+)
+"typed_ast_printer.ml" 89 2763 2797 "typed_ast_printer.ml" 92 2881 2948
+type(
+  unit
+)
+"typed_ast_printer.ml" 94 2950 2954 "typed_ast_printer.ml" 94 2950 2975
+type(
+  Format.formatter -> (Asttypes.const * Typed_ast.t_expr) list -> unit
+)
+ident(
+  def print_const_expr_list "typed_ast_printer.ml" 50 1331 1331 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 94 2950 2976 "typed_ast_printer.ml" 94 2950 2979
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 94 2950 2980 "typed_ast_printer.ml" 97 3098 3204
+)
+"typed_ast_printer.ml" 94 2950 2980 "typed_ast_printer.ml" 94 2950 2987
+type(
+  (Asttypes.const * Typed_ast.t_expr) list
+)
+ident(
+  def ce_list "typed_ast_printer.ml" 94 2950 2990 "typed_ast_printer.ml" 97 3098 3204
+)
+"typed_ast_printer.ml" 94 2950 2996 "typed_ast_printer.ml" 94 2950 3003
+type(
+  (Asttypes.const * Typed_ast.t_expr) list
+)
+ident(
+  int_ref ce_list "typed_ast_printer.ml" 94 2950 2980 "typed_ast_printer.ml" 94 2950 2987
+)
+"typed_ast_printer.ml" 95 3009 3013 "typed_ast_printer.ml" 95 3009 3015
+type(
+  (Asttypes.const * Typed_ast.t_expr) list
+)
+"typed_ast_printer.ml" 95 3009 3026 "typed_ast_printer.ml" 95 3009 3031
+type(
+  bool
+)
+"typed_ast_printer.ml" 95 3009 3019 "typed_ast_printer.ml" 95 3009 3031
+type(
+  unit
+)
+"typed_ast_printer.ml" 96 3032 3037 "typed_ast_printer.ml" 96 3032 3038
+type(
+  Asttypes.const
+)
+ident(
+  def c "typed_ast_printer.ml" 96 3032 3046 "typed_ast_printer.ml" 96 3032 3097
+)
+"typed_ast_printer.ml" 96 3032 3040 "typed_ast_printer.ml" 96 3032 3041
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e "typed_ast_printer.ml" 96 3032 3046 "typed_ast_printer.ml" 96 3032 3097
+)
+"typed_ast_printer.ml" 96 3032 3037 "typed_ast_printer.ml" 96 3032 3041
+type(
+  Asttypes.const * Typed_ast.t_expr
+)
+"typed_ast_printer.ml" 96 3032 3036 "typed_ast_printer.ml" 96 3032 3042
+type(
+  (Asttypes.const * Typed_ast.t_expr) list
+)
+"typed_ast_printer.ml" 96 3032 3046 "typed_ast_printer.ml" 96 3032 3053
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Asttypes.const -> unit) ->
+  Asttypes.const ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 96 3032 3054 "typed_ast_printer.ml" 96 3032 3057
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 94 2950 2976 "typed_ast_printer.ml" 94 2950 2979
+)
+"typed_ast_printer.ml" 96 3032 3058 "typed_ast_printer.ml" 96 3032 3071
+type(
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 96 3032 3072 "typed_ast_printer.ml" 96 3032 3083
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  int_ref print_const "typed_ast_printer.ml" 17 388 392 "typed_ast_printer.ml" 17 388 403
+)
+"typed_ast_printer.ml" 96 3032 3084 "typed_ast_printer.ml" 96 3032 3085
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c "typed_ast_printer.ml" 96 3032 3037 "typed_ast_printer.ml" 96 3032 3038
+)
+"typed_ast_printer.ml" 96 3032 3086 "typed_ast_printer.ml" 96 3032 3095
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 96 3032 3096 "typed_ast_printer.ml" 96 3032 3097
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e "typed_ast_printer.ml" 96 3032 3040 "typed_ast_printer.ml" 96 3032 3041
+)
+"typed_ast_printer.ml" 96 3032 3046 "typed_ast_printer.ml" 96 3032 3097
+type(
+  unit
+)
+"typed_ast_printer.ml" 97 3098 3103 "typed_ast_printer.ml" 97 3098 3106
+type(
+  Asttypes.const
+)
+ident(
+  def c_h "typed_ast_printer.ml" 97 3098 3121 "typed_ast_printer.ml" 97 3098 3204
+)
+"typed_ast_printer.ml" 97 3098 3108 "typed_ast_printer.ml" 97 3098 3111
+type(
+  Typed_ast.t_expr
+)
+ident(
+  def e_h "typed_ast_printer.ml" 97 3098 3121 "typed_ast_printer.ml" 97 3098 3204
+)
+"typed_ast_printer.ml" 97 3098 3102 "typed_ast_printer.ml" 97 3098 3112
+type(
+  Asttypes.const * Typed_ast.t_expr
+)
+"typed_ast_printer.ml" 97 3098 3116 "typed_ast_printer.ml" 97 3098 3117
+type(
+  (Asttypes.const * Typed_ast.t_expr) list
+)
+ident(
+  def t "typed_ast_printer.ml" 97 3098 3121 "typed_ast_printer.ml" 97 3098 3204
+)
+"typed_ast_printer.ml" 97 3098 3102 "typed_ast_printer.ml" 97 3098 3117
+type(
+  (Asttypes.const * Typed_ast.t_expr) list
+)
+"typed_ast_printer.ml" 97 3098 3121 "typed_ast_printer.ml" 97 3098 3128
+type(
+  Format.formatter ->
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> (Asttypes.const * Typed_ast.t_expr) list -> unit) ->
+   (Asttypes.const * Typed_ast.t_expr) list -> unit, Format.formatter, 
+   unit)
+  format ->
+  (Format.formatter -> Asttypes.const -> unit) ->
+  Asttypes.const ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) ->
+  Typed_ast.t_expr ->
+  (Format.formatter -> (Asttypes.const * Typed_ast.t_expr) list -> unit) ->
+  (Asttypes.const * Typed_ast.t_expr) list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 97 3098 3129 "typed_ast_printer.ml" 97 3098 3132
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 94 2950 2976 "typed_ast_printer.ml" 94 2950 2979
+)
+"typed_ast_printer.ml" 97 3098 3133 "typed_ast_printer.ml" 97 3098 3150
+type(
+  ((Format.formatter -> Asttypes.const -> unit) ->
+   Asttypes.const ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) ->
+   Typed_ast.t_expr ->
+   (Format.formatter -> (Asttypes.const * Typed_ast.t_expr) list -> unit) ->
+   (Asttypes.const * Typed_ast.t_expr) list -> unit, Format.formatter, 
+   unit)
+  format
+)
+"typed_ast_printer.ml" 97 3098 3151 "typed_ast_printer.ml" 97 3098 3162
+type(
+  Format.formatter -> Asttypes.const -> unit
+)
+ident(
+  int_ref print_const "typed_ast_printer.ml" 17 388 392 "typed_ast_printer.ml" 17 388 403
+)
+"typed_ast_printer.ml" 97 3098 3163 "typed_ast_printer.ml" 97 3098 3166
+type(
+  Asttypes.const
+)
+ident(
+  int_ref c_h "typed_ast_printer.ml" 97 3098 3103 "typed_ast_printer.ml" 97 3098 3106
+)
+"typed_ast_printer.ml" 97 3098 3167 "typed_ast_printer.ml" 97 3098 3176
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 97 3098 3177 "typed_ast_printer.ml" 97 3098 3180
+type(
+  Typed_ast.t_expr
+)
+ident(
+  int_ref e_h "typed_ast_printer.ml" 97 3098 3108 "typed_ast_printer.ml" 97 3098 3111
+)
+"typed_ast_printer.ml" 97 3098 3181 "typed_ast_printer.ml" 97 3098 3202
+type(
+  Format.formatter -> (Asttypes.const * Typed_ast.t_expr) list -> unit
+)
+ident(
+  int_ref print_const_expr_list "typed_ast_printer.ml" 94 2950 2954 "typed_ast_printer.ml" 94 2950 2975
+)
+"typed_ast_printer.ml" 97 3098 3203 "typed_ast_printer.ml" 97 3098 3204
+type(
+  (Asttypes.const * Typed_ast.t_expr) list
+)
+ident(
+  int_ref t "typed_ast_printer.ml" 97 3098 3116 "typed_ast_printer.ml" 97 3098 3117
+)
+"typed_ast_printer.ml" 97 3098 3121 "typed_ast_printer.ml" 97 3098 3204
+type(
+  unit
+)
+"typed_ast_printer.ml" 94 2950 2990 "typed_ast_printer.ml" 97 3098 3204
+type(
+  unit
+)
+"typed_ast_printer.ml" 100 3207 3211 "typed_ast_printer.ml" 100 3207 3219
+type(
+  Format.formatter -> Typed_ast.t_equation -> unit
+)
+ident(
+  def print_eq "typed_ast_printer.ml" 105 3345 3345 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 100 3207 3220 "typed_ast_printer.ml" 100 3207 3223
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 100 3207 3224 "typed_ast_printer.ml" 103 3318 3343
+)
+"typed_ast_printer.ml" 100 3207 3224 "typed_ast_printer.ml" 100 3207 3226
+type(
+  Typed_ast.t_equation
+)
+ident(
+  def eq "typed_ast_printer.ml" 101 3229 3231 "typed_ast_printer.ml" 103 3318 3343
+)
+"typed_ast_printer.ml" 101 3229 3231 "typed_ast_printer.ml" 101 3229 3238
+type(
+  Format.formatter ->
+  ((Format.formatter -> string list -> unit) ->
+   string list ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string list -> unit) ->
+  string list ->
+  (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 101 3229 3239 "typed_ast_printer.ml" 101 3229 3242
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 100 3207 3220 "typed_ast_printer.ml" 100 3207 3223
+)
+"typed_ast_printer.ml" 101 3229 3243 "typed_ast_printer.ml" 101 3229 3262
+type(
+  ((Format.formatter -> string list -> unit) ->
+   string list ->
+   (Format.formatter -> Typed_ast.t_expr -> unit) -> Typed_ast.t_expr -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 102 3263 3268 "typed_ast_printer.ml" 102 3263 3278
+type(
+  (Format.formatter -> string -> unit) ->
+  string -> Format.formatter -> string list -> unit
+)
+ident(
+  int_ref print_list "typed_ast_printer.ml" 7 70 78 "typed_ast_printer.ml" 7 70 88
+)
+"typed_ast_printer.ml" 102 3263 3279 "typed_ast_printer.ml" 102 3263 3289
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref print_name "typed_ast_printer.ml" 48 1282 1286 "typed_ast_printer.ml" 48 1282 1296
+)
+"typed_ast_printer.ml" 102 3263 3290 "typed_ast_printer.ml" 102 3263 3293
+type(
+  string
+)
+"typed_ast_printer.ml" 102 3263 3267 "typed_ast_printer.ml" 102 3263 3294
+type(
+  Format.formatter -> string list -> unit
+)
+"typed_ast_printer.ml" 102 3263 3295 "typed_ast_printer.ml" 102 3263 3297
+type(
+  Typed_ast.t_equation
+)
+ident(
+  int_ref eq "typed_ast_printer.ml" 100 3207 3224 "typed_ast_printer.ml" 100 3207 3226
+)
+"typed_ast_printer.ml" 102 3263 3295 "typed_ast_printer.ml" 102 3263 3306
+type(
+  Typed_ast.t_patt
+)
+"typed_ast_printer.ml" 102 3263 3295 "typed_ast_printer.ml" 102 3263 3317
+type(
+  string list
+)
+"typed_ast_printer.ml" 103 3318 3322 "typed_ast_printer.ml" 103 3318 3331
+type(
+  Format.formatter -> Typed_ast.t_expr -> unit
+)
+ident(
+  int_ref print_exp "typed_ast_printer.ml" 50 1331 1339 "typed_ast_printer.ml" 50 1331 1348
+)
+"typed_ast_printer.ml" 103 3318 3332 "typed_ast_printer.ml" 103 3318 3334
+type(
+  Typed_ast.t_equation
+)
+ident(
+  int_ref eq "typed_ast_printer.ml" 100 3207 3224 "typed_ast_printer.ml" 100 3207 3226
+)
+"typed_ast_printer.ml" 103 3318 3332 "typed_ast_printer.ml" 103 3318 3343
+type(
+  Typed_ast.t_expr
+)
+"typed_ast_printer.ml" 101 3229 3231 "typed_ast_printer.ml" 103 3318 3343
+type(
+  unit
+)
+"typed_ast_printer.ml" 105 3345 3349 "typed_ast_printer.ml" 105 3345 3364
+type(
+  Format.formatter -> Asttypes.base_ty -> unit
+)
+ident(
+  def print_base_type "typed_ast_printer.ml" 114 3611 3611 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 105 3345 3365 "typed_ast_printer.ml" 105 3345 3368
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 105 3345 3369 "typed_ast_printer.ml" 110 3518 3553
+)
+"typed_ast_printer.ml" 105 3345 3369 "typed_ast_printer.ml" 105 3345 3372
+type(
+  Asttypes.base_ty
+)
+ident(
+  def bty "typed_ast_printer.ml" 105 3345 3375 "typed_ast_printer.ml" 110 3518 3553
+)
+"typed_ast_printer.ml" 105 3345 3381 "typed_ast_printer.ml" 105 3345 3384
+type(
+  Asttypes.base_ty
+)
+ident(
+  int_ref bty "typed_ast_printer.ml" 105 3345 3369 "typed_ast_printer.ml" 105 3345 3372
+)
+"typed_ast_printer.ml" 106 3390 3394 "typed_ast_printer.ml" 106 3390 3399
+type(
+  Asttypes.base_ty
+)
+"typed_ast_printer.ml" 106 3390 3403 "typed_ast_printer.ml" 106 3390 3410
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 106 3390 3411 "typed_ast_printer.ml" 106 3390 3414
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 105 3345 3365 "typed_ast_printer.ml" 105 3345 3368
+)
+"typed_ast_printer.ml" 106 3390 3415 "typed_ast_printer.ml" 106 3390 3421
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 106 3390 3403 "typed_ast_printer.ml" 106 3390 3421
+type(
+  unit
+)
+"typed_ast_printer.ml" 107 3422 3426 "typed_ast_printer.ml" 107 3422 3431
+type(
+  Asttypes.base_ty
+)
+"typed_ast_printer.ml" 107 3422 3435 "typed_ast_printer.ml" 107 3422 3442
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 107 3422 3443 "typed_ast_printer.ml" 107 3422 3446
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 105 3345 3365 "typed_ast_printer.ml" 105 3345 3368
+)
+"typed_ast_printer.ml" 107 3422 3447 "typed_ast_printer.ml" 107 3422 3453
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 107 3422 3435 "typed_ast_printer.ml" 107 3422 3453
+type(
+  unit
+)
+"typed_ast_printer.ml" 108 3454 3458 "typed_ast_printer.ml" 108 3454 3462
+type(
+  Asttypes.base_ty
+)
+"typed_ast_printer.ml" 108 3454 3466 "typed_ast_printer.ml" 108 3454 3473
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 108 3454 3474 "typed_ast_printer.ml" 108 3454 3477
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 105 3345 3365 "typed_ast_printer.ml" 105 3345 3368
+)
+"typed_ast_printer.ml" 108 3454 3478 "typed_ast_printer.ml" 108 3454 3483
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 108 3454 3466 "typed_ast_printer.ml" 108 3454 3483
+type(
+  unit
+)
+"typed_ast_printer.ml" 109 3484 3488 "typed_ast_printer.ml" 109 3484 3494
+type(
+  Asttypes.base_ty
+)
+"typed_ast_printer.ml" 109 3484 3498 "typed_ast_printer.ml" 109 3484 3505
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 109 3484 3506 "typed_ast_printer.ml" 109 3484 3509
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 105 3345 3365 "typed_ast_printer.ml" 105 3345 3368
+)
+"typed_ast_printer.ml" 109 3484 3510 "typed_ast_printer.ml" 109 3484 3517
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 109 3484 3498 "typed_ast_printer.ml" 109 3484 3517
+type(
+  unit
+)
+"typed_ast_printer.ml" 110 3518 3522 "typed_ast_printer.ml" 110 3518 3529
+type(
+  Asttypes.base_ty
+)
+"typed_ast_printer.ml" 110 3518 3533 "typed_ast_printer.ml" 110 3518 3540
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 110 3518 3541 "typed_ast_printer.ml" 110 3518 3544
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 105 3345 3365 "typed_ast_printer.ml" 105 3345 3368
+)
+"typed_ast_printer.ml" 110 3518 3545 "typed_ast_printer.ml" 110 3518 3553
+type(
+  (unit, Format.formatter, unit) format
+)
+"typed_ast_printer.ml" 110 3518 3533 "typed_ast_printer.ml" 110 3518 3553
+type(
+  unit
+)
+"typed_ast_printer.ml" 105 3345 3375 "typed_ast_printer.ml" 110 3518 3553
+type(
+  unit
+)
+"typed_ast_printer.ml" 114 3611 3615 "typed_ast_printer.ml" 114 3611 3628
+type(
+  Format.formatter -> string * Asttypes.base_ty -> unit
+)
+ident(
+  def print_var_dec "typed_ast_printer.ml" 117 3695 3695 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 114 3611 3629 "typed_ast_printer.ml" 114 3611 3632
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 114 3611 3633 "typed_ast_printer.ml" 115 3646 3693
+)
+"typed_ast_printer.ml" 114 3611 3634 "typed_ast_printer.ml" 114 3611 3638
+type(
+  string
+)
+ident(
+  def name "typed_ast_printer.ml" 115 3646 3648 "typed_ast_printer.ml" 115 3646 3693
+)
+"typed_ast_printer.ml" 114 3611 3640 "typed_ast_printer.ml" 114 3611 3642
+type(
+  Asttypes.base_ty
+)
+ident(
+  def ty "typed_ast_printer.ml" 115 3646 3648 "typed_ast_printer.ml" 115 3646 3693
+)
+"typed_ast_printer.ml" 114 3611 3633 "typed_ast_printer.ml" 114 3611 3643
+type(
+  string * Asttypes.base_ty
+)
+"typed_ast_printer.ml" 115 3646 3648 "typed_ast_printer.ml" 115 3646 3655
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Asttypes.base_ty -> unit) -> Asttypes.base_ty -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Asttypes.base_ty -> unit) -> Asttypes.base_ty -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 115 3646 3656 "typed_ast_printer.ml" 115 3646 3659
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 114 3611 3629 "typed_ast_printer.ml" 114 3611 3632
+)
+"typed_ast_printer.ml" 115 3646 3660 "typed_ast_printer.ml" 115 3646 3669
+type(
+  (string ->
+   (Format.formatter -> Asttypes.base_ty -> unit) -> Asttypes.base_ty -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 115 3646 3670 "typed_ast_printer.ml" 115 3646 3674
+type(
+  string
+)
+ident(
+  int_ref name "typed_ast_printer.ml" 114 3611 3634 "typed_ast_printer.ml" 114 3611 3638
+)
+"typed_ast_printer.ml" 115 3646 3675 "typed_ast_printer.ml" 115 3646 3690
+type(
+  Format.formatter -> Asttypes.base_ty -> unit
+)
+ident(
+  int_ref print_base_type "typed_ast_printer.ml" 105 3345 3349 "typed_ast_printer.ml" 105 3345 3364
+)
+"typed_ast_printer.ml" 115 3646 3691 "typed_ast_printer.ml" 115 3646 3693
+type(
+  Asttypes.base_ty
+)
+ident(
+  int_ref ty "typed_ast_printer.ml" 114 3611 3640 "typed_ast_printer.ml" 114 3611 3642
+)
+"typed_ast_printer.ml" 115 3646 3648 "typed_ast_printer.ml" 115 3646 3693
+type(
+  unit
+)
+"typed_ast_printer.ml" 117 3695 3703 "typed_ast_printer.ml" 117 3695 3721
+type(
+  Format.formatter -> (string * Asttypes.base_ty) list -> unit
+)
+ident(
+  def print_var_dec_list "typed_ast_printer.ml" 117 3695 3695 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 117 3695 3724 "typed_ast_printer.ml" 117 3695 3734
+type(
+  (Format.formatter -> string * Asttypes.base_ty -> unit) ->
+  string -> Format.formatter -> (string * Asttypes.base_ty) list -> unit
+)
+ident(
+  int_ref print_list "typed_ast_printer.ml" 7 70 78 "typed_ast_printer.ml" 7 70 88
+)
+"typed_ast_printer.ml" 117 3695 3735 "typed_ast_printer.ml" 117 3695 3748
+type(
+  Format.formatter -> string * Asttypes.base_ty -> unit
+)
+ident(
+  int_ref print_var_dec "typed_ast_printer.ml" 114 3611 3615 "typed_ast_printer.ml" 114 3611 3628
+)
+"typed_ast_printer.ml" 117 3695 3749 "typed_ast_printer.ml" 117 3695 3752
+type(
+  string
+)
+"typed_ast_printer.ml" 117 3695 3724 "typed_ast_printer.ml" 117 3695 3752
+type(
+  Format.formatter -> (string * Asttypes.base_ty) list -> unit
+)
+"typed_ast_printer.ml" 119 3754 3758 "typed_ast_printer.ml" 119 3754 3768
+type(
+  Format.formatter -> Typed_ast.t_node -> unit
+)
+ident(
+  def print_node "typed_ast_printer.ml" 128 4045 4045 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 119 3754 3769 "typed_ast_printer.ml" 119 3754 3772
+type(
+  Format.formatter
+)
+ident(
+  def fmt "typed_ast_printer.ml" 119 3754 3773 "typed_ast_printer.ml" 126 3999 4043
+)
+"typed_ast_printer.ml" 119 3754 3773 "typed_ast_printer.ml" 119 3754 3775
+type(
+  Typed_ast.t_node
+)
+ident(
+  def nd "typed_ast_printer.ml" 120 3778 3780 "typed_ast_printer.ml" 126 3999 4043
+)
+"typed_ast_printer.ml" 120 3778 3780 "typed_ast_printer.ml" 120 3778 3787
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Typed_ast.typed_var list -> unit) ->
+   Typed_ast.typed_var list ->
+   (Format.formatter -> Typed_ast.typed_var list -> unit) ->
+   Typed_ast.typed_var list ->
+   (Format.formatter -> Typed_ast.typed_var list -> unit) ->
+   Typed_ast.typed_var list ->
+   (Format.formatter -> Typed_ast.t_equation list -> unit) ->
+   Typed_ast.t_equation list -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Typed_ast.typed_var list -> unit) ->
+  Typed_ast.typed_var list ->
+  (Format.formatter -> Typed_ast.typed_var list -> unit) ->
+  Typed_ast.typed_var list ->
+  (Format.formatter -> Typed_ast.typed_var list -> unit) ->
+  Typed_ast.typed_var list ->
+  (Format.formatter -> Typed_ast.t_equation list -> unit) ->
+  Typed_ast.t_equation list -> unit
+)
+ident(
+  int_ref Stdlib.Format.fprintf "format.mli" 1102 42111 42111 "format.mli" 1102 42111 42172
+)
+"typed_ast_printer.ml" 120 3778 3788 "typed_ast_printer.ml" 120 3778 3791
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "typed_ast_printer.ml" 119 3754 3769 "typed_ast_printer.ml" 119 3754 3772
+)
+"typed_ast_printer.ml" 121 3792 3796 "typed_ast_printer.ml" 121 3792 3877
+type(
+  (string ->
+   (Format.formatter -> Typed_ast.typed_var list -> unit) ->
+   Typed_ast.typed_var list ->
+   (Format.formatter -> Typed_ast.typed_var list -> unit) ->
+   Typed_ast.typed_var list ->
+   (Format.formatter -> Typed_ast.typed_var list -> unit) ->
+   Typed_ast.typed_var list ->
+   (Format.formatter -> Typed_ast.t_equation list -> unit) ->
+   Typed_ast.t_equation list -> unit, Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 122 3878 3882 "typed_ast_printer.ml" 122 3878 3884
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref nd "typed_ast_printer.ml" 119 3754 3773 "typed_ast_printer.ml" 119 3754 3775
+)
+"typed_ast_printer.ml" 122 3878 3882 "typed_ast_printer.ml" 122 3878 3892
+type(
+  string
+)
+"typed_ast_printer.ml" 123 3893 3897 "typed_ast_printer.ml" 123 3893 3915
+type(
+  Format.formatter -> Typed_ast.typed_var list -> unit
+)
+ident(
+  int_ref print_var_dec_list "typed_ast_printer.ml" 117 3695 3703 "typed_ast_printer.ml" 117 3695 3721
+)
+"typed_ast_printer.ml" 123 3893 3916 "typed_ast_printer.ml" 123 3893 3918
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref nd "typed_ast_printer.ml" 119 3754 3773 "typed_ast_printer.ml" 119 3754 3775
+)
+"typed_ast_printer.ml" 123 3893 3916 "typed_ast_printer.ml" 123 3893 3927
+type(
+  Typed_ast.typed_var list
+)
+"typed_ast_printer.ml" 124 3928 3932 "typed_ast_printer.ml" 124 3928 3950
+type(
+  Format.formatter -> Typed_ast.typed_var list -> unit
+)
+ident(
+  int_ref print_var_dec_list "typed_ast_printer.ml" 117 3695 3703 "typed_ast_printer.ml" 117 3695 3721
+)
+"typed_ast_printer.ml" 124 3928 3951 "typed_ast_printer.ml" 124 3928 3953
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref nd "typed_ast_printer.ml" 119 3754 3773 "typed_ast_printer.ml" 119 3754 3775
+)
+"typed_ast_printer.ml" 124 3928 3951 "typed_ast_printer.ml" 124 3928 3963
+type(
+  Typed_ast.typed_var list
+)
+"typed_ast_printer.ml" 125 3964 3968 "typed_ast_printer.ml" 125 3964 3986
+type(
+  Format.formatter -> Typed_ast.typed_var list -> unit
+)
+ident(
+  int_ref print_var_dec_list "typed_ast_printer.ml" 117 3695 3703 "typed_ast_printer.ml" 117 3695 3721
+)
+"typed_ast_printer.ml" 125 3964 3987 "typed_ast_printer.ml" 125 3964 3989
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref nd "typed_ast_printer.ml" 119 3754 3773 "typed_ast_printer.ml" 119 3754 3775
+)
+"typed_ast_printer.ml" 125 3964 3987 "typed_ast_printer.ml" 125 3964 3998
+type(
+  Typed_ast.typed_var list
+)
+"typed_ast_printer.ml" 126 3999 4004 "typed_ast_printer.ml" 126 3999 4018
+type(
+  (Format.formatter -> Typed_ast.t_equation -> unit) ->
+  string -> Format.formatter -> Typed_ast.t_equation list -> unit
+)
+ident(
+  int_ref print_list_eol "typed_ast_printer.ml" 12 215 223 "typed_ast_printer.ml" 12 215 237
+)
+"typed_ast_printer.ml" 126 3999 4019 "typed_ast_printer.ml" 126 3999 4027
+type(
+  Format.formatter -> Typed_ast.t_equation -> unit
+)
+ident(
+  int_ref print_eq "typed_ast_printer.ml" 100 3207 3211 "typed_ast_printer.ml" 100 3207 3219
+)
+"typed_ast_printer.ml" 126 3999 4028 "typed_ast_printer.ml" 126 3999 4031
+type(
+  string
+)
+"typed_ast_printer.ml" 126 3999 4003 "typed_ast_printer.ml" 126 3999 4032
+type(
+  Format.formatter -> Typed_ast.t_equation list -> unit
+)
+"typed_ast_printer.ml" 126 3999 4033 "typed_ast_printer.ml" 126 3999 4035
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref nd "typed_ast_printer.ml" 119 3754 3773 "typed_ast_printer.ml" 119 3754 3775
+)
+"typed_ast_printer.ml" 126 3999 4033 "typed_ast_printer.ml" 126 3999 4043
+type(
+  Typed_ast.t_equation list
+)
+"typed_ast_printer.ml" 120 3778 3780 "typed_ast_printer.ml" 126 3999 4043
+type(
+  unit
+)
+"typed_ast_printer.ml" 128 4045 4049 "typed_ast_printer.ml" 128 4045 4068
+type(
+  Typed_ast.t_node list -> unit
+)
+ident(
+  def print_node_list_std "typed_ast_printer.ml" 129 4075 4140 "typed_ast_printer.ml" 0 0 -1
+)
+"typed_ast_printer.ml" 128 4045 4069 "typed_ast_printer.ml" 128 4045 4072
+type(
+  Typed_ast.t_node list
+)
+ident(
+  def ndl "typed_ast_printer.ml" 129 4075 4077 "typed_ast_printer.ml" 129 4075 4140
+)
+"typed_ast_printer.ml" 129 4075 4077 "typed_ast_printer.ml" 129 4075 4086
+type(
+  (Typed_ast.t_node -> unit) -> Typed_ast.t_node list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"typed_ast_printer.ml" 129 4075 4092 "typed_ast_printer.ml" 129 4075 4094
+type(
+  Typed_ast.t_node
+)
+ident(
+  def nd "typed_ast_printer.ml" 129 4075 4098 "typed_ast_printer.ml" 129 4075 4135
+)
+"typed_ast_printer.ml" 129 4075 4098 "typed_ast_printer.ml" 129 4075 4111
+type(
+  ((Format.formatter -> Typed_ast.t_node -> unit) -> Typed_ast.t_node -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Typed_ast.t_node -> unit) -> Typed_ast.t_node -> unit
+)
+ident(
+  int_ref Stdlib.Format.printf "format.mli" 1175 45899 45899 "format.mli" 1175 45899 45946
+)
+"typed_ast_printer.ml" 129 4075 4112 "typed_ast_printer.ml" 129 4075 4121
+type(
+  ((Format.formatter -> Typed_ast.t_node -> unit) -> Typed_ast.t_node -> unit,
+   Format.formatter, unit)
+  format
+)
+"typed_ast_printer.ml" 129 4075 4122 "typed_ast_printer.ml" 129 4075 4132
+type(
+  Format.formatter -> Typed_ast.t_node -> unit
+)
+ident(
+  int_ref print_node "typed_ast_printer.ml" 119 3754 3758 "typed_ast_printer.ml" 119 3754 3768
+)
+"typed_ast_printer.ml" 129 4075 4133 "typed_ast_printer.ml" 129 4075 4135
+type(
+  Typed_ast.t_node
+)
+ident(
+  int_ref nd "typed_ast_printer.ml" 129 4075 4092 "typed_ast_printer.ml" 129 4075 4094
+)
+"typed_ast_printer.ml" 129 4075 4098 "typed_ast_printer.ml" 129 4075 4135
+type(
+  unit
+)
+"typed_ast_printer.ml" 129 4075 4087 "typed_ast_printer.ml" 129 4075 4136
+type(
+  Typed_ast.t_node -> unit
+)
+"typed_ast_printer.ml" 129 4075 4137 "typed_ast_printer.ml" 129 4075 4140
+type(
+  Typed_ast.t_node list
+)
+ident(
+  int_ref ndl "typed_ast_printer.ml" 128 4045 4069 "typed_ast_printer.ml" 128 4045 4072
+)
+"typed_ast_printer.ml" 129 4075 4077 "typed_ast_printer.ml" 129 4075 4140
+type(
+  unit
+)

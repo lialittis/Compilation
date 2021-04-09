@@ -1,0 +1,12 @@
+node f(x:bool) returns (y:bool);
+let
+  y = x when true(x);
+tel
+
+node main(u1:unit) returns (u2:unit);
+var c,y:bool;
+let
+  c = true fby true fby false fby c;
+  y = merge (c) (true -> f(c)) (false -> false);
+  u2 = if y then print_endline(string_of_int(1)) else print_endline(string_of_int(0));
+tel

@@ -1,0 +1,25 @@
+node bool2int(b: bool) returns (o: int);
+  let
+    o = merge (b) (true -> 1) (false -> 0);
+  tel
+
+node t2bool(x: bool) returns (b: bool);
+  let
+    b = merge (x) (false-> true) (true-> false);
+  tel
+
+node fusion(x:int; x2:int; c:bool) returns (y :int);
+var x1:int;
+  let
+    x1 = x when true(c);
+    y = merge (c) (false -> x1) (true -> x2);
+  tel
+
+node main_notcompile_merge(u:unit) returns (c3:unit);
+var c:bool;x,y:int;
+let
+  x = 1 fby if x > 10 then 1 else x + 2;
+  c = false fby true fby c;
+  y = fusion(x,-4,c);
+  c3 = print_endline(string_of_int(y));
+tel

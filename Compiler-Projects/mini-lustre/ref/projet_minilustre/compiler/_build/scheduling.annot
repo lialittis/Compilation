@@ -1,0 +1,2085 @@
+"scheduling.ml" 10 141 149 "scheduling.ml" 10 141 156
+type(
+  'a * S.t * 'b -> 'a * S.t * 'c -> int
+)
+ident(
+  def compare "scheduling.ml" 12 210 251 "scheduling.ml" 13 252 257
+)
+"scheduling.ml" 10 141 158 "scheduling.ml" 10 141 160
+type(
+  'a
+)
+ident(
+  def x1 "scheduling.ml" 10 141 167 "scheduling.ml" 12 210 251
+)
+"scheduling.ml" 10 141 161 "scheduling.ml" 10 141 163
+type(
+  S.t
+)
+ident(
+  def s1 "scheduling.ml" 10 141 167 "scheduling.ml" 12 210 251
+)
+"scheduling.ml" 10 141 164 "scheduling.ml" 10 141 165
+type(
+  'b
+)
+"scheduling.ml" 10 141 157 "scheduling.ml" 10 141 166
+type(
+  'a * S.t * 'b
+)
+"scheduling.ml" 10 141 168 "scheduling.ml" 10 141 170
+type(
+  'a
+)
+ident(
+  def x2 "scheduling.ml" 11 179 185 "scheduling.ml" 12 210 251
+)
+"scheduling.ml" 10 141 171 "scheduling.ml" 10 141 173
+type(
+  S.t
+)
+ident(
+  def s2 "scheduling.ml" 11 179 185 "scheduling.ml" 12 210 251
+)
+"scheduling.ml" 10 141 174 "scheduling.ml" 10 141 175
+type(
+  'c
+)
+"scheduling.ml" 10 141 167 "scheduling.ml" 10 141 176
+type(
+  'a * S.t * 'c
+)
+"scheduling.ml" 11 179 189 "scheduling.ml" 11 179 190
+type(
+  int
+)
+ident(
+  def c "scheduling.ml" 12 210 216 "scheduling.ml" 12 210 251
+)
+"scheduling.ml" 11 179 193 "scheduling.ml" 11 179 200
+type(
+  'a -> 'a -> int
+)
+ident(
+  int_ref Stdlib.compare "stdlib.mli" 159 6717 6717 "stdlib.mli" 159 6717 6764
+)
+"scheduling.ml" 11 179 201 "scheduling.ml" 11 179 203
+type(
+  'a
+)
+ident(
+  int_ref x1 "scheduling.ml" 10 141 158 "scheduling.ml" 10 141 160
+)
+"scheduling.ml" 11 179 204 "scheduling.ml" 11 179 206
+type(
+  'a
+)
+ident(
+  int_ref x2 "scheduling.ml" 10 141 168 "scheduling.ml" 10 141 170
+)
+"scheduling.ml" 11 179 193 "scheduling.ml" 11 179 206
+type(
+  int
+)
+"scheduling.ml" 12 210 219 "scheduling.ml" 12 210 220
+type(
+  int
+)
+ident(
+  int_ref c "scheduling.ml" 11 179 189 "scheduling.ml" 11 179 190
+)
+"scheduling.ml" 12 210 220 "scheduling.ml" 12 210 222
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( <> ) "stdlib.mli" 127 5484 5484 "stdlib.mli" 127 5484 5532
+)
+"scheduling.ml" 12 210 222 "scheduling.ml" 12 210 223
+type(
+  int
+)
+"scheduling.ml" 12 210 219 "scheduling.ml" 12 210 223
+type(
+  bool
+)
+"scheduling.ml" 12 210 229 "scheduling.ml" 12 210 230
+type(
+  int
+)
+ident(
+  int_ref c "scheduling.ml" 11 179 189 "scheduling.ml" 11 179 190
+)
+"scheduling.ml" 12 210 236 "scheduling.ml" 12 210 245
+type(
+  S.t -> S.t -> int
+)
+ident(
+  int_ref S.compare "set.mli" 109 4011 4015 "set.mli" 109 4011 4041
+)
+"scheduling.ml" 12 210 246 "scheduling.ml" 12 210 248
+type(
+  S.t
+)
+ident(
+  int_ref s1 "scheduling.ml" 10 141 161 "scheduling.ml" 10 141 163
+)
+"scheduling.ml" 12 210 249 "scheduling.ml" 12 210 251
+type(
+  S.t
+)
+ident(
+  int_ref s2 "scheduling.ml" 10 141 171 "scheduling.ml" 10 141 173
+)
+"scheduling.ml" 12 210 236 "scheduling.ml" 12 210 251
+type(
+  int
+)
+"scheduling.ml" 12 210 216 "scheduling.ml" 12 210 251
+type(
+  int
+)
+"scheduling.ml" 11 179 185 "scheduling.ml" 12 210 251
+type(
+  int
+)
+"scheduling.ml" 18 370 374 "scheduling.ml" 18 370 390
+type(
+  S.t -> Clocked_ast.c_patt -> S.t
+)
+ident(
+  def add_vars_of_patt "scheduling.ml" 24 579 579 "scheduling.ml" 0 0 -1
+)
+"scheduling.ml" 18 370 391 "scheduling.ml" 18 370 392
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 18 370 393 "scheduling.ml" 19 410 453
+)
+"scheduling.ml" 18 370 405 "scheduling.ml" 18 370 406
+type(
+  string list
+)
+ident(
+  def p "scheduling.ml" 19 410 412 "scheduling.ml" 19 410 453
+)
+"scheduling.ml" 18 370 393 "scheduling.ml" 18 370 407
+type(
+  Clocked_ast.c_patt
+)
+"scheduling.ml" 19 410 412 "scheduling.ml" 19 410 426
+type(
+  (S.t -> S.elt -> S.t) -> S.t -> S.elt list -> S.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"scheduling.ml" 19 410 432 "scheduling.ml" 19 410 433
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 19 410 434 "scheduling.ml" 19 410 448
+)
+"scheduling.ml" 19 410 434 "scheduling.ml" 19 410 435
+type(
+  S.elt
+)
+ident(
+  def x "scheduling.ml" 19 410 439 "scheduling.ml" 19 410 448
+)
+"scheduling.ml" 19 410 439 "scheduling.ml" 19 410 444
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  int_ref S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"scheduling.ml" 19 410 445 "scheduling.ml" 19 410 446
+type(
+  S.elt
+)
+ident(
+  int_ref x "scheduling.ml" 19 410 434 "scheduling.ml" 19 410 435
+)
+"scheduling.ml" 19 410 447 "scheduling.ml" 19 410 448
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 19 410 432 "scheduling.ml" 19 410 433
+)
+"scheduling.ml" 19 410 439 "scheduling.ml" 19 410 448
+type(
+  S.t
+)
+"scheduling.ml" 19 410 427 "scheduling.ml" 19 410 449
+type(
+  S.t -> S.elt -> S.t
+)
+"scheduling.ml" 19 410 450 "scheduling.ml" 19 410 451
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 18 370 391 "scheduling.ml" 18 370 392
+)
+"scheduling.ml" 19 410 452 "scheduling.ml" 19 410 453
+type(
+  S.elt list
+)
+ident(
+  int_ref p "scheduling.ml" 18 370 405 "scheduling.ml" 18 370 406
+)
+"scheduling.ml" 19 410 412 "scheduling.ml" 19 410 453
+type(
+  S.t
+)
+"scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  def add_vars_of_exp "scheduling.ml" 24 579 579 "scheduling.ml" 0 0 -1
+)
+"scheduling.ml" 24 579 603 "scheduling.ml" 24 579 604
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 24 579 605 "scheduling.ml" 45 1306 1375
+)
+"scheduling.ml" 24 579 617 "scheduling.ml" 24 579 618
+type(
+  Clocked_ast.c_expr_desc
+)
+ident(
+  def e "scheduling.ml" 25 622 624 "scheduling.ml" 45 1306 1375
+)
+"scheduling.ml" 24 579 605 "scheduling.ml" 24 579 619
+type(
+  Clocked_ast.c_expr
+)
+"scheduling.ml" 25 622 630 "scheduling.ml" 25 622 631
+type(
+  Clocked_ast.c_expr_desc
+)
+ident(
+  int_ref e "scheduling.ml" 24 579 617 "scheduling.ml" 24 579 618
+)
+"scheduling.ml" 26 637 650 "scheduling.ml" 26 637 651
+type(
+  Asttypes.const
+)
+"scheduling.ml" 26 637 641 "scheduling.ml" 26 637 651
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 26 637 655 "scheduling.ml" 26 637 656
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 579 603 "scheduling.ml" 24 579 604
+)
+"scheduling.ml" 27 657 670 "scheduling.ml" 27 657 671
+type(
+  string
+)
+ident(
+  def x "scheduling.ml" 27 657 675 "scheduling.ml" 27 657 684
+)
+"scheduling.ml" 27 657 661 "scheduling.ml" 27 657 671
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 27 657 675 "scheduling.ml" 27 657 680
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  int_ref S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"scheduling.ml" 27 657 681 "scheduling.ml" 27 657 682
+type(
+  S.elt
+)
+ident(
+  int_ref x "scheduling.ml" 27 657 670 "scheduling.ml" 27 657 671
+)
+"scheduling.ml" 27 657 683 "scheduling.ml" 27 657 684
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 579 603 "scheduling.ml" 24 579 604
+)
+"scheduling.ml" 27 657 675 "scheduling.ml" 27 657 684
+type(
+  S.t
+)
+"scheduling.ml" 28 696 708 "scheduling.ml" 28 696 709
+type(
+  Asttypes.const list
+)
+ident(
+  def c "scheduling.ml" 28 696 718 "scheduling.ml" 28 696 719
+)
+"scheduling.ml" 28 696 711 "scheduling.ml" 28 696 713
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "scheduling.ml" 28 696 718 "scheduling.ml" 28 696 719
+)
+"scheduling.ml" 28 696 700 "scheduling.ml" 28 696 714
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 28 696 718 "scheduling.ml" 28 696 719
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 579 603 "scheduling.ml" 24 579 604
+)
+"scheduling.ml" 29 731 744 "scheduling.ml" 29 731 745
+type(
+  Asttypes.unop
+)
+"scheduling.ml" 29 731 746 "scheduling.ml" 29 731 748
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e' "scheduling.ml" 29 731 753 "scheduling.ml" 29 731 773
+)
+"scheduling.ml" 29 731 735 "scheduling.ml" 29 731 749
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 29 731 753 "scheduling.ml" 29 731 768
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 29 731 769 "scheduling.ml" 29 731 770
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 579 603 "scheduling.ml" 24 579 604
+)
+"scheduling.ml" 29 731 771 "scheduling.ml" 29 731 773
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e' "scheduling.ml" 29 731 746 "scheduling.ml" 29 731 748
+)
+"scheduling.ml" 29 731 753 "scheduling.ml" 29 731 773
+type(
+  S.t
+)
+"scheduling.ml" 30 774 788 "scheduling.ml" 30 774 789
+type(
+  Asttypes.binop
+)
+"scheduling.ml" 30 774 790 "scheduling.ml" 30 774 792
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "scheduling.ml" 31 800 806 "scheduling.ml" 32 838 864
+)
+"scheduling.ml" 30 774 793 "scheduling.ml" 30 774 795
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "scheduling.ml" 31 800 806 "scheduling.ml" 32 838 864
+)
+"scheduling.ml" 30 774 778 "scheduling.ml" 30 774 796
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 31 800 810 "scheduling.ml" 31 800 811
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 32 838 844 "scheduling.ml" 32 838 864
+)
+"scheduling.ml" 31 800 814 "scheduling.ml" 31 800 829
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 31 800 830 "scheduling.ml" 31 800 831
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 579 603 "scheduling.ml" 24 579 604
+)
+"scheduling.ml" 31 800 832 "scheduling.ml" 31 800 834
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "scheduling.ml" 30 774 790 "scheduling.ml" 30 774 792
+)
+"scheduling.ml" 31 800 814 "scheduling.ml" 31 800 834
+type(
+  S.t
+)
+"scheduling.ml" 32 838 844 "scheduling.ml" 32 838 859
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 32 838 860 "scheduling.ml" 32 838 861
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 31 800 810 "scheduling.ml" 31 800 811
+)
+"scheduling.ml" 32 838 862 "scheduling.ml" 32 838 864
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "scheduling.ml" 30 774 793 "scheduling.ml" 30 774 795
+)
+"scheduling.ml" 32 838 844 "scheduling.ml" 32 838 864
+type(
+  S.t
+)
+"scheduling.ml" 31 800 806 "scheduling.ml" 32 838 864
+type(
+  S.t
+)
+"scheduling.ml" 33 865 875 "scheduling.ml" 33 865 877
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "scheduling.ml" 34 899 905 "scheduling.ml" 36 975 1001
+)
+"scheduling.ml" 33 865 878 "scheduling.ml" 33 865 880
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "scheduling.ml" 34 899 905 "scheduling.ml" 36 975 1001
+)
+"scheduling.ml" 33 865 881 "scheduling.ml" 33 865 883
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e3 "scheduling.ml" 34 899 905 "scheduling.ml" 36 975 1001
+)
+"scheduling.ml" 33 865 869 "scheduling.ml" 33 865 884
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 34 899 909 "scheduling.ml" 34 899 910
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 35 937 943 "scheduling.ml" 36 975 1001
+)
+"scheduling.ml" 34 899 913 "scheduling.ml" 34 899 928
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 34 899 929 "scheduling.ml" 34 899 930
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 579 603 "scheduling.ml" 24 579 604
+)
+"scheduling.ml" 34 899 931 "scheduling.ml" 34 899 933
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "scheduling.ml" 33 865 875 "scheduling.ml" 33 865 877
+)
+"scheduling.ml" 34 899 913 "scheduling.ml" 34 899 933
+type(
+  S.t
+)
+"scheduling.ml" 35 937 947 "scheduling.ml" 35 937 948
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 36 975 981 "scheduling.ml" 36 975 1001
+)
+"scheduling.ml" 35 937 951 "scheduling.ml" 35 937 966
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 35 937 967 "scheduling.ml" 35 937 968
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 34 899 909 "scheduling.ml" 34 899 910
+)
+"scheduling.ml" 35 937 969 "scheduling.ml" 35 937 971
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "scheduling.ml" 33 865 878 "scheduling.ml" 33 865 880
+)
+"scheduling.ml" 35 937 951 "scheduling.ml" 35 937 971
+type(
+  S.t
+)
+"scheduling.ml" 36 975 981 "scheduling.ml" 36 975 996
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 36 975 997 "scheduling.ml" 36 975 998
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 35 937 947 "scheduling.ml" 35 937 948
+)
+"scheduling.ml" 36 975 999 "scheduling.ml" 36 975 1001
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e3 "scheduling.ml" 33 865 881 "scheduling.ml" 33 865 883
+)
+"scheduling.ml" 36 975 981 "scheduling.ml" 36 975 1001
+type(
+  S.t
+)
+"scheduling.ml" 35 937 943 "scheduling.ml" 36 975 1001
+type(
+  S.t
+)
+"scheduling.ml" 34 899 905 "scheduling.ml" 36 975 1001
+type(
+  S.t
+)
+"scheduling.ml" 37 1002 1014 "scheduling.ml" 37 1002 1015
+type(
+  string
+)
+"scheduling.ml" 37 1002 1016 "scheduling.ml" 37 1002 1017
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def l "scheduling.ml" 38 1051 1057 "scheduling.ml" 38 1051 1091
+)
+"scheduling.ml" 37 1002 1006 "scheduling.ml" 37 1002 1018
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 37 1002 1030 "scheduling.ml" 37 1002 1031
+type(
+  string
+)
+"scheduling.ml" 37 1002 1032 "scheduling.ml" 37 1002 1033
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def l "scheduling.ml" 38 1051 1057 "scheduling.ml" 38 1051 1091
+)
+"scheduling.ml" 37 1002 1021 "scheduling.ml" 37 1002 1034
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 37 1002 1006 "scheduling.ml" 37 1002 1034
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 37 1002 1046 "scheduling.ml" 37 1002 1047
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def l "scheduling.ml" 38 1051 1057 "scheduling.ml" 38 1051 1091
+)
+"scheduling.ml" 37 1002 1037 "scheduling.ml" 37 1002 1047
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 37 1002 1006 "scheduling.ml" 37 1002 1047
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 38 1051 1057 "scheduling.ml" 38 1051 1071
+type(
+  (S.t -> Clocked_ast.c_expr -> S.t) -> S.t -> Clocked_ast.c_expr list -> S.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"scheduling.ml" 38 1051 1072 "scheduling.ml" 38 1051 1087
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 38 1051 1088 "scheduling.ml" 38 1051 1089
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 579 603 "scheduling.ml" 24 579 604
+)
+"scheduling.ml" 38 1051 1090 "scheduling.ml" 38 1051 1091
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref l "scheduling.ml" 37 1002 1016 "scheduling.ml" 37 1002 1017
+)
+"scheduling.ml" 38 1051 1057 "scheduling.ml" 38 1051 1091
+type(
+  S.t
+)
+"scheduling.ml" 39 1092 1105 "scheduling.ml" 39 1092 1106
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def l "scheduling.ml" 39 1092 1110 "scheduling.ml" 39 1092 1144
+)
+"scheduling.ml" 39 1092 1096 "scheduling.ml" 39 1092 1106
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 39 1092 1110 "scheduling.ml" 39 1092 1124
+type(
+  (S.t -> Clocked_ast.c_expr -> S.t) -> S.t -> Clocked_ast.c_expr list -> S.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"scheduling.ml" 39 1092 1125 "scheduling.ml" 39 1092 1140
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 39 1092 1141 "scheduling.ml" 39 1092 1142
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 579 603 "scheduling.ml" 24 579 604
+)
+"scheduling.ml" 39 1092 1143 "scheduling.ml" 39 1092 1144
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref l "scheduling.ml" 39 1092 1105 "scheduling.ml" 39 1092 1106
+)
+"scheduling.ml" 39 1092 1110 "scheduling.ml" 39 1092 1144
+type(
+  S.t
+)
+"scheduling.ml" 40 1145 1158 "scheduling.ml" 40 1145 1160
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "scheduling.ml" 41 1173 1179 "scheduling.ml" 42 1211 1237
+)
+"scheduling.ml" 40 1145 1162 "scheduling.ml" 40 1145 1163
+type(
+  Asttypes.const
+)
+ident(
+  def c "scheduling.ml" 41 1173 1179 "scheduling.ml" 42 1211 1237
+)
+"scheduling.ml" 40 1145 1165 "scheduling.ml" 40 1145 1167
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "scheduling.ml" 41 1173 1179 "scheduling.ml" 42 1211 1237
+)
+"scheduling.ml" 40 1145 1149 "scheduling.ml" 40 1145 1168
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 41 1173 1183 "scheduling.ml" 41 1173 1184
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 42 1211 1217 "scheduling.ml" 42 1211 1237
+)
+"scheduling.ml" 41 1173 1187 "scheduling.ml" 41 1173 1202
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 41 1173 1203 "scheduling.ml" 41 1173 1204
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 579 603 "scheduling.ml" 24 579 604
+)
+"scheduling.ml" 41 1173 1205 "scheduling.ml" 41 1173 1207
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "scheduling.ml" 40 1145 1158 "scheduling.ml" 40 1145 1160
+)
+"scheduling.ml" 41 1173 1187 "scheduling.ml" 41 1173 1207
+type(
+  S.t
+)
+"scheduling.ml" 42 1211 1217 "scheduling.ml" 42 1211 1232
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 42 1211 1233 "scheduling.ml" 42 1211 1234
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 41 1173 1183 "scheduling.ml" 41 1173 1184
+)
+"scheduling.ml" 42 1211 1235 "scheduling.ml" 42 1211 1237
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "scheduling.ml" 40 1145 1165 "scheduling.ml" 40 1145 1167
+)
+"scheduling.ml" 42 1211 1217 "scheduling.ml" 42 1211 1237
+type(
+  S.t
+)
+"scheduling.ml" 41 1173 1179 "scheduling.ml" 42 1211 1237
+type(
+  S.t
+)
+"scheduling.ml" 43 1238 1252 "scheduling.ml" 43 1238 1253
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "scheduling.ml" 44 1269 1275 "scheduling.ml" 45 1306 1375
+)
+"scheduling.ml" 43 1238 1255 "scheduling.ml" 43 1238 1263
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  def c_e_list "scheduling.ml" 44 1269 1275 "scheduling.ml" 45 1306 1375
+)
+"scheduling.ml" 43 1238 1242 "scheduling.ml" 43 1238 1264
+type(
+  Clocked_ast.c_expr_desc
+)
+"scheduling.ml" 44 1269 1279 "scheduling.ml" 44 1269 1280
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 45 1306 1312 "scheduling.ml" 45 1306 1375
+)
+"scheduling.ml" 44 1269 1283 "scheduling.ml" 44 1269 1298
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 44 1269 1299 "scheduling.ml" 44 1269 1300
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 24 579 603 "scheduling.ml" 24 579 604
+)
+"scheduling.ml" 44 1269 1301 "scheduling.ml" 44 1269 1302
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "scheduling.ml" 43 1238 1252 "scheduling.ml" 43 1238 1253
+)
+"scheduling.ml" 44 1269 1283 "scheduling.ml" 44 1269 1302
+type(
+  S.t
+)
+"scheduling.ml" 45 1306 1312 "scheduling.ml" 45 1306 1326
+type(
+  (S.t -> Asttypes.const * Clocked_ast.c_expr -> S.t) ->
+  S.t -> (Asttypes.const * Clocked_ast.c_expr) list -> S.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"scheduling.ml" 45 1306 1332 "scheduling.ml" 45 1306 1333
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 45 1306 1334 "scheduling.ml" 45 1306 1363
+)
+"scheduling.ml" 45 1306 1335 "scheduling.ml" 45 1306 1336
+type(
+  Asttypes.const
+)
+"scheduling.ml" 45 1306 1338 "scheduling.ml" 45 1306 1339
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "scheduling.ml" 45 1306 1344 "scheduling.ml" 45 1306 1363
+)
+"scheduling.ml" 45 1306 1334 "scheduling.ml" 45 1306 1340
+type(
+  Asttypes.const * Clocked_ast.c_expr
+)
+"scheduling.ml" 45 1306 1344 "scheduling.ml" 45 1306 1359
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 45 1306 1360 "scheduling.ml" 45 1306 1361
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 45 1306 1332 "scheduling.ml" 45 1306 1333
+)
+"scheduling.ml" 45 1306 1362 "scheduling.ml" 45 1306 1363
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "scheduling.ml" 45 1306 1338 "scheduling.ml" 45 1306 1339
+)
+"scheduling.ml" 45 1306 1344 "scheduling.ml" 45 1306 1363
+type(
+  S.t
+)
+"scheduling.ml" 45 1306 1327 "scheduling.ml" 45 1306 1364
+type(
+  S.t -> Asttypes.const * Clocked_ast.c_expr -> S.t
+)
+"scheduling.ml" 45 1306 1365 "scheduling.ml" 45 1306 1366
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 44 1269 1279 "scheduling.ml" 44 1269 1280
+)
+"scheduling.ml" 45 1306 1367 "scheduling.ml" 45 1306 1375
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  int_ref c_e_list "scheduling.ml" 43 1238 1255 "scheduling.ml" 43 1238 1263
+)
+"scheduling.ml" 45 1306 1312 "scheduling.ml" 45 1306 1375
+type(
+  S.t
+)
+"scheduling.ml" 44 1269 1275 "scheduling.ml" 45 1306 1375
+type(
+  S.t
+)
+"scheduling.ml" 25 622 624 "scheduling.ml" 45 1306 1375
+type(
+  S.t
+)
+"scheduling.ml" 48 1378 1382 "scheduling.ml" 48 1378 1395
+type(
+  (S.elt * 'a * 'b) list ->
+  Clocked_ast.c_equation list -> Clocked_ast.c_equation list
+)
+ident(
+  def schedule_equs "scheduling.ml" 91 2580 2580 "scheduling.ml" 0 0 -1
+)
+"scheduling.ml" 48 1378 1396 "scheduling.ml" 48 1378 1402
+type(
+  (S.elt * 'a * 'b) list
+)
+ident(
+  def inputs "scheduling.ml" 48 1378 1403 "scheduling.ml" 89 2560 2578
+)
+"scheduling.ml" 48 1378 1403 "scheduling.ml" 48 1378 1407
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  def equs "scheduling.ml" 50 1477 1479 "scheduling.ml" 89 2560 2578
+)
+"scheduling.ml" 50 1477 1483 "scheduling.ml" 50 1477 1484
+type(
+  Graph.t
+)
+ident(
+  def g "scheduling.ml" 59 1755 1757 "scheduling.ml" 89 2560 2578
+)
+"scheduling.ml" 51 1487 1491 "scheduling.ml" 51 1487 1505
+type(
+  (Graph.t -> Clocked_ast.c_equation -> Graph.t) ->
+  Graph.t -> Clocked_ast.c_equation list -> Graph.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"scheduling.ml" 52 1506 1517 "scheduling.ml" 52 1506 1518
+type(
+  Graph.t
+)
+ident(
+  def g "scheduling.ml" 52 1506 1519 "scheduling.ml" 55 1626 1674
+)
+"scheduling.ml" 52 1506 1519 "scheduling.ml" 52 1506 1521
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  def eq "scheduling.ml" 53 1525 1527 "scheduling.ml" 55 1626 1674
+)
+"scheduling.ml" 53 1525 1531 "scheduling.ml" 53 1525 1533
+type(
+  S.t
+)
+ident(
+  def vp "scheduling.ml" 54 1576 1578 "scheduling.ml" 55 1626 1674
+)
+"scheduling.ml" 53 1525 1536 "scheduling.ml" 53 1525 1552
+type(
+  S.t -> Clocked_ast.c_patt -> S.t
+)
+ident(
+  int_ref add_vars_of_patt "scheduling.ml" 18 370 374 "scheduling.ml" 18 370 390
+)
+"scheduling.ml" 53 1525 1553 "scheduling.ml" 53 1525 1560
+type(
+  S.t
+)
+ident(
+  int_ref S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"scheduling.ml" 53 1525 1561 "scheduling.ml" 53 1525 1563
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref eq "scheduling.ml" 52 1506 1519 "scheduling.ml" 52 1506 1521
+)
+"scheduling.ml" 53 1525 1561 "scheduling.ml" 53 1525 1572
+type(
+  Clocked_ast.c_patt
+)
+"scheduling.ml" 53 1525 1536 "scheduling.ml" 53 1525 1572
+type(
+  S.t
+)
+"scheduling.ml" 54 1576 1582 "scheduling.ml" 54 1576 1584
+type(
+  S.t
+)
+ident(
+  def ve "scheduling.ml" 55 1626 1628 "scheduling.ml" 55 1626 1674
+)
+"scheduling.ml" 54 1576 1587 "scheduling.ml" 54 1576 1602
+type(
+  S.t -> Clocked_ast.c_expr -> S.t
+)
+ident(
+  int_ref add_vars_of_exp "scheduling.ml" 24 579 587 "scheduling.ml" 24 579 602
+)
+"scheduling.ml" 54 1576 1603 "scheduling.ml" 54 1576 1610
+type(
+  S.t
+)
+ident(
+  int_ref S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"scheduling.ml" 54 1576 1611 "scheduling.ml" 54 1576 1613
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref eq "scheduling.ml" 52 1506 1519 "scheduling.ml" 52 1506 1521
+)
+"scheduling.ml" 54 1576 1611 "scheduling.ml" 54 1576 1622
+type(
+  Clocked_ast.c_expr
+)
+"scheduling.ml" 54 1576 1587 "scheduling.ml" 54 1576 1622
+type(
+  S.t
+)
+"scheduling.ml" 55 1626 1628 "scheduling.ml" 55 1626 1634
+type(
+  (S.elt -> Graph.t -> Graph.t) -> S.t -> Graph.t -> Graph.t
+)
+ident(
+  int_ref S.fold "set.mli" 138 5167 5171 "set.mli" 138 5167 5215
+)
+"scheduling.ml" 55 1626 1640 "scheduling.ml" 55 1626 1641
+type(
+  S.elt
+)
+ident(
+  def x "scheduling.ml" 55 1626 1642 "scheduling.ml" 55 1626 1668
+)
+"scheduling.ml" 55 1626 1642 "scheduling.ml" 55 1626 1643
+type(
+  Graph.t
+)
+ident(
+  def g "scheduling.ml" 55 1626 1647 "scheduling.ml" 55 1626 1668
+)
+"scheduling.ml" 55 1626 1647 "scheduling.ml" 55 1626 1656
+type(
+  Graph.elt -> Graph.t -> Graph.t
+)
+ident(
+  int_ref Graph.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"scheduling.ml" 55 1626 1658 "scheduling.ml" 55 1626 1659
+type(
+  S.elt
+)
+ident(
+  int_ref x "scheduling.ml" 55 1626 1640 "scheduling.ml" 55 1626 1641
+)
+"scheduling.ml" 55 1626 1660 "scheduling.ml" 55 1626 1662
+type(
+  S.t
+)
+ident(
+  int_ref ve "scheduling.ml" 54 1576 1582 "scheduling.ml" 54 1576 1584
+)
+"scheduling.ml" 55 1626 1663 "scheduling.ml" 55 1626 1665
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref eq "scheduling.ml" 52 1506 1519 "scheduling.ml" 52 1506 1521
+)
+"scheduling.ml" 55 1626 1657 "scheduling.ml" 55 1626 1666
+type(
+  Graph.elt
+)
+"scheduling.ml" 55 1626 1667 "scheduling.ml" 55 1626 1668
+type(
+  Graph.t
+)
+ident(
+  int_ref g "scheduling.ml" 55 1626 1642 "scheduling.ml" 55 1626 1643
+)
+"scheduling.ml" 55 1626 1647 "scheduling.ml" 55 1626 1668
+type(
+  Graph.t
+)
+"scheduling.ml" 55 1626 1635 "scheduling.ml" 55 1626 1669
+type(
+  S.elt -> Graph.t -> Graph.t
+)
+"scheduling.ml" 55 1626 1670 "scheduling.ml" 55 1626 1672
+type(
+  S.t
+)
+ident(
+  int_ref vp "scheduling.ml" 53 1525 1531 "scheduling.ml" 53 1525 1533
+)
+"scheduling.ml" 55 1626 1673 "scheduling.ml" 55 1626 1674
+type(
+  Graph.t
+)
+ident(
+  int_ref g "scheduling.ml" 52 1506 1517 "scheduling.ml" 52 1506 1518
+)
+"scheduling.ml" 55 1626 1628 "scheduling.ml" 55 1626 1674
+type(
+  Graph.t
+)
+"scheduling.ml" 54 1576 1578 "scheduling.ml" 55 1626 1674
+type(
+  Graph.t
+)
+"scheduling.ml" 53 1525 1527 "scheduling.ml" 55 1626 1674
+type(
+  Graph.t
+)
+"scheduling.ml" 52 1506 1512 "scheduling.ml" 55 1626 1675
+type(
+  Graph.t -> Clocked_ast.c_equation -> Graph.t
+)
+"scheduling.ml" 56 1676 1682 "scheduling.ml" 56 1676 1693
+type(
+  Graph.t
+)
+ident(
+  int_ref Graph.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"scheduling.ml" 56 1676 1694 "scheduling.ml" 56 1676 1698
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  int_ref equs "scheduling.ml" 48 1378 1403 "scheduling.ml" 48 1378 1407
+)
+"scheduling.ml" 51 1487 1491 "scheduling.ml" 56 1676 1698
+type(
+  Graph.t
+)
+"scheduling.ml" 59 1755 1761 "scheduling.ml" 59 1755 1762
+type(
+  Graph.t
+)
+ident(
+  def g "scheduling.ml" 69 2007 2009 "scheduling.ml" 89 2560 2578
+)
+"scheduling.ml" 60 1765 1773 "scheduling.ml" 60 1765 1781
+type(
+  S.t
+)
+ident(
+  def s_inputs "scheduling.ml" 63 1862 1866 "scheduling.ml" 66 1946 1963
+)
+"scheduling.ml" 61 1784 1790 "scheduling.ml" 61 1784 1804
+type(
+  (S.t -> S.elt * 'a * 'b -> S.t) -> S.t -> (S.elt * 'a * 'b) list -> S.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"scheduling.ml" 61 1784 1810 "scheduling.ml" 61 1784 1813
+type(
+  S.t
+)
+ident(
+  def acc "scheduling.ml" 61 1784 1814 "scheduling.ml" 61 1784 1838
+)
+"scheduling.ml" 61 1784 1815 "scheduling.ml" 61 1784 1816
+type(
+  S.elt
+)
+ident(
+  def x "scheduling.ml" 61 1784 1827 "scheduling.ml" 61 1784 1838
+)
+"scheduling.ml" 61 1784 1818 "scheduling.ml" 61 1784 1819
+type(
+  'a
+)
+"scheduling.ml" 61 1784 1821 "scheduling.ml" 61 1784 1822
+type(
+  'b
+)
+"scheduling.ml" 61 1784 1814 "scheduling.ml" 61 1784 1823
+type(
+  S.elt * 'a * 'b
+)
+"scheduling.ml" 61 1784 1827 "scheduling.ml" 61 1784 1832
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  int_ref S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"scheduling.ml" 61 1784 1833 "scheduling.ml" 61 1784 1834
+type(
+  S.elt
+)
+ident(
+  int_ref x "scheduling.ml" 61 1784 1815 "scheduling.ml" 61 1784 1816
+)
+"scheduling.ml" 61 1784 1835 "scheduling.ml" 61 1784 1838
+type(
+  S.t
+)
+ident(
+  int_ref acc "scheduling.ml" 61 1784 1810 "scheduling.ml" 61 1784 1813
+)
+"scheduling.ml" 61 1784 1827 "scheduling.ml" 61 1784 1838
+type(
+  S.t
+)
+"scheduling.ml" 61 1784 1805 "scheduling.ml" 61 1784 1839
+type(
+  S.t -> S.elt * 'a * 'b -> S.t
+)
+"scheduling.ml" 61 1784 1840 "scheduling.ml" 61 1784 1847
+type(
+  S.t
+)
+ident(
+  int_ref S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"scheduling.ml" 61 1784 1848 "scheduling.ml" 61 1784 1854
+type(
+  (S.elt * 'a * 'b) list
+)
+ident(
+  int_ref inputs "scheduling.ml" 48 1378 1396 "scheduling.ml" 48 1378 1402
+)
+"scheduling.ml" 61 1784 1790 "scheduling.ml" 61 1784 1854
+type(
+  S.t
+)
+"scheduling.ml" 63 1862 1866 "scheduling.ml" 63 1862 1876
+type(
+  (Graph.elt -> Graph.t -> Graph.t) -> Graph.t -> Graph.t -> Graph.t
+)
+ident(
+  int_ref Graph.fold "set.mli" 138 5167 5171 "set.mli" 138 5167 5215
+)
+"scheduling.ml" 64 1877 1889 "scheduling.ml" 64 1877 1890
+type(
+  string
+)
+ident(
+  def y "scheduling.ml" 64 1877 1896 "scheduling.ml" 64 1877 1936
+)
+"scheduling.ml" 64 1877 1891 "scheduling.ml" 64 1877 1892
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 64 1877 1896 "scheduling.ml" 64 1877 1936
+)
+"scheduling.ml" 64 1877 1893 "scheduling.ml" 64 1877 1894
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  def e "scheduling.ml" 64 1877 1896 "scheduling.ml" 64 1877 1936
+)
+"scheduling.ml" 64 1877 1888 "scheduling.ml" 64 1877 1895
+type(
+  string * S.t * Clocked_ast.c_equation
+)
+"scheduling.ml" 64 1877 1896 "scheduling.ml" 64 1877 1897
+type(
+  Graph.t
+)
+ident(
+  def g "scheduling.ml" 64 1877 1901 "scheduling.ml" 64 1877 1936
+)
+"scheduling.ml" 64 1877 1901 "scheduling.ml" 64 1877 1910
+type(
+  Graph.elt -> Graph.t -> Graph.t
+)
+ident(
+  int_ref Graph.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"scheduling.ml" 64 1877 1912 "scheduling.ml" 64 1877 1913
+type(
+  string
+)
+ident(
+  int_ref y "scheduling.ml" 64 1877 1889 "scheduling.ml" 64 1877 1890
+)
+"scheduling.ml" 64 1877 1914 "scheduling.ml" 64 1877 1920
+type(
+  S.t -> S.t -> S.t
+)
+ident(
+  int_ref S.diff "set.mli" 105 3885 3889 "set.mli" 105 3885 3910
+)
+"scheduling.ml" 64 1877 1921 "scheduling.ml" 64 1877 1922
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 64 1877 1891 "scheduling.ml" 64 1877 1892
+)
+"scheduling.ml" 64 1877 1923 "scheduling.ml" 64 1877 1931
+type(
+  S.t
+)
+ident(
+  int_ref s_inputs "scheduling.ml" 60 1765 1773 "scheduling.ml" 60 1765 1781
+)
+"scheduling.ml" 64 1877 1914 "scheduling.ml" 64 1877 1931
+type(
+  S.t
+)
+"scheduling.ml" 64 1877 1932 "scheduling.ml" 64 1877 1933
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref e "scheduling.ml" 64 1877 1893 "scheduling.ml" 64 1877 1894
+)
+"scheduling.ml" 64 1877 1911 "scheduling.ml" 64 1877 1934
+type(
+  Graph.elt
+)
+"scheduling.ml" 64 1877 1935 "scheduling.ml" 64 1877 1936
+type(
+  Graph.t
+)
+ident(
+  int_ref g "scheduling.ml" 64 1877 1896 "scheduling.ml" 64 1877 1897
+)
+"scheduling.ml" 64 1877 1901 "scheduling.ml" 64 1877 1936
+type(
+  Graph.t
+)
+"scheduling.ml" 64 1877 1883 "scheduling.ml" 64 1877 1937
+type(
+  Graph.elt -> Graph.t -> Graph.t
+)
+"scheduling.ml" 65 1938 1944 "scheduling.ml" 65 1938 1945
+type(
+  Graph.t
+)
+ident(
+  int_ref g "scheduling.ml" 50 1477 1483 "scheduling.ml" 50 1477 1484
+)
+"scheduling.ml" 66 1946 1952 "scheduling.ml" 66 1946 1963
+type(
+  Graph.t
+)
+ident(
+  int_ref Graph.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"scheduling.ml" 63 1862 1866 "scheduling.ml" 66 1946 1963
+type(
+  Graph.t
+)
+"scheduling.ml" 60 1765 1769 "scheduling.ml" 66 1946 1963
+type(
+  Graph.t
+)
+"scheduling.ml" 69 2007 2017 "scheduling.ml" 69 2007 2028
+type(
+  Clocked_ast.c_equation list -> Graph.t -> Clocked_ast.c_equation list
+)
+ident(
+  def exists_loop "scheduling.ml" 69 2007 2009 "scheduling.ml" 89 2560 2578
+)
+"scheduling.ml" 69 2007 2029 "scheduling.ml" 69 2007 2033
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  def topo "scheduling.ml" 69 2007 2034 "scheduling.ml" 87 2530 2554
+)
+"scheduling.ml" 69 2007 2034 "scheduling.ml" 69 2007 2035
+type(
+  Graph.t
+)
+ident(
+  def g "scheduling.ml" 70 2038 2042 "scheduling.ml" 87 2530 2554
+)
+"scheduling.ml" 70 2038 2045 "scheduling.ml" 70 2038 2059
+type(
+  Graph.t -> bool
+)
+ident(
+  int_ref Graph.is_empty "set.mli" 74 2825 2829 "set.mli" 74 2825 2852
+)
+"scheduling.ml" 70 2038 2060 "scheduling.ml" 70 2038 2061
+type(
+  Graph.t
+)
+ident(
+  int_ref g "scheduling.ml" 69 2007 2034 "scheduling.ml" 69 2007 2035
+)
+"scheduling.ml" 70 2038 2045 "scheduling.ml" 70 2038 2061
+type(
+  bool
+)
+"scheduling.ml" 70 2038 2067 "scheduling.ml" 70 2038 2075
+type(
+  Clocked_ast.c_equation list -> Clocked_ast.c_equation list
+)
+ident(
+  int_ref Stdlib.List.rev "list.mli" 76 3214 3214 "list.mli" 76 3214 3242
+)
+"scheduling.ml" 70 2038 2076 "scheduling.ml" 70 2038 2080
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  int_ref topo "scheduling.ml" 69 2007 2029 "scheduling.ml" 69 2007 2033
+)
+"scheduling.ml" 70 2038 2067 "scheduling.ml" 70 2038 2080
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 72 2090 2100 "scheduling.ml" 72 2090 2102
+type(
+  Graph.t
+)
+ident(
+  def g1 "scheduling.ml" 73 2161 2167 "scheduling.ml" 87 2530 2554
+)
+"scheduling.ml" 72 2090 2105 "scheduling.ml" 72 2090 2107
+type(
+  Graph.t
+)
+ident(
+  def g2 "scheduling.ml" 73 2161 2167 "scheduling.ml" 87 2530 2554
+)
+"scheduling.ml" 72 2090 2100 "scheduling.ml" 72 2090 2107
+type(
+  Graph.t * Graph.t
+)
+"scheduling.ml" 72 2090 2110 "scheduling.ml" 72 2090 2125
+type(
+  (Graph.elt -> bool) -> Graph.t -> Graph.t * Graph.t
+)
+ident(
+  int_ref Graph.partition "set.mli" 157 5972 5976 "set.mli" 157 5972 6018
+)
+"scheduling.ml" 72 2090 2132 "scheduling.ml" 72 2090 2133
+type(
+  string
+)
+"scheduling.ml" 72 2090 2134 "scheduling.ml" 72 2090 2135
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 72 2090 2142 "scheduling.ml" 72 2090 2154
+)
+"scheduling.ml" 72 2090 2136 "scheduling.ml" 72 2090 2137
+type(
+  Clocked_ast.c_equation
+)
+"scheduling.ml" 72 2090 2131 "scheduling.ml" 72 2090 2138
+type(
+  string * S.t * Clocked_ast.c_equation
+)
+"scheduling.ml" 72 2090 2142 "scheduling.ml" 72 2090 2152
+type(
+  S.t -> bool
+)
+ident(
+  int_ref S.is_empty "set.mli" 74 2825 2829 "set.mli" 74 2825 2852
+)
+"scheduling.ml" 72 2090 2153 "scheduling.ml" 72 2090 2154
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 72 2090 2134 "scheduling.ml" 72 2090 2135
+)
+"scheduling.ml" 72 2090 2142 "scheduling.ml" 72 2090 2154
+type(
+  bool
+)
+"scheduling.ml" 72 2090 2126 "scheduling.ml" 72 2090 2155
+type(
+  Graph.elt -> bool
+)
+"scheduling.ml" 72 2090 2156 "scheduling.ml" 72 2090 2157
+type(
+  Graph.t
+)
+ident(
+  int_ref g "scheduling.ml" 69 2007 2034 "scheduling.ml" 69 2007 2035
+)
+"scheduling.ml" 72 2090 2110 "scheduling.ml" 72 2090 2157
+type(
+  Graph.t * Graph.t
+)
+"scheduling.ml" 73 2161 2170 "scheduling.ml" 73 2161 2184
+type(
+  Graph.t -> bool
+)
+ident(
+  int_ref Graph.is_empty "set.mli" 74 2825 2829 "set.mli" 74 2825 2852
+)
+"scheduling.ml" 73 2161 2185 "scheduling.ml" 73 2161 2187
+type(
+  Graph.t
+)
+ident(
+  int_ref g1 "scheduling.ml" 72 2090 2100 "scheduling.ml" 72 2090 2102
+)
+"scheduling.ml" 73 2161 2170 "scheduling.ml" 73 2161 2187
+type(
+  bool
+)
+"scheduling.ml" 73 2161 2193 "scheduling.ml" 73 2161 2198
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"scheduling.ml" 73 2161 2199 "scheduling.ml" 73 2161 2208
+type(
+  exn
+)
+"scheduling.ml" 73 2161 2193 "scheduling.ml" 73 2161 2208
+type(
+  unit
+)
+"scheduling.ml" 73 2161 2167 "scheduling.ml" 73 2161 2208
+type(
+  unit
+)
+"scheduling.ml" 74 2210 2220 "scheduling.ml" 74 2210 2222
+type(
+  S.t
+)
+ident(
+  def sv "scheduling.ml" 77 2293 2299 "scheduling.ml" 87 2530 2554
+)
+"scheduling.ml" 75 2225 2233 "scheduling.ml" 75 2225 2243
+type(
+  (Graph.elt -> S.t -> S.t) -> Graph.t -> S.t -> S.t
+)
+ident(
+  int_ref Graph.fold "set.mli" 138 5167 5171 "set.mli" 138 5167 5215
+)
+"scheduling.ml" 75 2225 2250 "scheduling.ml" 75 2225 2251
+type(
+  S.elt
+)
+ident(
+  def x "scheduling.ml" 75 2225 2257 "scheduling.ml" 75 2225 2271
+)
+"scheduling.ml" 75 2225 2252 "scheduling.ml" 75 2225 2253
+type(
+  S.t
+)
+"scheduling.ml" 75 2225 2254 "scheduling.ml" 75 2225 2255
+type(
+  Clocked_ast.c_equation
+)
+"scheduling.ml" 75 2225 2249 "scheduling.ml" 75 2225 2256
+type(
+  S.elt * S.t * Clocked_ast.c_equation
+)
+"scheduling.ml" 75 2225 2257 "scheduling.ml" 75 2225 2258
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 75 2225 2262 "scheduling.ml" 75 2225 2271
+)
+"scheduling.ml" 75 2225 2262 "scheduling.ml" 75 2225 2267
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  int_ref S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"scheduling.ml" 75 2225 2268 "scheduling.ml" 75 2225 2269
+type(
+  S.elt
+)
+ident(
+  int_ref x "scheduling.ml" 75 2225 2250 "scheduling.ml" 75 2225 2251
+)
+"scheduling.ml" 75 2225 2270 "scheduling.ml" 75 2225 2271
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 75 2225 2257 "scheduling.ml" 75 2225 2258
+)
+"scheduling.ml" 75 2225 2262 "scheduling.ml" 75 2225 2271
+type(
+  S.t
+)
+"scheduling.ml" 75 2225 2244 "scheduling.ml" 75 2225 2272
+type(
+  Graph.elt -> S.t -> S.t
+)
+"scheduling.ml" 75 2225 2273 "scheduling.ml" 75 2225 2275
+type(
+  Graph.t
+)
+ident(
+  int_ref g1 "scheduling.ml" 72 2090 2100 "scheduling.ml" 72 2090 2102
+)
+"scheduling.ml" 75 2225 2276 "scheduling.ml" 75 2225 2283
+type(
+  S.t
+)
+ident(
+  int_ref S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"scheduling.ml" 75 2225 2233 "scheduling.ml" 75 2225 2283
+type(
+  S.t
+)
+"scheduling.ml" 77 2293 2303 "scheduling.ml" 77 2293 2304
+type(
+  Graph.t
+)
+ident(
+  def g "scheduling.ml" 82 2412 2418 "scheduling.ml" 87 2530 2554
+)
+"scheduling.ml" 78 2307 2308 "scheduling.ml" 78 2307 2318
+type(
+  (Graph.elt -> Graph.t -> Graph.t) -> Graph.t -> Graph.t -> Graph.t
+)
+ident(
+  int_ref Graph.fold "set.mli" 138 5167 5171 "set.mli" 138 5167 5215
+)
+"scheduling.ml" 79 2319 2335 "scheduling.ml" 79 2319 2336
+type(
+  string
+)
+ident(
+  def y "scheduling.ml" 79 2319 2342 "scheduling.ml" 79 2319 2376
+)
+"scheduling.ml" 79 2319 2337 "scheduling.ml" 79 2319 2338
+type(
+  S.t
+)
+ident(
+  def s "scheduling.ml" 79 2319 2342 "scheduling.ml" 79 2319 2376
+)
+"scheduling.ml" 79 2319 2339 "scheduling.ml" 79 2319 2340
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  def e "scheduling.ml" 79 2319 2342 "scheduling.ml" 79 2319 2376
+)
+"scheduling.ml" 79 2319 2334 "scheduling.ml" 79 2319 2341
+type(
+  string * S.t * Clocked_ast.c_equation
+)
+"scheduling.ml" 79 2319 2342 "scheduling.ml" 79 2319 2343
+type(
+  Graph.t
+)
+ident(
+  def g "scheduling.ml" 79 2319 2347 "scheduling.ml" 79 2319 2376
+)
+"scheduling.ml" 79 2319 2347 "scheduling.ml" 79 2319 2356
+type(
+  Graph.elt -> Graph.t -> Graph.t
+)
+ident(
+  int_ref Graph.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"scheduling.ml" 79 2319 2358 "scheduling.ml" 79 2319 2359
+type(
+  string
+)
+ident(
+  int_ref y "scheduling.ml" 79 2319 2335 "scheduling.ml" 79 2319 2336
+)
+"scheduling.ml" 79 2319 2360 "scheduling.ml" 79 2319 2366
+type(
+  S.t -> S.t -> S.t
+)
+ident(
+  int_ref S.diff "set.mli" 105 3885 3889 "set.mli" 105 3885 3910
+)
+"scheduling.ml" 79 2319 2367 "scheduling.ml" 79 2319 2368
+type(
+  S.t
+)
+ident(
+  int_ref s "scheduling.ml" 79 2319 2337 "scheduling.ml" 79 2319 2338
+)
+"scheduling.ml" 79 2319 2369 "scheduling.ml" 79 2319 2371
+type(
+  S.t
+)
+ident(
+  int_ref sv "scheduling.ml" 74 2210 2220 "scheduling.ml" 74 2210 2222
+)
+"scheduling.ml" 79 2319 2360 "scheduling.ml" 79 2319 2371
+type(
+  S.t
+)
+"scheduling.ml" 79 2319 2372 "scheduling.ml" 79 2319 2373
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref e "scheduling.ml" 79 2319 2339 "scheduling.ml" 79 2319 2340
+)
+"scheduling.ml" 79 2319 2357 "scheduling.ml" 79 2319 2374
+type(
+  Graph.elt
+)
+"scheduling.ml" 79 2319 2375 "scheduling.ml" 79 2319 2376
+type(
+  Graph.t
+)
+ident(
+  int_ref g "scheduling.ml" 79 2319 2342 "scheduling.ml" 79 2319 2343
+)
+"scheduling.ml" 79 2319 2347 "scheduling.ml" 79 2319 2376
+type(
+  Graph.t
+)
+"scheduling.ml" 79 2319 2329 "scheduling.ml" 79 2319 2377
+type(
+  Graph.elt -> Graph.t -> Graph.t
+)
+"scheduling.ml" 80 2378 2388 "scheduling.ml" 80 2378 2390
+type(
+  Graph.t
+)
+ident(
+  int_ref g2 "scheduling.ml" 72 2090 2105 "scheduling.ml" 72 2090 2107
+)
+"scheduling.ml" 80 2378 2391 "scheduling.ml" 80 2378 2402
+type(
+  Graph.t
+)
+ident(
+  int_ref Graph.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"scheduling.ml" 78 2307 2308 "scheduling.ml" 80 2378 2402
+type(
+  Graph.t
+)
+"scheduling.ml" 82 2412 2422 "scheduling.ml" 82 2412 2426
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  def topo "scheduling.ml" 87 2530 2536 "scheduling.ml" 87 2530 2554
+)
+"scheduling.ml" 83 2429 2430 "scheduling.ml" 83 2429 2440
+type(
+  (Graph.elt -> Clocked_ast.c_equation list -> Clocked_ast.c_equation list) ->
+  Graph.t -> Clocked_ast.c_equation list -> Clocked_ast.c_equation list
+)
+ident(
+  int_ref Graph.fold "set.mli" 138 5167 5171 "set.mli" 138 5167 5215
+)
+"scheduling.ml" 84 2441 2457 "scheduling.ml" 84 2441 2458
+type(
+  string
+)
+"scheduling.ml" 84 2441 2459 "scheduling.ml" 84 2441 2460
+type(
+  S.t
+)
+"scheduling.ml" 84 2441 2461 "scheduling.ml" 84 2441 2462
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  def e "scheduling.ml" 84 2441 2464 "scheduling.ml" 84 2441 2501
+)
+"scheduling.ml" 84 2441 2456 "scheduling.ml" 84 2441 2463
+type(
+  string * S.t * Clocked_ast.c_equation
+)
+"scheduling.ml" 84 2441 2464 "scheduling.ml" 84 2441 2465
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  def l "scheduling.ml" 84 2441 2469 "scheduling.ml" 84 2441 2501
+)
+"scheduling.ml" 84 2441 2472 "scheduling.ml" 84 2441 2480
+type(
+  Clocked_ast.c_equation -> Clocked_ast.c_equation list -> bool
+)
+ident(
+  int_ref Stdlib.List.mem "list.mli" 209 8022 8022 "list.mli" 209 8022 8053
+)
+"scheduling.ml" 84 2441 2481 "scheduling.ml" 84 2441 2482
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref e "scheduling.ml" 84 2441 2461 "scheduling.ml" 84 2441 2462
+)
+"scheduling.ml" 84 2441 2483 "scheduling.ml" 84 2441 2484
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  int_ref l "scheduling.ml" 84 2441 2464 "scheduling.ml" 84 2441 2465
+)
+"scheduling.ml" 84 2441 2472 "scheduling.ml" 84 2441 2484
+type(
+  bool
+)
+"scheduling.ml" 84 2441 2490 "scheduling.ml" 84 2441 2491
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  int_ref l "scheduling.ml" 84 2441 2464 "scheduling.ml" 84 2441 2465
+)
+"scheduling.ml" 84 2441 2497 "scheduling.ml" 84 2441 2498
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref e "scheduling.ml" 84 2441 2461 "scheduling.ml" 84 2441 2462
+)
+"scheduling.ml" 84 2441 2500 "scheduling.ml" 84 2441 2501
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  int_ref l "scheduling.ml" 84 2441 2464 "scheduling.ml" 84 2441 2465
+)
+"scheduling.ml" 84 2441 2497 "scheduling.ml" 84 2441 2501
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 84 2441 2469 "scheduling.ml" 84 2441 2501
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 84 2441 2451 "scheduling.ml" 84 2441 2502
+type(
+  Graph.elt -> Clocked_ast.c_equation list -> Clocked_ast.c_equation list
+)
+"scheduling.ml" 85 2503 2513 "scheduling.ml" 85 2503 2515
+type(
+  Graph.t
+)
+ident(
+  int_ref g1 "scheduling.ml" 72 2090 2100 "scheduling.ml" 72 2090 2102
+)
+"scheduling.ml" 85 2503 2516 "scheduling.ml" 85 2503 2520
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  int_ref topo "scheduling.ml" 69 2007 2029 "scheduling.ml" 69 2007 2033
+)
+"scheduling.ml" 83 2429 2430 "scheduling.ml" 85 2503 2520
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 87 2530 2536 "scheduling.ml" 87 2530 2547
+type(
+  Clocked_ast.c_equation list -> Graph.t -> Clocked_ast.c_equation list
+)
+ident(
+  int_ref exists_loop "scheduling.ml" 69 2007 2017 "scheduling.ml" 69 2007 2028
+)
+"scheduling.ml" 87 2530 2548 "scheduling.ml" 87 2530 2552
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  int_ref topo "scheduling.ml" 82 2412 2422 "scheduling.ml" 82 2412 2426
+)
+"scheduling.ml" 87 2530 2553 "scheduling.ml" 87 2530 2554
+type(
+  Graph.t
+)
+ident(
+  int_ref g "scheduling.ml" 77 2293 2303 "scheduling.ml" 77 2293 2304
+)
+"scheduling.ml" 87 2530 2536 "scheduling.ml" 87 2530 2554
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 82 2412 2418 "scheduling.ml" 87 2530 2554
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 77 2293 2299 "scheduling.ml" 87 2530 2554
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 74 2210 2216 "scheduling.ml" 87 2530 2554
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 73 2161 2167 "scheduling.ml" 87 2530 2554
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 72 2090 2096 "scheduling.ml" 87 2530 2554
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 70 2038 2042 "scheduling.ml" 87 2530 2554
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 89 2560 2562 "scheduling.ml" 89 2560 2573
+type(
+  Clocked_ast.c_equation list -> Graph.t -> Clocked_ast.c_equation list
+)
+ident(
+  int_ref exists_loop "scheduling.ml" 69 2007 2017 "scheduling.ml" 69 2007 2028
+)
+"scheduling.ml" 89 2560 2574 "scheduling.ml" 89 2560 2576
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 89 2560 2577 "scheduling.ml" 89 2560 2578
+type(
+  Graph.t
+)
+ident(
+  int_ref g "scheduling.ml" 59 1755 1761 "scheduling.ml" 59 1755 1762
+)
+"scheduling.ml" 89 2560 2562 "scheduling.ml" 89 2560 2578
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 69 2007 2009 "scheduling.ml" 89 2560 2578
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 59 1755 1757 "scheduling.ml" 89 2560 2578
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 50 1477 1479 "scheduling.ml" 89 2560 2578
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 91 2580 2584 "scheduling.ml" 91 2580 2597
+type(
+  Clocked_ast.c_node -> Clocked_ast.c_node
+)
+ident(
+  def schedule_node "scheduling.ml" 95 2683 2683 "scheduling.ml" 0 0 -1
+)
+"scheduling.ml" 91 2580 2598 "scheduling.ml" 91 2580 2599
+type(
+  Clocked_ast.c_node
+)
+ident(
+  def n "scheduling.ml" 92 2602 2604 "scheduling.ml" 93 2653 2681
+)
+"scheduling.ml" 92 2602 2608 "scheduling.ml" 92 2602 2612
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  def equs "scheduling.ml" 93 2653 2655 "scheduling.ml" 93 2653 2681
+)
+"scheduling.ml" 92 2602 2615 "scheduling.ml" 92 2602 2628
+type(
+  Clocked_ast.typed_clocked_var list ->
+  Clocked_ast.c_equation list -> Clocked_ast.c_equation list
+)
+ident(
+  int_ref schedule_equs "scheduling.ml" 48 1378 1382 "scheduling.ml" 48 1378 1395
+)
+"scheduling.ml" 92 2602 2629 "scheduling.ml" 92 2602 2630
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref n "scheduling.ml" 91 2580 2598 "scheduling.ml" 91 2580 2599
+)
+"scheduling.ml" 92 2602 2629 "scheduling.ml" 92 2602 2639
+type(
+  Clocked_ast.typed_clocked_var list
+)
+"scheduling.ml" 92 2602 2640 "scheduling.ml" 92 2602 2641
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref n "scheduling.ml" 91 2580 2598 "scheduling.ml" 91 2580 2599
+)
+"scheduling.ml" 92 2602 2640 "scheduling.ml" 92 2602 2649
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 92 2602 2615 "scheduling.ml" 92 2602 2649
+type(
+  Clocked_ast.c_equation list
+)
+"scheduling.ml" 93 2653 2657 "scheduling.ml" 93 2653 2658
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref n "scheduling.ml" 91 2580 2598 "scheduling.ml" 91 2580 2599
+)
+"scheduling.ml" 93 2653 2674 "scheduling.ml" 93 2653 2678
+type(
+  Clocked_ast.c_equation list
+)
+ident(
+  int_ref equs "scheduling.ml" 92 2602 2608 "scheduling.ml" 92 2602 2612
+)
+"scheduling.ml" 93 2653 2655 "scheduling.ml" 93 2653 2681
+type(
+  Clocked_ast.c_node
+)
+"scheduling.ml" 92 2602 2604 "scheduling.ml" 93 2653 2681
+type(
+  Clocked_ast.c_node
+)
+"scheduling.ml" 95 2683 2687 "scheduling.ml" 95 2683 2695
+type(
+  Clocked_ast.c_node list -> Clocked_ast.c_node list
+)
+ident(
+  def schedule "scheduling.ml" 96 2698 2722 "scheduling.ml" 0 0 -1
+)
+"scheduling.ml" 96 2698 2700 "scheduling.ml" 96 2698 2708
+type(
+  (Clocked_ast.c_node -> Clocked_ast.c_node) ->
+  Clocked_ast.c_node list -> Clocked_ast.c_node list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 120 4625 4625 "list.mli" 120 4625 4667
+)
+"scheduling.ml" 96 2698 2709 "scheduling.ml" 96 2698 2722
+type(
+  Clocked_ast.c_node -> Clocked_ast.c_node
+)
+ident(
+  int_ref schedule_node "scheduling.ml" 91 2580 2584 "scheduling.ml" 91 2580 2597
+)
+"scheduling.ml" 96 2698 2700 "scheduling.ml" 96 2698 2722
+type(
+  Clocked_ast.c_node list -> Clocked_ast.c_node list
+)

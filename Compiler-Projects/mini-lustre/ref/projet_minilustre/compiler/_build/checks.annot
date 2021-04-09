@@ -1,0 +1,2179 @@
+"checks.ml" 12 173 177 "checks.ml" 12 173 181
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  def atom "checks.ml" 28 475 475 "checks.ml" 0 0 -1
+)
+"checks.ml" 12 173 182 "checks.ml" 12 173 186
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def expr "checks.ml" 13 189 191 "checks.ml" 26 468 473
+)
+"checks.ml" 13 189 203 "checks.ml" 13 189 207
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "checks.ml" 12 173 182 "checks.ml" 12 173 186
+)
+"checks.ml" 13 189 203 "checks.ml" 13 189 218
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 14 224 237 "checks.ml" 14 224 238
+type(
+  Asttypes.const
+)
+ident(
+  def c "checks.ml" 14 224 242 "checks.ml" 14 224 246
+)
+"checks.ml" 14 224 228 "checks.ml" 14 224 238
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 14 224 242 "checks.ml" 14 224 246
+type(
+  bool
+)
+"checks.ml" 15 247 260 "checks.ml" 15 247 261
+type(
+  string
+)
+ident(
+  def x "checks.ml" 15 247 265 "checks.ml" 15 247 269
+)
+"checks.ml" 15 247 251 "checks.ml" 15 247 261
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 15 247 265 "checks.ml" 15 247 269
+type(
+  bool
+)
+"checks.ml" 16 270 283 "checks.ml" 16 270 284
+type(
+  Asttypes.unop
+)
+"checks.ml" 16 270 286 "checks.ml" 16 270 287
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 16 270 274 "checks.ml" 16 270 288
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 17 289 303 "checks.ml" 17 289 304
+type(
+  Asttypes.binop
+)
+"checks.ml" 17 289 306 "checks.ml" 17 289 307
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 17 289 309 "checks.ml" 17 289 310
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 17 289 293 "checks.ml" 17 289 311
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 16 270 274 "checks.ml" 17 289 311
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 18 312 324 "checks.ml" 18 312 325
+type(
+  string
+)
+"checks.ml" 18 312 327 "checks.ml" 18 312 328
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 18 312 316 "checks.ml" 18 312 329
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 16 270 274 "checks.ml" 18 312 329
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 19 330 343 "checks.ml" 19 330 344
+type(
+  string
+)
+"checks.ml" 19 330 346 "checks.ml" 19 330 347
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 19 330 334 "checks.ml" 19 330 348
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 16 270 274 "checks.ml" 19 330 348
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 20 349 360 "checks.ml" 20 349 361
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 20 349 363 "checks.ml" 20 349 364
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 20 349 366 "checks.ml" 20 349 367
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 20 349 353 "checks.ml" 20 349 368
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 16 270 274 "checks.ml" 20 349 368
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 21 369 382 "checks.ml" 21 369 383
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 21 369 385 "checks.ml" 21 369 386
+type(
+  Asttypes.const
+)
+"checks.ml" 21 369 388 "checks.ml" 21 369 389
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 21 369 373 "checks.ml" 21 369 390
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 16 270 274 "checks.ml" 21 369 390
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 22 391 403 "checks.ml" 22 391 404
+type(
+  Asttypes.const list
+)
+"checks.ml" 22 391 406 "checks.ml" 22 391 407
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 22 391 395 "checks.ml" 22 391 408
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 16 270 274 "checks.ml" 22 391 408
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 23 409 423 "checks.ml" 23 409 424
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 23 409 426 "checks.ml" 23 409 427
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+"checks.ml" 23 409 413 "checks.ml" 23 409 428
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 16 270 274 "checks.ml" 23 409 428
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 24 429 442 "checks.ml" 24 429 443
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 24 429 433 "checks.ml" 24 429 443
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 16 270 274 "checks.ml" 24 429 443
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 25 444 457 "checks.ml" 25 444 458
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 25 444 448 "checks.ml" 25 444 458
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 16 270 274 "checks.ml" 25 444 458
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 25 444 462 "checks.ml" 25 444 467
+type(
+  bool
+)
+"checks.ml" 13 189 191 "checks.ml" 26 468 473
+type(
+  bool
+)
+"checks.ml" 28 475 483 "checks.ml" 28 475 488
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  def bexpr "checks.ml" 28 475 475 "checks.ml" 0 0 -1
+)
+"checks.ml" 28 475 489 "checks.ml" 28 475 493
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def expr "checks.ml" 29 496 498 "checks.ml" 44 937 944
+)
+"checks.ml" 29 496 501 "checks.ml" 29 496 505
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref atom "checks.ml" 12 173 177 "checks.ml" 12 173 181
+)
+"checks.ml" 29 496 506 "checks.ml" 29 496 510
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "checks.ml" 28 475 489 "checks.ml" 28 475 493
+)
+"checks.ml" 29 496 501 "checks.ml" 29 496 510
+type(
+  bool
+)
+"checks.ml" 29 496 516 "checks.ml" 29 496 520
+type(
+  bool
+)
+"checks.ml" 31 528 544 "checks.ml" 31 528 548
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "checks.ml" 28 475 489 "checks.ml" 28 475 493
+)
+"checks.ml" 31 528 544 "checks.ml" 31 528 559
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 32 565 580 "checks.ml" 32 565 582
+type(
+  Asttypes.unop
+)
+ident(
+  def op "checks.ml" 32 565 590 "checks.ml" 32 565 597
+)
+"checks.ml" 32 565 584 "checks.ml" 32 565 585
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "checks.ml" 32 565 590 "checks.ml" 32 565 597
+)
+"checks.ml" 32 565 571 "checks.ml" 32 565 586
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 32 565 590 "checks.ml" 32 565 595
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 28 475 483 "checks.ml" 28 475 488
+)
+"checks.ml" 32 565 596 "checks.ml" 32 565 597
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "checks.ml" 32 565 584 "checks.ml" 32 565 585
+)
+"checks.ml" 32 565 590 "checks.ml" 32 565 597
+type(
+  bool
+)
+"checks.ml" 33 598 614 "checks.ml" 33 598 616
+type(
+  Asttypes.binop
+)
+ident(
+  def op "checks.ml" 33 598 629 "checks.ml" 33 598 649
+)
+"checks.ml" 33 598 618 "checks.ml" 33 598 620
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "checks.ml" 33 598 629 "checks.ml" 33 598 649
+)
+"checks.ml" 33 598 622 "checks.ml" 33 598 624
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "checks.ml" 33 598 629 "checks.ml" 33 598 649
+)
+"checks.ml" 33 598 604 "checks.ml" 33 598 625
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 33 598 629 "checks.ml" 33 598 634
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 28 475 483 "checks.ml" 28 475 488
+)
+"checks.ml" 33 598 635 "checks.ml" 33 598 637
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "checks.ml" 33 598 618 "checks.ml" 33 598 620
+)
+"checks.ml" 33 598 629 "checks.ml" 33 598 637
+type(
+  bool
+)
+"checks.ml" 33 598 638 "checks.ml" 33 598 640
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"checks.ml" 33 598 641 "checks.ml" 33 598 646
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 28 475 483 "checks.ml" 28 475 488
+)
+"checks.ml" 33 598 647 "checks.ml" 33 598 649
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "checks.ml" 33 598 622 "checks.ml" 33 598 624
+)
+"checks.ml" 33 598 641 "checks.ml" 33 598 649
+type(
+  bool
+)
+"checks.ml" 33 598 629 "checks.ml" 33 598 649
+type(
+  bool
+)
+"checks.ml" 34 650 663 "checks.ml" 34 650 664
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "checks.ml" 34 650 677 "checks.ml" 34 650 708
+)
+"checks.ml" 34 650 666 "checks.ml" 34 650 668
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "checks.ml" 34 650 677 "checks.ml" 34 650 708
+)
+"checks.ml" 34 650 670 "checks.ml" 34 650 672
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "checks.ml" 34 650 677 "checks.ml" 34 650 708
+)
+"checks.ml" 34 650 656 "checks.ml" 34 650 673
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 34 650 677 "checks.ml" 34 650 682
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 28 475 483 "checks.ml" 28 475 488
+)
+"checks.ml" 34 650 683 "checks.ml" 34 650 684
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "checks.ml" 34 650 663 "checks.ml" 34 650 664
+)
+"checks.ml" 34 650 677 "checks.ml" 34 650 684
+type(
+  bool
+)
+"checks.ml" 34 650 685 "checks.ml" 34 650 687
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"checks.ml" 34 650 688 "checks.ml" 34 650 693
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 28 475 483 "checks.ml" 28 475 488
+)
+"checks.ml" 34 650 694 "checks.ml" 34 650 696
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "checks.ml" 34 650 666 "checks.ml" 34 650 668
+)
+"checks.ml" 34 650 688 "checks.ml" 34 650 696
+type(
+  bool
+)
+"checks.ml" 34 650 697 "checks.ml" 34 650 699
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"checks.ml" 34 650 700 "checks.ml" 34 650 705
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 28 475 483 "checks.ml" 28 475 488
+)
+"checks.ml" 34 650 706 "checks.ml" 34 650 708
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "checks.ml" 34 650 670 "checks.ml" 34 650 672
+)
+"checks.ml" 34 650 700 "checks.ml" 34 650 708
+type(
+  bool
+)
+"checks.ml" 34 650 688 "checks.ml" 34 650 708
+type(
+  bool
+)
+"checks.ml" 34 650 677 "checks.ml" 34 650 708
+type(
+  bool
+)
+"checks.ml" 35 709 725 "checks.ml" 35 709 727
+ident(
+  def el "checks.ml" 35 709 732 "checks.ml" 35 709 753
+)
+"checks.ml" 35 709 724 "checks.ml" 35 709 728
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 35 709 715 "checks.ml" 35 709 728
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 35 709 732 "checks.ml" 35 709 744
+type(
+  (Clocked_ast.c_expr -> bool) -> Clocked_ast.c_expr list -> bool
+)
+ident(
+  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+)
+"checks.ml" 35 709 745 "checks.ml" 35 709 750
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 28 475 483 "checks.ml" 28 475 488
+)
+"checks.ml" 35 709 751 "checks.ml" 35 709 753
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref el "checks.ml" 35 709 724 "checks.ml" 35 709 728
+)
+"checks.ml" 35 709 732 "checks.ml" 35 709 753
+type(
+  bool
+)
+"checks.ml" 36 754 768 "checks.ml" 36 754 769
+type(
+  string
+)
+"checks.ml" 36 754 771 "checks.ml" 36 754 772
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 36 754 760 "checks.ml" 36 754 773
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 37 774 789 "checks.ml" 37 774 790
+type(
+  string
+)
+"checks.ml" 37 774 792 "checks.ml" 37 774 793
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 37 774 780 "checks.ml" 37 774 794
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 36 754 760 "checks.ml" 37 774 794
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 38 795 809 "checks.ml" 38 795 810
+type(
+  Asttypes.const list
+)
+"checks.ml" 38 795 812 "checks.ml" 38 795 813
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 38 795 801 "checks.ml" 38 795 814
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 36 754 760 "checks.ml" 38 795 814
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 39 815 830 "checks.ml" 39 815 831
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 39 815 833 "checks.ml" 39 815 834
+type(
+  Asttypes.const
+)
+"checks.ml" 39 815 836 "checks.ml" 39 815 837
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 39 815 821 "checks.ml" 39 815 838
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 36 754 760 "checks.ml" 39 815 838
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 40 839 855 "checks.ml" 40 839 856
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 40 839 858 "checks.ml" 40 839 859
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+"checks.ml" 40 839 845 "checks.ml" 40 839 860
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 36 754 760 "checks.ml" 40 839 860
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 41 861 876 "checks.ml" 41 861 877
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 41 861 867 "checks.ml" 41 861 877
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 36 754 760 "checks.ml" 41 861 877
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 41 861 881 "checks.ml" 41 861 886
+type(
+  bool
+)
+"checks.ml" 42 887 902 "checks.ml" 42 887 903
+type(
+  Asttypes.const
+)
+"checks.ml" 42 887 893 "checks.ml" 42 887 903
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 43 904 919 "checks.ml" 43 904 920
+type(
+  string
+)
+"checks.ml" 43 904 910 "checks.ml" 43 904 920
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 42 887 893 "checks.ml" 43 904 920
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 43 904 931 "checks.ml" 43 904 936
+type(
+  bool
+)
+"checks.ml" 43 904 924 "checks.ml" 43 904 936
+type(
+  bool
+)
+"checks.ml" 31 528 532 "checks.ml" 44 937 944
+type(
+  bool
+)
+"checks.ml" 29 496 498 "checks.ml" 44 937 944
+type(
+  bool
+)
+"checks.ml" 46 946 950 "checks.ml" 46 946 965
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  def normalized_expr "checks.ml" 63 1513 1513 "checks.ml" 0 0 -1
+)
+"checks.ml" 46 946 966 "checks.ml" 46 946 970
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def expr "checks.ml" 47 973 975 "checks.ml" 61 1504 1511
+)
+"checks.ml" 47 973 978 "checks.ml" 47 973 983
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 28 475 483 "checks.ml" 28 475 488
+)
+"checks.ml" 47 973 984 "checks.ml" 47 973 988
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "checks.ml" 46 946 966 "checks.ml" 46 946 970
+)
+"checks.ml" 47 973 978 "checks.ml" 47 973 988
+type(
+  bool
+)
+"checks.ml" 47 973 994 "checks.ml" 47 973 998
+type(
+  bool
+)
+"checks.ml" 49 1006 1022 "checks.ml" 49 1006 1026
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "checks.ml" 46 946 966 "checks.ml" 46 946 970
+)
+"checks.ml" 49 1006 1022 "checks.ml" 49 1006 1037
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 50 1043 1057 "checks.ml" 50 1043 1058
+type(
+  string
+)
+"checks.ml" 50 1043 1060 "checks.ml" 50 1043 1062
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def el "checks.ml" 50 1043 1101 "checks.ml" 50 1043 1122
+)
+"checks.ml" 50 1043 1049 "checks.ml" 50 1043 1063
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 50 1043 1075 "checks.ml" 50 1043 1076
+type(
+  string
+)
+"checks.ml" 50 1043 1078 "checks.ml" 50 1043 1080
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def el "checks.ml" 50 1043 1101 "checks.ml" 50 1043 1122
+)
+"checks.ml" 50 1043 1066 "checks.ml" 50 1043 1081
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 50 1043 1049 "checks.ml" 50 1043 1081
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 50 1043 1094 "checks.ml" 50 1043 1096
+ident(
+  def el "checks.ml" 50 1043 1101 "checks.ml" 50 1043 1122
+)
+"checks.ml" 50 1043 1093 "checks.ml" 50 1043 1097
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 50 1043 1084 "checks.ml" 50 1043 1097
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 50 1043 1049 "checks.ml" 50 1043 1097
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 50 1043 1101 "checks.ml" 50 1043 1113
+type(
+  (Clocked_ast.c_expr -> bool) -> Clocked_ast.c_expr list -> bool
+)
+ident(
+  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+)
+"checks.ml" 50 1043 1114 "checks.ml" 50 1043 1119
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref bexpr "checks.ml" 28 475 483 "checks.ml" 28 475 488
+)
+"checks.ml" 50 1043 1120 "checks.ml" 50 1043 1122
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref el "checks.ml" 50 1043 1060 "checks.ml" 50 1043 1062
+)
+"checks.ml" 50 1043 1101 "checks.ml" 50 1043 1122
+type(
+  bool
+)
+"checks.ml" 51 1123 1137 "checks.ml" 51 1123 1138
+type(
+  Asttypes.const list
+)
+ident(
+  def c "checks.ml" 51 1123 1173 "checks.ml" 51 1123 1193
+)
+"checks.ml" 51 1123 1164 "checks.ml" 51 1123 1166
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  def el "checks.ml" 51 1123 1173 "checks.ml" 51 1123 1193
+)
+"checks.ml" 51 1123 1155 "checks.ml" 51 1123 1166
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 51 1123 1140 "checks.ml" 51 1123 1167
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 51 1123 1129 "checks.ml" 51 1123 1169
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 51 1123 1173 "checks.ml" 51 1123 1185
+type(
+  (Clocked_ast.c_expr -> bool) -> Clocked_ast.c_expr list -> bool
+)
+ident(
+  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+)
+"checks.ml" 51 1123 1186 "checks.ml" 51 1123 1190
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref atom "checks.ml" 12 173 177 "checks.ml" 12 173 181
+)
+"checks.ml" 51 1123 1191 "checks.ml" 51 1123 1193
+type(
+  Clocked_ast.c_expr list
+)
+ident(
+  int_ref el "checks.ml" 51 1123 1164 "checks.ml" 51 1123 1166
+)
+"checks.ml" 51 1123 1173 "checks.ml" 51 1123 1193
+type(
+  bool
+)
+"checks.ml" 52 1194 1208 "checks.ml" 52 1194 1209
+type(
+  Asttypes.const list
+)
+ident(
+  def c "checks.ml" 52 1194 1217 "checks.ml" 52 1194 1223
+)
+"checks.ml" 52 1194 1211 "checks.ml" 52 1194 1212
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "checks.ml" 52 1194 1217 "checks.ml" 52 1194 1223
+)
+"checks.ml" 52 1194 1200 "checks.ml" 52 1194 1213
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 52 1194 1217 "checks.ml" 52 1194 1221
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref atom "checks.ml" 12 173 177 "checks.ml" 12 173 181
+)
+"checks.ml" 52 1194 1222 "checks.ml" 52 1194 1223
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "checks.ml" 52 1194 1211 "checks.ml" 52 1194 1212
+)
+"checks.ml" 52 1194 1217 "checks.ml" 52 1194 1223
+type(
+  bool
+)
+"checks.ml" 53 1224 1239 "checks.ml" 53 1224 1241
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e1 "checks.ml" 53 1224 1253 "checks.ml" 53 1224 1271
+)
+"checks.ml" 53 1224 1243 "checks.ml" 53 1224 1244
+type(
+  Asttypes.const
+)
+"checks.ml" 53 1224 1246 "checks.ml" 53 1224 1248
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e2 "checks.ml" 53 1224 1253 "checks.ml" 53 1224 1271
+)
+"checks.ml" 53 1224 1230 "checks.ml" 53 1224 1249
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 53 1224 1253 "checks.ml" 53 1224 1257
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref atom "checks.ml" 12 173 177 "checks.ml" 12 173 181
+)
+"checks.ml" 53 1224 1258 "checks.ml" 53 1224 1260
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e1 "checks.ml" 53 1224 1239 "checks.ml" 53 1224 1241
+)
+"checks.ml" 53 1224 1253 "checks.ml" 53 1224 1260
+type(
+  bool
+)
+"checks.ml" 53 1224 1261 "checks.ml" 53 1224 1263
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"checks.ml" 53 1224 1264 "checks.ml" 53 1224 1268
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref atom "checks.ml" 12 173 177 "checks.ml" 12 173 181
+)
+"checks.ml" 53 1224 1269 "checks.ml" 53 1224 1271
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e2 "checks.ml" 53 1224 1246 "checks.ml" 53 1224 1248
+)
+"checks.ml" 53 1224 1264 "checks.ml" 53 1224 1271
+type(
+  bool
+)
+"checks.ml" 53 1224 1253 "checks.ml" 53 1224 1271
+type(
+  bool
+)
+"checks.ml" 54 1272 1288 "checks.ml" 54 1272 1289
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "checks.ml" 54 1272 1304 "checks.ml" 54 1272 1368
+)
+"checks.ml" 54 1272 1291 "checks.ml" 54 1272 1299
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  def c_e_list "checks.ml" 54 1272 1304 "checks.ml" 54 1272 1368
+)
+"checks.ml" 54 1272 1278 "checks.ml" 54 1272 1300
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 54 1272 1304 "checks.ml" 54 1272 1318
+type(
+  (bool -> Asttypes.const * Clocked_ast.c_expr -> bool) ->
+  bool -> (Asttypes.const * Clocked_ast.c_expr) list -> bool
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"checks.ml" 54 1272 1324 "checks.ml" 54 1272 1325
+type(
+  bool
+)
+ident(
+  def b "checks.ml" 54 1272 1326 "checks.ml" 54 1272 1349
+)
+"checks.ml" 54 1272 1327 "checks.ml" 54 1272 1328
+type(
+  Asttypes.const
+)
+"checks.ml" 54 1272 1330 "checks.ml" 54 1272 1331
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "checks.ml" 54 1272 1336 "checks.ml" 54 1272 1349
+)
+"checks.ml" 54 1272 1326 "checks.ml" 54 1272 1332
+type(
+  Asttypes.const * Clocked_ast.c_expr
+)
+"checks.ml" 54 1272 1336 "checks.ml" 54 1272 1337
+type(
+  bool
+)
+ident(
+  int_ref b "checks.ml" 54 1272 1324 "checks.ml" 54 1272 1325
+)
+"checks.ml" 54 1272 1338 "checks.ml" 54 1272 1340
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Stdlib.( && ) "stdlib.mli" 211 8885 8885 "stdlib.mli" 211 8885 8936
+)
+"checks.ml" 54 1272 1342 "checks.ml" 54 1272 1346
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref atom "checks.ml" 12 173 177 "checks.ml" 12 173 181
+)
+"checks.ml" 54 1272 1347 "checks.ml" 54 1272 1348
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "checks.ml" 54 1272 1330 "checks.ml" 54 1272 1331
+)
+"checks.ml" 54 1272 1341 "checks.ml" 54 1272 1349
+type(
+  bool
+)
+"checks.ml" 54 1272 1336 "checks.ml" 54 1272 1349
+type(
+  bool
+)
+"checks.ml" 54 1272 1319 "checks.ml" 54 1272 1350
+type(
+  bool -> Asttypes.const * Clocked_ast.c_expr -> bool
+)
+"checks.ml" 54 1272 1352 "checks.ml" 54 1272 1356
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref atom "checks.ml" 12 173 177 "checks.ml" 12 173 181
+)
+"checks.ml" 54 1272 1357 "checks.ml" 54 1272 1358
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref e "checks.ml" 54 1272 1288 "checks.ml" 54 1272 1289
+)
+"checks.ml" 54 1272 1351 "checks.ml" 54 1272 1359
+type(
+  bool
+)
+"checks.ml" 54 1272 1360 "checks.ml" 54 1272 1368
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+ident(
+  int_ref c_e_list "checks.ml" 54 1272 1291 "checks.ml" 54 1272 1299
+)
+"checks.ml" 54 1272 1304 "checks.ml" 54 1272 1368
+type(
+  bool
+)
+"checks.ml" 55 1369 1384 "checks.ml" 55 1369 1385
+type(
+  Asttypes.const
+)
+"checks.ml" 55 1369 1375 "checks.ml" 55 1369 1385
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 56 1386 1401 "checks.ml" 56 1386 1402
+type(
+  string
+)
+"checks.ml" 56 1386 1392 "checks.ml" 56 1386 1402
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 55 1369 1375 "checks.ml" 56 1386 1402
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 57 1403 1418 "checks.ml" 57 1403 1419
+type(
+  Asttypes.unop
+)
+"checks.ml" 57 1403 1421 "checks.ml" 57 1403 1422
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 57 1403 1409 "checks.ml" 57 1403 1423
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 55 1369 1375 "checks.ml" 57 1403 1423
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 58 1424 1440 "checks.ml" 58 1424 1441
+type(
+  Asttypes.binop
+)
+"checks.ml" 58 1424 1443 "checks.ml" 58 1424 1444
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 58 1424 1446 "checks.ml" 58 1424 1447
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 58 1424 1430 "checks.ml" 58 1424 1448
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 55 1369 1375 "checks.ml" 58 1424 1448
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 59 1449 1462 "checks.ml" 59 1449 1463
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 59 1449 1465 "checks.ml" 59 1449 1466
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 59 1449 1468 "checks.ml" 59 1449 1469
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 59 1449 1455 "checks.ml" 59 1449 1470
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 55 1369 1375 "checks.ml" 59 1449 1470
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 60 1471 1486 "checks.ml" 60 1471 1487
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 60 1471 1477 "checks.ml" 60 1471 1487
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 55 1369 1375 "checks.ml" 60 1471 1487
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 60 1471 1498 "checks.ml" 60 1471 1503
+type(
+  bool
+)
+"checks.ml" 60 1471 1491 "checks.ml" 60 1471 1503
+type(
+  bool
+)
+"checks.ml" 49 1006 1010 "checks.ml" 61 1504 1511
+type(
+  bool
+)
+"checks.ml" 47 973 975 "checks.ml" 61 1504 1511
+type(
+  bool
+)
+"checks.ml" 63 1513 1517 "checks.ml" 63 1513 1532
+type(
+  Clocked_ast.c_node -> bool
+)
+ident(
+  def normalized_node "checks.ml" 66 1603 1603 "checks.ml" 0 0 -1
+)
+"checks.ml" 63 1513 1533 "checks.ml" 63 1513 1534
+type(
+  Clocked_ast.c_node
+)
+ident(
+  def n "checks.ml" 64 1537 1539 "checks.ml" 64 1537 1601
+)
+"checks.ml" 64 1537 1539 "checks.ml" 64 1537 1551
+type(
+  (Clocked_ast.c_equation -> bool) -> Clocked_ast.c_equation list -> bool
+)
+ident(
+  int_ref Stdlib.List.for_all "list.mli" 189 7164 7164 "list.mli" 189 7164 7209
+)
+"checks.ml" 64 1537 1557 "checks.ml" 64 1537 1559
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  def eq "checks.ml" 64 1537 1563 "checks.ml" 64 1537 1590
+)
+"checks.ml" 64 1537 1563 "checks.ml" 64 1537 1578
+type(
+  Clocked_ast.c_expr -> bool
+)
+ident(
+  int_ref normalized_expr "checks.ml" 46 946 950 "checks.ml" 46 946 965
+)
+"checks.ml" 64 1537 1579 "checks.ml" 64 1537 1581
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref eq "checks.ml" 64 1537 1557 "checks.ml" 64 1537 1559
+)
+"checks.ml" 64 1537 1579 "checks.ml" 64 1537 1590
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 64 1537 1563 "checks.ml" 64 1537 1590
+type(
+  bool
+)
+"checks.ml" 64 1537 1552 "checks.ml" 64 1537 1591
+type(
+  Clocked_ast.c_equation -> bool
+)
+"checks.ml" 64 1537 1592 "checks.ml" 64 1537 1593
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref n "checks.ml" 63 1513 1533 "checks.ml" 63 1513 1534
+)
+"checks.ml" 64 1537 1592 "checks.ml" 64 1537 1601
+type(
+  Clocked_ast.c_equation list
+)
+"checks.ml" 64 1537 1539 "checks.ml" 64 1537 1601
+type(
+  bool
+)
+"checks.ml" 66 1603 1607 "checks.ml" 66 1603 1620
+type(
+  Clocked_ast.c_node list -> unit
+)
+ident(
+  def normalization "checks.ml" 77 1868 1868 "checks.ml" 0 0 -1
+)
+"checks.ml" 66 1603 1621 "checks.ml" 66 1603 1622
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  def f "checks.ml" 67 1625 1627 "checks.ml" 72 1752 1824
+)
+"checks.ml" 68 1631 1635 "checks.ml" 68 1631 1644
+type(
+  (Clocked_ast.c_node -> unit) -> Clocked_ast.c_node list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"checks.ml" 69 1645 1656 "checks.ml" 69 1645 1657
+type(
+  Clocked_ast.c_node
+)
+ident(
+  def n "checks.ml" 69 1645 1661 "checks.ml" 69 1645 1716
+)
+"checks.ml" 69 1645 1664 "checks.ml" 69 1645 1667
+type(
+  bool -> bool
+)
+ident(
+  int_ref Stdlib.not "stdlib.mli" 208 8814 8814 "stdlib.mli" 208 8814 8854
+)
+"checks.ml" 69 1645 1669 "checks.ml" 69 1645 1684
+type(
+  Clocked_ast.c_node -> bool
+)
+ident(
+  int_ref normalized_node "checks.ml" 63 1513 1517 "checks.ml" 63 1513 1532
+)
+"checks.ml" 69 1645 1685 "checks.ml" 69 1645 1686
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref n "checks.ml" 69 1645 1656 "checks.ml" 69 1645 1657
+)
+"checks.ml" 69 1645 1668 "checks.ml" 69 1645 1687
+type(
+  bool
+)
+"checks.ml" 69 1645 1664 "checks.ml" 69 1645 1687
+type(
+  bool
+)
+"checks.ml" 69 1645 1693 "checks.ml" 69 1645 1698
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"checks.ml" 69 1645 1714 "checks.ml" 69 1645 1715
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref n "checks.ml" 69 1645 1656 "checks.ml" 69 1645 1657
+)
+"checks.ml" 69 1645 1699 "checks.ml" 69 1645 1716
+type(
+  exn
+)
+"checks.ml" 69 1645 1693 "checks.ml" 69 1645 1716
+type(
+  unit
+)
+"checks.ml" 69 1645 1661 "checks.ml" 69 1645 1716
+type(
+  unit
+)
+"checks.ml" 69 1645 1651 "checks.ml" 69 1645 1717
+type(
+  Clocked_ast.c_node -> unit
+)
+"checks.ml" 70 1718 1724 "checks.ml" 70 1718 1725
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  int_ref f "checks.ml" 66 1603 1621 "checks.ml" 66 1603 1622
+)
+"checks.ml" 68 1631 1635 "checks.ml" 70 1718 1725
+type(
+  unit
+)
+"checks.ml" 71 1726 1747 "checks.ml" 71 1726 1748
+type(
+  Clocked_ast.c_node
+)
+ident(
+  def n "checks.ml" 72 1752 1756 "checks.ml" 72 1752 1824
+)
+"checks.ml" 71 1726 1733 "checks.ml" 71 1726 1748
+type(
+  exn
+)
+"checks.ml" 72 1752 1756 "checks.ml" 72 1752 1770
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.eprintf "format.mli" 1178 46011 46011 "format.mli" 1178 46011 46059
+)
+"checks.ml" 72 1752 1771 "checks.ml" 72 1752 1814
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"checks.ml" 72 1752 1815 "checks.ml" 72 1752 1816
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref n "checks.ml" 71 1726 1747 "checks.ml" 71 1726 1748
+)
+"checks.ml" 72 1752 1815 "checks.ml" 72 1752 1824
+type(
+  string
+)
+"checks.ml" 72 1752 1756 "checks.ml" 72 1752 1824
+type(
+  unit
+)
+"checks.ml" 67 1625 1627 "checks.ml" 72 1752 1824
+type(
+  unit
+)
+"checks.ml" 79 1900 1904 "checks.ml" 79 1900 1916
+type(
+  Clocked_ast.c_patt -> Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  def defs_of_patt "checks.ml" 82 2004 2004 "checks.ml" 0 0 -1
+)
+"checks.ml" 79 1900 1917 "checks.ml" 79 1900 1921
+type(
+  Clocked_ast.c_patt
+)
+ident(
+  def patt "checks.ml" 79 1900 1922 "checks.ml" 80 1928 2002
+)
+"checks.ml" 79 1900 1922 "checks.ml" 79 1900 1925
+type(
+  Scheduling.S.t
+)
+ident(
+  def acc "checks.ml" 80 1928 1930 "checks.ml" 80 1928 2002
+)
+"checks.ml" 80 1928 1930 "checks.ml" 80 1928 1944
+type(
+  (Scheduling.S.t -> Scheduling.S.elt -> Scheduling.S.t) ->
+  Scheduling.S.t -> Scheduling.S.elt list -> Scheduling.S.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"checks.ml" 80 1928 1950 "checks.ml" 80 1928 1953
+type(
+  Scheduling.S.t
+)
+ident(
+  def acc "checks.ml" 80 1928 1954 "checks.ml" 80 1928 1981
+)
+"checks.ml" 80 1928 1954 "checks.ml" 80 1928 1955
+type(
+  Scheduling.S.elt
+)
+ident(
+  def x "checks.ml" 80 1928 1959 "checks.ml" 80 1928 1981
+)
+"checks.ml" 80 1928 1959 "checks.ml" 80 1928 1975
+type(
+  Scheduling.S.elt -> Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  int_ref Scheduling.S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"checks.ml" 80 1928 1976 "checks.ml" 80 1928 1977
+type(
+  Scheduling.S.elt
+)
+ident(
+  int_ref x "checks.ml" 80 1928 1954 "checks.ml" 80 1928 1955
+)
+"checks.ml" 80 1928 1978 "checks.ml" 80 1928 1981
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 80 1928 1950 "checks.ml" 80 1928 1953
+)
+"checks.ml" 80 1928 1959 "checks.ml" 80 1928 1981
+type(
+  Scheduling.S.t
+)
+"checks.ml" 80 1928 1945 "checks.ml" 80 1928 1982
+type(
+  Scheduling.S.t -> Scheduling.S.elt -> Scheduling.S.t
+)
+"checks.ml" 80 1928 1983 "checks.ml" 80 1928 1986
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 79 1900 1922 "checks.ml" 79 1900 1925
+)
+"checks.ml" 80 1928 1987 "checks.ml" 80 1928 1991
+type(
+  Clocked_ast.c_patt
+)
+ident(
+  int_ref patt "checks.ml" 79 1900 1917 "checks.ml" 79 1900 1921
+)
+"checks.ml" 80 1928 1987 "checks.ml" 80 1928 2002
+type(
+  Scheduling.S.elt list
+)
+"checks.ml" 80 1928 1930 "checks.ml" 80 1928 2002
+type(
+  Scheduling.S.t
+)
+"checks.ml" 82 2004 2008 "checks.ml" 82 2004 2020
+type(
+  Clocked_ast.c_expr -> Scheduling.S.t
+)
+ident(
+  def deps_of_expr "checks.ml" 101 2482 2482 "checks.ml" 0 0 -1
+)
+"checks.ml" 83 2023 2033 "checks.ml" 83 2023 2045
+type(
+  Clocked_ast.c_expr -> Scheduling.S.t -> Clocked_ast.c_expr * Scheduling.S.t
+)
+ident(
+  def deps_of_expr "checks.ml" 83 2023 2025 "checks.ml" 99 2434 2480
+)
+"checks.ml" 83 2023 2046 "checks.ml" 83 2023 2050
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def expr "checks.ml" 83 2023 2051 "checks.ml" 96 2359 2414
+)
+"checks.ml" 83 2023 2051 "checks.ml" 83 2023 2054
+type(
+  Scheduling.S.t
+)
+ident(
+  def acc "checks.ml" 84 2057 2061 "checks.ml" 96 2359 2414
+)
+"checks.ml" 84 2057 2067 "checks.ml" 84 2057 2071
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "checks.ml" 83 2023 2046 "checks.ml" 83 2023 2050
+)
+"checks.ml" 84 2057 2067 "checks.ml" 84 2057 2082
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 85 2088 2103 "checks.ml" 85 2088 2104
+type(
+  string
+)
+ident(
+  def x "checks.ml" 85 2088 2108 "checks.ml" 85 2088 2136
+)
+"checks.ml" 85 2088 2094 "checks.ml" 85 2088 2104
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 85 2088 2108 "checks.ml" 85 2088 2112
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "checks.ml" 83 2023 2046 "checks.ml" 83 2023 2050
+)
+"checks.ml" 85 2088 2114 "checks.ml" 85 2088 2130
+type(
+  Scheduling.S.elt -> Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  int_ref Scheduling.S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"checks.ml" 85 2088 2131 "checks.ml" 85 2088 2132
+type(
+  Scheduling.S.elt
+)
+ident(
+  int_ref x "checks.ml" 85 2088 2103 "checks.ml" 85 2088 2104
+)
+"checks.ml" 85 2088 2133 "checks.ml" 85 2088 2136
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 83 2023 2051 "checks.ml" 83 2023 2054
+)
+"checks.ml" 85 2088 2114 "checks.ml" 85 2088 2136
+type(
+  Scheduling.S.t
+)
+"checks.ml" 85 2088 2108 "checks.ml" 85 2088 2136
+type(
+  Clocked_ast.c_expr * Scheduling.S.t
+)
+"checks.ml" 86 2137 2151 "checks.ml" 86 2137 2152
+type(
+  Asttypes.const list
+)
+ident(
+  def c "checks.ml" 86 2137 2160 "checks.ml" 86 2137 2169
+)
+"checks.ml" 86 2137 2154 "checks.ml" 86 2137 2155
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def e "checks.ml" 86 2137 2160 "checks.ml" 86 2137 2169
+)
+"checks.ml" 86 2137 2143 "checks.ml" 86 2137 2156
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 86 2137 2160 "checks.ml" 86 2137 2164
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "checks.ml" 83 2023 2046 "checks.ml" 83 2023 2050
+)
+"checks.ml" 86 2137 2166 "checks.ml" 86 2137 2169
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 83 2023 2051 "checks.ml" 83 2023 2054
+)
+"checks.ml" 86 2137 2160 "checks.ml" 86 2137 2169
+type(
+  Clocked_ast.c_expr * Scheduling.S.t
+)
+"checks.ml" 87 2170 2185 "checks.ml" 87 2170 2186
+type(
+  Asttypes.const
+)
+"checks.ml" 87 2170 2176 "checks.ml" 87 2170 2186
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 88 2187 2202 "checks.ml" 88 2187 2203
+type(
+  Asttypes.unop
+)
+"checks.ml" 88 2187 2205 "checks.ml" 88 2187 2206
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 88 2187 2193 "checks.ml" 88 2187 2207
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 87 2170 2176 "checks.ml" 88 2187 2207
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 89 2208 2224 "checks.ml" 89 2208 2225
+type(
+  Asttypes.binop
+)
+"checks.ml" 89 2208 2227 "checks.ml" 89 2208 2228
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 89 2208 2230 "checks.ml" 89 2208 2231
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 89 2208 2214 "checks.ml" 89 2208 2232
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 87 2170 2176 "checks.ml" 89 2208 2232
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 90 2233 2247 "checks.ml" 90 2233 2248
+type(
+  string
+)
+"checks.ml" 90 2233 2250 "checks.ml" 90 2233 2251
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 90 2233 2239 "checks.ml" 90 2233 2252
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 87 2170 2176 "checks.ml" 90 2233 2252
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 91 2253 2268 "checks.ml" 91 2253 2269
+type(
+  string
+)
+"checks.ml" 91 2253 2271 "checks.ml" 91 2253 2272
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 91 2253 2259 "checks.ml" 91 2253 2273
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 87 2170 2176 "checks.ml" 91 2253 2273
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 92 2274 2287 "checks.ml" 92 2274 2288
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 92 2274 2290 "checks.ml" 92 2274 2291
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 92 2274 2293 "checks.ml" 92 2274 2294
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 92 2274 2280 "checks.ml" 92 2274 2295
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 87 2170 2176 "checks.ml" 92 2274 2295
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 93 2296 2311 "checks.ml" 93 2296 2312
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 93 2296 2314 "checks.ml" 93 2296 2315
+type(
+  Asttypes.const
+)
+"checks.ml" 93 2296 2317 "checks.ml" 93 2296 2318
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 93 2296 2302 "checks.ml" 93 2296 2319
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 87 2170 2176 "checks.ml" 93 2296 2319
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 94 2320 2336 "checks.ml" 94 2320 2337
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 94 2320 2339 "checks.ml" 94 2320 2340
+type(
+  (Asttypes.const * Clocked_ast.c_expr) list
+)
+"checks.ml" 94 2320 2326 "checks.ml" 94 2320 2341
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 87 2170 2176 "checks.ml" 94 2320 2341
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 95 2342 2357 "checks.ml" 95 2342 2358
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 95 2342 2348 "checks.ml" 95 2342 2358
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 87 2170 2176 "checks.ml" 95 2342 2358
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 96 2359 2374 "checks.ml" 96 2359 2375
+type(
+  Clocked_ast.c_expr list
+)
+"checks.ml" 96 2359 2365 "checks.ml" 96 2359 2375
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 87 2170 2176 "checks.ml" 96 2359 2375
+type(
+  Clocked_ast.c_expr_desc
+)
+"checks.ml" 96 2359 2379 "checks.ml" 96 2359 2392
+type(
+  (Clocked_ast.c_expr ->
+   Scheduling.S.t -> Clocked_ast.c_expr * Scheduling.S.t) ->
+  Clocked_ast.c_expr -> Scheduling.S.t -> Clocked_ast.c_expr * Scheduling.S.t
+)
+ident(
+  int_ref Clocked_ast_utils.expr_map_fold "clocked_ast_utils.ml" 40 1223 1227 "clocked_ast_utils.ml" 40 1223 1240
+)
+"checks.ml" 96 2359 2393 "checks.ml" 96 2359 2405
+type(
+  Clocked_ast.c_expr -> Scheduling.S.t -> Clocked_ast.c_expr * Scheduling.S.t
+)
+ident(
+  int_ref deps_of_expr "checks.ml" 83 2023 2033 "checks.ml" 83 2023 2045
+)
+"checks.ml" 96 2359 2406 "checks.ml" 96 2359 2410
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "checks.ml" 83 2023 2046 "checks.ml" 83 2023 2050
+)
+"checks.ml" 96 2359 2411 "checks.ml" 96 2359 2414
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 83 2023 2051 "checks.ml" 83 2023 2054
+)
+"checks.ml" 96 2359 2379 "checks.ml" 96 2359 2414
+type(
+  Clocked_ast.c_expr * Scheduling.S.t
+)
+"checks.ml" 84 2057 2061 "checks.ml" 96 2359 2414
+type(
+  Clocked_ast.c_expr * Scheduling.S.t
+)
+"checks.ml" 98 2420 2426 "checks.ml" 98 2420 2430
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  def expr "checks.ml" 99 2434 2438 "checks.ml" 99 2434 2480
+)
+"checks.ml" 99 2434 2438 "checks.ml" 99 2434 2441
+type(
+  Clocked_ast.c_expr * Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  int_ref Stdlib.snd "stdlib.mli" 773 29185 29185 "stdlib.mli" 773 29185 29225
+)
+"checks.ml" 99 2434 2443 "checks.ml" 99 2434 2455
+type(
+  Clocked_ast.c_expr -> Scheduling.S.t -> Clocked_ast.c_expr * Scheduling.S.t
+)
+ident(
+  int_ref deps_of_expr "checks.ml" 83 2023 2033 "checks.ml" 83 2023 2045
+)
+"checks.ml" 99 2434 2456 "checks.ml" 99 2434 2460
+type(
+  Clocked_ast.c_expr
+)
+ident(
+  int_ref expr "checks.ml" 98 2420 2426 "checks.ml" 98 2420 2430
+)
+"checks.ml" 99 2434 2461 "checks.ml" 99 2434 2479
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref Scheduling.S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"checks.ml" 99 2434 2442 "checks.ml" 99 2434 2480
+type(
+  Clocked_ast.c_expr * Scheduling.S.t
+)
+"checks.ml" 99 2434 2438 "checks.ml" 99 2434 2480
+type(
+  Scheduling.S.t
+)
+"checks.ml" 98 2420 2422 "checks.ml" 99 2434 2480
+type(
+  Clocked_ast.c_expr -> Scheduling.S.t
+)
+"checks.ml" 83 2023 2025 "checks.ml" 99 2434 2480
+type(
+  Clocked_ast.c_expr -> Scheduling.S.t
+)
+"checks.ml" 101 2482 2486 "checks.ml" 101 2482 2500
+type(
+  Clocked_ast.c_node -> unit
+)
+ident(
+  def scheduled_node "checks.ml" 121 2915 2915 "checks.ml" 0 0 -1
+)
+"checks.ml" 101 2482 2501 "checks.ml" 101 2482 2505
+type(
+  Clocked_ast.c_node
+)
+ident(
+  def node "checks.ml" 102 2508 2510 "checks.ml" 119 2909 2913
+)
+"checks.ml" 102 2508 2514 "checks.ml" 102 2508 2518
+type(
+  Scheduling.S.t
+)
+ident(
+  def defs "checks.ml" 108 2642 2644 "checks.ml" 119 2909 2913
+)
+"checks.ml" 103 2521 2525 "checks.ml" 103 2521 2539
+type(
+  (Scheduling.S.t -> Clocked_ast.typed_clocked_var -> Scheduling.S.t) ->
+  Scheduling.S.t -> Clocked_ast.typed_clocked_var list -> Scheduling.S.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"checks.ml" 104 2540 2551 "checks.ml" 104 2540 2554
+type(
+  Scheduling.S.t
+)
+ident(
+  def acc "checks.ml" 104 2540 2555 "checks.ml" 104 2540 2590
+)
+"checks.ml" 104 2540 2556 "checks.ml" 104 2540 2557
+type(
+  Scheduling.S.elt
+)
+ident(
+  def x "checks.ml" 104 2540 2568 "checks.ml" 104 2540 2590
+)
+"checks.ml" 104 2540 2559 "checks.ml" 104 2540 2560
+type(
+  Asttypes.base_ty
+)
+"checks.ml" 104 2540 2562 "checks.ml" 104 2540 2563
+type(
+  Clocked_ast.clock
+)
+"checks.ml" 104 2540 2555 "checks.ml" 104 2540 2564
+type(
+  Scheduling.S.elt * Asttypes.base_ty * Clocked_ast.clock
+)
+"checks.ml" 104 2540 2568 "checks.ml" 104 2540 2584
+type(
+  Scheduling.S.elt -> Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  int_ref Scheduling.S.add "set.mli" 80 2995 2999 "set.mli" 80 2995 3021
+)
+"checks.ml" 104 2540 2585 "checks.ml" 104 2540 2586
+type(
+  Scheduling.S.elt
+)
+ident(
+  int_ref x "checks.ml" 104 2540 2556 "checks.ml" 104 2540 2557
+)
+"checks.ml" 104 2540 2587 "checks.ml" 104 2540 2590
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref acc "checks.ml" 104 2540 2551 "checks.ml" 104 2540 2554
+)
+"checks.ml" 104 2540 2568 "checks.ml" 104 2540 2590
+type(
+  Scheduling.S.t
+)
+"checks.ml" 104 2540 2546 "checks.ml" 104 2540 2591
+type(
+  Scheduling.S.t -> Clocked_ast.typed_clocked_var -> Scheduling.S.t
+)
+"checks.ml" 105 2592 2598 "checks.ml" 105 2592 2616
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref Scheduling.S.empty "set.mli" 71 2781 2785 "set.mli" 71 2781 2797
+)
+"checks.ml" 106 2617 2623 "checks.ml" 106 2617 2627
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref node "checks.ml" 101 2482 2501 "checks.ml" 101 2482 2505
+)
+"checks.ml" 106 2617 2623 "checks.ml" 106 2617 2636
+type(
+  Clocked_ast.typed_clocked_var list
+)
+"checks.ml" 103 2521 2525 "checks.ml" 106 2617 2636
+type(
+  Scheduling.S.t
+)
+"checks.ml" 108 2642 2648 "checks.ml" 108 2642 2649
+type(
+  Scheduling.S.t
+)
+"checks.ml" 109 2652 2656 "checks.ml" 109 2652 2670
+type(
+  (Scheduling.S.t -> Clocked_ast.c_equation -> Scheduling.S.t) ->
+  Scheduling.S.t -> Clocked_ast.c_equation list -> Scheduling.S.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 144 5524 5524 "list.mli" 144 5524 5579
+)
+"checks.ml" 110 2671 2682 "checks.ml" 110 2671 2686
+type(
+  Scheduling.S.t
+)
+ident(
+  def defs "checks.ml" 110 2671 2687 "checks.ml" 115 2839 2872
+)
+"checks.ml" 110 2671 2687 "checks.ml" 110 2671 2689
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  def eq "checks.ml" 111 2693 2701 "checks.ml" 115 2839 2872
+)
+"checks.ml" 111 2693 2705 "checks.ml" 111 2693 2709
+type(
+  Scheduling.S.t
+)
+ident(
+  def deps "checks.ml" 112 2740 2748 "checks.ml" 115 2839 2872
+)
+"checks.ml" 111 2693 2712 "checks.ml" 111 2693 2724
+type(
+  Clocked_ast.c_expr -> Scheduling.S.t
+)
+ident(
+  int_ref deps_of_expr "checks.ml" 82 2004 2008 "checks.ml" 82 2004 2020
+)
+"checks.ml" 111 2693 2725 "checks.ml" 111 2693 2727
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref eq "checks.ml" 110 2671 2687 "checks.ml" 110 2671 2689
+)
+"checks.ml" 111 2693 2725 "checks.ml" 111 2693 2736
+type(
+  Clocked_ast.c_expr
+)
+"checks.ml" 111 2693 2712 "checks.ml" 111 2693 2736
+type(
+  Scheduling.S.t
+)
+"checks.ml" 112 2740 2751 "checks.ml" 112 2740 2770
+type(
+  Scheduling.S.t -> Scheduling.S.t -> bool
+)
+ident(
+  int_ref Scheduling.S.subset "set.mli" 117 4295 4299 "set.mli" 117 4295 4325
+)
+"checks.ml" 112 2740 2771 "checks.ml" 112 2740 2775
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref deps "checks.ml" 111 2693 2705 "checks.ml" 111 2693 2709
+)
+"checks.ml" 112 2740 2776 "checks.ml" 112 2740 2780
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref defs "checks.ml" 110 2671 2682 "checks.ml" 110 2671 2686
+)
+"checks.ml" 112 2740 2751 "checks.ml" 112 2740 2780
+type(
+  bool
+)
+"checks.ml" 113 2786 2796 "checks.ml" 113 2786 2808
+type(
+  Clocked_ast.c_patt -> Scheduling.S.t -> Scheduling.S.t
+)
+ident(
+  int_ref defs_of_patt "checks.ml" 79 1900 1904 "checks.ml" 79 1900 1916
+)
+"checks.ml" 113 2786 2809 "checks.ml" 113 2786 2811
+type(
+  Clocked_ast.c_equation
+)
+ident(
+  int_ref eq "checks.ml" 110 2671 2687 "checks.ml" 110 2671 2689
+)
+"checks.ml" 113 2786 2809 "checks.ml" 113 2786 2820
+type(
+  Clocked_ast.c_patt
+)
+"checks.ml" 113 2786 2821 "checks.ml" 113 2786 2825
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref defs "checks.ml" 110 2671 2682 "checks.ml" 110 2671 2686
+)
+"checks.ml" 113 2786 2796 "checks.ml" 113 2786 2825
+type(
+  Scheduling.S.t
+)
+"checks.ml" 115 2839 2849 "checks.ml" 115 2839 2854
+type(
+  exn -> Scheduling.S.t
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"checks.ml" 115 2839 2867 "checks.ml" 115 2839 2871
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref node "checks.ml" 101 2482 2501 "checks.ml" 101 2482 2505
+)
+"checks.ml" 115 2839 2855 "checks.ml" 115 2839 2872
+type(
+  exn
+)
+"checks.ml" 115 2839 2849 "checks.ml" 115 2839 2872
+type(
+  Scheduling.S.t
+)
+"checks.ml" 112 2740 2748 "checks.ml" 115 2839 2872
+type(
+  Scheduling.S.t
+)
+"checks.ml" 111 2693 2701 "checks.ml" 115 2839 2872
+type(
+  Scheduling.S.t
+)
+"checks.ml" 110 2671 2677 "checks.ml" 115 2839 2873
+type(
+  Scheduling.S.t -> Clocked_ast.c_equation -> Scheduling.S.t
+)
+"checks.ml" 116 2874 2880 "checks.ml" 116 2874 2884
+type(
+  Scheduling.S.t
+)
+ident(
+  int_ref defs "checks.ml" 102 2508 2514 "checks.ml" 102 2508 2518
+)
+"checks.ml" 117 2885 2891 "checks.ml" 117 2885 2895
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref node "checks.ml" 101 2482 2501 "checks.ml" 101 2482 2505
+)
+"checks.ml" 117 2885 2891 "checks.ml" 117 2885 2903
+type(
+  Clocked_ast.c_equation list
+)
+"checks.ml" 109 2652 2656 "checks.ml" 117 2885 2903
+type(
+  Scheduling.S.t
+)
+"checks.ml" 119 2909 2911 "checks.ml" 119 2909 2913
+type(
+  unit
+)
+"checks.ml" 108 2642 2644 "checks.ml" 119 2909 2913
+type(
+  unit
+)
+"checks.ml" 102 2508 2510 "checks.ml" 119 2909 2913
+type(
+  unit
+)
+"checks.ml" 121 2915 2919 "checks.ml" 121 2915 2929
+type(
+  Clocked_ast.c_node list -> unit
+)
+ident(
+  def scheduling "checks.ml" 125 2994 3061 "checks.ml" 0 0 -1
+)
+"checks.ml" 121 2915 2930 "checks.ml" 121 2915 2931
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  def f "checks.ml" 122 2934 2936 "checks.ml" 125 2994 3061
+)
+"checks.ml" 123 2940 2944 "checks.ml" 123 2940 2953
+type(
+  (Clocked_ast.c_node -> unit) -> Clocked_ast.c_node list -> unit
+)
+ident(
+  int_ref Stdlib.List.iter "list.mli" 108 4194 4194 "list.mli" 108 4194 4236
+)
+"checks.ml" 123 2940 2954 "checks.ml" 123 2940 2968
+type(
+  Clocked_ast.c_node -> unit
+)
+ident(
+  int_ref scheduled_node "checks.ml" 101 2482 2486 "checks.ml" 101 2482 2500
+)
+"checks.ml" 123 2940 2969 "checks.ml" 123 2940 2970
+type(
+  Clocked_ast.c_node list
+)
+ident(
+  int_ref f "checks.ml" 121 2915 2930 "checks.ml" 121 2915 2931
+)
+"checks.ml" 123 2940 2944 "checks.ml" 123 2940 2970
+type(
+  unit
+)
+"checks.ml" 124 2971 2989 "checks.ml" 124 2971 2990
+type(
+  Clocked_ast.c_node
+)
+ident(
+  def n "checks.ml" 125 2994 2998 "checks.ml" 125 2994 3061
+)
+"checks.ml" 124 2971 2978 "checks.ml" 124 2971 2990
+type(
+  exn
+)
+"checks.ml" 125 2994 2998 "checks.ml" 125 2994 3012
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Format.eprintf "format.mli" 1178 46011 46011 "format.mli" 1178 46011 46059
+)
+"checks.ml" 125 2994 3013 "checks.ml" 125 2994 3051
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"checks.ml" 125 2994 3052 "checks.ml" 125 2994 3053
+type(
+  Clocked_ast.c_node
+)
+ident(
+  int_ref n "checks.ml" 124 2971 2989 "checks.ml" 124 2971 2990
+)
+"checks.ml" 125 2994 3052 "checks.ml" 125 2994 3061
+type(
+  string
+)
+"checks.ml" 125 2994 2998 "checks.ml" 125 2994 3061
+type(
+  unit
+)
+"checks.ml" 122 2934 2936 "checks.ml" 125 2994 3061
+type(
+  unit
+)
