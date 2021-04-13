@@ -61,11 +61,6 @@ ocamldep.opt -modules typed_ast_printer.ml > typed_ast_printer.ml.depends # cach
 ocamlc.opt -c -g -annot -o typed_ast_printer.cmo typed_ast_printer.ml # cached
 # Target: imp.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:imp.cmo, file:imp.ml, implem, ocaml, quiet }
 ocamlc.opt -c -g -annot -o imp.cmo imp.ml
-+ ocamlc.opt -c -g -annot -o imp.cmo imp.ml
-File "imp.ml", line 89, characters 12-15:
-89 |         let ce1 = compile_base_expr e1 (*return type is m_expr*) in
-                 ^^^
-Warning 26: unused variable ce1.
 # Target: minilustre.cmo, tags: { annot, byte, compile, debug, extension:cmo, extension:ml, file:minilustre.cmo, file:minilustre.ml, implem, ocaml, quiet }
 ocamlc.opt -c -g -annot -o minilustre.cmo minilustre.ml
 # Target: scheduling.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:scheduling.cmx, file:scheduling.ml, implem, native, ocaml, quiet }
@@ -90,11 +85,6 @@ ocamlopt.opt -c -g -annot -o ocaml_printer.cmx ocaml_printer.ml # cached
 ocamlopt.opt -c -g -annot -o typed_ast_printer.cmx typed_ast_printer.ml # cached
 # Target: imp.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:imp.cmx, file:imp.ml, implem, native, ocaml, quiet }
 ocamlopt.opt -c -g -annot -o imp.cmx imp.ml
-+ ocamlopt.opt -c -g -annot -o imp.cmx imp.ml
-File "imp.ml", line 89, characters 12-15:
-89 |         let ce1 = compile_base_expr e1 (*return type is m_expr*) in
-                 ^^^
-Warning 26: unused variable ce1.
 # Target: minilustre.cmx, tags: { annot, compile, debug, extension:cmx, extension:ml, file:minilustre.cmx, file:minilustre.ml, implem, native, ocaml, quiet }
 ocamlopt.opt -c -g -annot -o minilustre.cmx minilustre.ml
 # Target: minilustre.native, tags: { annot, debug, dont_link_with, extension:native, file:minilustre.native, link, native, ocaml, program, quiet }

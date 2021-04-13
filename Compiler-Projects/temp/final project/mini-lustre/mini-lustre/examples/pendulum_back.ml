@@ -23,34 +23,34 @@ let _x' = Graphics.auto_synchronize false;;
 
 
 type integr'_1_mem = {
-    mutable fby_next1: float;
+    mutable aux'2_next1: float;
   }
 
 let integr'_1_init () = {
-    fby_next1 = 0.;
+    aux'2_next1 = 0.;
   }
 
 let integr'_1_step mem' (t, dx) = 
-  let (aux'2) = (mem'.fby_next1) in
+  let (aux'2) = (mem'.aux'2_next1) in
   let (x) = aux'2 in
   let (aux'1) = ((t  *.  dx)  +.  x) in
-  mem'.fby_next1 <- aux'1;
+  mem'.aux'2_next1 <- aux'1;
   (x)
 
 
 type deriv'_2_mem = {
-    mutable fby_next2: float;
+    mutable aux'4_next2: float;
   }
 
 let deriv'_2_init () = {
-    fby_next2 = 0.;
+    aux'4_next2 = 0.;
   }
 
 let deriv'_2_step mem' (t, x) = 
   let (aux'3) = x in
-  let (aux'4) = (mem'.fby_next2) in
+  let (aux'4) = (mem'.aux'4_next2) in
   let (dx) = ((x  -.  aux'4)  /.  t) in
-  mem'.fby_next2 <- aux'3;
+  mem'.aux'4_next2 <- aux'3;
   (dx)
 
 
@@ -83,19 +83,19 @@ let deriv'_4_step mem' (x) =
 
 
 type equation'_5_mem = {
-    mutable fby_next3: float;
+    mutable aux'12_next3: float;
     integr_mem4: integr'_3_mem;
     integr_mem3: integr'_3_mem;
   }
 
 let equation'_5_init () = {
-    fby_next3 = 0.;
+    aux'12_next3 = 0.;
     integr_mem4 = integr'_3_init ();
     integr_mem3 = integr'_3_init ();
   }
 
 let equation'_5_step mem' (d2x0, d2y0) = 
-  let (aux'12) = (mem'.fby_next3) in
+  let (aux'12) = (mem'.aux'12_next3) in
   let (thetap) = aux'12 in
   let (aux'7) = (sin (thetap)) in
   let (aux'8) = (cos (thetap)) in
@@ -103,7 +103,7 @@ let equation'_5_step mem' (d2x0, d2y0) =
   let (aux'10) = (integr'_3_step mem'.integr_mem3 (((aux'9  /.  10.)  -.  (1.2  *.  thetap)))) in
   let (theta) = aux'10 in
   let (aux'11) = theta in
-  mem'.fby_next3 <- aux'11;
+  mem'.aux'12_next3 <- aux'11;
   (theta)
 
 

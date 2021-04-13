@@ -127,10 +127,22 @@ compile the base expr in order and return to *ME_if*
 
 2. Complete *compile_equation*
 
+We need to understand tvars firstly, it is obtained by compile_patt eq.teq_patt 
+and it contains tpatt_desc and tpatt_type;
+
+
+
+
 Match *e.texpr_desc* with
 
 - [x] *TE_fby (e1,e2)*:
 Firstly, change (e1,e2) to (c,e1);
+e1.texpr_desc is TE_tuple after normalization;
+
+mem_acc: node_mem, fby_name <- (update the next_name
+								<- (gen_next_id by tvars.tpatt_desc, type of tvars.tpatt_type ))
+By
+
 
 - [x] *TE_app(n,el)*
 

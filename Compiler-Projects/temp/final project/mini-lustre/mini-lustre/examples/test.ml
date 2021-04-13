@@ -23,33 +23,33 @@ let _x' = Graphics.auto_synchronize false;;
 
 
 type integr'_1_mem = {
-    mutable aux'2_next1: float;
+    mutable fby_next1: float;
   }
 
 let integr'_1_init () = {
-    aux'2_next1 = 0.;
+    fby_next1 = 0.;
   }
 
 let integr'_1_step mem' (t) = 
   let (aux'1) = t in
-  let (aux'2) = (mem'.aux'2_next1) in
+  let (aux'2) = (mem'.fby_next1) in
   let (y) = aux'2 in
-  mem'.aux'2_next1 <- aux'1;
+  mem'.fby_next1 <- aux'1;
   (y)
 
 
 type test'_2_mem = {
-    mutable aux'4_next2: float;
+    mutable fby_next2: float;
     integr_mem1: integr'_1_mem;
   }
 
 let test'_2_init () = {
-    aux'4_next2 = 0.;
+    fby_next2 = 0.;
     integr_mem1 = integr'_1_init ();
   }
 
 let test'_2_step mem' (i) = 
-  let (aux'4) = (mem'.aux'4_next2) in
+  let (aux'4) = (mem'.fby_next2) in
   let (aux'6) = (
     (print_string "coucou\n");
     flush_all()) in
@@ -59,7 +59,7 @@ let test'_2_step mem' (i) =
   let (x1) = aux'4 in
   let (aux'5) = (integr'_1_step mem'.integr_mem1 (x1)) in
   let (x2) = aux'5 in
-  mem'.aux'4_next2 <- aux'3;
+  mem'.fby_next2 <- aux'3;
   (o)
 
 

@@ -82,24 +82,25 @@ let compile_equation
 	(* mem_acc, init_acc, compute_acc, update_acc*)	
 	begin
       match e1.texpr_desc with
+      (*after normalization, the type of e1 should be a tuple*)
       | TE_tuple [] ->
         mem_acc, init_acc, compute_acc, update_acc
       | TE_tuple e1_l ->
       begin
-        let ce1 = compile_base_expr e1 (*return type is m_expr*) in
+        (*let ce1 = compile_base_expr e1 (*return type is m_expr*) in*)
         let para1 = (mem_acc,init_acc,update_acc,[]) in
         let para2 = (List.combine (List.combine e1_l c) tvars) in
         (*note that tvars is type {tpatt_desc,tpatt_type}*)
         let (new_mem_acc, new_init_acc, new_update_acc, cfby) = List.fold_left
             ( fun (mem_acc, init_acc, update_acc,cfby) ((e,c),(d,t)) ->
-              let init_name = gen_next_id d in
-              let new_fby_name = (init_name, t) in
+let next_name = gen_next_id "fby" in (*change d to "fby", the name of next from aux' to fby*)
+              let new_fby_name = (next_name, t) in
               let new_mem_acc = {fby_mem = new_fby_name::mem_acc.fby_mem ; node_mem = mem_acc.node_mem;} in
-              let new_init_name = (init_name, c) in
+              let new_init_name = (next_name, c) in
               let new_init_acc = {fby_init=new_init_name::init_acc.fby_init;node_init=init_acc.node_init;} in
-              let new_atom = (init_name,compile_atom e) in
+              let new_atom = (next_name,compile_atom e) in
               let new_update_acc = new_atom::update_acc in
-              let cfby =  { mexpr_desc = ME_mem init_name; mexpr_type = [t]}::cfby in
+              let cfby =  { mexpr_desc = ME_mem next_name; mexpr_type = [t]}::cfby in
               (new_mem_acc, new_init_acc, new_update_acc,cfby)
             ) para1 para2
         in
