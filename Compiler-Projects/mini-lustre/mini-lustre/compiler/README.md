@@ -136,16 +136,40 @@ and it contains tpatt_desc and tpatt_type;
 Match *e.texpr_desc* with
 
 - [x] *TE_fby (e1,e2)*:
+i
 Firstly, change (e1,e2) to (c,e1);
 e1.texpr_desc is TE_tuple after normalization;
 
+```
 mem_acc: node_mem, fby_name <- (update the next_name
 								<- (gen_next_id by tvars.tpatt_desc, type of tvars.tpatt_type ))
-By
+By this, the name of variables in the path after fby could be add onto the name of fby.
+
+init_acc: node_mem, fby_name <- (update the init_name by next_name and const element)
+
+update_acc: add atom <- (compile_atom for each expr element)
+
+compute_acc: meq_patt <- tvars,
+			 meq_expr <- (mexpr_desc <- ME_tuple a list of m_expr similar with fby_name,
+			 			  mexpr_type <- the texpr_type of expr element)
+```
+
+
+Question: 
+
+If the length of c is the same with e1 ?
+
+YES
+
+If the lenth of tvars is the same with c or e1 ?
+
+YES
+
 
 
 - [x] *TE_app(n,el)*
 
+```
 mem_acc: fby_mem, node_mem <- (update the mem_id)
 
 init_acc: fby_init, node_init <- (add mem_id)
@@ -160,7 +184,7 @@ compute_acc: eq list <- (add eq with
 : This variable is used to compute the return value of the called node;
 
 update_acc: update_acc
-
+```
 
 
 ## Compilation

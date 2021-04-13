@@ -1,0 +1,14 @@
+node integr (t: float) returns (y: float);
+let
+  y =  0.0 fby t;
+tel
+
+
+node test (i: unit) returns (o: unit);
+var x0, x1, x2: float;
+let
+  x0 = 1.0;
+  x1 = 0.0 fby x0;
+  x2 = integr(x1);
+  o = print("coucou\n");
+tel

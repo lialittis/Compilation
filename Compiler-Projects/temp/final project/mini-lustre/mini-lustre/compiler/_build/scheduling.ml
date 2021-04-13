@@ -45,8 +45,12 @@ let rec add_vars_of_exp s {texpr_desc=e} =
   | TE_app (_,l) | TE_prim (_,l) | TE_print l ->
       List.fold_left add_vars_of_exp s l
   | TE_tuple l -> List.fold_left add_vars_of_exp s l
-  
-
+  | TE_when (e1,c,e2) ->
+      let s = add_vars_of_exp s e1 in
+      add_vars_of_exp s e2
+  | TE_merge (e1,cel) -> 
+      let s = add_vars_of_exp s e1 in
+      List.fold_left (fun s (_, e) -> add_vars_of_exp s e) s cel
 
 let schedule_equs inputs equs =
   (* Construction du graphe de dépendance entre les variables. *)

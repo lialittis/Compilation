@@ -66,6 +66,15 @@ let rec print_exp fmt e = match e.texpr_desc with
       fprintf fmt "(@[%a@])" print_tuple_arg_list e_list
   | TE_print e_list ->
       fprintf fmt "print (@[%a@])" print_arg_list e_list
+  | TE_when (e1, c, e2) ->
+      fprintf fmt "@[%a@ when %a(%a)@]"
+        print_exp e1
+        print_const c
+        print_exp e2
+  | TE_merge (e1, cel) ->
+      fprintf fmt "@[merge %a %a@]" 
+      print_exp e1
+      print_const_exp_list cel
 
 and print_arg_list fmt e_list = match e_list with
   | [] -> ()
@@ -81,6 +90,12 @@ and print_const_exp fmt ce_list = match ce_list with
   | [] -> assert false
   | [c] -> fprintf fmt "%a" print_const c
   | h :: t -> fprintf fmt "%a,@ %a" print_const h print_const_exp t
+
+and print_const_exp_list fmt cel = match cel with
+  | [] -> assert false
+  | [c, e] -> fprintf fmt "(%a ->@ %a)" print_const c print_exp e
+  | (c', e') :: t -> fprintf fmt "(%a ->@ %a)@ %a" print_const c' print_exp e' print_const_exp_list t
+
 
 let print_eq fmt eq =
   fprintf fmt "@[(%a) = @[%a@]@]"

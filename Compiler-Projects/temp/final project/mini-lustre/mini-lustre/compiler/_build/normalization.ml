@@ -93,31 +93,63 @@ let rec normalize ctx e =
   | TE_fby(c,e1) ->
   	  (*ctx,e*) 
 	  let (new_vars,new_eqs), e1' = normalize ctx e1 in
-      
-      let x_decl, x_patt, x_expr = new_pat e1' in
-      let x_eq =
-        { teq_patt = x_patt;
-          teq_expr = e1'; }
-      in
-      (*transfer x_expr to TE_tuple type*)
-      let x_expr = match x_expr.texpr_desc with
-        | TE_tuple _ -> x_expr
-        | _ -> { x_expr with texpr_desc = TE_tuple [x_expr]}
+      let e1_decl, e1_patt, e1_expr = new_pat e1' in
+      let e1_eq ={ teq_patt = e1_patt;teq_expr = e1'; } in
+      (*transfer e1_expr.texpr_desc to TE_tuple type*)
+      let e1_expr = match e1_expr.texpr_desc with
+        | TE_tuple _ -> e1_expr
+        | _ -> { e1_expr with texpr_desc = TE_tuple [e1_expr]}
       in
 
-      let y_decl, y_patt, y_expr = new_pat e in
-      let y_eq = 
-        { teq_patt = y_patt;
-          teq_expr = {e with texpr_desc = TE_fby(c,x_expr) }; }
-      in
-      (y_decl@x_decl@new_vars, y_eq::x_eq::new_eqs), y_expr
+      let e_decl, e_patt, e_expr = new_pat e in
+      let e_eq = { teq_patt = e_patt;teq_expr = {e with texpr_desc = TE_fby(c,e1_expr) };}in
+      (e_decl@e1_decl@new_vars, e_eq::e1_eq::new_eqs), e_expr
       
 	  (* c fby e1 => x, { x = c fby y; y = normalize e1; } *)
       (* DONE *)
-(*  | TE_when(e1,enum_id,id) ->
-    let ctx, e1' = normalize ctx e1 in
-    ctx, {e with texpr_desc = TE_when(e1', enum_id,id)}
-*)
+  | TE_when(e1,c,e2) ->
+      let ctx, e1' = normalize ctx e1 in
+      let e1_decl, e1_patt, e1_expr = new_pat e1' in
+      let e1_eq = { teq_patt = e1_patt;teq_expr = e1'; } in
+      let e1_expr = { e1_expr with texpr_desc = TE_tuple [e1_expr] } in
+
+      let (new_vars, new_eqs), e2' = normalize ctx e2 in
+      let e2_decl, e2_patt, e2_expr = new_pat e2' in
+      let e2_eq ={ teq_patt = e2_patt;teq_expr = e2'; } in
+      let e2_expr = { e2_expr with texpr_desc = TE_tuple [e2_expr] } in
+
+      let e_decl, e_patt, e_expr = new_pat e in
+      let e_eq = { teq_patt = e_patt;
+                   teq_expr = { e with texpr_desc = TE_when(e1_expr,c,e2_expr) }; } in
+      (e_decl@e1_decl@e2_decl@new_vars, e_eq::e1_eq::e2_eq::new_eqs), e_expr
+      (*DONE*)
+  
+  | TE_merge(e1, cel) ->
+      let ctx, e1' = normalize ctx e1 in
+      let e1_decl, e1_patt, e1_expr = new_pat e1' in
+      let e1_eq = { teq_patt = e1_patt; teq_expr = e1'; } in
+      let e1_expr = { e1_expr with texpr_desc = TE_tuple [e1_expr] } in
+
+      let (new_vars,new_eqs), cel' = List.fold_left
+        (fun (ctx, l) (c, e) -> let ctx, e' = normalize ctx e in (ctx, (c, e')::l))
+        (ctx, []) cel in
+
+      let cel_decl, cel_expr, cel_eq = List.fold_left
+        (fun ( cel_decl, cel_expr, cel_eq ) (c, e')->
+          let e_decl, e_patt, e_expr = new_pat e' in
+          let e_eq ={ teq_patt = e_patt; teq_expr = e'; } in
+          let e_expr = { e_expr with texpr_desc = TE_tuple [e_expr] } in
+          ( e_decl@cel_decl, (c, e_expr)::cel_expr,e_eq::cel_eq))
+        ([], [] ,[]) cel' in
+
+      let e_decl, e_patt, e_expr = new_pat e in
+      let e_eq ={ teq_patt = e_patt;
+                  teq_expr = { e with texpr_desc = TE_merge(e1_expr, cel_expr) }; }
+      in
+      
+      (e_decl@e1_decl@cel_decl@new_vars, cel_eq@(e_eq::e1_eq::new_eqs)), e_expr
+ 
+
 and normalize_list ctx l =
   let ctx, l =
     List.fold_left

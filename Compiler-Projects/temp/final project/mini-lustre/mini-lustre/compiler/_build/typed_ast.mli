@@ -20,6 +20,9 @@ and t_expr_desc =
   | TE_fby of const list * t_expr
   | TE_tuple of t_expr list
   | TE_print of t_expr list
+  | TE_when of t_expr * const * t_expr
+  | TE_merge of t_expr * ((const * t_expr) list)
+
 
 type t_patt =
     { tpatt_desc: string list;

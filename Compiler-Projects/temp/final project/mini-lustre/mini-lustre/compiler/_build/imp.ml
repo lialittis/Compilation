@@ -45,6 +45,8 @@ let rec compile_base_expr e =
 		(* DONE *)
     | TE_tuple el -> ME_tuple (List.map compile_base_expr el)
     | TE_print el -> ME_print (List.map compile_base_expr el)
+    | TE_when _ -> assert false
+    | TE_merge _ -> assert false
     | TE_fby _ -> assert false (* impossible car en forme normale *)
     | TE_app _ -> assert false (* impossible car en forme normale *)
     | TE_prim(f, el) ->
@@ -92,20 +94,25 @@ let compile_equation
         let para2 = (List.combine (List.combine e1_l c) tvars) in
         (*note that tvars is type {tpatt_desc,tpatt_type}*)
         let (new_mem_acc, new_init_acc, new_update_acc, cfby) = List.fold_left
-            ( fun (mem_acc, init_acc, update_acc,cfby) ((e,c),(d,t)) ->
-              let next_name = gen_next_id "fby" in
+            ( fun (mem_acc, init_acc, update_acc, cfby) ((e,c),(d,t)) ->
+              let next_name = gen_next_id d in (*change d to "fby", the name of next from aux' to fby*)
               let new_fby_name = (next_name, t) in
               let new_mem_acc = {fby_mem = new_fby_name::mem_acc.fby_mem ; node_mem = mem_acc.node_mem;} in
               let new_init_name = (next_name, c) in
               let new_init_acc = {fby_init=new_init_name::init_acc.fby_init;node_init=init_acc.node_init;} in
               let new_atom = (next_name,compile_atom e) in
               let new_update_acc = new_atom::update_acc in
+              (*let test_name = gen_next_id "test" in *)
+              (*change d to "fby", the name of next from aux' to fby*)
+              
               let cfby =  { mexpr_desc = ME_mem next_name; mexpr_type = [t]}::cfby in
-              (new_mem_acc, new_init_acc, new_update_acc,cfby)
+              (*this value affect the name in the step mem equation*)
+              (new_mem_acc, new_init_acc, new_update_acc, cfby)
             ) para1 para2
         in
         let eq = {meq_patt = tvars; meq_expr = {mexpr_desc = ME_tuple cfby ; mexpr_type = e.texpr_type}} in
-        new_mem_acc, new_init_acc, eq::compute_acc,new_update_acc
+        let new_compute_acc = eq::compute_acc in
+        new_mem_acc, new_init_acc, new_compute_acc,new_update_acc
       end
       | _ -> assert false
     end

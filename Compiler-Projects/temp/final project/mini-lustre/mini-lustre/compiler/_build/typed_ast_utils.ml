@@ -24,6 +24,11 @@ let rec expr_map f expr =
     | TE_fby (c, e) -> TE_fby (c, f e)
     | TE_tuple el -> TE_tuple (List.map f el)
     | TE_print el -> TE_print (List.map f el)
+    | TE_when (e1, c, e2) -> 
+        let e1 = f e1 in
+        let e2 = f e2 in
+        TE_when (e1, c, e2)
+    | TE_merge (e1, cel) -> TE_merge (f e1, List.map (fun (c,e) -> (c, f e)) cel)
   in
   { expr with texpr_desc = desc }
 
@@ -80,5 +85,17 @@ let expr_map_fold f expr acc =
             ([], acc) el
         in
         TE_print (List.rev rev_el), acc
+    | TE_when (e1, c, e2) -> 
+        let e1, acc = f e1 acc in
+        let e2, acc = f e2 acc in
+        TE_when (e1, c, e2), acc
+    | TE_merge (e1, cel) ->
+        let e1, acc = f e1 acc in
+        let rev_cel, acc =
+          List.fold_left
+            (fun (rev_cel, acc) (c, e) -> let e, acc = f e acc in (c, e) :: rev_cel, acc)
+            ([], acc) cel
+        in
+        TE_merge (e1, List.rev rev_cel), acc
   in
   { expr with texpr_desc = desc }, acc

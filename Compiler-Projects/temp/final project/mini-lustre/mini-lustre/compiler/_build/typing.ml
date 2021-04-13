@@ -340,6 +340,29 @@ and type_expr_desc env loc = function
       let tel = List.map (type_expr env) el in
       TE_tuple tel, 
       (List.map (fun e -> base_ty_of_ty e.texpr_loc e.texpr_type) tel)
+  | PE_when (e1, c, e2) ->
+      let te1 = type_expr env e1 in
+      let te2 = expected_type env e2 (type_constant c) in
+      let tt = te1.texpr_type in
+      TE_when (te1, c, te2), tt
+
+  | PE_merge (e1, cel) ->
+    begin match cel with
+      | (_, e')::_ ->
+        let tt = (type_expr env e').texpr_type in
+        let te1 = type_expr env e1 in
+        let cel =
+          List.map
+          (fun (c, e) ->
+            if (type_constant c) = te1.texpr_type
+            then (c, expected_type env e tt)
+            else error loc (ExpectedType (type_constant c, te1.texpr_type)))
+          cel
+        in
+        TE_merge (te1, cel), tt
+      | _ -> error loc TooFewArguments
+    end
+
 
 and type_args env loc params_ty el =
   let tel = List.map (type_expr env) el in

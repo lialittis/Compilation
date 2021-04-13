@@ -1,4 +1,0 @@
-node n (i: unit) returns (o: unit);
-let 
-  o = print("coucou\n");
-tel

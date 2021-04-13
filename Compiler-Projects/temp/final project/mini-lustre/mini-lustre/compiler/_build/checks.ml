@@ -20,6 +20,8 @@ let atom expr =
   | TE_if (_, _, _)
   | TE_fby (_, _)
   | TE_tuple _
+  | TE_when (_, _, _)
+  | TE_merge (_, _)
   | TE_print _ -> false
   end
 
@@ -34,6 +36,8 @@ let rec bexpr expr =
     | TE_app (_, _)
     | TE_prim (_, _)
     | TE_fby (_, _)
+    | TE_when (_, _, _)
+    | TE_merge (_, _)
     | TE_print _ -> false
     | TE_const _
     | TE_ident _ -> assert false
@@ -46,6 +50,8 @@ let normalized_expr expr =
     | TE_app (_, el) | TE_prim (_, el) | TE_print (el) -> List.for_all bexpr el
     | TE_fby (c, { texpr_desc = TE_tuple el} ) -> List.for_all atom el
     | TE_fby (c, e) -> atom e
+    | TE_merge (e1, cel) -> List.fold_left (fun e1' (_, e') -> (e1') && (atom e')) (atom e1) cel
+    | TE_when (e1, _, e2) -> atom e1 && atom e2
     | TE_const _
     | TE_ident _
     | TE_unop (_, _)
@@ -85,6 +91,8 @@ let deps_of_expr =
     | TE_prim (_, _)
     | TE_if (_, _, _)
     | TE_tuple _
+    | TE_when (_, _, _)
+    | TE_merge (_, _)
     | TE_print _ -> expr_map_fold deps_of_expr expr acc
   in
   fun expr ->
