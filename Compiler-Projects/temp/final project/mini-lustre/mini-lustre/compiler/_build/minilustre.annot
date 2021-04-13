@@ -1202,7 +1202,7 @@ type(
   Typed_ast.t_node list -> Typed_ast.t_node list
 )
 ident(
-  int_ref Normalization.file "normalization.ml" 128 4146 4150 "normalization.ml" 128 4146 4154
+  int_ref Normalization.file "normalization.ml" 135 4267 4271 "normalization.ml" 135 4267 4275
 )
 "minilustre.ml" 62 1817 1849 "minilustre.ml" 62 1817 1851
 type(
@@ -1379,7 +1379,7 @@ type(
   Typed_ast.t_node list -> Typed_ast.t_node list
 )
 ident(
-  int_ref Scheduling.schedule "scheduling.ml" 98 2659 2663 "scheduling.ml" 98 2659 2671
+  int_ref Scheduling.schedule "scheduling.ml" 98 2658 2662 "scheduling.ml" 98 2658 2670
 )
 "minilustre.ml" 71 2196 2229 "minilustre.ml" 71 2196 2231
 type(
@@ -1556,7 +1556,7 @@ type(
   Typed_ast.t_node list -> Imp_ast.m_node list
 )
 ident(
-  int_ref Imp.compile "imp.ml" 174 6044 6048 "imp.ml" 174 6044 6055
+  int_ref Imp.compile "imp.ml" 205 7565 7569 "imp.ml" 205 7565 7576
 )
 "minilustre.ml" 80 2575 2605 "minilustre.ml" 80 2575 2607
 type(
@@ -1581,7 +1581,7 @@ type(
   Imp_ast.m_node list -> string ref -> Imp_ast.m_node list
 )
 ident(
-  int_ref Imp.rename_nodes "imp.ml" 212 6960 6964 "imp.ml" 212 6960 6976
+  int_ref Imp.rename_nodes "imp.ml" 243 8481 8485 "imp.ml" 243 8481 8497
 )
 "minilustre.ml" 81 2611 2646 "minilustre.ml" 81 2611 2653
 type(

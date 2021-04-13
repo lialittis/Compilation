@@ -31,7 +31,7 @@ let integr'_1_init () = {
   }
 
 let integr'_1_step mem' (t, dx) = 
-  let (aux'2) = mem'.aux'2_next1 in
+  let (aux'2) = (mem'.aux'2_next1) in
   let (x) = aux'2 in
   let (aux'1) = ((t  *.  dx)  +.  x) in
   mem'.aux'2_next1 <- aux'1;
@@ -48,7 +48,7 @@ let deriv'_2_init () = {
 
 let deriv'_2_step mem' (t, x) = 
   let (aux'3) = x in
-  let (aux'4) = mem'.aux'4_next2 in
+  let (aux'4) = (mem'.aux'4_next2) in
   let (dx) = ((x  -.  aux'4)  /.  t) in
   mem'.aux'4_next2 <- aux'3;
   (dx)
@@ -95,7 +95,7 @@ let equation'_5_init () = {
   }
 
 let equation'_5_step mem' (d2x0, d2y0) = 
-  let (aux'12) = mem'.aux'12_next3 in
+  let (aux'12) = (mem'.aux'12_next3) in
   let (thetap) = aux'12 in
   let (aux'7) = (sin (thetap)) in
   let (aux'8) = (cos (thetap)) in

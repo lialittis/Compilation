@@ -78,39 +78,10 @@ let compile_equation
      (update_acc: (string * Imp_ast.atom) list)) =
   let tvars = compile_patt p in
   match e.texpr_desc with
-  | TE_fby(c,e1) ->
-	(* mem_acc, init_acc, compute_acc, update_acc*)	
-	begin
-      match e1.texpr_desc with
-      | TE_tuple [] ->
-        mem_acc, init_acc, compute_acc, update_acc
-      | TE_tuple e1_l ->
-      begin
-        let ce1 = compile_base_expr e1 (*return type is m_expr*) in
-        let para1 = (mem_acc,init_acc,update_acc,[]) in
-        let para2 = (List.combine (List.combine e1_l c) tvars) in
-        (*note that tvars is type {tpatt_desc,tpatt_type}*)
-        let (new_mem_acc, new_init_acc, new_update_acc, cfby) = List.fold_left
-            ( fun (mem_acc, init_acc, update_acc,cfby) ((e,c),(d,t)) ->
-              let init_name = gen_next_id d in
-              let new_fby_name = (init_name, t) in
-              let new_mem_acc = {fby_mem = new_fby_name::mem_acc.fby_mem ; node_mem = mem_acc.node_mem;} in
-              let new_init_name = (init_name, c) in
-              let new_init_acc = {fby_init=new_init_name::init_acc.fby_init;node_init=init_acc.node_init;} in
-              let new_atom = (init_name,compile_atom e) in
-              let new_update_acc = new_atom::update_acc in
-              let cfby =  { mexpr_desc = ME_mem init_name; mexpr_type = [t]}::cfby in
-              (new_mem_acc, new_init_acc, new_update_acc,cfby)
-            ) para1 para2
-        in
-        let eq = {meq_patt = tvars; meq_expr = {mexpr_desc = ME_tuple cfby ; mexpr_type = e.texpr_type}} in
-        new_mem_acc, new_init_acc, eq::compute_acc,new_update_acc
-      end
-      | _ -> assert false
-    end
-
-      (* Old Version*)
-(*
+  | TE_fby(e1,e2) ->
+	(* mem_acc, init_acc, compute_acc, update_acc*)
+	
+	begin 
 	  (* compile the base expression e1 and e2*)
 	  (* note that here e1 is const list and e2 is t_expr *)
 	 
@@ -148,9 +119,7 @@ let compile_equation
 
 	  new_mem_acc, new_init_acc, eq::compute_acc, new_update_acc (* DONE *)
 	end
-*)
-
-
+	
   | TE_app(n,el) ->
 	(*mem_acc, init_acc, compute_acc, update_acc*)
 	
@@ -161,23 +130,23 @@ let compile_equation
 	  (* adding it to the record of mem_acc *)
 	  let new_mem_acc = {fby_mem = mem_acc.fby_mem ; node_mem = new_node_mem::(mem_acc.node_mem) } in
 	  let new_el = List.map (fun e1 -> compile_base_expr e1) el in
-      let desc = ME_app(n,mem_name, new_el) in
-      let new_eq = {meq_patt = tvars; meq_expr = { mexpr_desc = desc ; mexpr_type = e.texpr_type;} ;} in
-(*      let new_eq_l = List.map (fun e -> {meq_patt = tvars; meq_expr = e;}) new_el in *)
+	  let new_eq_l = List.map (fun e -> {meq_patt = tvars; meq_expr = e}) new_el in
       let new_init_acc = {fby_init = init_acc.fby_init ; node_init = new_node_mem::init_acc.node_init} in
-      let new_compute_acc = new_eq::compute_acc in
-      
-      (* To update the update_acc variable*)
+
 (*
+		if init_acc = empty_init then {fby_init = init_acc.fby_init; node_init = new_node_mem::init_acc.node_init} else init_acc in
+*)
+      let new_compute_acc = List.append new_eq_l compute_acc in
+
       let ael = List.map compile_atom el in 
+      
       (*List.map (fun e1 -> compile_atoms e1) el in*)
 	  let update_ael = List.map (fun atom -> (mem_name, atom)) ael  in
 	  (*let update_ael = List.map (fun ae -> List.map (fun atom -> (n, atom)) ae ) ael in*)
 
       (*(*not used*)let new_update_acc = List.map (fun ae -> (mem_name,ae)) update_ael in*)
       let new_update_acc = List.append update_ael update_acc in
-*)
-      new_mem_acc, new_init_acc, new_compute_acc, update_acc (* DONE *)
+      new_mem_acc, new_init_acc, new_compute_acc, new_update_acc (* DONE *)
 	end
 	
 

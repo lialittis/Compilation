@@ -38,16 +38,6 @@ let new_pat ({ texpr_type= ty; texpr_loc = loc } as e) =
     et ajoute à [ctx] les équations introduites lors de la normalisation.
 *)
 let rec normalize ctx e =
-(*
-  let substitute_with_id () =
-	let new_id = gen_new_id () in
-	let new_id_ty = e.pexpr_ty in
-	let new_id_ck = e.pexpr_clk in
-	let new_eq = {peq_expr = e; peq_pqtt = {ppatt_desc = TE_ident(new_id); ppatt_loc = Lexing.dummy_pos, Lexing.dummy_pos;};} in
-	let ctx = normalize_eq new_eq ctx in
-	{e with pexpr_desc = TE_ident(new_id)}, {param_id = new_id; param_ty = new_id_ty; param_ck = new_id_ck;}::ctx
-	in
-*)
   match e.texpr_desc with
   | TE_const _ | TE_ident _ -> ctx, e
 
@@ -103,22 +93,24 @@ let rec normalize ctx e =
   | TE_fby(c,e1) ->
   	  (*ctx,e*) 
 	  let (new_vars,new_eqs), e1' = normalize ctx e1 in
+      
       let x_decl, x_patt, x_expr = new_pat e1' in
-      let eq = 
-        { ceq_patt = x_patt;
-          ceq_expr = e1'; }
+      let x_eq =
+        { teq_patt = x_patt;
+          teq_expr = e1'; }
       in
-      let expr = match expr.cexpr_desc with
+      (*transfer x_expr to TE_tuple type*)
+      let x_expr = match x_expr.texpr_desc with
         | TE_tuple _ -> x_expr
-        | _ -> { x_expr with cexpr_desc = TE_tuple [x_expr]}
+        | _ -> { x_expr with texpr_desc = TE_tuple [x_expr]}
       in
-    
-      let x_decl, x_patt, x_expr = new_pat e in
-      let x_eq = 
-        { ceq_patt = x_patt;
-          ceq_expr = {e with cexpr_desc = TE_tuple [x_expr] }; }
+
+      let y_decl, y_patt, y_expr = new_pat e in
+      let y_eq = 
+        { teq_patt = y_patt;
+          teq_expr = {e with texpr_desc = TE_fby(c,x_expr) }; }
       in
-      { x_decl@y_decl@new_vars, x_eq:: }
+      (y_decl@x_decl@new_vars, y_eq::x_eq::new_eqs), y_expr
       
 	  (* c fby e1 => x, { x = c fby y; y = normalize e1; } *)
       (* DONE *)
